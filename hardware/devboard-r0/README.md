@@ -1,8 +1,8 @@
-# ESPaperPlay 开发验证板：PCB 布局 r7
+# ESPaperPlay 开发验证板：PCB 布线 r8
 
-更新日期：2026-11-06。**已建立160×110mm四层开发板，完成236个电气器件及4个机械孔的布局。** 十一页原理图仍为r6模块化绘图，电气设计保持r5的约0.7A充电、独立ITERM及硬件温窗。236个器件位置（6个DNP）、181条网络，236个有封装候选、234个有MPN。目录沿用 `devboard-r0`。本轮仅器件布局，尚未布线、铺铜、上电或冻结制造BOM。
+更新日期：2026-11-07。**160×110mm四层开发板已完成布线、双内层铺地与静态检查：0错误、0未连接、0原理图一致性问题。** 十一页原理图仍为r6模块化绘图，电气保持r5的约0.7A充电、独立ITERM及硬件温窗。236个电气位置（6个DNP）、4个机械孔、181条网络、774个逻辑引脚保持。目录沿用 `devboard-r0`。尚未制造、上电或冻结制造BOM。
 
-当前工作见[PCB布局r7](../../docs/v2/hardware/pcb-layout-r7.md)、[原生PCB](ESPaperPlay_Devboard.kicad_pcb)和[布局检查](review-r7/)。屏幕、电池、扬声器外接，四个M3安装孔为机械项，不改变电气BOM。板层与制造规则是开发候选，USB/SD阻抗线宽须在实际工厂叠层确定后计算。
+当前工作见[PCB布线r8](../../docs/v2/hardware/pcb-routing-r8.md)、[原生PCB](ESPaperPlay_Devboard.kicad_pcb)和[布线检查](review-r8/)。屏幕、电池、扬声器外接。层叠按JLC04161H-7628名义值设置；USB/SD阻抗仍须工厂确认，样机性能尚未验证。
 
 原理图见[模块化绘图r6](../../docs/v2/hardware/schematic-layout-r6.md)。电气依据仍见[充电设计r5](../../docs/v2/hardware/charging-design-r5.md)和[逐位号BOM](review-r5/bom-review.json)。温窗按用户授权的Honeywell 175-103LAE-301 Rev.B曲线假设设计，尚未证实电池实际NTC相同；R108继续DNP。此前[保守电池预算与纯延长连接](../../docs/v2/hardware/design-assumptions-2026-11-04.md)仍适用。
 
@@ -106,7 +106,7 @@ TMUX1511及触摸侧上拉/去耦全部在R408后；四个SEL均接TOUCH_IO_EN�
 - 全部236个封装位置、38种封装经过原生加载和引脚编号匹配；新增U901封装按原厂D0008A示例铜图核对。
 - r6全部十张功能页按有线模块重排；十一页PDF逐页渲染目检。与r5相比所有236个组件、774个pin连接及NC、UUID、候选属性保持；符号定义未改。见[绘图等价检查](review-r6/drawing-equivalence.json)。r5充电与温窗计算继续适用。
 - r7新增PCB布局与原生DRC，236个电气元件、774逻辑引脚/804实际编号焊盘与原理图一致，4个机械孔另计。未连接项保留；U301板外天线丝印移到Dwgs.User产生一条已说明的库差异警告。详见[布局说明](../../docs/v2/hardware/pcb-layout-r7.md)。
-- 尚未布线/铺铜/上电实测；NTC实际曲线、动态/热/USB/功耗和外设功能在样机验收。ERC不模拟DNP、跳帽、模拟阈值或热。
+- r8已完成布线/铺铜及原生DRC；尚未上电实测；NTC实际曲线、动态/热/USB/功耗和外设功能在样机验收。ERC不模拟DNP、跳帽、模拟阈值或热。
 
 R221=10k/R222=47k，在USB选通且只计现有约4.8µF时名义RC约0.27 s；BENCH选源、电容容差/寄生、PTC状态会改变响应，不能把计算当实测插拔延迟。USB H05测试覆盖两种选源及保护动作。验证快照和源文件哈希见[verification.json](verification.json)。
 
@@ -131,18 +131,22 @@ kicad-cli sch export pdf -o hardware/devboard-r0/output/pdf/ESPaperPlay_Devboard
   hardware/devboard-r0/ESPaperPlay_Devboard.kicad_sch
 ```
 
-PCB布局复核（需要KiCad 10 CLI与Python pcbnew）：
+PCB布线复核（需要KiCad 10 CLI与Python pcbnew）：
 
 ```sh
-mkdir -p build/devboard-r7
-python3 hardware/devboard-r0/tools/check_pcb_layout_r7.py \
-  --output build/devboard-r7/independent-board-check.json
+mkdir -p build/devboard-r8
 kicad-cli pcb drc --format json --severity-all --schematic-parity \
-  -o build/devboard-r7/drc.json hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb
+  -o build/devboard-r8/drc.json hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb
+python3 hardware/devboard-r0/tools/check_pcb_routing_r8.py \
+  --drc build/devboard-r8/drc.json --output build/devboard-r8/independent-board-check.json
+python3 hardware/devboard-r0/tools/analyze_signal_paths.py \
+  hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb --output build/devboard-r8/signal-paths.json
+python3 hardware/devboard-r0/tools/check_power_route_budget.py \
+  --board hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb --output build/devboard-r8/power-paths.json
 ```
 
-当前DRC为499个未连接项、1个U301绘图差异警告、0个原理图一致性问题；这不是布线完成的DRC通过结果。[二维布局预览](output/pcb/ESPaperPlay_Placement_r7.png)和[装配图](output/pcb/ESPaperPlay_Assembly_r7.svg)供查看，后续编辑以原生PCB为准。
+当前DRC为0错误、0未连接、0原理图一致性问题；仅保留r7已有的1个U301板外天线绘图差异警告，封装焊盘与禁布区已独立核对一致，未添加DRC排除项。电源预算报告保留少量内部线宽审查提示，具体接受条件见[r8电源审查](review-r8/power-routing-review.md)。[布线正面](output/pcb/ESPaperPlay_Routing_r8_front.png)、[布线背面](output/pcb/ESPaperPlay_Routing_r8_back.png)和[3D预览](output/pcb/ESPaperPlay_Routing_r8_3d.png)供查看，后续编辑以原生PCB为准。
 
 [r4逐引脚基线](review-r5/electrical-baseline-r4.json)和差异契约可在其他机器复核。原生工程是编辑源，旧生成脚本不能覆盖它。r4原BOM检查器/报告保留为历史，不能拿r4固定器件数量直接验证r5。
 
-下一步从r7原生PCB继续关键回路、USB/SD和电源地布线，核对真实叠层及MLCC偏压数据。正式下单前完成布线、完整DRC和制造检查，实物功能/热试验在样机阶段进行。电池容量已定4000mAh，电流与温窗已按假设落图，NTC实物、CV/保护和热仍需样机验证。
+下一步核对工厂阻抗、焊盘内过孔工艺、钢网和装配，以及MLCC偏压数据。正式下单前完成制造检查，实物功能/热试验在样机阶段进行。电池容量已定4000mAh，电流与温窗已按假设落图，NTC实物、CV/保护和热仍需样机验证。

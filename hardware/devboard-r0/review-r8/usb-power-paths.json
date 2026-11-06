@@ -1,0 +1,174 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "rules_sha256": "e4e5242f42a0efabcd7060048dd3a780062a5bf80eabcbdfb1007b0aad105d7a",
+  "material_assumptions": {
+    "copper_resistivity_20C_ohm_m": 1.724e-08,
+    "copper_temperature_coefficient_per_C": 0.00393,
+    "outer_copper_thickness_um": 35,
+    "via_finished_hole_plating_um": 20,
+    "via_length_mm": 1.6,
+    "stress_calculation_temperature_C": 85,
+    "note": "Nominal assumptions only. Actual finished copper/plating/stackup must be confirmed by fabricator. 85C is an arithmetic copper-resistance sensitivity case, not approved battery operating temperature."
+  },
+  "path_count": 4,
+  "unconnected_or_invalid_paths": [],
+  "review_findings": [
+    {
+      "id": "usb_a9_to_ptc",
+      "findings": [
+        "narrow_path_length_above_review_allowance"
+      ]
+    },
+    {
+      "id": "usb_b4_to_ptc",
+      "findings": [
+        "narrow_path_length_above_review_allowance"
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "id": "usb_a4_to_ptc",
+      "from": "J501.A4",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30,
+      "net_names": [
+        "USB_VBUS"
+      ],
+      "status": "CONNECTED",
+      "track_length_mm": 15.133,
+      "via_count": 2,
+      "minimum_track_width_mm": 0.4,
+      "sub_target_length_mm": 2.786,
+      "copper_path_R20_mohm": 12.866,
+      "copper_path_R85_mohm": 16.152,
+      "voltage_drop_per_amp_mV": 12.866,
+      "path_uuids": [
+        "51e895a2-6ee6-5ee1-aa00-8a07c1112519",
+        "be4113bd-bb3c-44b1-a7ca-38df6460b10a",
+        "013aad59-2688-4a78-beb3-a7427a331b4d",
+        "f72066d3-bcd3-4459-8baa-cff18c578c04",
+        "48875782-7bf4-4dd1-bade-ae54aeedc815",
+        "c9b9d21d-d9ef-4a54-94db-55040a03c8a5",
+        "06ea00fd-448e-4497-bae8-f1c854729e6e",
+        "007580e0-1029-4f10-85e4-825e441ac2ab",
+        "c8204bd8-df6c-484f-93a0-6e1465ef37c2",
+        "35f9dd0e-bb0a-4b8e-83ed-0cfaeba54265",
+        "a92a8ba0-e860-55e2-bb65-bddcd6f4e945"
+      ],
+      "review_findings": []
+    },
+    {
+      "id": "usb_a9_to_ptc",
+      "from": "J501.A9",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30,
+      "net_names": [
+        "USB_VBUS"
+      ],
+      "status": "CONNECTED",
+      "track_length_mm": 12.446,
+      "via_count": 2,
+      "minimum_track_width_mm": 0.3,
+      "sub_target_length_mm": 5.704,
+      "copper_path_R20_mohm": 14.835,
+      "copper_path_R85_mohm": 18.625,
+      "voltage_drop_per_amp_mV": 14.835,
+      "path_uuids": [
+        "6ad6130b-a645-5403-9c79-cc586571faab",
+        "b77ba6e1-abc1-413a-a519-698ad479655b",
+        "26ee15c8-bd18-43ff-a804-d413f9d0767f",
+        "eb64e364-0939-425f-9b22-9392ba854792",
+        "016c1b38-2815-42fd-bda6-867e5d8bab72",
+        "a172449a-0026-48f1-827d-943b30a6ba31",
+        "007580e0-1029-4f10-85e4-825e441ac2ab",
+        "c8204bd8-df6c-484f-93a0-6e1465ef37c2",
+        "35f9dd0e-bb0a-4b8e-83ed-0cfaeba54265",
+        "a92a8ba0-e860-55e2-bb65-bddcd6f4e945"
+      ],
+      "review_findings": [
+        "narrow_path_length_above_review_allowance"
+      ]
+    },
+    {
+      "id": "usb_b4_to_ptc",
+      "from": "J501.B4",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30,
+      "net_names": [
+        "USB_VBUS"
+      ],
+      "status": "CONNECTED",
+      "track_length_mm": 12.446,
+      "via_count": 2,
+      "minimum_track_width_mm": 0.3,
+      "sub_target_length_mm": 5.704,
+      "copper_path_R20_mohm": 14.835,
+      "copper_path_R85_mohm": 18.625,
+      "voltage_drop_per_amp_mV": 14.835,
+      "path_uuids": [
+        "808b3a67-6a16-5fd3-a6f6-bfa3348069dd",
+        "b77ba6e1-abc1-413a-a519-698ad479655b",
+        "26ee15c8-bd18-43ff-a804-d413f9d0767f",
+        "eb64e364-0939-425f-9b22-9392ba854792",
+        "016c1b38-2815-42fd-bda6-867e5d8bab72",
+        "a172449a-0026-48f1-827d-943b30a6ba31",
+        "007580e0-1029-4f10-85e4-825e441ac2ab",
+        "c8204bd8-df6c-484f-93a0-6e1465ef37c2",
+        "35f9dd0e-bb0a-4b8e-83ed-0cfaeba54265",
+        "a92a8ba0-e860-55e2-bb65-bddcd6f4e945"
+      ],
+      "review_findings": [
+        "narrow_path_length_above_review_allowance"
+      ]
+    },
+    {
+      "id": "usb_b9_to_ptc",
+      "from": "J501.B9",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30,
+      "net_names": [
+        "USB_VBUS"
+      ],
+      "status": "CONNECTED",
+      "track_length_mm": 15.133,
+      "via_count": 2,
+      "minimum_track_width_mm": 0.4,
+      "sub_target_length_mm": 2.786,
+      "copper_path_R20_mohm": 12.866,
+      "copper_path_R85_mohm": 16.152,
+      "voltage_drop_per_amp_mV": 12.866,
+      "path_uuids": [
+        "45d1351d-b361-5979-b279-5f83c0432c27",
+        "be4113bd-bb3c-44b1-a7ca-38df6460b10a",
+        "013aad59-2688-4a78-beb3-a7427a331b4d",
+        "f72066d3-bcd3-4459-8baa-cff18c578c04",
+        "48875782-7bf4-4dd1-bade-ae54aeedc815",
+        "c9b9d21d-d9ef-4a54-94db-55040a03c8a5",
+        "06ea00fd-448e-4497-bae8-f1c854729e6e",
+        "007580e0-1029-4f10-85e4-825e441ac2ab",
+        "c8204bd8-df6c-484f-93a0-6e1465ef37c2",
+        "35f9dd0e-bb0a-4b8e-83ed-0cfaeba54265",
+        "a92a8ba0-e860-55e2-bb65-bddcd6f4e945"
+      ],
+      "review_findings": []
+    }
+  ],
+  "limitations": [
+    "Copper path calculations exclude ICs, 0ohm links, connectors, protection FETs, solder, pad spreading and GND return resistance.",
+    "A minimum-resistance connected path is calculated from native connectivity. Full segment lengths are charged even when touching mid-segment; parallel paths are not combined. This is an inspectable path estimate, not a circuit/field solver.",
+    "No IPC current rating, temperature rise, impedance or transient voltage claim follows from this review.",
+    "Existing battery-current and charge-enable restrictions remain unchanged."
+  ],
+  "source": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "rules_file": "usb-power-path-rules.json"
+}

@@ -1,8 +1,8 @@
 # ESPaperPlay v2 设计与开发记录
 
-> 最新硬件布局（2026-11-06）：[r7四层开发板布局](hardware/pcb-layout-r7.md)，160×110mm、236个电气器件加4个机械孔，尚未布线。原理图保持[r6模块化绘图](hardware/schematic-layout-r6.md)，电气保持[r5充电与温控](hardware/charging-design-r5.md)；[保守电池预算与纯延长连接](hardware/design-assumptions-2026-11-04.md)仍适用。
+> 最新硬件布线（2026-11-07）：[r8四层开发板布线](hardware/pcb-routing-r8.md)，160×110mm、236个电气器件加4个机械孔，布线与内层铺地完成，0未连接。原理图保持[r6模块化绘图](hardware/schematic-layout-r6.md)，电气保持[r5充电与温控](hardware/charging-design-r5.md)；[保守电池预算与纯延长连接](hardware/design-assumptions-2026-11-04.md)仍适用。
 
-设计起始日期：2026-11-01；硬件状态更新：2026-11-06。当前为独立的 `ESPaperPlay-V2` 仓库，默认分支为 `main`；原仓库的 `refactor/v2-platform` 是迁移前的本地工作分支。
+设计起始日期：2026-11-01；硬件状态更新：2026-11-07。当前为独立的 `ESPaperPlay-V2` 仓库，默认分支为 `main`；原仓库的 `refactor/v2-platform` 是迁移前的本地工作分支。
 
 ## 已确定的基线
 
@@ -12,7 +12,7 @@
 - 独立控制屏幕、触摸、SD、音频电源，规划 Power Path 充电、升降压、电量计和正常电源键。
 - 无蓝牙耳机计划；首版 USB 按设备端设计。
 - 首块新 PCB 采用尺寸宽松、接口与测流点充分的开发验证板，验证后再收紧外形。
-- 电池选定755570、4000mAh、单节3.7V、带保护和三线10kΩ NTC；r5按假设曲线设计约0.7A充电与硬件温窗，实际电池匹配仍待核，保持初装禁充。扬声器选3525腔体8Ω2W，以提示音/有声书及功耗优先。十一页KiCad原理图为r6 DRAWING（r5电气设计），PCB已完成r7器件布局；尚未布线、冻结制造BOM或上电验证。
+- 电池选定755570、4000mAh、单节3.7V、带保护和三线10kΩ NTC；r5按假设曲线设计约0.7A充电与硬件温窗，实际电池匹配仍待核，保持初装禁充。扬声器选3525腔体8Ω2W，以提示音/有声书及功耗优先。十一页KiCad原理图为r6 DRAWING（r5电气设计），PCB已完成r8布线和静态检查；尚未冻结制造BOM或上电验证。
 - 器件型号为候选，实际 GPIO、BOM 与电源参数须经过原理图及实板验证。
 
 ## 文档与工程入口
@@ -23,7 +23,7 @@
 | 阶段目标与验收 | [roadmap.md](roadmap.md) |
 | 硬件方案与开发验证板 | [hardware/README.md](hardware/README.md) |
 | 开发板电源规格与关断要求 | [hardware/power-design-spec.md](hardware/power-design-spec.md) |
-| KiCad原理图r6、PCB布局r7与检查结果 | [hardware/devboard-r0/README.md](../../hardware/devboard-r0/README.md) |
+| KiCad原理图r6、PCB布线r8与检查结果 | [hardware/devboard-r0/README.md](../../hardware/devboard-r0/README.md) |
 | BOM、封装与条件闭合 | [hardware/closure-review-r4.md](hardware/closure-review-r4.md) |
 | 屏幕、SD与音频电路细节 | [hardware/peripheral-design-r2.md](hardware/peripheral-design-r2.md) |
 | 旧板六页静态电路审查 | [hardware/review/README.md](hardware/review/README.md) |
@@ -36,4 +36,4 @@
 
 当前已完成 M0 的首批代码和本地验证。GUI、驱动迁移、后台工作队列、音频、网络、真实休眠和 OTA 下载将按路线逐步接入；没有进行实机烧录或 PCB 制造。
 
-r6绘图沿用r5电气设计，包含一张索引和十张功能页，236个位置、181条网络，全部774个引脚连接和封装编号检查通过，ERC为0违规；234个位置有候选料号，两个USB调谐DNP有意不选料。r7已完成160×110mm四层板的236个电气器件与4个安装孔布局。下一步继续关键电源回路、USB/SD及控制信号布线，落实充电散热和NTC模拟走线，按样机计划验证温窗与电池匹配；[r4报告](hardware/closure-review-r4.md)保留为历史。
+r6绘图沿用r5电气设计，包含一张索引和十张功能页，236个位置、181条网络，全部774个引脚连接和封装编号检查通过，ERC为0违规；234个位置有候选料号，两个USB调谐DNP有意不选料。r7已完成160×110mm四层板的236个电气器件与4个安装孔布局。r8已完成全部连接、双内层铺地、USB/SD长度和电源铜路径检查。下一步核对制造与装配工艺，按样机计划验证温窗、电池匹配和动态性能；[r4报告](hardware/closure-review-r4.md)保留为历史。

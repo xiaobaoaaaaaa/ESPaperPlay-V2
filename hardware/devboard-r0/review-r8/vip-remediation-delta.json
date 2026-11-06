@@ -1,0 +1,188 @@
+{
+  "source": "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-r8/r8-sd-merged.kicad_pcb",
+  "source_sha256": "9a637c50c290382e1440a1b84317c2e2e19968465a3211095a7ddd4902f5f307",
+  "output": "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-r8/r8-vip-corrected.kicad_pcb",
+  "output_sha256": "d0e2c2e6401e6c9b9234de22f3f55073a96ceef60564a77f771f39818ad10817",
+  "deleted_uuids": [
+    "84d6e69d-c99a-4dc3-b4a8-789886635efe",
+    "245795cb-67e3-4f75-a6eb-ce09bbb95bbd",
+    "3a7ffdc8-4c7f-4ae8-b645-6bc0ffe0b518",
+    "4318d0c8-aa79-470b-a82c-03c8d2df5f45",
+    "997a7041-9a58-45db-9f0e-e7de9dbfc656"
+  ],
+  "added_uuids": [
+    "780fabd6-38e1-5534-9043-bdd1ac7e6e9e",
+    "1c454199-f59e-5cfe-8fd2-80f5089f2916",
+    "c63f0191-4f04-56c7-8d2c-2522796a19ce",
+    "bf573aed-c919-54c7-89f4-c89dc90da77d",
+    "faf1bd39-c897-5b4d-aff3-0da51b38cc60"
+  ],
+  "changes": [
+    {
+      "before": {
+        "uuid": "84d6e69d-c99a-4dc3-b4a8-789886635efe",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "start_mm": [
+          178.25,
+          141.6
+        ],
+        "end_mm": [
+          178.25,
+          141.6
+        ],
+        "width_mm": 0.6,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "780fabd6-38e1-5534-9043-bdd1ac7e6e9e",
+        "class": "PCB_VIA",
+        "net": "GND",
+        "start_mm": [
+          178.9,
+          141.6
+        ],
+        "end_mm": [
+          178.9,
+          141.6
+        ],
+        "width_mm": 0.6,
+        "layer": "F.Cu"
+      },
+      "reason": "Move C603 GND hole clear of the SMD solderable land"
+    },
+    {
+      "before": {
+        "uuid": "245795cb-67e3-4f75-a6eb-ce09bbb95bbd",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "start_mm": [
+          177.95,
+          141.6
+        ],
+        "end_mm": [
+          178.25,
+          141.6
+        ],
+        "width_mm": 0.3,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "1c454199-f59e-5cfe-8fd2-80f5089f2916",
+        "class": "PCB_TRACK",
+        "net": "GND",
+        "start_mm": [
+          177.95,
+          141.6
+        ],
+        "end_mm": [
+          178.9,
+          141.6
+        ],
+        "width_mm": 0.3,
+        "layer": "F.Cu"
+      },
+      "reason": "Extend existing .3mm GND lead to displaced via"
+    },
+    {
+      "before": {
+        "uuid": "3a7ffdc8-4c7f-4ae8-b645-6bc0ffe0b518",
+        "class": "PCB_VIA",
+        "net": "SD_D2",
+        "start_mm": [
+          170.5,
+          59.11
+        ],
+        "end_mm": [
+          170.5,
+          59.11
+        ],
+        "width_mm": 0.6,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "c63f0191-4f04-56c7-8d2c-2522796a19ce",
+        "class": "PCB_VIA",
+        "net": "SD_D2",
+        "start_mm": [
+          170.0,
+          59.11
+        ],
+        "end_mm": [
+          170.0,
+          59.11
+        ],
+        "width_mm": 0.6,
+        "layer": "F.Cu"
+      },
+      "reason": "Move SD_D2 via hole clear of R714.1"
+    },
+    {
+      "before": {
+        "uuid": "4318d0c8-aa79-470b-a82c-03c8d2df5f45",
+        "class": "PCB_TRACK",
+        "net": "SD_D2",
+        "start_mm": [
+          170.5,
+          59.11
+        ],
+        "end_mm": [
+          171.0,
+          59.125
+        ],
+        "width_mm": 0.35,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "bf573aed-c919-54c7-89f4-c89dc90da77d",
+        "class": "PCB_TRACK",
+        "net": "SD_D2",
+        "start_mm": [
+          170.0,
+          59.11
+        ],
+        "end_mm": [
+          171.0,
+          59.125
+        ],
+        "width_mm": 0.35,
+        "layer": "F.Cu"
+      },
+      "reason": "Lengthen front escape by approximately .5mm"
+    },
+    {
+      "before": {
+        "uuid": "997a7041-9a58-45db-9f0e-e7de9dbfc656",
+        "class": "PCB_TRACK",
+        "net": "SD_D2",
+        "start_mm": [
+          167.69,
+          59.11
+        ],
+        "end_mm": [
+          170.5,
+          59.11
+        ],
+        "width_mm": 0.35,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "faf1bd39-c897-5b4d-aff3-0da51b38cc60",
+        "class": "PCB_TRACK",
+        "net": "SD_D2",
+        "start_mm": [
+          167.69,
+          59.11
+        ],
+        "end_mm": [
+          170.0,
+          59.11
+        ],
+        "width_mm": 0.35,
+        "layer": "B.Cu"
+      },
+      "reason": "Shorten back route by .5mm; preserve signal total length"
+    }
+  ],
+  "scope": "Only C603 GND via/lead and R714 SD_D2 via/F+B adjacent segments; no footprint/net changes."
+}

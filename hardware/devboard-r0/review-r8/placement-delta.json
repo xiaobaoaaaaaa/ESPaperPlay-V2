@@ -1,0 +1,186 @@
+{
+  "format": [
+    "position_mm",
+    "rotation_deg",
+    "reference_layer",
+    "reference_position_mm",
+    "reference_angle_deg"
+  ],
+  "against": "r7 original placement; electrical pad/net identities checked separately",
+  "changes": [
+    {
+      "reference": "U703",
+      "before": [
+        [
+          188.5,
+          75.5
+        ],
+        180.0,
+        "F.Silkscreen",
+        [
+          188.5,
+          77.7336
+        ],
+        0.0
+      ],
+      "after": [
+        [
+          188.5,
+          75.5
+        ],
+        0.0,
+        "F.Silkscreen",
+        [
+          188.5,
+          77.6
+        ],
+        0.0
+      ]
+    },
+    {
+      "reference": "R711",
+      "before": [
+        [
+          171.0,
+          73.5
+        ],
+        90.0,
+        "F.Silkscreen",
+        [
+          169.3864,
+          73.5
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          170.4,
+          72.85
+        ],
+        0.0,
+        "F.Silkscreen",
+        [
+          170.4,
+          74.2
+        ],
+        0.0
+      ]
+    },
+    {
+      "reference": "U501",
+      "before": [
+        [
+          108.0,
+          60.0
+        ],
+        -90.0,
+        "F.Silkscreen",
+        [
+          105.7664,
+          60.0
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          108.0,
+          60.0
+        ],
+        90.0,
+        "F.Silkscreen",
+        [
+          105.7664,
+          60.0
+        ],
+        270.0
+      ]
+    },
+    {
+      "reference": "C603",
+      "before": [
+        [
+          174.8,
+          133.5
+        ],
+        90.0,
+        "F.Silkscreen",
+        [
+          172.9364,
+          133.5
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          177.0,
+          141.6
+        ],
+        0.0,
+        "F.Fab",
+        [
+          177.0,
+          139.7364
+        ],
+        0.0
+      ]
+    },
+    {
+      "reference": "R603",
+      "before": [
+        [
+          173.0,
+          139.5
+        ],
+        0.0,
+        "F.Silkscreen",
+        [
+          175.3636,
+          142.5
+        ],
+        90.0
+      ],
+      "after": [
+        [
+          173.0,
+          139.5
+        ],
+        0.0,
+        "F.Fab",
+        [
+          175.3636,
+          142.5
+        ],
+        90.0
+      ]
+    },
+    {
+      "reference": "R601",
+      "before": [
+        [
+          178.6,
+          143.65
+        ],
+        0.0,
+        "F.Silkscreen",
+        [
+          178.6,
+          142.0364
+        ],
+        0.0
+      ],
+      "after": [
+        [
+          178.6,
+          143.65
+        ],
+        0.0,
+        "F.Fab",
+        [
+          178.6,
+          142.0364
+        ],
+        0.0
+      ]
+    }
+  ]
+}

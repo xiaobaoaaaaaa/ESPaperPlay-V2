@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-07",
+  "method": "Critical power/USB/EPD/audio routes authored first; offline Freerouting for ordinary nets; native local rerouting, width, length and ground-return review before final KiCad validation.",
+  "offline_autorouter": {
+    "name": "Freerouting",
+    "version": "2.1.0",
+    "network": "Linux unshare -Urn: no network; telemetry, API and MCP disabled",
+    "note": "Final completed in-memory board explicitly exported; imported SES geometry and UUIDs checked against locked seed. Router DRC was not used as the acceptance oracle.",
+    "jar_sha256": "2c07d58f75dac03782664081e7a58b41c25400d871a9fcf166a2ea6fe60d5def"
+  },
+  "selected_stackup": "JLC04161H-7628",
+  "native_acceptance": "KiCad 10.0.7 fresh full DRC with schematic parity; separate XML/pad/library/plane identity checker; route path analyses.",
+  "manufacturing_release": false
+}

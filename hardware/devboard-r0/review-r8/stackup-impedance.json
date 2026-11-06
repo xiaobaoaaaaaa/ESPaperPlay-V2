@@ -1,0 +1,68 @@
+{
+  "status": "ENGINEERING_ESTIMATE_NOT_FACTORY_IMPEDANCE_CERTIFICATION",
+  "date": "2026-11-07",
+  "stackup": "JLC04161H-7628",
+  "layers": [
+    "F.Cu signals/components",
+    "In1.Cu continuous GND",
+    "In2.Cu continuous GND",
+    "B.Cu auxiliary signals"
+  ],
+  "copper_mm": [
+    0.035,
+    0.0152,
+    0.0152,
+    0.035
+  ],
+  "dielectric_mm": [
+    0.2104,
+    1.065,
+    0.2104
+  ],
+  "dielectric_constants": [
+    4.4,
+    4.6,
+    4.4
+  ],
+  "nominal_finished_thickness_mm": 1.6,
+  "USB": {
+    "target_ohm": 90,
+    "nominal_width_mm": 0.26,
+    "edge_gap_mm": 0.15,
+    "closed_form_estimate_ohm": 89.96407479147723
+  },
+  "SD": {
+    "target_ohm": 50,
+    "nominal_width_mm": 0.35,
+    "closed_form_estimate_ohm": 49.98463891817586,
+    "fine_pitch_short_neck_mm": 0.2
+  },
+  "model": {
+    "microstrip": "Z0 = 87/sqrt(Er+1.41) * ln(5.98h/(0.8w+t))",
+    "differential": "Zdiff = 2*Z0*(1 - 0.48*exp(-0.96*s/h))",
+    "limitations": [
+      "Closed-form estimate omits solder mask, conductor trapezoid and finite/coplar ground geometry.",
+      "JLC calculator uses nominal external1oz=1.6mil and solder mask parameters; its field-solver result has not been obtained.",
+      "External adjacent GND pours should stand back >=0.5mm from long USB pair; keep other signal tracks away where practical.",
+      "Factory must verify 90ohm USB +/-10% and 50ohm SD against selected stackup before manufacturing; no manufacturing order or guaranteed impedance claim."
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://jlcpcb.com/impedance",
+      "supports": "JLC04161H-7628 stackup, PP Dk4.4/core Dk4.6 and copper thicknesses"
+    },
+    {
+      "url": "https://jlcpcb.com/help/article/user-guide-to-the-jlcpcb-impedance-calculator",
+      "supports": "Official calculation inputs, external copper and solder mask/trapezoid parameters; selected material and stackup required"
+    },
+    {
+      "url": "https://www.jlc.com/portal/q6i36372.html",
+      "supports": "Manufacturer distinguishes width/space control vs precision measured impedance; PP is pressed thickness"
+    },
+    {
+      "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/pcb-layout-design.html",
+      "supports": "USB equal parallel pair and90ohm+/-10%, minimized vias/ground return; SD50ohm and short same-length traces"
+    }
+  ]
+}

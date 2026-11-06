@@ -1,0 +1,3478 @@
+{
+  "base_board": "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-r8/r8-closure-candidate.kicad_pcb",
+  "base_sha256": "ae6b10f69b34439e0f4d14a20fcbcf4c2b35305d069627ac48d7257b50365347",
+  "candidate_board": "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-r8/sd-matched-r8.kicad_pcb",
+  "candidate_sha256": "45b2c1a47aaeb94ca7a3e1767ea3224916ebc0012275b281e896d0f96115170e",
+  "removed_uuids": [
+    "04e60862-4af4-43d1-928d-6272f0b98570",
+    "05de1510-7a5d-4a41-b85c-ed1c96bd32ba",
+    "0620d2cb-0ad0-4510-bb5d-77bc925f65b4",
+    "091ab006-97a4-4021-8d00-67636e4aaf85",
+    "0a8cca50-b1c0-4c4c-bb7c-c14f43c4230c",
+    "0cb83b88-416a-4b5a-b559-a796189fe46e",
+    "0d475079-8a0d-49f5-90a4-ffba1587a70a",
+    "0e4c5a75-449a-4a81-95c0-0250dae362f2",
+    "103893b6-2c35-4f96-b260-8375744a5488",
+    "150c7046-1ea2-4965-be60-f1473e0b084e",
+    "173a2eb8-d4d3-4306-a0df-8c63eb58a642",
+    "189fa6f3-073b-4612-85f3-153e648f2f45",
+    "1b034203-3916-490d-b8e6-81ba97fc5276",
+    "1ebd063d-cdc2-408f-b452-7a158133c95a",
+    "22ca27d1-8476-499b-b058-30e21b562881",
+    "2314a2ed-738d-4f1f-945b-b8529849d1d6",
+    "2b13d932-12c9-449d-9030-b1486548db58",
+    "2b2c7b23-c0a7-4e93-bb1e-48e31e0b0235",
+    "2cc3d3b1-b9aa-4977-9b9e-c204d501e2fa",
+    "2dc57da4-96b1-4eaa-9589-73153d9017a8",
+    "2f09423d-9dff-4c7b-a8da-b2336f8768d6",
+    "35e96cfd-e68d-4152-9f9f-7fe33566f3f1",
+    "48f6afd7-b796-41f7-b34e-97194aa508a9",
+    "50c48ec6-8944-4ddf-8b25-893289dfe959",
+    "558e7936-9f19-42a9-9ab5-25b0cd403879",
+    "55adbb9b-ea50-459e-9928-bd604fd3705f",
+    "5738e08c-ef41-4a3c-9f4d-e7c764309bd9",
+    "6176bc3b-56fa-4667-a9a1-638260096fc0",
+    "619171fb-cb61-420e-a47f-7031c681556c",
+    "61fe9b9f-2235-4b33-bccc-e7788c5bb82b",
+    "656561da-c061-4a61-955d-9cdd130b42c5",
+    "6a43cc14-267d-47ac-a82c-54339ef24532",
+    "6fb190b2-d1a9-4043-bd60-59bb0e4d5953",
+    "70e6b857-c742-41cd-8459-6034b5e04b57",
+    "73733c07-35c9-424f-b651-7d219d8886fe",
+    "76b6e56f-842d-4022-b3b6-25e791a2b02e",
+    "77ff2dc7-a90a-441d-9247-32a9a54147c9",
+    "7ac5a482-f26a-4215-b99b-616990e2b016",
+    "7ce1cfc8-2331-4100-a63f-dae72b08473c",
+    "80a6b2ed-3e1e-44bb-82fd-4611cd74e3df",
+    "80e08563-c20b-46e9-a8fb-79c0f24329a9",
+    "84f25c98-9382-49ba-9134-b9ca6d048704",
+    "8e3d9e19-540d-4bb4-8b96-abbb97f2de10",
+    "8f8c7ed3-5e54-4b45-9157-629e2fbaaa1f",
+    "8fe5af54-bebd-4494-a2fb-e1da0996502d",
+    "911cf833-b976-4f43-95e3-8e9bba56c036",
+    "97ab0512-49b9-4e05-bf5e-ac8bc5e25a2f",
+    "980a4054-87a5-42ae-b68b-cbcf0f090d7c",
+    "99200311-a17c-4c25-a4e2-2d1157c0f400",
+    "9f054e0a-d319-47d9-aca1-a97b0e419107",
+    "a17b020b-8fec-4421-a2b2-c0424f912cbd",
+    "a2fb7b46-e672-41e8-91f1-9984f3208fc2",
+    "a3d68400-ffc0-4eae-a7cf-035bcfcd8ca8",
+    "a6d6a53d-867c-4d32-b3d5-fe3705b9133c",
+    "a8a6d400-7471-4089-9728-8f11ecf58460",
+    "a976a585-9fb9-4e9c-9742-0982c6718a97",
+    "ace8d4e7-c0f7-4b87-b30b-c2ffdbdb4443",
+    "ade2c1e6-716f-41e1-9248-28e302d8b939",
+    "af0c26ef-1314-4eb1-a246-90f9bf54688d",
+    "b2f5e939-799b-4c93-860f-d8b9b7e344c9",
+    "b4fbc028-b60d-4db1-8b9b-9e65da0b4bd7",
+    "b6334a4a-9fba-4720-a6c4-becb6414e808",
+    "baf111de-5917-428a-b454-5817ba4946d5",
+    "be69d80f-5b9c-42e5-b198-963ebf725e5e",
+    "c0c2cfb5-4d6a-4a1a-8916-5321f8877f2a",
+    "c18b4352-e297-4bfa-ba51-909a224610d5",
+    "c6e3bc2b-f19f-4427-be46-9d45cd8df15b",
+    "c78f9092-5e1c-4a67-8291-e5347d538208",
+    "c96b570a-eb6b-4af9-9422-395f44a32724",
+    "caf859c0-666c-4c61-84cd-97dbe3179d86",
+    "cc879a83-5877-4811-9bba-fd4cf510fcae",
+    "d1468eb6-a7b2-4333-9009-87c4a04b3101",
+    "d62ede03-ed6c-40f8-88e1-0902f785ab24",
+    "d7ca7b68-4660-4c9a-8e03-82dc81e52245",
+    "d7d90043-08fa-4fa5-994c-96aa12b4ba58",
+    "de62e46a-0e0b-4029-999a-481985394dcd",
+    "e014fc29-1932-4880-88ed-db703d3aa61a",
+    "e4117683-319e-4e9b-bfac-d1788f20e14f",
+    "ebbede07-d7f9-4938-862d-c96526550af5",
+    "ebfd1f06-40ac-4d24-8366-4c9ac52cf280",
+    "eca7f813-5594-4f11-977d-596d91540f04",
+    "efa85855-ab4a-4f1c-ad18-f6017701b748",
+    "f18c81ed-048c-41fc-b653-95324218939a",
+    "f619a3d5-30a9-4c56-a77a-230279028267",
+    "f7dac93b-5936-4474-964b-abe7cd04f433",
+    "fd0d045f-9796-48b5-868b-9ca77e6ccbab"
+  ],
+  "added_uuids": [
+    "06290a08-9587-4ccf-ac24-763db38183b2",
+    "0cd16f51-00f6-4689-bb9b-0d37b0d0bf2e",
+    "0f83791e-8223-46a9-b8d9-a2efed0a0178",
+    "11ca893a-b63a-4b34-80af-4ac7cee882d4",
+    "126433df-867a-4521-b671-a3fd758b81ec",
+    "1b6abee8-84d7-4cbe-b83d-234e24a25b9e",
+    "1bbd5a3c-a1a9-4041-840c-6327a9398eec",
+    "2093b608-cad3-456a-91df-aca484059dd9",
+    "24a39a11-a123-40f6-8d0d-80dc8467adf7",
+    "276fd6fc-6cd0-4d77-9270-e5b90819eb60",
+    "2857d8b6-0c15-4348-a7de-44f76888c3f0",
+    "2893d8c3-9ce6-4a22-833e-64ce4a0c8401",
+    "29359989-e038-4939-aec0-bfbfed98c9be",
+    "2c43312a-492e-42ac-a02e-cb5f7ee08346",
+    "30d39bc0-1010-4b6c-93de-527b249e807e",
+    "3485bd09-ccdc-4c0e-97a4-113b69a0c15f",
+    "3837ac97-cf83-4f03-8a8d-6b2f1d8e3620",
+    "3a7ffdc8-4c7f-4ae8-b645-6bc0ffe0b518",
+    "3e7894c4-d360-404f-a90c-1224598b3970",
+    "41586b25-fc7c-4ba4-8b18-847d3ef90dc8",
+    "4318d0c8-aa79-470b-a82c-03c8d2df5f45",
+    "43426e14-dce0-4a7e-be25-058bdaf94e90",
+    "437c8dbf-ae63-4cf5-b4a6-7a47df2b1599",
+    "4e9cff0e-f752-47cc-9fba-4fda79fc2e13",
+    "51828653-3b58-4bed-913d-4dca049ebe2d",
+    "53726b26-3e68-4463-9833-3fd859695c0d",
+    "53de8ff1-0f41-4a6a-8a93-563d1fbd94f8",
+    "549025ff-436b-40c2-8db1-c241cec34e90",
+    "59d5af45-fdcb-4043-9bd1-c2022fb43615",
+    "5f73d6f4-7560-464a-8f4a-ce3513e8d37a",
+    "61a127a0-3337-41b9-992e-968276f389e7",
+    "6550b658-de12-4fee-8990-44153da4eece",
+    "6596c435-5b2d-4f40-94f3-847a93272860",
+    "664af458-6bde-4fbb-baa9-32b3ce3f630b",
+    "667948f1-9d96-4210-97a9-c7c18a448371",
+    "6add841d-7821-498a-bd48-00953fdc08bb",
+    "6b11e446-da2e-4533-a001-6ac1f80a2c8e",
+    "6f6f0551-0ccf-4aee-a46b-6fd7467f5c2c",
+    "7174ba9e-62ff-4d74-9706-ab5834068ada",
+    "76412021-af04-482a-b6d5-a5626cb350de",
+    "77031413-caa7-429f-b448-bb04442c981f",
+    "78a6bdec-ef61-454b-b618-0b14f12a84df",
+    "78d118d0-2ef6-49e3-bbf7-0e483eefa8c9",
+    "7a60a7ae-9002-4e15-a821-3222cc82415d",
+    "7bb40106-99b3-497f-b09b-8c25fe1f2b56",
+    "7dba8bff-b7c5-4060-96a2-e6a9b95b8e52",
+    "7e099284-690f-4ab4-9905-17d78631310e",
+    "7f670abd-5f61-4473-8ea4-cded4d7c4926",
+    "7ff3f8f6-55eb-40ff-8d64-1ef04eaa114e",
+    "802bdb87-1278-4b50-b858-86f84ac79814",
+    "8079c079-1691-452d-b490-cb9ac4f0c7dc",
+    "8841caaa-ff48-4396-bc5b-cb18b4a80304",
+    "887293be-b2df-4a83-b9dd-4b8aed7b76be",
+    "88b3dd09-7d7e-442f-a35d-b7c86a8e560d",
+    "894dd519-578a-4045-81aa-951a444ffb30",
+    "91bce367-6221-4be9-a59d-f03910307894",
+    "92a2baaf-99c1-4749-bb36-79dc176904ca",
+    "92cb0ece-a7e3-4dce-a282-1c16a956d662",
+    "9361b3cb-6215-4334-9b84-df9f6b84fbcb",
+    "94c42c35-59c8-4a9c-9189-d762e9cbc429",
+    "95f569dc-71d7-4cd1-adf1-198410dbdd47",
+    "997a7041-9a58-45db-9f0e-e7de9dbfc656",
+    "9b00cc88-b58c-4541-9baf-ee7a9e02289a",
+    "9d141440-e6ff-4d4e-8e2e-d7c45a0c3319",
+    "9f6b8d24-f042-4e4b-bf5f-8d8d600abba0",
+    "9fb52bfd-a0be-432b-9d1c-9af14af81350",
+    "a0349394-eb8b-4c83-88a2-255e4062deca",
+    "a12d2c6a-18a5-429f-8cc8-adadb963c4d8",
+    "a2e38542-29cd-4718-b43b-e095e22a45c7",
+    "a3d5d19a-f574-46fe-bee5-723053d78fb6",
+    "a5841b57-7963-4213-add5-a4742a75a9fb",
+    "a5a0cc4c-b714-47c9-8a30-c068663a2c0c",
+    "a8956347-a46a-4f8a-84bc-db5ddd46024b",
+    "ad73bff7-9f2a-4d2a-9c60-5d4789dc2a0f",
+    "af07e82e-8d99-4666-b41b-2cf3bc6b35d8",
+    "afeabd09-656b-4b76-bfba-0d74bd470ea2",
+    "b126345c-1f82-43db-b708-9cfd81381768",
+    "b2123cf4-d102-40a2-8609-5870b1a24331",
+    "b9b0d3ee-80f4-4e78-84e9-425e31c4b66c",
+    "ba2a5ecf-e169-417e-94eb-304fe7537490",
+    "ba3d0465-4f07-42df-9502-7eeee6192b3d",
+    "ba8b8775-2c52-4d1c-bfa0-798192f9d882",
+    "bc56c98c-56b8-42a3-9e86-fdbc69d64dfa",
+    "c136440d-d2e3-44f3-ae03-4ced8024d92a",
+    "c770faa6-9362-417a-aa43-3365a81d29ea",
+    "c8156238-4d02-4cba-a79b-5e86eb88a525",
+    "c86f8293-c1d6-402c-8d98-e7c28f07d3b8",
+    "cdd6c506-699e-480b-a2e4-2b53e308f1b3",
+    "cff3deb0-b115-420b-8bef-ed1081048d3b",
+    "d3cd9701-1f47-4d64-84b0-270f4f4e36c4",
+    "d50c4de6-5195-44d1-b285-c3475bee3a2e",
+    "d61f1664-e1e8-4d2f-91e6-7337f2db7aba",
+    "d7552bbb-b39e-4684-9a9e-fe4cf1e93cfb",
+    "d90e0946-86e5-4cfb-9040-67bcb2874d77",
+    "daab3846-986f-42c7-9b96-37c0ff54f4f3",
+    "dc1c608c-dfe0-49d5-a7cb-7ee704fa68a5",
+    "dc562dd3-8c28-4b0d-84e2-576609dda77d",
+    "dd7354f6-6279-4525-96f3-2f0e67fc730b",
+    "de5e190b-e546-4fa9-a9cd-9723cb12a102",
+    "e010bf8e-b39e-406e-a464-4172a1ccdfbe",
+    "e22618cd-62dc-4e41-8978-2cb8b4f0f4c9",
+    "e6c8fef4-199d-48d0-92ac-6a5e5e088b90",
+    "e7d5f984-0510-4e6b-9963-f2facedb2903",
+    "ea34595b-9153-4999-ad36-e8b681f7ccfa",
+    "eab05f78-7efc-41dc-b8d8-e00466a162e9",
+    "eafb566d-589a-449f-bba1-d92cb1ec03c6",
+    "ecc5bc2f-42f1-482d-9c03-5e4d1012b234",
+    "ef6ea6d2-a767-4f10-bd5c-e6861b11907e",
+    "f345b145-f40f-45ea-bc69-7bd5982dc64c",
+    "f5db5a88-5934-4434-a06c-0c38bae0cc19",
+    "f684b7a9-a9ca-4ade-8acd-d28dcadf75dd",
+    "f753c329-6246-4179-a41d-891d3f9ea90c",
+    "fe3e8ff5-7460-4ca1-b7cc-04ef11edba61",
+    "fe42c39e-1f60-4408-b922-cf716bdb6cd8",
+    "ff20affb-97c2-4cfd-bf93-b0e60177012f",
+    "ff58f0ed-ee88-444e-9aed-b5bf0f9f1dab",
+    "ff94e761-6269-4c65-9670-3dbe71ded069",
+    "ffc34c80-2f95-4ef8-8100-0031537ff591"
+  ],
+  "removed_items": [
+    {
+      "uuid": "04e60862-4af4-43d1-928d-6272f0b98570",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        189.4004,
+        73.5135
+      ],
+      "end_mm": [
+        186.1634,
+        73.5135
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "05de1510-7a5d-4a41-b85c-ed1c96bd32ba",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        189.6,
+        71.2733
+      ],
+      "end_mm": [
+        188.1517,
+        69.825
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "0620d2cb-0ad0-4510-bb5d-77bc925f65b4",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        170.1571,
+        73.368
+      ],
+      "end_mm": [
+        170.1571,
+        72.2548
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "091ab006-97a4-4021-8d00-67636e4aaf85",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        170.6371,
+        71.7748
+      ],
+      "end_mm": [
+        171.3384,
+        71.7748
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "0a8cca50-b1c0-4c4c-bb7c-c14f43c4230c",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.0,
+        74.2109
+      ],
+      "end_mm": [
+        170.1571,
+        73.368
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "0cb83b88-416a-4b5a-b559-a796189fe46e",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        174.3216,
+        69.19
+      ],
+      "end_mm": [
+        175.0335,
+        68.4781
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "0d475079-8a0d-49f5-90a4-ffba1587a70a",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        173.3103,
+        69.19
+      ],
+      "end_mm": [
+        174.3216,
+        69.19
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "0e4c5a75-449a-4a81-95c0-0250dae362f2",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        168.75,
+        61.65
+      ],
+      "end_mm": [
+        169.8267,
+        61.65
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "103893b6-2c35-4f96-b260-8375744a5488",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        189.4004,
+        73.5135
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "150c7046-1ea2-4965-be60-f1473e0b084e",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.8185,
+        74.9315
+      ],
+      "end_mm": [
+        189.4004,
+        73.5135
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "173a2eb8-d4d3-4306-a0df-8c63eb58a642",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        186.5868,
+        74.85
+      ],
+      "end_mm": [
+        186.5868,
+        75.822
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "189fa6f3-073b-4612-85f3-153e648f2f45",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        191.425,
+        74.325
+      ],
+      "end_mm": [
+        190.8185,
+        74.9315
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "1b034203-3916-490d-b8e6-81ba97fc5276",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        183.4507,
+        73.0578
+      ],
+      "end_mm": [
+        183.3929,
+        73.0
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "1ebd063d-cdc2-408f-b452-7a158133c95a",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        170.1571,
+        72.2548
+      ],
+      "end_mm": [
+        170.6371,
+        71.7748
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "22ca27d1-8476-499b-b058-30e21b562881",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        169.9874,
+        61.9829
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "2314a2ed-738d-4f1f-945b-b8529849d1d6",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        186.5868,
+        74.85
+      ],
+      "end_mm": [
+        189.6,
+        74.85
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2b13d932-12c9-449d-9030-b1486548db58",
+      "net": "GND",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        187.4,
+        75.5
+      ],
+      "end_mm": [
+        188.225,
+        75.5
+      ],
+      "width_mm": 0.2,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2b2c7b23-c0a7-4e93-bb1e-48e31e0b0235",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        178.8611,
+        72.35
+      ],
+      "end_mm": [
+        176.6375,
+        72.35
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2cc3d3b1-b9aa-4977-9b9e-c204d501e2fa",
+      "net": "SD_CARD_D0",
+      "locked": false,
+      "kind": "track",
+      "start_mm": [
+        182.3625,
+        74.95
+      ],
+      "end_mm": [
+        182.362,
+        74.95
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2dc57da4-96b1-4eaa-9589-73153d9017a8",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        182.125,
+        78.3
+      ],
+      "end_mm": [
+        183.4507,
+        76.9743
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2f09423d-9dff-4c7b-a8da-b2336f8768d6",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        186.1634,
+        73.5135
+      ],
+      "end_mm": [
+        184.4961,
+        75.1808
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "35e96cfd-e68d-4152-9f9f-7fe33566f3f1",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        169.6842,
+        71.6044
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "48f6afd7-b796-41f7-b34e-97194aa508a9",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        170.0076,
+        74.1048
+      ],
+      "end_mm": [
+        172.3359,
+        76.4331
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "50c48ec6-8944-4ddf-8b25-893289dfe959",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        180.1886,
+        75.7092
+      ],
+      "end_mm": [
+        181.5978,
+        74.3
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "558e7936-9f19-42a9-9ab5-25b0cd403879",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.6224,
+        71.6662
+      ],
+      "end_mm": [
+        169.6224,
+        73.7196
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "55adbb9b-ea50-459e-9928-bd604fd3705f",
+      "net": "/STORAGE_SD/SD_CMD_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        172.5732,
+        74.2482
+      ],
+      "end_mm": [
+        171.0,
+        72.675
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "5738e08c-ef41-4a3c-9f4d-e7c764309bd9",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": false,
+      "kind": "track",
+      "start_mm": [
+        182.3625,
+        74.3
+      ],
+      "end_mm": [
+        182.362,
+        74.3
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6176bc3b-56fa-4667-a9a1-638260096fc0",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        180.1886,
+        75.7952
+      ],
+      "end_mm": [
+        180.1886,
+        75.7092
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "619171fb-cb61-420e-a47f-7031c681556c",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        184.4961,
+        75.9711
+      ],
+      "end_mm": [
+        184.4961,
+        75.1808
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "61fe9b9f-2235-4b33-bccc-e7788c5bb82b",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        168.75,
+        59.11
+      ],
+      "end_mm": [
+        169.8267,
+        59.11
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "656561da-c061-4a61-955d-9cdd130b42c5",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        189.6,
+        71.45
+      ],
+      "end_mm": [
+        189.6,
+        71.2733
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6a43cc14-267d-47ac-a82c-54339ef24532",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        172.5588,
+        70.5544
+      ],
+      "end_mm": [
+        172.5588,
+        69.9415
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6fb190b2-d1a9-4043-bd60-59bb0e4d5953",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.0335,
+        68.4781
+      ],
+      "end_mm": [
+        175.0335,
+        66.6135
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "70e6b857-c742-41cd-8459-6034b5e04b57",
+      "net": "/STORAGE_SD/SD_CMD_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.6096,
+        73.65
+      ],
+      "end_mm": [
+        175.0114,
+        74.2482
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "73733c07-35c9-424f-b651-7d219d8886fe",
+      "net": "SD_CARD_CLK",
+      "locked": false,
+      "kind": "track",
+      "start_mm": [
+        176.6375,
+        72.35
+      ],
+      "end_mm": [
+        176.638,
+        72.35
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "76b6e56f-842d-4022-b3b6-25e791a2b02e",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        170.985,
+        59.11
+      ],
+      "end_mm": [
+        169.8267,
+        59.11
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "77ff2dc7-a90a-441d-9247-32a9a54147c9",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.6842,
+        71.6044
+      ],
+      "end_mm": [
+        170.0238,
+        71.6044
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "7ac5a482-f26a-4215-b99b-616990e2b016",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.6842,
+        71.6044
+      ],
+      "end_mm": [
+        169.6224,
+        71.6662
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "7ce1cfc8-2331-4100-a63f-dae72b08473c",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.0,
+        59.125
+      ],
+      "end_mm": [
+        170.985,
+        59.11
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "80a6b2ed-3e1e-44bb-82fd-4611cd74e3df",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        185.2428,
+        73.0578
+      ],
+      "end_mm": [
+        186.5868,
+        74.4018
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "80e08563-c20b-46e9-a8fb-79c0f24329a9",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        191.5504,
+        75.425
+      ],
+      "end_mm": [
+        193.075,
+        75.425
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "84f25c98-9382-49ba-9134-b9ca6d048704",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        170.0238,
+        71.6044
+      ],
+      "end_mm": [
+        171.8754,
+        69.7528
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "8e3d9e19-540d-4bb4-8b96-abbb97f2de10",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        173.3845,
+        65.38
+      ],
+      "end_mm": [
+        173.8,
+        65.38
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "8f8c7ed3-5e54-4b45-9157-629e2fbaaa1f",
+      "net": "/STORAGE_SD/SD_D3_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        174.3351,
+        53.95
+      ],
+      "end_mm": [
+        179.9009,
+        59.5158
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "8fe5af54-bebd-4494-a2fb-e1da0996502d",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        181.0656,
+        70.1455
+      ],
+      "end_mm": [
+        178.8611,
+        72.35
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "911cf833-b976-4f43-95e3-8e9bba56c036",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        184.7,
+        69.825
+      ],
+      "end_mm": [
+        184.3795,
+        70.1455
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "97ab0512-49b9-4e05-bf5e-ac8bc5e25a2f",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.5778,
+        69.7528
+      ],
+      "end_mm": [
+        171.0,
+        69.175
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "980a4054-87a5-42ae-b68b-cbcf0f090d7c",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        187.4497,
+        76.6849
+      ],
+      "end_mm": [
+        190.2905,
+        76.6849
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "99200311-a17c-4c25-a4e2-2d1157c0f400",
+      "net": "/STORAGE_SD/SD_CMD_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        176.6375,
+        73.65
+      ],
+      "end_mm": [
+        175.6096,
+        73.65
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "9f054e0a-d319-47d9-aca1-a97b0e419107",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.3384,
+        71.7748
+      ],
+      "end_mm": [
+        172.5588,
+        70.5544
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "a17b020b-8fec-4421-a2b2-c0424f912cbd",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        184.4961,
+        75.1808
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "a2fb7b46-e672-41e8-91f1-9984f3208fc2",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        172.3359,
+        76.4331
+      ],
+      "end_mm": [
+        179.5507,
+        76.4331
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "a3d68400-ffc0-4eae-a7cf-035bcfcd8ca8",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        188.1517,
+        69.825
+      ],
+      "end_mm": [
+        184.7,
+        69.825
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "a6d6a53d-867c-4d32-b3d5-fe3705b9133c",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.0,
+        74.325
+      ],
+      "end_mm": [
+        171.0,
+        74.2109
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "a8a6d400-7471-4089-9728-8f11ecf58460",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        172.5588,
+        69.9415
+      ],
+      "end_mm": [
+        173.3103,
+        69.19
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "a976a585-9fb9-4e9c-9742-0982c6718a97",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        193.075,
+        74.325
+      ],
+      "end_mm": [
+        191.425,
+        74.325
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ace8d4e7-c0f7-4b87-b30b-c2ffdbdb4443",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        183.3929,
+        73.0
+      ],
+      "end_mm": [
+        182.3625,
+        73.0
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ade2c1e6-716f-41e1-9248-28e302d8b939",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        182.3625,
+        75.8816
+      ],
+      "end_mm": [
+        182.3625,
+        74.95
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "af0c26ef-1314-4eb1-a246-90f9bf54688d",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        193.075,
+        72.125
+      ],
+      "end_mm": [
+        190.275,
+        72.125
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "b2f5e939-799b-4c93-860f-d8b9b7e344c9",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.275,
+        72.125
+      ],
+      "end_mm": [
+        189.6,
+        71.45
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "b4fbc028-b60d-4db1-8b9b-9e65da0b4bd7",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        183.0633,
+        75.1808
+      ],
+      "end_mm": [
+        184.4961,
+        75.1808
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "b6334a4a-9fba-4720-a6c4-becb6414e808",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        183.4507,
+        76.9743
+      ],
+      "end_mm": [
+        183.4507,
+        73.0578
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "baf111de-5917-428a-b454-5817ba4946d5",
+      "net": "/STORAGE_SD/SD_CMD_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.0114,
+        74.2482
+      ],
+      "end_mm": [
+        172.5732,
+        74.2482
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "be69d80f-5b9c-42e5-b198-963ebf725e5e",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.8754,
+        69.7528
+      ],
+      "end_mm": [
+        171.5778,
+        69.7528
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c0c2cfb5-4d6a-4a1a-8916-5321f8877f2a",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.6224,
+        73.7196
+      ],
+      "end_mm": [
+        170.0076,
+        74.1048
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c18b4352-e297-4bfa-ba51-909a224610d5",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        180.1886,
+        75.7952
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "c6e3bc2b-f19f-4427-be46-9d45cd8df15b",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        182.2254,
+        76.0187
+      ],
+      "end_mm": [
+        183.0633,
+        75.1808
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "c78f9092-5e1c-4a67-8291-e5347d538208",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        181.5978,
+        74.3
+      ],
+      "end_mm": [
+        182.3625,
+        74.3
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c96b570a-eb6b-4af9-9422-395f44a32724",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        186.5868,
+        74.4018
+      ],
+      "end_mm": [
+        186.5868,
+        74.85
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "caf859c0-666c-4c61-84cd-97dbe3179d86",
+      "net": "GND",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        188.225,
+        75.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "cc879a83-5877-4811-9bba-fd4cf510fcae",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.9874,
+        61.9829
+      ],
+      "end_mm": [
+        173.3845,
+        65.38
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "d1468eb6-a7b2-4333-9009-87c4a04b3101",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        184.3795,
+        70.1455
+      ],
+      "end_mm": [
+        181.0656,
+        70.1455
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "d62ede03-ed6c-40f8-88e1-0902f785ab24",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        186.5868,
+        75.822
+      ],
+      "end_mm": [
+        187.4497,
+        76.6849
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "d7ca7b68-4660-4c9a-8e03-82dc81e52245",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        182.2254,
+        76.0187
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "d7d90043-08fa-4fa5-994c-96aa12b4ba58",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.2905,
+        76.6849
+      ],
+      "end_mm": [
+        191.5504,
+        75.425
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "de62e46a-0e0b-4029-999a-481985394dcd",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        171.8754,
+        69.7528
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "e014fc29-1932-4880-88ed-db703d3aa61a",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        170.0076,
+        74.1048
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "e4117683-319e-4e9b-bfac-d1788f20e14f",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.8185,
+        74.9315
+      ],
+      "end_mm": [
+        189.6,
+        76.15
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ebbede07-d7f9-4938-862d-c96526550af5",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.8267,
+        61.65
+      ],
+      "end_mm": [
+        169.8267,
+        61.8222
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ebfd1f06-40ac-4d24-8366-4c9ac52cf280",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        184.7,
+        76.175
+      ],
+      "end_mm": [
+        184.4961,
+        75.9711
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "eca7f813-5594-4f11-977d-596d91540f04",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        179.5507,
+        76.4331
+      ],
+      "end_mm": [
+        180.1886,
+        75.7952
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "efa85855-ab4a-4f1c-ad18-f6017701b748",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        183.4507,
+        73.0578
+      ],
+      "end_mm": [
+        185.2428,
+        73.0578
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "f18c81ed-048c-41fc-b653-95324218939a",
+      "net": "TOUCH_INT",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        164.5439,
+        62.9272
+      ],
+      "end_mm": [
+        171.3442,
+        56.1269
+      ],
+      "width_mm": 0.2,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "f619a3d5-30a9-4c56-a77a-230279028267",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.8267,
+        61.8222
+      ],
+      "end_mm": [
+        169.9874,
+        61.9829
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "f7dac93b-5936-4474-964b-abe7cd04f433",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        182.2254,
+        76.0187
+      ],
+      "end_mm": [
+        182.3625,
+        75.8816
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "fd0d045f-9796-48b5-868b-9ca77e6ccbab",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.0335,
+        66.6135
+      ],
+      "end_mm": [
+        173.8,
+        65.38
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    }
+  ],
+  "added_items": [
+    {
+      "uuid": "06290a08-9587-4ccf-ac24-763db38183b2",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        188.0,
+        74.0
+      ],
+      "end_mm": [
+        188.0,
+        72.0
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "0cd16f51-00f6-4689-bb9b-0d37b0d0bf2e",
+      "net": "/STORAGE_SD/SD_D3_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.4,
+        52.75
+      ],
+      "end_mm": [
+        176.3,
+        52.75
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "0f83791e-8223-46a9-b8d9-a2efed0a0178",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        187.1,
+        69.825
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "11ca893a-b63a-4b34-80af-4ac7cee882d4",
+      "net": "TOUCH_INT",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.7731,
+        56.1269
+      ],
+      "end_mm": [
+        171.3442,
+        56.1269
+      ],
+      "width_mm": 0.25,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "126433df-867a-4521-b671-a3fd758b81ec",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        164.5,
+        59.11
+      ],
+      "end_mm": [
+        164.2,
+        59.41
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "1b6abee8-84d7-4cbe-b83d-234e24a25b9e",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        172.13,
+        70.0074
+      ],
+      "end_mm": [
+        172.13,
+        73.6
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "1bbd5a3c-a1a9-4041-840c-6327a9398eec",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        188.2,
+        74.85
+      ],
+      "end_mm": [
+        190.1,
+        74.85
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2093b608-cad3-456a-91df-aca484059dd9",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        188.9,
+        74.0
+      ],
+      "end_mm": [
+        189.2,
+        74.3
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "24a39a11-a123-40f6-8d0d-80dc8467adf7",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        184.7,
+        69.825
+      ],
+      "end_mm": [
+        187.1,
+        69.825
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "276fd6fc-6cd0-4d77-9270-e5b90819eb60",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        185.2428,
+        73.0578
+      ],
+      "end_mm": [
+        186.5868,
+        74.4018
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2857d8b6-0c15-4348-a7de-44f76888c3f0",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        187.1,
+        69.825
+      ],
+      "end_mm": [
+        187.1,
+        74.0
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "2893d8c3-9ce6-4a22-833e-64ce4a0c8401",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        170.6371,
+        71.7748
+      ],
+      "end_mm": [
+        169.575,
+        72.8369
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "29359989-e038-4939-aec0-bfbfed98c9be",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        182.3625,
+        73.0
+      ],
+      "end_mm": [
+        183.3929,
+        73.0
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "2c43312a-492e-42ac-a02e-cb5f7ee08346",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.1,
+        74.85
+      ],
+      "end_mm": [
+        190.625,
+        74.325
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "30d39bc0-1010-4b6c-93de-527b249e807e",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        171.8754,
+        69.7528
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "3485bd09-ccdc-4c0e-97a4-113b69a0c15f",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        177.5,
+        75.9
+      ],
+      "end_mm": [
+        177.5,
+        78.85
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "3837ac97-cf83-4f03-8a8d-6b2f1d8e3620",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        186.5868,
+        74.4018
+      ],
+      "end_mm": [
+        186.5868,
+        75.822
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "3a7ffdc8-4c7f-4ae8-b645-6bc0ffe0b518",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        170.5,
+        59.11
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "3e7894c4-d360-404f-a90c-1224598b3970",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.4,
+        72.125
+      ],
+      "end_mm": [
+        190.275,
+        72.125
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "41586b25-fc7c-4ba4-8b18-847d3ef90dc8",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        188.6,
+        71.7
+      ],
+      "end_mm": [
+        188.9,
+        72.0
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "4318d0c8-aa79-470b-a82c-03c8d2df5f45",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        170.5,
+        59.11
+      ],
+      "end_mm": [
+        171.0,
+        59.125
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "43426e14-dce0-4a7e-be25-058bdaf94e90",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        183.4507,
+        73.0578
+      ],
+      "end_mm": [
+        185.2428,
+        73.0578
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "437c8dbf-ae63-4cf5-b4a6-7a47df2b1599",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        189.5,
+        74.3
+      ],
+      "end_mm": [
+        189.8,
+        74.0
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "4e9cff0e-f752-47cc-9fba-4fda79fc2e13",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.8754,
+        69.7528
+      ],
+      "end_mm": [
+        172.13,
+        70.0074
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "51828653-3b58-4bed-913d-4dca049ebe2d",
+      "net": "/STORAGE_SD/SD_D3_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        176.6,
+        53.05
+      ],
+      "end_mm": [
+        176.6,
+        56.2149
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "53726b26-3e68-4463-9833-3fd859695c0d",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        187.4,
+        74.3
+      ],
+      "end_mm": [
+        187.7,
+        74.3
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "53de8ff1-0f41-4a6a-8a93-563d1fbd94f8",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        186.9148,
+        76.15
+      ],
+      "end_mm": [
+        187.4,
+        76.15
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "549025ff-436b-40c2-8db1-c241cec34e90",
+      "net": "/STORAGE_SD/SD_CMD_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.6096,
+        73.65
+      ],
+      "end_mm": [
+        176.6375,
+        73.65
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "59d5af45-fdcb-4043-9bd1-c2022fb43615",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        188.3,
+        71.7
+      ],
+      "end_mm": [
+        188.6,
+        71.7
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "5f73d6f4-7560-464a-8f4a-ce3513e8d37a",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        178.3,
+        79.15
+      ],
+      "end_mm": [
+        178.6,
+        78.85
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "61a127a0-3337-41b9-992e-968276f389e7",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        177.2,
+        75.6
+      ],
+      "end_mm": [
+        177.5,
+        75.9
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "6550b658-de12-4fee-8990-44153da4eece",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        176.6375,
+        72.35
+      ],
+      "end_mm": [
+        178.8611,
+        72.35
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6596c435-5b2d-4f40-94f3-847a93272860",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.275,
+        72.125
+      ],
+      "end_mm": [
+        189.6,
+        71.45
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "664af458-6bde-4fbb-baa9-32b3ce3f630b",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        173.8,
+        65.379999
+      ],
+      "end_mm": [
+        175.0335,
+        66.6135
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "667948f1-9d96-4210-97a9-c7c18a448371",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        172.5588,
+        70.5544
+      ],
+      "end_mm": [
+        171.3384,
+        71.7748
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6add841d-7821-498a-bd48-00953fdc08bb",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        186.5868,
+        75.822
+      ],
+      "end_mm": [
+        186.9148,
+        76.15
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6b11e446-da2e-4533-a001-6ac1f80a2c8e",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.0335,
+        68.4781
+      ],
+      "end_mm": [
+        174.3216,
+        69.19
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "6f6f0551-0ccf-4aee-a46b-6fd7467f5c2c",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        164.2,
+        59.41
+      ],
+      "end_mm": [
+        164.2,
+        59.7
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "7174ba9e-62ff-4d74-9706-ab5834068ada",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.1,
+        70.5
+      ],
+      "end_mm": [
+        190.4,
+        70.8
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "76412021-af04-482a-b6d5-a5626cb350de",
+      "net": "GND",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        165.7,
+        61.2
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "77031413-caa7-429f-b448-bb04442c981f",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        187.8692,
+        75.1808
+      ],
+      "end_mm": [
+        188.2,
+        74.85
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "78a6bdec-ef61-454b-b618-0b14f12a84df",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        178.8611,
+        72.35
+      ],
+      "end_mm": [
+        181.0656,
+        70.1455
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "78d118d0-2ef6-49e3-bbf7-0e483eefa8c9",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.0335,
+        66.6135
+      ],
+      "end_mm": [
+        175.0335,
+        68.4781
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "7a60a7ae-9002-4e15-a821-3222cc82415d",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        187.7,
+        74.3
+      ],
+      "end_mm": [
+        188.0,
+        74.0
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "7bb40106-99b3-497f-b09b-8c25fe1f2b56",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        174.13,
+        75.6
+      ],
+      "end_mm": [
+        177.2,
+        75.6
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "7dba8bff-b7c5-4060-96a2-e6a9b95b8e52",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        177.8,
+        79.15
+      ],
+      "end_mm": [
+        178.3,
+        79.15
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "7e099284-690f-4ab4-9905-17d78631310e",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        184.4961,
+        75.1808
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "7f670abd-5f61-4473-8ea4-cded4d7c4926",
+      "net": "/STORAGE_SD/SD_D3_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        174.8,
+        53.95
+      ],
+      "end_mm": [
+        175.1,
+        53.65
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "7ff3f8f6-55eb-40ff-8d64-1ef04eaa114e",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        180.1886,
+        75.7952
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "802bdb87-1278-4b50-b858-86f84ac79814",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        181.0656,
+        70.1455
+      ],
+      "end_mm": [
+        184.3795,
+        70.1455
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "8079c079-1691-452d-b490-cb9ac4f0c7dc",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        188.0,
+        72.0
+      ],
+      "end_mm": [
+        188.3,
+        71.7
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "8841caaa-ff48-4396-bc5b-cb18b4a80304",
+      "net": "GND",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        189.6,
+        75.5
+      ],
+      "end_mm": [
+        190.4,
+        75.5
+      ],
+      "width_mm": 0.25,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "887293be-b2df-4a83-b9dd-4b8aed7b76be",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        166.8,
+        60.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "88b3dd09-7d7e-442f-a35d-b7c86a8e560d",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        164.5,
+        60.0
+      ],
+      "end_mm": [
+        166.8,
+        60.0
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "894dd519-578a-4045-81aa-951a444ffb30",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.4,
+        72.125
+      ],
+      "end_mm": [
+        193.075,
+        72.125
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "91bce367-6221-4be9-a59d-f03910307894",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        183.4507,
+        76.9743
+      ],
+      "end_mm": [
+        183.4507,
+        73.0578
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "92a2baaf-99c1-4749-bb36-79dc176904ca",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        164.2,
+        59.7
+      ],
+      "end_mm": [
+        164.5,
+        60.0
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "92cb0ece-a7e3-4dce-a282-1c16a956d662",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        168.75,
+        61.65
+      ],
+      "end_mm": [
+        169.8267,
+        61.65
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "9361b3cb-6215-4334-9b84-df9f6b84fbcb",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        182.2254,
+        76.0187
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "94c42c35-59c8-4a9c-9189-d762e9cbc429",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        169.9874,
+        61.9829
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "95f569dc-71d7-4cd1-adf1-198410dbdd47",
+      "net": "/STORAGE_SD/SD_D3_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        174.3351,
+        53.95
+      ],
+      "end_mm": [
+        174.8,
+        53.95
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "997a7041-9a58-45db-9f0e-e7de9dbfc656",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        167.69,
+        59.11
+      ],
+      "end_mm": [
+        170.5,
+        59.11
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "9b00cc88-b58c-4541-9baf-ee7a9e02289a",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        184.7,
+        76.175
+      ],
+      "end_mm": [
+        184.4961,
+        75.9711
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "9d141440-e6ff-4d4e-8e2e-d7c45a0c3319",
+      "net": "GND",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        190.4,
+        75.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "9f6b8d24-f042-4e4b-bf5f-8d8d600abba0",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        179.9934,
+        75.6
+      ],
+      "end_mm": [
+        180.1886,
+        75.7952
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "9fb52bfd-a0be-432b-9d1c-9af14af81350",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        181.5978,
+        74.3
+      ],
+      "end_mm": [
+        182.3625,
+        74.3
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "a0349394-eb8b-4c83-88a2-255e4062deca",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        190.4,
+        72.125
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "a12d2c6a-18a5-429f-8cc8-adadb963c4d8",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        182.2254,
+        76.0187
+      ],
+      "end_mm": [
+        183.0633,
+        75.1808
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "a2e38542-29cd-4718-b43b-e095e22a45c7",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        188.9,
+        72.0
+      ],
+      "end_mm": [
+        188.9,
+        74.0
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "a3d5d19a-f574-46fe-bee5-723053d78fb6",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        188.2,
+        74.85
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "a5841b57-7963-4213-add5-a4742a75a9fb",
+      "net": "TOUCH_INT",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        164.5439,
+        62.9272
+      ],
+      "end_mm": [
+        164.5439,
+        61.3561
+      ],
+      "width_mm": 0.25,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "a5a0cc4c-b714-47c9-8a30-c068663a2c0c",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        182.3625,
+        75.8816
+      ],
+      "end_mm": [
+        182.2254,
+        76.0187
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "a8956347-a46a-4f8a-84bc-db5ddd46024b",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.575,
+        72.8369
+      ],
+      "end_mm": [
+        169.575,
+        72.85
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ad73bff7-9f2a-4d2a-9c60-5d4789dc2a0f",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        189.2,
+        74.3
+      ],
+      "end_mm": [
+        189.5,
+        74.3
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "af07e82e-8d99-4666-b41b-2cf3bc6b35d8",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.7,
+        76.15
+      ],
+      "end_mm": [
+        191.425,
+        75.425
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "afeabd09-656b-4b76-bfba-0d74bd470ea2",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        180.1886,
+        75.7952
+      ],
+      "end_mm": [
+        180.1886,
+        75.7092
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "b126345c-1f82-43db-b708-9cfd81381768",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.625,
+        74.325
+      ],
+      "end_mm": [
+        193.075,
+        74.325
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "b2123cf4-d102-40a2-8609-5870b1a24331",
+      "net": "GND",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        190.4,
+        73.1
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "b9b0d3ee-80f4-4e78-84e9-425e31c4b66c",
+      "net": "/STORAGE_SD/SD_D3_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        176.3,
+        52.75
+      ],
+      "end_mm": [
+        176.6,
+        53.05
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ba2a5ecf-e169-417e-94eb-304fe7537490",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.0,
+        69.175
+      ],
+      "end_mm": [
+        171.8754,
+        69.7528
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ba3d0465-4f07-42df-9502-7eeee6192b3d",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        172.13,
+        73.6
+      ],
+      "end_mm": [
+        174.13,
+        75.6
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "ba8b8775-2c52-4d1c-bfa0-798192f9d882",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.8267,
+        61.65
+      ],
+      "end_mm": [
+        169.8267,
+        61.8222
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "bc56c98c-56b8-42a3-9e86-fdbc69d64dfa",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        173.3845,
+        65.379999
+      ],
+      "end_mm": [
+        173.8,
+        65.379999
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "c136440d-d2e3-44f3-ae03-4ced8024d92a",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        189.8,
+        74.0
+      ],
+      "end_mm": [
+        189.8,
+        70.8
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "c770faa6-9362-417a-aa43-3365a81d29ea",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.8267,
+        61.8222
+      ],
+      "end_mm": [
+        169.9874,
+        61.9829
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c8156238-4d02-4cba-a79b-5e86eb88a525",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        180.1886,
+        75.7092
+      ],
+      "end_mm": [
+        181.5978,
+        74.3
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "c86f8293-c1d6-402c-8d98-e7c28f07d3b8",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        184.3795,
+        70.1455
+      ],
+      "end_mm": [
+        184.7,
+        69.825
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "cdd6c506-699e-480b-a2e4-2b53e308f1b3",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        168.75,
+        59.11
+      ],
+      "end_mm": [
+        164.5,
+        59.11
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "cff3deb0-b115-420b-8bef-ed1081048d3b",
+      "net": "SD_D2",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        166.8,
+        60.0
+      ],
+      "end_mm": [
+        167.69,
+        59.11
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "d3cd9701-1f47-4d64-84b0-270f4f4e36c4",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        182.125,
+        78.3
+      ],
+      "end_mm": [
+        183.4507,
+        76.9743
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "d50c4de6-5195-44d1-b285-c3475bee3a2e",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        173.3103,
+        69.19
+      ],
+      "end_mm": [
+        172.5588,
+        69.9415
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "d61f1664-e1e8-4d2f-91e6-7337f2db7aba",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        183.0633,
+        75.1808
+      ],
+      "end_mm": [
+        187.8692,
+        75.1808
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "d7552bbb-b39e-4684-9a9e-fe4cf1e93cfb",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        191.425,
+        75.425
+      ],
+      "end_mm": [
+        193.075,
+        75.425
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "d90e0946-86e5-4cfb-9040-67bcb2874d77",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        187.4,
+        76.15
+      ],
+      "end_mm": [
+        190.7,
+        76.15
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "daab3846-986f-42c7-9b96-37c0ff54f4f3",
+      "net": "/STORAGE_SD/SD_D3_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        176.6,
+        56.2149
+      ],
+      "end_mm": [
+        179.9009,
+        59.5158
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "dc1c608c-dfe0-49d5-a7cb-7ee704fa68a5",
+      "net": "GND",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        170.0,
+        59.8
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "dc562dd3-8c28-4b0d-84e2-576609dda77d",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        178.6,
+        78.85
+      ],
+      "end_mm": [
+        178.6,
+        75.9
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "dd7354f6-6279-4525-96f3-2f0e67fc730b",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        178.9,
+        75.6
+      ],
+      "end_mm": [
+        179.9934,
+        75.6
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "de5e190b-e546-4fa9-a9cd-9723cb12a102",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        182.3625,
+        74.95
+      ],
+      "end_mm": [
+        182.3625,
+        75.8816
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "e010bf8e-b39e-406e-a464-4172a1ccdfbe",
+      "net": "/STORAGE_SD/SD_D3_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.1,
+        53.05
+      ],
+      "end_mm": [
+        175.4,
+        52.75
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "e22618cd-62dc-4e41-8978-2cb8b4f0f4c9",
+      "net": "/STORAGE_SD/SD_D3_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.1,
+        53.65
+      ],
+      "end_mm": [
+        175.1,
+        53.05
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "e6c8fef4-199d-48d0-92ac-6a5e5e088b90",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        184.4961,
+        75.9711
+      ],
+      "end_mm": [
+        184.4961,
+        75.1808
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "e7d5f984-0510-4e6b-9963-f2facedb2903",
+      "net": "/STORAGE_SD/SD_CMD_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        175.0114,
+        74.2482
+      ],
+      "end_mm": [
+        175.6096,
+        73.65
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ea34595b-9153-4999-ad36-e8b681f7ccfa",
+      "net": "TOUCH_INT",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        164.5439,
+        61.3561
+      ],
+      "end_mm": [
+        169.7731,
+        56.1269
+      ],
+      "width_mm": 0.25,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "eab05f78-7efc-41dc-b8d8-e00466a162e9",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        172.5588,
+        69.9415
+      ],
+      "end_mm": [
+        172.5588,
+        70.5544
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "eafb566d-589a-449f-bba1-d92cb1ec03c6",
+      "net": "SD_CARD_D0",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        187.4,
+        74.85
+      ],
+      "end_mm": [
+        188.2,
+        74.85
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ecc5bc2f-42f1-482d-9c03-5e4d1012b234",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        187.1,
+        74.0
+      ],
+      "end_mm": [
+        187.4,
+        74.3
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "ef6ea6d2-a767-4f10-bd5c-e6861b11907e",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        178.6,
+        75.9
+      ],
+      "end_mm": [
+        178.9,
+        75.6
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "f345b145-f40f-45ea-bc69-7bd5982dc64c",
+      "net": "SD_CARD_D1",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        183.3929,
+        73.0
+      ],
+      "end_mm": [
+        183.4507,
+        73.0578
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "f5db5a88-5934-4434-a06c-0c38bae0cc19",
+      "net": "/STORAGE_SD/SD_CMD_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        172.6232,
+        74.2482
+      ],
+      "end_mm": [
+        175.0114,
+        74.2482
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "f684b7a9-a9ca-4ade-8acd-d28dcadf75dd",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        189.8,
+        70.8
+      ],
+      "end_mm": [
+        190.1,
+        70.5
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "f753c329-6246-4179-a41d-891d3f9ea90c",
+      "net": "GND",
+      "locked": true,
+      "kind": "via",
+      "at_mm": [
+        188.0,
+        69.65
+      ],
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "uuid": "fe3e8ff5-7460-4ca1-b7cc-04ef11edba61",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        174.3216,
+        69.19
+      ],
+      "end_mm": [
+        173.3103,
+        69.19
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "fe42c39e-1f60-4408-b922-cf716bdb6cd8",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.3384,
+        71.7748
+      ],
+      "end_mm": [
+        170.6371,
+        71.7748
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ff20affb-97c2-4cfd-bf93-b0e60177012f",
+      "net": "SD_CARD_CLK",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        190.4,
+        70.8
+      ],
+      "end_mm": [
+        190.4,
+        72.125
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "ff58f0ed-ee88-444e-9aed-b5bf0f9f1dab",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        177.5,
+        78.85
+      ],
+      "end_mm": [
+        177.8,
+        79.15
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    },
+    {
+      "uuid": "ff94e761-6269-4c65-9670-3dbe71ded069",
+      "net": "/STORAGE_SD/SD_CMD_BUS",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        171.225,
+        72.85
+      ],
+      "end_mm": [
+        172.6232,
+        74.2482
+      ],
+      "width_mm": 0.35,
+      "layer": "F.Cu"
+    },
+    {
+      "uuid": "ffc34c80-2f95-4ef8-8100-0031537ff591",
+      "net": "SD_CMD",
+      "locked": true,
+      "kind": "track",
+      "start_mm": [
+        169.9874,
+        61.9829
+      ],
+      "end_mm": [
+        173.3845,
+        65.379999
+      ],
+      "width_mm": 0.35,
+      "layer": "B.Cu"
+    }
+  ],
+  "modified_existing_uuids": [],
+  "footprint_changes": [
+    {
+      "reference": "U703",
+      "uuid": "0680801f-2677-594a-a7b7-420d5208cf22",
+      "old_position_mm": [
+        188.5,
+        75.5
+      ],
+      "new_position_mm": [
+        188.5,
+        75.5
+      ],
+      "old_orientation_degrees": 180.0,
+      "new_orientation_degrees": 0.0,
+      "new_reference_position_mm": [
+        188.5,
+        77.6
+      ],
+      "new_reference_angle_degrees": 0.0
+    },
+    {
+      "reference": "R711",
+      "uuid": "b3cd7940-e266-5c1b-a649-fcb29ec53b3f",
+      "old_position_mm": [
+        171.0,
+        73.5
+      ],
+      "new_position_mm": [
+        170.4,
+        72.85
+      ],
+      "old_orientation_degrees": 90.0,
+      "new_orientation_degrees": 0.0,
+      "new_reference_position_mm": [
+        170.4,
+        74.2
+      ],
+      "new_reference_angle_degrees": 0.0
+    }
+  ],
+  "SD_summary": {
+    "CLK": {
+      "main_total_mm": 50.34763838182892,
+      "main_layer_transitions": 2,
+      "debug_stub_estimate_mm": 7.831834703247906,
+      "skew_from_clk_mm": 0.0,
+      "within_50_8mm": true,
+      "within_1_27mm_skew": true
+    },
+    "CMD": {
+      "main_total_mm": 50.39427039891725,
+      "main_layer_transitions": 4,
+      "debug_stub_estimate_mm": 0,
+      "skew_from_clk_mm": 0.04663201708832787,
+      "within_50_8mm": true,
+      "within_1_27mm_skew": true
+    },
+    "D0": {
+      "main_total_mm": 50.358461372255064,
+      "main_layer_transitions": 4,
+      "debug_stub_estimate_mm": 19.212655720079525,
+      "skew_from_clk_mm": 0.010822990426142098,
+      "within_50_8mm": true,
+      "within_1_27mm_skew": true
+    },
+    "D1": {
+      "main_total_mm": 50.38086976244469,
+      "main_layer_transitions": 4,
+      "debug_stub_estimate_mm": 13.545741380360724,
+      "skew_from_clk_mm": 0.03323138061576714,
+      "within_50_8mm": true,
+      "within_1_27mm_skew": true
+    },
+    "D2": {
+      "main_total_mm": 49.541514313950195,
+      "main_layer_transitions": 4,
+      "debug_stub_estimate_mm": 6.607936619427721,
+      "skew_from_clk_mm": -0.8061240678787271,
+      "within_50_8mm": true,
+      "within_1_27mm_skew": true
+    },
+    "D3": {
+      "main_total_mm": 50.697469718898375,
+      "main_layer_transitions": 4,
+      "debug_stub_estimate_mm": 0,
+      "skew_from_clk_mm": 0.34983133706945324,
+      "within_50_8mm": true,
+      "within_1_27mm_skew": true
+    }
+  },
+  "note": "Merge copper by native UUID, apply two footprint transforms/reference coordinates, and refill existing planes. Do not replace root candidate wholesale; unrelated closure work continues. All USB geometries are preserved. Raw SD_D0/SD_D1 unchanged from base, allowing independent debug-stub work."
+}

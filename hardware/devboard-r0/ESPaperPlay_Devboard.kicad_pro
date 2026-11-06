@@ -155,7 +155,7 @@
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.6,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -206,7 +206,18 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0,
+        0.15,
+        0.2,
+        0.26,
+        0.3,
+        0.35,
+        0.5,
+        0.6,
+        0.8,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +244,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.45,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -267,7 +291,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESPaperPlay_Devboard.kicad_pro",
+    "filename": "r8-seed.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -276,14 +300,110 @@
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.25,
+        "diff_pair_width": 0.26,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.26,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "EPD_HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.26,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.26,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_LOAD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.26,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_QUIET",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.26,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SD_50R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.26,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB_90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.26,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -294,7 +414,200 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR_1A",
+        "pattern": "VIN_5V"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "SYS_RAW"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "SYS"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "USB_5V_PROTECTED"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "USB_VBUS"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "BAT_PROT"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "3V3_AON"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "BENCH_5V"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "/POWER_3V3_CONTROL/3V3_REG"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "/POWER_INPUT_CHARGER/BAT_PACK_P"
+      },
+      {
+        "netclass": "PWR_LOAD",
+        "pattern": "AMP_SYS"
+      },
+      {
+        "netclass": "PWR_LOAD",
+        "pattern": "EPD_3V3"
+      },
+      {
+        "netclass": "PWR_LOAD",
+        "pattern": "SD_3V3"
+      },
+      {
+        "netclass": "PWR_LOAD",
+        "pattern": "/POWER_DOMAINS/AMP_SW"
+      },
+      {
+        "netclass": "PWR_LOAD",
+        "pattern": "/POWER_DOMAINS/EPD_SW"
+      },
+      {
+        "netclass": "PWR_LOAD",
+        "pattern": "/POWER_DOMAINS/SD_SW"
+      },
+      {
+        "netclass": "PWR_QUIET",
+        "pattern": "MIC_3V3"
+      },
+      {
+        "netclass": "PWR_QUIET",
+        "pattern": "TOUCH_3V3"
+      },
+      {
+        "netclass": "PWR_QUIET",
+        "pattern": "/POWER_DOMAINS/MIC_SW"
+      },
+      {
+        "netclass": "PWR_QUIET",
+        "pattern": "/POWER_DOMAINS/TOUCH_SW"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "/STORAGE_SD/SD_CLK_BUS"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "/STORAGE_SD/SD_CMD_BUS"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "/STORAGE_SD/SD_D0_BUS"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "/STORAGE_SD/SD_D1_BUS"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "/STORAGE_SD/SD_D2_BUS"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "/STORAGE_SD/SD_D3_BUS"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_CARD_CLK"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_CARD_CMD"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_CARD_D0"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_CARD_D1"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_CARD_D2"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_CARD_D3"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_CLK"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_CMD"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_D0"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_D1"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_D2"
+      },
+      {
+        "netclass": "SD_50R",
+        "pattern": "SD_D3"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "/USB_INPUT/USB_DM_PORT"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "/USB_INPUT/USB_DP_PORT"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "USB_DM_MCU"
+      },
+      {
+        "netclass": "USB_90R",
+        "pattern": "USB_DP_MCU"
+      },
+      {
+        "netclass": "EPD_HV",
+        "pattern": "EPD_PREVGH"
+      },
+      {
+        "netclass": "EPD_HV",
+        "pattern": "EPD_PREVGL"
+      },
+      {
+        "netclass": "EPD_HV",
+        "pattern": "EPD_VSH1"
+      },
+      {
+        "netclass": "EPD_HV",
+        "pattern": "EPD_VSHR"
+      },
+      {
+        "netclass": "EPD_HV",
+        "pattern": "EPD_VSL"
+      },
+      {
+        "netclass": "EPD_HV",
+        "pattern": "EPD_VCOM"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

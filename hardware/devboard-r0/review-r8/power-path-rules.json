@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "scope": "Engineering review targets for PCB copper only, not current-rating or thermal qualification. Limits may be revised with explicit reasoning before evaluation.",
+  "material_assumptions": {
+    "copper_resistivity_20C_ohm_m": 1.724e-8,
+    "copper_temperature_coefficient_per_C": 0.00393,
+    "outer_copper_thickness_um": 35,
+    "via_finished_hole_plating_um": 20,
+    "via_length_mm": 1.6,
+    "stress_calculation_temperature_C": 85,
+    "note": "Nominal assumptions only. Actual finished copper/plating/stackup must be confirmed by fabricator. 85C is an arithmetic copper-resistance sensitivity case, not approved battery operating temperature."
+  },
+  "formulae": {
+    "trace_resistance": "rho20 * length_m / (width_m * thickness_m)",
+    "via_resistance": "rho20 * board_thickness_m / (pi * ((hole_radius_m + plating_m)^2 - hole_radius_m^2))",
+    "temperature_resistance": "R20 * (1 + alpha * (temperature_C - 20))"
+  },
+  "short_neck_policy": "Small pin escapes can be narrower than trunk target. Flag when cumulative sub-target track length on the chosen path exceeds the per-path allowance. Do not count only individual segment lengths, which would hide a long narrow route split into many pieces.",
+  "path_rules": [
+    {"id":"usb_before_ptc","from":"J501.A4","to":"F501.1","trunk_min_mm":0.8,"narrow_allowance_mm":4,"review_R20_mohm":30},
+    {"id":"usb_protected_to_selector","from":"F501.2","to":"J502.1","trunk_min_mm":0.8,"narrow_allowance_mm":3,"review_R20_mohm":40},
+    {"id":"bench_to_selector","from":"J101.1","to":"J502.3","trunk_min_mm":0.8,"narrow_allowance_mm":3,"review_R20_mohm":60},
+    {"id":"selected_input_to_charger_cap","from":"J502.2","to":"C101.1","trunk_min_mm":0.8,"narrow_allowance_mm":3,"review_R20_mohm":60},
+    {"id":"charger_input_local","from":"C101.1","to":"U101.13","trunk_min_mm":0.5,"narrow_allowance_mm":2,"review_R20_mohm":15},
+    {"id":"charger_output_local","from":"U101.10","to":"R101.1","trunk_min_mm":0.6,"narrow_allowance_mm":2,"review_R20_mohm":30},
+    {"id":"sys_main_converter_feed","from":"R101.2","to":"C201.1","trunk_min_mm":1.0,"narrow_allowance_mm":3,"review_R20_mohm":40},
+    {"id":"sys_amplifier_feed","from":"R101.2","to":"U405.1","trunk_min_mm":0.6,"narrow_allowance_mm":4,"review_R20_mohm":80},
+    {"id":"battery_pack_to_link","from":"J102.1","to":"R102.1","trunk_min_mm":1.0,"narrow_allowance_mm":3,"review_R20_mohm":25},
+    {"id":"battery_link_to_charger_cap","from":"R102.2","to":"C103.1","trunk_min_mm":1.0,"narrow_allowance_mm":3,"review_R20_mohm":50,"avoid_intermediate_pads":["U203.2","U203.3","C204.1"]},
+    {"id":"charger_battery_local","from":"C103.1","to":"U101.2","trunk_min_mm":0.6,"narrow_allowance_mm":2,"review_R20_mohm":15},
+    {"id":"main_converter_input_local","from":"C201.1","to":"U201.10","trunk_min_mm":0.6,"narrow_allowance_mm":2,"review_R20_mohm":15},
+    {"id":"main_converter_output_local","from":"U201.6","to":"R203.1","trunk_min_mm":0.6,"narrow_allowance_mm":2,"review_R20_mohm":25},
+    {"id":"main_mcu_supply","from":"R203.2","to":"U301.2","trunk_min_mm":0.8,"narrow_allowance_mm":4,"review_R20_mohm":80},
+    {"id":"main_epd_switch_feed","from":"R203.2","to":"U401.1","trunk_min_mm":0.6,"narrow_allowance_mm":4,"review_R20_mohm":100},
+    {"id":"main_sd_switch_feed","from":"R203.2","to":"U402.1","trunk_min_mm":0.6,"narrow_allowance_mm":4,"review_R20_mohm":100},
+    {"id":"epd_output_to_boost_cap","from":"R402.2","to":"C603.1","trunk_min_mm":0.6,"narrow_allowance_mm":3,"review_R20_mohm":50},
+    {"id":"sd_output_to_card","from":"R405.2","to":"J701.4","trunk_min_mm":0.5,"narrow_allowance_mm":4,"review_R20_mohm":60},
+    {"id":"touch_output_to_fpc","from":"R408.2","to":"J406.2","trunk_min_mm":0.3,"narrow_allowance_mm":4,"review_R20_mohm":150},
+    {"id":"mic_output_to_device","from":"R411.2","to":"U803.3","trunk_min_mm":0.3,"narrow_allowance_mm":4,"review_R20_mohm":150},
+    {"id":"amp_output_to_device","from":"R414.2","to":"U802.2","trunk_min_mm":0.6,"narrow_allowance_mm":3,"review_R20_mohm":50}
+  ],
+  "mandatory_structural_review": [
+    "Preserve complete local inductor/decoupling/feedback routes and ground-via access.",
+    "TPS63802 feedback must branch from C202 positive before R203, not downstream 3V3_AON.",
+    "Battery charging/discharging trunk must not flow through MAX17048/C204 quiet sense branch.",
+    "Preserve both NTC inputs/reference filters and comparator feedback wiring, with low-noise ground return.",
+    "BQ exposed pad and VSS8 both connect GND; TPS63802 AGND3 and PGND8 both connect GND.",
+    "No non-GND signals on the dedicated In1/In2 ground planes; verify plane continuity and via backdrill/filled-hole requirements separately."
+  ],
+  "limitations": [
+    "Copper path calculations exclude ICs, 0ohm links, connectors, protection FETs, solder, pad spreading and GND return resistance.",
+    "A minimum-resistance connected path is calculated from native connectivity. Full segment lengths are charged even when touching mid-segment; parallel paths are not combined. This is an inspectable path estimate, not a circuit/field solver.",
+    "No IPC current rating, temperature rise, impedance or transient voltage claim follows from this review.",
+    "Existing battery-current and charge-enable restrictions remain unchanged."
+  ]
+}

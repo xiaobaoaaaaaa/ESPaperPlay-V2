@@ -1,0 +1,1590 @@
+{
+  "status": "CANDIDATE",
+  "source": "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-r8/r8-closure-candidate.kicad_pcb",
+  "source_sha256": "ae6b10f69b34439e0f4d14a20fcbcf4c2b35305d069627ac48d7257b50365347",
+  "output": "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-r8/power-optimized.kicad_pcb",
+  "output_sha256": "4355568f44bb1cf6fb90fee69441626924a168884d9f36baddceb73c1524e822",
+  "deleted_uuids": [
+    "5703efae-19cf-4081-9804-31864df5af99",
+    "d01b459e-f790-466a-9498-9fef798df9ec",
+    "908df900-b3c9-4f18-a068-bc559d08c1a3",
+    "4fe7eac3-9c36-4d0f-a0a2-644e5a0c9614",
+    "c0d3b2cf-6a93-471e-8d26-38502664e79d",
+    "6a7922d9-d366-4432-9fce-dc5f13a6bcfe",
+    "8812f9b9-2805-47e1-b439-9629f5b502f6",
+    "958a1a8f-4be0-4e9d-aed9-6fa04997a4fa",
+    "08d23601-2ec2-489f-8952-39b33203eb56",
+    "2b1ee850-ddfb-42dd-8126-b87f5d1a9ed2",
+    "4e3cc110-3331-4ff0-8fd3-a69b9b2a58ad",
+    "687416cc-3c0d-4b5e-b742-c678a22c3979",
+    "9409ac58-690f-452e-a63a-8c2d228d6903",
+    "c2fb096a-83f0-45f3-ac3b-bc62dae81759",
+    "546b4bc9-cbb2-4e15-9136-51b70bbb098b",
+    "6466cb4b-9cc8-4702-bbb8-6715eea06d86",
+    "63b0030d-c1ce-4fdf-823b-aec6b46594cb",
+    "397054af-ef7a-48ba-b50d-be300aaf0e10",
+    "39d3d87b-f856-40b0-a2d1-566a1a0ba47a",
+    "aee54bc3-e65a-49b6-b79b-2eb427498799",
+    "3278e5df-d8cb-45a5-ad28-e4c41efe50f8",
+    "ce3be5bb-8fec-4361-a9b9-957fa45747ca",
+    "532b896e-95ef-4b0e-8222-8348b8351eb2",
+    "1ef98fd1-d464-4c50-b999-a53d83ffac36",
+    "7842e57b-23ec-420e-b612-f79a84c83752",
+    "b946401a-fbd5-4673-a9f1-e6d66bdcd855",
+    "15ee2927-d246-4cec-aba9-64c03bf7b1c4",
+    "e4244e06-a972-4e49-a7a1-c437363b453b",
+    "3390866b-b54e-4fe3-b11f-5be13f52c49e",
+    "4e184d11-d9f3-4690-9172-17c533e76397",
+    "53ce965b-1792-4917-be0a-ef625cdf4887",
+    "ca7ec919-87e5-4f5d-bee4-304652ef29e9",
+    "3824749c-7a9c-4d34-8936-50fd36105794",
+    "000cc3c6-697d-4ecc-b582-a41281ec6b69",
+    "3878ee3e-e266-4568-9332-130788d7d03b",
+    "cf62826b-45df-44bb-b026-2a522f1f932a"
+  ],
+  "added_uuids": [
+    "bd77ee43-d293-59a6-a018-548048c53ee5",
+    "02650ec8-eb3a-55fd-bf2d-53aa98d006e0",
+    "a09b85c0-22c4-5474-af2d-7c04bed414c0",
+    "658843e7-812a-54bc-8cd2-ce22ae8978c4",
+    "13e61239-3ae3-5c2e-9ec8-b523e411a958",
+    "879c7848-55b4-5e2b-9f77-75d1e190a626",
+    "c9788320-6258-524d-8392-a0b031a09c3a",
+    "551efc5d-9401-55ab-b816-0260ba6637d7",
+    "020ab045-ffae-568b-9a17-eb997f7be6ff",
+    "d9e8117b-6701-5fd4-8c08-3c84312ab799",
+    "294b65a5-c348-544c-9030-719533e4a95f",
+    "cd75656a-1abe-584a-98ed-2475cfedc24e",
+    "f7195c6e-8838-5286-be40-cd13ed3f39ae",
+    "0356afc7-76c5-5d4c-a1fd-f228065c318f",
+    "aff83fbc-4256-56ce-a80b-1912db5586c4",
+    "33ba6cbf-a516-56f4-8f1c-c8f09235ecb2",
+    "dc2cacd1-1226-504b-a900-e97e71c2822a",
+    "8dc76be6-ef83-5d86-aeb2-f67b51a3b7f4",
+    "e2bcf762-c2d0-5816-9cef-1b277ba11dee",
+    "e56ba17f-abb7-56d7-bfa9-81871af39eb5",
+    "5bb6f694-8e64-55f2-8803-fcb9cb26a403",
+    "216e74d1-8162-5add-a3ae-ef73aa96474e",
+    "1c3c2819-980f-57de-8f5a-694f59b8c736",
+    "1c893909-b34b-5981-84a0-4957ddae68b4",
+    "ca610d0f-aa13-5a0b-9f98-208d797ed27e",
+    "8ddfc6de-15c0-5bda-8f1d-b8212c916dc3",
+    "9750540d-8134-5d18-8812-161946f3e394",
+    "a8d7f4fb-f243-559a-97a1-66ac98167b70",
+    "5dc6740f-59b2-509b-bb77-da9689631cb7",
+    "265f7d47-52e2-5073-8f90-e7c5ea840e48",
+    "043ca848-471d-5585-af80-707e3fb42206",
+    "da6530ee-5e2b-5e1c-b743-9410e8facb94",
+    "d64b2448-598b-5b0c-983c-6f758b1bc200",
+    "64fc9e31-8e45-535f-b0a2-755773097dca",
+    "9843f713-adbb-5fe1-90ec-c0203bcc49ec",
+    "c2e09c22-1be9-5272-9590-f6f80d916766",
+    "58873102-51bf-511d-ab98-4a356c9197df",
+    "412b9f66-039e-5582-9dee-e5ff751d845d",
+    "e2bfe53a-7f99-56dc-8f94-7f4b5b0c51ee",
+    "68629071-e6ae-5f33-bfde-da43495cc10a",
+    "bd8a72eb-e0a2-594b-908a-9c73ecb78d06",
+    "51943821-4872-54e6-b9e0-b46dda62d06d"
+  ],
+  "changes": [
+    {
+      "before": {
+        "uuid": "5703efae-19cf-4081-9804-31864df5af99",
+        "net": "BAT_PROT",
+        "a": [
+          64.3625,
+          135.0164
+        ],
+        "b": [
+          67.275,
+          137.9289
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "reason": "Remove high-current route through C204 positive pad"
+    },
+    {
+      "after": {
+        "uuid": "bd77ee43-d293-59a6-a018-548048c53ee5",
+        "net": "BAT_PROT",
+        "a": [
+          64.3625,
+          135.0164
+        ],
+        "b": [
+          63.5,
+          135.8789
+        ],
+        "width": 1.0,
+        "layer": "F.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "after": {
+        "uuid": "02650ec8-eb3a-55fd-bf2d-53aa98d006e0",
+        "net": "BAT_PROT",
+        "a": [
+          63.5,
+          135.8789
+        ],
+        "b": [
+          63.5,
+          139.0875
+        ],
+        "width": 1.0,
+        "layer": "F.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "after": {
+        "uuid": "a09b85c0-22c4-5474-af2d-7c04bed414c0",
+        "net": "BAT_PROT",
+        "a": [
+          63.5,
+          139.0875
+        ],
+        "b": [
+          65.0,
+          140.5875
+        ],
+        "width": 1.0,
+        "layer": "F.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "before": {
+        "uuid": "908df900-b3c9-4f18-a068-bc559d08c1a3",
+        "net": "SYS",
+        "a": [
+          83.5,
+          123.0
+        ],
+        "b": [
+          83.5,
+          121.5483
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "658843e7-812a-54bc-8cd2-ce22ae8978c4",
+        "net": "SYS",
+        "a": [
+          83.5,
+          123.0
+        ],
+        "b": [
+          83.5,
+          121.5483
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "4fe7eac3-9c36-4d0f-a0a2-644e5a0c9614",
+        "net": "SYS",
+        "a": [
+          95.5003,
+          109.0354
+        ],
+        "b": [
+          92.6186,
+          109.0354
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "13e61239-3ae3-5c2e-9ec8-b523e411a958",
+        "net": "SYS",
+        "a": [
+          95.5003,
+          109.0354
+        ],
+        "b": [
+          92.6186,
+          109.0354
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "c0d3b2cf-6a93-471e-8d26-38502664e79d",
+        "net": "SYS",
+        "a": [
+          102.1381,
+          109.0354
+        ],
+        "b": [
+          95.5003,
+          109.0354
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "879c7848-55b4-5e2b-9f77-75d1e190a626",
+        "net": "SYS",
+        "a": [
+          102.1381,
+          109.0354
+        ],
+        "b": [
+          95.5003,
+          109.0354
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "6a7922d9-d366-4432-9fce-dc5f13a6bcfe",
+        "net": "SYS",
+        "a": [
+          102.1875,
+          108.986
+        ],
+        "b": [
+          101.5,
+          109.6735
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "c9788320-6258-524d-8392-a0b031a09c3a",
+        "net": "SYS",
+        "a": [
+          102.1875,
+          108.986
+        ],
+        "b": [
+          101.5,
+          109.6735
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "8812f9b9-2805-47e1-b439-9629f5b502f6",
+        "net": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+        "a": [
+          65.0,
+          151.5
+        ],
+        "b": [
+          66.6517,
+          151.5
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "551efc5d-9401-55ab-b816-0260ba6637d7",
+        "net": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+        "a": [
+          65.0,
+          151.5
+        ],
+        "b": [
+          66.6517,
+          151.5
+        ],
+        "width": 1.1,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "958a1a8f-4be0-4e9d-aed9-6fa04997a4fa",
+        "net": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+        "a": [
+          68.8125,
+          149.6275
+        ],
+        "b": [
+          68.008,
+          149.6275
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "020ab045-ffae-568b-9a17-eb997f7be6ff",
+        "net": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+        "a": [
+          68.8125,
+          149.6275
+        ],
+        "b": [
+          68.008,
+          149.6275
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "08d23601-2ec2-489f-8952-39b33203eb56",
+        "net": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+        "a": [
+          65.0,
+          145.15
+        ],
+        "b": [
+          68.8125,
+          148.9625
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "d9e8117b-6701-5fd4-8c08-3c84312ab799",
+        "net": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+        "a": [
+          65.0,
+          145.15
+        ],
+        "b": [
+          68.8125,
+          148.9625
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "2b1ee850-ddfb-42dd-8126-b87f5d1a9ed2",
+        "net": "BAT_PROT",
+        "a": [
+          65.0,
+          140.5875
+        ],
+        "b": [
+          65.0,
+          142.85
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "294b65a5-c348-544c-9030-719533e4a95f",
+        "net": "BAT_PROT",
+        "a": [
+          65.0,
+          140.5875
+        ],
+        "b": [
+          65.0,
+          142.85
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "4e3cc110-3331-4ff0-8fd3-a69b9b2a58ad",
+        "net": "BAT_PROT",
+        "a": [
+          67.5875,
+          138.0
+        ],
+        "b": [
+          65.0,
+          140.5875
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "cd75656a-1abe-584a-98ed-2475cfedc24e",
+        "net": "BAT_PROT",
+        "a": [
+          67.5875,
+          138.0
+        ],
+        "b": [
+          65.0,
+          140.5875
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "687416cc-3c0d-4b5e-b742-c678a22c3979",
+        "net": "BAT_PROT",
+        "a": [
+          64.3625,
+          116.2445
+        ],
+        "b": [
+          64.3625,
+          135.0164
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "f7195c6e-8838-5286-be40-cd13ed3f39ae",
+        "net": "BAT_PROT",
+        "a": [
+          64.3625,
+          116.2445
+        ],
+        "b": [
+          64.3625,
+          135.0164
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "9409ac58-690f-452e-a63a-8c2d228d6903",
+        "net": "BAT_PROT",
+        "a": [
+          64.7178,
+          116.5998
+        ],
+        "b": [
+          70.0022,
+          116.5998
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "0356afc7-76c5-5d4c-a1fd-f228065c318f",
+        "net": "BAT_PROT",
+        "a": [
+          64.7178,
+          116.5998
+        ],
+        "b": [
+          70.0022,
+          116.5998
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "c2fb096a-83f0-45f3-ac3b-bc62dae81759",
+        "net": "BAT_PROT",
+        "a": [
+          71.975,
+          115.0
+        ],
+        "b": [
+          70.3752,
+          116.5998
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "aff83fbc-4256-56ce-a80b-1912db5586c4",
+        "net": "BAT_PROT",
+        "a": [
+          71.975,
+          115.0
+        ],
+        "b": [
+          70.3752,
+          116.5998
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "546b4bc9-cbb2-4e15-9136-51b70bbb098b",
+        "net": "3V3_AON",
+        "a": [
+          101.0,
+          123.65
+        ],
+        "b": [
+          101.0,
+          129.0
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "33ba6cbf-a516-56f4-8f1c-c8f09235ecb2",
+        "net": "3V3_AON",
+        "a": [
+          101.0,
+          123.65
+        ],
+        "b": [
+          101.0,
+          129.0
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "6466cb4b-9cc8-4702-bbb8-6715eea06d86",
+        "net": "3V3_AON",
+        "a": [
+          101.0,
+          129.0
+        ],
+        "b": [
+          102.4704,
+          130.4704
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "dc2cacd1-1226-504b-a900-e97e71c2822a",
+        "net": "3V3_AON",
+        "a": [
+          101.0,
+          129.0
+        ],
+        "b": [
+          102.4704,
+          130.4704
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "63b0030d-c1ce-4fdf-823b-aec6b46594cb",
+        "net": "3V3_AON",
+        "a": [
+          104.6329,
+          130.4704
+        ],
+        "b": [
+          105.3419,
+          129.7614
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "8dc76be6-ef83-5d86-aeb2-f67b51a3b7f4",
+        "net": "3V3_AON",
+        "a": [
+          104.6329,
+          130.4704
+        ],
+        "b": [
+          105.3419,
+          129.7614
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "397054af-ef7a-48ba-b50d-be300aaf0e10",
+        "net": "3V3_AON",
+        "a": [
+          105.3419,
+          129.7614
+        ],
+        "b": [
+          105.3419,
+          128.5695
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "e2bcf762-c2d0-5816-9cef-1b277ba11dee",
+        "net": "3V3_AON",
+        "a": [
+          105.3419,
+          129.7614
+        ],
+        "b": [
+          105.3419,
+          128.5695
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "39d3d87b-f856-40b0-a2d1-566a1a0ba47a",
+        "net": "3V3_AON",
+        "a": [
+          121.2501,
+          105.3444
+        ],
+        "b": [
+          123.9057,
+          108.0
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "e56ba17f-abb7-56d7-bfa9-81871af39eb5",
+        "net": "3V3_AON",
+        "a": [
+          121.2501,
+          105.3444
+        ],
+        "b": [
+          123.9057,
+          108.0
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "aee54bc3-e65a-49b6-b79b-2eb427498799",
+        "net": "3V3_AON",
+        "a": [
+          121.2501,
+          87.8539
+        ],
+        "b": [
+          121.2501,
+          105.3444
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "5bb6f694-8e64-55f2-8803-fcb9cb26a403",
+        "net": "3V3_AON",
+        "a": [
+          121.2501,
+          87.8539
+        ],
+        "b": [
+          121.2501,
+          105.3444
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "3278e5df-d8cb-45a5-ad28-e4c41efe50f8",
+        "net": "3V3_AON",
+        "a": [
+          122.2125,
+          86.8915
+        ],
+        "b": [
+          121.2501,
+          87.8539
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "216e74d1-8162-5add-a3ae-ef73aa96474e",
+        "net": "3V3_AON",
+        "a": [
+          122.2125,
+          86.8915
+        ],
+        "b": [
+          121.2501,
+          87.8539
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "ce3be5bb-8fec-4361-a9b9-957fa45747ca",
+        "net": "3V3_AON",
+        "a": [
+          124.3455,
+          84.7585
+        ],
+        "b": [
+          122.2125,
+          86.8915
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "1c3c2819-980f-57de-8f5a-694f59b8c736",
+        "net": "3V3_AON",
+        "a": [
+          124.3455,
+          84.7585
+        ],
+        "b": [
+          122.2125,
+          86.8915
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "532b896e-95ef-4b0e-8222-8348b8351eb2",
+        "net": "3V3_AON",
+        "a": [
+          133.4629,
+          84.7585
+        ],
+        "b": [
+          124.3455,
+          84.7585
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "1c893909-b34b-5981-84a0-4957ddae68b4",
+        "net": "3V3_AON",
+        "a": [
+          133.4629,
+          84.7585
+        ],
+        "b": [
+          124.3455,
+          84.7585
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "1ef98fd1-d464-4c50-b999-a53d83ffac36",
+        "net": "3V3_AON",
+        "a": [
+          156.1775,
+          84.5785
+        ],
+        "b": [
+          144.6171,
+          84.5785
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "ca610d0f-aa13-5a0b-9f98-208d797ed27e",
+        "net": "3V3_AON",
+        "a": [
+          156.1775,
+          84.5785
+        ],
+        "b": [
+          144.6171,
+          84.5785
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "7842e57b-23ec-420e-b612-f79a84c83752",
+        "net": "3V3_AON",
+        "a": [
+          155.9502,
+          74.8155
+        ],
+        "b": [
+          155.9502,
+          67.6662
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "8ddfc6de-15c0-5bda-8f1d-b8212c916dc3",
+        "net": "3V3_AON",
+        "a": [
+          155.9502,
+          74.8155
+        ],
+        "b": [
+          155.9502,
+          67.6662
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "b946401a-fbd5-4673-a9f1-e6d66bdcd855",
+        "net": "3V3_AON",
+        "a": [
+          155.9502,
+          67.6662
+        ],
+        "b": [
+          155.319,
+          67.035
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "9750540d-8134-5d18-8812-161946f3e394",
+        "net": "3V3_AON",
+        "a": [
+          155.9502,
+          67.6662
+        ],
+        "b": [
+          155.319,
+          67.035
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "15ee2927-d246-4cec-aba9-64c03bf7b1c4",
+        "net": "3V3_AON",
+        "a": [
+          155.319,
+          55.79
+        ],
+        "b": [
+          155.319,
+          67.035
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "a8d7f4fb-f243-559a-97a1-66ac98167b70",
+        "net": "3V3_AON",
+        "a": [
+          155.319,
+          55.79
+        ],
+        "b": [
+          155.319,
+          67.035
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "e4244e06-a972-4e49-a7a1-c437363b453b",
+        "net": "3V3_AON",
+        "a": [
+          153.8774,
+          53.8114
+        ],
+        "b": [
+          155.5875,
+          55.5215
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "5dc6740f-59b2-509b-bb77-da9689631cb7",
+        "net": "3V3_AON",
+        "a": [
+          153.8774,
+          53.8114
+        ],
+        "b": [
+          155.5875,
+          55.5215
+        ],
+        "width": 1.0,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "3390866b-b54e-4fe3-b11f-5be13f52c49e",
+        "net": "3V3_AON",
+        "a": [
+          148.1005,
+          53.8114
+        ],
+        "b": [
+          153.8774,
+          53.8114
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "after": {
+        "uuid": "265f7d47-52e2-5073-8f90-e7c5ea840e48",
+        "net": "3V3_AON",
+        "a": [
+          148.1005,
+          53.8114
+        ],
+        "b": [
+          153.8774,
+          53.8114
+        ],
+        "width": 1.2,
+        "layer": "B.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "4e184d11-d9f3-4690-9172-17c533e76397",
+        "net": "3V3_AON",
+        "a": [
+          148.4362,
+          53.8114
+        ],
+        "b": [
+          149.375,
+          52.8726
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "043ca848-471d-5585-af80-707e3fb42206",
+        "net": "3V3_AON",
+        "a": [
+          148.4362,
+          53.8114
+        ],
+        "b": [
+          149.375,
+          52.8726
+        ],
+        "width": 0.9,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "53ce965b-1792-4917-be0a-ef625cdf4887",
+        "net": "3V3_AON",
+        "a": [
+          151.25,
+          52.76
+        ],
+        "b": [
+          149.385,
+          52.76
+        ],
+        "width": 0.8,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "da6530ee-5e2b-5e1c-b743-9410e8facb94",
+        "net": "3V3_AON",
+        "a": [
+          151.25,
+          52.76
+        ],
+        "b": [
+          149.385,
+          52.76
+        ],
+        "width": 1.2,
+        "layer": "F.Cu"
+      },
+      "reason": "Increase supply-trunk copper area without moving route"
+    },
+    {
+      "before": {
+        "uuid": "06e016e9-4813-5a66-b6b8-fcb52912751c",
+        "net": "SYS",
+        "a": [
+          83.5,
+          121.5483
+        ],
+        "b": [
+          86.4767,
+          118.5716
+        ],
+        "width": 0.9,
+        "layer": "F.Cu"
+      },
+      "reason": "Split constrained endpoints from broad SYS route"
+    },
+    {
+      "after": {
+        "uuid": "d64b2448-598b-5b0c-983c-6f758b1bc200",
+        "net": "SYS",
+        "a": [
+          83.5,
+          121.5483
+        ],
+        "b": [
+          86.3016,
+          118.7467
+        ],
+        "width": 1.0,
+        "layer": "F.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "after": {
+        "uuid": "64fc9e31-8e45-535f-b0a2-755773097dca",
+        "net": "SYS",
+        "a": [
+          86.3016,
+          118.7467
+        ],
+        "b": [
+          86.4767,
+          118.5716
+        ],
+        "width": 0.9,
+        "layer": "F.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "before": {
+        "uuid": "ca7ec919-87e5-4f5d-bee4-304652ef29e9",
+        "net": "SYS",
+        "a": [
+          82.0394,
+          119.6146
+        ],
+        "b": [
+          82.0394,
+          122.9911
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "reason": "Split constrained endpoints from broad SYS route"
+    },
+    {
+      "after": {
+        "uuid": "9843f713-adbb-5fe1-90ec-c0203bcc49ec",
+        "net": "SYS",
+        "a": [
+          82.0394,
+          119.6146
+        ],
+        "b": [
+          82.0394,
+          120.579314
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "after": {
+        "uuid": "c2e09c22-1be9-5272-9590-f6f80d916766",
+        "net": "SYS",
+        "a": [
+          82.0394,
+          120.579314
+        ],
+        "b": [
+          82.0394,
+          122.749921
+        ],
+        "width": 1.0,
+        "layer": "B.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "after": {
+        "uuid": "58873102-51bf-511d-ab98-4a356c9197df",
+        "net": "SYS",
+        "a": [
+          82.0394,
+          122.749921
+        ],
+        "b": [
+          82.0394,
+          122.9911
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "before": {
+        "uuid": "3824749c-7a9c-4d34-8936-50fd36105794",
+        "net": "SYS",
+        "a": [
+          92.6186,
+          109.0354
+        ],
+        "b": [
+          82.0394,
+          119.6146
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "reason": "Split constrained endpoints from broad SYS route"
+    },
+    {
+      "after": {
+        "uuid": "412b9f66-039e-5582-9dee-e5ff751d845d",
+        "net": "SYS",
+        "a": [
+          92.6186,
+          109.0354
+        ],
+        "b": [
+          82.74468,
+          118.90932
+        ],
+        "width": 1.0,
+        "layer": "B.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "after": {
+        "uuid": "e2bfe53a-7f99-56dc-8f94-7f4b5b0c51ee",
+        "net": "SYS",
+        "a": [
+          82.74468,
+          118.90932
+        ],
+        "b": [
+          82.0394,
+          119.6146
+        ],
+        "width": 0.8,
+        "layer": "B.Cu"
+      },
+      "reason": "Dedicated battery bypass or widened SYS trunk"
+    },
+    {
+      "before": {
+        "uuid": "000cc3c6-697d-4ecc-b582-a41281ec6b69",
+        "net": "EPD_3V3",
+        "a": [
+          174.5,
+          123.575
+        ],
+        "b": [
+          172.0,
+          123.575
+        ],
+        "width": 0.2,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "68629071-e6ae-5f33-bfde-da43495cc10a",
+        "net": "EPD_3V3",
+        "a": [
+          174.5,
+          123.575
+        ],
+        "b": [
+          172.0,
+          123.575
+        ],
+        "width": 0.6,
+        "layer": "F.Cu"
+      },
+      "reason": "Make the C403-to-load trunk .6mm instead of reusing a .2mm QOD-only branch"
+    },
+    {
+      "before": {
+        "uuid": "3878ee3e-e266-4568-9332-130788d7d03b",
+        "net": "EPD_3V3",
+        "a": [
+          172.0,
+          123.575
+        ],
+        "b": [
+          172.0,
+          125.275
+        ],
+        "width": 0.2,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "bd8a72eb-e0a2-594b-908a-9c73ecb78d06",
+        "net": "EPD_3V3",
+        "a": [
+          172.0,
+          123.575
+        ],
+        "b": [
+          172.0,
+          125.275
+        ],
+        "width": 0.6,
+        "layer": "F.Cu"
+      },
+      "reason": "Make the C403-to-load trunk .6mm instead of reusing a .2mm QOD-only branch"
+    },
+    {
+      "before": {
+        "uuid": "cf62826b-45df-44bb-b026-2a522f1f932a",
+        "net": "EPD_3V3",
+        "a": [
+          172.0,
+          125.275
+        ],
+        "b": [
+          170.0,
+          125.275
+        ],
+        "width": 0.2,
+        "layer": "F.Cu"
+      },
+      "after": {
+        "uuid": "51943821-4872-54e6-b9e0-b46dda62d06d",
+        "net": "EPD_3V3",
+        "a": [
+          172.0,
+          125.275
+        ],
+        "b": [
+          170.0,
+          125.275
+        ],
+        "width": 0.6,
+        "layer": "F.Cu"
+      },
+      "reason": "Make the C403-to-load trunk .6mm instead of reusing a .2mm QOD-only branch"
+    }
+  ],
+  "widening_attempts": [
+    {
+      "uuid": "8737a5a9-17f0-4039-9646-f9effd8b3f56",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "59b712a8-f428-474b-a518-1d8cf63de7f1",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "d01b459e-f790-466a-9498-9fef798df9ec",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 0.9
+    },
+    {
+      "uuid": "908df900-b3c9-4f18-a068-bc559d08c1a3",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "3b881ea1-8218-4e6b-b876-5b517587f9fc",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "ca7ec919-87e5-4f5d-bee4-304652ef29e9",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "3824749c-7a9c-4d34-8936-50fd36105794",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "4fe7eac3-9c36-4d0f-a0a2-644e5a0c9614",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "c0d3b2cf-6a93-471e-8d26-38502664e79d",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "6a7922d9-d366-4432-9fce-dc5f13a6bcfe",
+      "path": "sys_main_converter_feed",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "8812f9b9-2805-47e1-b439-9629f5b502f6",
+      "path": "battery_pack_to_link",
+      "original_width": 0.8,
+      "new_width": 1.1
+    },
+    {
+      "uuid": "ad73a52e-3fba-4c85-83a4-f2a835e605f6",
+      "path": "battery_pack_to_link",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "958a1a8f-4be0-4e9d-aed9-6fa04997a4fa",
+      "path": "battery_pack_to_link",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "08d23601-2ec2-489f-8952-39b33203eb56",
+      "path": "battery_pack_to_link",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "2b1ee850-ddfb-42dd-8126-b87f5d1a9ed2",
+      "path": "battery_link_to_charger_cap",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "4e3cc110-3331-4ff0-8fd3-a69b9b2a58ad",
+      "path": "battery_link_to_charger_cap",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "687416cc-3c0d-4b5e-b742-c678a22c3979",
+      "path": "battery_link_to_charger_cap",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "9409ac58-690f-452e-a63a-8c2d228d6903",
+      "path": "battery_link_to_charger_cap",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "c2fb096a-83f0-45f3-ac3b-bc62dae81759",
+      "path": "battery_link_to_charger_cap",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "546b4bc9-cbb2-4e15-9136-51b70bbb098b",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "6466cb4b-9cc8-4702-bbb8-6715eea06d86",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "d34928c0-b654-44a7-bf81-ced0a27cee9e",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "63b0030d-c1ce-4fdf-823b-aec6b46594cb",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "397054af-ef7a-48ba-b50d-be300aaf0e10",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "9d275502-da83-4a57-9666-b25ed6fe3266",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "9f1f13f7-7365-4d75-aef3-78235fc33ebd",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "991f0756-7ae0-4bca-93c9-442b50b461dd",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "c7b9ad8d-2535-48a1-955a-c1d943821162",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "39d3d87b-f856-40b0-a2d1-566a1a0ba47a",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "aee54bc3-e65a-49b6-b79b-2eb427498799",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "3278e5df-d8cb-45a5-ad28-e4c41efe50f8",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "ce3be5bb-8fec-4361-a9b9-957fa45747ca",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "532b896e-95ef-4b0e-8222-8348b8351eb2",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "b99e2f08-cf28-43f3-9b8e-10f2ecbefa9f",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "1ef98fd1-d464-4c50-b999-a53d83ffac36",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "eafc2a2d-748d-4044-9d8b-c74279b58602",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 0.8
+    },
+    {
+      "uuid": "7842e57b-23ec-420e-b612-f79a84c83752",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "b946401a-fbd5-4673-a9f1-e6d66bdcd855",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "15ee2927-d246-4cec-aba9-64c03bf7b1c4",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "e4244e06-a972-4e49-a7a1-c437363b453b",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.0
+    },
+    {
+      "uuid": "3390866b-b54e-4fe3-b11f-5be13f52c49e",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    },
+    {
+      "uuid": "4e184d11-d9f3-4690-9172-17c533e76397",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 0.9
+    },
+    {
+      "uuid": "53ce965b-1792-4917-be0a-ef625cdf4887",
+      "path": "main_mcu_supply",
+      "original_width": 0.8,
+      "new_width": 1.2
+    }
+  ],
+  "excluded_scope": [
+    "AMP_SYS local U802.2/C802.1",
+    "R610 3V3_AON branch",
+    "EPD_MOSI",
+    "SD_IO_EN",
+    "PGOOD_N",
+    "CHARGE_ALLOW",
+    "USB_VBUS"
+  ]
+}

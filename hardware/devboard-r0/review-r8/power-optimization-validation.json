@@ -1,0 +1,21 @@
+{
+  "status": "PASS_DIFFERENTIAL_GEOMETRY_REVIEW",
+  "source_sha256": "ae6b10f69b34439e0f4d14a20fcbcf4c2b35305d069627ac48d7257b50365347",
+  "output_sha256": "4355568f44bb1cf6fb90fee69441626924a168884d9f36baddceb73c1524e822",
+  "deleted_count": 36,
+  "added_count": 42,
+  "changed_nets": [
+    "/POWER_INPUT_CHARGER/BAT_PACK_P",
+    "3V3_AON",
+    "BAT_PROT",
+    "EPD_3V3",
+    "SYS"
+  ],
+  "footprints_unchanged": true,
+  "vias_unchanged": true,
+  "delta_matches_native_uuid_difference": true,
+  "native_drc_errors": 0,
+  "native_drc_warnings": 15,
+  "new_violations": [],
+  "native_unconnected_count": 8
+}

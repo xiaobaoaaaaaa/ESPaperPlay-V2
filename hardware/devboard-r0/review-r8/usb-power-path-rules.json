@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "scope": "Engineering review targets for PCB copper only, not current-rating or thermal qualification. Limits may be revised with explicit reasoning before evaluation.",
+  "material_assumptions": {
+    "copper_resistivity_20C_ohm_m": 1.724e-08,
+    "copper_temperature_coefficient_per_C": 0.00393,
+    "outer_copper_thickness_um": 35,
+    "via_finished_hole_plating_um": 20,
+    "via_length_mm": 1.6,
+    "stress_calculation_temperature_C": 85,
+    "note": "Nominal assumptions only. Actual finished copper/plating/stackup must be confirmed by fabricator. 85C is an arithmetic copper-resistance sensitivity case, not approved battery operating temperature."
+  },
+  "formulae": {
+    "trace_resistance": "rho20 * length_m / (width_m * thickness_m)",
+    "via_resistance": "rho20 * board_thickness_m / (pi * ((hole_radius_m + plating_m)^2 - hole_radius_m^2))",
+    "temperature_resistance": "R20 * (1 + alpha * (temperature_C - 20))"
+  },
+  "short_neck_policy": "Small pin escapes can be narrower than trunk target. Flag when cumulative sub-target track length on the chosen path exceeds the per-path allowance. Do not count only individual segment lengths, which would hide a long narrow route split into many pieces.",
+  "path_rules": [
+    {
+      "id": "usb_a4_to_ptc",
+      "from": "J501.A4",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30
+    },
+    {
+      "id": "usb_a9_to_ptc",
+      "from": "J501.A9",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30
+    },
+    {
+      "id": "usb_b4_to_ptc",
+      "from": "J501.B4",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30
+    },
+    {
+      "id": "usb_b9_to_ptc",
+      "from": "J501.B9",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30
+    }
+  ],
+  "mandatory_structural_review": [
+    "Preserve complete local inductor/decoupling/feedback routes and ground-via access.",
+    "TPS63802 feedback must branch from C202 positive before R203, not downstream 3V3_AON.",
+    "Battery charging/discharging trunk must not flow through MAX17048/C204 quiet sense branch.",
+    "Preserve both NTC inputs/reference filters and comparator feedback wiring, with low-noise ground return.",
+    "BQ exposed pad and VSS8 both connect GND; TPS63802 AGND3 and PGND8 both connect GND.",
+    "No non-GND signals on the dedicated In1/In2 ground planes; verify plane continuity and via backdrill/filled-hole requirements separately."
+  ],
+  "limitations": [
+    "Copper path calculations exclude ICs, 0ohm links, connectors, protection FETs, solder, pad spreading and GND return resistance.",
+    "A minimum-resistance connected path is calculated from native connectivity. Full segment lengths are charged even when touching mid-segment; parallel paths are not combined. This is an inspectable path estimate, not a circuit/field solver.",
+    "No IPC current rating, temperature rise, impedance or transient voltage claim follows from this review.",
+    "Existing battery-current and charge-enable restrictions remain unchanged."
+  ]
+}
