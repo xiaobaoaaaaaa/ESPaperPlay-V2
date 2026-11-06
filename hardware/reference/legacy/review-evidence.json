@@ -1,0 +1,2948 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-01",
+  "source_archive": "ProPrj_ESPaperPlay_2026-11-01.epro2",
+  "source_sha256": "aa9540b138b95a9e4e70a56337f4366901f3e5233e9a12d55d852e55732ef614",
+  "source_epru": "ESPaperPlay.epru",
+  "source_line_numbering": "1-based in the extracted epru",
+  "method": "Read final records; join schematic Designator/Device attributes and PCB COMPONENT/ATTR/PAD_NET. PCB pad-net metadata is not electrical continuity or ERC/DRC verification. Embedded page previews cross-checked at reviewed circuits.",
+  "user_clarification": "Current firmware runs on a core development board whose LED occupies relevant GPIO; SD uses 1-bit with adapted pins. The archive PCB is a different hardware target. Exact development board model and LED pin have not been established.",
+  "gpio_crosscheck": [
+    {
+      "net": "AUDIO_PWR_EN",
+      "module_pin": 4,
+      "symbol_gpio": 4,
+      "firmware_gpio": 4,
+      "macro": "ESPAPERPLAY_PIN_AUDIO_PWR_EN",
+      "pcb_source_line": 19772,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SW_VO-",
+      "module_pin": 5,
+      "symbol_gpio": 5,
+      "firmware_gpio": 5,
+      "macro": "ESPAPERPLAY_PIN_KEY_VOL_DOWN",
+      "pcb_source_line": 19773,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "AMP_SD_MODE",
+      "module_pin": 6,
+      "symbol_gpio": 6,
+      "firmware_gpio": 6,
+      "macro": "ESPAPERPLAY_PIN_AMP_SD_MODE",
+      "pcb_source_line": 19774,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "I2S_WS",
+      "module_pin": 7,
+      "symbol_gpio": 7,
+      "firmware_gpio": 7,
+      "macro": "ESPAPERPLAY_PIN_I2S_WS",
+      "pcb_source_line": 19775,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SDI",
+      "module_pin": 8,
+      "symbol_gpio": 15,
+      "firmware_gpio": 15,
+      "macro": "ESPAPERPLAY_PIN_EPD_MOSI",
+      "pcb_source_line": 19776,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SCLK",
+      "module_pin": 9,
+      "symbol_gpio": 16,
+      "firmware_gpio": 16,
+      "macro": "ESPAPERPLAY_PIN_EPD_SCLK",
+      "pcb_source_line": 19777,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "CS",
+      "module_pin": 10,
+      "symbol_gpio": 17,
+      "firmware_gpio": 17,
+      "macro": "ESPAPERPLAY_PIN_EPD_CS",
+      "pcb_source_line": 19778,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "D/C",
+      "module_pin": 11,
+      "symbol_gpio": 18,
+      "firmware_gpio": 18,
+      "macro": "ESPAPERPLAY_PIN_EPD_DC",
+      "pcb_source_line": 19779,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "RES",
+      "module_pin": 12,
+      "symbol_gpio": 8,
+      "firmware_gpio": 8,
+      "macro": "ESPAPERPLAY_PIN_EPD_RST",
+      "pcb_source_line": 19780,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "INT",
+      "module_pin": 15,
+      "symbol_gpio": 3,
+      "firmware_gpio": 3,
+      "macro": "ESPAPERPLAY_PIN_TOUCH_INT",
+      "pcb_source_line": 19783,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "BUSY",
+      "module_pin": 17,
+      "symbol_gpio": 9,
+      "firmware_gpio": 9,
+      "macro": "ESPAPERPLAY_PIN_EPD_BUSY",
+      "pcb_source_line": 19785,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SDA",
+      "module_pin": 18,
+      "symbol_gpio": 10,
+      "firmware_gpio": 10,
+      "macro": "ESPAPERPLAY_PIN_TOUCH_SDA",
+      "pcb_source_line": 19786,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "MIC_DOUT",
+      "module_pin": 19,
+      "symbol_gpio": 11,
+      "firmware_gpio": 11,
+      "macro": "ESPAPERPLAY_PIN_MIC_DOUT",
+      "pcb_source_line": 19787,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "I2S_BCLK",
+      "module_pin": 20,
+      "symbol_gpio": 12,
+      "firmware_gpio": 12,
+      "macro": "ESPAPERPLAY_PIN_I2S_BCLK",
+      "pcb_source_line": 19788,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SCL",
+      "module_pin": 21,
+      "symbol_gpio": 13,
+      "firmware_gpio": 13,
+      "macro": "ESPAPERPLAY_PIN_TOUCH_SCL",
+      "pcb_source_line": 19789,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "RST",
+      "module_pin": 22,
+      "symbol_gpio": 14,
+      "firmware_gpio": 14,
+      "macro": "ESPAPERPLAY_PIN_TOUCH_RST",
+      "pcb_source_line": 19790,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "POWER_EN",
+      "module_pin": 23,
+      "symbol_gpio": 21,
+      "firmware_gpio": 21,
+      "macro": "ESPAPERPLAY_PIN_POWER_EN",
+      "pcb_source_line": 19791,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SD_D1",
+      "module_pin": 24,
+      "symbol_gpio": 47,
+      "firmware_gpio": 48,
+      "macro": "ESPAPERPLAY_PIN_SD_D1",
+      "pcb_source_line": 19792,
+      "match": false,
+      "interpretation": "intentional_board_profile_difference_confirmed_by_user"
+    },
+    {
+      "net": "SD_D0",
+      "module_pin": 25,
+      "symbol_gpio": 48,
+      "firmware_gpio": 47,
+      "macro": "ESPAPERPLAY_PIN_SD_D0",
+      "pcb_source_line": 19793,
+      "match": false,
+      "interpretation": "intentional_board_profile_difference_confirmed_by_user"
+    },
+    {
+      "net": "SW_BOOT",
+      "module_pin": 27,
+      "symbol_gpio": 0,
+      "firmware_gpio": 0,
+      "macro": "ESPAPERPLAY_PIN_KEY_BOOT",
+      "pcb_source_line": 19795,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SD_CLK",
+      "module_pin": 31,
+      "symbol_gpio": 38,
+      "firmware_gpio": 38,
+      "macro": "ESPAPERPLAY_PIN_SD_CLK",
+      "pcb_source_line": 19799,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SD_CMD",
+      "module_pin": 32,
+      "symbol_gpio": 39,
+      "firmware_gpio": 39,
+      "macro": "ESPAPERPLAY_PIN_SD_CMD",
+      "pcb_source_line": 19800,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SD_D3",
+      "module_pin": 33,
+      "symbol_gpio": 40,
+      "firmware_gpio": 40,
+      "macro": "ESPAPERPLAY_PIN_SD_D3",
+      "pcb_source_line": 19801,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SD_D2",
+      "module_pin": 34,
+      "symbol_gpio": 41,
+      "firmware_gpio": 41,
+      "macro": "ESPAPERPLAY_PIN_SD_D2",
+      "pcb_source_line": 19802,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "STANDBY_STAT",
+      "module_pin": 35,
+      "symbol_gpio": 42,
+      "firmware_gpio": 42,
+      "macro": "ESPAPERPLAY_PIN_STANDBY_STAT",
+      "pcb_source_line": 19803,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "CHRG_STAT",
+      "module_pin": 36,
+      "symbol_gpio": 44,
+      "firmware_gpio": 44,
+      "macro": "ESPAPERPLAY_PIN_CHRG_STAT",
+      "pcb_source_line": 19804,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SPK_DIN",
+      "module_pin": 37,
+      "symbol_gpio": 43,
+      "firmware_gpio": 43,
+      "macro": "ESPAPERPLAY_PIN_SPK_DIN",
+      "pcb_source_line": 19805,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "SW_VO+",
+      "module_pin": 38,
+      "symbol_gpio": 2,
+      "firmware_gpio": 2,
+      "macro": "ESPAPERPLAY_PIN_KEY_VOL_UP",
+      "pcb_source_line": 19806,
+      "match": true,
+      "interpretation": "matches_firmware"
+    },
+    {
+      "net": "BAT_SENSE",
+      "module_pin": 39,
+      "symbol_gpio": 1,
+      "firmware_gpio": 1,
+      "macro": "ESPAPERPLAY_PIN_BAT_SENSE",
+      "pcb_source_line": 19807,
+      "match": true,
+      "interpretation": "matches_firmware"
+    }
+  ],
+  "pcb_components": [
+    {
+      "ref": "C28",
+      "page": "AUDIO",
+      "part": "CL10A106KP8NNNC.1",
+      "value": "10uF",
+      "manufacturer_part": "CL10A106KP8NNNC",
+      "schematic_line": 11495,
+      "pcb_line": 19273,
+      "device": "80ee29b175823403",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19274
+        },
+        "1": {
+          "net": "VRAW",
+          "line": 19275
+        }
+      }
+    },
+    {
+      "ref": "C29",
+      "page": "AUDIO",
+      "part": "TCC0805X5R226K100FT.1",
+      "value": "22uF",
+      "manufacturer_part": "TCC0805X5R226K100FT",
+      "schematic_line": 11520,
+      "pcb_line": 19279,
+      "device": "131a8e1be3c0585e",
+      "pins": {
+        "2": {
+          "net": "AUDIO_3V3",
+          "line": 19280
+        },
+        "1": {
+          "net": "GND",
+          "line": 19281
+        }
+      }
+    },
+    {
+      "ref": "C30",
+      "page": "AUDIO",
+      "part": "CL10A106KP8NNNC.1",
+      "value": "10uF",
+      "manufacturer_part": "CL10A106KP8NNNC",
+      "schematic_line": 11712,
+      "pcb_line": 19285,
+      "device": "80ee29b175823403",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19286
+        },
+        "1": {
+          "net": "AUDIO_3V3",
+          "line": 19287
+        }
+      }
+    },
+    {
+      "ref": "C31",
+      "page": "AUDIO",
+      "part": "CL10B104KB8NNNC.1",
+      "value": "100nF",
+      "manufacturer_part": "CL10B104KB8NNNC",
+      "schematic_line": 11737,
+      "pcb_line": 19291,
+      "device": "39c7fd6f997c6f34",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19292
+        },
+        "1": {
+          "net": "AUDIO_3V3",
+          "line": 19293
+        }
+      }
+    },
+    {
+      "ref": "C32",
+      "page": "AUDIO",
+      "part": "CC0603KRX5R8BB105.1",
+      "value": "1uF",
+      "manufacturer_part": "CC0603KRX5R8BB105",
+      "schematic_line": 11656,
+      "pcb_line": 19297,
+      "device": "00eb4924eb3a643e",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19298
+        },
+        "1": {
+          "net": "MIC_3V3",
+          "line": 19299
+        }
+      }
+    },
+    {
+      "ref": "C33",
+      "page": "AUDIO",
+      "part": "CL10B104KB8NNNC.1",
+      "value": "100nF",
+      "manufacturer_part": "CL10B104KB8NNNC",
+      "schematic_line": 11684,
+      "pcb_line": 19303,
+      "device": "39c7fd6f997c6f34",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19304
+        },
+        "1": {
+          "net": "MIC_3V3",
+          "line": 19305
+        }
+      }
+    },
+    {
+      "ref": "C34",
+      "page": "AUDIO",
+      "part": "CL10C101JB8NNNC.1",
+      "value": "100pF",
+      "manufacturer_part": "CL10C101JB8NNNC",
+      "schematic_line": 11875,
+      "pcb_line": 19309,
+      "device": "831f881a68fde986",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19310
+        },
+        "1": {
+          "net": "$11N86",
+          "line": 19311
+        }
+      }
+    },
+    {
+      "ref": "C35",
+      "page": "AUDIO",
+      "part": "CL10C101JB8NNNC.1",
+      "value": "100pF",
+      "manufacturer_part": "CL10C101JB8NNNC",
+      "schematic_line": 11900,
+      "pcb_line": 19315,
+      "device": "831f881a68fde986",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19316
+        },
+        "1": {
+          "net": "$11N39",
+          "line": 19317
+        }
+      }
+    },
+    {
+      "ref": "FB1",
+      "page": "AUDIO",
+      "part": "BLM18AG601SN1D.1",
+      "value": null,
+      "manufacturer_part": "BLM18AG601SN1D",
+      "schematic_line": 11629,
+      "pcb_line": 19396,
+      "device": "a80e881cd70a9bda",
+      "pins": {
+        "1": {
+          "net": "MIC_3V3",
+          "line": 19397
+        },
+        "2": {
+          "net": "AUDIO_3V3",
+          "line": 19398
+        }
+      }
+    },
+    {
+      "ref": "FB2",
+      "page": "AUDIO",
+      "part": "BLM18PG121SN1D_C14709.1",
+      "value": null,
+      "manufacturer_part": "BLM18PG121SN1D",
+      "schematic_line": 11821,
+      "pcb_line": 19402,
+      "device": "362b7add76c065e8",
+      "pins": {
+        "1": {
+          "net": "SPK_OUTP_RAW",
+          "line": 19403
+        },
+        "2": {
+          "net": "$11N86",
+          "line": 19404
+        }
+      }
+    },
+    {
+      "ref": "FB3",
+      "page": "AUDIO",
+      "part": "BLM18PG121SN1D_C14709.1",
+      "value": null,
+      "manufacturer_part": "BLM18PG121SN1D",
+      "schematic_line": 11848,
+      "pcb_line": 19408,
+      "device": "362b7add76c065e8",
+      "pins": {
+        "1": {
+          "net": "SPK_OUTN_RAW",
+          "line": 19409
+        },
+        "2": {
+          "net": "$11N39",
+          "line": 19410
+        }
+      }
+    },
+    {
+      "ref": "H2",
+      "page": "AUDIO",
+      "part": "WAFER-MX1.25-2PWB.1",
+      "value": null,
+      "manufacturer_part": "WAFER-MX1.25-2PWB",
+      "schematic_line": 12854,
+      "pcb_line": 22178,
+      "device": "855de26761520cb7",
+      "pins": {
+        "1": {
+          "net": "$11N86",
+          "line": 22179
+        },
+        "2": {
+          "net": "$11N39",
+          "line": 22180
+        },
+        "4": {
+          "net": "GND",
+          "line": 22181
+        },
+        "3": {
+          "net": "GND",
+          "line": 22182
+        }
+      }
+    },
+    {
+      "ref": "L3",
+      "page": "AUDIO",
+      "part": "WPN252012H1R0MT.1",
+      "value": "1uH",
+      "manufacturer_part": "WPN252012H1R0MT",
+      "schematic_line": 11467,
+      "pcb_line": 19480,
+      "device": "e4aba03980570f52",
+      "pins": {
+        "1": {
+          "net": "$11N5",
+          "line": 19481
+        },
+        "2": {
+          "net": "AUDIO_3V3",
+          "line": 19482
+        }
+      }
+    },
+    {
+      "ref": "R29",
+      "page": "AUDIO",
+      "part": "0603WAF4533T5E.1",
+      "value": "453kΩ",
+      "manufacturer_part": "0603WAF4533T5E",
+      "schematic_line": 11545,
+      "pcb_line": 19681,
+      "device": "fc32bb320fc0f1f5",
+      "pins": {
+        "2": {
+          "net": "$11N65",
+          "line": 19682
+        },
+        "1": {
+          "net": "AUDIO_3V3",
+          "line": 19683
+        }
+      }
+    },
+    {
+      "ref": "R30",
+      "page": "AUDIO",
+      "part": "0603WAF1003T5E.1",
+      "value": "100kΩ",
+      "manufacturer_part": "0603WAF1003T5E",
+      "schematic_line": 11573,
+      "pcb_line": 19687,
+      "device": "e72be0bb3ad56dd3",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19688
+        },
+        "1": {
+          "net": "$11N65",
+          "line": 19689
+        }
+      }
+    },
+    {
+      "ref": "R31",
+      "page": "AUDIO",
+      "part": "0603WAF1003T5E.1",
+      "value": "100kΩ",
+      "manufacturer_part": "0603WAF1003T5E",
+      "schematic_line": 11601,
+      "pcb_line": 19693,
+      "device": "e72be0bb3ad56dd3",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19694
+        },
+        "1": {
+          "net": "AUDIO_PWR_EN",
+          "line": 19695
+        }
+      }
+    },
+    {
+      "ref": "R32",
+      "page": "AUDIO",
+      "part": "0603WAF2001T5E.1",
+      "value": "2kΩ",
+      "manufacturer_part": "0603WAF2001T5E",
+      "schematic_line": 11765,
+      "pcb_line": 19699,
+      "device": "244987911e544cde",
+      "pins": {
+        "2": {
+          "net": "$11N29",
+          "line": 19700
+        },
+        "1": {
+          "net": "AMP_SD_MODE",
+          "line": 19701
+        }
+      }
+    },
+    {
+      "ref": "R33",
+      "page": "AUDIO",
+      "part": "0603WAF1003T5E.1",
+      "value": "100kΩ",
+      "manufacturer_part": "0603WAF1003T5E",
+      "schematic_line": 11793,
+      "pcb_line": 19705,
+      "device": "e72be0bb3ad56dd3",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19706
+        },
+        "1": {
+          "net": "$11N29",
+          "line": 19707
+        }
+      }
+    },
+    {
+      "ref": "U4",
+      "page": "AUDIO",
+      "part": "ICS-43434_C5656610.1",
+      "value": null,
+      "manufacturer_part": "ICS-43434",
+      "schematic_line": 11432,
+      "pcb_line": 19821,
+      "device": "a0436f8384287be7",
+      "pins": {
+        "1": {
+          "net": "I2S_WS",
+          "line": 19822
+        },
+        "2": {
+          "net": "GND",
+          "line": 19823
+        },
+        "4": {
+          "net": "I2S_BCLK",
+          "line": 19824
+        },
+        "5": {
+          "net": "MIC_3V3",
+          "line": 19825
+        },
+        "6": {
+          "net": "MIC_DOUT",
+          "line": 19826
+        },
+        "3": {
+          "net": "GND",
+          "line": 19830
+        }
+      }
+    },
+    {
+      "ref": "U5",
+      "page": "AUDIO",
+      "part": "MAX98357AETE+T.1",
+      "value": null,
+      "manufacturer_part": "MAX98357AETE+T",
+      "schematic_line": 11433,
+      "pcb_line": 19834,
+      "device": "3890aa52ee55b922",
+      "pins": {
+        "1": {
+          "net": "SPK_DIN",
+          "line": 19835
+        },
+        "2": {
+          "net": "GND",
+          "line": 19836
+        },
+        "3": {
+          "net": "GND",
+          "line": 19837
+        },
+        "4": {
+          "net": "$11N29",
+          "line": 19838
+        },
+        "5": {
+          "net": "",
+          "line": 19839
+        },
+        "6": {
+          "net": "",
+          "line": 19840
+        },
+        "7": {
+          "net": "AUDIO_3V3",
+          "line": 19841
+        },
+        "8": {
+          "net": "AUDIO_3V3",
+          "line": 19842
+        },
+        "9": {
+          "net": "SPK_OUTP_RAW",
+          "line": 19843
+        },
+        "10": {
+          "net": "SPK_OUTN_RAW",
+          "line": 19844
+        },
+        "11": {
+          "net": "GND",
+          "line": 19845
+        },
+        "12": {
+          "net": "",
+          "line": 19846
+        },
+        "13": {
+          "net": "",
+          "line": 19847
+        },
+        "14": {
+          "net": "I2S_WS",
+          "line": 19848
+        },
+        "15": {
+          "net": "GND",
+          "line": 19849
+        },
+        "16": {
+          "net": "I2S_BCLK",
+          "line": 19850
+        },
+        "17": {
+          "net": "GND",
+          "line": 19851
+        }
+      }
+    },
+    {
+      "ref": "U6",
+      "page": "AUDIO",
+      "part": "TLV62569DBVR.1",
+      "value": null,
+      "manufacturer_part": "TLV62569DBVR",
+      "schematic_line": 11398,
+      "pcb_line": 19855,
+      "device": "4f9c6c6076caa47b",
+      "pins": {
+        "5": {
+          "net": "$11N65",
+          "line": 19856
+        },
+        "4": {
+          "net": "VRAW",
+          "line": 19857
+        },
+        "3": {
+          "net": "$11N5",
+          "line": 19858
+        },
+        "2": {
+          "net": "GND",
+          "line": 19859
+        },
+        "1": {
+          "net": "AUDIO_PWR_EN",
+          "line": 19860
+        }
+      }
+    },
+    {
+      "ref": "C1",
+      "page": "EPD",
+      "part": "CL10A475KA8NQNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KA8NQNC",
+      "schematic_line": 17666,
+      "pcb_line": 19111,
+      "device": "36c8268831bd29c8",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19112
+        },
+        "1": {
+          "net": "$3N50",
+          "line": 19113
+        }
+      }
+    },
+    {
+      "ref": "C10",
+      "page": "EPD",
+      "part": "CC0603KRX5R8BB105.1",
+      "value": "1uF",
+      "manufacturer_part": "CC0603KRX5R8BB105",
+      "schematic_line": 17812,
+      "pcb_line": 19165,
+      "device": "00eb4924eb3a643e",
+      "pins": {
+        "2": {
+          "net": "VCOM",
+          "line": 19166
+        },
+        "1": {
+          "net": "GND",
+          "line": 19167
+        }
+      }
+    },
+    {
+      "ref": "C2",
+      "page": "EPD",
+      "part": "CL10A475KA8NQNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KA8NQNC",
+      "schematic_line": 17893,
+      "pcb_line": 19117,
+      "device": "36c8268831bd29c8",
+      "pins": {
+        "2": {
+          "net": "$3N74",
+          "line": 19118
+        },
+        "1": {
+          "net": "$3N75",
+          "line": 19119
+        }
+      }
+    },
+    {
+      "ref": "C3",
+      "page": "EPD",
+      "part": "CL10A475KA8NQNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KA8NQNC",
+      "schematic_line": 17930,
+      "pcb_line": 19123,
+      "device": "36c8268831bd29c8",
+      "pins": {
+        "2": {
+          "net": "3V3_PER",
+          "line": 19124
+        },
+        "1": {
+          "net": "GND",
+          "line": 19125
+        }
+      }
+    },
+    {
+      "ref": "C4",
+      "page": "EPD",
+      "part": "CL10A475KA8NQNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KA8NQNC",
+      "schematic_line": 17869,
+      "pcb_line": 19129,
+      "device": "36c8268831bd29c8",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19130
+        },
+        "1": {
+          "net": "PREVGH",
+          "line": 19131
+        }
+      }
+    },
+    {
+      "ref": "C5",
+      "page": "EPD",
+      "part": "CC0603KRX5R8BB105.1",
+      "value": "1uF",
+      "manufacturer_part": "CC0603KRX5R8BB105",
+      "schematic_line": 17700,
+      "pcb_line": 19135,
+      "device": "00eb4924eb3a643e",
+      "pins": {
+        "2": {
+          "net": "3V3_PER",
+          "line": 19136
+        },
+        "1": {
+          "net": "GND",
+          "line": 19137
+        }
+      }
+    },
+    {
+      "ref": "C6",
+      "page": "EPD",
+      "part": "CC0603KRX5R8BB105.1",
+      "value": "1uF",
+      "manufacturer_part": "CC0603KRX5R8BB105",
+      "schematic_line": 17724,
+      "pcb_line": 19141,
+      "device": "00eb4924eb3a643e",
+      "pins": {
+        "2": {
+          "net": "$3N63",
+          "line": 19142
+        },
+        "1": {
+          "net": "GND",
+          "line": 19143
+        }
+      }
+    },
+    {
+      "ref": "C7",
+      "page": "EPD",
+      "part": "CL10A475KA8NQNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KA8NQNC",
+      "schematic_line": 17744,
+      "pcb_line": 19147,
+      "device": "36c8268831bd29c8",
+      "pins": {
+        "2": {
+          "net": "$3N64",
+          "line": 19148
+        },
+        "1": {
+          "net": "GND",
+          "line": 19149
+        }
+      }
+    },
+    {
+      "ref": "C8",
+      "page": "EPD",
+      "part": "CL10A475KA8NQNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KA8NQNC",
+      "schematic_line": 17785,
+      "pcb_line": 19153,
+      "device": "36c8268831bd29c8",
+      "pins": {
+        "2": {
+          "net": "PREVGL",
+          "line": 19154
+        },
+        "1": {
+          "net": "GND",
+          "line": 19155
+        }
+      }
+    },
+    {
+      "ref": "C9",
+      "page": "EPD",
+      "part": "CL10A475KA8NQNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KA8NQNC",
+      "schematic_line": 17767,
+      "pcb_line": 19159,
+      "device": "36c8268831bd29c8",
+      "pins": {
+        "2": {
+          "net": "$3N67",
+          "line": 19160
+        },
+        "1": {
+          "net": "GND",
+          "line": 19161
+        }
+      }
+    },
+    {
+      "ref": "D1",
+      "page": "EPD",
+      "part": "pid8a0e77bacb214e",
+      "value": null,
+      "manufacturer_part": "MBR0530",
+      "schematic_line": 17823,
+      "pcb_line": 19356,
+      "device": "cb646c52b7b8db30",
+      "pins": {
+        "2": {
+          "net": "PREVGL",
+          "line": 19357
+        },
+        "1": {
+          "net": "$3N74",
+          "line": 19358
+        }
+      }
+    },
+    {
+      "ref": "D2",
+      "page": "EPD",
+      "part": "pid8a0e77bacb214e",
+      "value": null,
+      "manufacturer_part": "MBR0530",
+      "schematic_line": 17833,
+      "pcb_line": 19362,
+      "device": "cb646c52b7b8db30",
+      "pins": {
+        "2": {
+          "net": "$3N74",
+          "line": 19363
+        },
+        "1": {
+          "net": "GND",
+          "line": 19364
+        }
+      }
+    },
+    {
+      "ref": "D3",
+      "page": "EPD",
+      "part": "pid8a0e77bacb214e",
+      "value": null,
+      "manufacturer_part": "MBR0530",
+      "schematic_line": 17843,
+      "pcb_line": 19368,
+      "device": "cb646c52b7b8db30",
+      "pins": {
+        "2": {
+          "net": "$3N75",
+          "line": 19369
+        },
+        "1": {
+          "net": "PREVGH",
+          "line": 19370
+        }
+      }
+    },
+    {
+      "ref": "FPC1",
+      "page": "EPD",
+      "part": "HYCW3D-05FPC24-200B.1",
+      "value": null,
+      "manufacturer_part": "HYCW3D-05FPC24-200B",
+      "schematic_line": 17629,
+      "pcb_line": 19414,
+      "device": "9ea6653d5f7061b0",
+      "pins": {
+        "26": {
+          "net": "GND",
+          "line": 19415
+        },
+        "25": {
+          "net": "GND",
+          "line": 19416
+        },
+        "24": {
+          "net": "VCOM",
+          "line": 19417
+        },
+        "23": {
+          "net": "PREVGL",
+          "line": 19418
+        },
+        "22": {
+          "net": "$3N67",
+          "line": 19419
+        },
+        "21": {
+          "net": "PREVGH",
+          "line": 19420
+        },
+        "20": {
+          "net": "$3N64",
+          "line": 19421
+        },
+        "19": {
+          "net": "",
+          "line": 19422
+        },
+        "18": {
+          "net": "$3N63",
+          "line": 19423
+        },
+        "17": {
+          "net": "GND",
+          "line": 19424
+        },
+        "16": {
+          "net": "3V3_PER",
+          "line": 19425
+        },
+        "15": {
+          "net": "3V3_PER",
+          "line": 19426
+        },
+        "14": {
+          "net": "SDI",
+          "line": 19427
+        },
+        "13": {
+          "net": "SCLK",
+          "line": 19428
+        },
+        "12": {
+          "net": "CS",
+          "line": 19429
+        },
+        "11": {
+          "net": "D/C",
+          "line": 19430
+        },
+        "10": {
+          "net": "RES",
+          "line": 19431
+        },
+        "9": {
+          "net": "BUSY",
+          "line": 19432
+        },
+        "8": {
+          "net": "GND",
+          "line": 19433
+        },
+        "7": {
+          "net": "",
+          "line": 19434
+        },
+        "6": {
+          "net": "",
+          "line": 19435
+        },
+        "5": {
+          "net": "$3N50",
+          "line": 19436
+        },
+        "4": {
+          "net": "",
+          "line": 19437
+        },
+        "3": {
+          "net": "RESE",
+          "line": 19438
+        },
+        "2": {
+          "net": "GDR",
+          "line": 19439
+        },
+        "1": {
+          "net": "",
+          "line": 19440
+        }
+      }
+    },
+    {
+      "ref": "L1",
+      "page": "EPD",
+      "part": "FHD252012S-100MT.1",
+      "value": "10uH",
+      "manufacturer_part": "FHD252012S-100MT",
+      "schematic_line": 17942,
+      "pcb_line": 19467,
+      "device": "735de353a52dd9d2",
+      "pins": {
+        "2": {
+          "net": "$3N75",
+          "line": 19468
+        },
+        "1": {
+          "net": "3V3_PER",
+          "line": 19469
+        }
+      }
+    },
+    {
+      "ref": "Q1",
+      "page": "EPD",
+      "part": "SI1308EDL_C7603347.1",
+      "value": null,
+      "manufacturer_part": "SI1308EDL",
+      "schematic_line": 17918,
+      "pcb_line": 19492,
+      "device": "6933ae973d585103",
+      "pins": {
+        "1": {
+          "net": "GDR",
+          "line": 19493
+        },
+        "2": {
+          "net": "RESE",
+          "line": 19494
+        },
+        "3": {
+          "net": "$3N75",
+          "line": 19495
+        }
+      }
+    },
+    {
+      "ref": "R1",
+      "page": "EPD",
+      "part": "0603WAF1004T5E.1",
+      "value": "1MΩ",
+      "manufacturer_part": "0603WAF1004T5E",
+      "schematic_line": 17972,
+      "pcb_line": 19513,
+      "device": "df2ccb23495c3d4f",
+      "pins": {
+        "2": {
+          "net": "GDR",
+          "line": 19514
+        },
+        "1": {
+          "net": "GND",
+          "line": 19515
+        }
+      }
+    },
+    {
+      "ref": "R2",
+      "page": "EPD",
+      "part": "0603WAF470LT5E.1",
+      "value": "470mΩ",
+      "manufacturer_part": "0603WAF470LT5E",
+      "schematic_line": 17973,
+      "pcb_line": 19519,
+      "device": "667ba6a8f5e3ef5f",
+      "pins": {
+        "2": {
+          "net": "RESE",
+          "line": 19520
+        },
+        "1": {
+          "net": "GND",
+          "line": 19521
+        }
+      }
+    },
+    {
+      "ref": "C25",
+      "page": "MCU",
+      "part": "CL10A106MA8NRNC.1",
+      "value": "10uF",
+      "manufacturer_part": "CL10A106MA8NRNC",
+      "schematic_line": 13031,
+      "pcb_line": 19255,
+      "device": "9dc92d82d290a92d",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19256
+        },
+        "1": {
+          "net": "GND",
+          "line": 19257
+        }
+      }
+    },
+    {
+      "ref": "C26",
+      "page": "MCU",
+      "part": "CL10B104KB8NNNC.1",
+      "value": "100nF",
+      "manufacturer_part": "CL10B104KB8NNNC",
+      "schematic_line": 13002,
+      "pcb_line": 19261,
+      "device": "39c7fd6f997c6f34",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19262
+        },
+        "1": {
+          "net": "GND",
+          "line": 19263
+        }
+      }
+    },
+    {
+      "ref": "C27",
+      "page": "MCU",
+      "part": "CL10A105KB8NNNC.1",
+      "value": "1uF",
+      "manufacturer_part": "CL10A105KB8NNNC",
+      "schematic_line": 13311,
+      "pcb_line": 19267,
+      "device": "d971fc83936e2255",
+      "pins": {
+        "2": {
+          "net": "SW_EN",
+          "line": 19268
+        },
+        "1": {
+          "net": "GND",
+          "line": 19269
+        }
+      }
+    },
+    {
+      "ref": "C36",
+      "page": "MCU",
+      "part": "CL10A105KB8NNNC.1",
+      "value": "1uF",
+      "manufacturer_part": "CL10A105KB8NNNC",
+      "schematic_line": 13317,
+      "pcb_line": 19321,
+      "device": "d971fc83936e2255",
+      "pins": {
+        "2": {
+          "net": "SW_BOOT",
+          "line": 19322
+        },
+        "1": {
+          "net": "GND",
+          "line": 19323
+        }
+      }
+    },
+    {
+      "ref": "C37",
+      "page": "MCU",
+      "part": "CL10A105KB8NNNC.1",
+      "value": "1uF",
+      "manufacturer_part": "CL10A105KB8NNNC",
+      "schematic_line": 13574,
+      "pcb_line": 19327,
+      "device": "d971fc83936e2255",
+      "pins": {
+        "2": {
+          "net": "SW_VO-",
+          "line": 19328
+        },
+        "1": {
+          "net": "GND",
+          "line": 19329
+        }
+      }
+    },
+    {
+      "ref": "C38",
+      "page": "MCU",
+      "part": "CL10A105KB8NNNC.1",
+      "value": "1uF",
+      "manufacturer_part": "CL10A105KB8NNNC",
+      "schematic_line": 13677,
+      "pcb_line": 19333,
+      "device": "d971fc83936e2255",
+      "pins": {
+        "2": {
+          "net": "SW_VO+",
+          "line": 19334
+        },
+        "1": {
+          "net": "GND",
+          "line": 19335
+        }
+      }
+    },
+    {
+      "ref": "R25",
+      "page": "MCU",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 13513,
+      "pcb_line": 19657,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19658
+        },
+        "1": {
+          "net": "SW_VO-",
+          "line": 19659
+        }
+      }
+    },
+    {
+      "ref": "R26",
+      "page": "MCU",
+      "part": "RC0603FR-0710KL.1",
+      "value": "10kΩ",
+      "manufacturer_part": "RC0603FR-0710KL",
+      "schematic_line": 13637,
+      "pcb_line": 19663,
+      "device": "bae70529314c5773",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19664
+        },
+        "1": {
+          "net": "SW_VO+",
+          "line": 19665
+        }
+      }
+    },
+    {
+      "ref": "R27",
+      "page": "MCU",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 13077,
+      "pcb_line": 19669,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19670
+        },
+        "1": {
+          "net": "SW_EN",
+          "line": 19671
+        }
+      }
+    },
+    {
+      "ref": "R28",
+      "page": "MCU",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 13134,
+      "pcb_line": 19675,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19676
+        },
+        "1": {
+          "net": "SW_BOOT",
+          "line": 19677
+        }
+      }
+    },
+    {
+      "ref": "SW1",
+      "page": "MCU",
+      "part": "TS24CA.1",
+      "value": null,
+      "manufacturer_part": "TS24CA",
+      "schematic_line": 13078,
+      "pcb_line": 19711,
+      "device": "deef838a25c311e2",
+      "pins": {
+        "4": {
+          "net": "GND",
+          "line": 19712
+        },
+        "3": {
+          "net": "GND",
+          "line": 19713
+        },
+        "2": {
+          "net": "SW_EN",
+          "line": 19714
+        },
+        "1": {
+          "net": "GND",
+          "line": 19715
+        }
+      }
+    },
+    {
+      "ref": "SW2",
+      "page": "MCU",
+      "part": "TS24CA.1",
+      "value": null,
+      "manufacturer_part": "TS24CA",
+      "schematic_line": 13135,
+      "pcb_line": 19719,
+      "device": "deef838a25c311e2",
+      "pins": {
+        "4": {
+          "net": "GND",
+          "line": 19720
+        },
+        "3": {
+          "net": "GND",
+          "line": 19721
+        },
+        "2": {
+          "net": "SW_BOOT",
+          "line": 19722
+        },
+        "1": {
+          "net": "GND",
+          "line": 19723
+        }
+      }
+    },
+    {
+      "ref": "SW3",
+      "page": "MCU",
+      "part": "TS24CA.1",
+      "value": null,
+      "manufacturer_part": "TS24CA",
+      "schematic_line": 13514,
+      "pcb_line": 19727,
+      "device": "deef838a25c311e2",
+      "pins": {
+        "4": {
+          "net": "GND",
+          "line": 19728
+        },
+        "3": {
+          "net": "GND",
+          "line": 19729
+        },
+        "2": {
+          "net": "SW_VO-",
+          "line": 19730
+        },
+        "1": {
+          "net": "GND",
+          "line": 19731
+        }
+      }
+    },
+    {
+      "ref": "SW4",
+      "page": "MCU",
+      "part": "TS24CA.1",
+      "value": null,
+      "manufacturer_part": "TS24CA",
+      "schematic_line": 13638,
+      "pcb_line": 19735,
+      "device": "deef838a25c311e2",
+      "pins": {
+        "4": {
+          "net": "GND",
+          "line": 19736
+        },
+        "3": {
+          "net": "GND",
+          "line": 19737
+        },
+        "2": {
+          "net": "SW_VO+",
+          "line": 19738
+        },
+        "1": {
+          "net": "GND",
+          "line": 19739
+        }
+      }
+    },
+    {
+      "ref": "U3",
+      "page": "MCU",
+      "part": "ESP32-S3-WROOM-1(N16R8).1",
+      "value": "2.4GHz",
+      "manufacturer_part": "ESP32-S3-WROOM-1-N16R8",
+      "schematic_line": 12966,
+      "pcb_line": 19768,
+      "device": "8d9726e20c0bd83a",
+      "pins": {
+        "1": {
+          "net": "GND",
+          "line": 19769
+        },
+        "2": {
+          "net": "3V3",
+          "line": 19770
+        },
+        "3": {
+          "net": "SW_EN",
+          "line": 19771
+        },
+        "4": {
+          "net": "AUDIO_PWR_EN",
+          "line": 19772
+        },
+        "5": {
+          "net": "SW_VO-",
+          "line": 19773
+        },
+        "6": {
+          "net": "AMP_SD_MODE",
+          "line": 19774
+        },
+        "7": {
+          "net": "I2S_WS",
+          "line": 19775
+        },
+        "8": {
+          "net": "SDI",
+          "line": 19776
+        },
+        "9": {
+          "net": "SCLK",
+          "line": 19777
+        },
+        "10": {
+          "net": "CS",
+          "line": 19778
+        },
+        "11": {
+          "net": "D/C",
+          "line": 19779
+        },
+        "12": {
+          "net": "RES",
+          "line": 19780
+        },
+        "13": {
+          "net": "USB_DM",
+          "line": 19781
+        },
+        "14": {
+          "net": "USB_DP",
+          "line": 19782
+        },
+        "15": {
+          "net": "INT",
+          "line": 19783
+        },
+        "16": {
+          "net": "",
+          "line": 19784
+        },
+        "17": {
+          "net": "BUSY",
+          "line": 19785
+        },
+        "18": {
+          "net": "SDA",
+          "line": 19786
+        },
+        "19": {
+          "net": "MIC_DOUT",
+          "line": 19787
+        },
+        "20": {
+          "net": "I2S_BCLK",
+          "line": 19788
+        },
+        "21": {
+          "net": "SCL",
+          "line": 19789
+        },
+        "22": {
+          "net": "RST",
+          "line": 19790
+        },
+        "23": {
+          "net": "POWER_EN",
+          "line": 19791
+        },
+        "24": {
+          "net": "SD_D1",
+          "line": 19792
+        },
+        "25": {
+          "net": "SD_D0",
+          "line": 19793
+        },
+        "26": {
+          "net": "",
+          "line": 19794
+        },
+        "27": {
+          "net": "SW_BOOT",
+          "line": 19795
+        },
+        "28": {
+          "net": "",
+          "line": 19796
+        },
+        "29": {
+          "net": "",
+          "line": 19797
+        },
+        "30": {
+          "net": "",
+          "line": 19798
+        },
+        "31": {
+          "net": "SD_CLK",
+          "line": 19799
+        },
+        "32": {
+          "net": "SD_CMD",
+          "line": 19800
+        },
+        "33": {
+          "net": "SD_D3",
+          "line": 19801
+        },
+        "34": {
+          "net": "SD_D2",
+          "line": 19802
+        },
+        "35": {
+          "net": "STANDBY_STAT",
+          "line": 19803
+        },
+        "36": {
+          "net": "CHRG_STAT",
+          "line": 19804
+        },
+        "37": {
+          "net": "SPK_DIN",
+          "line": 19805
+        },
+        "38": {
+          "net": "SW_VO+",
+          "line": 19806
+        },
+        "39": {
+          "net": "BAT_SENSE",
+          "line": 19807
+        },
+        "40": {
+          "net": "GND",
+          "line": 19808
+        },
+        "41": {
+          "net": "GND",
+          "line": 19817
+        }
+      }
+    },
+    {
+      "ref": "C16",
+      "page": "POWER",
+      "part": "CL10A106MA8NRNC.1",
+      "value": "10uF",
+      "manufacturer_part": "CL10A106MA8NRNC",
+      "schematic_line": 15259,
+      "pcb_line": 19201,
+      "device": "9dc92d82d290a92d",
+      "pins": {
+        "2": {
+          "net": "VBUS",
+          "line": 19202
+        },
+        "1": {
+          "net": "GND",
+          "line": 19203
+        }
+      }
+    },
+    {
+      "ref": "C17",
+      "page": "POWER",
+      "part": "CL10B104KB8NNNC.1",
+      "value": "100nF",
+      "manufacturer_part": "CL10B104KB8NNNC",
+      "schematic_line": 15261,
+      "pcb_line": 19207,
+      "device": "39c7fd6f997c6f34",
+      "pins": {
+        "2": {
+          "net": "VBUS",
+          "line": 19208
+        },
+        "1": {
+          "net": "GND",
+          "line": 19209
+        }
+      }
+    },
+    {
+      "ref": "C18",
+      "page": "POWER",
+      "part": "CL10A106MA8NRNC.1",
+      "value": "10uF",
+      "manufacturer_part": "CL10A106MA8NRNC",
+      "schematic_line": 15332,
+      "pcb_line": 19213,
+      "device": "9dc92d82d290a92d",
+      "pins": {
+        "2": {
+          "net": "VBUS",
+          "line": 19214
+        },
+        "1": {
+          "net": "GND",
+          "line": 19215
+        }
+      }
+    },
+    {
+      "ref": "C19",
+      "page": "POWER",
+      "part": "CL10A106MA8NRNC.1",
+      "value": "10uF",
+      "manufacturer_part": "CL10A106MA8NRNC",
+      "schematic_line": 15516,
+      "pcb_line": 19219,
+      "device": "9dc92d82d290a92d",
+      "pins": {
+        "2": {
+          "net": "VBAT",
+          "line": 19220
+        },
+        "1": {
+          "net": "GND",
+          "line": 19221
+        }
+      }
+    },
+    {
+      "ref": "C20",
+      "page": "POWER",
+      "part": "CL10A226MQ8NRNC.1",
+      "value": "22uF",
+      "manufacturer_part": "CL10A226MQ8NRNC",
+      "schematic_line": 15568,
+      "pcb_line": 19225,
+      "device": "8fcaa1c317964e7b",
+      "pins": {
+        "2": {
+          "net": "VRAW",
+          "line": 19226
+        },
+        "1": {
+          "net": "GND",
+          "line": 19227
+        }
+      }
+    },
+    {
+      "ref": "C21",
+      "page": "POWER",
+      "part": "CL10A475KO8NNNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KO8NNNC",
+      "schematic_line": 15616,
+      "pcb_line": 19231,
+      "device": "2ed91a7bfe70b21d",
+      "pins": {
+        "2": {
+          "net": "VRAW",
+          "line": 19232
+        },
+        "1": {
+          "net": "GND",
+          "line": 19233
+        }
+      }
+    },
+    {
+      "ref": "C22",
+      "page": "POWER",
+      "part": "CL10A106MA8NRNC.1",
+      "value": "10uF",
+      "manufacturer_part": "CL10A106MA8NRNC",
+      "schematic_line": 15639,
+      "pcb_line": 19237,
+      "device": "9dc92d82d290a92d",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19238
+        },
+        "1": {
+          "net": "GND",
+          "line": 19239
+        }
+      }
+    },
+    {
+      "ref": "C23",
+      "page": "POWER",
+      "part": "CL10A105KB8NNNC.1",
+      "value": "1uF",
+      "manufacturer_part": "CL10A105KB8NNNC",
+      "schematic_line": 15661,
+      "pcb_line": 19243,
+      "device": "d971fc83936e2255",
+      "pins": {
+        "2": {
+          "net": "$10N284",
+          "line": 19244
+        },
+        "1": {
+          "net": "GND",
+          "line": 19245
+        }
+      }
+    },
+    {
+      "ref": "C24",
+      "page": "POWER",
+      "part": "CL10B104KB8NNNC.1",
+      "value": "100nF",
+      "manufacturer_part": "CL10B104KB8NNNC",
+      "schematic_line": 15703,
+      "pcb_line": 19249,
+      "device": "39c7fd6f997c6f34",
+      "pins": {
+        "2": {
+          "net": "BAT_SENSE",
+          "line": 19250
+        },
+        "1": {
+          "net": "GND",
+          "line": 19251
+        }
+      }
+    },
+    {
+      "ref": "D4",
+      "page": "POWER",
+      "part": "PESD5V0S1UB_C2912530.1",
+      "value": null,
+      "manufacturer_part": "PESD5V0S1UB",
+      "schematic_line": 15247,
+      "pcb_line": 19374,
+      "device": "8accc30a477ec1a2",
+      "pins": {
+        "1": {
+          "net": "VBUS",
+          "line": 19375
+        },
+        "2": {
+          "net": "GND",
+          "line": 19376
+        }
+      }
+    },
+    {
+      "ref": "D5",
+      "page": "POWER",
+      "part": "USBLC6-2SC6_C2827654.1",
+      "value": null,
+      "manufacturer_part": "USBLC6-2SC6",
+      "schematic_line": 15092,
+      "pcb_line": 19380,
+      "device": "d89a6d174b708c30",
+      "pins": {
+        "1": {
+          "net": "$10N28",
+          "line": 19381
+        },
+        "2": {
+          "net": "GND",
+          "line": 19382
+        },
+        "3": {
+          "net": "IO2",
+          "line": 19383
+        },
+        "4": {
+          "net": "USB_DM",
+          "line": 19384
+        },
+        "5": {
+          "net": "VBUS",
+          "line": 19385
+        },
+        "6": {
+          "net": "USB_DP",
+          "line": 19386
+        }
+      }
+    },
+    {
+      "ref": "D6",
+      "page": "POWER",
+      "part": "SS34_C5204952.1",
+      "value": null,
+      "manufacturer_part": "SS34",
+      "schematic_line": 15555,
+      "pcb_line": 19390,
+      "device": "1cc9908a5cad1476",
+      "pins": {
+        "2": {
+          "net": "VBUS",
+          "line": 19391
+        },
+        "1": {
+          "net": "VRAW",
+          "line": 19392
+        }
+      }
+    },
+    {
+      "ref": "H1",
+      "page": "POWER",
+      "part": "WAFER-PH2.0-2PWB.1",
+      "value": null,
+      "manufacturer_part": "WAFER-PH2.0-2PWB",
+      "schematic_line": 15756,
+      "pcb_line": 19453,
+      "device": "948332dfebebd6be",
+      "pins": {
+        "1": {
+          "net": "VBAT",
+          "line": 19454
+        },
+        "2": {
+          "net": "GND",
+          "line": 19455
+        },
+        "3": {
+          "net": "GND",
+          "line": 19456
+        },
+        "4": {
+          "net": "GND",
+          "line": 19457
+        }
+      }
+    },
+    {
+      "ref": "L2",
+      "page": "POWER",
+      "part": "PNR4030-2R2-N.1",
+      "value": "2.2uH",
+      "manufacturer_part": "PNR4030-2R2-N",
+      "schematic_line": 15675,
+      "pcb_line": 19474,
+      "device": "0c6be97fbeda6aef",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19475
+        },
+        "1": {
+          "net": "$10N280",
+          "line": 19476
+        }
+      }
+    },
+    {
+      "ref": "LED1",
+      "page": "POWER",
+      "part": "XL-1608SURC-06.1",
+      "value": null,
+      "manufacturer_part": "XL-1608SURC-06",
+      "schematic_line": 15447,
+      "pcb_line": 19486,
+      "device": "77674f70a4430675",
+      "pins": {
+        "1": {
+          "net": "CHRG_STAT",
+          "line": 19487
+        },
+        "2": {
+          "net": "$10N62",
+          "line": 19488
+        }
+      }
+    },
+    {
+      "ref": "Q2",
+      "page": "POWER",
+      "part": "AO3401A.1",
+      "value": null,
+      "manufacturer_part": "AO3401A",
+      "schematic_line": 15653,
+      "pcb_line": 19499,
+      "device": "e946b16d5ec19000",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19500
+        },
+        "3": {
+          "net": "3V3_PER",
+          "line": 19501
+        },
+        "1": {
+          "net": "$10N284",
+          "line": 19502
+        }
+      }
+    },
+    {
+      "ref": "Q3",
+      "page": "POWER",
+      "part": "AO3401A.1",
+      "value": null,
+      "manufacturer_part": "AO3401A",
+      "schematic_line": 15559,
+      "pcb_line": 19506,
+      "device": "e946b16d5ec19000",
+      "pins": {
+        "2": {
+          "net": "VBAT",
+          "line": 19507
+        },
+        "3": {
+          "net": "VRAW",
+          "line": 19508
+        },
+        "1": {
+          "net": "$10N278",
+          "line": 19509
+        }
+      }
+    },
+    {
+      "ref": "R11",
+      "page": "POWER",
+      "part": "0603WAF5101T5E.1",
+      "value": "5.1kΩ",
+      "manufacturer_part": "0603WAF5101T5E",
+      "schematic_line": 15163,
+      "pcb_line": 19573,
+      "device": "2fb4f8af69c3df97",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19574
+        },
+        "1": {
+          "net": "$10N24",
+          "line": 19575
+        }
+      }
+    },
+    {
+      "ref": "R12",
+      "page": "POWER",
+      "part": "0603WAF5101T5E.1",
+      "value": "5.1kΩ",
+      "manufacturer_part": "0603WAF5101T5E",
+      "schematic_line": 15164,
+      "pcb_line": 19579,
+      "device": "2fb4f8af69c3df97",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19580
+        },
+        "1": {
+          "net": "$10N25",
+          "line": 19581
+        }
+      }
+    },
+    {
+      "ref": "R13",
+      "page": "POWER",
+      "part": "0603WAF1001T5E.1",
+      "value": "1kΩ",
+      "manufacturer_part": "0603WAF1001T5E",
+      "schematic_line": 15492,
+      "pcb_line": 19585,
+      "device": "c6cc44f293c2bcee",
+      "pins": {
+        "2": {
+          "net": "$10N62",
+          "line": 19586
+        },
+        "1": {
+          "net": "VBUS",
+          "line": 19587
+        }
+      }
+    },
+    {
+      "ref": "R14",
+      "page": "POWER",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 15414,
+      "pcb_line": 19591,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "$10N48",
+          "line": 19592
+        },
+        "1": {
+          "net": "VBUS",
+          "line": 19593
+        }
+      }
+    },
+    {
+      "ref": "R15",
+      "page": "POWER",
+      "part": "0603WAF1003T5E.1",
+      "value": "100kΩ",
+      "manufacturer_part": "0603WAF1003T5E",
+      "schematic_line": 15433,
+      "pcb_line": 19597,
+      "device": "e72be0bb3ad56dd3",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19598
+        },
+        "1": {
+          "net": "CHRG_STAT",
+          "line": 19599
+        }
+      }
+    },
+    {
+      "ref": "R16",
+      "page": "POWER",
+      "part": "0603WAF1003T5E.1",
+      "value": "100kΩ",
+      "manufacturer_part": "0603WAF1003T5E",
+      "schematic_line": 15434,
+      "pcb_line": 19603,
+      "device": "e72be0bb3ad56dd3",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19604
+        },
+        "1": {
+          "net": "STANDBY_STAT",
+          "line": 19605
+        }
+      }
+    },
+    {
+      "ref": "R17",
+      "page": "POWER",
+      "part": "0603WAF1201T5E.1",
+      "value": "1.2kΩ",
+      "manufacturer_part": "0603WAF1201T5E",
+      "schematic_line": 15372,
+      "pcb_line": 19609,
+      "device": "a6e01843ab7f2d43",
+      "pins": {
+        "2": {
+          "net": "$10N44",
+          "line": 19610
+        },
+        "1": {
+          "net": "GND",
+          "line": 19611
+        }
+      }
+    },
+    {
+      "ref": "R18",
+      "page": "POWER",
+      "part": "0603WAF1001T5E.1",
+      "value": "1kΩ",
+      "manufacturer_part": "0603WAF1001T5E",
+      "schematic_line": 15558,
+      "pcb_line": 19615,
+      "device": "c6cc44f293c2bcee",
+      "pins": {
+        "2": {
+          "net": "VBUS",
+          "line": 19616
+        },
+        "1": {
+          "net": "$10N278",
+          "line": 19617
+        }
+      }
+    },
+    {
+      "ref": "R19",
+      "page": "POWER",
+      "part": "0603WAF2202T5E.1",
+      "value": "22kΩ",
+      "manufacturer_part": "0603WAF2202T5E",
+      "schematic_line": 15573,
+      "pcb_line": 19621,
+      "device": "6894647ca10e5c3f",
+      "pins": {
+        "2": {
+          "net": "$10N278",
+          "line": 19622
+        },
+        "1": {
+          "net": "GND",
+          "line": 19623
+        }
+      }
+    },
+    {
+      "ref": "R20",
+      "page": "POWER",
+      "part": "0603WAF1003T5E.1",
+      "value": "100kΩ",
+      "manufacturer_part": "0603WAF1003T5E",
+      "schematic_line": 15656,
+      "pcb_line": 19627,
+      "device": "e72be0bb3ad56dd3",
+      "pins": {
+        "2": {
+          "net": "3V3",
+          "line": 19628
+        },
+        "1": {
+          "net": "$10N284",
+          "line": 19629
+        }
+      }
+    },
+    {
+      "ref": "R21",
+      "page": "POWER",
+      "part": "0603WAF2673T5E.1",
+      "value": "267kΩ",
+      "manufacturer_part": "0603WAF2673T5E",
+      "schematic_line": 15647,
+      "pcb_line": 19633,
+      "device": "a0aaac3b47595439",
+      "pins": {
+        "2": {
+          "net": "GND",
+          "line": 19634
+        },
+        "1": {
+          "net": "$10N282",
+          "line": 19635
+        }
+      }
+    },
+    {
+      "ref": "R22",
+      "page": "POWER",
+      "part": "0603WAF4701T5E.1",
+      "value": "4.7kΩ",
+      "manufacturer_part": "0603WAF4701T5E",
+      "schematic_line": 15666,
+      "pcb_line": 19639,
+      "device": "fb6f2c564b629a62",
+      "pins": {
+        "2": {
+          "net": "$10N284",
+          "line": 19640
+        },
+        "1": {
+          "net": "POWER_EN",
+          "line": 19641
+        }
+      }
+    },
+    {
+      "ref": "R23",
+      "page": "POWER",
+      "part": "0603WAF1005T5E.1",
+      "value": "10MΩ",
+      "manufacturer_part": "0603WAF1005T5E",
+      "schematic_line": 15678,
+      "pcb_line": 19645,
+      "device": "6366a078a1c31664",
+      "pins": {
+        "2": {
+          "net": "VBAT",
+          "line": 19646
+        },
+        "1": {
+          "net": "BAT_SENSE",
+          "line": 19647
+        }
+      }
+    },
+    {
+      "ref": "R24",
+      "page": "POWER",
+      "part": "0603WAF3304T5E.1",
+      "value": "3.3MΩ",
+      "manufacturer_part": "0603WAF3304T5E",
+      "schematic_line": 15680,
+      "pcb_line": 19651,
+      "device": "917d996d8fb39b74",
+      "pins": {
+        "2": {
+          "net": "BAT_SENSE",
+          "line": 19652
+        },
+        "1": {
+          "net": "GND",
+          "line": 19653
+        }
+      }
+    },
+    {
+      "ref": "U1",
+      "page": "POWER",
+      "part": "TP4056_C725790.1",
+      "value": null,
+      "manufacturer_part": "TP4056",
+      "schematic_line": 15335,
+      "pcb_line": 19743,
+      "device": "305094e470230c89",
+      "pins": {
+        "1": {
+          "net": "GND",
+          "line": 19744
+        },
+        "2": {
+          "net": "$10N44",
+          "line": 19745
+        },
+        "3": {
+          "net": "GND",
+          "line": 19746
+        },
+        "4": {
+          "net": "VBUS",
+          "line": 19747
+        },
+        "5": {
+          "net": "VBAT",
+          "line": 19748
+        },
+        "6": {
+          "net": "STANDBY_STAT",
+          "line": 19749
+        },
+        "7": {
+          "net": "CHRG_STAT",
+          "line": 19750
+        },
+        "8": {
+          "net": "$10N48",
+          "line": 19751
+        },
+        "9": {
+          "net": "GND",
+          "line": 19752
+        }
+      }
+    },
+    {
+      "ref": "U2",
+      "page": "POWER",
+      "part": "TPS62840DLCR.1",
+      "value": null,
+      "manufacturer_part": "TPS62840DLCR",
+      "schematic_line": 15624,
+      "pcb_line": 19756,
+      "device": "dfec83cf4996771a",
+      "pins": {
+        "1": {
+          "net": "GND",
+          "line": 19757
+        },
+        "2": {
+          "net": "VRAW",
+          "line": 19758
+        },
+        "3": {
+          "net": "GND",
+          "line": 19759
+        },
+        "4": {
+          "net": "VRAW",
+          "line": 19760
+        },
+        "5": {
+          "net": "$10N282",
+          "line": 19761
+        },
+        "6": {
+          "net": "GND",
+          "line": 19762
+        },
+        "7": {
+          "net": "$10N280",
+          "line": 19763
+        },
+        "8": {
+          "net": "3V3",
+          "line": 19764
+        }
+      }
+    },
+    {
+      "ref": "USB1",
+      "page": "POWER",
+      "part": "TYPE-C 16PIN 2MD(073).1",
+      "value": null,
+      "manufacturer_part": "TYPE-C 16PIN 2MD(073)",
+      "schematic_line": 15081,
+      "pcb_line": 19864,
+      "device": "2c74c989c24b0b1a",
+      "pins": {
+        "A1B12": {
+          "net": "GND",
+          "line": 19865
+        },
+        "A4B9": {
+          "net": "VBUS",
+          "line": 19866
+        },
+        "B8": {
+          "net": "",
+          "line": 19867
+        },
+        "A5": {
+          "net": "$10N25",
+          "line": 19868
+        },
+        "B7": {
+          "net": "IO2",
+          "line": 19869
+        },
+        "A6": {
+          "net": "$10N28",
+          "line": 19870
+        },
+        "A7": {
+          "net": "IO2",
+          "line": 19871
+        },
+        "B6": {
+          "net": "$10N28",
+          "line": 19872
+        },
+        "A8": {
+          "net": "",
+          "line": 19873
+        },
+        "B5": {
+          "net": "$10N24",
+          "line": 19874
+        },
+        "B4A9": {
+          "net": "VBUS",
+          "line": 19875
+        },
+        "B1A12": {
+          "net": "GND",
+          "line": 19876
+        },
+        "13": {
+          "net": "GND",
+          "line": 19879
+        },
+        "14": {
+          "net": "GND",
+          "line": 19880
+        }
+      }
+    },
+    {
+      "ref": "C14",
+      "page": "SD",
+      "part": "CL10A106MA8NRNC.1",
+      "value": "10uF",
+      "manufacturer_part": "CL10A106MA8NRNC",
+      "schematic_line": 18530,
+      "pcb_line": 19189,
+      "device": "9dc92d82d290a92d",
+      "pins": {
+        "2": {
+          "net": "3V3_PER",
+          "line": 19190
+        },
+        "1": {
+          "net": "GND",
+          "line": 19191
+        }
+      }
+    },
+    {
+      "ref": "C15",
+      "page": "SD",
+      "part": "CL10B104KB8NNNC.1",
+      "value": "100nF",
+      "manufacturer_part": "CL10B104KB8NNNC",
+      "schematic_line": 18503,
+      "pcb_line": 19195,
+      "device": "39c7fd6f997c6f34",
+      "pins": {
+        "2": {
+          "net": "3V3_PER",
+          "line": 19196
+        },
+        "1": {
+          "net": "GND",
+          "line": 19197
+        }
+      }
+    },
+    {
+      "ref": "CARD1",
+      "page": "SD",
+      "part": "TF PUSH.1",
+      "value": null,
+      "manufacturer_part": "TF PUSH",
+      "schematic_line": 18387,
+      "pcb_line": 19339,
+      "device": "d0b386310d4b1c6c",
+      "pins": {
+        "8": {
+          "net": "SD_D1",
+          "line": 19340
+        },
+        "7": {
+          "net": "SD_D0",
+          "line": 19341
+        },
+        "6": {
+          "net": "GND",
+          "line": 19342
+        },
+        "5": {
+          "net": "SD_CLK",
+          "line": 19343
+        },
+        "4": {
+          "net": "3V3_PER",
+          "line": 19344
+        },
+        "3": {
+          "net": "SD_CMD",
+          "line": 19345
+        },
+        "2": {
+          "net": "SD_D3",
+          "line": 19346
+        },
+        "1": {
+          "net": "SD_D2",
+          "line": 19347
+        },
+        "CD": {
+          "net": "",
+          "line": 19348
+        },
+        "10": {
+          "net": "GND",
+          "line": 19349
+        },
+        "11": {
+          "net": "GND",
+          "line": 19350
+        },
+        "12": {
+          "net": "GND",
+          "line": 19351
+        },
+        "13": {
+          "net": "GND",
+          "line": 19352
+        }
+      }
+    },
+    {
+      "ref": "R10",
+      "page": "SD",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 18455,
+      "pcb_line": 19567,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "SD_D1",
+          "line": 19568
+        },
+        "1": {
+          "net": "3V3_PER",
+          "line": 19569
+        }
+      }
+    },
+    {
+      "ref": "R6",
+      "page": "SD",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 18451,
+      "pcb_line": 19543,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "SD_D2",
+          "line": 19544
+        },
+        "1": {
+          "net": "3V3_PER",
+          "line": 19545
+        }
+      }
+    },
+    {
+      "ref": "R7",
+      "page": "SD",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 18452,
+      "pcb_line": 19549,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "SD_D3",
+          "line": 19550
+        },
+        "1": {
+          "net": "3V3_PER",
+          "line": 19551
+        }
+      }
+    },
+    {
+      "ref": "R8",
+      "page": "SD",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 18453,
+      "pcb_line": 19555,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "SD_CMD",
+          "line": 19556
+        },
+        "1": {
+          "net": "3V3_PER",
+          "line": 19557
+        }
+      }
+    },
+    {
+      "ref": "R9",
+      "page": "SD",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 18454,
+      "pcb_line": 19561,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "SD_D0",
+          "line": 19562
+        },
+        "1": {
+          "net": "3V3_PER",
+          "line": 19563
+        }
+      }
+    },
+    {
+      "ref": "C11",
+      "page": "TOUCH",
+      "part": "CL10B104KB8NNNC.1",
+      "value": "100nF",
+      "manufacturer_part": "CL10B104KB8NNNC",
+      "schematic_line": 14568,
+      "pcb_line": 19171,
+      "device": "39c7fd6f997c6f34",
+      "pins": {
+        "2": {
+          "net": "3V3_PER",
+          "line": 19172
+        },
+        "1": {
+          "net": "GND",
+          "line": 19173
+        }
+      }
+    },
+    {
+      "ref": "C12",
+      "page": "TOUCH",
+      "part": "CL10A475KA8NQNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KA8NQNC",
+      "schematic_line": 14594,
+      "pcb_line": 19177,
+      "device": "36c8268831bd29c8",
+      "pins": {
+        "2": {
+          "net": "3V3_PER",
+          "line": 19178
+        },
+        "1": {
+          "net": "GND",
+          "line": 19179
+        }
+      }
+    },
+    {
+      "ref": "C13",
+      "page": "TOUCH",
+      "part": "CL10A475KA8NQNC.1",
+      "value": "4.7uF",
+      "manufacturer_part": "CL10A475KA8NQNC",
+      "schematic_line": 14619,
+      "pcb_line": 19183,
+      "device": "36c8268831bd29c8",
+      "pins": {
+        "2": {
+          "net": "3V3_PER",
+          "line": 19184
+        },
+        "1": {
+          "net": "GND",
+          "line": 19185
+        }
+      }
+    },
+    {
+      "ref": "FPC2",
+      "page": "TOUCH",
+      "part": "LAIL-FPC-CDX01-6P0.5-GW.1",
+      "value": null,
+      "manufacturer_part": "LAIL-FPC-CDX01-6P0.5-GW",
+      "schematic_line": 14505,
+      "pcb_line": 19894,
+      "device": "3d99934cd5c9c486",
+      "pins": {
+        "8": {
+          "net": "GND",
+          "line": 19895
+        },
+        "6": {
+          "net": "SCL",
+          "line": 19896
+        },
+        "5": {
+          "net": "SDA",
+          "line": 19897
+        },
+        "4": {
+          "net": "INT",
+          "line": 19898
+        },
+        "3": {
+          "net": "RST",
+          "line": 19899
+        },
+        "2": {
+          "net": "3V3_PER",
+          "line": 19900
+        },
+        "1": {
+          "net": "GND",
+          "line": 19901
+        },
+        "7": {
+          "net": "GND",
+          "line": 19902
+        }
+      }
+    },
+    {
+      "ref": "R3",
+      "page": "TOUCH",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 14549,
+      "pcb_line": 19525,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "3V3_PER",
+          "line": 19526
+        },
+        "1": {
+          "net": "SDA",
+          "line": 19527
+        }
+      }
+    },
+    {
+      "ref": "R4",
+      "page": "TOUCH",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 14550,
+      "pcb_line": 19531,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "3V3_PER",
+          "line": 19532
+        },
+        "1": {
+          "net": "SCL",
+          "line": 19533
+        }
+      }
+    },
+    {
+      "ref": "R5",
+      "page": "TOUCH",
+      "part": "0603WAF1002T5E.1",
+      "value": "10kΩ",
+      "manufacturer_part": "0603WAF1002T5E",
+      "schematic_line": 14562,
+      "pcb_line": 19537,
+      "device": "89d0abb6a1ba0a3a",
+      "pins": {
+        "2": {
+          "net": "RST",
+          "line": 19538
+        },
+        "1": {
+          "net": "3V3_PER",
+          "line": 19539
+        }
+      }
+    }
+  ]
+}

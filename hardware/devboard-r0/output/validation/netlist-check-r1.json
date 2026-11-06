@@ -1,0 +1,25 @@
+{
+  "result": "PASS",
+  "critical_pin_connections": 371,
+  "components": 139,
+  "nets": 112,
+  "erc_violations": 0,
+  "checks": [
+    "stacked charger pins",
+    "feedback before measurement link",
+    "charge inhibit on chip side",
+    "DNP charge arm",
+    "cross-sheet control nets",
+    "battery-powered gauge",
+    "VBUS isolation topology",
+    "N16R8 physical pads and reserved memory/strap pads",
+    "USB A/B data copies and independent CC pull-downs",
+    "ESD and unidirectional TVS polarity",
+    "three distinct source-selector nets",
+    "protected USB branch detection",
+    "five load switches, CT and load-side QOD",
+    "four touch signals and all four SEL pins",
+    "downstream touch power and pull-ups",
+    "audio enable and shutdown default pulls"
+  ]
+}

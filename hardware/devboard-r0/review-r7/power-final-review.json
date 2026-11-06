@@ -1,0 +1,293 @@
+{
+  "status": "PASS_PLACEMENT_REVIEW_WITH_ROUTING_TASKS",
+  "date": "2026-11-06",
+  "scope": "Read-only review of final native PCB power/charge-temperature placement; no routing or thermal validation claimed.",
+  "pcb_path": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "pcb_sha256_at_review": "5eb16a5ecb824086f745c8d4737650eaaf315fa305fee58c9a027325d61c740b",
+  "native_footprints_checked": 78,
+  "coordinates_match_power_placement_json": true,
+  "all_power_group_footprints_on_front": true,
+  "critical_same_net_pad_distances": [
+    {
+      "pads": [
+        "U101.13",
+        "C101.1"
+      ],
+      "center_distance_mm": 2.07,
+      "same_net": true,
+      "net": "VIN_5V"
+    },
+    {
+      "pads": [
+        "U101.10",
+        "C102.1"
+      ],
+      "center_distance_mm": 1.644,
+      "same_net": true,
+      "net": "SYS_RAW"
+    },
+    {
+      "pads": [
+        "U101.2",
+        "C103.1"
+      ],
+      "center_distance_mm": 1.644,
+      "same_net": true,
+      "net": "BAT_PROT"
+    },
+    {
+      "pads": [
+        "U201.10",
+        "C201.1"
+      ],
+      "center_distance_mm": 1.842,
+      "same_net": true,
+      "net": "SYS"
+    },
+    {
+      "pads": [
+        "U201.6",
+        "C202.1"
+      ],
+      "center_distance_mm": 1.842,
+      "same_net": true,
+      "net": "/POWER_3V3_CONTROL/3V3_REG"
+    },
+    {
+      "pads": [
+        "U201.9",
+        "L201.1"
+      ],
+      "center_distance_mm": 3.615,
+      "same_net": true,
+      "net": "/POWER_3V3_CONTROL/SW_L1"
+    },
+    {
+      "pads": [
+        "U201.7",
+        "L201.2"
+      ],
+      "center_distance_mm": 3.615,
+      "same_net": true,
+      "net": "/POWER_3V3_CONTROL/SW_L2"
+    },
+    {
+      "pads": [
+        "U201.4",
+        "R201.2"
+      ],
+      "center_distance_mm": 1.475,
+      "same_net": true,
+      "net": "/POWER_3V3_CONTROL/REG_FB"
+    },
+    {
+      "pads": [
+        "U201.4",
+        "R202.1"
+      ],
+      "center_distance_mm": 2.485,
+      "same_net": true,
+      "net": "/POWER_3V3_CONTROL/REG_FB"
+    },
+    {
+      "pads": [
+        "U202.24",
+        "C203.1"
+      ],
+      "center_distance_mm": 2.164,
+      "same_net": true,
+      "net": "3V3_AON"
+    },
+    {
+      "pads": [
+        "U203.3",
+        "C204.1"
+      ],
+      "center_distance_mm": 1.755,
+      "same_net": true,
+      "net": "BAT_PROT"
+    },
+    {
+      "pads": [
+        "U901.8",
+        "C901.1"
+      ],
+      "center_distance_mm": 2.111,
+      "same_net": true,
+      "net": "VIN_5V"
+    }
+  ],
+  "charger_thermal_placement": {
+    "U101_center_mm": [
+      75.0,
+      115.0
+    ],
+    "thermal_pad17_center_mm": [
+      75.0,
+      115.0
+    ],
+    "thermal_pad17_size_mm": [
+      1.68,
+      1.68
+    ],
+    "thermal_pad_net": "GND",
+    "separate_VSS8_also_on_GND": true,
+    "nearest_component_centers": [
+      {
+        "ref": "R109",
+        "component_center_distance_mm": 3.929
+      },
+      {
+        "ref": "R110",
+        "component_center_distance_mm": 3.929
+      },
+      {
+        "ref": "R105",
+        "component_center_distance_mm": 4.031
+      },
+      {
+        "ref": "C101",
+        "component_center_distance_mm": 4.472
+      },
+      {
+        "ref": "C103",
+        "component_center_distance_mm": 4.5
+      },
+      {
+        "ref": "C102",
+        "component_center_distance_mm": 4.5
+      },
+      {
+        "ref": "R113",
+        "component_center_distance_mm": 4.717
+      },
+      {
+        "ref": "R104",
+        "component_center_distance_mm": 6.021
+      },
+      {
+        "ref": "R106",
+        "component_center_distance_mm": 6.021
+      },
+      {
+        "ref": "R111",
+        "component_center_distance_mm": 6.248
+      },
+      {
+        "ref": "R103",
+        "component_center_distance_mm": 6.325
+      },
+      {
+        "ref": "R112",
+        "component_center_distance_mm": 7.684
+      },
+      {
+        "ref": "Q101",
+        "component_center_distance_mm": 8.0
+      },
+      {
+        "ref": "R107",
+        "component_center_distance_mm": 8.746
+      }
+    ],
+    "finding": "No through-hole connector or other footprint occupies the exposed-pad area. Nearby capacitors and setting resistors leave the package bottom available for a designed thermal-via pattern. No thermal-via/heat-spreading qualification is claimed."
+  },
+  "temperature_separation": {
+    "U901_center_mm": [
+      87.0,
+      141.0
+    ],
+    "U901_to_component_center_mm": {
+      "U101": 28.636,
+      "U201": 31.305,
+      "L201": 33.45,
+      "L601": 90.55,
+      "Q601": 95.001,
+      "U802": 76.007,
+      "J103": 13.829
+    },
+    "C902_sensor_filter_to_switching_parts_center_mm": {
+      "L201": 37.472,
+      "L601": 90.827,
+      "Q601": 95.095,
+      "U802": 80.706
+    },
+    "finding": "Temperature comparator/filter cluster is in the lower quiet region near NTC terminal, away from main converter inductor and EPD switching stage; no major placement move indicated."
+  },
+  "routing_required": [
+    {
+      "group": "BQ24074",
+      "requirements": [
+        "Route IN13-C101-GND and OUT10/11-C102-GND as short/wide local loops, battery2/3-C103 equally local.",
+        "Connect VSS8 and exposed pad17 to GND; do not rely only on exposed pad as the VSS connection.",
+        "Design thermal-via array/copper spreading to ground layers; use assembly-approved filled/tented via/paste arrangement to avoid solder loss.",
+        "Keep ISET/ITERM/TMR/TS low-current ground returns free of high-current battery/OUT return drops; join locally to the ground structure without severing the system plane."
+      ]
+    },
+    {
+      "group": "TPS63802",
+      "requirements": [
+        "L1/9 to L201.1 and L2/7 to L201.2 align without crossing; preserve short, wide copper and minimum switching-node area.",
+        "VIN/C201 and VOUT/C202 require immediate local GND return paths; use solid reference plane and adjacent ground vias.",
+        "Keep AGND/control return quiet relative to PGND power-loop return, join close to device; do not add a split ground moat through signal return paths.",
+        "Kelvin-style feedback takeoff from C202 positive /3V3_REG before R203, route to R201/R202/FB away from L1/L2 and inductor.",
+        "The present DLA footprint uses numbered PGND pad8; no fabricated extra center-pad net may be introduced."
+      ]
+    },
+    {
+      "group": "MAX17048",
+      "requirements": [
+        "C204 closes the VDD3-GND4 bypass locally.",
+        "Sense BAT_PROT from protected battery/R102 downstream node with a quiet branch; return gauge ground to battery ground without sharing avoidable high-current trace drop.",
+        "Maintain separate test/disconnect R217/R218 and preserve source-side AON pullup topology."
+      ]
+    },
+    {
+      "group": "TCA9539",
+      "requirements": [
+        "C203 pin1 must connect directly to VCC24 with a close ground via on pin2.",
+        "Fan out control and I2C traces with continuous GND reference; route pullups without long decoupling stubs."
+      ]
+    },
+    {
+      "group": "TLV1822",
+      "requirements": [
+        "C901 bypass at V+8 to GND4 via a low-inductance local ground connection.",
+        "Keep BAT_NTC and HOT/COLD reference traces short and away from power switching nodes; place filter ground vias locally.",
+        "R907/R908 are intentional feedback; avoid extra capacitive coupling by not running comparator output/CHG_TS parallel to NTC/reference inputs.",
+        "Use a quiet ground return for NTC terminal/filter/reference network; exclude charge/discharge current from this return segment."
+      ]
+    },
+    {
+      "group": "TPS22918 distributed domains",
+      "requirements": [
+        "At each U401-U405, input capacitor must have a short direct VIN/GND connection, CT capacitor a short quiet CT/GND connection.",
+        "Route VOUT through measurement jumper to output capacitor/load; preserve QOD resistor connection on the load side of measurement jumper.",
+        "Use load-current-rated power width and GND returns; QOD branch does not become isolated merely by removing measurement jumper."
+      ]
+    }
+  ],
+  "major_placement_defects": [],
+  "recommended_component_moves": [],
+  "limitations": [
+    "Distances are pad-center straight-line measurements, not routed length or loop inductance.",
+    "No thermal simulation, charging test, via design, copper fill, impedance or current-capacity validation.",
+    "Global final silkscreen/DRC evidence is recorded by parent review; this report checks power placement only."
+  ],
+  "sources": [
+    "build/pcb-r7/power-constraints.json",
+    "hardware/reference/charge-r5/bq24074.pdf section12.1",
+    "hardware/reference/power/tps63802.pdf section12.1",
+    "hardware/reference/power/tps22918.pdf section11.1",
+    "hardware/reference/power/max17048.pdf pin descriptions",
+    "hardware/reference/power/tca9539.pdf section11.1",
+    "hardware/reference/charge-r5/tlv1822.pdf section8.4.1"
+  ],
+  "final_native_recheck": {
+    "all_78_power_coordinates_rotation_front_layer": "PASS",
+    "all_12_critical_pad_pairs_distance_and_net": "PASS",
+    "thermal_pad_geometry_and_ground": "PASS",
+    "temperature_separation_distances": "PASS",
+    "scope": "Final native PCB recheck after parent silkscreen-only finish; no project modification."
+  }
+}

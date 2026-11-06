@@ -1,0 +1,36 @@
+{
+  "panel_pin_functions": {
+    "1": "NC",
+    "2": "GDR",
+    "3": "RESE",
+    "4": "NC",
+    "5": "VSHR",
+    "6": "TSCL",
+    "7": "TSDA",
+    "8": "BS1",
+    "9": "BUSY",
+    "10": "RES_N",
+    "11": "D/C",
+    "12": "CS_N",
+    "13": "SCL",
+    "14": "SDA",
+    "15": "VDDIO",
+    "16": "VCI",
+    "17": "VSS",
+    "18": "VDD_INT",
+    "19": "VPP",
+    "20": "VSH1",
+    "21": "VGH",
+    "22": "VSL",
+    "23": "VGL",
+    "24": "VCOM"
+  },
+  "unused_open_pins": [
+    1,
+    4,
+    6,
+    7,
+    19
+  ],
+  "reference": "GDEY075T7-T01 p6,p38; rendered p38 inspected"
+}

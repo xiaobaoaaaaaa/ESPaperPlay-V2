@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Vishay_SC70_3_AN826_72601",
+    "refs": [
+      "Q601"
+    ],
+    "numbered_pads": [
+      {
+        "number": "1",
+        "x": -0.8955,
+        "y": -0.6225,
+        "w": 0.648,
+        "h": 0.559
+      },
+      {
+        "number": "2",
+        "x": -0.8955,
+        "y": 0.6225,
+        "w": 0.648,
+        "h": 0.559
+      },
+      {
+        "number": "3",
+        "x": 0.8955,
+        "y": 0,
+        "w": 0.648,
+        "h": 0.559
+      }
+    ],
+    "source": "Vishay72601 rotated90degrees; widths.648x.559; pair center pitch1.245; row center separation1.791. Nominal diagram round-off in mm reconciled outward by.001mm."
+  },
+  {
+    "name": "Vishay_WFM2010_5.08x2.54mm",
+    "refs": [
+      "R602"
+    ],
+    "numbered_pads": [
+      {
+        "number": "1",
+        "x": -2.375,
+        "y": 0,
+        "w": 1.25,
+        "h": 3.0
+      },
+      {
+        "number": "2",
+        "x": 2.375,
+        "y": 0,
+        "w": 1.25,
+        "h": 3.0
+      }
+    ],
+    "source": "Vishay30387 p2 recommended solder pads a1.25mm b3.00mm innergap3.50mm"
+  },
+  {
+    "name": "PUI_DMM_4026_B_I2S_R_7Pad_NPTH0.60",
+    "refs": [
+      "U803"
+    ],
+    "numbered_pads": [
+      {
+        "number": "1",
+        "x": -1.075,
+        "y": -1.58,
+        "w": 0.6,
+        "h": 0.4
+      },
+      {
+        "number": "2",
+        "x": -1.075,
+        "y": -0.93,
+        "w": 0.6,
+        "h": 0.4
+      },
+      {
+        "number": "3",
+        "x": -1.075,
+        "y": -0.28,
+        "w": 0.6,
+        "h": 0.4
+      },
+      {
+        "number": "5",
+        "x": 1.075,
+        "y": -0.28,
+        "w": 0.6,
+        "h": 0.4
+      },
+      {
+        "number": "6",
+        "x": 1.075,
+        "y": -0.93,
+        "w": 0.6,
+        "h": 0.4
+      },
+      {
+        "number": "7",
+        "x": 1.075,
+        "y": -1.58,
+        "w": 0.6,
+        "h": 0.4
+      },
+      {
+        "number": "4",
+        "x": 0,
+        "y": 0.325,
+        "w": 0.15,
+        "h": 0.15,
+        "custom_ring": {
+          "absolute_center_mm": [
+            0,
+            1
+          ],
+          "centerline_radius_mm": 0.675,
+          "copper_width_mm": 0.3,
+          "outer_diameter_mm": 1.65,
+          "inner_diameter_mm": 1.05,
+          "paste_width_mm": 0.255
+        }
+      }
+    ],
+    "source": "PUIRevA p6 package copper geometry; PUI Wide-BandMEMSMicrophonesApplicationGuide pp4,6,7; engineering finishedhole0.60+/-0.05mm and maskexpansion.025mm; ring85% width and signals85% linear paste candidate.",
+    "npth": {
+      "x": 0,
+      "y": 1,
+      "diameter_mm": 0.6,
+      "finished_hole_tolerance_mm": 0.05,
+      "minimum_diameter_mm": 0.55
+    },
+    "copper_keepout_radius_mm": 0.5
+  }
+]

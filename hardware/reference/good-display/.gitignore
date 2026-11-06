@@ -1,0 +1,4 @@
+# Original vendor downloads are local references, not project-licensed files.
+*.pdf
+*.rar
+*.zip

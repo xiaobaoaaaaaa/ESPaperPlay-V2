@@ -1,0 +1,1089 @@
+{
+  "date": "2026-11-06",
+  "scope": "Read-only physical placement constraints for r6 electrical design; no official project changed. Relative cardinal directions assume footprint rotation=0 on F.Cu. Suggested distances are engineering placement targets, not datasheet guarantees.",
+  "sources": {
+    "BQ24074": {
+      "file": "hardware/reference/charge-r5/bq24074.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "section": "12.1, PDF p40; pin descriptions p7-9",
+      "requirements": [
+        "Input and output decoupling close to IC, short runs to power pins and GND.",
+        "Small-signal ground paths kept clear of high-current charging/discharging return paths.",
+        "Connect exposed pad to GND and provide heat spreading; VSS pin8 must also have its own ground connection."
+      ]
+    },
+    "TPS63802": {
+      "file": "hardware/reference/power/tps63802.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "section": "12.1, PDF p28",
+      "requirements": [
+        "Input/output caps close, short/wide power traces.",
+        "Keep FB sense away from L1/L2 switch nodes.",
+        "Power and control ground return topology joins close to IC; preserve continuous system GND reference rather than cutting the plane."
+      ]
+    },
+    "TPS22918": {
+      "file": "hardware/reference/power/tps22918.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "section": "11.1, PDF p20",
+      "requirements": [
+        "Short wide VIN/VOUT paths.",
+        "Input ceramic bypass closest to VIN/GND pins."
+      ]
+    },
+    "MAX17048": {
+      "file": "hardware/reference/power/max17048.pdf",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
+      "section": "Pin descriptions, PDF p8",
+      "requirements": [
+        "VDD pin3 is measured voltage input on MAX17048: connect positive protected battery terminal, bypass0.1uF.",
+        "GND pin4 connects negative battery terminal; CELL2 also connects pack positive according to project schematic."
+      ]
+    },
+    "TCA9539": {
+      "file": "hardware/reference/power/tca9539.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tca9539.pdf",
+      "section": "11.1, PDF p31",
+      "requirements": [
+        "Decoupling close to VCC.",
+        "Four-layer board and dedicated ground plane appropriate for dense routing."
+      ]
+    },
+    "TLV1822": {
+      "file": "hardware/reference/charge-r5/tlv1822.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv1822.pdf",
+      "section": "8.4.1, PDF p27",
+      "requirements": [
+        "Supply bypass closest possible, to solid ground.",
+        "Minimize unintended input-output coupling; do not run them parallel without grounded separation.",
+        "Treat output edges as fast logic even though measured temperature is slow."
+      ]
+    }
+  },
+  "groups": [
+    {
+      "anchor": "U101",
+      "role": "charger",
+      "functional_refs": [
+        "U101",
+        "C101",
+        "C102",
+        "C103",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105",
+        "R106",
+        "R107",
+        "R108",
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R113",
+        "Q101",
+        "J105"
+      ],
+      "placement": [
+        "C101 north/northeast nearest IN13=(0.75,-1.4).",
+        "C102 east nearest OUT10/11=(1.4,+/-0.25); R101 further east AFTER C102.",
+        "C103 west nearest BAT2/3=(-1.4,+/-0.25); R102 between battery connector and this node.",
+        "R104/ISET, R113/ITERM, R105/TMR above IC pins16,15,14; reserve local quiet ground returns.",
+        "R103/ILIM near northeast pin12, avoid routing around output current path.",
+        "Q101/R106/R107/R108 to southwest CE pin4; R109/R110 south near EN1/EN2 pins6/5.",
+        "R111/R112 status pulls can be farther from IC; keep local critical analog components closer.",
+        "Reserve exposed pad thermal via/spreading space beneath U101, access J105/R108 without blocking heat area."
+      ],
+      "manufacturing_note": "Thermal via construction/tenting/paste and copper spreading still belong to routing/assembly design; placement does not prove 0.7A thermal performance."
+    },
+    {
+      "anchor": "U201",
+      "role": "main buck-boost",
+      "functional_refs": [
+        "U201",
+        "L201",
+        "C201",
+        "C202",
+        "R201",
+        "R202",
+        "R203",
+        "R204",
+        "R205",
+        "R206",
+        "R207",
+        "J202",
+        "J203",
+        "J204"
+      ],
+      "placement": [
+        "L201 immediately east, pad axis vertical to face L1=(0.75,-0.5) and L2=(0.75,+0.5); target IC-to-inductor body gap0.5-1.0mm if courtyard permits.",
+        "C201 north/northeast at VIN10=(0.75,-1.0); C202 south/southeast at VOUT6=(0.75,+1.0).",
+        "R201/R202 west/southwest near FB4=(-0.9,+0.5); keep FB junction trace shortest, outside L201/switch node region.",
+        "Take R201 high side from C202 positive /3V3_REG before R203.",
+        "R203 beyond C202 toward AON distribution, accessible for measurement.",
+        "R205/R204/J202 toward northwest EN1; R206/J203 west near MODE2; R207/J204 southwest near PG5.",
+        "Do not treat pad8 as separate exposed pad; this DLA package has10 numbered pads, PGND8 is the wide eastern middle pad."
+      ],
+      "suggested_local_core_centers_mm": {
+        "U201": [
+          0,
+          0,
+          0
+        ],
+        "L201": [
+          4.2,
+          0,
+          90
+        ],
+        "C201": [
+          0.7,
+          -3.6,
+          90
+        ],
+        "C202": [
+          0.7,
+          3.6,
+          270
+        ],
+        "R201": [
+          -3.5,
+          0.5,
+          0
+        ],
+        "R202": [
+          -3.5,
+          2.5,
+          0
+        ],
+        "R203": [
+          0.7,
+          7.2,
+          90
+        ]
+      },
+      "coordinate_note": "These are proposed starting points only; parent must recheck actual F.CrtYd and pad approach after placement."
+    },
+    {
+      "anchor": "U203",
+      "role": "fuel gauge",
+      "functional_refs": [
+        "U203",
+        "C204",
+        "R217",
+        "R218",
+        "R219"
+      ],
+      "placement": [
+        "Keep gauge close to BAT_PROT branch and battery ground return, away from inductor/EPD switch node.",
+        "C204 immediately west of VDD3=(-0.9875,+0.25), with adjacent ground access.",
+        "R217/R218 to northeast SCL/SDA pins7/8; R219 southeast ALRT5.",
+        "Route measured BAT_PROT/ground quietly rather than at end of a high-current copper path."
+      ]
+    },
+    {
+      "anchor": "U202",
+      "role": "GPIO expander",
+      "functional_refs": [
+        "U202",
+        "C203",
+        "R208",
+        "R209",
+        "R210",
+        "R211",
+        "R212",
+        "R213",
+        "R214",
+        "R215",
+        "R216",
+        "R223",
+        "R224",
+        "R225",
+        "R226",
+        "R227",
+        "J205",
+        "J206"
+      ],
+      "placement": [
+        "C203 northeast adjacent VCC24=(2.8625,-3.575).",
+        "R210/R211 northeast with SDA23/SCL22.",
+        "R208 reset northwest pin3; R209 INT northwest pin1.",
+        "Keep expander between MCU and power-domain controls; GPIO pull resistors can be grouped around relevant left/right output banks, do not crowd decoupling.",
+        "J205/J206 accessible for measurement, not inside antenna keepout or inductor loop."
+      ]
+    },
+    {
+      "anchor": "U901",
+      "role": "NTC comparator window",
+      "functional_refs": [
+        "U901",
+        "C901",
+        "C902",
+        "C903",
+        "C904",
+        "R901",
+        "R902",
+        "R903",
+        "R904",
+        "R905",
+        "R906",
+        "R907",
+        "R908"
+      ],
+      "placement": [
+        "Place near J103 and U101 TS side; physically separate from TPS63802/EPD inductors and high-current power copper.",
+        "C901 northeast at V+8=(+2.7,-1.905), local ground via.",
+        "R902/R903/C903 close to HOT_IN-2=(-2.7,-0.635), left side.",
+        "R904/R905/C904 close to COLD_IN+5=(+2.7,+1.905), right-bottom.",
+        "R901/C902 at BAT_NTC entry, nearest input pins3=(-2.7,+0.635) and6=(+2.7,+0.635).",
+        "Route BAT_NTC between pins3/6 along lower quiet corridor around package, not beside output bus.",
+        "R907/R908 intentional positive-feedback branches are short; other TS output copper should not parallel sensor/reference traces.",
+        "R906 near U101 TS or comparator output branch; do not accidentally place across source/measured battery nets."
+      ],
+      "sensitive_nets": [
+        "BAT_NTC",
+        "/CHARGE_TEMP/NTC_HOT_REF",
+        "/CHARGE_TEMP/NTC_COLD_REF",
+        "CHG_TS"
+      ]
+    }
+  ],
+  "load_switch_groups": [
+    {
+      "anchor": "U401",
+      "domain": "EPD",
+      "refs": [
+        "U401",
+        "C401",
+        "C402",
+        "C403",
+        "R401",
+        "R402",
+        "J401"
+      ],
+      "placement": {
+        "C401": "west/northwest at VIN1=(-1.1375,-0.95)",
+        "C402": "southeast at CT4=(+1.1375,+0.95)",
+        "R401": "east at QOD5=(+1.1375,0); other end remains downstream of measurement jumper",
+        "R402": "northeast from VOUT6=(+1.1375,-0.95), accessible",
+        "C403": "after measurement jumper, GND return close to VIN bypass ground",
+        "J401": "at load-side rail, accessible probe header"
+      },
+      "netlist": {
+        "U401": {
+          "4": {
+            "net": "/POWER_DOMAINS/EPD_CT",
+            "function": "CT_4"
+          },
+          "5": {
+            "net": "/POWER_DOMAINS/EPD_QOD",
+            "function": "QOD_5"
+          },
+          "6": {
+            "net": "/POWER_DOMAINS/EPD_SW",
+            "function": "VOUT_6"
+          },
+          "1": {
+            "net": "3V3_AON",
+            "function": "VIN_1"
+          },
+          "3": {
+            "net": "EPD_EN",
+            "function": "ON_3"
+          },
+          "2": {
+            "net": "GND",
+            "function": "GND_2"
+          }
+        },
+        "C401": {
+          "1": {
+            "net": "3V3_AON",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "C402": {
+          "1": {
+            "net": "/POWER_DOMAINS/EPD_CT",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "C403": {
+          "1": {
+            "net": "EPD_3V3",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "R401": {
+          "1": {
+            "net": "/POWER_DOMAINS/EPD_QOD",
+            "function": ""
+          },
+          "2": {
+            "net": "EPD_3V3",
+            "function": ""
+          }
+        },
+        "R402": {
+          "1": {
+            "net": "/POWER_DOMAINS/EPD_SW",
+            "function": ""
+          },
+          "2": {
+            "net": "EPD_3V3",
+            "function": ""
+          }
+        },
+        "J401": {
+          "1": {
+            "net": "EPD_3V3",
+            "function": "Pin_1_1"
+          },
+          "2": {
+            "net": "GND",
+            "function": "Pin_2_2"
+          }
+        }
+      }
+    },
+    {
+      "anchor": "U402",
+      "domain": "SD",
+      "refs": [
+        "U402",
+        "C404",
+        "C405",
+        "C406",
+        "R404",
+        "R405",
+        "J402"
+      ],
+      "placement": {
+        "C404": "west/northwest at VIN1=(-1.1375,-0.95)",
+        "C405": "southeast at CT4=(+1.1375,+0.95)",
+        "R404": "east at QOD5=(+1.1375,0); other end remains downstream of measurement jumper",
+        "R405": "northeast from VOUT6=(+1.1375,-0.95), accessible",
+        "C406": "after measurement jumper, GND return close to VIN bypass ground",
+        "J402": "at load-side rail, accessible probe header"
+      },
+      "netlist": {
+        "U402": {
+          "4": {
+            "net": "/POWER_DOMAINS/SD_CT",
+            "function": "CT_4"
+          },
+          "5": {
+            "net": "/POWER_DOMAINS/SD_QOD",
+            "function": "QOD_5"
+          },
+          "6": {
+            "net": "/POWER_DOMAINS/SD_SW",
+            "function": "VOUT_6"
+          },
+          "1": {
+            "net": "3V3_AON",
+            "function": "VIN_1"
+          },
+          "2": {
+            "net": "GND",
+            "function": "GND_2"
+          },
+          "3": {
+            "net": "SD_EN",
+            "function": "ON_3"
+          }
+        },
+        "C404": {
+          "1": {
+            "net": "3V3_AON",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "C405": {
+          "1": {
+            "net": "/POWER_DOMAINS/SD_CT",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "C406": {
+          "2": {
+            "net": "GND",
+            "function": ""
+          },
+          "1": {
+            "net": "SD_3V3",
+            "function": ""
+          }
+        },
+        "R404": {
+          "1": {
+            "net": "/POWER_DOMAINS/SD_QOD",
+            "function": ""
+          },
+          "2": {
+            "net": "SD_3V3",
+            "function": ""
+          }
+        },
+        "R405": {
+          "1": {
+            "net": "/POWER_DOMAINS/SD_SW",
+            "function": ""
+          },
+          "2": {
+            "net": "SD_3V3",
+            "function": ""
+          }
+        },
+        "J402": {
+          "2": {
+            "net": "GND",
+            "function": "Pin_2_2"
+          },
+          "1": {
+            "net": "SD_3V3",
+            "function": "Pin_1_1"
+          }
+        }
+      }
+    },
+    {
+      "anchor": "U403",
+      "domain": "TOUCH",
+      "refs": [
+        "U403",
+        "C407",
+        "C408",
+        "C409",
+        "R407",
+        "R408",
+        "J403"
+      ],
+      "placement": {
+        "C407": "west/northwest at VIN1=(-1.1375,-0.95)",
+        "C408": "southeast at CT4=(+1.1375,+0.95)",
+        "R407": "east at QOD5=(+1.1375,0); other end remains downstream of measurement jumper",
+        "R408": "northeast from VOUT6=(+1.1375,-0.95), accessible",
+        "C409": "after measurement jumper, GND return close to VIN bypass ground",
+        "J403": "at load-side rail, accessible probe header"
+      },
+      "netlist": {
+        "U403": {
+          "4": {
+            "net": "/POWER_DOMAINS/TOUCH_CT",
+            "function": "CT_4"
+          },
+          "5": {
+            "net": "/POWER_DOMAINS/TOUCH_QOD",
+            "function": "QOD_5"
+          },
+          "6": {
+            "net": "/POWER_DOMAINS/TOUCH_SW",
+            "function": "VOUT_6"
+          },
+          "1": {
+            "net": "3V3_AON",
+            "function": "VIN_1"
+          },
+          "2": {
+            "net": "GND",
+            "function": "GND_2"
+          },
+          "3": {
+            "net": "TOUCH_EN",
+            "function": "ON_3"
+          }
+        },
+        "C407": {
+          "1": {
+            "net": "3V3_AON",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "C408": {
+          "1": {
+            "net": "/POWER_DOMAINS/TOUCH_CT",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "C409": {
+          "2": {
+            "net": "GND",
+            "function": ""
+          },
+          "1": {
+            "net": "TOUCH_3V3",
+            "function": ""
+          }
+        },
+        "R407": {
+          "1": {
+            "net": "/POWER_DOMAINS/TOUCH_QOD",
+            "function": ""
+          },
+          "2": {
+            "net": "TOUCH_3V3",
+            "function": ""
+          }
+        },
+        "R408": {
+          "1": {
+            "net": "/POWER_DOMAINS/TOUCH_SW",
+            "function": ""
+          },
+          "2": {
+            "net": "TOUCH_3V3",
+            "function": ""
+          }
+        },
+        "J403": {
+          "2": {
+            "net": "GND",
+            "function": "Pin_2_2"
+          },
+          "1": {
+            "net": "TOUCH_3V3",
+            "function": "Pin_1_1"
+          }
+        }
+      }
+    },
+    {
+      "anchor": "U404",
+      "domain": "MIC",
+      "refs": [
+        "U404",
+        "C410",
+        "C411",
+        "C412",
+        "R410",
+        "R411",
+        "J404"
+      ],
+      "placement": {
+        "C410": "west/northwest at VIN1=(-1.1375,-0.95)",
+        "C411": "southeast at CT4=(+1.1375,+0.95)",
+        "R410": "east at QOD5=(+1.1375,0); other end remains downstream of measurement jumper",
+        "R411": "northeast from VOUT6=(+1.1375,-0.95), accessible",
+        "C412": "after measurement jumper, GND return close to VIN bypass ground",
+        "J404": "at load-side rail, accessible probe header"
+      },
+      "netlist": {
+        "U404": {
+          "4": {
+            "net": "/POWER_DOMAINS/MIC_CT",
+            "function": "CT_4"
+          },
+          "5": {
+            "net": "/POWER_DOMAINS/MIC_QOD",
+            "function": "QOD_5"
+          },
+          "6": {
+            "net": "/POWER_DOMAINS/MIC_SW",
+            "function": "VOUT_6"
+          },
+          "1": {
+            "net": "3V3_AON",
+            "function": "VIN_1"
+          },
+          "3": {
+            "net": "AUDIO_EN",
+            "function": "ON_3"
+          },
+          "2": {
+            "net": "GND",
+            "function": "GND_2"
+          }
+        },
+        "C410": {
+          "1": {
+            "net": "3V3_AON",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "C411": {
+          "1": {
+            "net": "/POWER_DOMAINS/MIC_CT",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "C412": {
+          "2": {
+            "net": "GND",
+            "function": ""
+          },
+          "1": {
+            "net": "MIC_3V3",
+            "function": ""
+          }
+        },
+        "R410": {
+          "1": {
+            "net": "/POWER_DOMAINS/MIC_QOD",
+            "function": ""
+          },
+          "2": {
+            "net": "MIC_3V3",
+            "function": ""
+          }
+        },
+        "R411": {
+          "1": {
+            "net": "/POWER_DOMAINS/MIC_SW",
+            "function": ""
+          },
+          "2": {
+            "net": "MIC_3V3",
+            "function": ""
+          }
+        },
+        "J404": {
+          "2": {
+            "net": "GND",
+            "function": "Pin_2_2"
+          },
+          "1": {
+            "net": "MIC_3V3",
+            "function": "Pin_1_1"
+          }
+        }
+      }
+    },
+    {
+      "anchor": "U405",
+      "domain": "AMP",
+      "refs": [
+        "U405",
+        "C413",
+        "C414",
+        "C415",
+        "R413",
+        "R414",
+        "J405"
+      ],
+      "placement": {
+        "C413": "west/northwest at VIN1=(-1.1375,-0.95)",
+        "C414": "southeast at CT4=(+1.1375,+0.95)",
+        "R413": "east at QOD5=(+1.1375,0); other end remains downstream of measurement jumper",
+        "R414": "northeast from VOUT6=(+1.1375,-0.95), accessible",
+        "C415": "after measurement jumper, GND return close to VIN bypass ground",
+        "J405": "at load-side rail, accessible probe header"
+      },
+      "netlist": {
+        "U405": {
+          "4": {
+            "net": "/POWER_DOMAINS/AMP_CT",
+            "function": "CT_4"
+          },
+          "5": {
+            "net": "/POWER_DOMAINS/AMP_QOD",
+            "function": "QOD_5"
+          },
+          "6": {
+            "net": "/POWER_DOMAINS/AMP_SW",
+            "function": "VOUT_6"
+          },
+          "3": {
+            "net": "AUDIO_EN",
+            "function": "ON_3"
+          },
+          "2": {
+            "net": "GND",
+            "function": "GND_2"
+          },
+          "1": {
+            "net": "SYS",
+            "function": "VIN_1"
+          }
+        },
+        "C413": {
+          "2": {
+            "net": "GND",
+            "function": ""
+          },
+          "1": {
+            "net": "SYS",
+            "function": ""
+          }
+        },
+        "C414": {
+          "1": {
+            "net": "/POWER_DOMAINS/AMP_CT",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "C415": {
+          "1": {
+            "net": "AMP_SYS",
+            "function": ""
+          },
+          "2": {
+            "net": "GND",
+            "function": ""
+          }
+        },
+        "R413": {
+          "1": {
+            "net": "/POWER_DOMAINS/AMP_QOD",
+            "function": ""
+          },
+          "2": {
+            "net": "AMP_SYS",
+            "function": ""
+          }
+        },
+        "R414": {
+          "1": {
+            "net": "/POWER_DOMAINS/AMP_SW",
+            "function": ""
+          },
+          "2": {
+            "net": "AMP_SYS",
+            "function": ""
+          }
+        },
+        "J405": {
+          "1": {
+            "net": "AMP_SYS",
+            "function": "Pin_1_1"
+          },
+          "2": {
+            "net": "GND",
+            "function": "Pin_2_2"
+          }
+        }
+      }
+    }
+  ],
+  "cross_group_constraints": [
+    "Input current: USB/bench selector → charger → SYS → buckboost / amplifier, so place in roughly that order.",
+    "Battery and NTC terminal blocks adjacent to one another with clear polarity; gauge and comparator on quiet interior side, charger on power side.",
+    "Distribute domain switches near corresponding loads if this keeps high-current and low-voltage routes shorter; schematic row order is not a required physical row.",
+    "Measurement jumpers and selection headers must stay accessible from board top, without FPC/cable insertion area crossing them.",
+    "Do not claim routed current capacity, thermal design, impedance, analog thresholds or charging operation from placement alone."
+  ],
+  "core_pin_nets": {
+    "U101": {
+      "4": {
+        "net": "/POWER_INPUT_CHARGER/CHG_CE_N",
+        "function": "~{CE}_4"
+      },
+      "12": {
+        "net": "/POWER_INPUT_CHARGER/CHG_ILIM",
+        "function": "ILIM_12"
+      },
+      "16": {
+        "net": "/POWER_INPUT_CHARGER/CHG_ISET",
+        "function": "ISET_16"
+      },
+      "15": {
+        "net": "/POWER_INPUT_CHARGER/CHG_ITERM",
+        "function": "ITERM_15"
+      },
+      "14": {
+        "net": "/POWER_INPUT_CHARGER/CHG_TMR",
+        "function": "TMR_14"
+      },
+      "2": {
+        "net": "BAT_PROT",
+        "function": "BAT_2"
+      },
+      "3": {
+        "net": "BAT_PROT",
+        "function": "BAT_3"
+      },
+      "9": {
+        "net": "CHG_N",
+        "function": "~{CHG}_9"
+      },
+      "1": {
+        "net": "CHG_TS",
+        "function": "TS_1"
+      },
+      "17": {
+        "net": "GND",
+        "function": "VSS_17"
+      },
+      "8": {
+        "net": "GND",
+        "function": "VSS_8"
+      },
+      "7": {
+        "net": "PGOOD_N",
+        "function": "~{PGOOD}_7"
+      },
+      "10": {
+        "net": "SYS_RAW",
+        "function": "OUT_10"
+      },
+      "11": {
+        "net": "SYS_RAW",
+        "function": "OUT_11"
+      },
+      "6": {
+        "net": "USB_EN1",
+        "function": "EN1_6"
+      },
+      "5": {
+        "net": "USB_EN2",
+        "function": "EN2_5"
+      },
+      "13": {
+        "net": "VIN_5V",
+        "function": "IN_13"
+      }
+    },
+    "U201": {
+      "6": {
+        "net": "/POWER_3V3_CONTROL/3V3_REG",
+        "function": "VOUT_6"
+      },
+      "1": {
+        "net": "/POWER_3V3_CONTROL/MAIN_EN",
+        "function": "EN_1"
+      },
+      "4": {
+        "net": "/POWER_3V3_CONTROL/REG_FB",
+        "function": "FB_4"
+      },
+      "2": {
+        "net": "/POWER_3V3_CONTROL/REG_MODE",
+        "function": "MODE_2"
+      },
+      "5": {
+        "net": "/POWER_3V3_CONTROL/REG_PG",
+        "function": "PG_5"
+      },
+      "9": {
+        "net": "/POWER_3V3_CONTROL/SW_L1",
+        "function": "L1_9"
+      },
+      "7": {
+        "net": "/POWER_3V3_CONTROL/SW_L2",
+        "function": "L2_7"
+      },
+      "3": {
+        "net": "GND",
+        "function": "AGND_3"
+      },
+      "8": {
+        "net": "GND",
+        "function": "PGND_8"
+      },
+      "10": {
+        "net": "SYS",
+        "function": "VIN_10"
+      }
+    },
+    "U202": {
+      "1": {
+        "net": "/POWER_3V3_CONTROL/IOX_INT_N",
+        "function": "~{INT}_1"
+      },
+      "24": {
+        "net": "3V3_AON",
+        "function": "VCC_24"
+      },
+      "11": {
+        "net": "CHARGE_ALLOW",
+        "function": "P07_11"
+      },
+      "8": {
+        "net": "CHG_N",
+        "function": "P04_8"
+      },
+      "4": {
+        "net": "EPD_EN",
+        "function": "P00_4"
+      },
+      "15": {
+        "net": "FUEL_ALERT_N",
+        "function": "P12_15"
+      },
+      "12": {
+        "net": "GND",
+        "function": "GND_12"
+      },
+      "2": {
+        "net": "GND",
+        "function": "A1_2"
+      },
+      "21": {
+        "net": "GND",
+        "function": "A0_21"
+      },
+      "22": {
+        "net": "I2C_AON_SCL",
+        "function": "SCL_22"
+      },
+      "23": {
+        "net": "I2C_AON_SDA",
+        "function": "SDA_23"
+      },
+      "3": {
+        "net": "IOX_RESET_N",
+        "function": "~{RESET}_3"
+      },
+      "17": {
+        "net": "IOX_SP14",
+        "function": "P14_17"
+      },
+      "18": {
+        "net": "IOX_SP15",
+        "function": "P15_18"
+      },
+      "19": {
+        "net": "IOX_SP16",
+        "function": "P16_19"
+      },
+      "20": {
+        "net": "IOX_SP17",
+        "function": "P17_20"
+      },
+      "7": {
+        "net": "PGOOD_N",
+        "function": "P03_7"
+      },
+      "9": {
+        "net": "SD_CD_N",
+        "function": "P05_9"
+      },
+      "5": {
+        "net": "SD_EN",
+        "function": "P01_5"
+      },
+      "16": {
+        "net": "SD_IO_EN",
+        "function": "P13_16"
+      },
+      "6": {
+        "net": "TOUCH_EN",
+        "function": "P02_6"
+      },
+      "13": {
+        "net": "TOUCH_IO_EN",
+        "function": "P10_13"
+      },
+      "10": {
+        "net": "USB_EN1",
+        "function": "P06_10"
+      },
+      "14": {
+        "net": "USB_EN2",
+        "function": "P11_14"
+      }
+    },
+    "U203": {
+      "7": {
+        "net": "/POWER_3V3_CONTROL/GAUGE_SCL",
+        "function": "SCL_7"
+      },
+      "8": {
+        "net": "/POWER_3V3_CONTROL/GAUGE_SDA",
+        "function": "SDA_8"
+      },
+      "2": {
+        "net": "BAT_PROT",
+        "function": "CELL_2"
+      },
+      "3": {
+        "net": "BAT_PROT",
+        "function": "VDD_3"
+      },
+      "5": {
+        "net": "FUEL_ALERT_N",
+        "function": "~{ALRT}_5"
+      },
+      "1": {
+        "net": "GND",
+        "function": "CTG_1"
+      },
+      "4": {
+        "net": "GND",
+        "function": "GND_4"
+      },
+      "6": {
+        "net": "GND",
+        "function": "QSTRT_6"
+      },
+      "9": {
+        "net": "GND",
+        "function": "EP_9"
+      }
+    },
+    "U901": {
+      "5": {
+        "net": "/CHARGE_TEMP/NTC_COLD_REF",
+        "function": "COLD_IN+_5"
+      },
+      "2": {
+        "net": "/CHARGE_TEMP/NTC_HOT_REF",
+        "function": "HOT_IN-_2"
+      },
+      "3": {
+        "net": "BAT_NTC",
+        "function": "HOT_IN+_3"
+      },
+      "6": {
+        "net": "BAT_NTC",
+        "function": "COLD_IN-_6"
+      },
+      "1": {
+        "net": "CHG_TS",
+        "function": "HOT_OUT_1"
+      },
+      "7": {
+        "net": "CHG_TS",
+        "function": "COLD_OUT_7"
+      },
+      "4": {
+        "net": "GND",
+        "function": "V-_4"
+      },
+      "8": {
+        "net": "VIN_5V",
+        "function": "V+_8"
+      }
+    }
+  }
+}

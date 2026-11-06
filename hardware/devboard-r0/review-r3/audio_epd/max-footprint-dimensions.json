@@ -1,0 +1,128 @@
+{
+  "source": "https://mds.analog.com/api/public/content/90-0031.pdf",
+  "source_revision": "C",
+  "pads": [
+    {
+      "number": "1",
+      "x": -1.425,
+      "y": -0.75,
+      "w": 0.8,
+      "h": 0.3
+    },
+    {
+      "number": "2",
+      "x": -1.425,
+      "y": -0.25,
+      "w": 0.8,
+      "h": 0.3
+    },
+    {
+      "number": "3",
+      "x": -1.425,
+      "y": 0.25,
+      "w": 0.8,
+      "h": 0.3
+    },
+    {
+      "number": "4",
+      "x": -1.425,
+      "y": 0.75,
+      "w": 0.8,
+      "h": 0.3
+    },
+    {
+      "number": "5",
+      "x": -0.75,
+      "y": 1.425,
+      "w": 0.3,
+      "h": 0.8
+    },
+    {
+      "number": "6",
+      "x": -0.25,
+      "y": 1.425,
+      "w": 0.3,
+      "h": 0.8
+    },
+    {
+      "number": "7",
+      "x": 0.25,
+      "y": 1.425,
+      "w": 0.3,
+      "h": 0.8
+    },
+    {
+      "number": "8",
+      "x": 0.75,
+      "y": 1.425,
+      "w": 0.3,
+      "h": 0.8
+    },
+    {
+      "number": "9",
+      "x": 1.425,
+      "y": 0.75,
+      "w": 0.8,
+      "h": 0.3
+    },
+    {
+      "number": "10",
+      "x": 1.425,
+      "y": 0.25,
+      "w": 0.8,
+      "h": 0.3
+    },
+    {
+      "number": "11",
+      "x": 1.425,
+      "y": -0.25,
+      "w": 0.8,
+      "h": 0.3
+    },
+    {
+      "number": "12",
+      "x": 1.425,
+      "y": -0.75,
+      "w": 0.8,
+      "h": 0.3
+    },
+    {
+      "number": "13",
+      "x": 0.75,
+      "y": -1.425,
+      "w": 0.3,
+      "h": 0.8
+    },
+    {
+      "number": "14",
+      "x": 0.25,
+      "y": -1.425,
+      "w": 0.3,
+      "h": 0.8
+    },
+    {
+      "number": "15",
+      "x": -0.25,
+      "y": -1.425,
+      "w": 0.3,
+      "h": 0.8
+    },
+    {
+      "number": "16",
+      "x": -0.75,
+      "y": -1.425,
+      "w": 0.3,
+      "h": 0.8
+    },
+    {
+      "number": "17",
+      "x": 0,
+      "y": 0,
+      "w": 1.23,
+      "h": 1.23
+    }
+  ],
+  "pin1_orientation": "top-view upper-left; numbering CCW; EP17 GND",
+  "paste": "4x0.5mm square windows; total1mm\u00b2/1.5129mm\u00b2=66.1%; assembly process candidate, not fixed by vendor land drawing",
+  "thermal_vias": "Not embedded. PCB layout must review heat flow and via/paste process together."
+}

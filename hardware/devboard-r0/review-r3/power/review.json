@@ -1,0 +1,1030 @@
+{
+  "date": "2026-11-02",
+  "scope": "Power-input/charger,3V3-control,power-domains,current links,F501/D501",
+  "input_xml": "hardware/devboard-r0/output/validation/peripheral-r2.net.xml",
+  "input_xml_sha256": "4b95487bb4c9b1be15ae2c5804f639a5c96b3cd84662b73d523f99b9a63e6467",
+  "status": "BOM and footprint candidates; no purchase, release, layout, thermal or electrical board qualification",
+  "items": [
+    {
+      "refs": [
+        "U101"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "BQ24074RGTR",
+      "existing_value": {
+        "U101": "BQ24074RGT"
+      },
+      "existing_footprint": {
+        "U101": "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+      },
+      "recommended_footprint": "ESPaperPlay:TI_RGT0016C_VQFN_3x3mm_P0.5mm_EP1.68mm",
+      "status": "candidate-vendor-land-verified",
+      "notes": [
+        "RGT0016C: body3x3mm,0.5mm pitch. Exact current TI land has EP17=1.68x1.68mm, 16 peripheral pads0.6x0.24mm; existing generic EP1.6mm is not declared an electrical mismatch.",
+        "EP17 is GND in actual XML. Candidate uses1.55mm-square paste aperture; thermal vias are intentionally left to board/assembly design.",
+        "BQ24074RGTT is250-piece packaging alternative; RGTR is3000-piece reel. R108 CHG_ARM remains DNP and charging defaults off.",
+        "Actual XML R103=1.62kohm±1% onILIM: KILIM1500/1610/1720Aohm gives about0.917–1.072A with resistor tolerance,nominal0.994A. R104=3.00kohm±1% onISET: KISET797/890/975Aohm gives0.263–0.328A,nominal0.297A; battery permission is still unknown."
+      ],
+      "evidence": [
+        {
+          "source_id": "bq24074",
+          "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+          "pdf_pages": [
+            7,
+            8,
+            35,
+            42,
+            52,
+            53,
+            54,
+            12,
+            13
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "risks": [
+        "Battery capacity/NTC curve and allowed charge current remain user-dependent; verify actual ISET, ILIM, charging thermal loss and total USB current before arming.",
+        "Nominal SYS4.4V is within downstream5.5V input limits, but startup/overshoot and layout remain untested."
+      ],
+      "candidate_file": "build/bom-review-r3/power/PowerReview.pretty/TI_RGT0016C_VQFN_3x3mm_P0.5mm_EP1.68mm.kicad_mod",
+      "lifecycle": {
+        "status": "ACTIVE",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.ti.com/product/BQ24074/part-details/BQ24074RGTR",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "U201"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS63802DLAR",
+      "existing_value": {
+        "U201": "TPS63802DLA"
+      },
+      "existing_footprint": {
+        "U201": ""
+      },
+      "recommended_footprint": "ESPaperPlay:TI_DLA0010A_VSON-HR_2x3mm_P0.5mm",
+      "status": "candidate-vendor-land-verified",
+      "notes": [
+        "Existing footprint is blank. DLA0010A is asymmetric: exactly10 pads; pin8PGND is1.3x0.25mm atx0.55,y0, no separate exposed centre pad. Pin3AGND and8PGND are both GND in XML.",
+        "Body2x3mm,pitch0.5mm; left pads0.6x0.25,right ordinary pads0.9x0.25. Pin8 has two separate0.55x0.25mm paste apertures as TI example.",
+        "DLAT is250-piece packaging alternative. VIN recommended1.3–5.5V, but startup requires>1.8V until PG."
+      ],
+      "evidence": [
+        {
+          "source_id": "tps63802",
+          "url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+          "pdf_pages": [
+            4,
+            5,
+            19,
+            35,
+            36,
+            37
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "risks": [
+        "Layout must minimize SW loops and provide ground paths; IC2A headline is not whole-system current approval.",
+        "Minimum battery voltage, peak load, inductor effective L, ripple, and thermal budget still require closure."
+      ],
+      "candidate_file": "build/bom-review-r3/power/PowerReview.pretty/TI_DLA0010A_VSON-HR_2x3mm_P0.5mm.kicad_mod",
+      "lifecycle": {
+        "status": "ACTIVE",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.ti.com/product/TPS63802/part-details/TPS63802DLAR",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "U202"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "TCA9539PWR",
+      "existing_value": {
+        "U202": "TCA9539PW / 0x74"
+      },
+      "existing_footprint": {
+        "U202": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
+      },
+      "recommended_footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+      "status": "retain-compatible-ipc-land",
+      "notes": [
+        "PW0024A body4.4x7.8mm,pitch0.65mm,24 pins. Existing counterclockwise numbering matches vendor top view.",
+        "Existing KiCad pads1.475x0.4mm, row centres±2.8625mm; TI example1.5x0.45mm, row centres±2.9mm. This is an IPC-land difference, not a pin-map mismatch."
+      ],
+      "evidence": [
+        {
+          "source_id": "tca9539",
+          "url": "https://www.ti.com/lit/ds/symlink/tca9539.pdf",
+          "pdf_pages": [
+            3,
+            46,
+            47,
+            48
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/tca9539.pdf",
+      "risks": [
+        "Assembler should approve its solder process and generic land dimensions."
+      ],
+      "lifecycle": {
+        "status": "ACTIVE",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.ti.com/product/TCA9539/part-details/TCA9539PWR",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "U203"
+      ],
+      "manufacturer": "Analog Devices / Maxim Integrated",
+      "mpn": "MAX17048G+T10",
+      "existing_value": {
+        "U203": "MAX17048G+ / 0x36"
+      },
+      "existing_footprint": {
+        "U203": "Package_DFN_QFN:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm"
+      },
+      "recommended_footprint": "Package_DFN_QFN:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm",
+      "status": "retain-package-matched-candidate",
+      "notes": [
+        "MAX17048G+ is tube-pack alternative. T822+3 package2x2mm,pitch0.5mm,EP0.8x1.2mm matches current footprint; EP9 is GND in XML.",
+        "Existing peripheral pad numbering1–4 left,5–8 right matches top view. Four existing paste windows total64% of EP area; assembly stencil needs process approval.",
+        "2026 PIN2571D concerns non-drypack reel shipping material; vendor says no fit/form/function change. It is not an electrical erratum."
+      ],
+      "evidence": [
+        {
+          "source_id": "max17048",
+          "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
+          "pdf_pages": [
+            2,
+            7,
+            18
+          ]
+        },
+        {
+          "source_id": "max17048-package",
+          "url": "https://mds.analog.com/api/public/content/tdfn-cu_21-0168.pdf",
+          "pdf_pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "source_id": "max17048-pin2571d",
+          "url": "https://www.analog.com/media/en/pcn/pcn_2571d.pdf",
+          "pdf_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "source_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
+      "risks": [
+        "Package outline21-0168 is verified; exact vendor land drawing90-0065 was not independently retrieved. Existing IPC-style land is retained as a candidate."
+      ],
+      "lifecycle": {
+        "status": "PRODUCTION",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.analog.com/en/products/max17048.html",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "Q101",
+        "Q201"
+      ],
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "mpn": "AO3400A",
+      "existing_value": {
+        "Q101": "AO3400A",
+        "Q201": "AO3400A"
+      },
+      "existing_footprint": {
+        "Q101": "Package_TO_SOT_SMD:SOT-23",
+        "Q201": "Package_TO_SOT_SMD:SOT-23"
+      },
+      "recommended_footprint": "ESPaperPlay:AOS_SOT23_PO00001N",
+      "status": "candidate-vendor-land-verified",
+      "notes": [
+        "Use actual AO3400A SOT23 PO-00001 N, not the different SOT23A drawing. Pins1G/2S/3D agree with actual XML.",
+        "Vendor body1.6x2.9mm, lead pitch0.95mm; exact recommended pads0.8mm square, opposite row centres2.4mm. Existing generic KiCad SOT-23 pin map was correct, with different land geometry.",
+        "30V VDS and±12V VGS cover the low-current control use; the datasheet current headline is not used to rate board power."
+      ],
+      "evidence": [
+        {
+          "source_id": "ao3400a",
+          "url": "https://www.aosmd.com/sites/default/files/res/data_sheets/AO3400A.pdf",
+          "pdf_pages": [
+            1
+          ]
+        },
+        {
+          "source_id": "aos-sot23-package",
+          "url": "https://www.aosmd.com/sites/default/files/res/package/SOT23.pdf",
+          "pdf_pages": [
+            1
+          ]
+        }
+      ],
+      "source_url": "https://www.aosmd.com/sites/default/files/res/data_sheets/AO3400A.pdf",
+      "risks": [],
+      "candidate_file": "build/bom-review-r3/power/PowerReview.pretty/AOS_SOT23_PO00001N.kicad_mod",
+      "lifecycle": {
+        "status": "Full Production",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.aosmd.com/products/mosfets/low-voltage-mosfets-12v-30v/ao3400a",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "U401",
+        "U402",
+        "U403",
+        "U404",
+        "U405"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPS22918DBVR",
+      "existing_value": {
+        "U401": "TPS22918DBV",
+        "U402": "TPS22918DBV",
+        "U403": "TPS22918DBV",
+        "U404": "TPS22918DBV",
+        "U405": "TPS22918DBV"
+      },
+      "existing_footprint": {
+        "U401": "Package_TO_SOT_SMD:SOT-23-6",
+        "U402": "Package_TO_SOT_SMD:SOT-23-6",
+        "U403": "Package_TO_SOT_SMD:SOT-23-6",
+        "U404": "Package_TO_SOT_SMD:SOT-23-6",
+        "U405": "Package_TO_SOT_SMD:SOT-23-6"
+      },
+      "recommended_footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "status": "retain-compatible-ipc-land",
+      "notes": [
+        "DBV0006A 6-pin map1VIN,2GND,3ON,4CT,5QOD,6VOUT agrees with schematic. Existing0.95mm pitch and numbering match.",
+        "TI land pads1.1x0.6mm at rowcentres±1.3mm; generic KiCad1.325x0.6mm at±1.1375mm overlaps required lead region. Retain as compatible candidate.",
+        "5.5V input maximum covers nominal3.3V/4.4V rails.2A continuous rating is not a precision current limit."
+      ],
+      "evidence": [
+        {
+          "source_id": "tps22918",
+          "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+          "pdf_pages": [
+            3,
+            4,
+            5,
+            27,
+            28,
+            29
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "risks": [
+        "Verify per-domain inrush, switch heating, total simultaneous load and output discharge behavior;2A is not guaranteed by symbol choice alone."
+      ],
+      "lifecycle": {
+        "status": "ACTIVE",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.ti.com/product/TPS22918/part-details/TPS22918DBVR",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "D501"
+      ],
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "mpn": "SMAJ6.0A",
+      "existing_value": {
+        "D501": "AOS SMAJ6.0A"
+      },
+      "existing_footprint": {
+        "D501": "Diode_SMD:D_SMA"
+      },
+      "recommended_footprint": "Diode_SMD:D_SMA",
+      "status": "retain-vendor-envelope-matched-candidate",
+      "notes": [
+        "DO-214AC PO-00355C recommends pad width≥1.8mm,pad length≥2.1mm,innergap≤2.3mm. Existing2.5x1.8mm pads at±2mm yield1.5mm gap and meet these bounds.",
+        "Pad1 is cathode atUSB_5V_PROTECTED, pad2GND; unidirectional A suffix is required.",
+        "6V stand-off; clamp10.3V at38.8A10/1000µs. It does not hold VBUS to6V under surge, and is not sustained overvoltage protection."
+      ],
+      "evidence": [
+        {
+          "source_id": "aos-smaj6.0a",
+          "url": "https://www.aosmd.com/sites/default/files/res/datasheets/SMAJ6.0A.pdf",
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "source_id": "aos-do214ac",
+          "url": "https://www.aosmd.com/sites/default/files/res/packaging_information/DO-214AC.pdf",
+          "pdf_pages": [
+            1
+          ]
+        }
+      ],
+      "source_url": "https://www.aosmd.com/sites/default/files/res/datasheets/SMAJ6.0A.pdf",
+      "risks": [
+        "TVS surge pulse/copper/thermal coordination with fuse, USB connector and charger requires board tests;16V input MLCC is only rated16V, no automatic30V transient approval."
+      ],
+      "lifecycle": {
+        "status": "Full Production",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.aosmd.com/products/tvs/high-power-tvs/smaj60a",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "F501"
+      ],
+      "manufacturer": "Bourns",
+      "mpn": "MF-MSMF110/16X-2",
+      "existing_value": {
+        "F501": "MF-MSMF110/16X-2"
+      },
+      "existing_footprint": {
+        "F501": "Fuse:Fuse_1812_4532Metric"
+      },
+      "recommended_footprint": "ESPaperPlay:Bourns_MF-MSMF_1812_Style2",
+      "status": "candidate-vendor-land-verified-current-budget-open",
+      "notes": [
+        "The /16X version is Style2. Vendor recommended pads1.68x2.95mm, gap3.10mm, centres4.78mm. Generic Fuse_1812 pads1.125x3.4mm differed; replace with exact candidate.",
+        "16V max; Ihold1.10A and Itrip2.20A at23°C. Ihold falls to0.85A at50°C,0.77A at60°C; total charger+system current must be compared at local board temperature.",
+        "Rmin0.06ohm,R1max0.20ohm; fuse heating/drop cannot be ignored. The -2 suffix selects tape/reel."
+      ],
+      "evidence": [
+        {
+          "source_id": "bourns-mf-msmf",
+          "url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf?sfvrsn=4a75e5c0_69",
+          "pdf_pages": [
+            1,
+            5,
+            7,
+            9,
+            13
+          ]
+        }
+      ],
+      "source_url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf?sfvrsn=4a75e5c0_69",
+      "risks": [
+        "Programmable USB input current around1A can exceed hot-ambient hold capability. Current/temperature budget must close before freeze; do not increase fuse value until cable/connector/source limits are assessed."
+      ],
+      "candidate_file": "build/bom-review-r3/power/PowerReview.pretty/Bourns_MF-MSMF_1812_Style2.kicad_mod",
+      "lifecycle": {
+        "status": "Current vendor catalogue; no explicit lifecycle status observed",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf?sfvrsn=4a75e5c0_69",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "L201"
+      ],
+      "manufacturer": "Coilcraft",
+      "mpn": "XFL4015-471MEC",
+      "existing_value": {
+        "L201": "0.47uH"
+      },
+      "existing_footprint": {
+        "L201": ""
+      },
+      "recommended_footprint": "ESPaperPlay:Coilcraft_XFL4015_4x4mm",
+      "status": "candidate-vendor-land-verified-current-budget-open",
+      "notes": [
+        "TI Table10-2 explicitly lists XFL4015-471ME; exact current order code addsC reel packaging.0.47µH±20%, DCRtyp7.60/max8.36mohm.",
+        "At25°C Isat for10/20/30% inductance drop=3.5/5.4/6.6A. Irms9.1A/11.2A means20/40°C rise under vendor reference conditions, not absolute maximum.",
+        "Current vendor mechanical drawing:4.0±0.3mm square,1.60mm max height; land pads0.98x3.4mm,centre spacing2.37mm. TI old table4x4x2 is not the latest mechanical limit."
+      ],
+      "evidence": [
+        {
+          "source_id": "tps63802",
+          "url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+          "pdf_pages": [
+            5,
+            18,
+            19
+          ]
+        },
+        {
+          "source_id": "coilcraft-xfl4015",
+          "url": "https://www.coilcraft.com/getmedia/84927b8b-f089-421b-a7f4-a0fa23afe908/xfl4015.pdf",
+          "pdf_pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "risks": [
+        "Verify peak current at minimum battery voltage and required load/temperature; combine initial tolerance and DC-bias loss against TPS63802 effective0.37–0.57µH range.",
+        "This is an electrically grounded reference candidate; no cost/stock commitment."
+      ],
+      "candidate_file": "build/bom-review-r3/power/PowerReview.pretty/Coilcraft_XFL4015_4x4mm.kicad_mod",
+      "lifecycle": {
+        "status": "Current vendor catalogue; no explicit lifecycle status observed",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl4015/xfl4015-471/",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "R101",
+        "R102",
+        "R203",
+        "R402",
+        "R405",
+        "R408",
+        "R411",
+        "R414"
+      ],
+      "manufacturer": "Bourns",
+      "mpn": "CRF0805-J/-000ELF",
+      "existing_value": {
+        "R101": "0R / I_SYS",
+        "R102": "0R / I_BAT",
+        "R203": "0R / I_3V3",
+        "R402": "0R / I_EPD",
+        "R405": "0R / I_SD",
+        "R408": "0R / I_TOUCH",
+        "R411": "0R / I_MIC",
+        "R414": "0R / I_AMP"
+      },
+      "existing_footprint": {
+        "R101": "",
+        "R102": "",
+        "R203": "",
+        "R402": "",
+        "R405": "",
+        "R408": "",
+        "R411": "",
+        "R414": ""
+      },
+      "recommended_footprint": "ESPaperPlay:Bourns_CRF0805_Jumper",
+      "status": "candidate-vendor-land-verified-board-current-open",
+      "notes": [
+        "Order code follows manufacturer CRF0805-J/-000ELF format, including slash. Metal jumper≤0.2mohm,0.5W@70°C;50A is a component specification only.",
+        "Recommended land1.2x1.4mm per pad,1.1mm gap. Larger dedicated metal jumper reduces measurement-link burden compared with ordinary thick-film0ohm.",
+        "At3A and25°C upper nominal resistance gives≤0.6mV and1.8mW; at5A≤1mV/5mW. Actual solder/copper resistance and high-temperature TCR are additional."
+      ],
+      "evidence": [
+        {
+          "source_id": "bourns-crf-j",
+          "url": "https://www.bourns.com/docs/product-datasheets/crf-j.pdf?sfvrsn=da3727f6_4",
+          "pdf_pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "source_url": "https://www.bourns.com/docs/product-datasheets/crf-j.pdf?sfvrsn=da3727f6_4",
+      "risks": [
+        "No board50A claim. PCB copper, solder, connectors, battery, load switches and regulator separately constrain current.",
+        "A removed measurement link is not guaranteed full electrical isolation from I/O/QOD paths. These are not fuses."
+      ],
+      "candidate_file": "build/bom-review-r3/power/PowerReview.pretty/Bourns_CRF0805_Jumper.kicad_mod",
+      "lifecycle": {
+        "status": "Current vendor catalogue; no explicit lifecycle status observed",
+        "checked_date": "2026-11-02",
+        "source_url": "https://www.bourns.com/docs/product-datasheets/crf-j.pdf?sfvrsn=da3727f6_4",
+        "stock_and_price": "not assessed"
+      }
+    },
+    {
+      "refs": [
+        "C101"
+      ],
+      "manufacturer": null,
+      "mpn": null,
+      "existing_value": {
+        "C101": "4.7u / 16V"
+      },
+      "existing_footprint": {
+        "C101": ""
+      },
+      "recommended_footprint": null,
+      "status": "constraint-only-root-selects-mpn",
+      "notes": [
+        "Retain4.7µF/16V input target; verify X5R/X7R DC bias, tolerance, input inrush and actual USB transient. Total pre-charger direct VBUS capacitance matters."
+      ],
+      "evidence": [
+        {
+          "source_id": "bq24074",
+          "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+          "pdf_pages": [
+            8,
+            21,
+            35
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "risks": [
+        "Do not infer30V transient tolerance from16V rating."
+      ]
+    },
+    {
+      "refs": [
+        "C102",
+        "C103"
+      ],
+      "manufacturer": null,
+      "mpn": null,
+      "existing_value": {
+        "C102": "10u / 10V",
+        "C103": "10u / 10V"
+      },
+      "existing_footprint": {
+        "C102": "",
+        "C103": ""
+      },
+      "recommended_footprint": null,
+      "status": "constraint-only-root-selects-mpn",
+      "notes": [
+        "10µF/10V nominal is within BQ recommended bypass values. BQ pins BAT/OUT specify4.7–47µF ceramic; for conservative design acceptance target≥4.7µF remaining after bias/tolerance/temperature at4.2V/4.4V."
+      ],
+      "evidence": [
+        {
+          "source_id": "bq24074",
+          "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+          "pdf_pages": [
+            8,
+            35
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "risks": [
+        "That remaining-capacitance criterion is our conservative design check, not an explicit BQ DC-bias guaranteed limit. ExactMLCC curves needed."
+      ]
+    },
+    {
+      "refs": [
+        "C201",
+        "C202"
+      ],
+      "manufacturer": null,
+      "mpn": null,
+      "existing_value": {
+        "C201": "10u / 10V",
+        "C202": "22u / 10V"
+      },
+      "existing_footprint": {
+        "C201": "",
+        "C202": ""
+      },
+      "recommended_footprint": null,
+      "status": "constraint-only-root-selects-mpn",
+      "notes": [
+        "TPS63802 explicitly requires effectiveCIN≥4µF andCOUT≥7µF forVOUT>2.3V. Existing10µF/10V and22µF/10V nominal values must satisfy these after actual voltage bias,tolerance,temperature and aging."
+      ],
+      "evidence": [
+        {
+          "source_id": "tps63802",
+          "url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+          "pdf_pages": [
+            5,
+            19
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "risks": [
+        "Nominal label/package alone does not close effective capacitance."
+      ]
+    },
+    {
+      "refs": [
+        "C401",
+        "C403",
+        "C404",
+        "C406",
+        "C407",
+        "C409",
+        "C410",
+        "C412",
+        "C413",
+        "C415"
+      ],
+      "manufacturer": null,
+      "mpn": null,
+      "existing_value": {
+        "C401": "1u / 10V",
+        "C403": "22u / 10V",
+        "C404": "1u / 10V",
+        "C406": "22u / 10V",
+        "C407": "1u / 10V",
+        "C409": "4.7u / 10V",
+        "C410": "1u / 10V",
+        "C412": "1u / 10V",
+        "C413": "1u / 10V",
+        "C415": "22u / 10V"
+      },
+      "existing_footprint": {
+        "C401": "",
+        "C403": "",
+        "C404": "",
+        "C406": "",
+        "C407": "",
+        "C409": "",
+        "C410": "",
+        "C412": "",
+        "C413": "",
+        "C415": ""
+      },
+      "recommended_footprint": null,
+      "status": "constraint-only-root-selects-mpn",
+      "notes": [
+        "Keep domain input/output nominal targets and10V voltage ratings as candidates. Count every connected downstream bulk capacitor when checking TPS22918 inrush/discharge; X5R/X7R bias data and actual load steps remain required."
+      ],
+      "evidence": [
+        {
+          "source_id": "tps22918",
+          "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+          "pdf_pages": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "risks": []
+    },
+    {
+      "refs": [
+        "C402",
+        "C405",
+        "C408",
+        "C411",
+        "C414"
+      ],
+      "manufacturer": null,
+      "mpn": null,
+      "existing_value": {
+        "C402": "4.7n / 25V",
+        "C405": "4.7n / 25V",
+        "C408": "4.7n / 25V",
+        "C411": "4.7n / 25V",
+        "C414": "4.7n / 25V"
+      },
+      "existing_footprint": {
+        "C402": "",
+        "C405": "",
+        "C408": "",
+        "C411": "",
+        "C414": ""
+      },
+      "recommended_footprint": null,
+      "status": "constraint-only-root-selects-mpn",
+      "notes": [
+        "4.7nF/25V CT capacitors: prefer C0G/NP0±5% candidate to reduce timing drift; switch timing still includes IC and application variation."
+      ],
+      "evidence": [
+        {
+          "source_id": "tps22918",
+          "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+          "pdf_pages": [
+            15,
+            16
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "risks": []
+    },
+    {
+      "refs": [
+        "R401",
+        "R404",
+        "R407",
+        "R410",
+        "R413"
+      ],
+      "manufacturer": null,
+      "mpn": null,
+      "existing_value": {
+        "R401": "330R / 1%",
+        "R404": "330R / 1%",
+        "R407": "330R / 1%",
+        "R410": "330R / 1%",
+        "R413": "330R / 1%"
+      },
+      "existing_footprint": {
+        "R401": "",
+        "R404": "",
+        "R407": "",
+        "R410": "",
+        "R413": ""
+      },
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "nominal-power-compatible-pulse-budget-open",
+      "notes": [
+        "330ohm upper initial QOD resistor dissipation ignoring internal series resistance:3.3V→33.0mW;4.4V→58.7mW. Root0.1W@70°C0603 candidate covers this nominal initial value.",
+        "AMP known C41522µF+C80310µF+C8020.1µF=32.1µF stores0.311mJ at4.4V; nominal330ohm time constant10.6ms before internalQOD resistance. Full loading/tolerance may be greater."
+      ],
+      "evidence": [
+        {
+          "source_id": "tps22918",
+          "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+          "pdf_pages": [
+            15,
+            16
+          ]
+        }
+      ],
+      "source_url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "risks": [
+        "Check resistor derating above70°C and pulse/repetition curve; real output capacitance and remaining power paths are not yet measured."
+      ]
+    }
+  ],
+  "electrical_net_evidence": {
+    "U101": {
+      "1": "/POWER_INPUT_CHARGER/BAT_NTC",
+      "4": "/POWER_INPUT_CHARGER/CHG_CE_N",
+      "12": "/POWER_INPUT_CHARGER/CHG_ILIM",
+      "16": "/POWER_INPUT_CHARGER/CHG_ISET",
+      "14": "/POWER_INPUT_CHARGER/CHG_TMR",
+      "2": "BAT_PROT",
+      "3": "BAT_PROT",
+      "9": "CHG_N",
+      "17": "GND",
+      "8": "GND",
+      "7": "PGOOD_N",
+      "10": "SYS_RAW",
+      "11": "SYS_RAW",
+      "6": "USB_EN1",
+      "5": "USB_EN2",
+      "13": "VIN_5V",
+      "15": "unconnected-(U101-ITERM-Pad15)"
+    },
+    "U201": {
+      "6": "/POWER_3V3_CONTROL/3V3_REG",
+      "1": "/POWER_3V3_CONTROL/MAIN_EN",
+      "4": "/POWER_3V3_CONTROL/REG_FB",
+      "2": "/POWER_3V3_CONTROL/REG_MODE",
+      "5": "/POWER_3V3_CONTROL/REG_PG",
+      "9": "/POWER_3V3_CONTROL/SW_L1",
+      "7": "/POWER_3V3_CONTROL/SW_L2",
+      "3": "GND",
+      "8": "GND",
+      "10": "SYS"
+    },
+    "U202": {
+      "1": "/POWER_3V3_CONTROL/IOX_INT_N",
+      "24": "3V3_AON",
+      "11": "CHARGE_ALLOW",
+      "8": "CHG_N",
+      "4": "EPD_EN",
+      "15": "FUEL_ALERT_N",
+      "12": "GND",
+      "2": "GND",
+      "21": "GND",
+      "22": "I2C_AON_SCL",
+      "23": "I2C_AON_SDA",
+      "3": "IOX_RESET_N",
+      "17": "IOX_SP14",
+      "18": "IOX_SP15",
+      "19": "IOX_SP16",
+      "20": "IOX_SP17",
+      "7": "PGOOD_N",
+      "9": "SD_CD_N",
+      "5": "SD_EN",
+      "16": "SD_IO_EN",
+      "6": "TOUCH_EN",
+      "13": "TOUCH_IO_EN",
+      "10": "USB_EN1",
+      "14": "USB_EN2"
+    },
+    "U203": {
+      "7": "/POWER_3V3_CONTROL/GAUGE_SCL",
+      "8": "/POWER_3V3_CONTROL/GAUGE_SDA",
+      "2": "BAT_PROT",
+      "3": "BAT_PROT",
+      "5": "FUEL_ALERT_N",
+      "1": "GND",
+      "4": "GND",
+      "6": "GND",
+      "9": "GND"
+    },
+    "Q101": {
+      "3": "/POWER_INPUT_CHARGER/CHG_CE_N",
+      "1": "/POWER_INPUT_CHARGER/CHG_GATE",
+      "2": "GND"
+    },
+    "Q201": {
+      "1": "/POWER_INPUT_CHARGER/VBUS_GATE",
+      "2": "GND",
+      "3": "VBUS_SENSE_N"
+    },
+    "U401": {
+      "4": "/POWER_DOMAINS/EPD_CT",
+      "5": "/POWER_DOMAINS/EPD_QOD",
+      "6": "/POWER_DOMAINS/EPD_SW",
+      "1": "3V3_AON",
+      "3": "EPD_EN",
+      "2": "GND"
+    },
+    "U402": {
+      "4": "/POWER_DOMAINS/SD_CT",
+      "5": "/POWER_DOMAINS/SD_QOD",
+      "6": "/POWER_DOMAINS/SD_SW",
+      "1": "3V3_AON",
+      "2": "GND",
+      "3": "SD_EN"
+    },
+    "U403": {
+      "4": "/POWER_DOMAINS/TOUCH_CT",
+      "5": "/POWER_DOMAINS/TOUCH_QOD",
+      "6": "/POWER_DOMAINS/TOUCH_SW",
+      "1": "3V3_AON",
+      "2": "GND",
+      "3": "TOUCH_EN"
+    },
+    "U404": {
+      "4": "/POWER_DOMAINS/MIC_CT",
+      "5": "/POWER_DOMAINS/MIC_QOD",
+      "6": "/POWER_DOMAINS/MIC_SW",
+      "1": "3V3_AON",
+      "3": "AUDIO_EN",
+      "2": "GND"
+    },
+    "U405": {
+      "4": "/POWER_DOMAINS/AMP_CT",
+      "5": "/POWER_DOMAINS/AMP_QOD",
+      "6": "/POWER_DOMAINS/AMP_SW",
+      "3": "AUDIO_EN",
+      "2": "GND",
+      "1": "SYS"
+    },
+    "D501": {
+      "2": "GND",
+      "1": "USB_5V_PROTECTED"
+    },
+    "F501": {
+      "2": "USB_5V_PROTECTED",
+      "1": "USB_VBUS"
+    },
+    "L201": {
+      "1": "/POWER_3V3_CONTROL/SW_L1",
+      "2": "/POWER_3V3_CONTROL/SW_L2"
+    },
+    "R101": {
+      "2": "SYS",
+      "1": "SYS_RAW"
+    },
+    "R102": {
+      "1": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+      "2": "BAT_PROT"
+    },
+    "R203": {
+      "1": "/POWER_3V3_CONTROL/3V3_REG",
+      "2": "3V3_AON"
+    },
+    "R402": {
+      "1": "/POWER_DOMAINS/EPD_SW",
+      "2": "EPD_3V3"
+    },
+    "R405": {
+      "1": "/POWER_DOMAINS/SD_SW",
+      "2": "SD_3V3"
+    },
+    "R408": {
+      "1": "/POWER_DOMAINS/TOUCH_SW",
+      "2": "TOUCH_3V3"
+    },
+    "R411": {
+      "1": "/POWER_DOMAINS/MIC_SW",
+      "2": "MIC_3V3"
+    },
+    "R414": {
+      "1": "/POWER_DOMAINS/AMP_SW",
+      "2": "AMP_SYS"
+    },
+    "C101": {
+      "2": "GND",
+      "1": "VIN_5V"
+    },
+    "C102": {
+      "2": "GND",
+      "1": "SYS_RAW"
+    },
+    "C103": {
+      "1": "BAT_PROT",
+      "2": "GND"
+    },
+    "C201": {
+      "2": "GND",
+      "1": "SYS"
+    },
+    "C202": {
+      "1": "/POWER_3V3_CONTROL/3V3_REG",
+      "2": "GND"
+    },
+    "C401": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "C403": {
+      "1": "EPD_3V3",
+      "2": "GND"
+    },
+    "C404": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "C406": {
+      "2": "GND",
+      "1": "SD_3V3"
+    },
+    "C407": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "C409": {
+      "2": "GND",
+      "1": "TOUCH_3V3"
+    },
+    "C410": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "C412": {
+      "2": "GND",
+      "1": "MIC_3V3"
+    },
+    "C413": {
+      "2": "GND",
+      "1": "SYS"
+    },
+    "C415": {
+      "1": "AMP_SYS",
+      "2": "GND"
+    },
+    "C402": {
+      "1": "/POWER_DOMAINS/EPD_CT",
+      "2": "GND"
+    },
+    "C405": {
+      "1": "/POWER_DOMAINS/SD_CT",
+      "2": "GND"
+    },
+    "C408": {
+      "1": "/POWER_DOMAINS/TOUCH_CT",
+      "2": "GND"
+    },
+    "C411": {
+      "1": "/POWER_DOMAINS/MIC_CT",
+      "2": "GND"
+    },
+    "C414": {
+      "1": "/POWER_DOMAINS/AMP_CT",
+      "2": "GND"
+    },
+    "R401": {
+      "1": "/POWER_DOMAINS/EPD_QOD",
+      "2": "EPD_3V3"
+    },
+    "R404": {
+      "1": "/POWER_DOMAINS/SD_QOD",
+      "2": "SD_3V3"
+    },
+    "R407": {
+      "1": "/POWER_DOMAINS/TOUCH_QOD",
+      "2": "TOUCH_3V3"
+    },
+    "R410": {
+      "1": "/POWER_DOMAINS/MIC_QOD",
+      "2": "MIC_3V3"
+    },
+    "R413": {
+      "1": "/POWER_DOMAINS/AMP_QOD",
+      "2": "AMP_SYS"
+    }
+  },
+  "sources_file": "build/bom-review-r3/power/sources.json",
+  "native_validation_file": "build/bom-review-r3/power/native-footprint-validation.json"
+}

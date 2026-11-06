@@ -1,0 +1,251 @@
+{
+  "topology": "TLV1822DR dual open-drain outputs tied to BQ24074 TS; 10k TS return; 330k positive feedback to NTC and cold reference",
+  "resistors_ohm": {
+    "R_NTC_UP": 47000.0,
+    "R_HOT_TOP": 100000.0,
+    "R_HOT_BOTTOM": 12000.0,
+    "R_COLD_TOP": 100000.0,
+    "R_COLD_BOTTOM": 33000.0,
+    "R_FB_NTC": 330000.0,
+    "R_FB_COLD": 330000.0,
+    "R_TS": 10000.0
+  },
+  "model_assumptions": {
+    "resistor_fractional_bound": 0.01656499999999994,
+    "input_differential_budget_v": 0.0042,
+    "ntc_identity": "Honeywell 175-103LAE-301 curve assumed; actual pack identity unverified",
+    "rt_source": "hardware/reference/ntc175-2026-11-04/honeywell-175-103lae-301.pdf",
+    "nominal_vin_v": 5.0,
+    "recommended_input": "5 V only",
+    "timing": "No guaranteed startup timing claim; bench validation required",
+    "electrical_bounds": "Engineering budget, not full guaranteed characterization over every VIN/VCM; see review.md"
+  },
+  "nominal": {
+    "cold": {
+      "suspend": {
+        "rntc_ohm": 15221.561829066475,
+        "ts_v": 0.7761785356068203,
+        "ntc_v": 1.2081243731193583,
+        "cold_ref_v": 1.2081243731193583,
+        "hot_ref_v": 0.5357142857142857,
+        "temperature_c": 14.81581541050534
+      },
+      "resume": {
+        "rntc_ohm": 14793.487248053754,
+        "ts_v": 0.1,
+        "ntc_v": 1.160839160839161,
+        "cold_ref_v": 1.160839160839161,
+        "hot_ref_v": 0.5357142857142857,
+        "temperature_c": 15.494375406364913,
+        "low_output_note": "0.1 V is an illustrative clamp, not a datasheet typical value"
+      },
+      "resume_temperature_at_low_output_endpoints_c": [
+        15.597831081702045,
+        15.339848042100098
+      ],
+      "bias_off_released_output": {
+        "rntc_ohm": 14771.830526000707,
+        "ts_v": 0.06619859578736209,
+        "ntc_v": 1.1584754262788366,
+        "cold_ref_v": 1.1584754262788366,
+        "hot_ref_v": 0.5357142857142857,
+        "temperature_c": 15.529305603224666
+      }
+    },
+    "hot": {
+      "suspend": {
+        "rntc_ohm": 5600.475210631426,
+        "ts_v": 0.7569283569283568,
+        "ntc_v": 0.5357142857142857,
+        "cold_ref_v": 1.206778206778207,
+        "hot_ref_v": 0.5357142857142857,
+        "temperature_c": 40.05159210474791
+      },
+      "resume": {
+        "rntc_ohm": 5719.504580028813,
+        "ts_v": 0.1,
+        "ntc_v": 0.5357142857142857,
+        "cold_ref_v": 1.160839160839161,
+        "hot_ref_v": 0.5357142857142857,
+        "temperature_c": 39.49296925220181,
+        "low_output_note": "0.1 V is an illustrative clamp, not a datasheet typical value"
+      },
+      "resume_temperature_at_low_output_endpoints_c": [
+        39.406220502660595,
+        39.62204499901452
+      ],
+      "bias_off_released_output": {
+        "rntc_ohm": 5729.074306413477,
+        "ts_v": 0.04836979836979837,
+        "ntc_v": 0.5357142857142857,
+        "cold_ref_v": 1.1572286572286574,
+        "hot_ref_v": 0.5357142857142857,
+        "temperature_c": 39.44825090460992
+      }
+    }
+  },
+  "5v_supply_4p75_to_5p25": {
+    "cold": {
+      "suspend": {
+        "corner_count": 2048,
+        "rntc_ohm": [
+          14364.61843570283,
+          16130.070736739075
+        ],
+        "temperature_c": [
+          12.387954124270037,
+          17.12357633491339
+        ],
+        "ts_v": [
+          0.7308182703726416,
+          0.822861150568026
+        ]
+      },
+      "resume": {
+        "corner_count": 4096,
+        "rntc_ohm": [
+          13899.563092714625,
+          15767.69689704201
+        ],
+        "temperature_c": [
+          12.928810601429836,
+          17.88596214309078
+        ],
+        "ts_v": [
+          0.0,
+          0.25
+        ]
+      },
+      "same_corner_hysteresis_c": [
+        0.40282585547174854,
+        0.9612687889855511
+      ],
+      "all_positive": true
+    },
+    "hot": {
+      "suspend": {
+        "corner_count": 2048,
+        "rntc_ohm": [
+          5261.217377025014,
+          5950.2858981188565
+        ],
+        "temperature_c": [
+          37.24765983354211,
+          43.10207947269014
+        ],
+        "ts_v": [
+          0.713219717035229,
+          0.8018229088852209
+        ]
+      },
+      "resume": {
+        "corner_count": 4096,
+        "rntc_ohm": [
+          5356.5058132046715,
+          6092.263479906959
+        ],
+        "temperature_c": [
+          36.641750084424544,
+          42.603596822773724
+        ],
+        "ts_v": [
+          0.0,
+          0.25
+        ]
+      },
+      "same_corner_hysteresis_c": [
+        0.3538787470468705,
+        0.7737579369366756
+      ],
+      "all_positive": true
+    }
+  },
+  "extended_sensitivity_2p9_to_10p8": {
+    "cold": {
+      "suspend": {
+        "corner_count": 2048,
+        "rntc_ohm": [
+          14185.97440690424,
+          16486.105012958546
+        ],
+        "temperature_c": [
+          11.862707124344935,
+          17.41643539851764
+        ],
+        "ts_v": [
+          0.7076167386054671,
+          0.9004564530027066
+        ]
+      },
+      "resume": {
+        "corner_count": 4096,
+        "rntc_ohm": [
+          13852.638413996208,
+          15921.491633395908
+        ],
+        "temperature_c": [
+          12.699266218812078,
+          17.962887845907854
+        ],
+        "ts_v": [
+          0.0,
+          0.25
+        ]
+      },
+      "same_corner_hysteresis_c": [
+        0.22982190040985273,
+        1.5032734133073085
+      ],
+      "all_positive": true
+    },
+    "hot": {
+      "suspend": {
+        "corner_count": 2048,
+        "rntc_ohm": [
+          5147.5245281861935,
+          5989.057335484666
+        ],
+        "temperature_c": [
+          37.07835224679185,
+          43.719975390292426
+        ],
+        "ts_v": [
+          0.696144997249653,
+          0.858420327530223
+        ]
+      },
+      "resume": {
+        "corner_count": 4096,
+        "rntc_ohm": [
+          5295.859533300823,
+          6127.701400368096
+        ],
+        "temperature_c": [
+          36.49285125895758,
+          42.91782625232734
+        ],
+        "ts_v": [
+          0.0,
+          0.25
+        ]
+      },
+      "same_corner_hysteresis_c": [
+        0.1915825297480751,
+        1.2216247311864592
+      ],
+      "all_positive": true
+    }
+  },
+  "sensor_faults": {
+    "open": {
+      "minimum_fault_differential_after_error_v": 1.837205653273546,
+      "maximum_output_sink_a": 0.00011498851397997748,
+      "stable_fault": true
+    },
+    "short": {
+      "minimum_fault_differential_after_error_v": 0.29744133388190774,
+      "maximum_output_sink_a": 8.585876483121685e-05,
+      "stable_fault": true
+    }
+  }
+}

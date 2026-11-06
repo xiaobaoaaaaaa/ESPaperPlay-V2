@@ -1,0 +1,95 @@
+{
+  "from": "r4",
+  "to": "r5",
+  "component_changes": {
+    "R104": {
+      "value": {
+        "before": "3.00k / 1%",
+        "after": "1.27k / 1%"
+      },
+      "mpn": {
+        "before": "CRCW06033K00FKEA",
+        "after": "CRCW06031K27FKEA"
+      }
+    }
+  },
+  "pin_changes": {
+    "U101.1": {
+      "before": "/POWER_INPUT_CHARGER/BAT_NTC",
+      "after": "CHG_TS"
+    },
+    "J103.1": {
+      "before": "/POWER_INPUT_CHARGER/BAT_NTC",
+      "after": "BAT_NTC"
+    },
+    "U101.15": {
+      "before": "unconnected-(U101-ITERM-Pad15)",
+      "after": "/POWER_INPUT_CHARGER/CHG_ITERM"
+    }
+  },
+  "added_components": {
+    "R113": {
+      "1": "/POWER_INPUT_CHARGER/CHG_ITERM",
+      "2": "GND"
+    },
+    "U901": {
+      "1": "CHG_TS",
+      "2": "/CHARGE_TEMP/NTC_HOT_REF",
+      "3": "BAT_NTC",
+      "4": "GND",
+      "5": "/CHARGE_TEMP/NTC_COLD_REF",
+      "6": "BAT_NTC",
+      "7": "CHG_TS",
+      "8": "VIN_5V"
+    },
+    "R901": {
+      "1": "VIN_5V",
+      "2": "BAT_NTC"
+    },
+    "R902": {
+      "1": "VIN_5V",
+      "2": "/CHARGE_TEMP/NTC_HOT_REF"
+    },
+    "R903": {
+      "1": "/CHARGE_TEMP/NTC_HOT_REF",
+      "2": "GND"
+    },
+    "R904": {
+      "1": "VIN_5V",
+      "2": "/CHARGE_TEMP/NTC_COLD_REF"
+    },
+    "R905": {
+      "1": "/CHARGE_TEMP/NTC_COLD_REF",
+      "2": "GND"
+    },
+    "R906": {
+      "1": "CHG_TS",
+      "2": "GND"
+    },
+    "R907": {
+      "1": "CHG_TS",
+      "2": "BAT_NTC"
+    },
+    "R908": {
+      "1": "CHG_TS",
+      "2": "/CHARGE_TEMP/NTC_COLD_REF"
+    },
+    "C901": {
+      "1": "VIN_5V",
+      "2": "GND"
+    },
+    "C902": {
+      "1": "BAT_NTC",
+      "2": "GND"
+    },
+    "C903": {
+      "1": "/CHARGE_TEMP/NTC_HOT_REF",
+      "2": "GND"
+    },
+    "C904": {
+      "1": "/CHARGE_TEMP/NTC_COLD_REF",
+      "2": "GND"
+    }
+  },
+  "scope": "Exact per-pin and component attribute allowlist, independently written from the circuit design. No other original pin change allowed."
+}

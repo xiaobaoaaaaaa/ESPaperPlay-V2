@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-02",
+  "screenshots": [
+    {
+      "file": "battery-755570-4000mah.png",
+      "sha256": "ae55b34c8f21acf12a5f09b2fe3e668ef8392492103c72cfeba85b3bb7e65654",
+      "bytes": 600712,
+      "source": "User supplied screenshot; contains shop UI, not a manufacturer-qualified datasheet."
+    },
+    {
+      "file": "speaker-3525-8ohm-2w.png",
+      "sha256": "7e38e3c474fdc8b9f5ea0723f42e7393c4eff546d85e2f6dc51230a9b57b101a",
+      "bytes": 403606,
+      "source": "User supplied screenshot; contains shop UI, not a manufacturer-qualified datasheet."
+    }
+  ],
+  "battery": {
+    "selection": "ZON.CELL7555704000mAh",
+    "product_url": "https://item.taobao.com/item.htm?id=932254452666",
+    "selected_sku_id_from_user_url": "5983835574989",
+    "seller": "中顺动力电池企业店",
+    "screenshot_claims": {
+      "configuration": "1S1P",
+      "nominal_voltage_v": 3.7,
+      "capacity_mah": 4000,
+      "length_mm": [
+        68,
+        72
+      ],
+      "width_mm": [
+        53,
+        55
+      ],
+      "thickness_mm": [
+        7,
+        8
+      ],
+      "ntc": "10kohm to ground,3 wires; reference temperature/tolerance/Beta/R-T unspecified",
+      "protection": "overcharge/overdischarge/overcurrent/short circuit advertised; thresholds unprovided",
+      "current": "2A at10..55C;800mA at-10..10C;3A instantaneous at10..45C, duration unprovided",
+      "ambiguous_charge_text": "4.2~5V; NOT adopted as cell CC/CV termination voltage"
+    },
+    "missing": [
+      "charge current/temperature and CV tolerance",
+      "NTC R-T/Beta/tolerance and actual ground return relative to protection",
+      "protection thresholds/delays and3A pulse duration",
+      "connector family/polarity/wire gauge"
+    ]
+  },
+  "speaker": {
+    "selection": "3525腔体8Ω2W",
+    "product_url": "https://item.taobao.com/item.htm?id=683920556900",
+    "seller": "深圳市优信电子科技有限公司",
+    "nominal_impedance_ohm": 8,
+    "advertised_power_w": 2,
+    "connector_claim": "1.25mm terminal; exact family/polarity not established",
+    "missing": [
+      "exact body thickness/mounting dimensions",
+      "connector family/polarity/wire gauge",
+      "power rating test conditions/impedance tolerance"
+    ]
+  },
+  "panel_interconnect": {
+    "user_decision": "Keep existing adapter/extension chain",
+    "user_description": "Generic0.5mmFP24 andFP6",
+    "missing": [
+      "same-side/opposite-side contacts",
+      "both ends pin1 mapping/continuity",
+      "actual insertion/stiffener dimensions at motherboard-facing end"
+    ]
+  },
+  "access": "Taobao browser observation was blocked by site-safety policy. No alternate access to blocked pages attempted; facts transcribed from user screenshots only."
+}

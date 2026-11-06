@@ -1,0 +1,254 @@
+{
+  "checked_on": "2026-11-02",
+  "formula": "C_effective = C_nominal * (1-initial_tolerance) * r_combined. r_combined covers DC bias, temperature under bias, aging and applicable AC test conditions.",
+  "caution": "X5R/X7R ±15% temperature classification is specified without applied DC voltage. Multiplying a typical DC-bias curve by0.85 and0.90 is an illustrative engineering reserve only, not a guaranteed combined minimum. No curve values were read or invented.",
+  "critical_acceptance": [
+    {
+      "ref": "C102",
+      "minimum_effective_uF": 4.7,
+      "qualification_voltage_V": 5.0,
+      "basis": "Project conservative criterion based on BQ OUT recommended nominal4.7–47µF; not a stated BQ DC-biased guarantee",
+      "source_id": "TI_BQ24074",
+      "mpn": "C3216X5R1C106K160AA",
+      "nominal_uF": 10,
+      "initial_negative_tolerance": 0.1,
+      "minimum_combined_retention_after_initial_tolerance": 0.5222222222222223,
+      "illustrative_dc_retention_if_temp_reserve_15pct_and_age_reserve_10pct": 0.682643427741467,
+      "measured_or_vendor_guaranteed_capacitance_uF": null,
+      "qualification_temperature_grid_C": [
+        -40,
+        25,
+        85
+      ],
+      "qualification_temperature_note": "Engineering electronics component qualification grid; +85°C is X5R body limit. Whole panel operation remains0..50°C. Three sample points alone do not guarantee the continuous temperature interval.",
+      "aging_and_ac_test_condition": "Obtain vendor condition-specific data and record post-reflow time, bias dwell, AC test frequency/amplitude; no service-life or combined-aging minimum has been established. The illustrative10% aging reserve is not a vendor guarantee.",
+      "result": "acceptance_threshold_defined__part_not_yet_qualified",
+      "parallel_two_same_parts_required_combined_retention": 0.2611111111111111
+    },
+    {
+      "ref": "C103",
+      "minimum_effective_uF": 4.7,
+      "qualification_voltage_V": 4.5,
+      "basis": "Project conservative criterion based on BQ BAT recommended nominal4.7–47µF; not a stated BQ DC-biased guarantee",
+      "source_id": "TI_BQ24074",
+      "mpn": "C3216X5R1C106K160AA",
+      "nominal_uF": 10,
+      "initial_negative_tolerance": 0.1,
+      "minimum_combined_retention_after_initial_tolerance": 0.5222222222222223,
+      "illustrative_dc_retention_if_temp_reserve_15pct_and_age_reserve_10pct": 0.682643427741467,
+      "measured_or_vendor_guaranteed_capacitance_uF": null,
+      "qualification_temperature_grid_C": [
+        -40,
+        25,
+        85
+      ],
+      "qualification_temperature_note": "Engineering electronics component qualification grid; +85°C is X5R body limit. Whole panel operation remains0..50°C. Three sample points alone do not guarantee the continuous temperature interval.",
+      "aging_and_ac_test_condition": "Obtain vendor condition-specific data and record post-reflow time, bias dwell, AC test frequency/amplitude; no service-life or combined-aging minimum has been established. The illustrative10% aging reserve is not a vendor guarantee.",
+      "result": "acceptance_threshold_defined__part_not_yet_qualified",
+      "parallel_two_same_parts_required_combined_retention": 0.2611111111111111
+    },
+    {
+      "ref": "C201",
+      "minimum_effective_uF": 4.0,
+      "qualification_voltage_V": 5.0,
+      "basis": "Explicit TPS63802 section8.3 effective input capacitance minimum",
+      "source_id": "TI_TPS63802",
+      "mpn": "C3216X5R1C106K160AA",
+      "nominal_uF": 10,
+      "initial_negative_tolerance": 0.1,
+      "minimum_combined_retention_after_initial_tolerance": 0.4444444444444444,
+      "illustrative_dc_retention_if_temp_reserve_15pct_and_age_reserve_10pct": 0.5809731299927378,
+      "measured_or_vendor_guaranteed_capacitance_uF": null,
+      "qualification_temperature_grid_C": [
+        -40,
+        25,
+        85
+      ],
+      "qualification_temperature_note": "Engineering electronics component qualification grid; +85°C is X5R body limit. Whole panel operation remains0..50°C. Three sample points alone do not guarantee the continuous temperature interval.",
+      "aging_and_ac_test_condition": "Obtain vendor condition-specific data and record post-reflow time, bias dwell, AC test frequency/amplitude; no service-life or combined-aging minimum has been established. The illustrative10% aging reserve is not a vendor guarantee.",
+      "result": "acceptance_threshold_defined__part_not_yet_qualified",
+      "parallel_two_same_parts_required_combined_retention": 0.2222222222222222
+    },
+    {
+      "ref": "C202",
+      "minimum_effective_uF": 7.0,
+      "qualification_voltage_V": 3.6,
+      "basis": "Explicit TPS63802 section8.3 effective output capacitance minimum for output>2.3V",
+      "source_id": "TI_TPS63802",
+      "mpn": "C3216X5R1C226M160AB",
+      "nominal_uF": 22,
+      "initial_negative_tolerance": 0.2,
+      "minimum_combined_retention_after_initial_tolerance": 0.3977272727272727,
+      "illustrative_dc_retention_if_temp_reserve_15pct_and_age_reserve_10pct": 0.5199049316696375,
+      "measured_or_vendor_guaranteed_capacitance_uF": null,
+      "qualification_temperature_grid_C": [
+        -40,
+        25,
+        85
+      ],
+      "qualification_temperature_note": "Engineering electronics component qualification grid; +85°C is X5R body limit. Whole panel operation remains0..50°C. Three sample points alone do not guarantee the continuous temperature interval.",
+      "aging_and_ac_test_condition": "Obtain vendor condition-specific data and record post-reflow time, bias dwell, AC test frequency/amplitude; no service-life or combined-aging minimum has been established. The illustrative10% aging reserve is not a vendor guarantee.",
+      "result": "acceptance_threshold_defined__part_not_yet_qualified",
+      "parallel_two_same_parts_required_combined_retention": 0.19886363636363635
+    }
+  ],
+  "domains": {
+    "EPD_3V3": {
+      "capacitors": [
+        {
+          "ref": "C403",
+          "nominal_uF": 22,
+          "positive_tolerance": 0.2
+        },
+        {
+          "ref": "C603",
+          "nominal_uF": 4.7,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C605",
+          "nominal_uF": 1,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C611",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        }
+      ],
+      "nominal_total_uF": 27.8,
+      "positive_initial_tolerance_total_uF": 32.78,
+      "illustrative_positive_15pct_temperature_total_uF": 37.696999999999996,
+      "result": "inrush_estimation_input_only__not_a_joint_TCBias_guarantee"
+    },
+    "SD_3V3": {
+      "capacitors": [
+        {
+          "ref": "C406",
+          "nominal_uF": 22,
+          "positive_tolerance": 0.2
+        },
+        {
+          "ref": "C701",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C702",
+          "nominal_uF": 10,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C703",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C705",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        }
+      ],
+      "nominal_total_uF": 32.300000000000004,
+      "positive_initial_tolerance_total_uF": 37.73,
+      "illustrative_positive_15pct_temperature_total_uF": 43.38949999999999,
+      "result": "inrush_estimation_input_only__not_a_joint_TCBias_guarantee"
+    },
+    "TOUCH_3V3": {
+      "capacitors": [
+        {
+          "ref": "C409",
+          "nominal_uF": 4.7,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C416",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C417",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        }
+      ],
+      "nominal_total_uF": 4.9,
+      "positive_initial_tolerance_total_uF": 5.390000000000001,
+      "illustrative_positive_15pct_temperature_total_uF": 6.1985,
+      "result": "inrush_estimation_input_only__not_a_joint_TCBias_guarantee"
+    },
+    "MIC_3V3": {
+      "capacitors": [
+        {
+          "ref": "C412",
+          "nominal_uF": 1,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C801",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C804",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C805",
+          "nominal_uF": 1,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C806",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        }
+      ],
+      "nominal_total_uF": 2.3000000000000003,
+      "positive_initial_tolerance_total_uF": 2.5300000000000002,
+      "illustrative_positive_15pct_temperature_total_uF": 2.9095,
+      "result": "inrush_estimation_input_only__not_a_joint_TCBias_guarantee"
+    },
+    "AMP_SYS": {
+      "capacitors": [
+        {
+          "ref": "C415",
+          "nominal_uF": 22,
+          "positive_tolerance": 0.2
+        },
+        {
+          "ref": "C802",
+          "nominal_uF": 0.1,
+          "positive_tolerance": 0.1
+        },
+        {
+          "ref": "C803",
+          "nominal_uF": 10,
+          "positive_tolerance": 0.1
+        }
+      ],
+      "nominal_total_uF": 32.1,
+      "positive_initial_tolerance_total_uF": 37.51,
+      "illustrative_positive_15pct_temperature_total_uF": 43.13649999999999,
+      "result": "inrush_estimation_input_only__not_a_joint_TCBias_guarantee"
+    }
+  },
+  "c0g_tolerance_temperature_only": {
+    "C1608C0G1H472J080AA": {
+      "temperature_delta_from_25C_max": 100,
+      "tolerance_and_tempco_only_min_uF": 0.004451605,
+      "tolerance_and_tempco_only_max_uF": 0.004949805,
+      "excludes": "DC bias interaction, aging/drift/test-method tolerance, TPS22918 timing and Schmitt threshold variation; not full-system timing guarantee"
+    },
+    "C1608C0G1H103J080AA": {
+      "temperature_delta_from_25C_max": 100,
+      "tolerance_and_tempco_only_min_uF": 0.009471499999999999,
+      "tolerance_and_tempco_only_max_uF": 0.0105315,
+      "excludes": "DC bias interaction, aging/drift/test-method tolerance, TPS22918 timing and Schmitt threshold variation; not full-system timing guarantee"
+    }
+  },
+  "parallel_fallback": "If qualified single-part minimum fails, two parallel same-MPN parts halve the required retention fraction. This is an unimplemented option: adds nominal capacitance/inrush/area and requires circuit/layout re-review; no schematic change made.",
+  "source_netlist": "hardware/devboard-r0/output/validation/peripheral-r3.net.xml",
+  "source_netlist_sha256": "5fe8819156c55b2d92bd0518619ed1d7057dbc209db06aaa55727d900e44e8e2"
+}

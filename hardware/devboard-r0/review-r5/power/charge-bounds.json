@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-04",
+  "revision": "r5",
+  "scope": "Calculated charger candidate limits, not hardware measurements or production release.",
+  "sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "revision": "SLUS810N",
+      "local_path": "hardware/reference/power/bq24074.pdf",
+      "sections": "8.3/8.5;9.3.4;9.3.5.1/2/6/8;10.2.2.2",
+      "facts": "KISET/KPRECHG/KILIM/KITERM/KTMR limits, resistor ranges, DPPM and dynamic timers."
+    },
+    {
+      "url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "revision": "14-Apr-2026",
+      "sections": "pp1-3:0603/E96,1%,100ppm/K,ordering code",
+      "facts": "CRCW resistor candidates, package and tolerance/TCR; stock not checked."
+    },
+    {
+      "url": "https://www.zoncell.com/product/lp1s-ntc/",
+      "local_path": "hardware/reference/zoncell-2026-11-04/product-3002.json",
+      "facts": "Ordinary family4.2V:0.2C fast charge;below20C max0.2C;standard termination below0.01C;10..45C charging.",
+      "qualification": "Family design basis applied to selected4Ah pack; not a pack qualification sheet."
+    }
+  ],
+  "resistor_model": {
+    "initial_tolerance_fraction": 0.01,
+    "tcr_ppm_per_c": 100.0,
+    "body_temperature_c": [
+      -40,
+      85
+    ],
+    "reference_temperature_c": 25,
+    "aging_and_solder_drift_included": false,
+    "qualification": "Multiplicative independent initial-tolerance/TCR corners, same model as r4. No BQ operation at negative junction temperature is implied."
+  },
+  "resistors": {
+    "iset": {
+      "ref": "R104",
+      "nominal_ohm": 1270,
+      "min_ohm": 1249.12755,
+      "max_ohm": 1291.03755,
+      "min_factor": 0.983565,
+      "max_factor": 1.016565,
+      "candidate_mpn": "CRCW06031K27FKEA"
+    },
+    "iterm": {
+      "ref": "R113",
+      "nominal_ohm": 1270,
+      "min_ohm": 1249.12755,
+      "max_ohm": 1291.03755,
+      "min_factor": 0.983565,
+      "max_factor": 1.016565,
+      "candidate_mpn": "CRCW06031K27FKEA"
+    },
+    "timer": {
+      "ref": "R105",
+      "nominal_ohm": 68000,
+      "min_ohm": 66882.42,
+      "max_ohm": 69126.42,
+      "min_factor": 0.983565,
+      "max_factor": 1.016565,
+      "candidate_mpn": "CRCW060368K0FKEA"
+    },
+    "ilim": {
+      "ref": "R103",
+      "nominal_ohm": 1620,
+      "min_ohm": 1593.3753,
+      "max_ohm": 1646.8353,
+      "min_factor": 0.983565,
+      "max_factor": 1.016565,
+      "candidate_mpn": "CRCW06031K62FKEA"
+    }
+  },
+  "TI_factors": {
+    "KISET_Aohm_min_typ_max": [
+      797,
+      890,
+      975
+    ],
+    "KPRECHG_Aohm_min_typ_max": [
+      70,
+      88,
+      106
+    ],
+    "KILIM_Aohm_min_typ_max": [
+      1500,
+      1610,
+      1720
+    ],
+    "KITERM_normal_A_min_typ_max": [
+      0.0225,
+      0.03,
+      0.0375
+    ],
+    "KITERM_USB100_A_min_typ_max": [
+      0.008,
+      0.01,
+      0.012
+    ],
+    "KTMR_s_per_kohm_min_typ_max": [
+      36,
+      48,
+      60
+    ]
+  },
+  "charge": {
+    "min_a": 0.6173329350490232,
+    "typ_a": 0.7007874015748031,
+    "max_a": 0.780544789040959,
+    "capacity_ah": 4.0,
+    "typ_c_rate": 0.17519685039370078,
+    "max_c_rate": 0.19513619726023976,
+    "design_upper_a": 0.8,
+    "headroom_to_design_upper_a": 0.019455210959041014,
+    "qualification": "Set current, conditional on VIN/input capacity and inactive thermal/DPPM loops; sustained real current not measured."
+  },
+  "precharge": {
+    "min_a": 0.05421995665424294,
+    "typ_a": 0.06929133858267716,
+    "max_a": 0.08485922834701709
+  },
+  "termination": {
+    "normal_USB500_or_ILIM": {
+      "min_a": 0.021769599091056645,
+      "typ_a": 0.030000000000000002,
+      "max_a": 0.03875817815802718
+    },
+    "USB100": {
+      "min_a": 0.007740301899042362,
+      "typ_a": 0.01,
+      "max_a": 0.012402617010568696
+    },
+    "design_normal_upper_a": 0.04,
+    "qualification": "ExternalR113 replaces the floating pin's10% threshold. In DPPM/VIN-DPM/thermal regulation termination detection is disabled by the IC."
+  },
+  "timers": {
+    "fast_charge": {
+      "min_h": 6.688242,
+      "typ_h": 9.066666666666666,
+      "max_h": 11.52107
+    },
+    "precharge": {
+      "min_h": 0.6688242,
+      "typ_h": 0.9066666666666666,
+      "max_h": 1.1521069999999998
+    },
+    "ideal_capacity_over_typ_current_h": 5.7078651685393265,
+    "ideal_capacity_over_min_current_h": 6.479485821831869,
+    "full_charge_before_min_timer_guaranteed": false,
+    "qualification": "Nominal timer9.07h is retained. Capacity/current excludes CV taper and precharge; dynamic slowing in DPPM/VIN-DPM/thermal regulation extends wall time. Partial-charge timeout is acceptable; never disable the timer or automatically toggleCE/input to clear a fault.",
+    "temperature_gate_note": "CE toggling resets timers; any external automatic temperature gating viaCE needs a retained session/fault policy. TS faults suspend timers under the IC's rules."
+  },
+  "input": {
+    "min_a": 0.9108378961757743,
+    "typ_a": 0.9938271604938271,
+    "max_a": 1.079469475898114,
+    "unmeasured_bypass_allocation_a": 0.005,
+    "allocated_total_input_upper_a": 1.084469475898114,
+    "remaining_at_min_ilim_max_charge_before_SYS_and_IC_a": 0.13029310713481523,
+    "qualification": "R103 unchanged; worst remaining0.13A is before IC operating current and SYS load. DefaultUSB100 unchanged; higher mode requires a known capable source. DPPM may reduce or stop charging under load."
+  },
+  "thermal": {
+    "formula": "(VIN-VBAT)*ICHG + (VIN-SYS)*ISYS",
+    "cases": [
+      {
+        "case": "5V_low_battery_light_system",
+        "assumed_vin_v": 5.0,
+        "assumed_vbat_v": 3.0,
+        "assumed_sys_v": 4.3,
+        "assumed_system_a": 0.1,
+        "charge_current_envelope_a": 0.780544789040959,
+        "charge_path_w": 1.561089578081918,
+        "system_path_w": 0.07000000000000002,
+        "estimated_path_dissipation_w": 1.6310895780819181
+      },
+      {
+        "case": "5V25_at_low_fast_charge_transition",
+        "assumed_vin_v": 5.25,
+        "assumed_vbat_v": 2.9,
+        "assumed_sys_v": 4.3,
+        "assumed_system_a": 0.1,
+        "charge_current_envelope_a": 0.780544789040959,
+        "charge_path_w": 1.8342802542462537,
+        "system_path_w": 0.09500000000000003,
+        "estimated_path_dissipation_w": 1.9292802542462537
+      },
+      {
+        "case": "5V_near_CV_upper_current_envelope",
+        "assumed_vin_v": 5.0,
+        "assumed_vbat_v": 4.2,
+        "assumed_sys_v": 4.3,
+        "assumed_system_a": 0.1,
+        "charge_current_envelope_a": 0.780544789040959,
+        "charge_path_w": 0.6244358312327671,
+        "system_path_w": 0.07000000000000002,
+        "estimated_path_dissipation_w": 0.6944358312327672
+      }
+    ],
+    "measured": false,
+    "qualification": "Engineering operating-point estimates, excluding bias losses. Voltages and SYS load are assumptions, not simultaneous worst-case proof. CV case uses an upper current envelope, not claimed CV current. Exposed-pad copper/vias and board thermal tests required; datasheet44.5C/W is not the actual PCB thermal resistance."
+  },
+  "application_temperature_boundaries": {
+    "BQ_electrical_table_junction_c": [
+      0,
+      125
+    ],
+    "battery_family_charge_c": [
+      10,
+      45
+    ],
+    "intended_narrow_temperature_window_c": [
+      15,
+      40
+    ],
+    "initial_controlled_test_environment_c": [
+      20,
+      30
+    ],
+    "qualification": "This script does not qualify NTC window limits. Honeywell175-103LAE-301 is a user-authorized design assumption, not confirmed pack identity. Separate window-circuit worst-case review must keep battery charging inside10..45C; resistor temperature range is not battery permission."
+  },
+  "checks": {
+    "charge_upper_below_0p2C": true,
+    "normal_iterm_upper_below_0p01C": true,
+    "iset_resistance_within_TI_range": true,
+    "iterm_resistance_within_TI_range": true,
+    "timer_resistance_within_TI_range": true,
+    "ilim_resistance_within_TI_range": true,
+    "normal_iterm_within_half_fast_charge": true,
+    "positive_current_budget_before_system_and_IC": true
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "added_pins": [
+    {
+      "ref": "J601",
+      "pin": "SH",
+      "net": "GND"
+    },
+    {
+      "ref": "J406",
+      "pin": "SH",
+      "net": "GND"
+    }
+  ],
+  "value_changes": {
+    "C101": {
+      "before": "4.7u / 16V",
+      "after": "4.7u / 25V"
+    },
+    "C102": {
+      "before": "10u / 10V",
+      "after": "10u / 16V"
+    },
+    "C103": {
+      "before": "10u / 10V",
+      "after": "10u / 16V"
+    },
+    "C201": {
+      "before": "10u / 10V",
+      "after": "10u / 16V"
+    },
+    "C202": {
+      "before": "22u / 10V",
+      "after": "22u / 16V"
+    },
+    "R201": {
+      "before": "511k / 1%",
+      "after": "51.1k / 0.1%"
+    },
+    "R202": {
+      "before": "91k / 1%",
+      "after": "9.10k / 0.1%"
+    },
+    "C303": {
+      "before": "1u / 10V",
+      "after": "1u / 16V"
+    },
+    "F501": {
+      "before": "MF-MSMF110/16X-2",
+      "after": "MF-MSMF200/16X-2"
+    },
+    "C401": {
+      "before": "1u / 10V",
+      "after": "1u / 16V"
+    },
+    "C402": {
+      "before": "4.7n / 25V",
+      "after": "4.7n / 50V"
+    },
+    "C403": {
+      "before": "22u / 10V",
+      "after": "22u / 16V"
+    },
+    "C404": {
+      "before": "1u / 10V",
+      "after": "1u / 16V"
+    },
+    "C405": {
+      "before": "4.7n / 25V",
+      "after": "4.7n / 50V"
+    },
+    "C406": {
+      "before": "22u / 10V",
+      "after": "22u / 16V"
+    },
+    "C407": {
+      "before": "1u / 10V",
+      "after": "1u / 16V"
+    },
+    "C408": {
+      "before": "4.7n / 25V",
+      "after": "4.7n / 50V"
+    },
+    "C409": {
+      "before": "4.7u / 10V",
+      "after": "4.7u / 25V"
+    },
+    "C410": {
+      "before": "1u / 10V",
+      "after": "1u / 16V"
+    },
+    "C411": {
+      "before": "4.7n / 25V",
+      "after": "4.7n / 50V"
+    },
+    "C412": {
+      "before": "1u / 10V",
+      "after": "1u / 16V"
+    },
+    "C413": {
+      "before": "1u / 10V",
+      "after": "1u / 16V"
+    },
+    "C414": {
+      "before": "4.7n / 25V",
+      "after": "4.7n / 50V"
+    },
+    "C415": {
+      "before": "22u / 10V",
+      "after": "22u / 16V"
+    },
+    "C605": {
+      "before": "1u / 25V",
+      "after": "1u / 50V"
+    },
+    "C606": {
+      "before": "1u / 25V",
+      "after": "1u / 50V"
+    },
+    "C704": {
+      "before": "10n / 10V",
+      "after": "10n / 50V"
+    },
+    "C805": {
+      "before": "1u / 10V",
+      "after": "1u / 16V"
+    }
+  },
+  "unassigned_footprints": []
+}

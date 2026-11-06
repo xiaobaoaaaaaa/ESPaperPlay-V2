@@ -1,0 +1,5 @@
+# User project archives are retained locally; metadata is versioned.
+*.epro2
+*.epro
+*.zip
+*.epru

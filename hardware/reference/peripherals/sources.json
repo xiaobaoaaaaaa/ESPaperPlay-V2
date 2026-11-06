@@ -1,0 +1,339 @@
+{
+  "checked_on": "2026-11-02",
+  "revision": "r2 DRAFT",
+  "scope": "EPD, microSD and audio primary-source archive; candidates, no manufacturing release or board qualification",
+  "path_base": "Repository root. SHA256SUMS paths are relative to hardware/reference/peripherals/.",
+  "provenance": "Consolidated independent EPD, SD and audio authoring source records; local files preserved byte-for-byte, duplicates reference existing formal reference directories. No temporary authoring file is required.",
+  "rights": "Manufacturer PDFs/HTML are local reference copies, git-ignored and not licensed by the repository MIT license. Online-only sources have no local bytes/hash claim.",
+  "sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf",
+      "sha256": "1341bf46dbe37ed3dd3a83767c09a607e760baba6ab541e69708d5c282b08f71",
+      "revision": "SCAS298O, June2026",
+      "id": "TI_SN74LVC541A",
+      "manufacturer": "Texas Instruments",
+      "part": "SN74LVC541APWR",
+      "used_for": "EPD forward write-only SPI buffering and powered-off Ioff; spare inputs grounded.",
+      "selection": "r2 candidate",
+      "local_path": "hardware/reference/peripherals/sn74lvc541a.pdf",
+      "bytes": 3555843,
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "product_url": "https://www.ti.com/product/SN74LVC541A",
+      "lifecycle_observation": "TI product page ACTIVE https://www.ti.com/product/SN74LVC541A"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf",
+      "sha256": "1098d46e4565695e9823a08309bc581e2c9ead26b19e99a43a011a38642b27ca",
+      "revision": "SCES223U, August2026",
+      "id": "TI_SN74LVC1G125",
+      "manufacturer": "Texas Instruments",
+      "part": "SN74LVC1G125DBVR",
+      "used_for": "EPD BUSY return buffer; also used for audio microphone SD return.",
+      "selection": "r2 candidate",
+      "local_path": "hardware/reference/peripherals/sn74lvc1g125.pdf",
+      "bytes": 3056649,
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "product_url": "https://www.ti.com/product/SN74LVC1G125",
+      "pages_reviewed": [
+        1,
+        3,
+        5,
+        6,
+        12
+      ],
+      "additional_evidence": [
+        {
+          "used_for": "DBV pins1OE2A3GND4Y5VCC; Ioff ±10uA and ICC max10uA; input voltage tolerance and power-off isolation."
+        },
+        {
+          "selection": "r2 candidate / design evidence"
+        }
+      ],
+      "aliases": [
+        "TI_RETURN_125"
+      ],
+      "lifecycle_observation": "TI product page ACTIVE; downloaded RevU addendum lists active production DBVR"
+    },
+    {
+      "url": "https://www.vishay.com/docs/63399/si1308edl.pdf",
+      "sha256": "a86d6f766f259d8b170a01081f577055f37b527257a0f9af497c8f2c33625c9a",
+      "revision": "Vishay63399; inspected first-page G/S/D and electrical table",
+      "id": "VISHAY_SI1308EDL",
+      "manufacturer": "Vishay Siliconix",
+      "part": "Si1308EDL-T1-GE3",
+      "used_for": "EPD boost MOSFET; manufacturer-specific pin/current/voltage review, not the legacyTECHPUBLIC same-name part.",
+      "selection": "r2 candidate",
+      "local_path": "hardware/reference/peripherals/si1308edl.pdf",
+      "bytes": 259741,
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "lifecycle_observation": "Vishay official product page lists datasheet/sample/buy; explicit lifecycle field not available, confirm before BOM freeze"
+    },
+    {
+      "url": "https://www.onsemi.com/download/data-sheet/pdf/mbr0530-d.pdf",
+      "sha256": "e5faf541bc98e8032192f18e8902883f76fa6aa62d851c0c242c5450d4168929",
+      "revision": "MBR0530/D Rev2, March2019",
+      "id": "ONSEMI_MBR0530",
+      "manufacturer": "onsemi",
+      "part": "MBR0530",
+      "used_for": "EPD boost rectifiers;430mV maximum at500mA25C in this exact datasheet. Do not substitute legacyR+O470mV or assumeMBR0530T1G equivalence.",
+      "selection": "r2 candidate",
+      "local_path": "hardware/reference/peripherals/mbr0530.pdf",
+      "bytes": 197806,
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "lifecycle_observation": "Official datasheet available; lifecycle unconfirmed because product URL yields generic content. Do not conflate with MBR0530T1G."
+    },
+    {
+      "url": "https://v4.cecdn.yun300.cn/100001_1909185147/GDEY075T7-T01.pdf",
+      "sha256": "ca8c82117b5ebaaa846a0d4fac9fad29cb3890570fc7a7d8efabbb7a944d108a",
+      "id": "GOODDISPLAY_GDEY075T7_T01",
+      "manufacturer": "Good Display",
+      "part": "GDEY075T7-T01",
+      "selection": "existing screen reused",
+      "used_for": "Panel24-pin functions, power rails, temperature pin handling and page38 boost topology; FPC exact mating connector/contact orientation remains open.",
+      "pages_reviewed": [
+        6,
+        7,
+        38
+      ],
+      "revision": "Revision1.0, document2024-03-10; metadata/product label later dates retained in original good-display manifest.",
+      "local_path": "hardware/reference/good-display/GDEY075T7-T01.pdf",
+      "bytes": 13114117,
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02."
+    },
+    {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/sd_pullup_requirements.html",
+      "kind": "official online documentation",
+      "access": "web text inspected",
+      "evidence": "CMD and DAT0-3 require external10k pull-ups, including unused data lines in1-bit mode. ESP32-S3 GPIO routing is configurable.",
+      "id": "ESPRESSIF_SD_PULLUPS",
+      "selection": "r2 design evidence"
+    },
+    {
+      "url": "https://www.hirose.com/en/product/p/CL0609-0031-0-00",
+      "kind": "official product page",
+      "access": "web text inspected",
+      "evidence": "DM3AT-SF-PEJM5: top-board SMT microSD,8 positions,0.5A rating,1.68mm height,10000 mating cycles; mechanical sample/layout review remains open.",
+      "id": "HIROSE_DM3AT_PRODUCT",
+      "selection": "r2 design evidence"
+    },
+    {
+      "url": "https://www.hirose.com/en/product/document?clcode=&documentid=D49662_en&documenttype=Catalog&lang=en&productname=&series=DM3",
+      "kind": "official catalog",
+      "access": "web search/page extraction; direct PDF download returned403, no local raw-PDF hash claimed",
+      "evidence_pages": [
+        3
+      ],
+      "evidence": "Card pins1DAT2,2DAT3,3CMD,4VDD,5CLK,6VSS,7DAT0,8DAT1. Detection contact pair A/B is open without card and closed when inserted. KiCad9/10 is a library numbering convention, not an official Hirose pin number; the switch is nonpolar.",
+      "id": "HIROSE_DM3_CATALOG",
+      "selection": "r2 design evidence"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf",
+      "revision": "SCDS390B,RevB,2025-03",
+      "evidence_pages": [
+        3,
+        4,
+        20,
+        21,
+        22
+      ],
+      "bytes": 2548204,
+      "sha256": "04291b41a68347fedbbb0776aa44f500eaca65f2ca3af0e022ee60d41c7b1e9f",
+      "access": "unmodified previously retrieved manufacturer PDF",
+      "id": "TI_TMUX1511",
+      "selection": "r2 design evidence",
+      "local_path": "hardware/reference/power/tmux1511.pdf"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf",
+      "revision": "SLLSEG9C,RevC,2019-12",
+      "evidence_pages": [
+        3,
+        4,
+        5
+      ],
+      "bytes": 785929,
+      "sha256": "a133b86ea3d3c3d34667339b92d3b5e98d541d10e9775d63e7cdfa153794f4ed",
+      "access": "unmodified previously retrieved manufacturer PDF",
+      "id": "TI_TPD2E2U06",
+      "selection": "r2 design evidence",
+      "local_path": "hardware/reference/mcu-usb/tpd2e2u06.pdf"
+    },
+    {
+      "manufacturer": "Nexperia",
+      "part": "74CBTLV3245PW",
+      "url": "https://assets.nexperia.com/documents/data-sheet/74CBTLV3245.pdf",
+      "revision": "Rev6,2024-06-24",
+      "access": "official web extraction; direct rawPDF403, no fabricated hash",
+      "reason": "Its recommended switch voltage is at mostVCC and absolute maximumVCC+0.5V; IOFF atVCC=0 does not cover intermediateAON collapse while the SD rail retains charge. Replaced by twoTMUX1511 to avoid leaving this known absolute-rating exposure as merely a test item.",
+      "id": "NEXPERIA_74CBTLV3245_REJECTED",
+      "selection": "rejected alternative; not fitted"
+    },
+    {
+      "id": "ADI_MAX98357A",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf",
+      "revision": "Rev 16; February 2026",
+      "pages_reviewed": [
+        3,
+        15,
+        16,
+        17,
+        18,
+        19,
+        23
+      ],
+      "local_path": "hardware/reference/power/max98357a.pdf",
+      "bytes": 3933655,
+      "sha256": "dea228ad619901d34c2f5f106243bdb9b9e95e38989d4d66fd6c6c489bfa6f1c",
+      "used_for": "ETE16 + EP17; SD_MODE LEFT through 2k current limiter; GAIN=VDD gives 6dB; supported sample rates; mute before stopping BCLK; BCLK/LRCLK/DIN absolute bounds are not Ioff proof.",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "selection": "r2 candidate / design evidence"
+    },
+    {
+      "id": "PUI_MIC",
+      "url": "https://api.puiaudio.com/filename/DMM-4026-B-I2S-R.pdf",
+      "revision": "Rev A; 2021-05-26",
+      "pages_reviewed": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        11
+      ],
+      "local_path": "hardware/reference/peripherals/DMM-4026-B-I2S-R.pdf",
+      "bytes": 965628,
+      "sha256": "ce42c9bf03b671cd6e7e95a4bfc414a9ffbd61747dbe4c76220ce650535f1a19",
+      "used_for": "Seven-pad mapping; CONFIG=GND and LR=GND; SD 100k pull-down; 24-bit I2S/18-bit precision, two 32-bit slots; conservative normal clock range 2.048–4.096MHz.",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "selection": "r2 candidate / design evidence"
+    },
+    {
+      "id": "PUI_CATALOG",
+      "url": "https://puiaudio.com/product/microphones/dmm-4026-b-i2s-r",
+      "access": "Official web product page read via web tool; local HTTP download blocked, no cached page or hash asserted.",
+      "lifecycle": "Public catalogue entry exists. No explicit Production/Active lifecycle label. Page reports distributor stock information unavailable. Manufacturing lifecycle and procurement availability remain unconfirmed.",
+      "selection": "r2 candidate / design evidence"
+    },
+    {
+      "id": "NEXPERIA_125",
+      "url": "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf",
+      "product_url": "https://www.nexperia.com/product/74LVC125APW",
+      "revision": "Rev 12; 2025-05-02",
+      "pages_reviewed": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "access": "Official PDF fully extracted by web tool. Local downloads (urllib/curl, assets and www URLs) returned HTTP403; no local PDF/hash fabricated.",
+      "used_for": "PW TSSOP14 pins; Ioff at VCC=0 max ±10uA through85C, ±20uA through125C; ICC max10/40uA at valid logic; recommended input slew10ns/V at2.7–3.6V. Exact vendor required.",
+      "selection": "r2 candidate / design evidence"
+    },
+    {
+      "id": "TI_SCHMITT_14",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf",
+      "product_url": "https://www.ti.com/product/SN74LVC1G14",
+      "revision": "SCES218AA; October2025",
+      "pages_reviewed": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        10
+      ],
+      "local_path": "hardware/reference/peripherals/sn74lvc1g14.pdf",
+      "bytes": 3094384,
+      "sha256": "3d59568b16a2b7abb63d33ebe6f8ddd37e12dd3ca2616dd803872c509a583283",
+      "used_for": "DBV NC1,A2,GND3,Y4,VCC5. Schmitt input accepts slow/noisy transitions. Ioff ±10uA, input leakage ±5uA, ICC max10uA. Active OE edge replaces slow resistor pull-up.",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "selection": "r2 candidate / design evidence"
+    },
+    {
+      "id": "TI_LOAD_SWITCH",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "revision": "SLVSD76C; July2017",
+      "pages_reviewed": [
+        4,
+        5
+      ],
+      "local_path": "hardware/reference/power/tps22918.pdf",
+      "bytes": 1072926,
+      "sha256": "1b28eb58003d28b18bf919a15734056f296a499bebee2bd493a1e4358c4dfb1c",
+      "used_for": "Existing two ON inputs: guaranteed low ≤0.5V and maximum input leakage0.1uA each for AUDIO_EN default-low calculation.",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "selection": "r2 candidate / design evidence"
+    },
+    {
+      "id": "TDK_ALTERNATIVE",
+      "url": "https://www.invensense.tdk.com/en-us/products/t5848",
+      "access": "Official product page read; local HTML cached.",
+      "local_path": "hardware/reference/peripherals/t5848-product.html",
+      "bytes": 900155,
+      "sha256": "aaae2888f17e02e66b474197b65d2300d502f9bb26ff3d70248f25e94626537f",
+      "decision": "Official Production label found, but requires1.8V supply and level translation. Not selected for this revision; user scope keeps3.3V MIC domain.",
+      "selection": "comparison only; not selected"
+    },
+    {
+      "id": "TI_125_REJECTED",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf",
+      "revision": "Rev T; September2024",
+      "local_path": "hardware/reference/peripherals/sn74lvc125a.pdf",
+      "bytes": 2668739,
+      "sha256": "06ff124c6c762b7c8e0e6f2df79edd1dacb1368a40039542da0b5cedb7c54b28",
+      "decision": "Do not substitute for Nexperia74LVC125APW solely by family name: no corresponding Ioff guarantee identified in this TI data sheet.",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "selection": "comparison only; not selected"
+    },
+    {
+      "revision": "SCPS202C; Rev C; 2016-05",
+      "pages": 49,
+      "sha256": "fec29f61c247a467417a4c35ff616ee16379ac4ce95a6c1c8a6d6fe97ef010b9",
+      "id": "TI_TCA9539_CONTROL",
+      "url": "https://www.ti.com/lit/ds/symlink/tca9539.pdf",
+      "pages_reviewed": [
+        6,
+        7
+      ],
+      "used_for": "P-port IIL max magnitude1uA at validVCC, added to sixSD/fourTOUCH TMUX SEL leakage when sizing10k default-low pulls.",
+      "selection": "existing control circuit evidence",
+      "local_path": "hardware/reference/power/tca9539.pdf",
+      "bytes": 3020912,
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02."
+    }
+  ],
+  "sd_design_context": {
+    "isolation": "Two TI TMUX1511PW, powered by SD_3V3 after R405, with six used SEL pins driven by independent SD_IO_EN=IOX P13, with R223 changed to10k for worst-case sixSEL input leakage. Two unused SEL pins tied GND; unused S/D pins explicitlyNC.",
+    "sequence": "Default isolate; SD_EN high, wait qualified rail-settle interval, then SD_IO_EN high. Shutdown: reject requests, flush/close/unmount, stop SDMMC, SD_IO_EN low, then SD_EN low. Power-off does not repair unsafe storage shutdown.",
+    "pullups": "Five10k1% pulls on card-side CMD/DAT0-3 to SD_3V3. Clock100k to GND. All remain card-side of isolation.",
+    "signal_integrity": "MCU-side source tuning links: CLK22ohm initially, CMD/DAT0-3 zero-ohm initially. Begin initialization400kHz;20MHz4-bit is a validation target, not a guarantee. No1.8V UHS.",
+    "detect": "J7019->SD_DETECT_CONTACT->R708100ohm->SD_CD_N;J70110GND. Existing R216100kAON pull-up; C70410nF on SD_CD_N, nominal1ms. Poll/debounceIOX; removal is not transactional storage safety.",
+    "power": "C70210u plus C703100n at socket, C701/C705100n at both TMUX; add to existing C40622u downstream of R405. #FLG701 assumes R405 fitted. Include actual card peak current versus socket0.5A rating.",
+    "esd": "FourTI TPD2E2U06DCKR devices cover six bus lines, detect contact and cardVDD. Each IO pair is clamped to GND without a supply clamp rail. Connector-side placement and board ESD verification required.",
+    "mechanical": "Candidate standardKiCad footprint Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5. Eight functional pins verified; mapping of nonpolar detect pair toKiCad9/10 documented. ExactA/Bphysical positions, clearance, keepout, ejection and assembly must be reviewed with the real part before release.",
+    "default_control": "Root R223 is10k: six SEL input leakage maximum2uA each gives0.12V worst-case before IOX leakage. When enabled,3.3V/10k adds330uA to active consumption; LOW/off does not add that pull-down current to soft-off budget.",
+    "ramp_boundary": "TMUX1511 S/D absolute maximum is6V independent ofVDD. Recommended signal limit ismin(2VDD,5.5V) forVDD>=1.5V and3.6V forVDD<1.5V. The narrow intermediate region may exceed recommended signal range; validate transition behavior and leakage, without claiming a board-qualified power sequencing guarantee."
+  },
+  "sd_open_items": [
+    "Actual SD card type/current/peak/load-capacitance qualification.",
+    "Socket exact part and footprint/keepout/ejection review against sample.",
+    "SD rail/SEL/data waveforms across enable, disable, reset and abrupt supply loss.",
+    "4-bit timing and performance, hot removal, filesystem recovery and whole-board ESD."
+  ],
+  "library_observations": [
+    {
+      "kind": "installed KiCad library observation, not an archived manufacturer source",
+      "library_identifier": "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5",
+      "observed_system_path": "/usr/share/kicad/footprints/Connector_Card.pretty/microSD_HC_Hirose_DM3AT-SF-PEJM5.kicad_mod",
+      "bytes": 13980,
+      "sha256": "cc0efdbdb9b21e7cc31a577ea45e753c8985b1c67cf1f58d39e352018f0cb938",
+      "status": "candidate footprint; pad numbers1..8,9/10(nonpolar detection),4xSH; not mechanical release approval",
+      "dependency": "Optional observation only; the archived source manifest does not require this system path to exist."
+    }
+  ],
+  "lifecycle_policy": "Dated product-page ACTIVE/Production observations apply only where expressly recorded. Official datasheet presence and distributor listings alone do not establish production lifecycle or availability. Confirm exact orderable MPN, lifecycle and procurement before BOM freeze."
+}

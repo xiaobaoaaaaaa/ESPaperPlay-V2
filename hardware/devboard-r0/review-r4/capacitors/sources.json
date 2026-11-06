@@ -1,0 +1,311 @@
+{
+  "checked_on": "2026-11-02",
+  "rights": "Original vendor material retains vendor copyright. Metadata/factual review does not relicense source PDFs. No vendor contact or order placed.",
+  "sources": [
+    {
+      "id": "TI_BQ24074",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "local_file": "hardware/reference/power/bq24074.pdf",
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1",
+      "bytes": 3739103,
+      "revision": "SLUS810N, October2021; pin table and sections8.5/10.2.2.5",
+      "checked_on": "2026-11-02",
+      "access": "Existing unmodified manufacturer PDF; SHA-256 recomputed. Local byte copy not duplicated."
+    },
+    {
+      "id": "TI_TPS63802",
+      "url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "local_file": "hardware/reference/power/tps63802.pdf",
+      "sha256": "be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6",
+      "bytes": 2466159,
+      "revision": "SLVSEU9D, January2021; sections8.3/10.2.2",
+      "checked_on": "2026-11-02",
+      "access": "Existing unmodified manufacturer PDF; SHA-256 recomputed. Local byte copy not duplicated."
+    },
+    {
+      "id": "TI_TPS22918",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "local_file": "hardware/reference/power/tps22918.pdf",
+      "sha256": "1b28eb58003d28b18bf919a15734056f296a499bebee2bd493a1e4358c4dfb1c",
+      "bytes": 1072926,
+      "revision": "SLVSD76C, July2017",
+      "checked_on": "2026-11-02",
+      "access": "Existing unmodified manufacturer PDF; SHA-256 recomputed. Local byte copy not duplicated."
+    },
+    {
+      "id": "ADI_MAX98357A",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf",
+      "local_file": "hardware/reference/power/max98357a.pdf",
+      "sha256": "dea228ad619901d34c2f5f106243bdb9b9e95e38989d4d66fd6c6c489bfa6f1c",
+      "bytes": 3933655,
+      "revision": "Rev16, February2026; printed page33",
+      "checked_on": "2026-11-02",
+      "access": "Existing unmodified manufacturer PDF; SHA-256 recomputed. Local byte copy not duplicated."
+    },
+    {
+      "id": "GD_PANEL",
+      "url": "https://v4.cecdn.yun300.cn/100001_1909185147/GDEY075T7-T01.pdf",
+      "local_file": "hardware/reference/good-display/GDEY075T7-T01.pdf",
+      "sha256": "ca8c82117b5ebaaa846a0d4fac9fad29cb3890570fc7a7d8efabbb7a944d108a",
+      "bytes": 13114117,
+      "revision": "Rev1.0,2024/03/10; pages8/38; p38 visual inspected from existing render",
+      "checked_on": "2026-11-02",
+      "access": "Existing unmodified manufacturer PDF; SHA-256 recomputed. Local byte copy not duplicated."
+    },
+    {
+      "id": "C1608C0G1H472J080AA",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H472J080AA",
+      "characteristic_sheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608c0g1h472j080aa.pdf",
+      "checked_on": "2026-11-02",
+      "observation": {
+        "lifecycle": "Production",
+        "uf": 0.0047,
+        "voltage": 50,
+        "tolerance": 0.05,
+        "dielectric": "C0G",
+        "package": "0603",
+        "dimensions_mm": [
+          1.6,
+          0.8,
+          0.8
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "tempco_ppm_C": 30
+      },
+      "local_file": null,
+      "sha256": null,
+      "access": "Official product-page text verified with web search/open. Direct official binary/HTML downloads returned HTTP403 AkamaiGHost. Characteristic-sheet text accessible for some parts; graph axes alone are not numerical curve evidence. No raw PDF/hash fabricated.",
+      "typical_dc_bias_numeric_values_obtained": false
+    },
+    {
+      "id": "C1608C0G1H103J080AA",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H103J080AA",
+      "characteristic_sheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608c0g1h103j080aa.pdf",
+      "checked_on": "2026-11-02",
+      "observation": {
+        "lifecycle": "Production",
+        "uf": 0.01,
+        "voltage": 50,
+        "tolerance": 0.05,
+        "dielectric": "C0G",
+        "package": "0603",
+        "dimensions_mm": [
+          1.6,
+          0.8,
+          0.8
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "tempco_ppm_C": 30
+      },
+      "local_file": null,
+      "sha256": null,
+      "access": "Official product-page text verified with web search/open. Direct official binary/HTML downloads returned HTTP403 AkamaiGHost. Characteristic-sheet text accessible for some parts; graph axes alone are not numerical curve evidence. No raw PDF/hash fabricated.",
+      "typical_dc_bias_numeric_values_obtained": false
+    },
+    {
+      "id": "C1608X7R1C105K080AC",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1C105K080AC",
+      "characteristic_sheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x7r1c105k080ac.pdf",
+      "checked_on": "2026-11-02",
+      "observation": {
+        "lifecycle": "Production",
+        "uf": 1,
+        "voltage": 16,
+        "tolerance": 0.1,
+        "dielectric": "X7R",
+        "package": "0603",
+        "dimensions_mm": [
+          1.6,
+          0.8,
+          0.8
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "local_file": null,
+      "sha256": null,
+      "access": "Official product-page text verified with web search/open. Direct official binary/HTML downloads returned HTTP403 AkamaiGHost. Characteristic-sheet text accessible for some parts; graph axes alone are not numerical curve evidence. No raw PDF/hash fabricated.",
+      "typical_dc_bias_numeric_values_obtained": false
+    },
+    {
+      "id": "C2012X7R1E475K125AB",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1E475K125AB",
+      "characteristic_sheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x7r1e475k125ab.pdf",
+      "checked_on": "2026-11-02",
+      "observation": {
+        "lifecycle": "Production",
+        "uf": 4.7,
+        "voltage": 25,
+        "tolerance": 0.1,
+        "dielectric": "X7R",
+        "package": "0805",
+        "dimensions_mm": [
+          2,
+          1.25,
+          1.25
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "local_file": null,
+      "sha256": null,
+      "access": "Official product-page text verified with web search/open. Direct official binary/HTML downloads returned HTTP403 AkamaiGHost. Characteristic-sheet text accessible for some parts; graph axes alone are not numerical curve evidence. No raw PDF/hash fabricated.",
+      "typical_dc_bias_numeric_values_obtained": false
+    },
+    {
+      "id": "C3216X5R1C106K160AA",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X5R1C106K160AA",
+      "characteristic_sheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3216x5r1c106k160aa.pdf",
+      "checked_on": "2026-11-02",
+      "observation": {
+        "lifecycle": "Production",
+        "uf": 10,
+        "voltage": 16,
+        "tolerance": 0.1,
+        "dielectric": "X5R",
+        "package": "1206",
+        "dimensions_mm": [
+          3.2,
+          1.6,
+          1.6
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          85
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "local_file": null,
+      "sha256": null,
+      "access": "Official product-page text verified with web search/open. Direct official binary/HTML downloads returned HTTP403 AkamaiGHost. Characteristic-sheet text accessible for some parts; graph axes alone are not numerical curve evidence. No raw PDF/hash fabricated.",
+      "typical_dc_bias_numeric_values_obtained": false
+    },
+    {
+      "id": "C2012X7R1A106K125AC",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1A106K125AC",
+      "characteristic_sheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x7r1a106k125ac.pdf",
+      "checked_on": "2026-11-02",
+      "observation": {
+        "lifecycle": "Production",
+        "uf": 10,
+        "voltage": 10,
+        "tolerance": 0.1,
+        "dielectric": "X7R",
+        "package": "0805",
+        "dimensions_mm": [
+          2,
+          1.25,
+          1.25
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "local_file": null,
+      "sha256": null,
+      "access": "Official product-page text verified with web search/open. Direct official binary/HTML downloads returned HTTP403 AkamaiGHost. Characteristic-sheet text accessible for some parts; graph axes alone are not numerical curve evidence. No raw PDF/hash fabricated.",
+      "typical_dc_bias_numeric_values_obtained": false
+    },
+    {
+      "id": "C3216X5R1C226M160AB",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X5R1C226M160AB",
+      "characteristic_sheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3216x5r1c226m160ab.pdf",
+      "checked_on": "2026-11-02",
+      "observation": {
+        "lifecycle": "Production",
+        "uf": 22,
+        "voltage": 16,
+        "tolerance": 0.2,
+        "dielectric": "X5R",
+        "package": "1206",
+        "dimensions_mm": [
+          3.2,
+          1.6,
+          1.6
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          85
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "local_file": null,
+      "sha256": null,
+      "access": "Official product-page text verified with web search/open. Direct official binary/HTML downloads returned HTTP403 AkamaiGHost. Characteristic-sheet text accessible for some parts; graph axes alone are not numerical curve evidence. No raw PDF/hash fabricated.",
+      "typical_dc_bias_numeric_values_obtained": false
+    },
+    {
+      "id": "C2012X7R1H105K125AB",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1H105K125AB",
+      "characteristic_sheet_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x7r1h105k125ab.pdf",
+      "checked_on": "2026-11-02",
+      "observation": {
+        "lifecycle": "Production",
+        "uf": 1,
+        "voltage": 50,
+        "tolerance": 0.1,
+        "dielectric": "X7R",
+        "package": "0805",
+        "dimensions_mm": [
+          2,
+          1.25,
+          1.25
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "local_file": null,
+      "sha256": null,
+      "access": "Official product-page text verified with web search/open. Direct official binary/HTML downloads returned HTTP403 AkamaiGHost. Characteristic-sheet text accessible for some parts; graph axes alone are not numerical curve evidence. No raw PDF/hash fabricated.",
+      "typical_dc_bias_numeric_values_obtained": false
+    },
+    {
+      "id": "GRM31CR71H475KA12L",
+      "url": "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L",
+      "lifecycle_url": "https://ds.murata.com/simsurfing/mlcc.html?oripartnumbers=%5B%22GRM21BZ71E475KE15L%22%5D&partnumbers=%5B%22GRM21BZ71E475KE15%22%5D&rgear=suaykx&rgearinfo=com&videoId=5970368750001",
+      "lifecycle_match": "Returned official SimSurfing family table included exact GRM31CR71H475KA12 with status In Production; L is packaging suffix. Not a stock check.",
+      "checked_on": "2026-11-02",
+      "local_file": null,
+      "sha256": null,
+      "access": "Official PDF text/specification previously verified in r3; current official family lifecycle table inspected. No numeric DC-bias curve captured; original binary download blocked403."
+    },
+    {
+      "id": "TDK_DELIVERY_SPEC",
+      "url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/specification/mlccspec_commercial_general_midvoltage_en.pdf",
+      "revision": "GC11010030, September2026",
+      "checked_on": "2026-11-02",
+      "local_file": null,
+      "sha256": null,
+      "access": "Official40-page PDF text read via web; original binary blocked403",
+      "evidence": [
+        "Temperature classification and measurement/reference tables: X5R -55..85°C, X7R/C0G -55..125°C; X5R/X7R ±15% under no applied voltage.",
+        "Class2 capacitors exhibit aging; application/mounting conditions require verification."
+      ]
+    }
+  ]
+}

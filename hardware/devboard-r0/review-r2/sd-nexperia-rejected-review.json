@@ -1,0 +1,255 @@
+{
+  "date": "2026-11-02",
+  "scope": "Independent SD electrical/connector review, not footprint manufacturing approval",
+  "netlist": "build/devboard-r2-authoring/sd/netlist.xml",
+  "netlist_sha256": "72bbb61000cd3611648140085e01676c096ec3d38de9e65731aba9b3270e0607",
+  "pin_checks": 74,
+  "result": "SUPERSEDED / REJECTED: pin mapping passed, but Nexperia VSW abs max can be exceeded during unequal rail collapse; do not integrate this candidate.",
+  "expected": {
+    "J701": {
+      "1": "SD_CARD_D2",
+      "2": "SD_CARD_D3",
+      "3": "SD_CARD_CMD",
+      "4": "SD_3V3",
+      "5": "SD_CARD_CLK",
+      "6": "GND",
+      "7": "SD_CARD_D0",
+      "8": "SD_CARD_D1",
+      "9": "SD_DETECT_CONTACT",
+      "10": "GND",
+      "SH": "GND"
+    },
+    "U701": {
+      "1": null,
+      "2": "SD_CLK_BUS",
+      "3": "SD_CMD_BUS",
+      "4": "SD_D0_BUS",
+      "5": "SD_D1_BUS",
+      "6": "SD_D2_BUS",
+      "7": "SD_D3_BUS",
+      "8": null,
+      "9": null,
+      "10": "GND",
+      "11": null,
+      "12": null,
+      "13": "SD_CARD_D3",
+      "14": "SD_CARD_D2",
+      "15": "SD_CARD_D1",
+      "16": "SD_CARD_D0",
+      "17": "SD_CARD_CMD",
+      "18": "SD_CARD_CLK",
+      "19": "SD_OE_N",
+      "20": "3V3_AON"
+    },
+    "Q701": {
+      "1": "SD_IO_EN",
+      "2": "GND",
+      "3": "SD_OE_N"
+    },
+    "R707": {
+      "1": "3V3_AON",
+      "2": "SD_OE_N"
+    },
+    "R708": {
+      "1": "SD_CD_N",
+      "2": "SD_DETECT_CONTACT"
+    },
+    "C704": {
+      "1": "SD_CD_N",
+      "2": "GND"
+    },
+    "R710": {
+      "1": "SD_CLK",
+      "2": "SD_CLK_BUS"
+    },
+    "R711": {
+      "1": "SD_CMD",
+      "2": "SD_CMD_BUS"
+    },
+    "R712": {
+      "1": "SD_D0",
+      "2": "SD_D0_BUS"
+    },
+    "R713": {
+      "1": "SD_D1",
+      "2": "SD_D1_BUS"
+    },
+    "R714": {
+      "1": "SD_D2",
+      "2": "SD_D2_BUS"
+    },
+    "R715": {
+      "1": "SD_D3",
+      "2": "SD_D3_BUS"
+    },
+    "R701": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_CMD"
+    },
+    "R702": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_D0"
+    },
+    "R703": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_D1"
+    },
+    "R704": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_D2"
+    },
+    "R705": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_D3"
+    },
+    "U702": {
+      "1": "SD_CARD_CLK",
+      "2": "SD_CARD_CMD",
+      "3": "GND"
+    },
+    "U703": {
+      "1": "SD_CARD_D0",
+      "2": "SD_CARD_D1",
+      "3": "GND"
+    },
+    "U704": {
+      "1": "SD_CARD_D2",
+      "2": "SD_CARD_D3",
+      "3": "GND"
+    },
+    "U705": {
+      "1": "SD_DETECT_CONTACT",
+      "2": "SD_3V3",
+      "3": "GND"
+    }
+  },
+  "connector": {
+    "official_source": "https://www.hirose.com/en/product/document?clcode=&documentid=D49662_en&documenttype=Catalog&lang=en&productname=&series=DM3",
+    "card_contacts": {
+      "1": "DAT2",
+      "2": "DAT3/CD",
+      "3": "CMD",
+      "4": "VDD",
+      "5": "CLK",
+      "6": "VSS",
+      "7": "DAT0",
+      "8": "DAT1"
+    },
+    "detection": "Official catalog p3: separate contacts A/B, open without card, closed with inserted card. KiCad numbers9/10 are a library convention, not vendor numbering. A/B switch is nonpolar.",
+    "library_pins": {
+      "1": "DAT2",
+      "2": "DAT3/CD",
+      "3": "CMD",
+      "4": "VDD",
+      "5": "CLK",
+      "6": "VSS",
+      "7": "DAT0",
+      "8": "DAT1",
+      "9": "DET_B",
+      "10": "DET_A",
+      "SH": "SHIELD"
+    },
+    "footprint_pads_mm": {
+      "1": [
+        [
+          2.775,
+          -7.725
+        ]
+      ],
+      "2": [
+        [
+          1.675,
+          -7.725
+        ]
+      ],
+      "3": [
+        [
+          0.575,
+          -7.725
+        ]
+      ],
+      "4": [
+        [
+          -0.525,
+          -7.725
+        ]
+      ],
+      "5": [
+        [
+          -1.625,
+          -7.725
+        ]
+      ],
+      "6": [
+        [
+          -2.725,
+          -7.725
+        ]
+      ],
+      "7": [
+        [
+          -3.825,
+          -7.725
+        ]
+      ],
+      "8": [
+        [
+          -4.925,
+          -7.725
+        ]
+      ],
+      "9": [
+        [
+          -5.875,
+          -7.725
+        ]
+      ],
+      "10": [
+        [
+          -6.825,
+          2.775
+        ]
+      ],
+      "SH": [
+        [
+          -6.825,
+          -3.425
+        ],
+        [
+          -6.825,
+          6.925
+        ],
+        [
+          4.325,
+          -7.725
+        ],
+        [
+          6.675,
+          7.375
+        ]
+      ]
+    },
+    "footprint_sha256": "cc0efdbdb9b21e7cc31a577ea45e753c8985b1c67cf1f58d39e352018f0cb938",
+    "limits": "Official 2D drawing direct download403; browser screenshot tool returned only textual refs. Exact A->10/B->9 physical-letter mapping not independently visually confirmed. Do not treat this review as final mechanical/footprint approval."
+  },
+  "switch": {
+    "manufacturer": "Nexperia",
+    "mpn": "74CBTLV3245PW",
+    "source": "https://assets.nexperia.com/documents/data-sheet/74CBTLV3245.pdf",
+    "revision": "Rev6 2024-06-24",
+    "VCC_recommended_V": [
+      2.3,
+      3.6
+    ],
+    "VSW_recommended": "0 to VCC",
+    "VSW_abs_max": "VCC+0.5V",
+    "IOFF": "VCC=0 and VI/VO0..3.6V: +/-10uA to85C; +/-50uA to125C",
+    "limits": "VSW absolute maximum VCC+0.5 V can be violated during abrupt AON collapse while SD_3V3 retains charge. IOFF only specifies VCC=0. This is a design rejection, not merely a deferred measurement item. No TI specifications used as Nexperia evidence.",
+    "decision": "Replaced by two TI TMUX1511PWR powered from SD_3V3; replacement requires new XML verification."
+  },
+  "budget_notes": [
+    "SD_OE_N10k pull consumes about330uA while enabled.",
+    "Inserted card detection with upstream100k contributes about33uA even when SD power is off.",
+    "Off-state leakage, card/internal pulls, ESD capacitance and switch RON require actual20MHz/low-power tests."
+  ]
+}

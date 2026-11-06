@@ -1,0 +1,242 @@
+{
+  "received_date": "2026-11-01",
+  "source_type": "user-provided local project archive",
+  "source_path": "/home/xiaobao/下载/ProPrj_ESPaperPlay_2026-11-01.epro2",
+  "local_archive": "ProPrj_ESPaperPlay_2026-11-01.epro2",
+  "size_bytes": 2509680,
+  "sha256": "aa9540b138b95a9e4e70a56337f4366901f3e5233e9a12d55d852e55732ef614",
+  "format": "ZIP containing project2.json, .epru log and IMAGE/ assets (EasyEDA Pro V3+ family)",
+  "project_title": "ESPaperPlay",
+  "editor_version": "4.1.93",
+  "archive_entries": 21,
+  "uncompressed_size_bytes": 9936501,
+  "entries": [
+    {
+      "path": "IMAGE/04311314e3f2f32d.webp",
+      "size_bytes": 207950,
+      "sha256": "945e96a8edb46a1514eea2ff77acaf9d16792dde0c53d10cda48d703b1416f9f"
+    },
+    {
+      "path": "IMAGE/087c6c0049494109.webp",
+      "size_bytes": 252984,
+      "sha256": "945cd64b6a7bd64dec61a16965174dfd8ee8740ca00084f0f9d7a6cef787ddd9"
+    },
+    {
+      "path": "IMAGE/1227d827173c6508.webp",
+      "size_bytes": 296154,
+      "sha256": "57fc3240c06ab8cf677b3d0a8ad3878f1ef6fba7503b458771e0982eebd42830"
+    },
+    {
+      "path": "IMAGE/2022e14b33aca157.webp",
+      "size_bytes": 86340,
+      "sha256": "956c243e34cad7a73121a89907c78c23e3d2e030e565bf647ebf79a2d77f9ecf"
+    },
+    {
+      "path": "IMAGE/4ec9595f12ab2225.webp",
+      "size_bytes": 299810,
+      "sha256": "b51ee3227f486c9d06353776588d9fd8b1cef8cd61f7ede4a30efae3462f92c6"
+    },
+    {
+      "path": "IMAGE/52c20ec4ca8ffa5f.webp",
+      "size_bytes": 178690,
+      "sha256": "0ac4f9e85d92fdf268d06cc085e6b899079c69f089e2046333cd7f29e0597c1e"
+    },
+    {
+      "path": "IMAGE/6bc65f1bb9c7e213.webp",
+      "size_bytes": 280064,
+      "sha256": "40d8070f183c6fe49017b10559d40e55a6754050a79bc03319bbae07110f0e7c"
+    },
+    {
+      "path": "IMAGE/732c4a7fd6cc4ef8.webp",
+      "size_bytes": 275736,
+      "sha256": "2540e6af51f249a1add40d819558fcfe257e0fe3d7c078b1dc9f3cde8523be6d"
+    },
+    {
+      "path": "IMAGE/7902c4cf3aa3b172.webp",
+      "size_bytes": 37532,
+      "sha256": "d013e1e3b9a1ed383e20c7e224aedc88211f6a65a8d50fc3239120401d00f2a7"
+    },
+    {
+      "path": "IMAGE/aba2a0bce66ffeba.webp",
+      "size_bytes": 216580,
+      "sha256": "9f43177fde077a442e8b9aa72d3c81a6e3eb3015df3226fc6c5a89160e558970"
+    },
+    {
+      "path": "IMAGE/af458cff7bcffe87.webp",
+      "size_bytes": 205444,
+      "sha256": "c356d262d7f8f01214d74b6d4a9ffe4ac823e0118d81d18790e5d2fdf6d52e16"
+    },
+    {
+      "path": "IMAGE/bd9d7bdc63743c49.webp",
+      "size_bytes": 244860,
+      "sha256": "51d1fbac494f2c3c4891d3a3f20ebb5e4a949545747019b70c28d3890ad42222"
+    },
+    {
+      "path": "IMAGE/db9398b04b68f561.webp",
+      "size_bytes": 299262,
+      "sha256": "808a738605fbe0b1fc819913d05a872d3051d3f23d73f1fd3ce7e3a99d207c20"
+    },
+    {
+      "path": "IMAGE/e672f7a014ac7150.webp",
+      "size_bytes": 244486,
+      "sha256": "ce1e8baef836966dfdd8f820d3df7dc36ea426ad90bb63002b3132f898a009c9"
+    },
+    {
+      "path": "IMAGE/e6808f904c6a5d59.webp",
+      "size_bytes": 93746,
+      "sha256": "3568025000ec80df653f2bee995ffb56dca7f0463ab29e55b484b684b4955d76"
+    },
+    {
+      "path": "IMAGE/fd9975e912dea608.webp",
+      "size_bytes": 63104,
+      "sha256": "247ae33dd8e731c104f2b885db47b5e830bfceda415bbd6e017a7b89ff320fb5"
+    },
+    {
+      "path": "IMAGE/fe8b1fc3c060782a.webp",
+      "size_bytes": 196356,
+      "sha256": "b9c78333a78cb956967aecd62eceed2dc06c04a4f4ef2efdf2e50314c9e23065"
+    },
+    {
+      "path": "IMAGE/ff1dcdfd45c5bd1d.webp",
+      "size_bytes": 103896,
+      "sha256": "f7c888fc8075b57b2a5f4796b191fe7d9ef3ce0893884210f67f6d716582377d"
+    },
+    {
+      "path": "project2.json",
+      "size_bytes": 147,
+      "sha256": "84ed092272dfbf8ae605287a8459de6296dd9eed87322dc5a54d58eed8b74e7f"
+    },
+    {
+      "path": "ESPaperPlay.epru",
+      "size_bytes": 6353360,
+      "sha256": "157c52449d4e966306412341db9bf77e51a108ade23c39cd11932c147eaa8a95"
+    }
+  ],
+  "documents": [
+    {
+      "doc_type": "BOARD",
+      "uuid": "73bf582b0e1dbf53",
+      "title": "Board2",
+      "deleted": false,
+      "component_record_count": 0
+    },
+    {
+      "doc_type": "BOARD",
+      "uuid": "6fea3418ac6eb568",
+      "title": "Board1",
+      "deleted": false,
+      "component_record_count": 0
+    },
+    {
+      "doc_type": "SCH",
+      "uuid": "ee68e5610cb8515b",
+      "title": "Schematic1",
+      "deleted": false,
+      "component_record_count": 0
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "fe8b1fc3c060782a",
+      "title": "AUDIO",
+      "deleted": false,
+      "component_record_count": 62
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "52c20ec4ca8ffa5f",
+      "title": "MCU",
+      "deleted": false,
+      "component_record_count": 77
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "bd9d7bdc63743c49",
+      "title": "TOUCH",
+      "deleted": false,
+      "component_record_count": 26
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "04311314e3f2f32d",
+      "title": "POWER",
+      "deleted": false,
+      "component_record_count": 82
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "6bc65f1bb9c7e213",
+      "title": "EPD",
+      "deleted": false,
+      "component_record_count": 41
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "db9398b04b68f561",
+      "title": "SD",
+      "deleted": false,
+      "component_record_count": 27
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "4ec9595f12ab2225",
+      "title": "POWER_REDRAW",
+      "deleted": true,
+      "component_record_count": 0
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "7902c4cf3aa3b172",
+      "title": "POWER_BACKUP",
+      "deleted": true,
+      "component_record_count": 0
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "aba2a0bce66ffeba",
+      "title": "POWER",
+      "deleted": true,
+      "component_record_count": 0
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "732c4a7fd6cc4ef8",
+      "title": "POWER_BACKUP",
+      "deleted": true,
+      "component_record_count": 0
+    },
+    {
+      "doc_type": "SCH_PAGE",
+      "uuid": "087c6c0049494109",
+      "title": "POWER",
+      "deleted": true,
+      "component_record_count": 0
+    },
+    {
+      "doc_type": "PCB",
+      "uuid": "e6808f904c6a5d59",
+      "title": "PCB1",
+      "deleted": false,
+      "component_record_count": 103
+    },
+    {
+      "doc_type": "PANEL",
+      "uuid": "ace3a455b49544ea",
+      "title": "Panel1",
+      "deleted": false,
+      "component_record_count": 0
+    }
+  ],
+  "inventory_limits": [
+    "Derived by read-only inspection, not a GUI or electrical validation.",
+    "Five SCH_PAGE documents are explicitly marked DELETE_DOC.isDelete=true.",
+    "COMPONENT records include graphical/electrical symbol instances and are not a purchase BOM.",
+    "Layer use flags and physical stack records disagree; copper layer count awaits original-editor verification."
+  ],
+  "official_references": [
+    "https://github.com/easyeda/easyeda-file-format",
+    "https://docs.kicad.org/10.0/en/kicad/kicad.html#importing_a_project_from_another_eda_tool",
+    "https://dev-docs.kicad.org/en/import-formats/easyeda/",
+    "https://prodocs.lceda.cn/cn/faq/client/",
+    "https://prodocs.lceda.cn/cn/release-note/v3.1.x/"
+  ]
+}

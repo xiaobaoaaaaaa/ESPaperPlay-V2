@@ -1,0 +1,41 @@
+{
+  "kicad_version": "10.0.7",
+  "formal_files_modified": false,
+  "checks": [
+    {
+      "footprint": "HOAUC_HYCW3D-05FPC24-200B_1x24_P0.50mm_SH.kicad_mod",
+      "native_load": true,
+      "copper_pad_count": 26,
+      "max_legacy_geometry_deviation_mm": 0.0001299999999995194,
+      "legacy_signal_y_shift_mm": 1.54003,
+      "sha256": "f064bab345b591053fc7d09749a76dd99f2da24c5f1e136f11f966b0dd99cfc6"
+    },
+    {
+      "footprint": "LAILAN_LAIL-FPC-CDX01-6P0.5-GW_1x06_P0.50mm_SH.kicad_mod",
+      "native_load": true,
+      "copper_pad_count": 8,
+      "max_legacy_geometry_deviation_mm": 0.00019000000000002348,
+      "legacy_signal_y_shift_mm": 1.24993,
+      "sha256": "ea9f55567206764e1bbeb089a7740625c568a0f3c6efd51ad7a6aa27d27e3953"
+    },
+    {
+      "footprint": "PhoenixContact_MKDS-1-2-3.5_1751248_1x02_P3.50mm_Horizontal.kicad_mod",
+      "native_load": true,
+      "pad_count": 2,
+      "pitch_mm": 3.5,
+      "drill_mm": 1.1,
+      "body_mm": [
+        7.5,
+        7.3
+      ],
+      "pad_diameter_mm": 2.2,
+      "pad_diameter_basis": "project choice; manufacturer specifies hole, not pad diameter",
+      "sha256": "453235d7fd2f15eb599218613097d58146c11155a34b6b054920aba24e89f2a0"
+    }
+  ],
+  "limits": [
+    "No fabricated board, real connector, cable continuity, mating-force or assembly-process test.",
+    "Fab body placement for HOAUC inherits old EDA offset, using manufacturer maximum body width; physical placement still requires part comparison.",
+    "Candidate pin numbering follows legacy convention, not an independently numbered manufacturer connector drawing."
+  ]
+}

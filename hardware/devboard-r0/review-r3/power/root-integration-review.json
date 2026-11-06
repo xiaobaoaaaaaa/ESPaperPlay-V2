@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-02",
+  "reviewer": "independent power subagent integration review",
+  "target_file": "build/bom-review-r3/bom-review-r3.json",
+  "target_sha256": "4013fbaed8fe44e7bc507a54616e3f123b583766329de1512792b3a5f3863469",
+  "result": "PASS for requested integration checks; no blocking manufacturer/MPN/footprint-field defect found",
+  "scope": "Review merged selection/normalization/provenance and footprint existence against local reviews and vendor data. This is not a second electrical qualification of all222 positions.",
+  "checks": {
+    "positions": 222,
+    "unique_references": 222,
+    "actual_nonblank_mpn": 184,
+    "summary_nonblank_mpn": 184,
+    "placeholder_mpns": [],
+    "mpn_without_manufacturer": [],
+    "mpn_without_source": [],
+    "chosen_mpn_overwritten_by_constraints": [],
+    "missing_footprint_files": []
+  },
+  "crf_coding": {
+    "mpn": "CRF0805-J/-000ELF",
+    "result": "KEEP exactly including slash; it is a literal ordering-code character, not an alternatives separator",
+    "manufacturer": "Bourns",
+    "source_url": "https://www.bourns.com/docs/product-datasheets/crf-j.pdf?sfvrsn=da3727f6_4",
+    "local_pdf": "build/bom-review-r3/power/bourns-crf-j.pdf",
+    "sha256": "9402c1c5eb28c02fb3e9f3993095ae4390c30939ba55d41b73fa3dc7010f0693",
+    "pdf_page": 3,
+    "rendered_evidence": "build/bom-review-r3/power/bourns-crf-j-coding.png",
+    "coding": {
+      "CRF": "series",
+      "0805": "size",
+      "J": "5% tolerance",
+      "/": "TCR field shown literally with3800ppm/degC label",
+      "000": "jumper",
+      "E": "tape/reel",
+      "LF": "tin-plated lead-free termination"
+    },
+    "technical_evidence": "The original How to Order drawing has an individual leader from the slash position to TCR; visual rendering independently inspected."
+  },
+  "integration_observations": [
+    "184 nonblank MPN positions agrees with summary; every selected MPN has manufacturer and source URL.",
+    "No TBD/candidate/not-frozen prose remains in top-level mpn fields. Empty intentionally unselected positions remain empty.",
+    "Murata candidate annotations were correctly stripped into cleanGRM31CR71H475KA12L while retaining blocked effective-capacitance status.",
+    "R811/R812 keepCRCW08050000Z0EA despite audio reviewTBD; power capacitance constraints do not replace selected root values.",
+    "All215 nonblank footprint identifiers resolve to local project or installed KiCad footprint files;215 does not mean manufacturing approval.",
+    "U803 keeps genuine PUI candidateMPN with blankfootprint and explicit mechanical/acoustic closure; no fabricated microphone land pattern introduced.",
+    "Known power manufacturer/MPN/package combinations match the independently reviewed candidates; six project power footprint names are correctly selected.",
+    "Source URL set contains only authoritative vendor domains; direct fetch outcomes recorded separately. No404 observed.403/202 responses are access/anti-bot limitations, not proof of wrong URLs."
+  ],
+  "url_check_counts": {
+    "200": 36,
+    "403": 19,
+    "202": 1
+  },
+  "url_check_details": "build/bom-review-r3/power/root-integration-url-checks.json",
+  "findings": [
+    {
+      "severity": "advisory",
+      "refs": [
+        "R401",
+        "R404",
+        "R407",
+        "R410",
+        "R413"
+      ],
+      "topic": "status clarity",
+      "suggestion": "Optionally make required_action explicitly name QOD pulse/repetition and high-temperature derating instead of the broad generic assembly/load statement; the necessary caution is already preserved in notes, so this is not a data-loss defect."
+    }
+  ],
+  "formal_files_modified": false
+}

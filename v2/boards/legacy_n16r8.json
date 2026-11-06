@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "legacy_n16r8",
+  "module": "ESP32-S3-WROOM-1-N16R8",
+  "source_commit": "0f6d7c349afdbbeb962a736d84036ce7f8487174",
+  "schematic_verified": false,
+  "flash_bytes": 16777216,
+  "psram_bytes": 8388608,
+  "display": {"model": "GDEY075T7-T01", "width": 800, "height": 480},
+  "sd_bus_width": 1,
+  "power_domains": {"peripherals": ["epd", "touch", "sd"], "audio": ["microphone", "amplifier"]},
+  "pins": {
+    "epd_sclk": 16, "epd_mosi": 15, "epd_cs": 17, "epd_dc": 18, "epd_reset": 8, "epd_busy": 9,
+    "i2c_sda": 10, "i2c_scl": 13, "touch_int": 3, "touch_reset": 14,
+    "sd_clk": 38, "sd_cmd": 39, "sd_d0": 47, "sd_d1": 48, "sd_d2": 41, "sd_d3": 40,
+    "key_boot": 0, "key_volume_up": 2, "key_volume_down": 5,
+    "i2s_bclk": 12, "i2s_ws": 7, "mic_data": 11, "speaker_data": 43,
+    "audio_power_enable": 4, "amplifier_enable": 6,
+    "peripheral_power_enable": 21, "battery_adc": 1, "charging_status": 44, "charged_status": 42,
+    "usb_dm": 19, "usb_dp": 20
+  },
+  "input_only_roles": ["epd_busy", "key_boot", "key_volume_up", "key_volume_down", "mic_data", "battery_adc", "charging_status", "charged_status"],
+  "acknowledged_strapping_roles": ["key_boot", "touch_int"]
+}

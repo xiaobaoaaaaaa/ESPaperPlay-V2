@@ -1,0 +1,258 @@
+{
+  "date": "2026-11-02",
+  "operation_marker": {
+    "kind": "create",
+    "expected_output_count": 1,
+    "format": "xlsx",
+    "successful_invocations": 1
+  },
+  "input": "/home/xiaobao/Projects/ESP32/hardware/devboard-r0/review-r4/bom-review.json",
+  "input_sha256": "627a4a182505ff1c333d3c2feda04cdd4a3eff89b7c108f920c51fb5b0f2b576",
+  "output": "/home/xiaobao/Projects/ESP32/outputs/espaperplay-bom-r4/ESPaperPlay_BOM_Review_r4.xlsx",
+  "output_sha256": "b020320b68dfd663633a63f46c909da115530680196475122c2ff328cf20a0d2",
+  "sheets": [
+    "审查总览",
+    "BOM",
+    "封装核对"
+  ],
+  "positions": 222,
+  "changes_from_r3": {
+    "added_footprint_candidates": [
+      "J102",
+      "J103",
+      "J406",
+      "J601",
+      "R602",
+      "J801",
+      "U803"
+    ],
+    "added_mpn_candidates": [
+      "C101",
+      "C102",
+      "C103",
+      "J102",
+      "J103",
+      "C201",
+      "C202",
+      "C301",
+      "C303",
+      "C401",
+      "C402",
+      "C403",
+      "C404",
+      "C405",
+      "C406",
+      "C407",
+      "C408",
+      "C409",
+      "C410",
+      "C411",
+      "C412",
+      "C413",
+      "C414",
+      "C415",
+      "J406",
+      "C603",
+      "C605",
+      "C606",
+      "C610",
+      "J601",
+      "R602",
+      "C702",
+      "C704",
+      "C803",
+      "C805",
+      "J801"
+    ],
+    "dnp_changes": []
+  },
+  "metrics": {
+    "labels": [
+      "全部位置",
+      "DNP 位置",
+      "默认装配候选",
+      "有封装候选",
+      "未指定封装",
+      "有准确料号候选",
+      "未指定准确料号",
+      "需专项闭合"
+    ],
+    "expected": [
+      222,
+      6,
+      216,
+      222,
+      0,
+      220,
+      2,
+      50
+    ],
+    "formula_values": [
+      222,
+      6,
+      216,
+      222,
+      0,
+      220,
+      2,
+      50
+    ]
+  },
+  "dnp_recalculation": {
+    "row": 6,
+    "changed": [
+      7,
+      215
+    ],
+    "restored": [
+      6,
+      216
+    ],
+    "reimport_changed": [
+      7,
+      215
+    ],
+    "pass": true
+  },
+  "candidate_vs_qualification_test": {
+    "ref": "C101",
+    "temporarily_blank_mpn_counts": [
+      219,
+      3
+    ],
+    "qualification_state_and_action_unchanged": true,
+    "restored": true
+  },
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "reimport_formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "roundtrip": {
+    "all_bom_values_exact": true,
+    "summary_counts": true,
+    "summary_formula_text_exact": true,
+    "footprint_group_total": 222
+  },
+  "features": {
+    "BOM_table": "A5:L227",
+    "freeze_rows": 5,
+    "freeze_columns": 1,
+    "footprint_table": "A5:E42",
+    "dnp_validation": [
+      "是",
+      "否"
+    ],
+    "conditional_formatting": [
+      "DNP灰",
+      "缺封装红",
+      "缺料号黄"
+    ]
+  },
+  "targeted_rows": {
+    "U101": 31,
+    "R104": 19,
+    "R105": 20,
+    "R108": 23,
+    "R201": 43,
+    "R602": 164,
+    "U803": 225,
+    "J601": 160,
+    "J801": 211
+  },
+  "previews": [
+    "/home/xiaobao/Projects/ESP32/build/closure-r4/workbook/overview.png",
+    "/home/xiaobao/Projects/ESP32/build/closure-r4/workbook/detail-U101.png",
+    "/home/xiaobao/Projects/ESP32/build/closure-r4/workbook/detail-R104.png",
+    "/home/xiaobao/Projects/ESP32/build/closure-r4/workbook/detail-R105.png",
+    "/home/xiaobao/Projects/ESP32/build/closure-r4/workbook/detail-R108.png"
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "inspected": [
+      "overview.png",
+      "detail-U101.png",
+      "detail-R104.png",
+      "detail-R105.png",
+      "detail-R108.png"
+    ],
+    "reused_unchanged_prior_review": [
+      "bom.png",
+      "footprints.png",
+      "detail-R602.png",
+      "detail-U803.png",
+      "detail-J601.png"
+    ],
+    "notes": "Updated overview and four charging qualification rows re-rendered and visually inspected after final BOM freeze. Unchanged views retain earlier visual review. Chinese text, headers, quantities, qualification caveats and wrapping are legible. Wide BOM preserves horizontal scrolling with ref column frozen. No clipped text or unexpected blank sheet observed in inspected ranges."
+  },
+  "limitations": [
+    "未在桌面Excel/LibreOffice实际打开；已在Artifact Tool中导出、重新读取并重算。",
+    "表中均为候选。未宣称采购库存、报价、PCB DRC或装配验证完成。"
+  ],
+  "native_xlsx_verification": {
+    "method": "Python standard-library ZIP/XML read only; no native Excel/LibreOffice execution",
+    "positions_exact": 222,
+    "source_bom_fields_exact": true,
+    "dnp_refs_exact": [
+      "R108",
+      "J301",
+      "J302",
+      "J303",
+      "C501",
+      "C502"
+    ],
+    "cached_summary": [
+      222,
+      6,
+      216,
+      222,
+      0,
+      220,
+      2,
+      50
+    ],
+    "summary_formulas_present": true,
+    "panes": {
+      "sheet2": {
+        "xSplit": "1",
+        "ySplit": "5",
+        "topLeftCell": "B6",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      },
+      "sheet3": {
+        "xSplit": "1",
+        "ySplit": "5",
+        "topLeftCell": "B6",
+        "activePane": "bottomRight",
+        "state": "frozen"
+      }
+    },
+    "dnp_validation": {
+      "range": "E6:E227",
+      "list": [
+        "是",
+        "否"
+      ]
+    },
+    "conditional_formats": {
+      "A6:L227": [
+        "$E6=\"是\""
+      ],
+      "H6:H227": [
+        "$H6=\"\""
+      ],
+      "G6:G227": [
+        "$G6=\"\""
+      ]
+    },
+    "tables_and_filters": [
+      {
+        "name": "CandidateBOM",
+        "ref": "A5:L227"
+      },
+      {
+        "name": "FootprintReview",
+        "ref": "A5:E42"
+      }
+    ],
+    "native_error_cells": []
+  }
+}

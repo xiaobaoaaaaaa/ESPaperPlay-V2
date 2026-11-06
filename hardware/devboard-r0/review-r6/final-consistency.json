@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "date": "2026-11-05",
+  "drawing_revision": "r6",
+  "electrical_design_revision": "r5",
+  "local_doc_links_checked": 80,
+  "redrawn_functional_pages": 10,
+  "schematic_pages": 11,
+  "components": 236,
+  "nets": 181,
+  "all_pin_connections_checked": 774,
+  "legacy_chain_critical_pin_checks": 668,
+  "dnp_preserved": [
+    "C501",
+    "C502",
+    "J301",
+    "J302",
+    "J303",
+    "R108"
+  ],
+  "bom_library_project_byte_identical_to_r5": true,
+  "old_manifest_changed_paths": [
+    "../../docs/v2/README.md",
+    "../../docs/v2/hardware/README.md",
+    "AUDIO.kicad_sch",
+    "CHARGE_TEMP.kicad_sch",
+    "EPD_DISPLAY.kicad_sch",
+    "ESPaperPlay_Devboard.kicad_sch",
+    "MCU_CORE.kicad_sch",
+    "POWER_3V3_CONTROL.kicad_sch",
+    "POWER_DOMAINS.kicad_sch",
+    "POWER_INPUT_CHARGER.kicad_sch",
+    "README.md",
+    "STORAGE_SD.kicad_sch",
+    "TOUCH_ISOLATION.kicad_sch",
+    "USB_INPUT.kicad_sch"
+  ],
+  "old_manifest_other_files_byte_identical": 196,
+  "source_snapshots": "build/redraw-r6/intake/ contains all eleven r5 native sheets, library, project, BOM, netlist and full prior manifest.",
+  "local_symbols": 15,
+  "local_footprints": 20,
+  "validation_report_sha256": {
+    "netlist-check-r6.json": "1c4ef9017237a619bf1bee7c3f78abdd6befc531c8898f519c53e9f679e298b8",
+    "bom-footprint-check-r6.json": "6fab94d4152932e3b67dbc9f56f9fd26d12b80656586cd79e56d4a30bec504f0",
+    "drawing-equivalence.json": "24dbdfe7e8c7f260c7f09d4c6ce76c6c8af2ebac2a9a466177eefe61ad0cbdee",
+    "erc-r6.json": "39e1a104dca005ab42844c82d5d2c86fd27b7b4c9ad119a3fd01196cda5fc2e2"
+  }
+}

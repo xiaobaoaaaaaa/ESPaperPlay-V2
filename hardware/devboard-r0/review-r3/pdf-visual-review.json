@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "pages": 10,
+  "root_review": "All ten pages visually reviewed; title-block revision shortened to r3 DRAFT to avoid right-border clipping. Final metadata-only export renders identical to reviewed images.",
+  "rendered_png_sha256": {
+    "page-01.png": "09093c0a5401b6274b5036ad620a46ec4968200e7f1fe42b4577faccf33c8a8a",
+    "page-02.png": "93f636d1f3f8c979bef62bd17e359cff05b43cf6c43012613ab5a777d9097b72",
+    "page-03.png": "79850f1f56c5992f47c0f21385a654d3128e823a63f0cb8287b8557d8ac91b0a",
+    "page-04.png": "dad059ca3550c854f896ceaef6b830b92699f21fd929bc0fdc5ee3c1efc2ab7b",
+    "page-05.png": "7e2b7f16425ec38a4d2c181c528947b11cb275db7449e2bb00492aa03daa0362",
+    "page-06.png": "439d8144bcb5f64c3fd894c226473d82e3c2b6a73af2116778a8160e85c9b605",
+    "page-07.png": "ef12e9df9a9ff99eede43d5c74430b01ade8d25a9e8434cff231fe1c27bbf3b2",
+    "page-08.png": "144b2b5e8eea8354318565cb5064426c4f303ff4d0925002c91c0b43687e55f1",
+    "page-09.png": "322dd5defc6bd92247ccda07c714aba34a82fee3ee1012dd6a7bbb5c25cabd00",
+    "page-10.png": "a14b8726b69a837e233120b9eebf14f4c8b423439f0bba80be648b7cf6f4ee6c"
+  }
+}

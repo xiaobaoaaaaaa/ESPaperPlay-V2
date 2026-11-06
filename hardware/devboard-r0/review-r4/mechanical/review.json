@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-02",
+  "scope": "r4 mechanical closure, scratch only",
+  "formal_project_modified_by_this_agent": false,
+  "decision_basis": {
+    "user": "Retain existing generic 0.5mm FP24/FP6 adapter/extension chain; exact adapter model unavailable.",
+    "not_assumed": [
+      "Direct mating of original Good Display panel/touch to PCB",
+      "Contact-side or pin-number continuity of generic adapters",
+      "Completed manufacturing release"
+    ]
+  },
+  "items": [
+    {
+      "reference": "J601",
+      "mpn": "HYCW3D-05FPC24-200B",
+      "manufacturer": "HOAUC",
+      "decision": "Assign as conditional candidate after symbol adds SH; keep physical chain qualification open",
+      "footprint": "HOAUC_HYCW3D-05FPC24-200B_1x24_P0.50mm_SH",
+      "primary_source": "hoauc-original",
+      "closed": [
+        "Exact manufacturer family and 24P table located",
+        "24 copper contacts + 2 mounting pads reconstructed",
+        "Copper geometry agrees with old EDA footprint to <0.001mm",
+        "Native KiCad parser loads candidate"
+      ],
+      "dimensions_mm": {
+        "pitch": 0.5,
+        "signal_pad": [
+          0.25,
+          1.3
+        ],
+        "retention_pad": [
+          2,
+          2.8
+        ],
+        "retention_centres_x": [
+          -7.55,
+          7.55
+        ],
+        "retention_centres_y": 3.08,
+        "body_width": 16.5,
+        "body_depth": 4.9,
+        "height": 2,
+        "insertion_depth": 2.1
+      },
+      "mate_requirements_mm": {
+        "pins": 24,
+        "width_nominal": 12.5,
+        "width_tolerance": 0.07,
+        "thickness_nominal": 0.3,
+        "thickness_tolerance": 0.03,
+        "exposed_contact_length": 4,
+        "stiffener_length": 5
+      },
+      "numbering": "Legacy convention: top mounting view with signal lands at y=0 and housing toward +y, pin1 at x=-5.75. Original drawing does not independently number contacts. Legacy pads25/26 become SH.",
+      "open": [
+        "Existing extension output must match manufacturer FPC recommendation; 0.5mm/24P alone is insufficient",
+        "Actual full-chain pin numbering, contact face, no short/opens",
+        "Physical body/Fab offset and latch operating clearance before placement release",
+        "Stencil and solder assembly process not physically validated"
+      ]
+    },
+    {
+      "reference": "J406",
+      "mpn": "LAIL-FPC-CDX01-6P0.5-GW",
+      "manufacturer": "LAILAN",
+      "decision": "Assign as conditional candidate after symbol adds SH; keep physical chain qualification open",
+      "footprint": "LAILAN_LAIL-FPC-CDX01-6P0.5-GW_1x06_P0.50mm_SH",
+      "primary_source": "lailan-original",
+      "closed": [
+        "Exact Rev A drawing located",
+        "6 copper contacts + 2 mounting pads reconstructed",
+        "Copper geometry agrees with old EDA footprint to <0.001mm",
+        "Native KiCad parser loads candidate",
+        "Correct closed height to1.00+-0.10mm"
+      ],
+      "dimensions_mm": {
+        "pitch": 0.5,
+        "signal_pad": [
+          0.3,
+          0.8
+        ],
+        "signal_stencil": [
+          0.25,
+          0.65
+        ],
+        "retention_pad": [
+          0.4,
+          0.8
+        ],
+        "retention_centres_x": [
+          -2.3,
+          2.3
+        ],
+        "retention_centres_y": 2.5,
+        "body_width": 5,
+        "body_depth": 2.9,
+        "overall_contact_to_front": 3.25,
+        "height_nominal": 1,
+        "height_tolerance": 0.1,
+        "open_height_reference": 1.75,
+        "open_depth_reference": 3.8
+      },
+      "mate_requirements_mm": {
+        "pins": 6,
+        "width_nominal": 3.5,
+        "width_tolerance": 0.05,
+        "thickness_nominal": 0.3,
+        "thickness_tolerance": 0.03,
+        "exposed_contact_length_nominal": 1.5,
+        "exposed_contact_length_tolerance": 0.3,
+        "stiffener_length_min": 2.5
+      },
+      "numbering": "Legacy convention: top mounting view with signal lands y=0 and housing +y, pin1 at x=+1.25. Legacy pads7/8 become SH. Dual-sided contacts do not establish adapter pin order.",
+      "open": [
+        "Existing extension output must match manufacturer FPC recommendation",
+        "Full chain pin numbering/contact-face continuity",
+        "Physical latch/access clearance and assembly process"
+      ]
+    },
+    {
+      "reference": "J701",
+      "mpn": "DM3AT-SF-PEJM5",
+      "manufacturer": "Hirose",
+      "decision": "Retain existing native candidate; nominal copper/mechanical and detection cross-check advanced, latest drawing review still conditional",
+      "footprint": "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5",
+      "primary_source": "hirose-original-older",
+      "closed": [
+        "Original manufacturer older exact-MPN drawing visually inspected",
+        "Signal1-8 positions/nominal0.7x1.2 lands/pitch1.1 match existing footprint",
+        "Detection B maps pad9 at(-5.875,-7.725); A maps pad10 at(-6.825,2.775)",
+        "Four SH pad dimensions match1x1.2,1x2.8,1x1.2,1.3x1.9",
+        "Existing footprint carries five F.Cu keepout polygons corresponding to oblique-hatched areas",
+        "No-card OPEN, card inserted CLOSE",
+        "AT is push-push top mounting; do not retain old push-pull description"
+      ],
+      "mechanical_positions_mm": {
+        "height_nominal": 1.68,
+        "height_tolerance": 0.15,
+        "card_overstroke": 16.75,
+        "card_lock": 17.55,
+        "card_eject": 21.55
+      },
+      "open": [
+        "2024 updated six-page exact drawing could not be downloaded via official API (403); archived 2010 revision must not be represented as latest",
+        "Board edge/card ejection and finger access need actual layout and enclosure review",
+        "Detection is mechanical insertion indication, not proof card is fully electrically initialized"
+      ]
+    },
+    {
+      "reference": "J501",
+      "mpn": "USB4105-GF-A",
+      "manufacturer": "GCT",
+      "decision": "Retain native footprint; board thickness and shell-stake soldering process remain assembly condition",
+      "primary_source": "gct-original",
+      "closed": [
+        "Exact blank suffix uses0.95mm stakes;060/120 are separate0.60/1.20 variants",
+        "Existing vendor land/slot geometry available in r3 official drawing",
+        "No universal supported PCB thickness is stated by GCT drawing/page"
+      ],
+      "open": [
+        "Select PCB thickness/tolerance and solder process, then verify fill/wetting and mechanical anchoring of0.95mm stakes",
+        "1.6mm board means stakes do not extend through nominal thickness; that inference alone neither proves failure nor qualifies assembly"
+      ]
+    },
+    {
+      "references": [
+        "J102",
+        "J103",
+        "J801"
+      ],
+      "mpn": "1751248",
+      "manufacturer": "Phoenix Contact",
+      "name": "MKDS 1/2-3.5",
+      "decision": "Usable exact terminal candidate for development board, with qualified adapter harness rather than guessed commercial plug",
+      "footprint": "PhoenixContact_MKDS-1-2-3.5_1751248_1x02_P3.50mm_Horizontal",
+      "sources": [
+        "phoenix-dimensions",
+        "phoenix-drill",
+        "phoenix-derating"
+      ],
+      "official_page": "https://www.phoenixcontact.com/en-pc/products/pcb-terminal-block-mkds-1-2-35-1751248",
+      "closed": [
+        "Correct order number1751248;1725656 is different MPT0.5/2-2.54",
+        "Official pitch3.5/body7.5x7.3/height8.5/pin length3.5/drill1.1 verified",
+        "Native footprint loaded; project selected2.2mm copper lands, not a manufacturer pad requirement"
+      ],
+      "rating": {
+        "nominal_current_A": 17.5,
+        "wire_rigid_or_flexible_mm2": [
+          0.14,
+          1.5
+        ],
+        "ferrule_mm2": [
+          0.25,
+          0.5
+        ],
+        "strip_mm": 5,
+        "torque_Nm": [
+          0.22,
+          0.25
+        ]
+      },
+      "open": [
+        "The17.5A rating is not the rating of the full board or small harness; use actual wire/temperature derating",
+        "Vendor requires supporting2/3-position housings during tightening; add board support/access",
+        "Commercial speaker/battery wire may be below minimum0.14mm2; suitable mating adapter/transition must retain polarity and strain relief",
+        "No assumption that commercial1.25mm connector is a particular standard family"
+      ]
+    }
+  ],
+  "minimum_physical_evidence_for_fpc_release": [
+    "Power-off end-to-end continuity map for all24 EPD and6 touch contacts through the retained chain, identifying pin1 at each PCB-side output",
+    "Photographs showing PCB-side tail contact face and both sides of each unknown adapter, labelled EPD/touch and pin1",
+    "Measure PCB-side tail thickness, width, exposed-contact and stiffener lengths against the exact selected receptacle drawing; generic0.5mm pitch alone does not qualify them"
+  ],
+  "source_files": "sources.json",
+  "geometry_check": "geometry-check.json",
+  "power_cross_check": {
+    "source": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf",
+    "candidate": "MF-MSMF200/16X-2",
+    "result": "No specific footprint/steady-load conflict found",
+    "facts": {
+      "style": 2,
+      "max_height_mm": 1.6,
+      "R1max_ohm": 0.07,
+      "Ihold_50C_A": 1.68,
+      "Ihold_60C_A": 1.48,
+      "Itrip_23C_A": 3.5,
+      "max_trip_seconds_at_8A": 2
+    },
+    "limit": "Working-current budget does not establish fault interruption or connector transient withstand. Keep source authorization,100mA default,and unverified short-circuit behavior explicit."
+  }
+}

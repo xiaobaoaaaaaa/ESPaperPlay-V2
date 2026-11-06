@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ESPaperPlay")(type "KiCad")(uri "${KIPRJMOD}/ESPaperPlay.pretty")(options "")(descr "Reviewed candidate land patterns; assembly qualification pending"))
+)

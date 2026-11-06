@@ -1,0 +1,82 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-02T22:28:37",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae",
+            "violations": []
+        },
+        {
+            "path": "/POWER_INPUT_CHARGER/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0f17afdf-291c-5d2d-b9af-361362675e6e",
+            "violations": []
+        },
+        {
+            "path": "/POWER_3V3_CONTROL/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0dadd375-07e9-55d2-b4e3-bec717ea1483",
+            "violations": []
+        },
+        {
+            "path": "/MCU_CORE/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae/bbe44072-361b-5d66-b87c-209a43ac10b2",
+            "violations": []
+        },
+        {
+            "path": "/USB_INPUT/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0852293d-8671-5e0e-bb1c-2c4398512ce9",
+            "violations": []
+        },
+        {
+            "path": "/POWER_DOMAINS/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3b9fcaf2-a83e-57e3-b748-882eed3a09ec",
+            "violations": []
+        },
+        {
+            "path": "/TOUCH_ISOLATION/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae/a195b64b-a023-5aa0-a3a5-bcb40c7aaafd",
+            "violations": []
+        },
+        {
+            "path": "/EPD_DISPLAY/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a",
+            "violations": []
+        },
+        {
+            "path": "/STORAGE_SD/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6",
+            "violations": []
+        },
+        {
+            "path": "/AUDIO/",
+            "uuid_path": "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b",
+            "violations": []
+        }
+    ],
+    "source": "ESPaperPlay_Devboard.kicad_sch"
+}

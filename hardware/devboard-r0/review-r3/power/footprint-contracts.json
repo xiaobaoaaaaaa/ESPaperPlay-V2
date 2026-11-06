@@ -1,0 +1,428 @@
+[
+  {
+    "name": "TI_DLA0010A_VSON-HR_2x3mm_P0.5mm",
+    "body_mm": [
+      2,
+      3
+    ],
+    "courtyard_half_extents_mm": [
+      1.45,
+      1.75
+    ],
+    "pads": [
+      {
+        "n": "1",
+        "x": -0.9,
+        "y": -1.0,
+        "w": 0.6,
+        "h": 0.25,
+        "paste": true
+      },
+      {
+        "n": "2",
+        "x": -0.9,
+        "y": -0.5,
+        "w": 0.6,
+        "h": 0.25,
+        "paste": true
+      },
+      {
+        "n": "3",
+        "x": -0.9,
+        "y": 0.0,
+        "w": 0.6,
+        "h": 0.25,
+        "paste": true
+      },
+      {
+        "n": "4",
+        "x": -0.9,
+        "y": 0.5,
+        "w": 0.6,
+        "h": 0.25,
+        "paste": true
+      },
+      {
+        "n": "5",
+        "x": -0.9,
+        "y": 1.0,
+        "w": 0.6,
+        "h": 0.25,
+        "paste": true
+      },
+      {
+        "n": "6",
+        "x": 0.75,
+        "y": 1,
+        "w": 0.9,
+        "h": 0.25,
+        "paste": true
+      },
+      {
+        "n": "7",
+        "x": 0.75,
+        "y": 0.5,
+        "w": 0.9,
+        "h": 0.25,
+        "paste": true
+      },
+      {
+        "n": "9",
+        "x": 0.75,
+        "y": -0.5,
+        "w": 0.9,
+        "h": 0.25,
+        "paste": true
+      },
+      {
+        "n": "10",
+        "x": 0.75,
+        "y": -1,
+        "w": 0.9,
+        "h": 0.25,
+        "paste": true
+      },
+      {
+        "n": "8",
+        "x": 0.55,
+        "y": 0,
+        "w": 1.3,
+        "h": 0.25,
+        "paste": false
+      }
+    ],
+    "paste_only": [
+      {
+        "x": 0.175,
+        "y": 0,
+        "w": 0.55,
+        "h": 0.25
+      },
+      {
+        "x": 0.925,
+        "y": 0,
+        "w": 0.55,
+        "h": 0.25
+      }
+    ],
+    "source": "TI4223750-D DLA0010A; TPS63802 datasheet PDFpp36-37",
+    "notes": [
+      "Exactly10 electrical pads; no pad11 or generic exposed centre pad. Pin8PGND is wider on right.",
+      "Pad8 paste has2 x0.55x0.25 apertures; vendor says83% paste coverage, based on0.1mm stencil; assembler must qualify process.",
+      "NSMD margin0.05mm is within vendor0.07mm maximum; mask web capability and soldering still require fabrication review."
+    ]
+  },
+  {
+    "name": "TI_RGT0016C_VQFN_3x3mm_P0.5mm_EP1.68mm",
+    "body_mm": [
+      3,
+      3
+    ],
+    "courtyard_half_extents_mm": [
+      1.95,
+      1.95
+    ],
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.4,
+        "y": -0.75,
+        "w": 0.6,
+        "h": 0.24,
+        "paste": true
+      },
+      {
+        "n": "5",
+        "x": -0.75,
+        "y": 1.4,
+        "w": 0.24,
+        "h": 0.6,
+        "paste": true
+      },
+      {
+        "n": "9",
+        "x": 1.4,
+        "y": 0.75,
+        "w": 0.6,
+        "h": 0.24,
+        "paste": true
+      },
+      {
+        "n": "13",
+        "x": 0.75,
+        "y": -1.4,
+        "w": 0.24,
+        "h": 0.6,
+        "paste": true
+      },
+      {
+        "n": "2",
+        "x": -1.4,
+        "y": -0.25,
+        "w": 0.6,
+        "h": 0.24,
+        "paste": true
+      },
+      {
+        "n": "6",
+        "x": -0.25,
+        "y": 1.4,
+        "w": 0.24,
+        "h": 0.6,
+        "paste": true
+      },
+      {
+        "n": "10",
+        "x": 1.4,
+        "y": 0.25,
+        "w": 0.6,
+        "h": 0.24,
+        "paste": true
+      },
+      {
+        "n": "14",
+        "x": 0.25,
+        "y": -1.4,
+        "w": 0.24,
+        "h": 0.6,
+        "paste": true
+      },
+      {
+        "n": "3",
+        "x": -1.4,
+        "y": 0.25,
+        "w": 0.6,
+        "h": 0.24,
+        "paste": true
+      },
+      {
+        "n": "7",
+        "x": 0.25,
+        "y": 1.4,
+        "w": 0.24,
+        "h": 0.6,
+        "paste": true
+      },
+      {
+        "n": "11",
+        "x": 1.4,
+        "y": -0.25,
+        "w": 0.6,
+        "h": 0.24,
+        "paste": true
+      },
+      {
+        "n": "15",
+        "x": -0.25,
+        "y": -1.4,
+        "w": 0.24,
+        "h": 0.6,
+        "paste": true
+      },
+      {
+        "n": "4",
+        "x": -1.4,
+        "y": 0.75,
+        "w": 0.6,
+        "h": 0.24,
+        "paste": true
+      },
+      {
+        "n": "8",
+        "x": 0.75,
+        "y": 1.4,
+        "w": 0.24,
+        "h": 0.6,
+        "paste": true
+      },
+      {
+        "n": "12",
+        "x": 1.4,
+        "y": -0.75,
+        "w": 0.6,
+        "h": 0.24,
+        "paste": true
+      },
+      {
+        "n": "16",
+        "x": -0.75,
+        "y": -1.4,
+        "w": 0.24,
+        "h": 0.6,
+        "paste": true
+      },
+      {
+        "n": "17",
+        "x": 0,
+        "y": 0,
+        "w": 1.68,
+        "h": 1.68,
+        "paste": false
+      }
+    ],
+    "paste_only": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1.55,
+        "h": 1.55
+      }
+    ],
+    "source": "TI4222419-E RGT0016C; BQ24074 datasheet PDFpp53-54",
+    "notes": [
+      "EP17 must be soldered and connected toGND. Vendor example optional5vias at centre and(+/-0.58,+/-0.58),0.2mm drills.",
+      "Vias intentionally not embedded: layout determines filled/plugged/tented process and connectivity; paste aperture follows1.55mm square example based on0.125mm stencil.",
+      "Existing generic1.6mmEP is not declared electrically wrong; this candidate matches current vendor1.68mm land-pattern dimension."
+    ]
+  },
+  {
+    "name": "Bourns_MF-MSMF_1812_Style2",
+    "body_mm": [
+      4.6,
+      3.24
+    ],
+    "courtyard_half_extents_mm": [
+      3.5,
+      1.96
+    ],
+    "pads": [
+      {
+        "n": "1",
+        "x": -2.39,
+        "y": 0,
+        "w": 1.68,
+        "h": 2.95,
+        "paste": true
+      },
+      {
+        "n": "2",
+        "x": 2.39,
+        "y": 0,
+        "w": 1.68,
+        "h": 2.95,
+        "paste": true
+      }
+    ],
+    "paste_only": [],
+    "source": "Bourns MF-MSMF datasheet style2 PDFpp5,7",
+    "notes": [
+      "Nonpolar pads;1.68x2.95mm nominal,3.10mm gap,4.78mm pad-centre spacing.",
+      "Body max4.83x3.41x0.80mm for110/16X. Courtyard covers maximumbody+0.25mm andpadextent+0.25mm.",
+      "GenericFuse_1812 previously used1.125x3.4mm pads and3.15mm gap. Replace with candidate matched toBourns recommended land geometry.",
+      "Footprint does not qualify PTC thermal behavior; copper andambient affect hold/trip currents."
+    ]
+  },
+  {
+    "name": "Coilcraft_XFL4015_4x4mm",
+    "body_mm": [
+      4,
+      4
+    ],
+    "courtyard_half_extents_mm": [
+      2.4,
+      2.4
+    ],
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.185,
+        "y": 0,
+        "w": 0.98,
+        "h": 3.4,
+        "paste": true
+      },
+      {
+        "n": "2",
+        "x": 1.185,
+        "y": 0,
+        "w": 0.98,
+        "h": 3.4,
+        "paste": true
+      }
+    ],
+    "paste_only": [],
+    "source": "Coilcraft XFL4015 Document769-2 revised03-10-2026 PDFp2",
+    "notes": [
+      "Maximum body4.3x4.3x1.6mm; courtyard allows0.25mm clearance to maximum body.",
+      "No polarity. Manufacturer C mark indicates short winding lead; follow manufacturer marking direction for EMI-sensitive layout."
+    ]
+  },
+  {
+    "name": "Bourns_CRF0805_Jumper",
+    "body_mm": [
+      2,
+      1.25
+    ],
+    "courtyard_half_extents_mm": [
+      2.0,
+      0.975
+    ],
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.15,
+        "y": 0,
+        "w": 1.2,
+        "h": 1.4,
+        "paste": true
+      },
+      {
+        "n": "2",
+        "x": 1.15,
+        "y": 0,
+        "w": 1.2,
+        "h": 1.4,
+        "paste": true
+      }
+    ],
+    "paste_only": [],
+    "source": "Bourns CRF-J datasheet PDFp2 land pattern",
+    "notes": [
+      "Nonpolar current jumper. Pads1.2x1.4mm, inner gap1.1mm; maximum body2.2x1.45x0.9mm.",
+      "50A component rating does not qualify board trace, solder, connector or battery current; treat as low-burden removable measurement link, not fuse."
+    ]
+  },
+  {
+    "name": "AOS_SOT23_PO00001N",
+    "body_mm": [
+      1.6,
+      2.9
+    ],
+    "courtyard_half_extents_mm": [
+      1.9,
+      1.8
+    ],
+    "pads": [
+      {
+        "n": "1",
+        "x": -1.2,
+        "y": -0.95,
+        "w": 0.8,
+        "h": 0.8,
+        "paste": true
+      },
+      {
+        "n": "2",
+        "x": -1.2,
+        "y": 0.95,
+        "w": 0.8,
+        "h": 0.8,
+        "paste": true
+      },
+      {
+        "n": "3",
+        "x": 1.2,
+        "y": 0,
+        "w": 0.8,
+        "h": 0.8,
+        "paste": true
+      }
+    ],
+    "paste_only": [],
+    "source": "AOS SOT23 PO-00001 versionN PDFp1",
+    "notes": [
+      "AO3400A pins1G2S3D; generic KiCad numbering orientation preserved. Vendor body2.9x1.6mm, pitch0.95mm.",
+      "Exact vendor recommended0.8mm square pads with2.4mm centre span; generic KiCad SOT23 was IPC-style geometry, not itself an electrical pin mismatch."
+    ]
+  }
+]

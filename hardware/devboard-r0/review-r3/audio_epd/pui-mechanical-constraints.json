@@ -1,0 +1,53 @@
+{
+  "status": "BLOCKED_PCB_ACOUSTIC_HOLE",
+  "mpn": "DMM-4026-B-I2S-R",
+  "source": "hardware/reference/peripherals/DMM-4026-B-I2S-R.pdf",
+  "drawing_pages": [
+    6,
+    7
+  ],
+  "units": "mm",
+  "device_body": {
+    "length": 4.0,
+    "width": 3.0,
+    "height": 1.0,
+    "tolerance": 0.1
+  },
+  "device_acoustic_port": {
+    "diameter": 0.25,
+    "tolerance": 0.05,
+    "not_a_PCB_drill_spec": true
+  },
+  "signal_lands": {
+    "count": 6,
+    "width": 0.6,
+    "height": 0.4,
+    "column_center_distance": 2.15,
+    "row_pitch": 0.65,
+    "first_pad_top_from_body_top": 0.23
+  },
+  "ground_land": {
+    "pin": "4",
+    "outer_diameter": 1.65,
+    "inner_diameter": 1.05,
+    "center_from_bottom_body_edge": 1.0
+  },
+  "pinmap": {
+    "1": "LR",
+    "2": "CONFIG",
+    "3": "VDD",
+    "4": "GND",
+    "5": "WS",
+    "6": "SCK",
+    "7": "SD"
+  },
+  "drawing_orientation": "Vendor bottom view: right column1,2,3 top-to-bottom; left column7,6,5 top-to-bottom. Mirror once for PCB top-side footprint; do not mirror twice.",
+  "constraint_rounding": "Dimension chain row-to-ring has0.01mm rounding discrepancy; general drawing tolerance applies.",
+  "unresolved": [
+    "Recommended PCB acoustic drill diameter/tolerance",
+    "Acoustic passage length/enclosure opening and sealing",
+    "Solder-mask and paste exclusions around acoustic channel",
+    "Physical sample confirmation of top-view pad numbering"
+  ],
+  "footprint_generated": false
+}

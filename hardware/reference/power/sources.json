@@ -1,0 +1,80 @@
+{
+  "retrieved_on": "2026-11-01",
+  "purpose": "Development-board power specification r0; candidates, not approved BOM",
+  "provenance": "Unmodified manufacturer PDFs from TI and Analog Devices. MAX98357A reused from this session official-source legacy audio review.",
+  "rights": "Vendor copyrighted reference material; PDF files are git-ignored and not covered by project MIT license.",
+  "files": [
+    {
+      "filename": "bq24074.pdf",
+      "asset_url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "revision": "SLUS810N; Rev N; 2021-10",
+      "pages": 55,
+      "size_bytes": 3739103,
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1"
+    },
+    {
+      "filename": "bq25185.pdf",
+      "asset_url": "https://www.ti.com/lit/ds/symlink/bq25185.pdf",
+      "revision": "SLUSF65B; Rev B; 2026-08",
+      "pages": 32,
+      "size_bytes": 1544774,
+      "sha256": "c73ed7d63e6532bb05e26df30edd37c6ac2de310c1222a84a77625e15e133684"
+    },
+    {
+      "filename": "tps63802.pdf",
+      "asset_url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "revision": "SLVSEU9D; Rev D; 2021-01",
+      "pages": 38,
+      "size_bytes": 2466159,
+      "sha256": "be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6"
+    },
+    {
+      "filename": "max17048.pdf",
+      "asset_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
+      "revision": "19-6171; Rev 7; 2016-11",
+      "pages": 19,
+      "size_bytes": 1109267,
+      "sha256": "70dc8eef0e012276dcdc58b6dce64af08258304bcf865ceace64e856b8029330"
+    },
+    {
+      "filename": "tca9539.pdf",
+      "asset_url": "https://www.ti.com/lit/ds/symlink/tca9539.pdf",
+      "revision": "SCPS202C; Rev C; 2016-05",
+      "pages": 49,
+      "size_bytes": 3020912,
+      "sha256": "fec29f61c247a467417a4c35ff616ee16379ac4ce95a6c1c8a6d6fe97ef010b9"
+    },
+    {
+      "filename": "tmux1511.pdf",
+      "asset_url": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf",
+      "revision": "SCDS390B; Rev B; 2025-03",
+      "pages": 45,
+      "size_bytes": 2548204,
+      "sha256": "04291b41a68347fedbbb0776aa44f500eaca65f2ca3af0e022ee60d41c7b1e9f"
+    },
+    {
+      "filename": "tps22918.pdf",
+      "asset_url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "revision": "SLVSD76C; Rev C; 2017-07",
+      "pages": 30,
+      "size_bytes": 1072926,
+      "sha256": "1b28eb58003d28b18bf919a15734056f296a499bebee2bd493a1e4358c4dfb1c"
+    },
+    {
+      "filename": "max98357a.pdf",
+      "asset_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf",
+      "revision": "19-6779; Rev 16; 2026-02",
+      "pages": 38,
+      "size_bytes": 3933655,
+      "sha256": "dea228ad619901d34c2f5f106243bdb9b9e95e38989d4d66fd6c6c489bfa6f1c"
+    },
+    {
+      "filename": "ao3400a.pdf",
+      "asset_url": "https://www.aosmd.com/sites/default/files/res/data_sheets/AO3400A.pdf",
+      "revision": "Rev 3.1: July 2023",
+      "pages": 5,
+      "size_bytes": 317848,
+      "sha256": "9c60d0b6c1ddc7609a4b788a91181468d8ffe6c3e9ba425c3d8ffc5ba88c5033"
+    }
+  ]
+}

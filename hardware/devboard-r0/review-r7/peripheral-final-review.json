@@ -1,0 +1,1053 @@
+{
+  "status": "PLACEMENT_REVIEW_PASS",
+  "date": "2026-11-06",
+  "source_pcb": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "source_sha256": "5eb16a5ecb824086f745c8d4737650eaaf315fa305fee58c9a027325d61c740b",
+  "scope": "Read-only EPD, touch, audio native-placement review; no file or schematic changes. SD reviewed separately.",
+  "source_track_count": 0,
+  "source_board_zone_count": 0,
+  "checked_footprint_count": 66,
+  "component_positions": {
+    "C416": {
+      "xy_mm": [
+        194.5,
+        99.05
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "C417": {
+      "xy_mm": [
+        200.5,
+        104.3
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C601": {
+      "xy_mm": [
+        185.5,
+        148.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C602": {
+      "xy_mm": [
+        189.0,
+        139.0
+      ],
+      "rotation_deg": 180.0,
+      "side": "F.Cu"
+    },
+    "C603": {
+      "xy_mm": [
+        174.8,
+        133.5
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C604": {
+      "xy_mm": [
+        188.5,
+        148.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C605": {
+      "xy_mm": [
+        192.25,
+        148.6
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C606": {
+      "xy_mm": [
+        194.5,
+        148.6
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C607": {
+      "xy_mm": [
+        193.0,
+        144.0
+      ],
+      "rotation_deg": 180.0,
+      "side": "F.Cu"
+    },
+    "C608": {
+      "xy_mm": [
+        197.5,
+        148.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C609": {
+      "xy_mm": [
+        198.0,
+        143.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "C610": {
+      "xy_mm": [
+        200.3,
+        148.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C611": {
+      "xy_mm": [
+        170.0,
+        136.8
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "C612": {
+      "xy_mm": [
+        170.0,
+        155.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "C801": {
+      "xy_mm": [
+        78.0,
+        61.1
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "C802": {
+      "xy_mm": [
+        91.5,
+        65.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C803": {
+      "xy_mm": [
+        94.199999,
+        65.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C804": {
+      "xy_mm": [
+        57.8,
+        61.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C805": {
+      "xy_mm": [
+        57.8,
+        64.5
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C806": {
+      "xy_mm": [
+        71.6,
+        73.25
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "C808": {
+      "xy_mm": [
+        68.8,
+        60.2
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "D601": {
+      "xy_mm": [
+        194.0,
+        139.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "D602": {
+      "xy_mm": [
+        194.0,
+        135.6
+      ],
+      "rotation_deg": 180.0,
+      "side": "F.Cu"
+    },
+    "D603": {
+      "xy_mm": [
+        184.0,
+        137.5
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "J406": {
+      "xy_mm": [
+        204.6,
+        105.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "J601": {
+      "xy_mm": [
+        191.0,
+        152.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "J801": {
+      "xy_mm": [
+        91.0,
+        55.0
+      ],
+      "rotation_deg": 180.0,
+      "side": "F.Cu"
+    },
+    "L601": {
+      "xy_mm": [
+        177.5,
+        138.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "Q601": {
+      "xy_mm": [
+        182.0,
+        141.45
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R417": {
+      "xy_mm": [
+        188.7,
+        107.5
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R418": {
+      "xy_mm": [
+        192.7,
+        107.5
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R419": {
+      "xy_mm": [
+        197.1,
+        107.5
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R420": {
+      "xy_mm": [
+        197.1,
+        111.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R601": {
+      "xy_mm": [
+        178.6,
+        143.65
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R602": {
+      "xy_mm": [
+        180.0,
+        146.5
+      ],
+      "rotation_deg": 180.0,
+      "side": "F.Cu"
+    },
+    "R603": {
+      "xy_mm": [
+        173.0,
+        139.5
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R604": {
+      "xy_mm": [
+        173.0,
+        141.4
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R605": {
+      "xy_mm": [
+        173.0,
+        143.3
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R606": {
+      "xy_mm": [
+        173.0,
+        145.2
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R607": {
+      "xy_mm": [
+        173.0,
+        147.1
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R608": {
+      "xy_mm": [
+        161.4,
+        136.3
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R609": {
+      "xy_mm": [
+        161.4,
+        139.6
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R610": {
+      "xy_mm": [
+        161.4,
+        142.9
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R611": {
+      "xy_mm": [
+        161.4,
+        146.2
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R612": {
+      "xy_mm": [
+        161.4,
+        149.5
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R613": {
+      "xy_mm": [
+        175.5,
+        150.2
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R614": {
+      "xy_mm": [
+        170.8,
+        151.5
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R802": {
+      "xy_mm": [
+        71.6,
+        60.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R803": {
+      "xy_mm": [
+        71.6,
+        69.8
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R804": {
+      "xy_mm": [
+        85.0,
+        70.5
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R805": {
+      "xy_mm": [
+        84.0,
+        67.5
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R806": {
+      "xy_mm": [
+        81.699999,
+        67.5
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R808": {
+      "xy_mm": [
+        69.0,
+        63.5
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R809": {
+      "xy_mm": [
+        69.0,
+        66.4
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R810": {
+      "xy_mm": [
+        81.0,
+        70.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "R811": {
+      "xy_mm": [
+        91.5,
+        61.3
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R812": {
+      "xy_mm": [
+        84.5,
+        61.3
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "R813": {
+      "xy_mm": [
+        64.5,
+        63.8
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "U406": {
+      "xy_mm": [
+        191.5,
+        103.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "U601": {
+      "xy_mm": [
+        166.5,
+        142.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "U602": {
+      "xy_mm": [
+        166.5,
+        152.0
+      ],
+      "rotation_deg": 180.0,
+      "side": "F.Cu"
+    },
+    "U801": {
+      "xy_mm": [
+        75.0,
+        65.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "U802": {
+      "xy_mm": [
+        88.0,
+        65.0
+      ],
+      "rotation_deg": 90.0,
+      "side": "F.Cu"
+    },
+    "U803": {
+      "xy_mm": [
+        61.0,
+        61.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "U804": {
+      "xy_mm": [
+        65.5,
+        60.5
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    },
+    "U805": {
+      "xy_mm": [
+        68.0,
+        73.0
+      ],
+      "rotation_deg": 0.0,
+      "side": "F.Cu"
+    }
+  },
+  "critical_capacitor_pad_distances": [
+    {
+      "from": "C611.1",
+      "to": "U601.20",
+      "from_mm": [
+        169.225,
+        136.8
+      ],
+      "to_mm": [
+        169.3625,
+        139.075
+      ],
+      "same_net": true,
+      "net": "EPD_3V3",
+      "pad_center_straight_line_mm": 2.279
+    },
+    {
+      "from": "C612.1",
+      "to": "U602.5",
+      "from_mm": [
+        169.225,
+        155.0
+      ],
+      "to_mm": [
+        165.3625,
+        152.95
+      ],
+      "same_net": true,
+      "net": "3V3_AON",
+      "pad_center_straight_line_mm": 4.373
+    },
+    {
+      "from": "C416.1",
+      "to": "U406.14",
+      "from_mm": [
+        193.725,
+        99.05
+      ],
+      "to_mm": [
+        194.3625,
+        101.05
+      ],
+      "same_net": true,
+      "net": "TOUCH_3V3",
+      "pad_center_straight_line_mm": 2.099
+    },
+    {
+      "from": "C417.1",
+      "to": "J406.2",
+      "from_mm": [
+        200.5,
+        105.075
+      ],
+      "to_mm": [
+        204.6,
+        104.25
+      ],
+      "same_net": true,
+      "net": "TOUCH_3V3",
+      "pad_center_straight_line_mm": 4.182
+    },
+    {
+      "from": "C801.1",
+      "to": "U801.14",
+      "from_mm": [
+        77.225,
+        61.1
+      ],
+      "to_mm": [
+        77.8625,
+        63.05
+      ],
+      "same_net": true,
+      "net": "MIC_3V3",
+      "pad_center_straight_line_mm": 2.052
+    },
+    {
+      "from": "C802.1",
+      "to": "U802.7",
+      "from_mm": [
+        91.5,
+        65.775
+      ],
+      "to_mm": [
+        89.425,
+        64.75
+      ],
+      "same_net": true,
+      "net": "AMP_SYS",
+      "pad_center_straight_line_mm": 2.314
+    },
+    {
+      "from": "C803.1",
+      "to": "U802.7",
+      "from_mm": [
+        94.199999,
+        65.95
+      ],
+      "to_mm": [
+        89.425,
+        64.75
+      ],
+      "same_net": true,
+      "net": "AMP_SYS",
+      "pad_center_straight_line_mm": 4.923
+    },
+    {
+      "from": "C804.1",
+      "to": "U803.3",
+      "from_mm": [
+        57.8,
+        61.775
+      ],
+      "to_mm": [
+        59.925,
+        60.72
+      ],
+      "same_net": true,
+      "net": "MIC_3V3",
+      "pad_center_straight_line_mm": 2.372
+    },
+    {
+      "from": "C805.1",
+      "to": "U803.3",
+      "from_mm": [
+        57.8,
+        65.275
+      ],
+      "to_mm": [
+        59.925,
+        60.72
+      ],
+      "same_net": true,
+      "net": "MIC_3V3",
+      "pad_center_straight_line_mm": 5.026
+    },
+    {
+      "from": "C806.1",
+      "to": "U805.5",
+      "from_mm": [
+        71.6,
+        74.025
+      ],
+      "to_mm": [
+        69.1375,
+        72.05
+      ],
+      "same_net": true,
+      "net": "MIC_3V3",
+      "pad_center_straight_line_mm": 3.157
+    },
+    {
+      "from": "C808.1",
+      "to": "U804.5",
+      "from_mm": [
+        68.8,
+        60.975
+      ],
+      "to_mm": [
+        66.6375,
+        59.55
+      ],
+      "same_net": true,
+      "net": "3V3_AON",
+      "pad_center_straight_line_mm": 2.59
+    },
+    {
+      "from": "C601.1",
+      "to": "J601.5",
+      "from_mm": [
+        185.5,
+        149.475
+      ],
+      "to_mm": [
+        187.25,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_VSHR",
+      "pad_center_straight_line_mm": 3.072
+    },
+    {
+      "from": "C605.1",
+      "to": "J601.15",
+      "from_mm": [
+        192.25,
+        149.55
+      ],
+      "to_mm": [
+        192.25,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_3V3",
+      "pad_center_straight_line_mm": 2.45
+    },
+    {
+      "from": "C606.1",
+      "to": "J601.18",
+      "from_mm": [
+        194.5,
+        149.55
+      ],
+      "to_mm": [
+        193.75,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_VDD_INT",
+      "pad_center_straight_line_mm": 2.562
+    },
+    {
+      "from": "C607.1",
+      "to": "J601.20",
+      "from_mm": [
+        194.475,
+        144.0
+      ],
+      "to_mm": [
+        194.75,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_VSH1",
+      "pad_center_straight_line_mm": 8.005
+    },
+    {
+      "from": "C604.1",
+      "to": "J601.21",
+      "from_mm": [
+        188.5,
+        149.475
+      ],
+      "to_mm": [
+        195.25,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_PREVGH",
+      "pad_center_straight_line_mm": 7.207
+    },
+    {
+      "from": "C608.1",
+      "to": "J601.22",
+      "from_mm": [
+        197.5,
+        149.475
+      ],
+      "to_mm": [
+        195.75,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_VSL",
+      "pad_center_straight_line_mm": 3.072
+    },
+    {
+      "from": "C609.1",
+      "to": "J601.23",
+      "from_mm": [
+        196.525,
+        143.0
+      ],
+      "to_mm": [
+        196.25,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_PREVGL",
+      "pad_center_straight_line_mm": 9.004
+    },
+    {
+      "from": "C610.1",
+      "to": "J601.24",
+      "from_mm": [
+        200.3,
+        148.95
+      ],
+      "to_mm": [
+        196.75,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_VCOM",
+      "pad_center_straight_line_mm": 4.68
+    }
+  ],
+  "epd_power_and_kelvin_pad_distances": [
+    {
+      "from": "L601.2",
+      "to": "Q601.3",
+      "from_mm": [
+        179.025,
+        138.0
+      ],
+      "to_mm": [
+        182.8955,
+        141.45
+      ],
+      "same_net": true,
+      "net": "/EPD_DISPLAY/EPD_SW",
+      "pad_center_straight_line_mm": 5.185
+    },
+    {
+      "from": "L601.2",
+      "to": "D603.2",
+      "from_mm": [
+        179.025,
+        138.0
+      ],
+      "to_mm": [
+        184.0,
+        135.85
+      ],
+      "same_net": true,
+      "net": "/EPD_DISPLAY/EPD_SW",
+      "pad_center_straight_line_mm": 5.42
+    },
+    {
+      "from": "Q601.3",
+      "to": "C602.2",
+      "from_mm": [
+        182.8955,
+        141.45
+      ],
+      "to_mm": [
+        187.525,
+        139.0
+      ],
+      "same_net": true,
+      "net": "/EPD_DISPLAY/EPD_SW",
+      "pad_center_straight_line_mm": 5.238
+    },
+    {
+      "from": "C602.1",
+      "to": "D601.1",
+      "from_mm": [
+        190.475,
+        139.0
+      ],
+      "to_mm": [
+        192.35,
+        139.0
+      ],
+      "same_net": true,
+      "net": "EPD_FLY",
+      "pad_center_straight_line_mm": 1.875
+    },
+    {
+      "from": "C602.1",
+      "to": "D602.2",
+      "from_mm": [
+        190.475,
+        139.0
+      ],
+      "to_mm": [
+        192.35,
+        135.6
+      ],
+      "same_net": true,
+      "net": "EPD_FLY",
+      "pad_center_straight_line_mm": 3.883
+    },
+    {
+      "from": "Q601.2",
+      "to": "R602.1",
+      "from_mm": [
+        181.1045,
+        142.0725
+      ],
+      "to_mm": [
+        182.375,
+        146.5
+      ],
+      "same_net": true,
+      "net": "EPD_RESE",
+      "pad_center_straight_line_mm": 4.606
+    },
+    {
+      "from": "R602.1",
+      "to": "J601.3",
+      "from_mm": [
+        182.375,
+        146.5
+      ],
+      "to_mm": [
+        186.25,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_RESE",
+      "pad_center_straight_line_mm": 6.728
+    },
+    {
+      "from": "Q601.1",
+      "to": "J601.2",
+      "from_mm": [
+        181.1045,
+        140.8275
+      ],
+      "to_mm": [
+        185.75,
+        152.0
+      ],
+      "same_net": true,
+      "net": "EPD_GDR",
+      "pad_center_straight_line_mm": 12.1
+    }
+  ],
+  "audio_btl_pad_distances": [
+    {
+      "from": "U802.9",
+      "to": "R811.1",
+      "from_mm": [
+        88.75,
+        63.575
+      ],
+      "to_mm": [
+        91.5,
+        62.2125
+      ],
+      "same_net": true,
+      "net": "/AUDIO/AMP_OUTP",
+      "pad_center_straight_line_mm": 3.069
+    },
+    {
+      "from": "U802.10",
+      "to": "R812.1",
+      "from_mm": [
+        88.25,
+        63.575
+      ],
+      "to_mm": [
+        84.5,
+        62.2125
+      ],
+      "same_net": true,
+      "net": "/AUDIO/AMP_OUTN",
+      "pad_center_straight_line_mm": 3.99
+    },
+    {
+      "from": "R811.2",
+      "to": "J801.1",
+      "from_mm": [
+        91.5,
+        60.3875
+      ],
+      "to_mm": [
+        91.0,
+        55.0
+      ],
+      "same_net": true,
+      "net": "/AUDIO/SPK_P",
+      "pad_center_straight_line_mm": 5.411
+    },
+    {
+      "from": "R812.2",
+      "to": "J801.2",
+      "from_mm": [
+        84.5,
+        60.3875
+      ],
+      "to_mm": [
+        87.5,
+        55.0
+      ],
+      "same_net": true,
+      "net": "/AUDIO/SPK_N",
+      "pad_center_straight_line_mm": 6.166
+    }
+  ],
+  "microphone": {
+    "port_xy_mm": [
+      61.0,
+      62.0
+    ],
+    "drill_mm": [
+      0.6,
+      0.6
+    ],
+    "npth": true,
+    "all_four_copper_layers_rule_area": {
+      "rule_area": true,
+      "tracks_forbidden": true,
+      "vias_forbidden": true,
+      "copper_fills_forbidden": true,
+      "pads_allowed": true,
+      "layers": [
+        "F.Cu",
+        "B.Cu",
+        "In1.Cu",
+        "In2.Cu"
+      ]
+    },
+    "distance_to_amp_centers_mm": 27.295,
+    "bottom_footprints": 0,
+    "note": "Bottom acoustic path presently has no backside component. Fixture/glue/enclosure opening still requires physical design control."
+  },
+  "major_mechanical_blockers_found": false,
+  "findings": [],
+  "remaining_routing_work": [
+    "Reserve small SW copper island joining L601.2/Q601.3/D603.2/C602.2; pad proximity does not prove loop area or routed EMI performance.",
+    "Route RESE directly from R602 pad1 to J601.3 separately from MOSFET source power-current segment.",
+    "Connect local bypass ground immediately to continuous ground reference with short vias; no split return under signal paths.",
+    "Route BTL outputs as short paired power traces, neither tied to ground; provide U802 EP17 grounding and thermal-via fanout.",
+    "Preserve U803 acoustic NPTH, ground ring and all-four-layer keepout; no glue/fixture below the opening.",
+    "FPC/terminal edge orientation is established; mating-cable insertion and latch access remain physical assembly checks."
+  ],
+  "limitations": [
+    "Distances are pad-center Euclidean lower bounds, not routed lengths or manufacturer limits.",
+    "No tracks or poured zones at time of review; electrical loop, signal integrity, thermal and manufacturing clearance conclusions await routing.",
+    "Native pcbnew parser prints known PROPERTY_ENUM diagnostics but completed successfully."
+  ]
+}

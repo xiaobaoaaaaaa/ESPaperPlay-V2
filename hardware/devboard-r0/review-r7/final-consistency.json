@@ -1,0 +1,52 @@
+{
+  "status": "PASS_PLACEMENT_DELIVERY",
+  "date": "2026-11-06",
+  "pcb_sha256": "5eb16a5ecb824086f745c8d4737650eaaf315fa305fee58c9a027325d61c740b",
+  "initial_r6_hashes_verified": 222,
+  "prior_tracked_files_changed": [
+    "../../docs/v2/README.md",
+    "../../docs/v2/hardware/README.md",
+    "ESPaperPlay_Devboard.kicad_pro",
+    "README.md"
+  ],
+  "schematics_byte_identical": 11,
+  "symbol_library_byte_identical": true,
+  "all_prior_bom_and_footprint_library_hashes_unchanged": true,
+  "project_change": "Added 4-layer PCB defaults and placement-stage design rules; schematic ERC profile unchanged.",
+  "native_placement_list_matches_all_electrical_components": 236,
+  "electrical_components": 236,
+  "mechanical_holes": 4,
+  "nets": 181,
+  "logical_pins": 774,
+  "numbered_pads": 804,
+  "copper_layers": 4,
+  "board_size_mm": [
+    160,
+    110
+  ],
+  "tracks": 0,
+  "board_copper_zones": 0,
+  "erc": {
+    "errors": 0,
+    "warnings": 0,
+    "exclusions": 0
+  },
+  "pcb_drc": {
+    "violations": 1,
+    "errors_excluding_unconnected": 0,
+    "warnings": 1,
+    "unconnected_items": 499,
+    "schematic_parity": 0,
+    "exclusions": 0,
+    "default_ignored_check_keys": [
+      "missing_courtyard",
+      "track_not_centered_on_via",
+      "tuning_profile_track_geometries",
+      "footprint_filters_mismatch",
+      "footprint_type_mismatch"
+    ],
+    "known_warning": "U301 off-board antenna silkscreen moved to Dwgs.User; pads and RF keepout identical to library."
+  },
+  "independent_engineering_observation": "C301 bulk bypass pad distance 5.3054mm exceeds internal 5mm review target by 0.3054mm; accepted with C302 high-frequency bypass at1.875mm. Short/wide supply and close ground vias remain routing work.",
+  "stage": "Placement complete; routing, final DRC/manufacturing review and physical testing remain."
+}

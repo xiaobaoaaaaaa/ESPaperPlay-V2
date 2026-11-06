@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-02",
+  "revision": "r2 DRAFT",
+  "scope": "Single native AUDIO page10. No PCB fabrication release; no firmware changes; no recording/playback or current measurements.",
+  "files": {
+    "native": "AUDIO.kicad_sch",
+    "library": "audio.kicad_sym",
+    "generator": "generate_audio.py",
+    "verification": "verify_audio.py",
+    "expected_all_physical_pins": "expected-nets.json",
+    "actual_xml": "audio.net.xml",
+    "per_pin_csv": "pin-net-review.csv",
+    "svg": "svg/ESPaperPlay_Devboard-AUDIO.svg",
+    "preview": "audio-preview.png"
+  },
+  "verification": {
+    "components": 24,
+    "all_physical_pins": 86,
+    "actual_xml_check": "PASS",
+    "visual": "Final SVG rendered to2400px PNG and inspected: no overlapping labels, clipping, missing connection dots.",
+    "standalone_erc": {
+      "errors": 7,
+      "warnings": 6,
+      "reason": "Five external MCU input drivers, upstream AON/GND power drivers, six singleton external global labels absent from authoring harness. No exemptions added. Must run full-project ERC after integration."
+    }
+  },
+  "integration_required": [
+    "Change existing R416 from100k to10k/1% in POWER_DOMAINS and generator/BOM; AUDIO sheet references it without assigning value.",
+    "Retain GPIO4 AUDIO_EN driving both TPS22918 switches and U805; GPIO6 AMP_SHUTDOWN; BCLK12/WS7/MIC_DATA11/SPEAKER_DATA43.",
+    "Custom library names: MAX98357AETE_REVIEWED,74LVC125APW_NEXPERIA,DMM-4026-B-I2S-R,SN74LVC1G125DBV_AUDIO,SN74LVC1G14DBV_AUDIO.",
+    "MAX custom derivative retains KiCad geometry and pinmap, only EP17 electrical type changes unspecified→passive to reflect ADI thermal pad not internally connected. Connect EP17 to GND.",
+    "Flags assert MIC_3V3/AMP_SYS powered only with normal R411/R414 installed. They do not model a supply-fault or external-injection state."
+  ],
+  "audio_en_default_low": {
+    "basis": "TI TPS22918: each ON≤0.1uA, VILmax0.5V; TI1G14: II≤5uA and power-off Ioff≤10uA. Use larger10uA conservatively.",
+    "worst_sum_uA_without_mcu_pcb": 10.2,
+    "old_100k_voltage_V": 1.02,
+    "new_10k_1percent_max_voltage_V": 0.10302,
+    "remaining_extra_leakage_uA_to_0_5V": 39.3,
+    "limitation": "Does not invent a MCU leakage value. Parent must include actual MCU/reset/PCB contribution and measure default low during ramp/brownout. Additional39.3uA is available before0.5V limit at10.1k.",
+    "enabled_3V3_current_uA": 330,
+    "enabled_delta_vs100k_uA": 297
+  },
+  "hardware_operation": {
+    "mcu_to_audio": "U801 Nexperia74LVC125APW poweredMIC_3V3 buffers BCLK,WS,DIN,SD_MODE command. U805 TI1G14 on same rail actively raises all four OE when AUDIO_EN low; four physical OE pins explicitly junctioned and all found on actual AUDIO_OE_N net.",
+    "return": "U804 TI1G125 on3V3_AON buffers MIC_SD_RAW intoMCU; Ioff applies when AON0 but MIC residual voltage exists. R813100k at raw SD follows PUI recommendation. AON buffer supply current remains in deep-sleep budget.",
+    "amp": "MAX98357AETE+T poweredAMP_SYS. GAIN_SLOT=VDD gives6dB; SD_MODE via2k/1% plus100k external down selectsLEFT atnominal3.3V. R806 limits current whenIO exceedsVDD; it is not complete isolation.8ohm speaker and0R/EMI output parts are candidates.",
+    "poweroff_limits": [
+      "U801/U805 Ioff limits finite leakage atVCC=0; no assertion of zero leakage or guaranteed logic through intermediate undervoltage.",
+      "AUDIO_EN hardware disable acts whileMIC rail is valid. DifferentMIC/AMP discharge rates require oscilloscope/current verification.",
+      "Do not infer MAX input backfeed behavior solely from absolute maximum values.",
+      "Mute and stop before opening R411/R414 measurement links. Keep rails valid during active clocks; do not externally inject into a disconnected rail without reviewingQOD and signal paths."
+    ]
+  },
+  "sampling_contract": {
+    "first_test_Hz": 48000,
+    "slots": 2,
+    "slot_bits": 32,
+    "bclk_ratio": 64,
+    "first_BCLK_Hz": 3072000,
+    "candidate_shared_Hz": [
+      32000,
+      44100,
+      48000
+    ],
+    "reason": "Conservative PUI normal-mode2.048–4.096MHz intersects MAX supported rates at64fs.32k sits exactly onlower bound; tolerance margin not guaranteed.44.1k/48k remain test candidates.",
+    "data": "MIC LEFT channel;24-bit words with18-bit precision plus6zeroLSBs. Software mixes/resamples playback intoLEFT; no hardware stereo average.",
+    "startup": "AUDIO_EN low, AMP_SHUTDOWN low, MCU clock/data low; enable both rails; wait valid rails; establish48k/64fs clocks and zero playback; discardMICstartupframes withmeasuredmargin; unmute last. PUI20ms is datasheet startup reference, not measured first valid frame guarantee.",
+    "shutdown": "Mute while clocks run, allow required amp turn-off, then stop BCLK without allowing runningBCLK with absentLRCLK; explicitly driveoutputs low, thenAUDIO_ENlow. Deleting I2S driver is not hardware isolation.",
+    "legacy": "Current16k firmware profile incompatible with selected PUI normal mode. Existing firmware deliberately unchanged."
+  },
+  "cost_and_power_boundaries": {
+    "extra_isolation_parts": [
+      "U801 four-channel buffer",
+      "U804 AON single-channel return buffer",
+      "U805 Schmitt inverter",
+      "C801/C806/C808 local decoupling",
+      "R802/R803/R804 load-side clock/data pull-downs",
+      "R808/R809/R810 initial22ohm damping"
+    ],
+    "price": "No supplier quote or total-CNY claim. Need authorized channel stock/pricing for exact vendors plus PUI candidate before BOM freeze. Extra3logicIC and3decouplers trade area/cost for explicit partial-powerdown behavior; no added rail or GPIO.",
+    "logic_static": "At stable valid levels, U801ICC≤10uA(-40..85C),≤40uA(-40..125C); U804/U805ICC≤10uA each. U804 is AON. Inputmidlevels may add supplycurrent; these values are not a wholeboard sleep result.",
+    "finite_leakage": "U801Ioff±10uA to85C/±20uA to125C per specifiedIOcondition; U804/U805Ioff±10uA. Realrail leakage also includesTPS22918, PCB and peripherals. Do not sum a zero-leakage claim.",
+    "active_estimates": "R41610k draws~330uA at3.3V. Each100k pull-down draws33uA whenhigh; BCLK/WS average~16.5uA at50%duty. Otherdata,SD_MODEinternalpull, Cpd andoutputcapacitance adddynamiccurrent. Values are nominal calculations, not measured.",
+    "mic_and_amp": "PUI normal-mode current listed820–1000uA. MAX quiescent at3.7V/25C/no-speaker-load2.4mAtyp,2.85mAmax, plus speakerpower. SharedAUDIO_EN means playback keepsMICpowered; this revision does not independentlydisableMIC during playback."
+  },
+  "open_gates": [
+    "PUI lifecycle/stock and exactmanufacturer procurement not confirmed despite publiccatalogue.",
+    "FOOTPRINT_TBD:U803 seven-pad acousticMIC, J801 finalspeakerconnector, R811/R812 current-rated output links. Otherassignedfootprints are librarycandidates, still require package/assembly review.",
+    "8ohm speaker sensitivity,power,connectorpolarity,leadlengthandEMI filter notfrozen.",
+    "Validate buffer propagation/skew andMICsetup/hold atall acceptedrates; noarbitraryinputsample rates.",
+    "Measure MIC_3V3/AMP_SYS/BCLK/WS/SD_MODE onnormalstop,reset,brownout,USBtransitions; include residualinjection,popandclosed-rail leakage.",
+    "Measure quiet/activeaudio withWi-Fi,SD,andEPDconcurrency;acousticport,returnpathsandthermalEP layoutawaitPCB."
+  ],
+  "amp_shutdown_default_low": {
+    "basis": "Nexperia74LVC125A input leakage max5uA through85C,20uA through125C; VILmax0.8V at2.7–3.6V.",
+    "existing_R306_100k": "At85C worst0.5V beforeMCU/PCB leakage; at125C worst2V fails VIL.",
+    "recommendation_to_parent": "ChangeR306to10k/1% for fulltemperature review.20uA*10.1k=0.202V, leavingabout59.2uA additional leakagemargin to0.8V. Addsnominal297uA relative100k whenAMP_SHUTDOWNhigh.",
+    "status": "Parent notified; physicalR306onMCUsheet not edited byaudioagent."
+  }
+}

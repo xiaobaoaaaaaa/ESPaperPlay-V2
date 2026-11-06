@@ -1,0 +1,41 @@
+{
+  "kicad_version": "10.0.7-1.fc44",
+  "checks": [
+    {
+      "name": "TI_DLA0010A_VSON-HR_2x3mm_P0.5mm",
+      "electrical_pad_count": 10,
+      "native_pcbnew_pad_dimensions": "pass",
+      "sha256": "0c6de199e0350b2bb19fb0b34cf266c3167755131c76266812d4f281ae026b58"
+    },
+    {
+      "name": "TI_RGT0016C_VQFN_3x3mm_P0.5mm_EP1.68mm",
+      "electrical_pad_count": 17,
+      "native_pcbnew_pad_dimensions": "pass",
+      "sha256": "a4d397ee34de050795b13b5057a2524af434f8a2c55f17b236331ef9633402ad"
+    },
+    {
+      "name": "Bourns_MF-MSMF_1812_Style2",
+      "electrical_pad_count": 2,
+      "native_pcbnew_pad_dimensions": "pass",
+      "sha256": "6f2e1deba318634f1fd74dedaeda13d0a2208c3be0a551e8782bd853644359e8"
+    },
+    {
+      "name": "Coilcraft_XFL4015_4x4mm",
+      "electrical_pad_count": 2,
+      "native_pcbnew_pad_dimensions": "pass",
+      "sha256": "e34198c8f672351150d85c9d61df0a283022b9960ed11d6c970c440792e92a11"
+    },
+    {
+      "name": "Bourns_CRF0805_Jumper",
+      "electrical_pad_count": 2,
+      "native_pcbnew_pad_dimensions": "pass",
+      "sha256": "62b53530d9ac045f7ae45aa59de9ae1c8a829c6a84075627414bf004549266c7"
+    },
+    {
+      "name": "AOS_SOT23_PO00001N",
+      "electrical_pad_count": 3,
+      "native_pcbnew_pad_dimensions": "pass",
+      "sha256": "ce336b90b6344581eaecf7110e46bec30b2e0b7a73f6717c0606656bceabbe5a"
+    }
+  ]
+}

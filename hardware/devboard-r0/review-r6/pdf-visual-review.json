@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "date": "2026-11-05",
+  "pdf": "output/pdf/ESPaperPlay_Devboard_Modules_r6.pdf",
+  "sha256": "bd510835e718fba03d97477132cb78cdfb7c33df22f85ae956390546cb6b7792",
+  "pages": 11,
+  "reviewed_at_full_page": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "render_max_dimension_px": 1800,
+  "local_render_folder": "build/redraw-r6/pdf-render",
+  "corrections": "Rotated component fields, label overlap and module-frame clearance adjusted before final export. All eleven final page images inspected; no clipping or serious overlap observed.",
+  "native_sources": {
+    "AUDIO.kicad_sch": "c1606436b4523b00270627744e621192cc328c3da7dea685ef355643b9dc36aa",
+    "CHARGE_TEMP.kicad_sch": "5c93d9d7f8f2e6c88f2960ca562b22dd34ea2eb586185ab4464102719afd2797",
+    "EPD_DISPLAY.kicad_sch": "6618ff91ea103b22b32e40c235ad4689bb0139aecf94a7c4fd62c48a667eaf5f",
+    "ESPaperPlay_Devboard.kicad_sch": "04881857df516822e72f515cb9dcd2036ef034089e2076ae8e6653fd481b298d",
+    "MCU_CORE.kicad_sch": "49a5b4d14459d84af932105d3f0a18c03f3dcefff8e27998b99c245e190ec43f",
+    "POWER_3V3_CONTROL.kicad_sch": "a62937fdee5e2b7b4b09ca6f58f55bcce66e465bdf46e0a292810d0bbb3be869",
+    "POWER_DOMAINS.kicad_sch": "571445e5ea211b3d16402113387cc0c9c13ba83bc3de192f7fb780470a8c05dd",
+    "POWER_INPUT_CHARGER.kicad_sch": "92fccf96a85f637b5761a20b841e3f651ea0f2b627c0520149fef94644b5ca0c",
+    "STORAGE_SD.kicad_sch": "6aeeabbc1ea9414aec5f9dfefcc921fbe43c031edd178476e84467806a491125",
+    "TOUCH_ISOLATION.kicad_sch": "f2bb29d6660dffed531202f1965c7ab7ac7e669b16078a723bc98dc20cdc9d61",
+    "USB_INPUT.kicad_sch": "95a213e56de0b674ef2c4492350b67c69d12ee6df8b2a9bbb2a3c626ab92f9da"
+  },
+  "no_desktop_window_opened": true
+}

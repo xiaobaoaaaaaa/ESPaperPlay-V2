@@ -1,0 +1,224 @@
+{
+  "checked_on": "2026-11-02",
+  "rights": "Manufacturer documents remain copyrighted references, not project MIT licensed. No inventory/price claims.",
+  "sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf",
+      "revision": "SCAS298O, June2026",
+      "id": "TI_SN74LVC541A",
+      "manufacturer": "Texas Instruments",
+      "part": "SN74LVC541APWR",
+      "local_path": "hardware/reference/peripherals/sn74lvc541a.pdf",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "product_url": "https://www.ti.com/product/SN74LVC541A",
+      "checked_on": "2026-11-02",
+      "sha256": "1341bf46dbe37ed3dd3a83767c09a607e760baba6ab541e69708d5c282b08f71",
+      "bytes": 3555843
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf",
+      "revision": "SCES223U, August2026",
+      "id": "TI_SN74LVC1G125",
+      "manufacturer": "Texas Instruments",
+      "part": "SN74LVC1G125DBVR",
+      "local_path": "hardware/reference/peripherals/sn74lvc1g125.pdf",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "product_url": "https://www.ti.com/product/SN74LVC1G125",
+      "checked_on": "2026-11-02",
+      "sha256": "1098d46e4565695e9823a08309bc581e2c9ead26b19e99a43a011a38642b27ca",
+      "bytes": 3056649
+    },
+    {
+      "url": "https://www.vishay.com/docs/63399/si1308edl.pdf",
+      "revision": "Vishay63399; inspected first-page G/S/D and electrical table",
+      "id": "VISHAY_SI1308EDL",
+      "manufacturer": "Vishay Siliconix",
+      "part": "Si1308EDL-T1-GE3",
+      "local_path": "hardware/reference/peripherals/si1308edl.pdf",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "checked_on": "2026-11-02",
+      "sha256": "a86d6f766f259d8b170a01081f577055f37b527257a0f9af497c8f2c33625c9a",
+      "bytes": 259741
+    },
+    {
+      "url": "https://www.onsemi.com/download/data-sheet/pdf/mbr0530-d.pdf",
+      "revision": "MBR0530/D Rev2, March2019",
+      "id": "ONSEMI_MBR0530",
+      "manufacturer": "onsemi",
+      "part": "MBR0530",
+      "local_path": "hardware/reference/peripherals/mbr0530.pdf",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "checked_on": "2026-11-02",
+      "sha256": "e5faf541bc98e8032192f18e8902883f76fa6aa62d851c0c242c5450d4168929",
+      "bytes": 197806
+    },
+    {
+      "id": "PUI_MIC",
+      "url": "https://api.puiaudio.com/filename/DMM-4026-B-I2S-R.pdf",
+      "revision": "Rev A; 2021-05-26",
+      "local_path": "hardware/reference/peripherals/DMM-4026-B-I2S-R.pdf",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "checked_on": "2026-11-02",
+      "sha256": "ce42c9bf03b671cd6e7e95a4bfc414a9ffbd61747dbe4c76220ce650535f1a19",
+      "bytes": 965628
+    },
+    {
+      "id": "NEXPERIA_125",
+      "url": "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf",
+      "product_url": "https://www.nexperia.com/product/74LVC125APW",
+      "revision": "Rev 12; 2025-05-02",
+      "access": "Official PDF fully extracted by web tool. Local downloads (urllib/curl, assets and www URLs) returned HTTP403; no local PDF/hash fabricated.",
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "TI_SCHMITT_14",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf",
+      "product_url": "https://www.ti.com/product/SN74LVC1G14",
+      "revision": "SCES218AA; October2025",
+      "local_path": "hardware/reference/peripherals/sn74lvc1g14.pdf",
+      "access": "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02.",
+      "checked_on": "2026-11-02",
+      "sha256": "3d59568b16a2b7abb63d33ebe6f8ddd37e12dd3ca2616dd803872c509a583283",
+      "bytes": 3094384
+    },
+    {
+      "id": "ADI_MAX98357A",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf",
+      "local_path": "hardware/reference/power/max98357a.pdf",
+      "revision": "19-6779 Rev16 February2026",
+      "pages_reviewed": [
+        35,
+        36,
+        37
+      ],
+      "sha256": "dea228ad619901d34c2f5f106243bdb9b9e95e38989d4d66fd6c6c489bfa6f1c",
+      "bytes": 3933655,
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "ADI_90_0031",
+      "url": "https://mds.analog.com/api/public/content/90-0031.pdf",
+      "revision": "Rev C",
+      "local_path": "build/bom-review-r3/audio_epd/90-0031.pdf",
+      "sha256": "5661318725986f79e664adb5fd24d80c2b444c1d48d3aa4c1b0d51ebfa53f4c8",
+      "bytes": 23409,
+      "pages_reviewed": [
+        1
+      ],
+      "access": "Downloaded original manufacturer PDF; visually inspected land pattern/package drawings",
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "VISHAY_SC70_LAND",
+      "url": "https://www.vishay.com/docs/72601/landpatternsc-70-3lead.pdf",
+      "revision": "72601, 21-Jan-2008",
+      "local_path": "build/bom-review-r3/audio_epd/sc70-land.pdf",
+      "sha256": "814d4ccc7b04f1451110f2c39e63484c56ddcbe9522282afed2ca0d366717c77",
+      "bytes": 30503,
+      "pages_reviewed": [
+        1
+      ],
+      "access": "Downloaded original manufacturer PDF; visually inspected land pattern/package drawings",
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "ONSEMI_MBR0530T1",
+      "url": "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf",
+      "revision": "MBR0530T1/D Rev9 October2024; CASE425 IssueH 29-Feb-2024",
+      "local_path": "build/bom-review-r3/audio_epd/mbr0530t1.pdf",
+      "sha256": "31f5f2f63cc79d4ec9d4146ee71bb16d50c17701eb35a2c7e4a03bdf89cbc457",
+      "bytes": 195242,
+      "pages_reviewed": [
+        1,
+        2,
+        4
+      ],
+      "access": "Downloaded original manufacturer PDF; visually inspected land pattern/package drawings",
+      "checked_on": "2026-11-02"
+    },
+    {
+      "id": "ONSEMI_OLD_PRODUCT",
+      "url": "https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "Last Shipments observed"
+    },
+    {
+      "id": "ONSEMI_NEW_PRODUCT",
+      "url": "https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530t1g",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "MBR0530T1G Active observed; distinct part/source from legacy MBR0530"
+    },
+    {
+      "id": "ADI_PRODUCT",
+      "url": "https://www.analog.com/en/products/max98357a.html",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "PRODUCTION observed"
+    },
+    {
+      "id": "TI_541_PRODUCT",
+      "url": "https://www.ti.com/product/SN74LVC541A",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "ACTIVE observed"
+    },
+    {
+      "id": "TI_125_PRODUCT",
+      "url": "https://www.ti.com/product/SN74LVC1G125",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "ACTIVE observed"
+    },
+    {
+      "id": "TI_14_PRODUCT",
+      "url": "https://www.ti.com/product/SN74LVC1G14",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "ACTIVE observed"
+    },
+    {
+      "id": "NEXPERIA_125_PRODUCT",
+      "url": "https://www.nexperia.com/product/74LVC125APW",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "Production observed; orderable suffix ,118"
+    },
+    {
+      "id": "NEXPERIA_SOT402",
+      "url": "https://assets.nexperia.com/documents/package-information/SOT402-1.pdf",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "SOT402-1 TSSOP14, 5x4.4mm,0.65mm pitch,1.2mm max; drawing 7-Nov-2023; direct download denied HTTP403, web PDF text inspected"
+    },
+    {
+      "id": "PUI_PRODUCT",
+      "url": "https://puiaudio.com/product/microphones/dmm-4026-b-i2s-r",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "Public catalog entry; explicit lifecycle/supply commitment not observed"
+    },
+    {
+      "id": "VISHAY_PRODUCT",
+      "url": "https://www.vishay.com/en/product/63399/",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "Official datasheet/sample/buy links; explicit lifecycle field not observed"
+    },
+    {
+      "id": "BOURNS_SRN4018",
+      "url": "https://www.bourns.com/docs/product-datasheets/srn4018.pdf",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "Rev10/26: SRN4018-100M 10uH20%, DCRmax0.180ohm, Irms1.3A at40C rise, Isat1.4A at30% inductance drop; land pads1.5x3.6mm centers3.05mm; raw download HTTP403, web PDF text inspected"
+    },
+    {
+      "id": "MURATA_475",
+      "url": "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L",
+      "checked_on": "2026-11-02",
+      "access": "Online-only primary source; no local byte/hash claim",
+      "evidence": "GRM31CR71H475KA12L 4.7uF50V X7R10%,1206(3216M),max thickness1.8mm; Aug23 2025; no DC-bias curve captured, raw download403, web PDF text inspected"
+    }
+  ]
+}

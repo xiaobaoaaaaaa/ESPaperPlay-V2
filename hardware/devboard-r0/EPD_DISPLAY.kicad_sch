@@ -1,0 +1,2081 @@
+(kicad_sch
+(version 20250114)
+(generator "eeschema")
+(generator_version "10.0")
+(uuid "35f7748f-331b-5f14-8c88-7cc71eae49de")
+(paper "A3")
+(title_block (title "EPD REFERENCE BOOST / 24-PIN PANEL / DOMAIN BUFFERS") (date "2026-11-05") (rev "r6 DRAWING")
+            (company "ESPaperPlay / xiaobaoaaaaaa")
+            (comment 1 "DESIGN REVIEW ONLY - NO PCB RELEASE / NO BATTERY CHARGE APPROVAL"))
+(lib_symbols (symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Device:L"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 1.905 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "L_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Diode:MBR0530"
+(pin_numbers
+			(hide yes)
+		)
+(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(in_pos_files yes)
+(duplicate_pin_numbers_are_jumpers no)
+(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "Value" "MBR0530"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 0 -4.445 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "ki_keywords" "diode Schottky"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "ki_fp_filters" "D*SOD?123*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(symbol "MBR0530_0_1"
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+(symbol "MBR0530_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+(embedded_fonts no))(symbol "ESPaperPlay:GDEY075T7_24PIN"
+      (pin_names (offset 0.508)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 34.29 0) (effects (font (size 1.05 1.05)) ))
+      (property "Value" "GDEY075T7_24PIN" (at 0 -34.29 0) (effects (font (size 1.05 1.05)) ))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (property "Datasheet" "https://www.good-display.cn/companyfile/1506.html" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (symbol "GDEY075T7_24PIN_0_1"
+        (rectangle (start -16.51 31.75) (end 16.51 -31.75)
+          (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "GDEY075T7_24PIN_1_1"(pin passive line (at -19.05 29.21 0) (length 2.54)
+          (name "NC" (effects (font (size 1.05 1.05))))
+          (number "1" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 26.67 0) (length 2.54)
+          (name "GDR" (effects (font (size 1.05 1.05))))
+          (number "2" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 24.13 0) (length 2.54)
+          (name "RESE" (effects (font (size 1.05 1.05))))
+          (number "3" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 21.59 0) (length 2.54)
+          (name "NC" (effects (font (size 1.05 1.05))))
+          (number "4" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 19.05 0) (length 2.54)
+          (name "VSHR" (effects (font (size 1.05 1.05))))
+          (number "5" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 16.51 0) (length 2.54)
+          (name "TSCL" (effects (font (size 1.05 1.05))))
+          (number "6" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 13.97 0) (length 2.54)
+          (name "TSDA" (effects (font (size 1.05 1.05))))
+          (number "7" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 11.43 0) (length 2.54)
+          (name "BS1" (effects (font (size 1.05 1.05))))
+          (number "8" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 8.89 0) (length 2.54)
+          (name "BUSY" (effects (font (size 1.05 1.05))))
+          (number "9" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 6.35 0) (length 2.54)
+          (name "RES_N" (effects (font (size 1.05 1.05))))
+          (number "10" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 3.81 0) (length 2.54)
+          (name "D/C" (effects (font (size 1.05 1.05))))
+          (number "11" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 1.27 0) (length 2.54)
+          (name "CS_N" (effects (font (size 1.05 1.05))))
+          (number "12" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -1.27 0) (length 2.54)
+          (name "SCL" (effects (font (size 1.05 1.05))))
+          (number "13" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -3.81 0) (length 2.54)
+          (name "SDA" (effects (font (size 1.05 1.05))))
+          (number "14" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -6.35 0) (length 2.54)
+          (name "VDDIO" (effects (font (size 1.05 1.05))))
+          (number "15" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -8.89 0) (length 2.54)
+          (name "VCI" (effects (font (size 1.05 1.05))))
+          (number "16" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -11.43 0) (length 2.54)
+          (name "VSS" (effects (font (size 1.05 1.05))))
+          (number "17" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -13.97 0) (length 2.54)
+          (name "VDD_INT" (effects (font (size 1.05 1.05))))
+          (number "18" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -16.51 0) (length 2.54)
+          (name "VPP" (effects (font (size 1.05 1.05))))
+          (number "19" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -19.05 0) (length 2.54)
+          (name "VSH1" (effects (font (size 1.05 1.05))))
+          (number "20" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -21.59 0) (length 2.54)
+          (name "VGH" (effects (font (size 1.05 1.05))))
+          (number "21" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -24.13 0) (length 2.54)
+          (name "VSL" (effects (font (size 1.05 1.05))))
+          (number "22" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -26.67 0) (length 2.54)
+          (name "VGL" (effects (font (size 1.05 1.05))))
+          (number "23" (effects (font (size 1.05 1.05)))))(pin passive line (at -19.05 -29.21 0) (length 2.54)
+          (name "VCOM" (effects (font (size 1.05 1.05))))
+          (number "24" (effects (font (size 1.05 1.05)))))
+(pin passive line (at 0 -34.29 90) (length 2.54) (name "SH" (effects (font (size 1.05 1.05)))) (number "SH" (effects (font (size 1.05 1.05)))))
+))(symbol "ESPaperPlay:SN74LVC1G125DBV"
+      (pin_names (offset 0.508)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.05 1.05)) ))
+      (property "Value" "SN74LVC1G125DBV" (at 0 -12.7 0) (effects (font (size 1.05 1.05)) ))
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (symbol "SN74LVC1G125DBV_0_1"
+        (rectangle (start -10.16 10.16) (end 10.16 -10.16)
+          (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "SN74LVC1G125DBV_1_1"(pin input line (at -12.7 -3.81 0) (length 2.54)
+          (name "~{OE}" (effects (font (size 1.05 1.05))))
+          (number "1" (effects (font (size 1.05 1.05)))))(pin input line (at -12.7 3.81 0) (length 2.54)
+          (name "A" (effects (font (size 1.05 1.05))))
+          (number "2" (effects (font (size 1.05 1.05)))))(pin power_in line (at 0.0 -12.7 90) (length 2.54)
+          (name "GND" (effects (font (size 1.05 1.05))))
+          (number "3" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 12.7 3.81 180) (length 2.54)
+          (name "Y" (effects (font (size 1.05 1.05))))
+          (number "4" (effects (font (size 1.05 1.05)))))(pin power_in line (at 0.0 12.7 270) (length 2.54)
+          (name "VCC" (effects (font (size 1.05 1.05))))
+          (number "5" (effects (font (size 1.05 1.05)))))))(symbol "ESPaperPlay:SN74LVC541APW"
+      (pin_names (offset 0.508)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 21.59 0) (effects (font (size 1.05 1.05)) ))
+      (property "Value" "SN74LVC541APW" (at 0 -21.59 0) (effects (font (size 1.05 1.05)) ))
+      (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (symbol "SN74LVC541APW_0_1"
+        (rectangle (start -15.24 19.05) (end 15.24 -19.05)
+          (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "SN74LVC541APW_1_1"(pin power_in line (at 0.0 21.59 270) (length 2.54)
+          (name "VCC" (effects (font (size 1.05 1.05))))
+          (number "20" (effects (font (size 1.05 1.05)))))(pin power_in line (at 0.0 -21.59 90) (length 2.54)
+          (name "GND" (effects (font (size 1.05 1.05))))
+          (number "10" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 -13.97 0) (length 2.54)
+          (name "~{OE1}" (effects (font (size 1.05 1.05))))
+          (number "1" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 -16.51 0) (length 2.54)
+          (name "~{OE2}" (effects (font (size 1.05 1.05))))
+          (number "19" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 16.51 0) (length 2.54)
+          (name "A1" (effects (font (size 1.05 1.05))))
+          (number "2" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 16.51 180) (length 2.54)
+          (name "Y1" (effects (font (size 1.05 1.05))))
+          (number "18" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 12.7 0) (length 2.54)
+          (name "A2" (effects (font (size 1.05 1.05))))
+          (number "3" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 12.7 180) (length 2.54)
+          (name "Y2" (effects (font (size 1.05 1.05))))
+          (number "17" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 8.89 0) (length 2.54)
+          (name "A3" (effects (font (size 1.05 1.05))))
+          (number "4" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 8.89 180) (length 2.54)
+          (name "Y3" (effects (font (size 1.05 1.05))))
+          (number "16" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 5.08 0) (length 2.54)
+          (name "A4" (effects (font (size 1.05 1.05))))
+          (number "5" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 5.08 180) (length 2.54)
+          (name "Y4" (effects (font (size 1.05 1.05))))
+          (number "15" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 1.27 0) (length 2.54)
+          (name "A5" (effects (font (size 1.05 1.05))))
+          (number "6" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 1.27 180) (length 2.54)
+          (name "Y5" (effects (font (size 1.05 1.05))))
+          (number "14" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 -2.54 0) (length 2.54)
+          (name "A6" (effects (font (size 1.05 1.05))))
+          (number "7" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 -2.54 180) (length 2.54)
+          (name "Y6" (effects (font (size 1.05 1.05))))
+          (number "13" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 -6.35 0) (length 2.54)
+          (name "A7" (effects (font (size 1.05 1.05))))
+          (number "8" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 -6.35 180) (length 2.54)
+          (name "Y7" (effects (font (size 1.05 1.05))))
+          (number "12" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 -10.16 0) (length 2.54)
+          (name "A8" (effects (font (size 1.05 1.05))))
+          (number "9" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 -10.16 180) (length 2.54)
+          (name "Y8" (effects (font (size 1.05 1.05))))
+          (number "11" (effects (font (size 1.05 1.05)))))))(symbol "Transistor_FET:Si1308EDL"
+(pin_names
+			(offset 0)
+			(hide yes)
+		)
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(in_pos_files yes)
+(duplicate_pin_numbers_are_jumpers no)
+(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+(property "Value" "Si1308EDL"
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 5.08 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+(property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf"
+			(at 5.08 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+(property "Description" "30V Vds, 1.4A Id, N-Channel MOSFET, SC-70"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "ki_keywords" "N-Channel MOSFET"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(symbol "Si1308EDL_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 0.381) (xy 3.683 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+(symbol "Si1308EDL_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+(embedded_fonts no)
+(property "ki_fp_filters" "SOT?323*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		))(symbol "power:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(embedded_fonts no)
+(symbol (lib_id "Device:C") (at 34.29 54.61 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "8602725f-35f8-5892-9609-59e5892ef718")
+          (property "Reference" "C603" (at 39.37 52.705 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "4.7u / 25V" (at 39.37 56.515 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 34.29 54.61 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 34.29 54.61 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 34.29 54.61 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "6139e32c-3955-5dc3-b3a6-2d29c7efefec"))(pin "2" (uuid "a20a59bc-5fe5-505b-9b0d-407fc8f467c7")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C603") (unit 1))))
+(property "Manufacturer" "TDK" (at 34.29 54.61 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C2012X7R1E475K125AB" (at 34.29 54.61 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 34.29 54.61 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C603" (at 34.29 54.61 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1E475K125AB" (at 34.29 54.61 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:L") (at 78.74 39.37 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "47ccd938-196a-5bc6-9c52-e2ce717bb377")
+          (property "Reference" "L601" (at 68.58 30.48 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "10uH / >=1A target" (at 68.58 34.29 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Inductor_SMD:L_Bourns-SRN4018" (at 78.74 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 78.74 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "r3 Bourns SRN4018-100M / matching land candidate. Reference figure says 10uH 1A; table references NR3015 500mA(max). Verify saturation, RMS, DCR and actual boost peaks." (at 78.74 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "b4c44ece-9908-5052-a461-843f6749b9eb"))(pin "2" (uuid "1dcf098b-a8d3-5773-96c0-5377a7f1b272")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "L601") (unit 1))))
+(property "Manufacturer" "Bourns" (at 78.74 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "SRN4018-100M" (at 78.74 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 78.74 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#L601" (at 78.74 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.bourns.com/docs/product-datasheets/srn4018.pdf" (at 78.74 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Transistor_FET:Si1308EDL") (at 101.6 76.2 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "c6b1d901-a617-5516-8e8b-9964da85fbf9")
+          (property "Reference" "Q601" (at 113.03 83.82 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "Vishay Si1308EDL-T1-GE3" (at 113.03 87.63 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "ESPaperPlay:Vishay_SC70_3_AN826_72601" (at 101.6 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.vishay.com/docs/63399/si1308edl.pdf" (at 101.6 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Actual Vishay part only. 1G/2S/3D; 30V; Rds_on max185mOhm at Vgs2.5V. Not the legacy TECH PUBLIC same-name part." (at 101.6 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "af0b338b-a9db-5ca4-b4e6-c0af256e5d94"))(pin "2" (uuid "b693132c-3650-55c0-9f61-e87eaaf48bd5"))(pin "3" (uuid "ba16ada2-80a3-5692-bb10-4e349ea52c5f")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "Q601") (unit 1))))
+(property "Manufacturer" "Vishay Siliconix" (at 101.6 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "Si1308EDL-T1-GE3" (at 101.6 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 101.6 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#Q601" (at 101.6 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/63399/si1308edl.pdf | https://www.vishay.com/docs/72601/landpatternsc-70-3lead.pdf | https://www.vishay.com/en/product/63399/" (at 101.6 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 57.15 99.06 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "77af0cc3-2780-52a4-8ded-63dd2427894e")
+          (property "Reference" "R601" (at 62.23 97.155 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "1M / 1%" (at 62.23 100.965 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 57.15 99.06 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 57.15 99.06 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 57.15 99.06 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "34e4d55d-6e01-5c71-a5a4-52dd75ab288f"))(pin "2" (uuid "7b49c133-7778-57ea-83d7-3bf7a5341c7a")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R601") (unit 1))))
+(property "Manufacturer" "Vishay" (at 57.15 99.06 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW06031M00FKEA" (at 57.15 99.06 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 57.15 99.06 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R601" (at 57.15 99.06 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 57.15 99.06 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 104.14 119.38 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "0c2366d4-71d1-51b7-bdbd-73befbcb06a0")
+          (property "Reference" "R602" (at 109.22 117.475 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "0.47R / 1%" (at 109.22 121.285 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "ESPaperPlay:Vishay_WFM2010_5.08x2.54mm" (at 104.14 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 104.14 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Kelvin sense at Q601 source and ground return. Package/pulse rating TBD; use measured peak current to qualify." (at 104.14 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "ca87de41-60a2-57eb-956d-f77826868df8"))(pin "2" (uuid "304882cb-9e34-55d5-bab0-a6acb79cc013")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R602") (unit 1))))
+(property "Manufacturer" "Vishay Dale" (at 104.14 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "WFMB2010R4700FEA" (at 104.14 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 104.14 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R602" (at 104.14 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/30387/wfm.pdf" (at 104.14 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Diode:MBR0530") (at 207.01 76.2 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "3e9a7a9d-3639-58fd-8278-d920f72c2a87")
+          (property "Reference" "D601" (at 198.12 63.5 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "onsemi MBR0530T1G" (at 198.12 67.31 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Diode_SMD:D_SOD-123" (at 207.01 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf" (at 207.01 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "onsemi MBR0530/D Rev2: 30V,500mA,Vf max430mV at500mA/25C. Pin1 cathode, pin2 anode. Do not substitute legacy vendor by name alone." (at 207.01 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "f37b8ffe-20a1-5028-8982-02b139cc3522"))(pin "2" (uuid "5cea75d8-a1a6-5f9f-ba97-7a6c389486fe")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "D601") (unit 1))))
+(property "Manufacturer" "onsemi" (at 207.01 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "MBR0530T1G" (at 207.01 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 207.01 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#D601" (at 207.01 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf | https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530 | https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530t1g" (at 207.01 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Diode:MBR0530") (at 175.26 100.33 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "7eb5f901-0e9d-5f80-a531-f30e88fec9d8")
+          (property "Reference" "D602" (at 200.66 111.76 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "onsemi MBR0530T1G" (at 200.66 115.57 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Diode_SMD:D_SOD-123" (at 175.26 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf" (at 175.26 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "onsemi MBR0530/D Rev2: 30V,500mA,Vf max430mV at500mA/25C. Pin1 cathode, pin2 anode. Do not substitute legacy vendor by name alone." (at 175.26 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "70f37216-7149-592b-b151-589a3cc38cbb"))(pin "2" (uuid "a60d6091-57e2-55aa-a569-ca11bf0c6020")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "D602") (unit 1))))
+(property "Manufacturer" "onsemi" (at 175.26 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "MBR0530T1G" (at 175.26 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 175.26 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#D602" (at 175.26 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf | https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530 | https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530t1g" (at 175.26 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Diode:MBR0530") (at 143.51 39.37 180) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "a165b438-b5b7-5e78-a4f6-644f1141fa97")
+          (property "Reference" "D603" (at 135.89 30.48 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "onsemi MBR0530T1G" (at 135.89 34.29 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Diode_SMD:D_SOD-123" (at 143.51 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf" (at 143.51 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "onsemi MBR0530/D Rev2: 30V,500mA,Vf max430mV at500mA/25C. Pin1 cathode, pin2 anode. Do not substitute legacy vendor by name alone." (at 143.51 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "709b4bb5-914b-5858-993c-80c306a684f1"))(pin "2" (uuid "349fc199-3182-50fa-8c5b-f1c7ac8b722b")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "D603") (unit 1))))
+(property "Manufacturer" "onsemi" (at 143.51 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "MBR0530T1G" (at 143.51 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 143.51 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#D603" (at 143.51 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf | https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530 | https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530t1g" (at 143.51 39.37 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 143.51 76.2 270) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "16846802-a30a-5854-bd34-df2099da98ed")
+          (property "Reference" "C602" (at 134.62 63.5 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "4.7u / 50V" (at 134.62 67.31 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 143.51 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 143.51 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Flying capacitor, NOT to ground. Effective capacitance and peak difference voltage require verification." (at 143.51 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "6fd1ccb7-0b6c-583b-a9be-f4949f7ad6b2"))(pin "2" (uuid "9a84c5c2-9c53-554f-9739-25263fb1aa3b")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C602") (unit 1))))
+(property "Manufacturer" "Murata" (at 143.51 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "GRM31CR71H475KA12L" (at 143.51 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 143.51 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C602" (at 143.51 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L" (at 143.51 76.2 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "ESPaperPlay:GDEY075T7_24PIN") (at 384.81 90.17 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "e6e0367c-1313-5cf3-ae54-ec8ded3d2c70")
+          (property "Reference" "J601" (at 353.06 35.56 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "EPD FPC 24 x 0.5mm" (at 353.06 39.37 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "ESPaperPlay:HOAUC_HYCW3D-05FPC24-200B_1x24_P0.50mm_SH" (at 384.81 90.17 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.good-display.cn/companyfile/1506.html" (at 384.81 90.17 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Conditional HOAUC candidate for retained extension chain. 24 signal pins unchanged; two retention pads share SH to GND. Pin1/contact face and complete-chain continuity require physical qualification; not a direct-panel mating claim." (at 384.81 90.17 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "e88eec50-d940-538f-8d22-fb8ae6a0b399"))(pin "2" (uuid "7abb2140-acc9-58f8-bfc8-fd05d51f4dff"))(pin "3" (uuid "f0e825a5-a8a3-514c-bd53-0199186fd6b3"))(pin "4" (uuid "52862920-cb78-5a36-8858-c078b313777e"))(pin "5" (uuid "93616f1f-2d94-5d21-8c9d-47cda81ac910"))(pin "6" (uuid "4e8d79c7-7514-5c3a-adfa-15b4075a1c02"))(pin "7" (uuid "47ee2c5e-057a-5a79-8af8-7a459f9bdc48"))(pin "8" (uuid "f5858620-4302-5e19-a444-77a595bf826c"))(pin "9" (uuid "99bbedae-2f0f-5a2c-8ea7-696b7857b9dd"))(pin "10" (uuid "fc2017ac-17a7-5352-8935-6400ae9247eb"))(pin "11" (uuid "99ab2613-68b8-5b86-8c97-6ba8eba051d2"))(pin "12" (uuid "eb2a0bb8-a3c7-5653-aeea-b2008f29907c"))(pin "13" (uuid "47cf0c1c-87cd-5f71-b209-48a21e69d0a8"))(pin "14" (uuid "b5ba3dba-3354-5be0-a241-8f5c101b73c9"))(pin "15" (uuid "df2674e8-3675-543b-bc53-5e4aee6bd775"))(pin "16" (uuid "80d71ff4-818e-5746-97f9-832035a75c3b"))(pin "17" (uuid "f8c02ce6-8c20-55ae-a1a4-21d0e9c57fc6"))(pin "18" (uuid "a8407695-cb32-5395-b8f0-a0ea0825562d"))(pin "19" (uuid "8dd869bf-f509-52b4-80e7-7ca6cad05df1"))(pin "20" (uuid "ac7a0ee7-aa15-54c8-9b5c-31f51d9e0f27"))(pin "21" (uuid "d58ce26d-53c4-576e-ba46-75a6079b7e44"))(pin "22" (uuid "e26a1265-3003-5c7b-bb18-77db764da3c7"))(pin "23" (uuid "f11a0dd6-17b1-5f9e-9ca0-9a866fa06642"))(pin "24" (uuid "36984fef-55f8-54ae-b4bf-b981f44f3f45")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "J601") (unit 1))))
+(property "Manufacturer" "HOAUC" (at 384.81 90.17 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "HYCW3D-05FPC24-200B" (at 384.81 90.17 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 384.81 90.17 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#J601" (at 384.81 90.17 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.good-display.cn/blank7.html?productId=477 | https://www.hirose.com/product/p/CL0586-0521-0-55 | https://www.hirose.com/product/document?clcode=&documentid=D31648_en&documenttype=Catalog&lang=en&productname=&series=FH12 | https://datasheet.lcsc.com/datasheet/pdf/56a886dce77cc08fa7b5dcd104301290.pdf?productCode=C53436608" (at 384.81 90.17 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(pin "SH" (uuid "0b747243-fa66-5186-9bd2-55b13866c29d"))
+)
+(symbol (lib_id "Device:C") (at 311.15 80.01 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "b4055fcf-ae0c-5a6b-8a49-1f58d3d6186f")
+          (property "Reference" "C601" (at 316.23 78.105 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "4.7u / 50V" (at 316.23 81.915 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 311.15 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 311.15 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Panel reference nominal capacitance. X5R/X7R effective value/voltage derating to verify." (at 311.15 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "e1942661-3d4c-56a7-a3cf-0fe690f78a47"))(pin "2" (uuid "4362fa21-3064-5ce6-b75d-33ce8f5a2b6e")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C601") (unit 1))))
+(property "Manufacturer" "Murata" (at 311.15 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "GRM31CR71H475KA12L" (at 311.15 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 311.15 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C601" (at 311.15 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L" (at 311.15 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 292.1 140.97 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "8e671265-798d-5f48-86e3-fb2be6cd9f0a")
+          (property "Reference" "C604" (at 283.21 148.59 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "4.7u / 50V" (at 283.21 152.4 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 292.1 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 292.1 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Panel reference nominal capacitance. X5R/X7R effective value/voltage derating to verify." (at 292.1 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "64d561e0-fe66-5ac2-8b92-4267fa906eeb"))(pin "2" (uuid "eaf02578-518c-5495-86c0-4ef5f8cfa08e")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C604") (unit 1))))
+(property "Manufacturer" "Murata" (at 292.1 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "GRM31CR71H475KA12L" (at 292.1 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 292.1 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C604" (at 292.1 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L" (at 292.1 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 299.72 88.9 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "0c7c7d9f-c0b9-52d9-b07f-753e4b118626")
+          (property "Reference" "C605" (at 288.29 80.01 90) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "1u / 50V" (at 288.29 83.82 90) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 299.72 88.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 299.72 88.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Panel reference nominal capacitance. X5R/X7R effective value/voltage derating to verify." (at 299.72 88.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "bf8aeb37-43c2-5e5e-854a-a71fa0bbf13f"))(pin "2" (uuid "9af015ae-6a3f-552c-812c-0948c5027c70")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C605") (unit 1))))
+(property "Manufacturer" "TDK" (at 299.72 88.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C2012X7R1H105K125AB" (at 299.72 88.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 299.72 88.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C605" (at 299.72 88.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1H105K125AB" (at 299.72 88.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 269.24 96.52 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "d2fea429-3749-5ab4-bd28-fabf10d37612")
+          (property "Reference" "C606" (at 274.32 86.36 90) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "1u / 50V" (at 274.32 90.17 90) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 269.24 96.52 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 269.24 96.52 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Panel reference nominal capacitance. X5R/X7R effective value/voltage derating to verify." (at 269.24 96.52 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "91cc5f10-b640-594c-85db-7029ed50e1c3"))(pin "2" (uuid "ea740018-6495-533f-bda4-10bb9acf4036")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C606") (unit 1))))
+(property "Manufacturer" "TDK" (at 269.24 96.52 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C2012X7R1H105K125AB" (at 269.24 96.52 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 269.24 96.52 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C606" (at 269.24 96.52 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1H105K125AB" (at 269.24 96.52 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 267.97 140.97 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "233e3b9a-67a1-5deb-bb29-b491735dee43")
+          (property "Reference" "C607" (at 259.08 148.59 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "4.7u / 50V" (at 259.08 152.4 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 267.97 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 267.97 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Panel reference nominal capacitance. X5R/X7R effective value/voltage derating to verify." (at 267.97 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "520eca42-4a53-5d13-aa2e-5ff160d087dc"))(pin "2" (uuid "fa4699cf-4ad6-5601-b59f-f551c8594b44")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C607") (unit 1))))
+(property "Manufacturer" "Murata" (at 267.97 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "GRM31CR71H475KA12L" (at 267.97 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 267.97 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C607" (at 267.97 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L" (at 267.97 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 316.23 140.97 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "3891c208-da7c-57e2-8417-f9fb3900fd49")
+          (property "Reference" "C608" (at 307.34 148.59 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "4.7u / 50V" (at 307.34 152.4 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 316.23 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 316.23 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Panel reference nominal capacitance. X5R/X7R effective value/voltage derating to verify." (at 316.23 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "afce7242-8519-5a3a-a218-30a9c45acde5"))(pin "2" (uuid "32157a42-6427-562a-90d3-d70aa1b52a6f")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C608") (unit 1))))
+(property "Manufacturer" "Murata" (at 316.23 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "GRM31CR71H475KA12L" (at 316.23 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 316.23 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C608" (at 316.23 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L" (at 316.23 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 340.36 140.97 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "04d9975c-1124-58c0-92d4-6f5930a1b470")
+          (property "Reference" "C609" (at 331.47 148.59 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "4.7u / 50V" (at 331.47 152.4 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 340.36 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 340.36 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Panel reference nominal capacitance. X5R/X7R effective value/voltage derating to verify." (at 340.36 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "101ad2fd-c33e-5dab-88a5-7ca8120fd90a"))(pin "2" (uuid "d3bd36a2-5d30-511e-a8cf-e4e717109935")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C609") (unit 1))))
+(property "Manufacturer" "Murata" (at 340.36 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "GRM31CR71H475KA12L" (at 340.36 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 340.36 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C609" (at 340.36 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L" (at 340.36 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 364.49 140.97 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "1813d649-f641-510b-a003-3d1af81e0e81")
+          (property "Reference" "C610" (at 355.6 148.59 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "1u / 50V" (at 355.6 152.4 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 364.49 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 364.49 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Panel reference nominal capacitance. X5R/X7R effective value/voltage derating to verify." (at 364.49 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "818d8c58-3112-5c94-bd47-db67987f02f5"))(pin "2" (uuid "984f3152-f680-5614-805d-4bb83c9b1e64")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C610") (unit 1))))
+(property "Manufacturer" "TDK" (at 364.49 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C2012X7R1H105K125AB" (at 364.49 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 364.49 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C610" (at 364.49 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1H105K125AB" (at 364.49 140.97 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "ESPaperPlay:SN74LVC541APW") (at 139.7 220.98 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "157f1f82-2afa-5b98-8c9d-fbb07897705e")
+          (property "Reference" "U601" (at 129.54 181.61 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI SN74LVC541APWR" (at 129.54 185.42 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 139.7 220.98 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf" (at 139.7 220.98 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Five write-only MCU signals. Inputs tolerate5.5V; Ioff specified at VCC=0. Output supply follows EPD_3V3. No guarantee of high-Z throughout rail ramp." (at 139.7 220.98 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "20" (uuid "e874b412-8a26-51b3-be62-5dd0b9a00207"))(pin "10" (uuid "2e08f105-b094-50c7-8770-74262e8be6e9"))(pin "1" (uuid "ba74e1f7-dda4-5d37-bc5b-b42f4c1e20ac"))(pin "19" (uuid "497ec87e-62ee-5fe0-93b7-8e9dff5e6436"))(pin "2" (uuid "d131ffa0-4b16-540f-afb5-dc446a98551f"))(pin "18" (uuid "f6cd7b60-fd4d-541f-a3f0-7c3cd5a9341d"))(pin "3" (uuid "59d3b55a-5aae-5bc2-9229-1bf92f9f60ae"))(pin "17" (uuid "bf15834c-d3fe-5362-9096-bb2917757991"))(pin "4" (uuid "9c9ab22b-a97c-512b-8c85-8188d04d0f82"))(pin "16" (uuid "a62b75f8-267f-5826-8da4-b4c215cdc4ae"))(pin "5" (uuid "4c85786b-cd62-5647-bedf-0f8f950237f6"))(pin "15" (uuid "8cbb9f57-beda-5948-b9c2-9bc4795dcede"))(pin "6" (uuid "5504841e-0ce1-5410-8f83-f192e21bd96c"))(pin "14" (uuid "208d9a74-dc21-5cc3-9d2f-c09435d37ed5"))(pin "7" (uuid "6c1bbbb4-8ee9-5a5a-843e-e2fe8ef6e50d"))(pin "13" (uuid "ae1e08c8-c57b-5918-b04e-121347974789"))(pin "8" (uuid "8bcabf94-a4e5-5e67-90ae-d39087048379"))(pin "12" (uuid "b3edfd8e-a892-5e04-9d80-e848e1b3bc96"))(pin "9" (uuid "c5fda21a-e42c-5d7b-a176-c73c032dc4f3"))(pin "11" (uuid "226386a8-fc14-55be-86b3-94ddaca5c572")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "U601") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 139.7 220.98 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "SN74LVC541APWR" (at 139.7 220.98 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 139.7 220.98 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U601" (at 139.7 220.98 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf | https://www.ti.com/product/SN74LVC541A" (at 139.7 220.98 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 176.53 189.23 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "db460c49-2594-59ca-80c9-a01e0ea1f57e")
+          (property "Reference" "C611" (at 181.61 187.325 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 181.61 191.135 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 176.53 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 176.53 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 176.53 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "88030842-3c0f-5deb-91b0-7cc83d126367"))(pin "2" (uuid "ffbf2262-dce9-5815-941c-8b8f989d4250")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C611") (unit 1))))
+(property "Manufacturer" "TDK" (at 176.53 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 176.53 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 176.53 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C611" (at 176.53 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 176.53 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "power:PWR_FLAG") (at 139.7 176.53 0) (unit 1)
+          (exclude_from_sim no) (in_bom no) (on_board no)
+          (dnp no) (uuid "4fdfaeae-d1d4-5a04-aec6-841880b5da8c")
+          (property "Reference" "#FLG601" (at 144.78 174.625 0) (effects (font (size 1.05 1.05)) (justify left) (hide yes)))
+          (property "Value" "PWR_FLAG" (at 144.78 178.435 0) (effects (font (size 1.05 1.05)) (justify left) (hide yes)))
+          (property "Footprint" "" (at 139.7 176.53 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 139.7 176.53 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 139.7 176.53 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "37aee258-a367-5963-8d19-1ee7aea7f2a3")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "#FLG601") (unit 1)))))
+(symbol (lib_id "Device:R") (at 196.85 204.47 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "e9e984d4-bb8a-506c-9fff-b57d840e8211")
+          (property "Reference" "R603" (at 189.23 198.755 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "33R" (at 189.23 201.93 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 196.85 204.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 196.85 204.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Series damping candidate at buffer output. Tune from actual FPC signal integrity; no rate guarantee." (at 196.85 204.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "f03510ef-61dc-5747-aec4-b579f13097c6"))(pin "2" (uuid "c03cd724-da44-5a56-8f22-a25c03ea9e49")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R603") (unit 1))))
+(property "Manufacturer" "Vishay" (at 196.85 204.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060333R0FKEA" (at 196.85 204.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 196.85 204.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R603" (at 196.85 204.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 196.85 204.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 229.87 208.28 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "a7217d96-2ee9-562d-ae89-27de1433dbdf")
+          (property "Reference" "R604" (at 222.25 202.565 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "33R" (at 222.25 205.74 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 229.87 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 229.87 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Series damping candidate at buffer output. Tune from actual FPC signal integrity; no rate guarantee." (at 229.87 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "559d7036-16b9-5432-b1b2-6e1b0aedcf28"))(pin "2" (uuid "42326368-780d-570f-b95d-f9bf12a2821a")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R604") (unit 1))))
+(property "Manufacturer" "Vishay" (at 229.87 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060333R0FKEA" (at 229.87 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 229.87 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R604" (at 229.87 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 229.87 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 196.85 212.09 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "7d7fef2e-d547-551a-92cf-3bdf9e6f528e")
+          (property "Reference" "R605" (at 189.23 206.375 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "33R" (at 189.23 209.55 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 196.85 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 196.85 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Series damping candidate at buffer output. Tune from actual FPC signal integrity; no rate guarantee." (at 196.85 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "c293a807-7220-5c54-8334-99095e0dbefc"))(pin "2" (uuid "2f77e914-076a-535b-8bba-806ee853ce2b")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R605") (unit 1))))
+(property "Manufacturer" "Vishay" (at 196.85 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060333R0FKEA" (at 196.85 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 196.85 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R605" (at 196.85 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 196.85 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 229.87 215.9 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "960afebf-87a6-57e2-8c84-8438ba3f96d1")
+          (property "Reference" "R606" (at 222.25 210.185 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "33R" (at 222.25 213.36 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 229.87 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 229.87 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Series damping candidate at buffer output. Tune from actual FPC signal integrity; no rate guarantee." (at 229.87 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "4e208e96-3834-5923-aaf6-a91c29c79022"))(pin "2" (uuid "a9c834c9-abc6-583c-899d-01845e09e52f")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R606") (unit 1))))
+(property "Manufacturer" "Vishay" (at 229.87 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060333R0FKEA" (at 229.87 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 229.87 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R606" (at 229.87 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 229.87 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 196.85 219.71 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "a01e6c6b-2740-5697-9828-62566c124d9b")
+          (property "Reference" "R607" (at 189.23 213.995 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "33R" (at 189.23 217.17 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 196.85 219.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 196.85 219.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Series damping candidate at buffer output. Tune from actual FPC signal integrity; no rate guarantee." (at 196.85 219.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "7f91054c-7881-59a1-bf27-05ca988faccc"))(pin "2" (uuid "ffdf6c4b-386a-5420-bc7f-6410f9a59ceb")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R607") (unit 1))))
+(property "Manufacturer" "Vishay" (at 196.85 219.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060333R0FKEA" (at 196.85 219.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 196.85 219.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R607" (at 196.85 219.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 196.85 219.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 25.4 234.95 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "24097423-3420-5970-9a73-2c58128b7f30")
+          (property "Reference" "R608" (at 30.48 233.045 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 30.48 236.855 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 25.4 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 25.4 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "MCU-side hardware default during reset/high-Z. CS high, all other write signals low." (at 25.4 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "1deb0bb7-4026-50ae-a3b5-440339617648"))(pin "2" (uuid "90c497ab-0277-5107-b507-f5b4b9846173")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R608") (unit 1))))
+(property "Manufacturer" "Vishay" (at 25.4 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 25.4 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 25.4 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R608" (at 25.4 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 25.4 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 45.72 234.95 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "a30c9be7-4b24-55bf-bafb-2d01944cf21e")
+          (property "Reference" "R609" (at 50.8 233.045 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 50.8 236.855 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 45.72 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 45.72 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "MCU-side hardware default during reset/high-Z. CS high, all other write signals low." (at 45.72 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "9c840090-53d6-5355-bf4e-66af7a5da3a5"))(pin "2" (uuid "f35c2a79-fc1f-5980-95f9-de4bb7a2d477")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R609") (unit 1))))
+(property "Manufacturer" "Vishay" (at 45.72 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 45.72 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 45.72 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R609" (at 45.72 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 45.72 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 66.04 234.95 180) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "e051d4b2-bd83-5115-8eb3-1d0da854d456")
+          (property "Reference" "R610" (at 71.12 233.045 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 71.12 236.855 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 66.04 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 66.04 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "MCU-side hardware default during reset/high-Z. CS high, all other write signals low." (at 66.04 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "9665148f-1f6c-5403-9d5d-e2ab845e8e99"))(pin "2" (uuid "15d2c63b-2e63-52fc-8afe-0fdce12a783f")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R610") (unit 1))))
+(property "Manufacturer" "Vishay" (at 66.04 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 66.04 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 66.04 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R610" (at 66.04 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 66.04 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 86.36 234.95 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "86b99763-086a-599d-8c3e-a98702f1005f")
+          (property "Reference" "R611" (at 91.44 233.045 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 91.44 236.855 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 86.36 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 86.36 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "MCU-side hardware default during reset/high-Z. CS high, all other write signals low." (at 86.36 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "ea5dc6e2-ceba-5bb9-a4f2-52ce56ff7941"))(pin "2" (uuid "9de90de8-553c-5008-a245-d764cc714b18")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R611") (unit 1))))
+(property "Manufacturer" "Vishay" (at 86.36 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 86.36 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 86.36 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R611" (at 86.36 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 86.36 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 106.68 234.95 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "0cae1cb8-8ce2-5127-b409-43bb456afe7d")
+          (property "Reference" "R612" (at 111.76 233.045 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 111.76 236.855 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 106.68 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 106.68 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "MCU-side hardware default during reset/high-Z. CS high, all other write signals low." (at 106.68 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "4d79a530-8cc3-547e-b51a-a45c2a46af01"))(pin "2" (uuid "34016ade-9971-5af5-ab90-7a09c30d3445")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R612") (unit 1))))
+(property "Manufacturer" "Vishay" (at 106.68 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 106.68 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 106.68 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R612" (at 106.68 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 106.68 234.95 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 279.4 232.41 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "fe3daf17-dd08-59f3-8fbc-70bc86e1e3e3")
+          (property "Reference" "R613" (at 284.48 230.505 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 284.48 234.315 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 279.4 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 279.4 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Panel reset held low if buffer output is high-Z." (at 279.4 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "2f835b3d-3f49-520a-a4a0-6f2292ac3a2c"))(pin "2" (uuid "be84ea0f-152b-5ffb-9491-0bfc58107f82")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R613") (unit 1))))
+(property "Manufacturer" "Vishay" (at 279.4 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 279.4 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 279.4 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R613" (at 279.4 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 279.4 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "ESPaperPlay:SN74LVC1G125DBV") (at 342.9 210.82 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "6f80bc45-c131-526c-b770-e6332af91466")
+          (property "Reference" "U602" (at 330.2 182.88 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI SN74LVC1G125DBVR" (at 330.2 186.69 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 342.9 210.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf" (at 342.9 210.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "AON-supplied BUSY buffer; protects MCU domain when panel retains charge. Ioff at AON=0; no rail-ramp guarantee." (at 342.9 210.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "067fab69-a46a-534d-b181-6babee8e738b"))(pin "2" (uuid "7eeb5b6b-09bc-5eee-a390-2ebf776e5c0d"))(pin "3" (uuid "803e2db9-dcb6-5076-bbcc-5aa528bee821"))(pin "4" (uuid "b15a7d3d-53cd-5986-b17f-41aa21f392ec"))(pin "5" (uuid "e3f45761-e9a6-5b1f-b1c2-1d477f9e9b65")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "U602") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 342.9 210.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "SN74LVC1G125DBVR" (at 342.9 210.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 342.9 210.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U602" (at 342.9 210.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf | https://www.ti.com/product/SN74LVC1G125" (at 342.9 210.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 308.61 231.14 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "acac75b0-1438-57b2-893d-962b2edd10c6")
+          (property "Reference" "R614" (at 313.69 229.235 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 313.69 233.045 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 308.61 231.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 308.61 231.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Domain OFF/unplugged -> BUSY low (busy/invalid), never ready. Software must qualify the rail state first." (at 308.61 231.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "bc6e3a00-1a90-549d-a809-9797a4d87029"))(pin "2" (uuid "2e08c0d8-678f-52ca-ac6b-5599ae2e8665")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "R614") (unit 1))))
+(property "Manufacturer" "Vishay" (at 308.61 231.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 308.61 231.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 308.61 231.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R614" (at 308.61 231.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 308.61 231.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 375.92 190.5 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "f53661b1-79dd-5415-857b-08ac89b5b02f")
+          (property "Reference" "C612" (at 381 188.595 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 381 192.405 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 375.92 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 375.92 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 375.92 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "f6d7b0fe-b8b6-50f9-a1f3-d8e06e010ee6"))(pin "2" (uuid "4179bb23-1315-5e55-bb2a-585313c230ad")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/dc6f0f1f-6161-5cf5-b2cd-6a0aefdc393a" (reference "C612") (unit 1))))
+(property "Manufacturer" "TDK" (at 375.92 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 375.92 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 375.92 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C612" (at 375.92 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 375.92 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(text "EPD / CONNECTED BOOST, PANEL STORAGE AND DOMAIN BUFFERS" (at 15.24 15.24 0) (effects (font (size 1.8 1.8)) (justify left top)) (uuid "a50c3b4c-e764-58c1-8e2a-242fdbe58f7f"))
+(text "GOOD DISPLAY REFERENCE BOOST" (at 19.05 30.48 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "4ac2d07e-7fee-5ad3-bef3-f65f8e17a215"))
+(polyline (pts (xy 15.24 26.67) (xy 243.84 26.67) (xy 243.84 162.56) (xy 15.24 162.56) (xy 15.24 26.67)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "31a81b5d-9d62-5ab6-967b-7ed2dd5348a8"))
+(text "PANEL FPC / STORAGE CAPACITORS" (at 255.27 30.48 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "030817ce-8b9c-5eff-96f9-d67d2eb31ce2"))
+(polyline (pts (xy 251.46 26.67) (xy 403.86 26.67) (xy 403.86 162.56) (xy 251.46 162.56) (xy 251.46 26.67)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "e2d6a8bb-4f25-5f65-ac31-89c5c711f2e1"))
+(text "MCU OUTPUT BUFFER / DEFAULTS" (at 19.05 173.99 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "fdffe6fd-366b-5bcb-8bf3-665e53e68dca"))
+(polyline (pts (xy 15.24 170.18) (xy 256.54 170.18) (xy 256.54 269.24) (xy 15.24 269.24) (xy 15.24 170.18)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "b4b40533-1132-52f4-85b5-f4cbdf53b383"))
+(text "BUSY RETURN / PANEL RESET DEFAULT" (at 267.97 173.99 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "be94b798-aab1-5598-949e-a07e13310beb"))
+(polyline (pts (xy 264.16 170.18) (xy 403.86 170.18) (xy 403.86 252.73) (xy 264.16 252.73) (xy 264.16 170.18)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "94a5400e-1d76-5654-9363-1de5027b8c0e"))
+(text "C602 is the flying capacitor: FLY to SW, never GND.\nQ601 source -> RESE -> R602; keep switch loops short.\nPanel generates HV. No external HV supply injection." (at 21.59 140.97 0) (effects (font (size 1.0 1.0)) (justify left top)) (uuid "b136a84a-d3fc-5934-a495-b415691e4d23"))
+(text "CS defaults HIGH; CLK/MOSI/DC/RESET LOW. EPD rail supplies U601." (at 21.59 260.35 0) (effects (font (size 0.95 0.95)) (justify left top)) (uuid "8690f872-0119-591d-8703-e9bfc1e14c88"))
+(text "OFF / unplugged: BUSY LOW is invalid, not ready.\nFinish refresh, sleep panel, hold safe pins before OFF." (at 270.51 245.11 0) (effects (font (size 0.95 0.95)) (justify left top)) (uuid "636b8eed-bae5-5a70-9c37-d89c7c0f2c65"))
+(text "FPC uses retained passive extension. BS1=0, write-only SPI. VDD_INT has its own capacitor; it is not the 3.3V rail." (at 15.24 279.4 0) (effects (font (size 1.0 1.0)) (justify left top)) (uuid "52c634e1-a64c-5def-bf75-d7856325a4f9"))
+(no_connect (at 365.76 60.96) (uuid "952f12ec-2442-5a6b-a758-e20e5be85828"))
+(no_connect (at 365.76 68.58) (uuid "86f6beef-4796-5b97-8cb9-1608fcb13cd8"))
+(no_connect (at 365.76 73.66) (uuid "42747844-eca0-56b1-ab8e-8df3b3e57c5f"))
+(no_connect (at 365.76 76.2) (uuid "7094ddeb-6ee1-5c5e-9f0e-276d83b1d190"))
+(no_connect (at 365.76 106.68) (uuid "a9531767-6f36-5fcb-b529-d08727e26bad"))
+(no_connect (at 157.48 223.52) (uuid "c74079f5-46ef-5096-9b0a-0d5cc0d2fad8"))
+(no_connect (at 157.48 227.33) (uuid "2b05790e-a8b4-51cc-9351-858c5a21d0e8"))
+(no_connect (at 157.48 231.14) (uuid "c5988083-b77b-551c-b78a-de1ec19c6107"))
+(junction (at 308.61 241.3) (diameter 0) (color 0 0 0 0) (uuid "a1710f9e-484c-5dcc-812b-1e674db6a8c5"))
+(junction (at 104.14 71.12) (diameter 0) (color 0 0 0 0) (uuid "a43ecb21-0891-5c7a-b26f-4471226c8194"))
+(junction (at 116.84 227.33) (diameter 0) (color 0 0 0 0) (uuid "7a64dc02-52a5-5473-b1e0-773b2383a8ea"))
+(junction (at 104.14 39.37) (diameter 0) (color 0 0 0 0) (uuid "d68b847d-15e6-520b-b907-577e4f993487"))
+(junction (at 340.36 158.75) (diameter 0) (color 0 0 0 0) (uuid "c0edd9dd-5296-5f9c-888b-6dc0b142ea5c"))
+(junction (at 116.84 247.65) (diameter 0) (color 0 0 0 0) (uuid "ba86ad0c-d63a-589d-b34e-1325f4536b38"))
+(junction (at 316.23 158.75) (diameter 0) (color 0 0 0 0) (uuid "bdf40e0e-b9cc-5caa-8184-7aefb2f71f4e"))
+(junction (at 106.68 247.65) (diameter 0) (color 0 0 0 0) (uuid "f66d97bd-55e0-5aeb-a2ae-9111210967bc"))
+(junction (at 358.14 96.52) (diameter 0) (color 0 0 0 0) (uuid "3f3b77e2-0e86-5eaf-8ef8-043ea3b564d9"))
+(junction (at 116.84 252.73) (diameter 0) (color 0 0 0 0) (uuid "9d76e789-37ab-5054-906a-072051a258af"))
+(junction (at 116.84 234.95) (diameter 0) (color 0 0 0 0) (uuid "45267c4c-340f-5c12-b7c1-1f45202cdc97"))
+(junction (at 116.84 237.49) (diameter 0) (color 0 0 0 0) (uuid "7c0907f3-95a0-5839-a746-6dadec968dca"))
+(junction (at 104.14 60.96) (diameter 0) (color 0 0 0 0) (uuid "ef3e0c6a-dac1-57ef-a89e-bc8878aae298"))
+(junction (at 86.36 247.65) (diameter 0) (color 0 0 0 0) (uuid "bef78b86-6ca8-5ba7-8ed1-501f77628751"))
+(junction (at 292.1 158.75) (diameter 0) (color 0 0 0 0) (uuid "88211563-bdb1-5548-806d-1255dd457a26"))
+(junction (at 116.84 231.14) (diameter 0) (color 0 0 0 0) (uuid "af3e3f7f-aff3-5267-b749-487cc1464d18"))
+(junction (at 175.26 76.2) (diameter 0) (color 0 0 0 0) (uuid "2ea3a289-a605-5a37-bdba-0183745818a8"))
+(junction (at 45.72 247.65) (diameter 0) (color 0 0 0 0) (uuid "23e38315-b4a3-5d37-8158-83384b635b81"))
+(junction (at 139.7 252.73) (diameter 0) (color 0 0 0 0) (uuid "c12cbef0-e40d-5ed6-a128-844e5b69ea0d"))
+(junction (at 323.85 241.3) (diameter 0) (color 0 0 0 0) (uuid "6b451ee7-d88f-52ea-a4fe-532c02625cf5"))
+(junction (at 342.9 241.3) (diameter 0) (color 0 0 0 0) (uuid "ccebedc6-5820-5bb5-bc02-c8f5bea5bc5f"))
+(wire (pts (xy 25.4 204.47) (xy 25.4 231.14)) (stroke (width 0) (type default)) (uuid "3ca65d4a-e310-5ac6-ade0-76a63a40b9dc"))
+(wire (pts (xy 25.4 204.47) (xy 121.92 204.47)) (stroke (width 0) (type default)) (uuid "5b9938a7-da02-5123-babc-9a0cc70814db"))
+(wire (pts (xy 25.4 238.76) (xy 25.4 247.65)) (stroke (width 0) (type default)) (uuid "87e090b7-afd0-533a-a351-b3fab7bfe766"))
+(wire (pts (xy 25.4 247.65) (xy 45.72 247.65)) (stroke (width 0) (type default)) (uuid "621aeeb3-3b34-577a-a3bb-ebf214130b34"))
+(wire (pts (xy 34.29 39.37) (xy 34.29 50.8)) (stroke (width 0) (type default)) (uuid "81f5dad1-4a26-55df-a719-6b4be87c9f62"))
+(wire (pts (xy 34.29 39.37) (xy 74.93 39.37)) (stroke (width 0) (type default)) (uuid "4c415ba4-3e9c-579d-acf1-d4c9073cb916"))
+(wire (pts (xy 34.29 58.42) (xy 34.29 63.5)) (stroke (width 0) (type default)) (uuid "07549b5f-d570-5694-ab2b-b469dce4bee4"))
+(wire (pts (xy 45.72 208.28) (xy 45.72 231.14)) (stroke (width 0) (type default)) (uuid "0f6021dc-6fc7-5f64-87e3-aa5fcf25a1c0"))
+(wire (pts (xy 45.72 208.28) (xy 121.92 208.28)) (stroke (width 0) (type default)) (uuid "88ec56e8-c841-5a03-b2cc-d8475b49f4b8"))
+(wire (pts (xy 45.72 238.76) (xy 45.72 247.65)) (stroke (width 0) (type default)) (uuid "02aac6d1-47f1-5ace-b32d-0fda880b8701"))
+(wire (pts (xy 45.72 247.65) (xy 86.36 247.65)) (stroke (width 0) (type default)) (uuid "367e2cca-18a7-5851-87ce-f97c4cb8540f"))
+(wire (pts (xy 57.15 76.2) (xy 57.15 95.25)) (stroke (width 0) (type default)) (uuid "bd81a977-a0f3-5b53-b755-43da8a9288e2"))
+(wire (pts (xy 57.15 76.2) (xy 96.52 76.2)) (stroke (width 0) (type default)) (uuid "815b7408-e7db-5083-a040-a9fa01f610af"))
+(wire (pts (xy 57.15 102.87) (xy 57.15 107.95)) (stroke (width 0) (type default)) (uuid "afc28d42-3787-56e8-a0b2-b963c85b0027"))
+(wire (pts (xy 66.04 212.09) (xy 66.04 231.14)) (stroke (width 0) (type default)) (uuid "e8bdb335-2f71-58eb-af20-420d3ff36efd"))
+(wire (pts (xy 66.04 212.09) (xy 121.92 212.09)) (stroke (width 0) (type default)) (uuid "c6fd8179-992c-59e8-9966-9b630de179b1"))
+(wire (pts (xy 66.04 238.76) (xy 66.04 243.84)) (stroke (width 0) (type default)) (uuid "468861ed-ff4a-597a-8f97-57e54c868478"))
+(wire (pts (xy 82.55 39.37) (xy 104.14 39.37)) (stroke (width 0) (type default)) (uuid "0dbbb492-4b65-5281-9cc1-977a95292de2"))
+(wire (pts (xy 86.36 215.9) (xy 86.36 231.14)) (stroke (width 0) (type default)) (uuid "5edc8baf-6d2f-599e-8948-065b45e7176b"))
+(wire (pts (xy 86.36 215.9) (xy 121.92 215.9)) (stroke (width 0) (type default)) (uuid "6b2a1eba-6917-55b8-ba8f-e256056bdea9"))
+(wire (pts (xy 86.36 238.76) (xy 86.36 247.65)) (stroke (width 0) (type default)) (uuid "b95c0f09-e426-574a-89a9-157b3769dbfb"))
+(wire (pts (xy 86.36 247.65) (xy 106.68 247.65)) (stroke (width 0) (type default)) (uuid "e9f77ab8-53cf-51bf-bf51-c294c527ec20"))
+(wire (pts (xy 104.14 39.37) (xy 104.14 60.96)) (stroke (width 0) (type default)) (uuid "1567727a-6ed6-5a0a-8500-29b76bf80325"))
+(wire (pts (xy 104.14 39.37) (xy 139.7 39.37)) (stroke (width 0) (type default)) (uuid "8626e1b9-4a86-5b4a-b8d7-ec862d4e3cab"))
+(wire (pts (xy 104.14 60.96) (xy 104.14 71.12)) (stroke (width 0) (type default)) (uuid "5168b194-4156-54b0-9b97-102c59bbb15c"))
+(wire (pts (xy 104.14 60.96) (xy 123.19 60.96)) (stroke (width 0) (type default)) (uuid "6ff777f3-e644-5d4b-a3c3-752a5f46b6eb"))
+(wire (pts (xy 104.14 81.28) (xy 104.14 115.57)) (stroke (width 0) (type default)) (uuid "7940c47a-d1aa-55e1-bcba-4f994feb8123"))
+(wire (pts (xy 104.14 123.19) (xy 104.14 128.27)) (stroke (width 0) (type default)) (uuid "1add4460-7785-5abf-aaba-c32147d91b1c"))
+(wire (pts (xy 106.68 219.71) (xy 106.68 231.14)) (stroke (width 0) (type default)) (uuid "e444422c-09b8-5ed6-aa6b-6077f91c0732"))
+(wire (pts (xy 106.68 219.71) (xy 121.92 219.71)) (stroke (width 0) (type default)) (uuid "f3826a9a-c1c2-53af-97d5-3b8d50ef9c08"))
+(wire (pts (xy 106.68 238.76) (xy 106.68 247.65)) (stroke (width 0) (type default)) (uuid "a77414ca-a267-534d-8b24-7344ec973f42"))
+(wire (pts (xy 106.68 247.65) (xy 116.84 247.65)) (stroke (width 0) (type default)) (uuid "955c0834-9b18-5ed3-8002-48e5e98096f5"))
+(wire (pts (xy 116.84 223.52) (xy 116.84 227.33)) (stroke (width 0) (type default)) (uuid "fe7aaad6-69ee-5d0d-b37d-213e19588453"))
+(wire (pts (xy 116.84 223.52) (xy 121.92 223.52)) (stroke (width 0) (type default)) (uuid "a01e2722-1343-59da-9bca-820b35d29965"))
+(wire (pts (xy 116.84 227.33) (xy 116.84 231.14)) (stroke (width 0) (type default)) (uuid "2334d397-d67b-5627-ab22-52294aa9cd42"))
+(wire (pts (xy 116.84 227.33) (xy 121.92 227.33)) (stroke (width 0) (type default)) (uuid "26296838-698e-511e-9949-29f853ef60bb"))
+(wire (pts (xy 116.84 231.14) (xy 116.84 234.95)) (stroke (width 0) (type default)) (uuid "2e61be93-682c-52f8-adf1-2c424db1cc82"))
+(wire (pts (xy 116.84 231.14) (xy 121.92 231.14)) (stroke (width 0) (type default)) (uuid "0c49a9ac-0ab7-524a-b327-dc9f13163e58"))
+(wire (pts (xy 116.84 234.95) (xy 116.84 237.49)) (stroke (width 0) (type default)) (uuid "c1c40ab6-d255-5dcb-9b45-b1f86a333ea6"))
+(wire (pts (xy 116.84 234.95) (xy 121.92 234.95)) (stroke (width 0) (type default)) (uuid "6884a32a-ff5e-58d6-ad44-66fb40a72bcf"))
+(wire (pts (xy 116.84 237.49) (xy 116.84 247.65)) (stroke (width 0) (type default)) (uuid "c1d57687-96f7-55ae-b2f9-fad35bd597d3"))
+(wire (pts (xy 116.84 237.49) (xy 121.92 237.49)) (stroke (width 0) (type default)) (uuid "af7a587a-a5ab-5cbd-866b-255d52954a50"))
+(wire (pts (xy 116.84 247.65) (xy 116.84 252.73)) (stroke (width 0) (type default)) (uuid "9c219ed6-c89d-5a3c-bca4-68541f5cac20"))
+(wire (pts (xy 116.84 252.73) (xy 139.7 252.73)) (stroke (width 0) (type default)) (uuid "c3684f72-eb52-588a-b28c-457841dd104e"))
+(wire (pts (xy 123.19 60.96) (xy 123.19 76.2)) (stroke (width 0) (type default)) (uuid "ce67da6f-9591-51ff-980f-b0205694f958"))
+(wire (pts (xy 123.19 76.2) (xy 139.7 76.2)) (stroke (width 0) (type default)) (uuid "e016ba11-5c5e-562a-944b-0439c4ae3dab"))
+(wire (pts (xy 139.7 176.53) (xy 139.7 199.39)) (stroke (width 0) (type default)) (uuid "ace6ab1c-37b1-5377-b0ad-c7e4db97560b"))
+(wire (pts (xy 139.7 176.53) (xy 176.53 176.53)) (stroke (width 0) (type default)) (uuid "21d617a8-201a-5e05-8261-cc3afd36cfbe"))
+(wire (pts (xy 139.7 242.57) (xy 139.7 252.73)) (stroke (width 0) (type default)) (uuid "4482bf19-adb2-55c8-a8ca-aa7e38f4737b"))
+(wire (pts (xy 147.32 39.37) (xy 152.4 39.37)) (stroke (width 0) (type default)) (uuid "1f8691cc-9fae-5128-a73f-251249a97c2c"))
+(wire (pts (xy 147.32 76.2) (xy 175.26 76.2)) (stroke (width 0) (type default)) (uuid "39227532-46e2-5bdc-a46e-502dfee63d91"))
+(wire (pts (xy 157.48 204.47) (xy 193.04 204.47)) (stroke (width 0) (type default)) (uuid "72703fb1-28ce-5c80-867c-cfb4fb58d5f1"))
+(wire (pts (xy 157.48 208.28) (xy 226.06 208.28)) (stroke (width 0) (type default)) (uuid "141d00ac-642b-547e-b475-bf5971d0528b"))
+(wire (pts (xy 157.48 212.09) (xy 193.04 212.09)) (stroke (width 0) (type default)) (uuid "05a0aed8-8dc2-5391-8ac5-048b89b8ce17"))
+(wire (pts (xy 157.48 215.9) (xy 226.06 215.9)) (stroke (width 0) (type default)) (uuid "38eab8c1-e742-5ff4-998a-3eaebc3956a1"))
+(wire (pts (xy 157.48 219.71) (xy 193.04 219.71)) (stroke (width 0) (type default)) (uuid "498bbca9-6534-54e2-8306-efd9b0dae8e4"))
+(wire (pts (xy 175.26 76.2) (xy 175.26 96.52)) (stroke (width 0) (type default)) (uuid "7e9dd7d7-f41e-5a73-87a6-ab2b7c745bce"))
+(wire (pts (xy 175.26 76.2) (xy 203.2 76.2)) (stroke (width 0) (type default)) (uuid "270f6f9f-b3b9-5103-92ee-68d9a2529f62"))
+(wire (pts (xy 175.26 104.14) (xy 175.26 109.22)) (stroke (width 0) (type default)) (uuid "300c72d2-e90b-5cd9-b0e3-ad9a10771188"))
+(wire (pts (xy 176.53 176.53) (xy 176.53 185.42)) (stroke (width 0) (type default)) (uuid "4ed373fd-af46-5c74-a8b3-106aa5121ad1"))
+(wire (pts (xy 176.53 193.04) (xy 176.53 198.12)) (stroke (width 0) (type default)) (uuid "61633d57-c9ce-5580-b409-985dac91c4bf"))
+(wire (pts (xy 200.66 204.47) (xy 205.74 204.47)) (stroke (width 0) (type default)) (uuid "5ff1930c-dbf5-585a-95c2-76d6a7f23ad4"))
+(wire (pts (xy 200.66 212.09) (xy 205.74 212.09)) (stroke (width 0) (type default)) (uuid "46d5a7b5-1c7c-590e-971e-6643fdfa702e"))
+(wire (pts (xy 200.66 219.71) (xy 279.4 219.71)) (stroke (width 0) (type default)) (uuid "4b2bd7e8-86c7-5751-ab27-a6148bb84242"))
+(wire (pts (xy 210.82 76.2) (xy 215.9 76.2)) (stroke (width 0) (type default)) (uuid "63cad08e-36a4-5f14-b148-0fa0ff408a29"))
+(wire (pts (xy 233.68 208.28) (xy 238.76 208.28)) (stroke (width 0) (type default)) (uuid "1fc41d51-b772-5a86-aeeb-25ce28ce6cf5"))
+(wire (pts (xy 233.68 215.9) (xy 238.76 215.9)) (stroke (width 0) (type default)) (uuid "2d655603-6693-5d9f-9081-e08894d65f95"))
+(wire (pts (xy 265.43 96.52) (xy 265.43 104.14)) (stroke (width 0) (type default)) (uuid "9cd85518-41fd-514c-ada5-05e3617d007a"))
+(wire (pts (xy 265.43 104.14) (xy 365.76 104.14)) (stroke (width 0) (type default)) (uuid "8564d02e-37d7-5568-b1d5-bff8e8366f8b"))
+(wire (pts (xy 267.97 109.22) (xy 267.97 137.16)) (stroke (width 0) (type default)) (uuid "2070469d-2a45-5f9d-8553-8d6efd8739ad"))
+(wire (pts (xy 267.97 109.22) (xy 365.76 109.22)) (stroke (width 0) (type default)) (uuid "79db58ee-4c74-5057-b619-fe42491d1e42"))
+(wire (pts (xy 267.97 144.78) (xy 267.97 158.75)) (stroke (width 0) (type default)) (uuid "71614505-7819-53b5-a90d-38c955901193"))
+(wire (pts (xy 267.97 158.75) (xy 292.1 158.75)) (stroke (width 0) (type default)) (uuid "f14401df-9797-5d90-ab26-67c3a137ba70"))
+(wire (pts (xy 273.05 96.52) (xy 278.13 96.52)) (stroke (width 0) (type default)) (uuid "35ceff2e-6413-5ad6-8b49-fbc2faf2c221"))
+(wire (pts (xy 279.4 219.71) (xy 279.4 228.6)) (stroke (width 0) (type default)) (uuid "2d75f97d-4c3f-5535-8b1b-1a988a5d78df"))
+(wire (pts (xy 279.4 236.22) (xy 279.4 241.3)) (stroke (width 0) (type default)) (uuid "80a2ffe3-5c17-5951-b185-1d3746980655"))
+(wire (pts (xy 279.4 241.3) (xy 308.61 241.3)) (stroke (width 0) (type default)) (uuid "7ae6e425-18b0-505e-8944-d9cffd02e255"))
+(wire (pts (xy 292.1 111.76) (xy 292.1 137.16)) (stroke (width 0) (type default)) (uuid "2d946052-ed24-5a24-b2ef-11e0fb909c14"))
+(wire (pts (xy 292.1 111.76) (xy 365.76 111.76)) (stroke (width 0) (type default)) (uuid "538dec77-4ec4-53c2-a2ad-1a5f0d124137"))
+(wire (pts (xy 292.1 144.78) (xy 292.1 158.75)) (stroke (width 0) (type default)) (uuid "0b66aed5-d9c0-5128-bd41-89b8c7bcc717"))
+(wire (pts (xy 292.1 158.75) (xy 316.23 158.75)) (stroke (width 0) (type default)) (uuid "34501895-fec2-5be4-9b15-bb114cf15e01"))
+(wire (pts (xy 295.91 88.9) (xy 295.91 96.52)) (stroke (width 0) (type default)) (uuid "12ab0008-29fa-5923-953f-2f45dc096d95"))
+(wire (pts (xy 295.91 96.52) (xy 358.14 96.52)) (stroke (width 0) (type default)) (uuid "919444a2-b862-54a4-b345-4dab561c886b"))
+(wire (pts (xy 303.53 88.9) (xy 311.15 88.9)) (stroke (width 0) (type default)) (uuid "364527bf-ab6d-5a3a-a8e7-b6b14fded540"))
+(wire (pts (xy 308.61 207.01) (xy 308.61 227.33)) (stroke (width 0) (type default)) (uuid "48208425-fea3-5840-ad60-a024c24bb774"))
+(wire (pts (xy 308.61 207.01) (xy 330.2 207.01)) (stroke (width 0) (type default)) (uuid "4961fb05-2951-5add-a44f-bfa68c7779f4"))
+(wire (pts (xy 308.61 234.95) (xy 308.61 241.3)) (stroke (width 0) (type default)) (uuid "3169eeff-e07e-564b-ab7b-5d7920a7b892"))
+(wire (pts (xy 308.61 241.3) (xy 323.85 241.3)) (stroke (width 0) (type default)) (uuid "b7734038-dd24-5732-800f-971f524c3595"))
+(wire (pts (xy 311.15 71.12) (xy 311.15 76.2)) (stroke (width 0) (type default)) (uuid "20d6f119-dd85-59a1-b777-a49b13fda977"))
+(wire (pts (xy 311.15 71.12) (xy 365.76 71.12)) (stroke (width 0) (type default)) (uuid "ee4f5a4a-6b13-55af-a53e-39ef0f3b24af"))
+(wire (pts (xy 311.15 83.82) (xy 311.15 88.9)) (stroke (width 0) (type default)) (uuid "57dea189-0437-56ef-98d5-f7be7c12f977"))
+(wire (pts (xy 316.23 114.3) (xy 316.23 137.16)) (stroke (width 0) (type default)) (uuid "804426ae-4f6e-5d12-9140-d37f073cbb3b"))
+(wire (pts (xy 316.23 114.3) (xy 365.76 114.3)) (stroke (width 0) (type default)) (uuid "5451fecc-ac94-505c-9ba3-de09fad3438b"))
+(wire (pts (xy 316.23 144.78) (xy 316.23 158.75)) (stroke (width 0) (type default)) (uuid "9c85de0f-5dd3-5d68-992c-6698d6f32588"))
+(wire (pts (xy 316.23 158.75) (xy 340.36 158.75)) (stroke (width 0) (type default)) (uuid "0408d888-9047-58c1-83ce-dc212a59eb2d"))
+(wire (pts (xy 323.85 214.63) (xy 323.85 241.3)) (stroke (width 0) (type default)) (uuid "7220ef28-8aa4-5a76-9412-016a7ff10868"))
+(wire (pts (xy 323.85 214.63) (xy 330.2 214.63)) (stroke (width 0) (type default)) (uuid "2378d800-a569-5198-8314-d38d88764af3"))
+(wire (pts (xy 323.85 241.3) (xy 342.9 241.3)) (stroke (width 0) (type default)) (uuid "0accd8e1-ec48-5a13-851f-f4553ba1d9a8"))
+(wire (pts (xy 340.36 116.84) (xy 340.36 137.16)) (stroke (width 0) (type default)) (uuid "3a7dfcc3-0cb1-588a-a3eb-a3dfbdada237"))
+(wire (pts (xy 340.36 116.84) (xy 365.76 116.84)) (stroke (width 0) (type default)) (uuid "4d0defd0-f35d-566f-885f-bb6f38458c58"))
+(wire (pts (xy 340.36 144.78) (xy 340.36 158.75)) (stroke (width 0) (type default)) (uuid "a355f69c-b116-500c-80c8-05b361252cc5"))
+(wire (pts (xy 340.36 158.75) (xy 364.49 158.75)) (stroke (width 0) (type default)) (uuid "470f5900-4418-5780-867b-038761640e68"))
+(wire (pts (xy 342.9 177.8) (xy 342.9 198.12)) (stroke (width 0) (type default)) (uuid "ac6de538-302d-5683-9c85-d41ea0bc6d40"))
+(wire (pts (xy 342.9 177.8) (xy 375.92 177.8)) (stroke (width 0) (type default)) (uuid "976ebede-0824-542d-a595-a7b6cd6e90f7"))
+(wire (pts (xy 342.9 223.52) (xy 342.9 241.3)) (stroke (width 0) (type default)) (uuid "10436c52-f8c8-5560-aaf7-329b6199d457"))
+(wire (pts (xy 355.6 207.01) (xy 360.68 207.01)) (stroke (width 0) (type default)) (uuid "b56855df-e259-5109-a5e4-ef46381dab61"))
+(wire (pts (xy 358.14 96.52) (xy 358.14 99.06)) (stroke (width 0) (type default)) (uuid "a0c1b05e-f4bd-5995-a1c4-5b928f300db5"))
+(wire (pts (xy 358.14 96.52) (xy 365.76 96.52)) (stroke (width 0) (type default)) (uuid "cafa30b5-66f8-5a84-a4f0-3308faee9496"))
+(wire (pts (xy 358.14 99.06) (xy 365.76 99.06)) (stroke (width 0) (type default)) (uuid "8662cb7b-29b6-5e7c-ac93-7962ae327622"))
+(wire (pts (xy 360.68 63.5) (xy 365.76 63.5)) (stroke (width 0) (type default)) (uuid "0913f667-060d-53e3-9526-32e0d471c9f0"))
+(wire (pts (xy 360.68 66.04) (xy 365.76 66.04)) (stroke (width 0) (type default)) (uuid "24608a04-8e09-5a06-9514-6681815d486e"))
+(wire (pts (xy 360.68 78.74) (xy 365.76 78.74)) (stroke (width 0) (type default)) (uuid "3560951c-5d88-5a08-abd8-e114cbb3ac82"))
+(wire (pts (xy 360.68 81.28) (xy 365.76 81.28)) (stroke (width 0) (type default)) (uuid "dc5b9970-4972-5f64-91fb-7a82b363b231"))
+(wire (pts (xy 360.68 83.82) (xy 365.76 83.82)) (stroke (width 0) (type default)) (uuid "bf8ac2ba-2b37-550d-b09c-183ad2ca9a79"))
+(wire (pts (xy 360.68 86.36) (xy 365.76 86.36)) (stroke (width 0) (type default)) (uuid "2a783749-657f-58c6-bf7e-a6c5337f51e2"))
+(wire (pts (xy 360.68 88.9) (xy 365.76 88.9)) (stroke (width 0) (type default)) (uuid "339ec326-fd16-5544-a6ac-0d97bab383d4"))
+(wire (pts (xy 360.68 91.44) (xy 365.76 91.44)) (stroke (width 0) (type default)) (uuid "941dbe75-6b95-59a4-b209-e43c58f4dd52"))
+(wire (pts (xy 360.68 93.98) (xy 365.76 93.98)) (stroke (width 0) (type default)) (uuid "88737f57-9115-50dc-a857-b5b74be0c112"))
+(wire (pts (xy 360.68 101.6) (xy 365.76 101.6)) (stroke (width 0) (type default)) (uuid "f5d0f7ca-03ef-5629-bc49-b5a1343a313d"))
+(wire (pts (xy 364.49 119.38) (xy 364.49 137.16)) (stroke (width 0) (type default)) (uuid "a1b25f90-5667-52aa-b26b-06dd1c78a68b"))
+(wire (pts (xy 364.49 119.38) (xy 365.76 119.38)) (stroke (width 0) (type default)) (uuid "b84c8ada-abfe-5171-b9f5-ab5ebdd2b4f2"))
+(wire (pts (xy 364.49 144.78) (xy 364.49 158.75)) (stroke (width 0) (type default)) (uuid "981bd474-8d78-5c20-94f7-95082f6a8d61"))
+(wire (pts (xy 375.92 177.8) (xy 375.92 186.69)) (stroke (width 0) (type default)) (uuid "0abb0b3a-260e-556b-b444-cdf2535adaf0"))
+(wire (pts (xy 375.92 194.31) (xy 375.92 199.39)) (stroke (width 0) (type default)) (uuid "4eb7412a-8417-544e-a5ae-3c63049115bf"))
+(wire (pts (xy 384.81 124.46) (xy 384.81 129.54)) (stroke (width 0) (type default)) (uuid "b973467d-8cd6-59d9-98b2-468bc6ca9489"))
+(global_label "EPD_VCOM" (shape bidirectional) (at 364.49 119.38 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "d841a6f8-7da5-5df6-abaf-35d49741cc3b"))
+(global_label "GND" (shape bidirectional) (at 34.29 63.5 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "0e2d6f81-7b71-59a8-9c5c-dece342e8c2b"))
+(global_label "GND" (shape bidirectional) (at 57.15 107.95 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "35764352-7a29-57e5-a8e7-a35a2760e54e"))
+(global_label "GND" (shape bidirectional) (at 104.14 128.27 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "e207d4bb-52f7-5297-8daf-e21a24820ff5"))
+(global_label "EPD_PREVGL" (shape bidirectional) (at 215.9 76.2 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "943dd4ec-ef26-5b28-9b07-3484453d7f56"))
+(global_label "GND" (shape bidirectional) (at 175.26 109.22 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "546030f0-33c1-55ab-9134-6eac815e2d16"))
+(global_label "EPD_PREVGH" (shape bidirectional) (at 152.4 39.37 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "5998a3e4-7ccc-578c-b474-14080cbafb8b"))
+(global_label "EPD_GDR" (shape bidirectional) (at 360.68 63.5 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "9527bd9a-9701-50e9-8780-f48263ed8ee4"))
+(global_label "EPD_RESE" (shape bidirectional) (at 360.68 66.04 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "6f9782c4-a64a-56fd-8ec3-b2db255014c0"))
+(global_label "GND" (shape bidirectional) (at 360.68 78.74 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "b5891c09-2de9-5e84-8dda-9b6ee4dfba99"))
+(global_label "EPD_PAD_BUSY" (shape bidirectional) (at 360.68 81.28 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "364240f0-8a15-5169-8099-a8a79a5ccc16"))
+(global_label "EPD_PAD_RST_N" (shape bidirectional) (at 360.68 83.82 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "e833f3db-f7d3-530c-a627-b46b11b4385a"))
+(global_label "EPD_PAD_DC" (shape bidirectional) (at 360.68 86.36 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "6e58a044-6a48-5800-988d-8cb4d55f8947"))
+(global_label "EPD_PAD_CS" (shape bidirectional) (at 360.68 88.9 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "3387c813-304c-50c9-8e29-b12b582418d7"))
+(global_label "EPD_PAD_SCLK" (shape bidirectional) (at 360.68 91.44 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "5cac4074-933d-5131-8fb1-e281bc96284f"))
+(global_label "EPD_PAD_MOSI" (shape bidirectional) (at 360.68 93.98 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "88df618a-047e-5989-b1c4-5acf685a972d"))
+(global_label "GND" (shape bidirectional) (at 360.68 101.6 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "f6673b97-15e5-52e4-b2c8-b614cf193a31"))
+(global_label "GND" (shape bidirectional) (at 384.81 129.54 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "bc0d7378-9a38-5ff1-b8c2-f6a787e83566"))
+(global_label "GND" (shape bidirectional) (at 278.13 96.52 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "2259892a-90e5-533f-86d6-0c2d036dd03e"))
+(global_label "GND" (shape bidirectional) (at 176.53 198.12 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "73e664ca-bbf2-5378-b2da-8396c67b9d51"))
+(global_label "EPD_PAD_SCLK" (shape bidirectional) (at 205.74 204.47 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "9f467314-8482-5b11-ad15-4ca084ec3311"))
+(global_label "EPD_PAD_MOSI" (shape bidirectional) (at 238.76 208.28 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "52cc2a92-906d-5f60-a388-fda195807101"))
+(global_label "EPD_PAD_CS" (shape bidirectional) (at 205.74 212.09 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "6c705d34-f26b-5f16-9216-c5ecc826d0af"))
+(global_label "EPD_PAD_DC" (shape bidirectional) (at 238.76 215.9 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "98e4dfe9-024e-57c7-bcdc-3822e83db3ae"))
+(global_label "3V3_AON" (shape bidirectional) (at 66.04 243.84 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "25f3ee12-a608-508c-bd82-483138f309f5"))
+(global_label "EPD_BUSY" (shape bidirectional) (at 360.68 207.01 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "24c49f53-a89d-527f-b789-5321ad0c2c6c"))
+(global_label "GND" (shape bidirectional) (at 375.92 199.39 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "2d4356dd-3446-5e78-92ec-886accbda03e"))
+(global_label "EPD_3V3" (shape bidirectional) (at 34.29 39.37 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "0cb55fbe-56cb-56ab-83c8-7edc388f0ca5"))
+(label "EPD_SW" (at 104.14 39.37 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "32b0df4b-ad66-556a-bf88-71002ff41e75"))
+(global_label "EPD_GDR" (shape bidirectional) (at 57.15 76.2 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "1776fb73-f531-5ef3-8901-addea7c5f6fb"))
+(global_label "EPD_RESE" (shape bidirectional) (at 104.14 81.28 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "1ff37c8b-342b-57c7-91d1-f380156e0d5e"))
+(global_label "EPD_FLY" (shape bidirectional) (at 175.26 76.2 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "f0d4ff68-b47b-5ea9-b384-8512894a32b5"))
+(global_label "EPD_VSHR" (shape bidirectional) (at 311.15 71.12 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "6c74a63b-68ce-55b5-98c7-cde74c39c7a2"))
+(global_label "EPD_3V3" (shape bidirectional) (at 295.91 96.52 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "7aa39ff0-ac07-5d7f-afdc-631102acfc89"))
+(global_label "EPD_VDD_INT" (shape bidirectional) (at 265.43 104.14 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "8f90fa09-6c43-5a93-a85d-c171d13b9880"))
+(global_label "EPD_VSH1" (shape bidirectional) (at 267.97 109.22 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "5fb83840-d7ba-5808-ace6-055f5431ae51"))
+(global_label "EPD_PREVGH" (shape bidirectional) (at 292.1 111.76 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "59a38139-a8b4-57ab-a89d-4e7aa60d878f"))
+(global_label "EPD_VSL" (shape bidirectional) (at 316.23 114.3 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "6ce17559-36b2-56fb-897b-8510bbf3e886"))
+(global_label "EPD_PREVGL" (shape bidirectional) (at 340.36 116.84 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "f804845c-ae93-5470-9a16-4274555eae09"))
+(global_label "GND" (shape bidirectional) (at 311.15 88.9 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "c96fb2e0-7c71-578a-bafd-345b5ecc27ae"))
+(global_label "GND" (shape bidirectional) (at 267.97 158.75 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "d34aed41-ca10-5176-b388-d7e67b526699"))
+(global_label "EPD_3V3" (shape bidirectional) (at 176.53 176.53 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "d267ebf7-fa4d-55ea-9ae8-bc1db15b4069"))
+(global_label "GND" (shape bidirectional) (at 116.84 223.52 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "4d5ba8cc-b01d-5e49-844f-c07a577486c2"))
+(global_label "EPD_SCLK" (shape bidirectional) (at 25.4 204.47 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "5799e457-b84e-5b54-949a-0f95fd352c59"))
+(global_label "EPD_BUF_SCLK" (shape bidirectional) (at 157.48 204.47 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "0404fc68-d355-5873-a784-5eb4e7351135"))
+(global_label "EPD_MOSI" (shape bidirectional) (at 45.72 208.28 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "0c39b3df-e5be-5c58-bcb4-6d36dfa14278"))
+(global_label "EPD_BUF_MOSI" (shape bidirectional) (at 157.48 208.28 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "25233071-337a-507b-a803-8b6e99d5785e"))
+(global_label "EPD_CS" (shape bidirectional) (at 66.04 212.09 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "fa737ff9-7771-53a9-a350-247b31029ec5"))
+(global_label "EPD_BUF_CS" (shape bidirectional) (at 157.48 212.09 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "5ccf3d96-1f00-5d42-9150-ecef2e38ea85"))
+(global_label "EPD_DC" (shape bidirectional) (at 86.36 215.9 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "3e99502f-7e49-5ca9-bf09-101a55107539"))
+(global_label "EPD_BUF_DC" (shape bidirectional) (at 157.48 215.9 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "9d69e61a-5241-5135-9d37-8c1d830cb486"))
+(global_label "EPD_RST_N" (shape bidirectional) (at 106.68 219.71 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "d3dfd1e4-c5b0-5713-ba92-67434116a97b"))
+(global_label "EPD_BUF_RST_N" (shape bidirectional) (at 157.48 219.71 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "bde5bd75-ab15-5dc9-a28f-e60bc5e3a972"))
+(global_label "EPD_PAD_RST_N" (shape bidirectional) (at 279.4 219.71 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "0f72f7c4-7de4-5ae9-be95-5aa2f7daae56"))
+(global_label "GND" (shape bidirectional) (at 323.85 214.63 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "cc38d796-1bcf-59a2-b406-dfb5e87a0b9f"))
+(global_label "EPD_PAD_BUSY" (shape bidirectional) (at 308.61 207.01 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "714fef03-5cca-5934-8fda-01e1a992b853"))
+(global_label "3V3_AON" (shape bidirectional) (at 342.9 177.8 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "b5cc81a0-0564-5c24-9edc-e6507d733bd2"))
+)

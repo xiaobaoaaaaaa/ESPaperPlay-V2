@@ -1,0 +1,228 @@
+{
+  "reviewer": "independent child agent /root/r4_audio_boost",
+  "date": "2026-11-02",
+  "scope": "Review only; no changes to formal schematic/BOM/calculation source. No KiCad CLI used.",
+  "result": "PASS for feedback MPN/PWM component budget, divider-current arithmetic, BQ equations and charging-disabled conclusion. Add explicit BQ-resistor temperature scope or adopt supplemental bounds before claiming full-temperature input maximum.",
+  "reviewed_files": [
+    {
+      "path": "build/closure-r4/power/calculate_bounds.py",
+      "sha256": "4853607e7c503ff6c1afe6bed0825d565372e1a278ce71258686c6d735d9adc0"
+    },
+    {
+      "path": "build/closure-r4/power/review.json",
+      "sha256": "499b25c12f36497f6c87b388d0ec8620d4efda6f86289ed3c2e855573bc84e83"
+    },
+    {
+      "path": "build/closure-r4/power/power-bounds.json",
+      "sha256": "905e95651ac22be3f1ec9838d4294501e1ca2d3668879d6f347090e9e7f7e8d4"
+    },
+    {
+      "path": "build/closure-r4/power/tnpw_e3.pdf",
+      "sha256": "6f0508c568cb355aaf2accdd33fe3a780d3ea5ef207c4c9a71839a8acadc33a5"
+    },
+    {
+      "path": "hardware/reference/power/tps63802.pdf",
+      "sha256": "be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6"
+    },
+    {
+      "path": "hardware/reference/power/bq24074.pdf",
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1"
+    },
+    {
+      "path": "hardware/reference/mcu-usb/bourns-mf-msmf.pdf",
+      "sha256": "50d80228581842471d563e28ba0f1b67ab095ee95dfac4079f4a49f7f7bbf3c8"
+    },
+    {
+      "path": "hardware/reference/user-selected-r4/selected-components.json",
+      "sha256": "957a27cbf14465fb9dbb9f7583a29e0d54d70c1ca994e8fb211ba4033937cd06"
+    }
+  ],
+  "primary_sources": [
+    {
+      "url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "revision": "10-Apr-2026",
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "verified": "Official e3 document28758, not leaded document31006. 0603 0.1%/25ppm range covers both values; coding B/E/EA and general-load8000h0.1%."
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "revision": "SLVSEU9D Jan2021",
+      "sections": [
+        "8.5",
+        "10.2.2.5"
+      ],
+      "verified": "PWM VFB±1%, IFB typical5nA/max100nA; low-side resistor must not exceed100kohm."
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "revision": "SLUS810N Oct2021",
+      "sections": [
+        "8.5",
+        "9.3.5.6"
+      ],
+      "verified": "Electrical characteristics guaranteed for TJ0..125C. KILIM range1500/1610/1720 Aohm for500mA..1.5A; KISET797/890/975 Aohm; KTMR36/48/60 s/kohm; fastcharge timer10xKTMRxRTMR; RTMR18..72kohm."
+    },
+    {
+      "url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "revision": "14-Apr-2026",
+      "pages": [
+        2,
+        3
+      ],
+      "verified": "Existing R103/104/105 CRCW FKEA parts: F1%, K100ppm/K. Standard-load8000h drift2% is not included in original bounds."
+    },
+    {
+      "url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf",
+      "verified": "MF-MSMF200/16X Ihold50C1.68A,60C1.48A and R1max23C0.07ohm match original calculation."
+    }
+  ],
+  "feedback": {
+    "mpn_check": "PASS",
+    "parts": [
+      {
+        "ref": "R201",
+        "mpn": "TNPW060351K1BEEA",
+        "ohm": 51100
+      },
+      {
+        "ref": "R202",
+        "mpn": "TNPW06039K10BEEA",
+        "ohm": 9100
+      }
+    ],
+    "code_decoding": {
+      "B": "0.1%",
+      "E": "25ppm/K",
+      "EA": "lead-free5000pieces7inchpaper-tape reel"
+    },
+    "source_is_approved_configuration_not_supplier_stock_quote": true,
+    "temperature_delta_k": 65,
+    "temperature_assumption": "The -40..85C range is resistor temperature, not just distant ambient; self-heating/board heating remains to be checked.",
+    "aging_allocation_fraction": 0.001,
+    "aging_scope": "Matches TNPW GENERAL mode8000h0.1% rating, not unlimited lifetime or combined environmental-stress qualification. GENERAL0603P70=0.110W; divider dissipation is far below it.",
+    "independent_method": "Enumerated16 corners using multiplicative initial tolerance/TCR/aging factors; additionally formed conservative min with maximum top-resistor bias-current drop.",
+    "multiplicative_resistor_factors": [
+      0.996379248375,
+      1.0036292516249996
+    ],
+    "multiplicative_exact_corner_bounds_v": [
+      3.249444539088766,
+      3.366531823143197
+    ],
+    "multiplicative_conservative_bounds_v": [
+      3.2494074915721587,
+      3.366531823143197
+    ],
+    "original_additive_bounds_v": [
+      3.2494074372375743,
+      3.3665318801477104
+    ],
+    "cross_term_finding": "PASS. Despite additive error accumulation, original symmetric bounds are slightly wider than independent multiplicative envelope for these values. No correction needed.",
+    "acceptance_v": [
+      3.201,
+      3.399
+    ],
+    "pwm_budget_pass": true,
+    "ifb_scope": "Treating IFB as±100nA is a conservative project model. TI table gives100nA maximum, not an explicit symmetric±100nA limit.",
+    "divider_current_at_exact3v3_a": [
+      5.48172757475083e-06,
+      5.48172757475083e-05
+    ],
+    "additional_current_at_exact3v3_a": 4.933554817275747e-05,
+    "additional_current_at_nominal3v30769_a": 4.945054945054945e-05,
+    "current_finding": "49.3355uA is correct at3.300V. Actual idealVFB0.500V gives3.307692V and49.4505uA. Neither number includes conversion efficiency/PFM system quiescent draw.",
+    "unclosed": [
+      "PFM ripple",
+      "line/load transients",
+      "layout/noise/leakage",
+      "assembled resistance/temperature",
+      "board standby budget measurement"
+    ]
+  },
+  "bq_original_arithmetic": {
+    "ilim_min_typ_max_a": [
+      0.9167583425009167,
+      0.9938271604938271,
+      1.0724529243047762
+    ],
+    "ichg_min_typ_max_a": [
+      0.263036303630363,
+      0.2966666666666667,
+      0.3282828282828283
+    ],
+    "timer_min_typ_max_h": [
+      6.732,
+      9.066666666666666,
+      11.446666666666667
+    ],
+    "status": "PASS as initial-resistor-tolerance-only arithmetic; not all-temperature/lifetime bounds.",
+    "charge_timer_behavior": "Correctly recognizes DPPM/VIN-DPM/thermal-regulation proportional timer slowing. Thermal shutdown suspends timer. Q/I is only an ideal capacity/current quotient, not a CC/CV time guarantee.",
+    "charging_decision": "PASS: keep R108 DNP and charging disabled. User7555704000mAh screenshot does not supply charge current/temperature or NTC curve, and old297mA+68kohm timer is not qualified."
+  },
+  "supplemental_bq_temperature_bounds": {
+    "external_resistor_range_c": [
+      -40,
+      85
+    ],
+    "reference_c": 25,
+    "tcr_ppm_per_k": 100,
+    "initial_tolerance_fraction": 0.01,
+    "resistor_factors": [
+      0.983565,
+      1.016565
+    ],
+    "ic_guaranteed_junction_range_c": [
+      0,
+      125
+    ],
+    "aging_included": false,
+    "ilim_min_max_a": [
+      0.9108378961757743,
+      1.079469475898114
+    ],
+    "fuse_load_max_with5ma_allocation_a": 1.084469475898114,
+    "fuse_fraction_of60c_ihold": 0.732749645877104,
+    "fuse_below_project80percent_hold_margin": true,
+    "ichg_min_max_a": [
+      0.26133760917075316,
+      0.33043062736067264
+    ],
+    "timer_min_max_h": [
+      6.688242,
+      11.52107
+    ],
+    "recommendation": "Adopt these thermal resistor bounds or label existing values initial-tolerance-only. Do not extrapolate the BQ table guarantee to negative junction temperature. Resistor aging, soldering drift and actual temperature still need qualification if lifetime guarantees are intended."
+  },
+  "user_component_scope": {
+    "selected_pack": "ZON.CELL7555704000mAh1S",
+    "charge_permission": false,
+    "seller3a_peak_has_duration": false,
+    "audio_design_cap_w": 0.5,
+    "speaker_user_selection": "3525 chamber8ohm2W",
+    "battery_estimate_a": 1.59158215010142,
+    "battery_estimate_is_requirement_not_measurement": true,
+    "higher_main1_5a_pulse_estimate_a": 2.2609533468559833,
+    "conclusion": "2A room-temperature seller continuous rating supports only an initial budget. The1.5A main-rail pulse plus audio estimate exceeds2A; keep bench-source-only until pack pulse/protection data and measurements are available."
+  },
+  "findings": [
+    {
+      "id": "BQ-THERMAL-SCOPE",
+      "severity": "clarification_required",
+      "summary": "Original ILIM/ISET/TMR endpoints include initial±1% but omit selected100ppm resistors. Add explicit temperature scope or supplemental bounds; selection remains viable."
+    },
+    {
+      "id": "FEEDBACK-CROSS-TERMS",
+      "severity": "pass",
+      "summary": "Original additive resistor-error PWM interval is slightly more conservative than independent multiplicative corner interval. Earlier provisional concern resolved."
+    },
+    {
+      "id": "CHARGING-DISABLED",
+      "severity": "pass",
+      "summary": "Pack charge/NTC data and actual CC/CV profile are still absent; never interpret timer arithmetic as charge approval."
+    }
+  ]
+}

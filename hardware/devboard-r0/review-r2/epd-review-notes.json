@@ -1,0 +1,37 @@
+{
+  "status": "EPD functional schematic candidate; no PCB/assembly release",
+  "page": 8,
+  "refs": "600-series",
+  "physical_components": 34,
+  "pin_checks": 112,
+  "source_topology": {
+    "D601": "K=EPD_FLY A=EPD_PREVGL",
+    "D602": "K=GND A=EPD_FLY",
+    "D603": "K=EPD_PREVGH A=EPD_SW",
+    "Q601": "1G=EPD_GDR 2S=EPD_RESE 3D=EPD_SW",
+    "C602": "EPD_FLY to EPD_SW; flying capacitor not grounded",
+    "VDD18": "EPD_VDD_INT only C606 to ground, not3.3V"
+  },
+  "defaults": {
+    "CS": "100k to AON",
+    "CLK_MOSI_DC_RESET": "100k to GND before domain buffer",
+    "PANEL_RESET": "100k GND after domain buffer",
+    "PANEL_BUSY": "100k GND; OFF/unplugged returns LOW (busy/invalid), never interpretable as ready"
+  },
+  "io_boundaries": [
+    "Five MCU write signals buffered by EPD-powered SN74LVC541A. Input overvoltage tolerance and VCC=0 Ioff protect the switched EPD rail.",
+    "BUSY buffered by AON-powered SN74LVC1G125 to avoid panel residual voltage powering down MCU domain.",
+    "OE tied LOW: not a commanded disconnect. Ioff only specified at VCC=0; valid safe defaults and actual ramp/leakage tests remain required.",
+    "Five write signals only: pin14 SDI readback not supported by unidirectional buffers; existing write-only panel operation and BUSY return preserved.",
+    "Do not inject external power at EPD debug header; existing J301 is MCU-side signals and bypasses buffers if used for an external panel."
+  ],
+  "unresolved": [
+    "FPC exact part/contact side/retention pads and sample fit",
+    "Inductor10uH final rated current/saturation/DCR/footprint; reference figure says1A but table500mA(max)",
+    "R602 pulse/current/thermal rating and Kelvin layout",
+    "MLCC effective capacitance at HV bias; 50V is provisional rating, not proof of retained4.7uF",
+    "onsemi MBR0530 lifecycle before BOM freeze",
+    "HV ripple/overshoot, boost gate/current-sense waveforms and refresh stability",
+    "Power ramp, reset, shutdown and all-domain leakage measurements"
+  ]
+}

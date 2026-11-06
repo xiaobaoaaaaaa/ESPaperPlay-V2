@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "checked_local_document_links": 127,
+  "checked_source_file_records": 18,
+  "user_screenshots": 2,
+  "workbook_matches_final_bom": true,
+  "native_check_inputs_match": true,
+  "native_footprints": 37,
+  "dnp_preserved": 6,
+  "no_pcb_file": true
+}

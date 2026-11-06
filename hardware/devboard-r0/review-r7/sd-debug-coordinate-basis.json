@@ -1,0 +1,210 @@
+{
+  "status": "CANDIDATE_NATIVE_GEOMETRY_CHECK_PASS",
+  "date": "2026-11-06",
+  "source_board": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "source_board_sha256": "635032be8f85d5299637a7899678bcfbd359efb4c066fc7038993b74c8d93e6c",
+  "formal_board_modified": false,
+  "coordinate_system": "KiCad absolute mm and degrees; same as current native PCB",
+  "placements": {
+    "J302": [
+      173.8,
+      73,
+      180
+    ],
+    "R710": [
+      171,
+      62.9,
+      90
+    ],
+    "R711": [
+      171,
+      73.5,
+      90
+    ],
+    "R712": [
+      171,
+      70.0,
+      90
+    ],
+    "R713": [
+      171,
+      66.5,
+      90
+    ],
+    "R714": [
+      171,
+      58.3,
+      90
+    ],
+    "R715": [
+      171,
+      54.7,
+      90
+    ],
+    "R302": [
+      172,
+      77.5,
+      0
+    ],
+    "C705": [
+      177.2,
+      65.8,
+      0
+    ]
+  },
+  "adjusted_courtyard_rectangles_mm": {
+    "J302": [
+      172.105,
+      50.985,
+      175.495,
+      74.695
+    ],
+    "R710": [
+      170.275,
+      61.425,
+      171.725,
+      64.375
+    ],
+    "R711": [
+      170.275,
+      72.025,
+      171.725,
+      74.975
+    ],
+    "R712": [
+      170.275,
+      68.525,
+      171.725,
+      71.475
+    ],
+    "R713": [
+      170.275,
+      65.025,
+      171.725,
+      67.975
+    ],
+    "R714": [
+      170.275,
+      56.825,
+      171.725,
+      59.775
+    ],
+    "R715": [
+      170.275,
+      53.225,
+      171.725,
+      56.175
+    ],
+    "R302": [
+      170.525,
+      76.775,
+      173.475,
+      78.225
+    ],
+    "C705": [
+      175.725,
+      65.075,
+      178.675,
+      66.525
+    ]
+  },
+  "courtyard_collisions_with_all_240_footprints": [],
+  "signal_path_net_segments_verified": 24,
+  "signal_lengths_via_debug_pad": {
+    "CLK": {
+      "route_via_debug_pad": [
+        "U301.31",
+        "J302.3",
+        "R710.1",
+        "R710.2",
+        "U701.2",
+        "U701.3",
+        "J701.5"
+      ],
+      "straight_line_copper_lower_bound_mm": 39.744,
+      "45deg_free_space_copper_lower_bound_mm": 40.967,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 9.833
+    },
+    "CMD": {
+      "route_via_debug_pad": [
+        "U301.32",
+        "J302.4",
+        "R711.1",
+        "R711.2",
+        "U701.5",
+        "U701.6",
+        "J701.3"
+      ],
+      "straight_line_copper_lower_bound_mm": 38.382,
+      "45deg_free_space_copper_lower_bound_mm": 40.991,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 9.809
+    },
+    "D0": {
+      "route_via_debug_pad": [
+        "U301.24",
+        "J302.5",
+        "R712.1",
+        "R712.2",
+        "U701.9",
+        "U701.8",
+        "J701.7"
+      ],
+      "straight_line_copper_lower_bound_mm": 42.998,
+      "45deg_free_space_copper_lower_bound_mm": 45.612,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 5.188
+    },
+    "D1": {
+      "route_via_debug_pad": [
+        "U301.25",
+        "J302.6",
+        "R713.1",
+        "R713.2",
+        "U701.12",
+        "U701.11",
+        "J701.8"
+      ],
+      "straight_line_copper_lower_bound_mm": 43.785,
+      "45deg_free_space_copper_lower_bound_mm": 46.328,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 4.472
+    },
+    "D2": {
+      "route_via_debug_pad": [
+        "U301.34",
+        "J302.7",
+        "R714.1",
+        "R714.2",
+        "U706.2",
+        "U706.3",
+        "J701.1"
+      ],
+      "straight_line_copper_lower_bound_mm": 32.965,
+      "45deg_free_space_copper_lower_bound_mm": 35.565,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 15.235
+    },
+    "D3": {
+      "route_via_debug_pad": [
+        "U301.33",
+        "J302.8",
+        "R715.1",
+        "R715.2",
+        "U706.5",
+        "U706.6",
+        "J701.2"
+      ],
+      "straight_line_copper_lower_bound_mm": 37.083,
+      "45deg_free_space_copper_lower_bound_mm": 38.715,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 12.085
+    }
+  },
+  "C705_1_to_U706_14_distance_mm": 1.8622,
+  "R710_1_to_U301_31_distance_mm": 2.3897,
+  "notes": [
+    "J302 x173.8 instead of174 prevents ~0.05mm courtyard overlap with U701/U706.",
+    "C705 moved +0.9mm inX to clear J302; VDD decoupling pad distance remains1.862mm.",
+    "R710 remains close to MCU CLK pin; R711/R712/R713 use the narrow north-south corridor between MCU and J302.",
+    "Routing should pass through J302 signal pads as part of each main net, rather than adding separate long branches. Each listed copper segment has matching native net names.",
+    "Lower bounds include detour via debug pads but exclude obstacles, via transitions, IC internal path and final timing/length tuning. Current45degree lower-bound margin4.47mm minimum is meaningful but not a routing guarantee.",
+    "U706 remains180degree; further change is unnecessary at placement stage after MCU relocation, but actual routing can still adjust it if escape paths demand.",
+    "Merge into root placement source, regenerate native board, reposition silk and rerun DRC/independent checker."
+  ]
+}

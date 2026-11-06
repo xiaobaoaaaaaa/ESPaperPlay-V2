@@ -1,0 +1,4427 @@
+{
+  "source": "hardware/devboard-r0/output/validation/peripheral-r2.net.xml",
+  "source_sha256": "4b95487bb4c9b1be15ae2c5804f639a5c96b3cd84662b73d523f99b9a63e6467",
+  "nets": 178,
+  "components": {
+    "C101": {
+      "value": "4.7u / 16V",
+      "uuid": "102cc589-0a3c-53ec-ba6e-23bb07d1d29f",
+      "dnp": false
+    },
+    "C102": {
+      "value": "10u / 10V",
+      "uuid": "23d0a9b7-6d8b-5706-b7a4-b9247dcd3e17",
+      "dnp": false
+    },
+    "C103": {
+      "value": "10u / 10V",
+      "uuid": "a4621a79-feda-54e3-8f7f-3e0b6baebef3",
+      "dnp": false
+    },
+    "J101": {
+      "value": "5V_BENCH_IN",
+      "uuid": "92019bff-384d-50e6-8558-c8abb98f7327",
+      "dnp": false
+    },
+    "J102": {
+      "value": "BAT_PACK_PROTECTED",
+      "uuid": "7af6e005-3f3f-5b09-b13a-cd6727ff5755",
+      "dnp": false
+    },
+    "J103": {
+      "value": "PACK_NTC",
+      "uuid": "497a8e36-606c-5145-bce8-ccff2ab4ea21",
+      "dnp": false
+    },
+    "J104": {
+      "value": "SYS_TEST",
+      "uuid": "49067728-9943-5013-bc95-47cc8c5ce21d",
+      "dnp": false
+    },
+    "J105": {
+      "value": "RECOVERY_CE",
+      "uuid": "3da73929-b33c-5539-bc25-1be0396757dd",
+      "dnp": false
+    },
+    "Q101": {
+      "value": "AO3400A",
+      "uuid": "1d976ab6-865c-50db-901c-283dccb9c12e",
+      "dnp": false
+    },
+    "Q201": {
+      "value": "AO3400A",
+      "uuid": "f0e5b766-5aea-567f-9bc7-c2459df7ad3e",
+      "dnp": false
+    },
+    "R101": {
+      "value": "0R / I_SYS",
+      "uuid": "2f5b1b2e-5ec3-5bac-9484-2b22cb9d6ed0",
+      "dnp": false
+    },
+    "R102": {
+      "value": "0R / I_BAT",
+      "uuid": "ed1ab2a2-bfef-579f-9e7a-50ff9c29eaae",
+      "dnp": false
+    },
+    "R103": {
+      "value": "1.62k / 1%",
+      "uuid": "54a37379-fe30-59f7-8dc3-99235620caef",
+      "dnp": false
+    },
+    "R104": {
+      "value": "3.00k / 1%",
+      "uuid": "8bf4283c-13f4-5584-984a-1affae32af79",
+      "dnp": false
+    },
+    "R105": {
+      "value": "68k / 1%",
+      "uuid": "dfb9c272-3a3b-5f66-82e4-5f14f034d125",
+      "dnp": false
+    },
+    "R106": {
+      "value": "47k / 1%",
+      "uuid": "47a5d1e8-82c1-5aa9-af26-98d49a392e80",
+      "dnp": false
+    },
+    "R107": {
+      "value": "100k",
+      "uuid": "3a38ec2f-9220-5e4f-b3ba-2a22963cfb68",
+      "dnp": false
+    },
+    "R108": {
+      "value": "0R CHG_ARM",
+      "uuid": "a7c6028c-af6d-5171-b7e8-b4d59f0e0ac7",
+      "dnp": true
+    },
+    "R109": {
+      "value": "100k",
+      "uuid": "81f9990b-fafa-5f0b-be9e-0a67b3726d86",
+      "dnp": false
+    },
+    "R110": {
+      "value": "100k",
+      "uuid": "6a2e07e6-ad60-5d32-856e-49bdc1c60ad9",
+      "dnp": false
+    },
+    "R111": {
+      "value": "100k",
+      "uuid": "d565efea-29cf-5261-af94-43eeec3c1614",
+      "dnp": false
+    },
+    "R112": {
+      "value": "100k",
+      "uuid": "83beb5b8-e85e-5db3-a517-ca31d2ddc21f",
+      "dnp": false
+    },
+    "R220": {
+      "value": "100k",
+      "uuid": "eab0bc1c-f3a1-5e51-b0f5-b3bddd7c7234",
+      "dnp": false
+    },
+    "R221": {
+      "value": "10k",
+      "uuid": "eefd811d-345c-5857-9c76-ac825333f055",
+      "dnp": false
+    },
+    "R222": {
+      "value": "47k",
+      "uuid": "e77dcb63-04b6-5f39-80be-81a79946baa9",
+      "dnp": false
+    },
+    "U101": {
+      "value": "BQ24074RGT",
+      "uuid": "2642a0d0-4231-5225-beb6-271dde85d4fa",
+      "dnp": false
+    },
+    "C201": {
+      "value": "10u / 10V",
+      "uuid": "bd1e5f2c-a0ff-5d56-bdba-8646d733be48",
+      "dnp": false
+    },
+    "C202": {
+      "value": "22u / 10V",
+      "uuid": "f6e4a936-6f7f-5c42-ba94-9f150603cffa",
+      "dnp": false
+    },
+    "C203": {
+      "value": "100n",
+      "uuid": "8c9da08a-6b67-503d-8cc4-625fdb98befe",
+      "dnp": false
+    },
+    "C204": {
+      "value": "100n",
+      "uuid": "4ec1d81e-9ae8-507b-8791-b7ee7769c443",
+      "dnp": false
+    },
+    "J201": {
+      "value": "3V3_AON_TEST",
+      "uuid": "92a45ee5-13d7-5858-af8b-8f0d6fc2ffd1",
+      "dnp": false
+    },
+    "J202": {
+      "value": "MAIN_RUN_SELECT",
+      "uuid": "41a13382-08bd-5c54-bfd7-73cc053a2e1e",
+      "dnp": false
+    },
+    "J203": {
+      "value": "PWM_TEST_OPEN",
+      "uuid": "b38a253b-bf63-5d3e-9af4-65fbe520bcd4",
+      "dnp": false
+    },
+    "J204": {
+      "value": "REG_PG_TEST",
+      "uuid": "b47f0916-414b-5e46-9c5a-9be5d8519d87",
+      "dnp": false
+    },
+    "J205": {
+      "value": "MCU_BRINGUP",
+      "uuid": "29f2da5b-2680-5813-a6b6-fbe5e0d3774a",
+      "dnp": false
+    },
+    "J206": {
+      "value": "DOMAINS_CONTROL",
+      "uuid": "46438d92-8aaa-5e77-8239-364ffb11acac",
+      "dnp": false
+    },
+    "L201": {
+      "value": "0.47uH",
+      "uuid": "ad1b372c-2960-5da8-9669-7f7301310c84",
+      "dnp": false
+    },
+    "R201": {
+      "value": "511k / 1%",
+      "uuid": "3c8f5f36-005e-56af-ae68-ead573be3e98",
+      "dnp": false
+    },
+    "R202": {
+      "value": "91k / 1%",
+      "uuid": "94f42288-6192-5a0b-b00c-bdeaf3d34d7e",
+      "dnp": false
+    },
+    "R203": {
+      "value": "0R / I_3V3",
+      "uuid": "f9061a2e-b804-5d11-9afc-dd3654fb6a3f",
+      "dnp": false
+    },
+    "R204": {
+      "value": "100k",
+      "uuid": "fb786bca-24bf-544a-ae6c-b12414d25ef6",
+      "dnp": false
+    },
+    "R205": {
+      "value": "1M",
+      "uuid": "9d34f56e-1df5-5c53-bbfc-937eb31f64b7",
+      "dnp": false
+    },
+    "R206": {
+      "value": "100k",
+      "uuid": "b78510cf-7c54-57bf-b6fd-d5db77e137d3",
+      "dnp": false
+    },
+    "R207": {
+      "value": "100k",
+      "uuid": "e2f1965d-b3d7-52f7-8823-f8e562e7fe9b",
+      "dnp": false
+    },
+    "R208": {
+      "value": "10k",
+      "uuid": "6ff324be-4528-5de0-afa2-0d73504b1d71",
+      "dnp": false
+    },
+    "R209": {
+      "value": "100k",
+      "uuid": "e63ebde0-cb53-5eba-8012-5f16b620248d",
+      "dnp": false
+    },
+    "R210": {
+      "value": "4.7k",
+      "uuid": "17a9430b-5b31-51e2-a23c-6201bdbb3ab6",
+      "dnp": false
+    },
+    "R211": {
+      "value": "4.7k",
+      "uuid": "96239624-f438-5fdd-95c6-f9610cb586b3",
+      "dnp": false
+    },
+    "R212": {
+      "value": "100k",
+      "uuid": "cce25148-5656-5f16-b39b-bb7cc4935658",
+      "dnp": false
+    },
+    "R213": {
+      "value": "100k",
+      "uuid": "1df42d58-de3d-51dc-b521-b1aa77d2b8cc",
+      "dnp": false
+    },
+    "R214": {
+      "value": "100k",
+      "uuid": "4180cb20-1746-50c6-b8e6-d6d4920b234a",
+      "dnp": false
+    },
+    "R215": {
+      "value": "10k",
+      "uuid": "b7b8b6f7-f13c-5043-b5c8-536f1279fd22",
+      "dnp": false
+    },
+    "R216": {
+      "value": "100k",
+      "uuid": "d61146bd-13ef-532d-b9c5-2ec1c0110eaa",
+      "dnp": false
+    },
+    "R217": {
+      "value": "0R",
+      "uuid": "750b1889-4209-5dd3-bfb7-cc1c6064caa6",
+      "dnp": false
+    },
+    "R218": {
+      "value": "0R",
+      "uuid": "cc036194-0b36-5fcb-9ace-41bc4d8f9fa0",
+      "dnp": false
+    },
+    "R219": {
+      "value": "100k",
+      "uuid": "6746cf0b-8680-5841-b1af-12d1fa3169cd",
+      "dnp": false
+    },
+    "R223": {
+      "value": "10k",
+      "uuid": "1d272da1-59d8-5c6a-986a-04fa857b3262",
+      "dnp": false
+    },
+    "R224": {
+      "value": "100k",
+      "uuid": "e701729d-9cf2-5939-8c9f-c22d2a550562",
+      "dnp": false
+    },
+    "R225": {
+      "value": "100k",
+      "uuid": "7c4d4774-4443-5463-b06d-e51abe3e33fd",
+      "dnp": false
+    },
+    "R226": {
+      "value": "100k",
+      "uuid": "ae2f4e4f-940b-5f64-8dea-0a5ff530dca2",
+      "dnp": false
+    },
+    "R227": {
+      "value": "100k",
+      "uuid": "783e181d-5482-5a81-93d9-662e2cf2b372",
+      "dnp": false
+    },
+    "U201": {
+      "value": "TPS63802DLA",
+      "uuid": "1eb14b71-22fa-5145-b2b9-f5bb93ea0297",
+      "dnp": false
+    },
+    "U202": {
+      "value": "TCA9539PW / 0x74",
+      "uuid": "a2915b0c-01a3-5143-a6e3-9fadd1352dff",
+      "dnp": false
+    },
+    "U203": {
+      "value": "MAX17048G+ / 0x36",
+      "uuid": "e2e473c3-fd7d-5164-9743-8f07248b4495",
+      "dnp": false
+    },
+    "C301": {
+      "value": "10u / 10V",
+      "uuid": "b198c856-987c-5bcf-a3d4-4a85242296a9",
+      "dnp": false
+    },
+    "C302": {
+      "value": "100n / 10V",
+      "uuid": "76dbb6c9-664f-500e-9d5f-9eb6d7bf7e6d",
+      "dnp": false
+    },
+    "C303": {
+      "value": "1u / 10V",
+      "uuid": "b2d395f1-20bf-574b-8826-acca7f480904",
+      "dnp": false
+    },
+    "J301": {
+      "value": "EPD_DEBUG",
+      "uuid": "565413aa-ccb5-5c7c-ad08-bb948a8c1eda",
+      "dnp": true
+    },
+    "J302": {
+      "value": "SD_DEBUG",
+      "uuid": "24c1fc23-3929-554a-8b28-da7a10491cc5",
+      "dnp": true
+    },
+    "J303": {
+      "value": "AUDIO_DEBUG",
+      "uuid": "0433560c-50f0-5d9b-a163-0115c4ba1739",
+      "dnp": true
+    },
+    "R301": {
+      "value": "10k",
+      "uuid": "5feead3b-24d0-5d16-bc8a-5f10d83261c1",
+      "dnp": false
+    },
+    "R302": {
+      "value": "10k",
+      "uuid": "97fef41f-0f77-5381-8afc-f3d16ebd7c29",
+      "dnp": false
+    },
+    "R303": {
+      "value": "47k",
+      "uuid": "af2d8969-27be-5be8-83c2-978a56a03381",
+      "dnp": false
+    },
+    "R304": {
+      "value": "47k",
+      "uuid": "60b31783-e1b6-5851-b830-5914cfa1d064",
+      "dnp": false
+    },
+    "R305": {
+      "value": "47k",
+      "uuid": "281e23f2-af97-5636-b183-879f165595ae",
+      "dnp": false
+    },
+    "R306": {
+      "value": "10k",
+      "uuid": "c2fb4b85-a1df-5107-b1e3-c22938f11fb6",
+      "dnp": false
+    },
+    "SW301": {
+      "value": "RESET",
+      "uuid": "9b25e7dc-cb08-5ca7-b00e-44dc6489dc33",
+      "dnp": false
+    },
+    "SW302": {
+      "value": "BOOT",
+      "uuid": "348599b7-7af1-5aff-b1ba-6ba691ddf15a",
+      "dnp": false
+    },
+    "SW303": {
+      "value": "POWER / IO21",
+      "uuid": "1ee3585d-bbfd-5582-9e7d-c8dabb4ce1db",
+      "dnp": false
+    },
+    "SW304": {
+      "value": "PLUS / IO44",
+      "uuid": "2f7fa741-298f-5a96-b51d-3ac9e7d10a98",
+      "dnp": false
+    },
+    "SW305": {
+      "value": "MINUS / IO5",
+      "uuid": "cd2c5223-3b13-5368-8738-afda08d92a92",
+      "dnp": false
+    },
+    "U301": {
+      "value": "ESP32-S3-WROOM-1-N16R8",
+      "uuid": "ea9576f5-e676-5350-bc8d-0c2aa759faac",
+      "dnp": false
+    },
+    "C501": {
+      "value": "TUNE / DNP",
+      "uuid": "b002bd0c-e384-5096-8413-ff22d444f3a7",
+      "dnp": true
+    },
+    "C502": {
+      "value": "TUNE / DNP",
+      "uuid": "fb17c1a0-d809-5e8e-9982-599cc5ab4ff4",
+      "dnp": true
+    },
+    "C503": {
+      "value": "100n / 16V",
+      "uuid": "37f15438-1d56-5f5d-be23-22f0d62f1ae2",
+      "dnp": false
+    },
+    "D501": {
+      "value": "AOS SMAJ6.0A",
+      "uuid": "3b88fdbb-48ef-5143-b6af-bc6fb0feab5f",
+      "dnp": false
+    },
+    "F501": {
+      "value": "MF-MSMF110/16X-2",
+      "uuid": "fc657a27-4dba-5050-9679-844c37089fe3",
+      "dnp": false
+    },
+    "J501": {
+      "value": "USB-C USB2 16P",
+      "uuid": "e5161a4f-fcf8-5019-b5c6-9737b54c023c",
+      "dnp": false
+    },
+    "J502": {
+      "value": "ONE SHUNT: USB / BENCH",
+      "uuid": "f7b13e12-0e7f-536c-8689-c90a07701223",
+      "dnp": false
+    },
+    "R501": {
+      "value": "5.1k 1%",
+      "uuid": "992f7029-1ea9-57b5-820e-4ac8685ba610",
+      "dnp": false
+    },
+    "R502": {
+      "value": "5.1k 1%",
+      "uuid": "d880e395-f452-5c02-91e2-08b647ba186c",
+      "dnp": false
+    },
+    "R503": {
+      "value": "22R",
+      "uuid": "505a39e8-3a13-5020-9817-9594a89cc537",
+      "dnp": false
+    },
+    "R504": {
+      "value": "22R",
+      "uuid": "9c724d74-102b-5797-bb6c-fbc68a8d7080",
+      "dnp": false
+    },
+    "U501": {
+      "value": "TI TPD2E2U06DCKR",
+      "uuid": "58b9ed19-0d95-53d2-9687-4e0270cb43c2",
+      "dnp": false
+    },
+    "U502": {
+      "value": "TI TPD2E2U06DCKR",
+      "uuid": "b7a3932b-93fb-57cf-8d86-754251bef0e1",
+      "dnp": false
+    },
+    "C401": {
+      "value": "1u / 10V",
+      "uuid": "ab2212e1-f0f1-5b46-8492-021e34863210",
+      "dnp": false
+    },
+    "C402": {
+      "value": "4.7n / 25V",
+      "uuid": "db354620-4d48-5fac-8ba8-ac120cd4bb02",
+      "dnp": false
+    },
+    "C403": {
+      "value": "22u / 10V",
+      "uuid": "f2fb5097-95ea-538d-b11b-c9534a5a7a80",
+      "dnp": false
+    },
+    "C404": {
+      "value": "1u / 10V",
+      "uuid": "7680f1e4-4493-5998-8310-42a582b7f66a",
+      "dnp": false
+    },
+    "C405": {
+      "value": "4.7n / 25V",
+      "uuid": "a663394b-fae5-5bd0-9891-9cd007f1e1a1",
+      "dnp": false
+    },
+    "C406": {
+      "value": "22u / 10V",
+      "uuid": "f87e7ee7-0c80-5c19-9952-da4b9859c834",
+      "dnp": false
+    },
+    "C407": {
+      "value": "1u / 10V",
+      "uuid": "5990b44c-3b81-5706-98c0-54172f44cd5c",
+      "dnp": false
+    },
+    "C408": {
+      "value": "4.7n / 25V",
+      "uuid": "358b19de-f64d-5b36-8e40-de325e219fa0",
+      "dnp": false
+    },
+    "C409": {
+      "value": "4.7u / 10V",
+      "uuid": "37907270-123e-55cd-9c2e-2c6a6f2f88df",
+      "dnp": false
+    },
+    "C410": {
+      "value": "1u / 10V",
+      "uuid": "6630251f-a3d8-5109-a2ba-a1f34cf21c81",
+      "dnp": false
+    },
+    "C411": {
+      "value": "4.7n / 25V",
+      "uuid": "59265260-4c70-5042-83ef-d90f75be7695",
+      "dnp": false
+    },
+    "C412": {
+      "value": "1u / 10V",
+      "uuid": "ca4ae3bc-d959-54ed-90ee-3809ebc73228",
+      "dnp": false
+    },
+    "C413": {
+      "value": "1u / 10V",
+      "uuid": "01e0cd7a-6358-505c-875e-794ff91abb69",
+      "dnp": false
+    },
+    "C414": {
+      "value": "4.7n / 25V",
+      "uuid": "4b853372-4e03-586a-bd54-ebaa592c77a5",
+      "dnp": false
+    },
+    "C415": {
+      "value": "22u / 10V",
+      "uuid": "f364f18e-07de-5f39-949a-1bca094d4d1a",
+      "dnp": false
+    },
+    "J401": {
+      "value": "EPD_PWR",
+      "uuid": "0d79ee19-1958-5442-8123-cb7f924d4a26",
+      "dnp": false
+    },
+    "J402": {
+      "value": "SD_PWR",
+      "uuid": "e6fb1d08-df26-5c10-8ed3-84cd62b3a22e",
+      "dnp": false
+    },
+    "J403": {
+      "value": "TOUCH_PWR",
+      "uuid": "d5ff2ed2-82d5-5683-802f-d43a0eda20f8",
+      "dnp": false
+    },
+    "J404": {
+      "value": "MIC_PWR",
+      "uuid": "12256913-77e6-50d3-993e-bbeb2818a849",
+      "dnp": false
+    },
+    "J405": {
+      "value": "AMP_PWR",
+      "uuid": "1e57e76f-dcbe-502b-89e7-3040db9dcf76",
+      "dnp": false
+    },
+    "R401": {
+      "value": "330R / 1%",
+      "uuid": "afab76f1-e428-5e45-a951-f7591a727f0f",
+      "dnp": false
+    },
+    "R402": {
+      "value": "0R / I_EPD",
+      "uuid": "112f1cd8-43ba-5de4-962c-228fd7aac7f6",
+      "dnp": false
+    },
+    "R404": {
+      "value": "330R / 1%",
+      "uuid": "edb156d9-bcfc-5d4c-a504-959e9bb525cb",
+      "dnp": false
+    },
+    "R405": {
+      "value": "0R / I_SD",
+      "uuid": "36c69d1f-2ae7-595d-b3da-412833fc434f",
+      "dnp": false
+    },
+    "R407": {
+      "value": "330R / 1%",
+      "uuid": "360487ec-8614-5fcd-ab28-bcc4277c462e",
+      "dnp": false
+    },
+    "R408": {
+      "value": "0R / I_TOUCH",
+      "uuid": "32041f0f-e17b-51dd-b02a-f86d7c609a86",
+      "dnp": false
+    },
+    "R410": {
+      "value": "330R / 1%",
+      "uuid": "71898dd9-58b3-556e-9ceb-cbefbc2cadbe",
+      "dnp": false
+    },
+    "R411": {
+      "value": "0R / I_MIC",
+      "uuid": "4d5a3b31-5fab-5132-a7d8-59903a103cc1",
+      "dnp": false
+    },
+    "R413": {
+      "value": "330R / 1%",
+      "uuid": "ecf11251-36e3-5dfb-865e-fdef9cf4e124",
+      "dnp": false
+    },
+    "R414": {
+      "value": "0R / I_AMP",
+      "uuid": "50b32ade-a2cf-5103-a915-395d477b2306",
+      "dnp": false
+    },
+    "R416": {
+      "value": "10k",
+      "uuid": "9caafca7-e663-5b84-b5dc-91042e742f14",
+      "dnp": false
+    },
+    "U401": {
+      "value": "TPS22918DBV",
+      "uuid": "65287435-c676-5561-b11c-4e20831eb8d7",
+      "dnp": false
+    },
+    "U402": {
+      "value": "TPS22918DBV",
+      "uuid": "88fa9451-b807-5b02-a9e0-f927058a84d7",
+      "dnp": false
+    },
+    "U403": {
+      "value": "TPS22918DBV",
+      "uuid": "1e1b9a3d-6d78-57bb-a679-d208dcc8c0c6",
+      "dnp": false
+    },
+    "U404": {
+      "value": "TPS22918DBV",
+      "uuid": "0c70bcf6-9957-5ccf-9d25-9c17119f2419",
+      "dnp": false
+    },
+    "U405": {
+      "value": "TPS22918DBV",
+      "uuid": "14d1b57b-2bc9-5535-b3f6-42411c802d2f",
+      "dnp": false
+    },
+    "C416": {
+      "value": "100n / 10V",
+      "uuid": "bf22b068-01d7-5767-9d5f-b2a6b7a0e72c",
+      "dnp": false
+    },
+    "C417": {
+      "value": "100n / 10V",
+      "uuid": "4ec1fe14-63ba-5e4d-b84d-648f68f54c37",
+      "dnp": false
+    },
+    "J406": {
+      "value": "GT911_FUNCTIONAL_6PIN",
+      "uuid": "3ae83639-970e-5125-a342-68562771c6ba",
+      "dnp": false
+    },
+    "R417": {
+      "value": "10k",
+      "uuid": "cc995aca-d907-500b-aad6-b3d730d4294b",
+      "dnp": false
+    },
+    "R418": {
+      "value": "10k",
+      "uuid": "107379ed-e29b-5160-8626-2c6b44c61c0d",
+      "dnp": false
+    },
+    "R419": {
+      "value": "100k",
+      "uuid": "92ec389a-5a03-5f59-9a48-90036dd38a97",
+      "dnp": false
+    },
+    "R420": {
+      "value": "100k",
+      "uuid": "66515eda-7867-5c26-a9ba-78a1fbac651b",
+      "dnp": false
+    },
+    "U406": {
+      "value": "TMUX1511PW",
+      "uuid": "96ac646d-a428-5d93-b614-828500797036",
+      "dnp": false
+    },
+    "C601": {
+      "value": "4.7u / 50V",
+      "uuid": "b4055fcf-ae0c-5a6b-8a49-1f58d3d6186f",
+      "dnp": false
+    },
+    "C602": {
+      "value": "4.7u / 50V",
+      "uuid": "16846802-a30a-5854-bd34-df2099da98ed",
+      "dnp": false
+    },
+    "C603": {
+      "value": "4.7u / 25V",
+      "uuid": "8602725f-35f8-5892-9609-59e5892ef718",
+      "dnp": false
+    },
+    "C604": {
+      "value": "4.7u / 50V",
+      "uuid": "8e671265-798d-5f48-86e3-fb2be6cd9f0a",
+      "dnp": false
+    },
+    "C605": {
+      "value": "1u / 25V",
+      "uuid": "0c7c7d9f-c0b9-52d9-b07f-753e4b118626",
+      "dnp": false
+    },
+    "C606": {
+      "value": "1u / 25V",
+      "uuid": "d2fea429-3749-5ab4-bd28-fabf10d37612",
+      "dnp": false
+    },
+    "C607": {
+      "value": "4.7u / 50V",
+      "uuid": "233e3b9a-67a1-5deb-bb29-b491735dee43",
+      "dnp": false
+    },
+    "C608": {
+      "value": "4.7u / 50V",
+      "uuid": "3891c208-da7c-57e2-8417-f9fb3900fd49",
+      "dnp": false
+    },
+    "C609": {
+      "value": "4.7u / 50V",
+      "uuid": "04d9975c-1124-58c0-92d4-6f5930a1b470",
+      "dnp": false
+    },
+    "C610": {
+      "value": "1u / 50V",
+      "uuid": "1813d649-f641-510b-a003-3d1af81e0e81",
+      "dnp": false
+    },
+    "C611": {
+      "value": "100n / 10V",
+      "uuid": "db460c49-2594-59ca-80c9-a01e0ea1f57e",
+      "dnp": false
+    },
+    "C612": {
+      "value": "100n / 10V",
+      "uuid": "f53661b1-79dd-5415-857b-08ac89b5b02f",
+      "dnp": false
+    },
+    "D601": {
+      "value": "onsemi MBR0530",
+      "uuid": "3e9a7a9d-3639-58fd-8278-d920f72c2a87",
+      "dnp": false
+    },
+    "D602": {
+      "value": "onsemi MBR0530",
+      "uuid": "7eb5f901-0e9d-5f80-a531-f30e88fec9d8",
+      "dnp": false
+    },
+    "D603": {
+      "value": "onsemi MBR0530",
+      "uuid": "a165b438-b5b7-5e78-a4f6-644f1141fa97",
+      "dnp": false
+    },
+    "J601": {
+      "value": "EPD FPC 24 x 0.5mm",
+      "uuid": "e6e0367c-1313-5cf3-ae54-ec8ded3d2c70",
+      "dnp": false
+    },
+    "L601": {
+      "value": "10uH / >=1A target",
+      "uuid": "47ccd938-196a-5bc6-9c52-e2ce717bb377",
+      "dnp": false
+    },
+    "Q601": {
+      "value": "Vishay Si1308EDL-T1-GE3",
+      "uuid": "c6b1d901-a617-5516-8e8b-9964da85fbf9",
+      "dnp": false
+    },
+    "R601": {
+      "value": "1M / 1%",
+      "uuid": "77af0cc3-2780-52a4-8ded-63dd2427894e",
+      "dnp": false
+    },
+    "R602": {
+      "value": "0.47R / 1%",
+      "uuid": "0c2366d4-71d1-51b7-bdbd-73befbcb06a0",
+      "dnp": false
+    },
+    "R603": {
+      "value": "33R",
+      "uuid": "e9e984d4-bb8a-506c-9fff-b57d840e8211",
+      "dnp": false
+    },
+    "R604": {
+      "value": "33R",
+      "uuid": "a7217d96-2ee9-562d-ae89-27de1433dbdf",
+      "dnp": false
+    },
+    "R605": {
+      "value": "33R",
+      "uuid": "7d7fef2e-d547-551a-92cf-3bdf9e6f528e",
+      "dnp": false
+    },
+    "R606": {
+      "value": "33R",
+      "uuid": "960afebf-87a6-57e2-8c84-8438ba3f96d1",
+      "dnp": false
+    },
+    "R607": {
+      "value": "33R",
+      "uuid": "a01e6c6b-2740-5697-9828-62566c124d9b",
+      "dnp": false
+    },
+    "R608": {
+      "value": "100k",
+      "uuid": "24097423-3420-5970-9a73-2c58128b7f30",
+      "dnp": false
+    },
+    "R609": {
+      "value": "100k",
+      "uuid": "a30c9be7-4b24-55bf-bafb-2d01944cf21e",
+      "dnp": false
+    },
+    "R610": {
+      "value": "100k",
+      "uuid": "e051d4b2-bd83-5115-8eb3-1d0da854d456",
+      "dnp": false
+    },
+    "R611": {
+      "value": "100k",
+      "uuid": "86b99763-086a-599d-8c3e-a98702f1005f",
+      "dnp": false
+    },
+    "R612": {
+      "value": "100k",
+      "uuid": "0cae1cb8-8ce2-5127-b409-43bb456afe7d",
+      "dnp": false
+    },
+    "R613": {
+      "value": "100k",
+      "uuid": "fe3daf17-dd08-59f3-8fbc-70bc86e1e3e3",
+      "dnp": false
+    },
+    "R614": {
+      "value": "100k",
+      "uuid": "acac75b0-1438-57b2-893d-962b2edd10c6",
+      "dnp": false
+    },
+    "U601": {
+      "value": "TI SN74LVC541APWR",
+      "uuid": "157f1f82-2afa-5b98-8c9d-fbb07897705e",
+      "dnp": false
+    },
+    "U602": {
+      "value": "TI SN74LVC1G125DBVR",
+      "uuid": "6f80bc45-c131-526c-b770-e6332af91466",
+      "dnp": false
+    },
+    "C701": {
+      "value": "100n / 10V",
+      "uuid": "2c8ab466-e3d5-5276-af93-0f0961de27a7",
+      "dnp": false
+    },
+    "C702": {
+      "value": "10u / 10V",
+      "uuid": "5d8a5441-9284-5197-ab97-6caf28b1b98d",
+      "dnp": false
+    },
+    "C703": {
+      "value": "100n / 10V",
+      "uuid": "003d9a91-5617-57c8-94af-9285d12e711d",
+      "dnp": false
+    },
+    "C704": {
+      "value": "10n / 10V",
+      "uuid": "21518262-db14-54cb-a30c-59175717f395",
+      "dnp": false
+    },
+    "C705": {
+      "value": "100n / 10V",
+      "uuid": "ef3d8d9d-eba2-598e-b22a-3b25c7078ba1",
+      "dnp": false
+    },
+    "J701": {
+      "value": "Hirose DM3AT-SF-PEJM5",
+      "uuid": "4e0c2e55-9a5f-593d-a04a-f3a3628f5bbe",
+      "dnp": false
+    },
+    "R701": {
+      "value": "10k / 1%",
+      "uuid": "2fe253b8-71aa-5f2f-9c2a-9e8906c7b8e5",
+      "dnp": false
+    },
+    "R702": {
+      "value": "10k / 1%",
+      "uuid": "5952ee7d-c566-56ee-b2e4-2fe074549014",
+      "dnp": false
+    },
+    "R703": {
+      "value": "10k / 1%",
+      "uuid": "ca5bfe22-904f-5dad-a703-c39bebe7d4ce",
+      "dnp": false
+    },
+    "R704": {
+      "value": "10k / 1%",
+      "uuid": "8da9460b-194c-53ea-ab2f-ca1df2d5723a",
+      "dnp": false
+    },
+    "R705": {
+      "value": "10k / 1%",
+      "uuid": "f7d5519b-fdb5-5e8c-b08a-214ef1d0ece9",
+      "dnp": false
+    },
+    "R706": {
+      "value": "100k",
+      "uuid": "d2583771-fa24-5604-8f25-e461e862a1ab",
+      "dnp": false
+    },
+    "R708": {
+      "value": "100R",
+      "uuid": "f0cf2f0f-5d5c-58f7-9399-4273b6a78134",
+      "dnp": false
+    },
+    "R710": {
+      "value": "22R",
+      "uuid": "db5577da-3d90-5f59-af8c-06733b3bddbe",
+      "dnp": false
+    },
+    "R711": {
+      "value": "0R",
+      "uuid": "f5ee7ef5-e1ce-5937-9832-50eee8a2263e",
+      "dnp": false
+    },
+    "R712": {
+      "value": "0R",
+      "uuid": "596ab4bf-1db2-580d-928f-5705a8df82f9",
+      "dnp": false
+    },
+    "R713": {
+      "value": "0R",
+      "uuid": "8243c858-2802-54e0-8fb4-08e25191cd52",
+      "dnp": false
+    },
+    "R714": {
+      "value": "0R",
+      "uuid": "4aa825e1-7e8b-54dd-9f9f-7c6d2bb73a8f",
+      "dnp": false
+    },
+    "R715": {
+      "value": "0R",
+      "uuid": "550a50f7-9ed8-55ce-ae9c-3a8682a42dd8",
+      "dnp": false
+    },
+    "U701": {
+      "value": "TI TMUX1511PW",
+      "uuid": "b144e475-5959-5c7d-be66-12c1c670f3a5",
+      "dnp": false
+    },
+    "U702": {
+      "value": "TI TPD2E2U06DCKR",
+      "uuid": "ab5a53c0-4a5a-5e06-8ee8-86443893014d",
+      "dnp": false
+    },
+    "U703": {
+      "value": "TI TPD2E2U06DCKR",
+      "uuid": "00684871-8aba-5010-a3af-93478706ff37",
+      "dnp": false
+    },
+    "U704": {
+      "value": "TI TPD2E2U06DCKR",
+      "uuid": "6c17f120-5734-5599-9bb8-d63e40b98b24",
+      "dnp": false
+    },
+    "U705": {
+      "value": "TI TPD2E2U06DCKR",
+      "uuid": "fea64e05-a128-57ca-a0ca-e1f5ea08070a",
+      "dnp": false
+    },
+    "U706": {
+      "value": "TI TMUX1511PW",
+      "uuid": "401d2416-c6e6-5857-9067-261f98e75e3c",
+      "dnp": false
+    },
+    "C801": {
+      "value": "100n / 10V",
+      "uuid": "d233ea72-b3c4-57ef-8715-c03bde244c4f",
+      "dnp": false
+    },
+    "C802": {
+      "value": "100n / 10V",
+      "uuid": "62ae1813-8b5b-57ad-ae14-f18f94d61389",
+      "dnp": false
+    },
+    "C803": {
+      "value": "10u / 10V",
+      "uuid": "dd17b2d0-4c00-53b2-b34e-a191ab75a2da",
+      "dnp": false
+    },
+    "C804": {
+      "value": "100n / 10V",
+      "uuid": "ff8b9c5e-44ec-5505-9824-1a0556ceb4bd",
+      "dnp": false
+    },
+    "C805": {
+      "value": "1u / 10V",
+      "uuid": "9fd5f618-efbf-5d77-b890-92fcfbeb5723",
+      "dnp": false
+    },
+    "C806": {
+      "value": "100n / 10V",
+      "uuid": "71b4df81-6052-5d8f-b6df-04555a2b71fb",
+      "dnp": false
+    },
+    "C808": {
+      "value": "100n / 10V",
+      "uuid": "77f93329-0e8c-53a2-a9bf-7fa40dc80823",
+      "dnp": false
+    },
+    "J801": {
+      "value": "SPEAKER / 8R CANDIDATE",
+      "uuid": "e1d1bc2e-13c9-5aac-9dff-21acdd1f6e8b",
+      "dnp": false
+    },
+    "R802": {
+      "value": "100k",
+      "uuid": "37299196-e9d7-5f8d-b310-49c4060e06fb",
+      "dnp": false
+    },
+    "R803": {
+      "value": "100k",
+      "uuid": "9ea59b57-4df0-55ee-bd1b-d1a81d136341",
+      "dnp": false
+    },
+    "R804": {
+      "value": "100k",
+      "uuid": "c5657f33-c607-5312-b7af-a56e5a6ced3f",
+      "dnp": false
+    },
+    "R805": {
+      "value": "100k",
+      "uuid": "80d334aa-b8fb-5c96-a956-32fb79ccc595",
+      "dnp": false
+    },
+    "R806": {
+      "value": "2.00k / 1%",
+      "uuid": "f5d097e8-23a4-55d5-9bad-39c9cad785fb",
+      "dnp": false
+    },
+    "R808": {
+      "value": "22R",
+      "uuid": "b21c27b2-0e31-5597-a233-b45861c2c52a",
+      "dnp": false
+    },
+    "R809": {
+      "value": "22R",
+      "uuid": "a9bc9c7b-07a8-5726-a995-92f3dc7413ba",
+      "dnp": false
+    },
+    "R810": {
+      "value": "22R",
+      "uuid": "d4fa2b87-3178-5d87-ace4-6ccb04c59e24",
+      "dnp": false
+    },
+    "R811": {
+      "value": "0R / SPK_P",
+      "uuid": "97011f22-59ad-53d3-85f1-17de84b111f1",
+      "dnp": false
+    },
+    "R812": {
+      "value": "0R / SPK_N",
+      "uuid": "4a1a67a6-8466-59d1-a28c-0820bb56d220",
+      "dnp": false
+    },
+    "R813": {
+      "value": "100k",
+      "uuid": "a87fc070-1f5b-51ea-8400-12afb4297e94",
+      "dnp": false
+    },
+    "U801": {
+      "value": "Nexperia 74LVC125APW",
+      "uuid": "5fa5ba83-7bfb-59fc-be79-f9e6698e9687",
+      "dnp": false
+    },
+    "U802": {
+      "value": "MAX98357AETE+T",
+      "uuid": "f3791421-99e1-547b-a0fa-a39a810d5221",
+      "dnp": false
+    },
+    "U803": {
+      "value": "DMM-4026-B-I2S-R",
+      "uuid": "386db264-5326-5fac-a382-5e1e1379019e",
+      "dnp": false
+    },
+    "U804": {
+      "value": "TI SN74LVC1G125DBVR",
+      "uuid": "9c6543c3-c92b-5137-a065-a9f67427b84a",
+      "dnp": false
+    },
+    "U805": {
+      "value": "TI SN74LVC1G14DBVR",
+      "uuid": "1a1af933-b09b-562c-8e44-52fa931466b8",
+      "dnp": false
+    }
+  },
+  "netgroups": [
+    [
+      [
+        "R812",
+        "1"
+      ],
+      [
+        "U802",
+        "10"
+      ]
+    ],
+    [
+      [
+        "R811",
+        "1"
+      ],
+      [
+        "U802",
+        "9"
+      ]
+    ],
+    [
+      [
+        "R805",
+        "1"
+      ],
+      [
+        "R806",
+        "2"
+      ],
+      [
+        "U802",
+        "4"
+      ]
+    ],
+    [
+      [
+        "R808",
+        "1"
+      ],
+      [
+        "U801",
+        "3"
+      ]
+    ],
+    [
+      [
+        "R810",
+        "1"
+      ],
+      [
+        "U801",
+        "8"
+      ]
+    ],
+    [
+      [
+        "U801",
+        "1"
+      ],
+      [
+        "U801",
+        "10"
+      ],
+      [
+        "U801",
+        "13"
+      ],
+      [
+        "U801",
+        "4"
+      ],
+      [
+        "U805",
+        "4"
+      ]
+    ],
+    [
+      [
+        "R806",
+        "1"
+      ],
+      [
+        "U801",
+        "11"
+      ]
+    ],
+    [
+      [
+        "R809",
+        "1"
+      ],
+      [
+        "U801",
+        "6"
+      ]
+    ],
+    [
+      [
+        "R802",
+        "1"
+      ],
+      [
+        "R808",
+        "2"
+      ],
+      [
+        "U802",
+        "16"
+      ],
+      [
+        "U803",
+        "6"
+      ]
+    ],
+    [
+      [
+        "R804",
+        "1"
+      ],
+      [
+        "R810",
+        "2"
+      ],
+      [
+        "U802",
+        "1"
+      ]
+    ],
+    [
+      [
+        "R803",
+        "1"
+      ],
+      [
+        "R809",
+        "2"
+      ],
+      [
+        "U802",
+        "14"
+      ],
+      [
+        "U803",
+        "5"
+      ]
+    ],
+    [
+      [
+        "R813",
+        "1"
+      ],
+      [
+        "U803",
+        "7"
+      ],
+      [
+        "U804",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J801",
+        "2"
+      ],
+      [
+        "R812",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J801",
+        "1"
+      ],
+      [
+        "R811",
+        "2"
+      ]
+    ],
+    [
+      [
+        "C602",
+        "2"
+      ],
+      [
+        "D603",
+        "2"
+      ],
+      [
+        "L601",
+        "2"
+      ],
+      [
+        "Q601",
+        "3"
+      ]
+    ],
+    [
+      [
+        "R302",
+        "2"
+      ],
+      [
+        "SW302",
+        "1"
+      ],
+      [
+        "U301",
+        "27"
+      ]
+    ],
+    [
+      [
+        "C303",
+        "1"
+      ],
+      [
+        "R301",
+        "2"
+      ],
+      [
+        "SW301",
+        "1"
+      ],
+      [
+        "U301",
+        "3"
+      ]
+    ],
+    [
+      [
+        "C202",
+        "1"
+      ],
+      [
+        "J203",
+        "2"
+      ],
+      [
+        "R201",
+        "1"
+      ],
+      [
+        "R203",
+        "1"
+      ],
+      [
+        "R207",
+        "1"
+      ],
+      [
+        "U201",
+        "6"
+      ]
+    ],
+    [
+      [
+        "R217",
+        "2"
+      ],
+      [
+        "U203",
+        "7"
+      ]
+    ],
+    [
+      [
+        "R218",
+        "2"
+      ],
+      [
+        "U203",
+        "8"
+      ]
+    ],
+    [
+      [
+        "R209",
+        "2"
+      ],
+      [
+        "U202",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J202",
+        "2"
+      ],
+      [
+        "R205",
+        "1"
+      ],
+      [
+        "U201",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J202",
+        "1"
+      ],
+      [
+        "R204",
+        "2"
+      ]
+    ],
+    [
+      [
+        "R201",
+        "2"
+      ],
+      [
+        "R202",
+        "1"
+      ],
+      [
+        "U201",
+        "4"
+      ]
+    ],
+    [
+      [
+        "J203",
+        "1"
+      ],
+      [
+        "R206",
+        "1"
+      ],
+      [
+        "U201",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J204",
+        "1"
+      ],
+      [
+        "R207",
+        "2"
+      ],
+      [
+        "U201",
+        "5"
+      ]
+    ],
+    [
+      [
+        "L201",
+        "1"
+      ],
+      [
+        "U201",
+        "9"
+      ]
+    ],
+    [
+      [
+        "L201",
+        "2"
+      ],
+      [
+        "U201",
+        "7"
+      ]
+    ],
+    [
+      [
+        "C414",
+        "1"
+      ],
+      [
+        "U405",
+        "4"
+      ]
+    ],
+    [
+      [
+        "R413",
+        "1"
+      ],
+      [
+        "U405",
+        "5"
+      ]
+    ],
+    [
+      [
+        "R414",
+        "1"
+      ],
+      [
+        "U405",
+        "6"
+      ]
+    ],
+    [
+      [
+        "C402",
+        "1"
+      ],
+      [
+        "U401",
+        "4"
+      ]
+    ],
+    [
+      [
+        "R401",
+        "1"
+      ],
+      [
+        "U401",
+        "5"
+      ]
+    ],
+    [
+      [
+        "R402",
+        "1"
+      ],
+      [
+        "U401",
+        "6"
+      ]
+    ],
+    [
+      [
+        "C411",
+        "1"
+      ],
+      [
+        "U404",
+        "4"
+      ]
+    ],
+    [
+      [
+        "R410",
+        "1"
+      ],
+      [
+        "U404",
+        "5"
+      ]
+    ],
+    [
+      [
+        "R411",
+        "1"
+      ],
+      [
+        "U404",
+        "6"
+      ]
+    ],
+    [
+      [
+        "C405",
+        "1"
+      ],
+      [
+        "U402",
+        "4"
+      ]
+    ],
+    [
+      [
+        "R404",
+        "1"
+      ],
+      [
+        "U402",
+        "5"
+      ]
+    ],
+    [
+      [
+        "R405",
+        "1"
+      ],
+      [
+        "U402",
+        "6"
+      ]
+    ],
+    [
+      [
+        "C408",
+        "1"
+      ],
+      [
+        "U403",
+        "4"
+      ]
+    ],
+    [
+      [
+        "R407",
+        "1"
+      ],
+      [
+        "U403",
+        "5"
+      ]
+    ],
+    [
+      [
+        "R408",
+        "1"
+      ],
+      [
+        "U403",
+        "6"
+      ]
+    ],
+    [
+      [
+        "J103",
+        "1"
+      ],
+      [
+        "U101",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J102",
+        "1"
+      ],
+      [
+        "R102",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J105",
+        "1"
+      ],
+      [
+        "Q101",
+        "3"
+      ],
+      [
+        "R106",
+        "2"
+      ],
+      [
+        "U101",
+        "4"
+      ]
+    ],
+    [
+      [
+        "Q101",
+        "1"
+      ],
+      [
+        "R107",
+        "1"
+      ],
+      [
+        "R108",
+        "2"
+      ]
+    ],
+    [
+      [
+        "R103",
+        "1"
+      ],
+      [
+        "U101",
+        "12"
+      ]
+    ],
+    [
+      [
+        "R104",
+        "1"
+      ],
+      [
+        "U101",
+        "16"
+      ]
+    ],
+    [
+      [
+        "R105",
+        "1"
+      ],
+      [
+        "U101",
+        "14"
+      ]
+    ],
+    [
+      [
+        "Q201",
+        "1"
+      ],
+      [
+        "R221",
+        "2"
+      ],
+      [
+        "R222",
+        "1"
+      ]
+    ],
+    [
+      [
+        "R710",
+        "2"
+      ],
+      [
+        "U701",
+        "2"
+      ]
+    ],
+    [
+      [
+        "R711",
+        "2"
+      ],
+      [
+        "U701",
+        "5"
+      ]
+    ],
+    [
+      [
+        "R712",
+        "2"
+      ],
+      [
+        "U701",
+        "9"
+      ]
+    ],
+    [
+      [
+        "R713",
+        "2"
+      ],
+      [
+        "U701",
+        "12"
+      ]
+    ],
+    [
+      [
+        "R714",
+        "2"
+      ],
+      [
+        "U706",
+        "2"
+      ]
+    ],
+    [
+      [
+        "R715",
+        "2"
+      ],
+      [
+        "U706",
+        "5"
+      ]
+    ],
+    [
+      [
+        "J501",
+        "A5"
+      ],
+      [
+        "R501",
+        "1"
+      ],
+      [
+        "U502",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J501",
+        "B5"
+      ],
+      [
+        "R502",
+        "1"
+      ],
+      [
+        "U502",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J501",
+        "A7"
+      ],
+      [
+        "J501",
+        "B7"
+      ],
+      [
+        "R504",
+        "1"
+      ],
+      [
+        "U501",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J501",
+        "A6"
+      ],
+      [
+        "J501",
+        "B6"
+      ],
+      [
+        "R503",
+        "1"
+      ],
+      [
+        "U501",
+        "1"
+      ]
+    ],
+    [
+      [
+        "C203",
+        "1"
+      ],
+      [
+        "C301",
+        "1"
+      ],
+      [
+        "C302",
+        "1"
+      ],
+      [
+        "C401",
+        "1"
+      ],
+      [
+        "C404",
+        "1"
+      ],
+      [
+        "C407",
+        "1"
+      ],
+      [
+        "C410",
+        "1"
+      ],
+      [
+        "C612",
+        "1"
+      ],
+      [
+        "C808",
+        "1"
+      ],
+      [
+        "J201",
+        "1"
+      ],
+      [
+        "J205",
+        "1"
+      ],
+      [
+        "R111",
+        "1"
+      ],
+      [
+        "R112",
+        "1"
+      ],
+      [
+        "R203",
+        "2"
+      ],
+      [
+        "R209",
+        "1"
+      ],
+      [
+        "R210",
+        "1"
+      ],
+      [
+        "R211",
+        "1"
+      ],
+      [
+        "R216",
+        "1"
+      ],
+      [
+        "R219",
+        "1"
+      ],
+      [
+        "R220",
+        "1"
+      ],
+      [
+        "R301",
+        "1"
+      ],
+      [
+        "R302",
+        "1"
+      ],
+      [
+        "R303",
+        "1"
+      ],
+      [
+        "R304",
+        "1"
+      ],
+      [
+        "R305",
+        "1"
+      ],
+      [
+        "R610",
+        "1"
+      ],
+      [
+        "U202",
+        "24"
+      ],
+      [
+        "U301",
+        "2"
+      ],
+      [
+        "U401",
+        "1"
+      ],
+      [
+        "U402",
+        "1"
+      ],
+      [
+        "U403",
+        "1"
+      ],
+      [
+        "U404",
+        "1"
+      ],
+      [
+        "U602",
+        "5"
+      ],
+      [
+        "U804",
+        "5"
+      ]
+    ],
+    [
+      [
+        "J303",
+        "8"
+      ],
+      [
+        "R306",
+        "1"
+      ],
+      [
+        "U301",
+        "6"
+      ],
+      [
+        "U801",
+        "12"
+      ]
+    ],
+    [
+      [
+        "C415",
+        "1"
+      ],
+      [
+        "C802",
+        "1"
+      ],
+      [
+        "C803",
+        "1"
+      ],
+      [
+        "J303",
+        "2"
+      ],
+      [
+        "J405",
+        "1"
+      ],
+      [
+        "R413",
+        "2"
+      ],
+      [
+        "R414",
+        "2"
+      ],
+      [
+        "U802",
+        "2"
+      ],
+      [
+        "U802",
+        "7"
+      ],
+      [
+        "U802",
+        "8"
+      ]
+    ],
+    [
+      [
+        "R416",
+        "1"
+      ],
+      [
+        "U301",
+        "4"
+      ],
+      [
+        "U404",
+        "3"
+      ],
+      [
+        "U405",
+        "3"
+      ],
+      [
+        "U805",
+        "2"
+      ]
+    ],
+    [
+      [
+        "C103",
+        "1"
+      ],
+      [
+        "C204",
+        "1"
+      ],
+      [
+        "R102",
+        "2"
+      ],
+      [
+        "U101",
+        "2"
+      ],
+      [
+        "U101",
+        "3"
+      ],
+      [
+        "U203",
+        "2"
+      ],
+      [
+        "U203",
+        "3"
+      ]
+    ],
+    [
+      [
+        "J101",
+        "1"
+      ],
+      [
+        "J502",
+        "3"
+      ]
+    ],
+    [
+      [
+        "R108",
+        "1"
+      ],
+      [
+        "U202",
+        "11"
+      ]
+    ],
+    [
+      [
+        "R112",
+        "2"
+      ],
+      [
+        "U101",
+        "9"
+      ],
+      [
+        "U202",
+        "8"
+      ]
+    ],
+    [
+      [
+        "C403",
+        "1"
+      ],
+      [
+        "C603",
+        "1"
+      ],
+      [
+        "C605",
+        "1"
+      ],
+      [
+        "C611",
+        "1"
+      ],
+      [
+        "J301",
+        "1"
+      ],
+      [
+        "J401",
+        "1"
+      ],
+      [
+        "J601",
+        "15"
+      ],
+      [
+        "J601",
+        "16"
+      ],
+      [
+        "L601",
+        "1"
+      ],
+      [
+        "R401",
+        "2"
+      ],
+      [
+        "R402",
+        "2"
+      ],
+      [
+        "U601",
+        "20"
+      ]
+    ],
+    [
+      [
+        "R605",
+        "1"
+      ],
+      [
+        "U601",
+        "16"
+      ]
+    ],
+    [
+      [
+        "R606",
+        "1"
+      ],
+      [
+        "U601",
+        "15"
+      ]
+    ],
+    [
+      [
+        "R604",
+        "1"
+      ],
+      [
+        "U601",
+        "17"
+      ]
+    ],
+    [
+      [
+        "R607",
+        "1"
+      ],
+      [
+        "U601",
+        "14"
+      ]
+    ],
+    [
+      [
+        "R603",
+        "1"
+      ],
+      [
+        "U601",
+        "18"
+      ]
+    ],
+    [
+      [
+        "J301",
+        "8"
+      ],
+      [
+        "U301",
+        "17"
+      ],
+      [
+        "U602",
+        "4"
+      ]
+    ],
+    [
+      [
+        "J301",
+        "5"
+      ],
+      [
+        "R610",
+        "2"
+      ],
+      [
+        "U301",
+        "10"
+      ],
+      [
+        "U601",
+        "4"
+      ]
+    ],
+    [
+      [
+        "J301",
+        "6"
+      ],
+      [
+        "R611",
+        "1"
+      ],
+      [
+        "U301",
+        "11"
+      ],
+      [
+        "U601",
+        "5"
+      ]
+    ],
+    [
+      [
+        "J206",
+        "1"
+      ],
+      [
+        "R212",
+        "1"
+      ],
+      [
+        "U202",
+        "4"
+      ],
+      [
+        "U401",
+        "3"
+      ]
+    ],
+    [
+      [
+        "C602",
+        "1"
+      ],
+      [
+        "D601",
+        "1"
+      ],
+      [
+        "D602",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "2"
+      ],
+      [
+        "Q601",
+        "1"
+      ],
+      [
+        "R601",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J301",
+        "4"
+      ],
+      [
+        "R609",
+        "1"
+      ],
+      [
+        "U301",
+        "8"
+      ],
+      [
+        "U601",
+        "3"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "9"
+      ],
+      [
+        "R614",
+        "1"
+      ],
+      [
+        "U602",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "12"
+      ],
+      [
+        "R605",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "11"
+      ],
+      [
+        "R606",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "14"
+      ],
+      [
+        "R604",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "10"
+      ],
+      [
+        "R607",
+        "2"
+      ],
+      [
+        "R613",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "13"
+      ],
+      [
+        "R603",
+        "2"
+      ]
+    ],
+    [
+      [
+        "C604",
+        "1"
+      ],
+      [
+        "D603",
+        "1"
+      ],
+      [
+        "J601",
+        "21"
+      ]
+    ],
+    [
+      [
+        "C609",
+        "1"
+      ],
+      [
+        "D601",
+        "2"
+      ],
+      [
+        "J601",
+        "23"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "3"
+      ],
+      [
+        "Q601",
+        "2"
+      ],
+      [
+        "R602",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J301",
+        "7"
+      ],
+      [
+        "R612",
+        "1"
+      ],
+      [
+        "U301",
+        "12"
+      ],
+      [
+        "U601",
+        "6"
+      ]
+    ],
+    [
+      [
+        "J301",
+        "3"
+      ],
+      [
+        "R608",
+        "1"
+      ],
+      [
+        "U301",
+        "9"
+      ],
+      [
+        "U601",
+        "2"
+      ]
+    ],
+    [
+      [
+        "C610",
+        "1"
+      ],
+      [
+        "J601",
+        "24"
+      ]
+    ],
+    [
+      [
+        "C606",
+        "1"
+      ],
+      [
+        "J601",
+        "18"
+      ]
+    ],
+    [
+      [
+        "C607",
+        "1"
+      ],
+      [
+        "J601",
+        "20"
+      ]
+    ],
+    [
+      [
+        "C601",
+        "1"
+      ],
+      [
+        "J601",
+        "5"
+      ]
+    ],
+    [
+      [
+        "C608",
+        "1"
+      ],
+      [
+        "J601",
+        "22"
+      ]
+    ],
+    [
+      [
+        "R219",
+        "2"
+      ],
+      [
+        "U202",
+        "15"
+      ],
+      [
+        "U203",
+        "5"
+      ]
+    ],
+    [
+      [
+        "C101",
+        "2"
+      ],
+      [
+        "C102",
+        "2"
+      ],
+      [
+        "C103",
+        "2"
+      ],
+      [
+        "C201",
+        "2"
+      ],
+      [
+        "C202",
+        "2"
+      ],
+      [
+        "C203",
+        "2"
+      ],
+      [
+        "C204",
+        "2"
+      ],
+      [
+        "C301",
+        "2"
+      ],
+      [
+        "C302",
+        "2"
+      ],
+      [
+        "C303",
+        "2"
+      ],
+      [
+        "C401",
+        "2"
+      ],
+      [
+        "C402",
+        "2"
+      ],
+      [
+        "C403",
+        "2"
+      ],
+      [
+        "C404",
+        "2"
+      ],
+      [
+        "C405",
+        "2"
+      ],
+      [
+        "C406",
+        "2"
+      ],
+      [
+        "C407",
+        "2"
+      ],
+      [
+        "C408",
+        "2"
+      ],
+      [
+        "C409",
+        "2"
+      ],
+      [
+        "C410",
+        "2"
+      ],
+      [
+        "C411",
+        "2"
+      ],
+      [
+        "C412",
+        "2"
+      ],
+      [
+        "C413",
+        "2"
+      ],
+      [
+        "C414",
+        "2"
+      ],
+      [
+        "C415",
+        "2"
+      ],
+      [
+        "C416",
+        "2"
+      ],
+      [
+        "C417",
+        "2"
+      ],
+      [
+        "C501",
+        "2"
+      ],
+      [
+        "C502",
+        "2"
+      ],
+      [
+        "C503",
+        "2"
+      ],
+      [
+        "C601",
+        "2"
+      ],
+      [
+        "C603",
+        "2"
+      ],
+      [
+        "C604",
+        "2"
+      ],
+      [
+        "C605",
+        "2"
+      ],
+      [
+        "C606",
+        "2"
+      ],
+      [
+        "C607",
+        "2"
+      ],
+      [
+        "C608",
+        "2"
+      ],
+      [
+        "C609",
+        "2"
+      ],
+      [
+        "C610",
+        "2"
+      ],
+      [
+        "C611",
+        "2"
+      ],
+      [
+        "C612",
+        "2"
+      ],
+      [
+        "C701",
+        "2"
+      ],
+      [
+        "C702",
+        "2"
+      ],
+      [
+        "C703",
+        "2"
+      ],
+      [
+        "C704",
+        "2"
+      ],
+      [
+        "C705",
+        "2"
+      ],
+      [
+        "C801",
+        "2"
+      ],
+      [
+        "C802",
+        "2"
+      ],
+      [
+        "C803",
+        "2"
+      ],
+      [
+        "C804",
+        "2"
+      ],
+      [
+        "C805",
+        "2"
+      ],
+      [
+        "C806",
+        "2"
+      ],
+      [
+        "C808",
+        "2"
+      ],
+      [
+        "D501",
+        "2"
+      ],
+      [
+        "D602",
+        "1"
+      ],
+      [
+        "J101",
+        "2"
+      ],
+      [
+        "J102",
+        "2"
+      ],
+      [
+        "J103",
+        "2"
+      ],
+      [
+        "J104",
+        "2"
+      ],
+      [
+        "J105",
+        "2"
+      ],
+      [
+        "J201",
+        "2"
+      ],
+      [
+        "J202",
+        "3"
+      ],
+      [
+        "J204",
+        "2"
+      ],
+      [
+        "J205",
+        "2"
+      ],
+      [
+        "J206",
+        "6"
+      ],
+      [
+        "J301",
+        "2"
+      ],
+      [
+        "J302",
+        "2"
+      ],
+      [
+        "J303",
+        "3"
+      ],
+      [
+        "J401",
+        "2"
+      ],
+      [
+        "J402",
+        "2"
+      ],
+      [
+        "J403",
+        "2"
+      ],
+      [
+        "J404",
+        "2"
+      ],
+      [
+        "J405",
+        "2"
+      ],
+      [
+        "J406",
+        "1"
+      ],
+      [
+        "J501",
+        "A1"
+      ],
+      [
+        "J501",
+        "A12"
+      ],
+      [
+        "J501",
+        "B1"
+      ],
+      [
+        "J501",
+        "B12"
+      ],
+      [
+        "J501",
+        "SH"
+      ],
+      [
+        "J601",
+        "17"
+      ],
+      [
+        "J601",
+        "8"
+      ],
+      [
+        "J701",
+        "10"
+      ],
+      [
+        "J701",
+        "6"
+      ],
+      [
+        "J701",
+        "SH"
+      ],
+      [
+        "Q101",
+        "2"
+      ],
+      [
+        "Q201",
+        "2"
+      ],
+      [
+        "R103",
+        "2"
+      ],
+      [
+        "R104",
+        "2"
+      ],
+      [
+        "R105",
+        "2"
+      ],
+      [
+        "R107",
+        "2"
+      ],
+      [
+        "R109",
+        "2"
+      ],
+      [
+        "R110",
+        "2"
+      ],
+      [
+        "R202",
+        "2"
+      ],
+      [
+        "R205",
+        "2"
+      ],
+      [
+        "R206",
+        "2"
+      ],
+      [
+        "R208",
+        "2"
+      ],
+      [
+        "R212",
+        "2"
+      ],
+      [
+        "R213",
+        "2"
+      ],
+      [
+        "R214",
+        "2"
+      ],
+      [
+        "R215",
+        "2"
+      ],
+      [
+        "R222",
+        "2"
+      ],
+      [
+        "R223",
+        "2"
+      ],
+      [
+        "R224",
+        "2"
+      ],
+      [
+        "R225",
+        "2"
+      ],
+      [
+        "R226",
+        "2"
+      ],
+      [
+        "R227",
+        "2"
+      ],
+      [
+        "R306",
+        "2"
+      ],
+      [
+        "R416",
+        "2"
+      ],
+      [
+        "R419",
+        "2"
+      ],
+      [
+        "R420",
+        "2"
+      ],
+      [
+        "R501",
+        "2"
+      ],
+      [
+        "R502",
+        "2"
+      ],
+      [
+        "R601",
+        "2"
+      ],
+      [
+        "R602",
+        "2"
+      ],
+      [
+        "R608",
+        "2"
+      ],
+      [
+        "R609",
+        "2"
+      ],
+      [
+        "R611",
+        "2"
+      ],
+      [
+        "R612",
+        "2"
+      ],
+      [
+        "R613",
+        "2"
+      ],
+      [
+        "R614",
+        "2"
+      ],
+      [
+        "R706",
+        "2"
+      ],
+      [
+        "R802",
+        "2"
+      ],
+      [
+        "R803",
+        "2"
+      ],
+      [
+        "R804",
+        "2"
+      ],
+      [
+        "R805",
+        "2"
+      ],
+      [
+        "R813",
+        "2"
+      ],
+      [
+        "SW301",
+        "2"
+      ],
+      [
+        "SW302",
+        "2"
+      ],
+      [
+        "SW303",
+        "2"
+      ],
+      [
+        "SW304",
+        "2"
+      ],
+      [
+        "SW305",
+        "2"
+      ],
+      [
+        "U101",
+        "17"
+      ],
+      [
+        "U101",
+        "8"
+      ],
+      [
+        "U201",
+        "3"
+      ],
+      [
+        "U201",
+        "8"
+      ],
+      [
+        "U202",
+        "12"
+      ],
+      [
+        "U202",
+        "2"
+      ],
+      [
+        "U202",
+        "21"
+      ],
+      [
+        "U203",
+        "1"
+      ],
+      [
+        "U203",
+        "4"
+      ],
+      [
+        "U203",
+        "6"
+      ],
+      [
+        "U203",
+        "9"
+      ],
+      [
+        "U301",
+        "1"
+      ],
+      [
+        "U301",
+        "40"
+      ],
+      [
+        "U301",
+        "41"
+      ],
+      [
+        "U401",
+        "2"
+      ],
+      [
+        "U402",
+        "2"
+      ],
+      [
+        "U403",
+        "2"
+      ],
+      [
+        "U404",
+        "2"
+      ],
+      [
+        "U405",
+        "2"
+      ],
+      [
+        "U406",
+        "7"
+      ],
+      [
+        "U501",
+        "3"
+      ],
+      [
+        "U502",
+        "3"
+      ],
+      [
+        "U601",
+        "1"
+      ],
+      [
+        "U601",
+        "10"
+      ],
+      [
+        "U601",
+        "19"
+      ],
+      [
+        "U601",
+        "7"
+      ],
+      [
+        "U601",
+        "8"
+      ],
+      [
+        "U601",
+        "9"
+      ],
+      [
+        "U602",
+        "1"
+      ],
+      [
+        "U602",
+        "3"
+      ],
+      [
+        "U701",
+        "7"
+      ],
+      [
+        "U702",
+        "3"
+      ],
+      [
+        "U703",
+        "3"
+      ],
+      [
+        "U704",
+        "3"
+      ],
+      [
+        "U705",
+        "3"
+      ],
+      [
+        "U706",
+        "10"
+      ],
+      [
+        "U706",
+        "13"
+      ],
+      [
+        "U706",
+        "7"
+      ],
+      [
+        "U801",
+        "7"
+      ],
+      [
+        "U802",
+        "11"
+      ],
+      [
+        "U802",
+        "15"
+      ],
+      [
+        "U802",
+        "17"
+      ],
+      [
+        "U802",
+        "3"
+      ],
+      [
+        "U803",
+        "1"
+      ],
+      [
+        "U803",
+        "2"
+      ],
+      [
+        "U803",
+        "4"
+      ],
+      [
+        "U804",
+        "1"
+      ],
+      [
+        "U804",
+        "3"
+      ],
+      [
+        "U805",
+        "3"
+      ]
+    ],
+    [
+      [
+        "J205",
+        "4"
+      ],
+      [
+        "R211",
+        "2"
+      ],
+      [
+        "R217",
+        "1"
+      ],
+      [
+        "U202",
+        "22"
+      ],
+      [
+        "U301",
+        "21"
+      ],
+      [
+        "U406",
+        "5"
+      ]
+    ],
+    [
+      [
+        "J205",
+        "3"
+      ],
+      [
+        "R210",
+        "2"
+      ],
+      [
+        "R218",
+        "1"
+      ],
+      [
+        "U202",
+        "23"
+      ],
+      [
+        "U301",
+        "18"
+      ],
+      [
+        "U406",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J303",
+        "4"
+      ],
+      [
+        "U301",
+        "20"
+      ],
+      [
+        "U801",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J303",
+        "5"
+      ],
+      [
+        "U301",
+        "7"
+      ],
+      [
+        "U801",
+        "5"
+      ]
+    ],
+    [
+      [
+        "J205",
+        "5"
+      ],
+      [
+        "R208",
+        "1"
+      ],
+      [
+        "U202",
+        "3"
+      ],
+      [
+        "U301",
+        "35"
+      ]
+    ],
+    [
+      [
+        "R224",
+        "1"
+      ],
+      [
+        "U202",
+        "17"
+      ]
+    ],
+    [
+      [
+        "R225",
+        "1"
+      ],
+      [
+        "U202",
+        "18"
+      ]
+    ],
+    [
+      [
+        "R226",
+        "1"
+      ],
+      [
+        "U202",
+        "19"
+      ]
+    ],
+    [
+      [
+        "R227",
+        "1"
+      ],
+      [
+        "U202",
+        "20"
+      ]
+    ],
+    [
+      [
+        "R305",
+        "2"
+      ],
+      [
+        "SW305",
+        "1"
+      ],
+      [
+        "U301",
+        "5"
+      ]
+    ],
+    [
+      [
+        "R304",
+        "2"
+      ],
+      [
+        "SW304",
+        "1"
+      ],
+      [
+        "U301",
+        "36"
+      ]
+    ],
+    [
+      [
+        "C412",
+        "1"
+      ],
+      [
+        "C801",
+        "1"
+      ],
+      [
+        "C804",
+        "1"
+      ],
+      [
+        "C805",
+        "1"
+      ],
+      [
+        "C806",
+        "1"
+      ],
+      [
+        "J303",
+        "1"
+      ],
+      [
+        "J404",
+        "1"
+      ],
+      [
+        "R410",
+        "2"
+      ],
+      [
+        "R411",
+        "2"
+      ],
+      [
+        "U801",
+        "14"
+      ],
+      [
+        "U803",
+        "3"
+      ],
+      [
+        "U805",
+        "5"
+      ]
+    ],
+    [
+      [
+        "J303",
+        "6"
+      ],
+      [
+        "U301",
+        "19"
+      ],
+      [
+        "U804",
+        "4"
+      ]
+    ],
+    [
+      [
+        "R111",
+        "2"
+      ],
+      [
+        "U101",
+        "7"
+      ],
+      [
+        "U202",
+        "7"
+      ]
+    ],
+    [
+      [
+        "R303",
+        "2"
+      ],
+      [
+        "SW303",
+        "1"
+      ],
+      [
+        "U301",
+        "23"
+      ]
+    ],
+    [
+      [
+        "C406",
+        "1"
+      ],
+      [
+        "C701",
+        "1"
+      ],
+      [
+        "C702",
+        "1"
+      ],
+      [
+        "C703",
+        "1"
+      ],
+      [
+        "C705",
+        "1"
+      ],
+      [
+        "J302",
+        "1"
+      ],
+      [
+        "J402",
+        "1"
+      ],
+      [
+        "J701",
+        "4"
+      ],
+      [
+        "R404",
+        "2"
+      ],
+      [
+        "R405",
+        "2"
+      ],
+      [
+        "R701",
+        "1"
+      ],
+      [
+        "R702",
+        "1"
+      ],
+      [
+        "R703",
+        "1"
+      ],
+      [
+        "R704",
+        "1"
+      ],
+      [
+        "R705",
+        "1"
+      ],
+      [
+        "U701",
+        "14"
+      ],
+      [
+        "U705",
+        "2"
+      ],
+      [
+        "U706",
+        "14"
+      ]
+    ],
+    [
+      [
+        "J701",
+        "5"
+      ],
+      [
+        "R706",
+        "1"
+      ],
+      [
+        "U701",
+        "3"
+      ],
+      [
+        "U702",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J701",
+        "3"
+      ],
+      [
+        "R701",
+        "2"
+      ],
+      [
+        "U701",
+        "6"
+      ],
+      [
+        "U702",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J701",
+        "7"
+      ],
+      [
+        "R702",
+        "2"
+      ],
+      [
+        "U701",
+        "8"
+      ],
+      [
+        "U703",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J701",
+        "8"
+      ],
+      [
+        "R703",
+        "2"
+      ],
+      [
+        "U701",
+        "11"
+      ],
+      [
+        "U703",
+        "2"
+      ]
+    ],
+    [
+      [
+        "J701",
+        "1"
+      ],
+      [
+        "R704",
+        "2"
+      ],
+      [
+        "U704",
+        "1"
+      ],
+      [
+        "U706",
+        "3"
+      ]
+    ],
+    [
+      [
+        "J701",
+        "2"
+      ],
+      [
+        "R705",
+        "2"
+      ],
+      [
+        "U704",
+        "2"
+      ],
+      [
+        "U706",
+        "6"
+      ]
+    ],
+    [
+      [
+        "C704",
+        "1"
+      ],
+      [
+        "J206",
+        "5"
+      ],
+      [
+        "J302",
+        "9"
+      ],
+      [
+        "R216",
+        "2"
+      ],
+      [
+        "R708",
+        "1"
+      ],
+      [
+        "U202",
+        "9"
+      ]
+    ],
+    [
+      [
+        "J302",
+        "3"
+      ],
+      [
+        "R710",
+        "1"
+      ],
+      [
+        "U301",
+        "31"
+      ]
+    ],
+    [
+      [
+        "J302",
+        "4"
+      ],
+      [
+        "R711",
+        "1"
+      ],
+      [
+        "U301",
+        "32"
+      ]
+    ],
+    [
+      [
+        "J302",
+        "5"
+      ],
+      [
+        "R712",
+        "1"
+      ],
+      [
+        "U301",
+        "24"
+      ]
+    ],
+    [
+      [
+        "J302",
+        "6"
+      ],
+      [
+        "R713",
+        "1"
+      ],
+      [
+        "U301",
+        "25"
+      ]
+    ],
+    [
+      [
+        "J302",
+        "7"
+      ],
+      [
+        "R714",
+        "1"
+      ],
+      [
+        "U301",
+        "34"
+      ]
+    ],
+    [
+      [
+        "J302",
+        "8"
+      ],
+      [
+        "R715",
+        "1"
+      ],
+      [
+        "U301",
+        "33"
+      ]
+    ],
+    [
+      [
+        "J701",
+        "9"
+      ],
+      [
+        "R708",
+        "2"
+      ],
+      [
+        "U705",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J206",
+        "2"
+      ],
+      [
+        "R213",
+        "1"
+      ],
+      [
+        "U202",
+        "5"
+      ],
+      [
+        "U402",
+        "3"
+      ]
+    ],
+    [
+      [
+        "R223",
+        "1"
+      ],
+      [
+        "U202",
+        "16"
+      ],
+      [
+        "U701",
+        "1"
+      ],
+      [
+        "U701",
+        "10"
+      ],
+      [
+        "U701",
+        "13"
+      ],
+      [
+        "U701",
+        "4"
+      ],
+      [
+        "U706",
+        "1"
+      ],
+      [
+        "U706",
+        "4"
+      ]
+    ],
+    [
+      [
+        "J303",
+        "7"
+      ],
+      [
+        "U301",
+        "37"
+      ],
+      [
+        "U801",
+        "9"
+      ]
+    ],
+    [
+      [
+        "C201",
+        "1"
+      ],
+      [
+        "C413",
+        "1"
+      ],
+      [
+        "J104",
+        "1"
+      ],
+      [
+        "R101",
+        "2"
+      ],
+      [
+        "R204",
+        "1"
+      ],
+      [
+        "U201",
+        "10"
+      ],
+      [
+        "U405",
+        "1"
+      ]
+    ],
+    [
+      [
+        "C102",
+        "1"
+      ],
+      [
+        "R101",
+        "1"
+      ],
+      [
+        "R106",
+        "1"
+      ],
+      [
+        "U101",
+        "10"
+      ],
+      [
+        "U101",
+        "11"
+      ]
+    ],
+    [
+      [
+        "C409",
+        "1"
+      ],
+      [
+        "C416",
+        "1"
+      ],
+      [
+        "C417",
+        "1"
+      ],
+      [
+        "J403",
+        "1"
+      ],
+      [
+        "J406",
+        "2"
+      ],
+      [
+        "R407",
+        "2"
+      ],
+      [
+        "R408",
+        "2"
+      ],
+      [
+        "R417",
+        "1"
+      ],
+      [
+        "R418",
+        "1"
+      ],
+      [
+        "U406",
+        "14"
+      ]
+    ],
+    [
+      [
+        "J206",
+        "3"
+      ],
+      [
+        "R214",
+        "1"
+      ],
+      [
+        "U202",
+        "6"
+      ],
+      [
+        "U403",
+        "3"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "39"
+      ],
+      [
+        "U406",
+        "12"
+      ]
+    ],
+    [
+      [
+        "J206",
+        "4"
+      ],
+      [
+        "R215",
+        "1"
+      ],
+      [
+        "U202",
+        "13"
+      ],
+      [
+        "U406",
+        "1"
+      ],
+      [
+        "U406",
+        "10"
+      ],
+      [
+        "U406",
+        "13"
+      ],
+      [
+        "U406",
+        "4"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "22"
+      ],
+      [
+        "U406",
+        "9"
+      ]
+    ],
+    [
+      [
+        "J406",
+        "4"
+      ],
+      [
+        "R420",
+        "1"
+      ],
+      [
+        "U406",
+        "11"
+      ]
+    ],
+    [
+      [
+        "J406",
+        "3"
+      ],
+      [
+        "R419",
+        "1"
+      ],
+      [
+        "U406",
+        "8"
+      ]
+    ],
+    [
+      [
+        "J406",
+        "6"
+      ],
+      [
+        "R418",
+        "2"
+      ],
+      [
+        "U406",
+        "6"
+      ]
+    ],
+    [
+      [
+        "J406",
+        "5"
+      ],
+      [
+        "R417",
+        "2"
+      ],
+      [
+        "U406",
+        "3"
+      ]
+    ],
+    [
+      [
+        "D501",
+        "1"
+      ],
+      [
+        "F501",
+        "2"
+      ],
+      [
+        "J502",
+        "1"
+      ],
+      [
+        "R221",
+        "1"
+      ]
+    ],
+    [
+      [
+        "C502",
+        "1"
+      ],
+      [
+        "R504",
+        "2"
+      ],
+      [
+        "U301",
+        "13"
+      ]
+    ],
+    [
+      [
+        "C501",
+        "1"
+      ],
+      [
+        "R503",
+        "2"
+      ],
+      [
+        "U301",
+        "14"
+      ]
+    ],
+    [
+      [
+        "R109",
+        "1"
+      ],
+      [
+        "U101",
+        "6"
+      ],
+      [
+        "U202",
+        "10"
+      ]
+    ],
+    [
+      [
+        "R110",
+        "1"
+      ],
+      [
+        "U101",
+        "5"
+      ],
+      [
+        "U202",
+        "14"
+      ]
+    ],
+    [
+      [
+        "C503",
+        "1"
+      ],
+      [
+        "F501",
+        "1"
+      ],
+      [
+        "J501",
+        "A4"
+      ],
+      [
+        "J501",
+        "A9"
+      ],
+      [
+        "J501",
+        "B4"
+      ],
+      [
+        "J501",
+        "B9"
+      ]
+    ],
+    [
+      [
+        "J205",
+        "6"
+      ],
+      [
+        "Q201",
+        "3"
+      ],
+      [
+        "R220",
+        "2"
+      ],
+      [
+        "U301",
+        "38"
+      ]
+    ],
+    [
+      [
+        "C101",
+        "1"
+      ],
+      [
+        "J502",
+        "2"
+      ],
+      [
+        "U101",
+        "13"
+      ]
+    ],
+    [
+      [
+        "J501",
+        "A8"
+      ]
+    ],
+    [
+      [
+        "J501",
+        "B8"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "1"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "4"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "6"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "7"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "19"
+      ]
+    ],
+    [
+      [
+        "U101",
+        "15"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "15"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "28"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "29"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "30"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "26"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "16"
+      ]
+    ],
+    [
+      [
+        "U601",
+        "13"
+      ]
+    ],
+    [
+      [
+        "U601",
+        "12"
+      ]
+    ],
+    [
+      [
+        "U601",
+        "11"
+      ]
+    ],
+    [
+      [
+        "U706",
+        "8"
+      ]
+    ],
+    [
+      [
+        "U706",
+        "11"
+      ]
+    ],
+    [
+      [
+        "U706",
+        "9"
+      ]
+    ],
+    [
+      [
+        "U706",
+        "12"
+      ]
+    ],
+    [
+      [
+        "U802",
+        "5"
+      ]
+    ],
+    [
+      [
+        "U802",
+        "6"
+      ]
+    ],
+    [
+      [
+        "U802",
+        "12"
+      ]
+    ],
+    [
+      [
+        "U802",
+        "13"
+      ]
+    ],
+    [
+      [
+        "U805",
+        "1"
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "status": "PASS_INDEPENDENT_REPOSITORY_MIGRATION",
+  "date": "2026-11-06",
+  "source_repository": "https://github.com/xiaobaoaaaaaa/ESPaperPlay",
+  "source_head": "0f6d7c349afdbbeb962a736d84036ce7f8487174",
+  "source_branch": "refactor/v2-platform",
+  "target_repository": "https://github.com/xiaobaoaaaaaa/ESPaperPlay-V2",
+  "prior_manifest_hashes_checked": 245,
+  "unchanged_native_hardware_files": 36,
+  "unchanged_firmware_source_files": 18,
+  "native_pcb_sha256": "5eb16a5ecb824086f745c8d4737650eaaf315fa305fee58c9a027325d61c740b",
+  "migration_changed_prior_hash_paths": [
+    "../../docs/v2/README.md",
+    "../../docs/v2/hardware/README.md",
+    "../../docs/v2/hardware/pcb-layout-r7.md",
+    "../../docs/v2/roadmap.md"
+  ],
+  "local_only_reference_inputs": [
+    "../reference/charge-r5/bq24074.pdf",
+    "../reference/charge-r5/tlv1822.pdf",
+    "../reference/charge-r5/vishay-dcrcw-e3.pdf",
+    "../reference/closure-r4/files/audio_boost/vishay-wfm.pdf",
+    "../reference/closure-r4/files/mechanical/hirose-dm3at-2016mirror.pdf",
+    "../reference/closure-r4/files/mechanical/hoauc-hycw3d-24p.pdf",
+    "../reference/closure-r4/files/mechanical/lail-fpc-cdx01-6p.pdf",
+    "../reference/closure-r4/files/mechanical/phoenix-124340.jpg",
+    "../reference/closure-r4/files/mechanical/phoenix-20652.jpg",
+    "../reference/closure-r4/files/mechanical/phoenix-51904.jpg",
+    "../reference/closure-r4/files/tnpw_e3.pdf",
+    "../reference/ntc175-2026-11-04/honeywell-173-175-series.pdf",
+    "../reference/ntc175-2026-11-04/honeywell-175-103lae-301.pdf",
+    "../reference/zoncell-2026-11-04/LP1S20004000NTC1a.jpg"
+  ],
+  "host_tests": {
+    "passed": 5,
+    "total": 5,
+    "sanitizers": "ASan/UBSan enabled"
+  },
+  "firmware_build": {
+    "idf": "6.1",
+    "target": "esp32s3",
+    "application_bytes": 177344,
+    "application_sha256": "2fcbd2b2fa5e4430a5a711323a859b6f7556f9dc63747ac7feb4a9b5b37e4f1a",
+    "hardware_flashing": false
+  },
+  "pcb_check": "PASS; original r7 placement and DRC unchanged",
+  "scope": "Fresh repository baseline from previously uncommitted V2 work; no invented intermediate commits and no electrical/source-code changes."
+}

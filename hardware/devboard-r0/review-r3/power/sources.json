@@ -1,0 +1,132 @@
+{
+  "checked_date": "2026-11-02",
+  "sources": [
+    {
+      "id": "bq24074",
+      "local_file": "hardware/reference/power/bq24074.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "revision": "SLUS810N; Rev N; 2021-10",
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1",
+      "bytes": 3739103,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "tps63802",
+      "local_file": "hardware/reference/power/tps63802.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "revision": "SLVSEU9D; Rev D; 2021-01",
+      "sha256": "be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6",
+      "bytes": 2466159,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "max17048",
+      "local_file": "hardware/reference/power/max17048.pdf",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
+      "revision": "19-6171; Rev 7; 2016-11",
+      "sha256": "70dc8eef0e012276dcdc58b6dce64af08258304bcf865ceace64e856b8029330",
+      "bytes": 1109267,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "tca9539",
+      "local_file": "hardware/reference/power/tca9539.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tca9539.pdf",
+      "revision": "SCPS202C; Rev C; 2016-05",
+      "sha256": "fec29f61c247a467417a4c35ff616ee16379ac4ce95a6c1c8a6d6fe97ef010b9",
+      "bytes": 3020912,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "tps22918",
+      "local_file": "hardware/reference/power/tps22918.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+      "revision": "SLVSD76C; Rev C; 2017-07",
+      "sha256": "1b28eb58003d28b18bf919a15734056f296a499bebee2bd493a1e4358c4dfb1c",
+      "bytes": 1072926,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "ao3400a",
+      "local_file": "hardware/reference/power/ao3400a.pdf",
+      "url": "https://www.aosmd.com/sites/default/files/res/data_sheets/AO3400A.pdf",
+      "revision": "Rev 3.1: July 2023",
+      "sha256": "9c60d0b6c1ddc7609a4b788a91181468d8ffe6c3e9ba425c3d8ffc5ba88c5033",
+      "bytes": 317848,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "aos-smaj6.0a",
+      "local_file": "hardware/reference/mcu-usb/aos-smaj6.0a.pdf",
+      "url": "https://www.aosmd.com/sites/default/files/res/datasheets/SMAJ6.0A.pdf",
+      "revision": null,
+      "sha256": "e044fc1ba210bf35155e8e2a6f3d1272c49faa3047c7d38183fe2f79d9cef10d",
+      "bytes": 795790,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "bourns-mf-msmf",
+      "local_file": "hardware/reference/mcu-usb/bourns-mf-msmf.pdf",
+      "url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf?sfvrsn=4a75e5c0_69",
+      "revision": null,
+      "sha256": "50d80228581842471d563e28ba0f1b67ab095ee95dfac4079f4a49f7f7bbf3c8",
+      "bytes": 1327051,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "max17048-package",
+      "url": "https://mds.analog.com/api/public/content/tdfn-cu_21-0168.pdf",
+      "revision": "21-0168 T822+3",
+      "local_file": "build/bom-review-r3/power/max17048-package.pdf",
+      "sha256": "01e449022cf1c5e20834fcf2c3587e6a8725e707eed1caa000f095e891be9b0f",
+      "bytes": 234587,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "max17048-pin2571d",
+      "url": "https://www.analog.com/media/en/pcn/pcn_2571d.pdf",
+      "revision": "PIN2571D, 2026",
+      "local_file": "build/bom-review-r3/power/max17048-pin2571d.pdf",
+      "sha256": "1cc9251679ccd22f460387b5ef42d80d346f6252c54a7cc534b9bc7292822e9a",
+      "bytes": 284947,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "aos-sot23-package",
+      "url": "https://www.aosmd.com/sites/default/files/res/package/SOT23.pdf",
+      "revision": "PO-00001 N",
+      "local_file": "build/bom-review-r3/power/aos-sot23-package.pdf",
+      "sha256": "b6fac64d55f133ce74dd85ddddc618c3d5408e9531cb21e660f6a8ef3d8c5408",
+      "bytes": 276341,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "aos-do214ac",
+      "url": "https://www.aosmd.com/sites/default/files/res/packaging_information/DO-214AC.pdf",
+      "revision": "PO-00355 C",
+      "local_file": "build/bom-review-r3/power/aos-do214ac.pdf",
+      "sha256": "d35e43dfc6d190cb8df52914ce3efee545ddd9cb62a61064f9ad01cdbd5914f0",
+      "bytes": 282630,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "coilcraft-xfl4015",
+      "url": "https://www.coilcraft.com/getmedia/84927b8b-f089-421b-a7f4-a0fa23afe908/xfl4015.pdf",
+      "revision": "Document769,03/10/26",
+      "local_file": "build/bom-review-r3/power/coilcraft-xfl4015.pdf",
+      "sha256": "6535ab70d0ef65ba03d4b0800e206fc7867f26464e2d9dfd5dd931a2bcb0c7c1",
+      "bytes": 199218,
+      "review_date": "2026-11-02"
+    },
+    {
+      "id": "bourns-crf-j",
+      "url": "https://www.bourns.com/docs/product-datasheets/crf-j.pdf?sfvrsn=da3727f6_4",
+      "revision": "01/24",
+      "local_file": "build/bom-review-r3/power/bourns-crf-j.pdf",
+      "sha256": "9402c1c5eb28c02fb3e9f3993095ae4390c30939ba55d41b73fa3dc7010f0693",
+      "bytes": 546786,
+      "review_date": "2026-11-02"
+    }
+  ],
+  "copyright": "Manufacturer reference PDFs, not project-authored material; do not redistribute as MIT project content."
+}

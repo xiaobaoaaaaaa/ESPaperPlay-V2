@@ -1,0 +1,307 @@
+{
+  "date": "2026-11-02",
+  "scope": "MCU,USB,SD,touch and FPC BOM/footprint review; no formal project modified; no KiCad CLI run",
+  "source_netlist": {
+    "local_path": "hardware/devboard-r0/output/validation/peripheral-r2.net.xml",
+    "bytes": 362639,
+    "sha256": "4b95487bb4c9b1be15ae2c5804f639a5c96b3cd84662b73d523f99b9a63e6467",
+    "pages": []
+  },
+  "status_definitions": {
+    "reviewed_geometry_process_pending": "Pin mapping and key package geometry checked; manufacturing process/board validation pending",
+    "recommended_geometry_correction": "Specific library-vendor geometry difference resolved by prepared local candidate",
+    "candidate_vendor_drawing_reviewed": "Exact candidate part and mechanical drawing checked; procurement/board acceptance still pending",
+    "retain_existing_candidate_mechanical_gate": "Keep existing candidate; new authoritative evidence not sufficient for full mechanical release",
+    "mechanical_fit_unresolved": "No footprint assignment; explicit mechanical input or vendor/sample verification required"
+  },
+  "items": [
+    {
+      "refs": [
+        "U301"
+      ],
+      "manufacturer": "Espressif Systems",
+      "mpn": "ESP32-S3-WROOM-1-N16R8",
+      "existing_footprint": "RF_Module:ESP32-S3-WROOM-1",
+      "recommended_footprint": "RF_Module:ESP32-S3-WROOM-1",
+      "status": "reviewed_geometry_process_pending",
+      "notes": [
+        "40 peripheral pads match0.9x1.5mm lands,1.27mm pitch,17.5mm side-row spacing; numbering1..14 left,15..26 bottom,27..40 right is correct in component-side view. N16R8 remains the fixed module, no WROOM-2 change.",
+        "The footprint central pad41 is3.9x3.9mm with12x0.2mm-drill vias and9x0.9mm paste windows. Espressif p45 shows a3.7mm overall9-island copper example; perimeter dimensions and pad41 electrical function match, but central copper/via/stencil are a process choice, not an exact copy of that drawing. Retain existing footprint and review tenting/filling/stencil to prevent solder wicking.",
+        "Antenna courtyard/keepout does not alone implement board placement rules. Prefer antenna beyond base-board edge; otherwise follow official15mm clearance guidance and enclosure RF review."
+      ],
+      "source_url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "evidence": [
+        {
+          "local_path": "hardware/reference/mcu-usb/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+          "bytes": 1280501,
+          "sha256": "27d71971da07c280c6068d08c74720d1a25b8f20cf8494dc1765bdd28d40d435",
+          "pages": [
+            44,
+            45
+          ]
+        },
+        {
+          "path": "/usr/share/kicad/footprints/RF_Module.pretty/ESP32-S3-WROOM-1.kicad_mod",
+          "sha256": "d0cfbb31fef0c47396c0d061ec5a3bff60f0567d8d4ea8dd4769c84f52bd656f"
+        }
+      ],
+      "lifecycle": "Current official module product page lists ESP32-S3-WROOM-1 family; no inventory/price guarantee claimed."
+    },
+    {
+      "refs": [
+        "U406",
+        "U701",
+        "U706"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "TMUX1511PWR",
+      "existing_footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "recommended_footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "status": "reviewed_geometry_process_pending",
+      "notes": [
+        "14 pads,0.65mm pitch,4.4x5mm nominal body; standard numbering counterclockwise viewed from top;1SEL1,2S1,3D1,4SEL2,5S2,6D2,7GND,8D3,9S3,10SEL3,11D4,12S4,13SEL4,14VDD.",
+        "Library lands1.475x0.400mm with5.725mm row-center span; TI PW0014A example1.50x0.45mm with5.8mm span. This is an IPC-derived alternative land geometry, not a pin mismatch; retain as candidate and finalize assembly process rather than blindly requiring exact example lands.",
+        "Order suffix PWR selected; PW identifies package only. Existing signal/SEL rail-ramp limitations from r2 remain."
+      ],
+      "source_url": "https://www.ti.com/product/TMUX1511/part-details/TMUX1511PWR",
+      "evidence": [
+        {
+          "local_path": "hardware/reference/power/tmux1511.pdf",
+          "bytes": 2548204,
+          "sha256": "04291b41a68347fedbbb0776aa44f500eaca65f2ca3af0e022ee60d41c7b1e9f",
+          "pages": [
+            3,
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "path": "/usr/share/kicad/footprints/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+          "sha256": "e4bf82cea6d3b3259ddf42469b1407628ad1181a28ae6f3f340190c0cca31ccd"
+        }
+      ],
+      "lifecycle": "TI part page ACTIVE on2026-11-02; no reliable purchased quantity or price recorded."
+    },
+    {
+      "refs": [
+        "U501",
+        "U502",
+        "U702",
+        "U703",
+        "U704",
+        "U705"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPD2E2U06DCKR",
+      "existing_footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+      "recommended_footprint": "ESPaperPlay:TI_DCK0003A_SC70_3_Recommended",
+      "status": "recommended_geometry_correction",
+      "notes": [
+        "Pin1IO1,pin2IO2,pin3GND; old symbol and orientation correct. This is specifically DCK3, not DRL5.",
+        "Old generic KiCad lands0.925x0.45mm and row-center separation1.775mm differ materially from the vendor DCK0003A example0.95x0.40mm and2.20mm row-center separation. Pin pitch remains0.65mm. Recommend local exact vendor-land footprint to remove the generic-package ambiguity.",
+        "Created native local candidate with3 numbered pads, no EP,0.05mm corner radius; board solder-mask/stencil and ESD-placement effectiveness remain unqualified. No claim that every generic IPC footprint is inherently unmanufacturable."
+      ],
+      "source_url": "https://www.ti.com/product/TPD2E2U06/part-details/TPD2E2U06DCKR",
+      "evidence": [
+        {
+          "local_path": "hardware/reference/mcu-usb/tpd2e2u06.pdf",
+          "bytes": 785929,
+          "sha256": "a133b86ea3d3c3d34667339b92d3b5e98d541d10e9775d63e7cdfa153794f4ed",
+          "pages": [
+            3,
+            20,
+            21,
+            22
+          ]
+        },
+        {
+          "path": "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-323_SC-70.kicad_mod",
+          "sha256": "74e071f8714739c788536a0b053956a4f21489ee5173faf675e1a7ade4445ba8"
+        }
+      ],
+      "new_footprint": "build/bom-review-r3/interconnect/ESPaperPlay.pretty/TI_DCK0003A_SC70_3_Recommended.kicad_mod",
+      "lifecycle": "TI exact part page ACTIVE on2026-11-02."
+    },
+    {
+      "refs": [
+        "J501"
+      ],
+      "manufacturer": "Global Connector Technology (GCT)",
+      "mpn": "USB4105-GF-A",
+      "existing_footprint": "",
+      "recommended_footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "status": "candidate_vendor_drawing_reviewed",
+      "notes": [
+        "Original GCT USB4105 drawing B4 dated18/12/23 downloaded from official URL and page1 visually reviewed. Product page now labels family Active; exact purchased lot/revision and price remain procurement checks.",
+        "16 logical USB contacts occupy12 physical SMT lands: A1/B12,A4/B9,A9/B4,A12/B1 share four wider lands; other8 contacts separate. This matches current stacked schematic pads; all power/GND pairs have same net. D+ A6/B6 and D- A7/B7 remain separate physical lands joined by PCB. A8/B8 SBU remainNC. FourSH stakes are ground.",
+        "Checked standard footprint: wide lands0.60x1.15mm, narrow0.30x1.15mm; data positions0.50mm pitch, wide outer centers6.40mm span; NPTH2x0.65mm at5.78mm span;4SH with0.6x1.7/1.4mm slots and1.0x2.1/1.8mm lands,8.64mm across,4.18mm front/back spacing. Matches drawing.",
+        "GF selects gold flash; blank stake suffix is0.95mm. Default PCB thickness, mechanical housing/edge and pin-in-paste or hand solder process must be checked. Board uses5V USB2 device only; connector48V/5A rating does not addPD capability or authorize higher input current."
+      ],
+      "source_url": "https://gct.co/connector/usb4105",
+      "evidence": [
+        {
+          "local_path": "build/bom-review-r3/interconnect/reference/gct-usb4105.pdf",
+          "bytes": 164547,
+          "sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "path": "/usr/share/kicad/footprints/Connector_USB.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod",
+          "sha256": "3b8d7da3cae5114ec83022a759a78925113bc2eeec100ea447594f6d8687e4b8"
+        }
+      ],
+      "lifecycle": "Official product page Active on2026-11-02; no stock/price or lowest-cost claim."
+    },
+    {
+      "refs": [
+        "J701"
+      ],
+      "manufacturer": "Hirose Electric",
+      "mpn": "DM3AT-SF-PEJM5",
+      "existing_footprint": "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5",
+      "recommended_footprint": "",
+      "status": "retain_existing_candidate_mechanical_gate",
+      "notes": [
+        "Official product page:0.5A,1.1mm contact pitch,1.68mm height,10000cycles; catalog and2D drawing identify push-push mechanism. Standard KiCad description says push-pull, a metadata discrepancy; do not plan a pull-only enclosure.",
+        "Eight signal pad names and1.1mm pitch agree with primary catalog; KiCad9/10 represent the nonpolar card-detection pair, not official numerical pins.4SH onGND. Existing geometry: signal lands0.7x1.2mm; detect pad9 at(-5.875,-7.725),pad10(-6.825,2.775),relative footprint coordinates.",
+        "New official6-page2D PDF EDC-325165-00-00(2024-09-02) is accessible to web text extraction; local original download remainedHTTP403, and rendered images were not exposed to this tool. Therefore exact A/B physical association,4SH mounting positions and all keepout geometry are NOT claimed visually approved. Keep previous candidate footprint, no replacement assignment.",
+        "Catalog states no-cardOPEN/insertedCLOSED and no-conductive-trace regions; nominal card overstroke/lock/eject positions16.75/17.55/21.55mm must be accommodated. Mechanical template/sample fit remains required.",
+        "Official Hirose FAQ says suffix(40) changes reel quantity400 versus1500 only; do not infer equivalence of other suffixes such as(11)/(26)/(42)."
+      ],
+      "source_url": "https://www.hirose.com/en/product/p/CL0609-0031-0-00",
+      "evidence": [
+        {
+          "url": "https://www.hirose.com/product/download/?distributor=chip1&lang=en&num=DM3AT-SF-PEJM5&type=2d",
+          "access": "official web extraction only; no original local hash claimed",
+          "drawing": "EDC-325165-00-00",
+          "drawing_revision_date": "2024-09-02"
+        },
+        {
+          "url": "https://www.hirose.com/en/product/document?clcode=&documentid=D49662_en&documenttype=Catalog&lang=en&productname=&series=DM3",
+          "pages": [
+            3
+          ]
+        },
+        {
+          "url": "https://support.hirose.com/en/support/solutions/articles/68000029780-what-is-the-difference-between-dm3at-sf-pejm5-and-dm3at-sf-pejm5-40-"
+        },
+        {
+          "path": "/usr/share/kicad/footprints/Connector_Card.pretty/microSD_HC_Hirose_DM3AT-SF-PEJM5.kicad_mod",
+          "sha256": "cc0efdbdb9b21e7cc31a577ea45e753c8985b1c67cf1f58d39e352018f0cb938"
+        }
+      ],
+      "lifecycle": "Official product currently listed; procurement availability not established."
+    },
+    {
+      "refs": [
+        "J601"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "existing_footprint": "",
+      "recommended_footprint": "",
+      "status": "mechanical_fit_unresolved",
+      "notes": [
+        "Legacy FPC1 is explicitly HYCW3D-05FPC24-200B in the archived source. Prioritize obtaining this exact part drawing or measuring the known working assembly; existing project fit evidence is more relevant than assuming a new FH12. The legacy annotation HYCWD3D-056FPC22-200B(26PIN) is erroneous and must not replace the actual24-contact property.",
+        "Reused GDEY075T7-T01 FPC has24contacts at0.50mm,tip width12.50±0.1mm,first-to-last span11.50±0.05mm and0.30±0.03mm thickness; visible front drawing shows pin1left/pin24right. Contacts andPI stiffener are on opposite faces.",
+        "Cannot freeze an arbitrary24pos0.5mm0.3mm connector: actual insertion direction,which board face,the pin1 orientation after folding,tip/contact/stiffener lengths and assembly clearance matter.",
+        "Common bottom-contact Hirose FH12-24S-0.5SH(55) matches count/pitch/nominal thickness but its official recommended FPC calls for3.5mm min uncovered length and4.5mm min stiffener; the panel CAD exposes a3.20±0.2mm end dimension. This is a fit concern requiring dimension interpretation/sample or manufacturer matching; do not label FH12 proven compatible. No candidate is assigned merely by pitch.",
+        "A top-contact or dual-contact connector may avoid a forced cable flip, but still needs complete mechanical comparison. EPD24 signals exclude mechanical hold-down pads."
+      ],
+      "source_url": "https://www.good-display.cn/blank7.html?productId=477",
+      "evidence": [
+        {
+          "local_path": "hardware/reference/good-display/GDEY075T7-T01-CAD.pdf",
+          "bytes": 371929,
+          "sha256": "65b84cb5820b65d45fc857ef9f09c232c800a4a7d7f8acef2db0f9df1ad116d4",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "url": "https://www.hirose.com/product/p/CL0586-0521-0-55",
+          "use": "FH12 comparison only, NOT selected"
+        },
+        {
+          "url": "https://www.hirose.com/product/document?clcode=&documentid=D31648_en&documenttype=Catalog&lang=en&productname=&series=FH12",
+          "pages": [
+            10
+          ],
+          "use": "FPC uncovered/stiffener length limits; official web extraction only"
+        }
+      ],
+      "lifecycle": "No selected connector; lifecycle not applicable.",
+      "legacy_candidate": {
+        "mpn": "HYCW3D-05FPC24-200B",
+        "manufacturer_candidate": "HOAUC / 深圳市华宇创精密电子有限公司",
+        "old_reference": "FPC1",
+        "known_pad_map": "24 signal contacts plus25/26ground hold-downs",
+        "evidence": "Archived old schematic component property at original line17629; archived PCB19414–19440. Exact part is a known legacy-use lead, not a newly invented candidate.",
+        "source_path": "docs/v2/hardware/review/legacy-display-touch.md",
+        "source_line": 16,
+        "source_sha256": "f4a4285948d995fa3bf7cd6906cb8b192d7590b66ea01706afee7a2d7728612e",
+        "primary_drawing_status": "Not acquired. Exact model and prefix searches did not locate a manufacturer drawing; official HOAUC about/product pages found, product endpoint timed out.",
+        "manufacturer_url": "https://www.szhoauc.com/about.html",
+        "footprint_status": "Unfrozen. Do not substitute standardFH12 without full mechanical comparison."
+      }
+    },
+    {
+      "refs": [
+        "J406"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "existing_footprint": "",
+      "recommended_footprint": "",
+      "status": "mechanical_fit_unresolved",
+      "notes": [
+        "Legacy FPC2 is explicitly LAIL-FPC-CDX01-6P0.5-GW, with6signals plus2hold-downs. Retain this known working-project candidate while obtaining its original mechanical drawing/sample; FH12 is only a comparison, not the sole known option.",
+        "TP075-Y01 has6contacts,0.50mm pitch,3.50±0.1mm tip width,2.50mm first-to-last span,0.30±0.03mm contact thickness. Its front view shows pin6left/pin1right, opposite theEPDfront-view numbering direction.",
+        "Symbol1GND2VCC3RST4INT5SDA6SCL matches panel table. Connector contact face,complete insertion/stiffener dimensions and actual cable fold must be selected before footprint; do not mirror pin numbering just to make routing convenient.",
+        "Hirose FH12-6S-0.5SH(55) is a documented0.5mm,0.3mm,bottom-contact comparison candidate with a standard KiCad footprint, but compatibility is not closed by those two dimensions. A matched24pinconnector does not automatically establish this6pinpart."
+      ],
+      "source_url": "https://www.good-display.cn/blank7.html?productId=477",
+      "evidence": [
+        {
+          "local_path": "hardware/reference/good-display/TP075-Y01.pdf",
+          "bytes": 58909,
+          "sha256": "c39473ed565138f764fa5693ad550fde227d1b7f7171840084d2ba58fe3a5518",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "local_path": "hardware/reference/good-display/GDEY075T7-T01-CAD.pdf",
+          "bytes": 371929,
+          "sha256": "65b84cb5820b65d45fc857ef9f09c232c800a4a7d7f8acef2db0f9df1ad116d4",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "url": "https://www.hirose.com/en/product/p/CL0586-0582-5-55",
+          "use": "comparison candidate only; not assigned"
+        }
+      ],
+      "lifecycle": "No selected connector; lifecycle not applicable.",
+      "legacy_candidate": {
+        "mpn": "LAIL-FPC-CDX01-6P0.5-GW",
+        "manufacturer_candidate": "LAILAN",
+        "old_reference": "FPC2",
+        "known_pad_map": "1GND,2VCC,3RST,4INT,5SDA,6SCL;7/8ground hold-downs",
+        "evidence": "Archived old schematic component property at original line14505; archived PCB19894–19902. Exact part is a known legacy-use lead.",
+        "source_path": "docs/v2/hardware/review/legacy-display-touch.md",
+        "source_line": 43,
+        "source_sha256": "f4a4285948d995fa3bf7cd6906cb8b192d7590b66ea01706afee7a2d7728612e",
+        "primary_drawing_status": "Not acquired. Exact part found on distributor but no authenticated manufacturer mechanical drawing available in the bounded search; distributor attributes are not used to freeze fit.",
+        "lookup_lead_only": "https://www.lcsc.com/zh-CN/product-detail/C55172961.html",
+        "footprint_status": "Unfrozen. Prioritize old exact part drawing/sample; no assumption that its footprint equals FH12."
+      }
+    }
+  ],
+  "not_in_this_subtask": "Generic passives/test headers/buttons assigned to parent; battery and speaker connectors remain user-undetermined."
+}

@@ -1,0 +1,16 @@
+{
+  "silkscreen_references": 236,
+  "assembly_only_references": [
+    "C701",
+    "R710",
+    "R713",
+    "R715"
+  ],
+  "off_board_silkscreen_moved_to_drawings": [
+    "U301",
+    "U301",
+    "U301"
+  ],
+  "component_positions_unchanged": true,
+  "board_sha256": "5eb16a5ecb824086f745c8d4737650eaaf315fa305fee58c9a027325d61c740b"
+}

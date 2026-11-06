@@ -1,0 +1,15 @@
+{
+  "status": "REVIEWED",
+  "reviewer": "separate readonly agent r5_native_workflow",
+  "findings": [
+    "Actual XML matches comparator polarity and shared TS feedback equations.",
+    "Both temperature edges have positive net feedback.",
+    "NTC open/short remain faults in released/clamped states.",
+    "VIN_5V shared with BQ; no isolated comparator supply fault guarantee."
+  ],
+  "limitations": [
+    "5V offset/VOL are engineering budgets, not full supply/common-mode characterization.",
+    "POR/deglitch timing is typical; verify insertion and CE dynamics.",
+    "TS fault does not make CHG_N high: verify BAT current and TS directly."
+  ]
+}

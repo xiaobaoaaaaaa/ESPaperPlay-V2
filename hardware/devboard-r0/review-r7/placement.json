@@ -1,0 +1,1418 @@
+{
+  "U301": {
+    "x": 160,
+    "y": 56.75,
+    "rotation": 0,
+    "group": "mcu"
+  },
+  "C301": {
+    "x": 145,
+    "y": 53,
+    "rotation": 180,
+    "group": "mcu"
+  },
+  "C302": {
+    "x": 148.6,
+    "y": 52.75,
+    "rotation": 180,
+    "group": "mcu"
+  },
+  "C303": {
+    "x": 147.7,
+    "y": 56,
+    "rotation": 180,
+    "group": "mcu"
+  },
+  "R301": {
+    "x": 144.2,
+    "y": 56,
+    "rotation": 0,
+    "group": "mcu"
+  },
+  "R302": {
+    "x": 172,
+    "y": 77.5,
+    "rotation": 0,
+    "group": "mcu"
+  },
+  "R303": {
+    "x": 118,
+    "y": 84.7,
+    "rotation": 90,
+    "group": "mcu"
+  },
+  "R304": {
+    "x": 132,
+    "y": 84.7,
+    "rotation": 90,
+    "group": "mcu"
+  },
+  "R305": {
+    "x": 146,
+    "y": 84.7,
+    "rotation": 90,
+    "group": "mcu"
+  },
+  "R306": {
+    "x": 147.5,
+    "y": 59,
+    "rotation": 180,
+    "group": "mcu"
+  },
+  "SW301": {
+    "x": 119,
+    "y": 76,
+    "rotation": 0,
+    "group": "mcu"
+  },
+  "SW302": {
+    "x": 136,
+    "y": 76,
+    "rotation": 0,
+    "group": "mcu"
+  },
+  "SW303": {
+    "x": 118,
+    "y": 88,
+    "rotation": 0,
+    "group": "mcu"
+  },
+  "SW304": {
+    "x": 132,
+    "y": 88,
+    "rotation": 0,
+    "group": "mcu"
+  },
+  "SW305": {
+    "x": 146,
+    "y": 88,
+    "rotation": 0,
+    "group": "mcu"
+  },
+  "J301": {
+    "x": 131,
+    "y": 97,
+    "rotation": 90,
+    "group": "mcu"
+  },
+  "J302": {
+    "x": 173.8,
+    "y": 73,
+    "rotation": 180,
+    "group": "mcu"
+  },
+  "J303": {
+    "x": 128,
+    "y": 72.5,
+    "rotation": 90,
+    "group": "mcu"
+  },
+  "J501": {
+    "x": 108,
+    "y": 53,
+    "rotation": 180,
+    "group": "usb"
+  },
+  "J502": {
+    "x": 106,
+    "y": 94,
+    "rotation": 90,
+    "group": "usb"
+  },
+  "F501": {
+    "x": 108,
+    "y": 66.2,
+    "rotation": 90,
+    "group": "usb"
+  },
+  "D501": {
+    "x": 108,
+    "y": 73.8,
+    "rotation": 90,
+    "group": "usb"
+  },
+  "C503": {
+    "x": 113,
+    "y": 60,
+    "rotation": 90,
+    "group": "usb"
+  },
+  "U501": {
+    "x": 108,
+    "y": 60,
+    "rotation": 270,
+    "group": "usb"
+  },
+  "U502": {
+    "x": 102.5,
+    "y": 60,
+    "rotation": 270,
+    "group": "usb"
+  },
+  "R501": {
+    "x": 100,
+    "y": 63.3,
+    "rotation": 90,
+    "group": "usb"
+  },
+  "R502": {
+    "x": 100,
+    "y": 66.6,
+    "rotation": 90,
+    "group": "usb"
+  },
+  "R503": {
+    "x": 147.8,
+    "y": 68,
+    "rotation": 0,
+    "group": "usb"
+  },
+  "R504": {
+    "x": 147.8,
+    "y": 66.2,
+    "rotation": 0,
+    "group": "usb"
+  },
+  "C501": {
+    "x": 149.2,
+    "y": 70.3,
+    "rotation": 270,
+    "group": "usb"
+  },
+  "C502": {
+    "x": 147.8,
+    "y": 63.6,
+    "rotation": 90,
+    "group": "usb"
+  },
+  "R710": {
+    "x": 171,
+    "y": 62.9,
+    "rotation": 90,
+    "group": "mcu"
+  },
+  "U101": {
+    "x": 75,
+    "y": 115,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "C101": {
+    "x": 77,
+    "y": 111,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "C102": {
+    "x": 79.5,
+    "y": 115,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "C103": {
+    "x": 70.5,
+    "y": 115,
+    "rotation": 180,
+    "group": "charger_input"
+  },
+  "R101": {
+    "x": 85,
+    "y": 115,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "R102": {
+    "x": 65,
+    "y": 144,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "R103": {
+    "x": 80.2,
+    "y": 111.4,
+    "rotation": 180,
+    "group": "charger_input"
+  },
+  "R104": {
+    "x": 70.5,
+    "y": 111,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "R113": {
+    "x": 72.5,
+    "y": 111,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "R105": {
+    "x": 74.5,
+    "y": 111,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "R106": {
+    "x": 70.5,
+    "y": 119,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "Q101": {
+    "x": 75,
+    "y": 123,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "R107": {
+    "x": 70.5,
+    "y": 122.5,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "R108": {
+    "x": 70.5,
+    "y": 125,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "R109": {
+    "x": 74,
+    "y": 118.8,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "R110": {
+    "x": 76,
+    "y": 118.8,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "R111": {
+    "x": 79.8,
+    "y": 119,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "R112": {
+    "x": 79.8,
+    "y": 121,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "J101": {
+    "x": 56,
+    "y": 104,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "J102": {
+    "x": 65,
+    "y": 151.5,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "J103": {
+    "x": 78,
+    "y": 151.5,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "J104": {
+    "x": 83.5,
+    "y": 123,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "J105": {
+    "x": 68,
+    "y": 130,
+    "rotation": 90,
+    "group": "charger_input"
+  },
+  "Q201": {
+    "x": 66,
+    "y": 104,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "R221": {
+    "x": 62,
+    "y": 102.5,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "R222": {
+    "x": 62,
+    "y": 104.5,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "R220": {
+    "x": 70,
+    "y": 104,
+    "rotation": 0,
+    "group": "charger_input"
+  },
+  "U201": {
+    "x": 101,
+    "y": 113,
+    "rotation": 0,
+    "group": "main_regulator"
+  },
+  "L201": {
+    "x": 105.3,
+    "y": 113,
+    "rotation": 270,
+    "group": "main_regulator"
+  },
+  "C201": {
+    "x": 101.5,
+    "y": 108.7,
+    "rotation": 90,
+    "group": "main_regulator"
+  },
+  "C202": {
+    "x": 101.5,
+    "y": 117.3,
+    "rotation": 270,
+    "group": "main_regulator"
+  },
+  "R201": {
+    "x": 97.8,
+    "y": 113.5,
+    "rotation": 0,
+    "group": "main_regulator"
+  },
+  "R202": {
+    "x": 97.8,
+    "y": 115.5,
+    "rotation": 180,
+    "group": "main_regulator"
+  },
+  "R203": {
+    "x": 101.5,
+    "y": 122,
+    "rotation": 270,
+    "group": "main_regulator"
+  },
+  "R204": {
+    "x": 97.5,
+    "y": 108.5,
+    "rotation": 0,
+    "group": "main_regulator"
+  },
+  "R205": {
+    "x": 97.5,
+    "y": 110.5,
+    "rotation": 0,
+    "group": "main_regulator"
+  },
+  "R206": {
+    "x": 97.5,
+    "y": 118,
+    "rotation": 0,
+    "group": "main_regulator"
+  },
+  "R207": {
+    "x": 97.5,
+    "y": 120,
+    "rotation": 0,
+    "group": "main_regulator"
+  },
+  "J201": {
+    "x": 101,
+    "y": 129,
+    "rotation": 90,
+    "group": "main_regulator"
+  },
+  "J202": {
+    "x": 89,
+    "y": 106,
+    "rotation": 90,
+    "group": "main_regulator"
+  },
+  "J203": {
+    "x": 91,
+    "y": 124,
+    "rotation": 90,
+    "group": "main_regulator"
+  },
+  "J204": {
+    "x": 91,
+    "y": 130,
+    "rotation": 90,
+    "group": "main_regulator"
+  },
+  "U203": {
+    "x": 70,
+    "y": 138,
+    "rotation": 0,
+    "group": "fuel_gauge"
+  },
+  "C204": {
+    "x": 66.5,
+    "y": 138,
+    "rotation": 180,
+    "group": "fuel_gauge"
+  },
+  "R217": {
+    "x": 73.8,
+    "y": 137,
+    "rotation": 0,
+    "group": "fuel_gauge"
+  },
+  "R218": {
+    "x": 73.8,
+    "y": 134.8,
+    "rotation": 0,
+    "group": "fuel_gauge"
+  },
+  "R219": {
+    "x": 73.8,
+    "y": 140,
+    "rotation": 0,
+    "group": "fuel_gauge"
+  },
+  "U202": {
+    "x": 132,
+    "y": 112,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "C203": {
+    "x": 137.8,
+    "y": 108.5,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "R210": {
+    "x": 137.8,
+    "y": 110.5,
+    "rotation": 180,
+    "group": "gpio_expander"
+  },
+  "R211": {
+    "x": 137.8,
+    "y": 112.5,
+    "rotation": 180,
+    "group": "gpio_expander"
+  },
+  "R208": {
+    "x": 125,
+    "y": 110,
+    "rotation": 180,
+    "group": "gpio_expander"
+  },
+  "R209": {
+    "x": 125,
+    "y": 108,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "R212": {
+    "x": 125,
+    "y": 112,
+    "rotation": 180,
+    "group": "gpio_expander"
+  },
+  "R213": {
+    "x": 125,
+    "y": 114,
+    "rotation": 180,
+    "group": "gpio_expander"
+  },
+  "R214": {
+    "x": 125,
+    "y": 116,
+    "rotation": 180,
+    "group": "gpio_expander"
+  },
+  "R215": {
+    "x": 137.8,
+    "y": 116.5,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "R216": {
+    "x": 125,
+    "y": 118,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "R223": {
+    "x": 137.8,
+    "y": 114.5,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "R227": {
+    "x": 141.5,
+    "y": 108.5,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "R226": {
+    "x": 141.5,
+    "y": 110.5,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "R225": {
+    "x": 141.5,
+    "y": 112.5,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "R224": {
+    "x": 141.5,
+    "y": 114.5,
+    "rotation": 0,
+    "group": "gpio_expander"
+  },
+  "J205": {
+    "x": 122,
+    "y": 131,
+    "rotation": 90,
+    "group": "gpio_expander"
+  },
+  "J206": {
+    "x": 122,
+    "y": 141,
+    "rotation": 90,
+    "group": "gpio_expander"
+  },
+  "U901": {
+    "x": 87,
+    "y": 141,
+    "rotation": 0,
+    "group": "charge_temperature"
+  },
+  "C901": {
+    "x": 92.5,
+    "y": 138.5,
+    "rotation": 0,
+    "group": "charge_temperature"
+  },
+  "C902": {
+    "x": 87,
+    "y": 145.7,
+    "rotation": 0,
+    "group": "charge_temperature"
+  },
+  "R901": {
+    "x": 83,
+    "y": 145.7,
+    "rotation": 0,
+    "group": "charge_temperature"
+  },
+  "R902": {
+    "x": 81.5,
+    "y": 137.7,
+    "rotation": 0,
+    "group": "charge_temperature"
+  },
+  "R903": {
+    "x": 81.5,
+    "y": 139.7,
+    "rotation": 180,
+    "group": "charge_temperature"
+  },
+  "C903": {
+    "x": 81.5,
+    "y": 141.7,
+    "rotation": 180,
+    "group": "charge_temperature"
+  },
+  "R904": {
+    "x": 92.5,
+    "y": 143,
+    "rotation": 180,
+    "group": "charge_temperature"
+  },
+  "R905": {
+    "x": 92.5,
+    "y": 145,
+    "rotation": 0,
+    "group": "charge_temperature"
+  },
+  "C904": {
+    "x": 92.5,
+    "y": 147,
+    "rotation": 0,
+    "group": "charge_temperature"
+  },
+  "R906": {
+    "x": 87,
+    "y": 136.3,
+    "rotation": 0,
+    "group": "charge_temperature"
+  },
+  "R907": {
+    "x": 84,
+    "y": 136.2,
+    "rotation": 90,
+    "group": "charge_temperature"
+  },
+  "R908": {
+    "x": 90.5,
+    "y": 136.3,
+    "rotation": 0,
+    "group": "charge_temperature"
+  },
+  "U803": {
+    "x": 61,
+    "y": 61,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "C804": {
+    "x": 57.8,
+    "y": 61,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "C805": {
+    "x": 57.8,
+    "y": 64.5,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "U804": {
+    "x": 65.5,
+    "y": 60.5,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "C808": {
+    "x": 68.8,
+    "y": 60.2,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "R813": {
+    "x": 64.5,
+    "y": 63.8,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "J801": {
+    "x": 91,
+    "y": 55,
+    "rotation": 180,
+    "group": "AUDIO"
+  },
+  "U802": {
+    "x": 88,
+    "y": 65,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "C802": {
+    "x": 91.5,
+    "y": 65,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "C803": {
+    "x": 94.19999999999999,
+    "y": 65,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "R811": {
+    "x": 91.5,
+    "y": 61.3,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "R812": {
+    "x": 84.5,
+    "y": 61.3,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "R805": {
+    "x": 84,
+    "y": 67.5,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "R806": {
+    "x": 81.69999999999999,
+    "y": 67.5,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "U801": {
+    "x": 75,
+    "y": 65,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "C801": {
+    "x": 78,
+    "y": 61.1,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "R808": {
+    "x": 69,
+    "y": 63.5,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "R809": {
+    "x": 69,
+    "y": 66.4,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "R810": {
+    "x": 81,
+    "y": 70,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "R802": {
+    "x": 71.6,
+    "y": 60,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "R803": {
+    "x": 71.6,
+    "y": 69.8,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "R804": {
+    "x": 85,
+    "y": 70.5,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "U805": {
+    "x": 68,
+    "y": 73,
+    "rotation": 0,
+    "group": "AUDIO"
+  },
+  "C806": {
+    "x": 71.6,
+    "y": 73.25,
+    "rotation": 90,
+    "group": "AUDIO"
+  },
+  "R416": {
+    "x": 63.5,
+    "y": 73,
+    "rotation": 0,
+    "group": "POWER_DOMAINS"
+  },
+  "J701": {
+    "x": 200.8,
+    "y": 70.5,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "U701": {
+    "x": 179.5,
+    "y": 73,
+    "rotation": 0,
+    "group": "STORAGE_SD"
+  },
+  "U706": {
+    "x": 179.5,
+    "y": 62,
+    "rotation": 180,
+    "group": "STORAGE_SD"
+  },
+  "C703": {
+    "x": 182.0,
+    "y": 69.05,
+    "rotation": 0,
+    "group": "STORAGE_SD"
+  },
+  "C705": {
+    "x": 177.2,
+    "y": 65.8,
+    "rotation": 0,
+    "group": "STORAGE_SD"
+  },
+  "U702": {
+    "x": 188.5,
+    "y": 70.8,
+    "rotation": 180,
+    "group": "STORAGE_SD"
+  },
+  "U703": {
+    "x": 188.5,
+    "y": 75.5,
+    "rotation": 180,
+    "group": "STORAGE_SD"
+  },
+  "U704": {
+    "x": 188.5,
+    "y": 64.5,
+    "rotation": 180,
+    "group": "STORAGE_SD"
+  },
+  "U705": {
+    "x": 188.5,
+    "y": 80.5,
+    "rotation": 180,
+    "group": "STORAGE_SD"
+  },
+  "C701": {
+    "x": 189.7,
+    "y": 67.7,
+    "rotation": 0,
+    "group": "STORAGE_SD"
+  },
+  "C702": {
+    "x": 191,
+    "y": 60.5,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R701": {
+    "x": 184.7,
+    "y": 73,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R702": {
+    "x": 184.7,
+    "y": 77,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R703": {
+    "x": 181.3,
+    "y": 78.3,
+    "rotation": 0,
+    "group": "STORAGE_SD"
+  },
+  "R704": {
+    "x": 184.55,
+    "y": 61.0,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R705": {
+    "x": 184.55,
+    "y": 65.0,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R706": {
+    "x": 184.7,
+    "y": 69,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R708": {
+    "x": 185.2,
+    "y": 83.5,
+    "rotation": 0,
+    "group": "STORAGE_SD"
+  },
+  "C704": {
+    "x": 181.3,
+    "y": 83.5,
+    "rotation": 0,
+    "group": "STORAGE_SD"
+  },
+  "R711": {
+    "x": 171,
+    "y": 73.5,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R712": {
+    "x": 171,
+    "y": 70.0,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R713": {
+    "x": 171,
+    "y": 66.5,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R714": {
+    "x": 171,
+    "y": 58.3,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "R715": {
+    "x": 171,
+    "y": 54.7,
+    "rotation": 90,
+    "group": "STORAGE_SD"
+  },
+  "J406": {
+    "x": 204.6,
+    "y": 105,
+    "rotation": 90,
+    "group": "TOUCH_ISOLATION"
+  },
+  "U406": {
+    "x": 191.5,
+    "y": 103,
+    "rotation": 0,
+    "group": "TOUCH_ISOLATION"
+  },
+  "C416": {
+    "x": 194.5,
+    "y": 99.05,
+    "rotation": 0,
+    "group": "TOUCH_ISOLATION"
+  },
+  "C417": {
+    "x": 200.5,
+    "y": 104.3,
+    "rotation": 90,
+    "group": "TOUCH_ISOLATION"
+  },
+  "R417": {
+    "x": 188.7,
+    "y": 107.5,
+    "rotation": 0,
+    "group": "TOUCH_ISOLATION"
+  },
+  "R418": {
+    "x": 192.7,
+    "y": 107.5,
+    "rotation": 0,
+    "group": "TOUCH_ISOLATION"
+  },
+  "R419": {
+    "x": 197.1,
+    "y": 107.5,
+    "rotation": 90,
+    "group": "TOUCH_ISOLATION"
+  },
+  "R420": {
+    "x": 197.1,
+    "y": 111,
+    "rotation": 90,
+    "group": "TOUCH_ISOLATION"
+  },
+  "J601": {
+    "x": 191,
+    "y": 152,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "U601": {
+    "x": 166.5,
+    "y": 142,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "C611": {
+    "x": 170,
+    "y": 136.8,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "R603": {
+    "x": 173,
+    "y": 139.5,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "R604": {
+    "x": 173,
+    "y": 141.4,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "R605": {
+    "x": 173,
+    "y": 143.3,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "R606": {
+    "x": 173,
+    "y": 145.2,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "R607": {
+    "x": 173,
+    "y": 147.1,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "R608": {
+    "x": 161.4,
+    "y": 136.3,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "R609": {
+    "x": 161.4,
+    "y": 139.6,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "R610": {
+    "x": 161.4,
+    "y": 142.9,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "R611": {
+    "x": 161.4,
+    "y": 146.2,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "R612": {
+    "x": 161.4,
+    "y": 149.5,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "U602": {
+    "x": 166.5,
+    "y": 152,
+    "rotation": 180,
+    "group": "EPD_DISPLAY"
+  },
+  "C612": {
+    "x": 170,
+    "y": 155,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "R613": {
+    "x": 175.5,
+    "y": 150.2,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "R614": {
+    "x": 170.8,
+    "y": 151.5,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "L601": {
+    "x": 177.5,
+    "y": 138,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "C603": {
+    "x": 174.8,
+    "y": 133.5,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "Q601": {
+    "x": 182.0,
+    "y": 141.45,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "R602": {
+    "x": 180,
+    "y": 146.5,
+    "rotation": 180,
+    "group": "EPD_DISPLAY"
+  },
+  "R601": {
+    "x": 178.6,
+    "y": 143.65,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "D603": {
+    "x": 184,
+    "y": 137.5,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "C602": {
+    "x": 189,
+    "y": 139,
+    "rotation": 180,
+    "group": "EPD_DISPLAY"
+  },
+  "D601": {
+    "x": 194,
+    "y": 139,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "D602": {
+    "x": 194,
+    "y": 135.6,
+    "rotation": 180,
+    "group": "EPD_DISPLAY"
+  },
+  "C601": {
+    "x": 185.5,
+    "y": 148,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "C605": {
+    "x": 192.25,
+    "y": 148.6,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "C606": {
+    "x": 194.5,
+    "y": 148.6,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "C607": {
+    "x": 193,
+    "y": 144,
+    "rotation": 180,
+    "group": "EPD_DISPLAY"
+  },
+  "C604": {
+    "x": 188.5,
+    "y": 148,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "C608": {
+    "x": 197.5,
+    "y": 148,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "C609": {
+    "x": 198,
+    "y": 143,
+    "rotation": 0,
+    "group": "EPD_DISPLAY"
+  },
+  "C610": {
+    "x": 200.3,
+    "y": 148,
+    "rotation": 90,
+    "group": "EPD_DISPLAY"
+  },
+  "U401": {
+    "x": 164.5,
+    "y": 124,
+    "rotation": 0,
+    "group": "EPD_POWER"
+  },
+  "C401": {
+    "x": 161.1,
+    "y": 123,
+    "rotation": 90,
+    "group": "EPD_POWER"
+  },
+  "C402": {
+    "x": 167.9,
+    "y": 125.6,
+    "rotation": 90,
+    "group": "EPD_POWER"
+  },
+  "R401": {
+    "x": 170.0,
+    "y": 126.1,
+    "rotation": 90,
+    "group": "EPD_POWER"
+  },
+  "R402": {
+    "x": 169.9,
+    "y": 122.1,
+    "rotation": 0,
+    "group": "EPD_POWER"
+  },
+  "C403": {
+    "x": 174.5,
+    "y": 122.1,
+    "rotation": 90,
+    "group": "EPD_POWER"
+  },
+  "J401": {
+    "x": 164.0,
+    "y": 129.2,
+    "rotation": 90,
+    "group": "EPD_POWER"
+  },
+  "U402": {
+    "x": 168,
+    "y": 83.4,
+    "rotation": 0,
+    "group": "SD_POWER"
+  },
+  "C404": {
+    "x": 164.6,
+    "y": 82.4,
+    "rotation": 90,
+    "group": "SD_POWER"
+  },
+  "C405": {
+    "x": 171.4,
+    "y": 85.0,
+    "rotation": 90,
+    "group": "SD_POWER"
+  },
+  "R404": {
+    "x": 173.5,
+    "y": 85.5,
+    "rotation": 90,
+    "group": "SD_POWER"
+  },
+  "R405": {
+    "x": 173.4,
+    "y": 81.5,
+    "rotation": 0,
+    "group": "SD_POWER"
+  },
+  "C406": {
+    "x": 178.0,
+    "y": 84.0,
+    "rotation": 90,
+    "group": "SD_POWER"
+  },
+  "J402": {
+    "x": 167.5,
+    "y": 88.60000000000001,
+    "rotation": 90,
+    "group": "SD_POWER"
+  },
+  "U403": {
+    "x": 178.5,
+    "y": 101,
+    "rotation": 0,
+    "group": "TOUCH_POWER"
+  },
+  "C407": {
+    "x": 175.1,
+    "y": 100,
+    "rotation": 90,
+    "group": "TOUCH_POWER"
+  },
+  "C408": {
+    "x": 181.9,
+    "y": 102.6,
+    "rotation": 90,
+    "group": "TOUCH_POWER"
+  },
+  "R407": {
+    "x": 184.0,
+    "y": 103.1,
+    "rotation": 90,
+    "group": "TOUCH_POWER"
+  },
+  "R408": {
+    "x": 183.9,
+    "y": 99.1,
+    "rotation": 0,
+    "group": "TOUCH_POWER"
+  },
+  "C409": {
+    "x": 188.5,
+    "y": 98.1,
+    "rotation": 90,
+    "group": "TOUCH_POWER"
+  },
+  "J403": {
+    "x": 178.0,
+    "y": 106.2,
+    "rotation": 90,
+    "group": "TOUCH_POWER"
+  },
+  "U404": {
+    "x": 61,
+    "y": 78,
+    "rotation": 0,
+    "group": "MIC_POWER"
+  },
+  "C410": {
+    "x": 57.599999999999994,
+    "y": 77,
+    "rotation": 90,
+    "group": "MIC_POWER"
+  },
+  "C411": {
+    "x": 64.4,
+    "y": 79.6,
+    "rotation": 90,
+    "group": "MIC_POWER"
+  },
+  "R410": {
+    "x": 66.5,
+    "y": 80.1,
+    "rotation": 90,
+    "group": "MIC_POWER"
+  },
+  "R411": {
+    "x": 66.4,
+    "y": 76.1,
+    "rotation": 0,
+    "group": "MIC_POWER"
+  },
+  "C412": {
+    "x": 71.0,
+    "y": 76.6,
+    "rotation": 90,
+    "group": "MIC_POWER"
+  },
+  "J404": {
+    "x": 60.5,
+    "y": 83.2,
+    "rotation": 90,
+    "group": "MIC_POWER"
+  },
+  "U405": {
+    "x": 83,
+    "y": 78,
+    "rotation": 0,
+    "group": "AMP_POWER"
+  },
+  "C413": {
+    "x": 79.6,
+    "y": 77,
+    "rotation": 90,
+    "group": "AMP_POWER"
+  },
+  "C414": {
+    "x": 86.4,
+    "y": 79.6,
+    "rotation": 90,
+    "group": "AMP_POWER"
+  },
+  "R413": {
+    "x": 88.5,
+    "y": 80.1,
+    "rotation": 90,
+    "group": "AMP_POWER"
+  },
+  "R414": {
+    "x": 88.4,
+    "y": 76.1,
+    "rotation": 0,
+    "group": "AMP_POWER"
+  },
+  "C415": {
+    "x": 93,
+    "y": 76.1,
+    "rotation": 90,
+    "group": "AMP_POWER"
+  },
+  "J405": {
+    "x": 82.5,
+    "y": 83.2,
+    "rotation": 90,
+    "group": "AMP_POWER"
+  }
+}

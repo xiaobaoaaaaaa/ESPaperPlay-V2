@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-02",
+  "result": "PASS",
+  "pdf": "output/pdf/ESPaperPlay_Devboard_BOM_r4.pdf",
+  "sha256": "531dfbffadd5477b642bfe5edf71fc899dea4c54be8e16db6f825a267d8f85b4",
+  "pages": 10,
+  "review": "All ten native-export pages rendered at2100px and visually inspected. After correcting three outdated notes, pages1/5/8 re-rendered and re-inspected. AddedSH pins/GND labels clear on pages7/8; revised feedback, capacitor voltage labels, charge hold and fuse visible; title blocks fit.",
+  "renders": {
+    "page-01.png": "71d36975b01662b971e18cd6e9455d1f8d9b8fee32c3d3ff98f08dcb2d42e511",
+    "page-02.png": "ab6e30e11390d89ff2c6db86c3668029644c077de44c3538db18095067a06f81",
+    "page-03.png": "d1669ae836081e535e184321eb9748504df3f05ae22e8ba48fa79cb28b4ef83e",
+    "page-04.png": "3739efd28e1ee51370ea8d1b425f6df6f7cc163d336433cb0ed1613918fefeb1",
+    "page-05.png": "91ba88a0c31d7e0cb21fa147afa4e05acc1e18beb3231b5856c6b6ee20b1d31a",
+    "page-06.png": "fb44196eb04754235ddbee36067f1d630e5ed9920944f568e53acb55cf97a1a8",
+    "page-07.png": "fcc06e2fba35a89077bc105dfd6d79e97628df3aa15f8b85807b5f60bb8f4321",
+    "page-08.png": "34613ee3e0b3131b4eddb31eb35f060d4ba98026ca560ccc307cc69a688f198d",
+    "page-09.png": "2925786fc4b39f3c6c85c3a52fb613ac6c3e3bd71d26ff4c1519ef5d181ba220",
+    "page-10.png": "2497e743ab59102f172d8933b9294382eeed8783dd716a6970e12bd44988cdf4"
+  },
+  "scope": "Document legibility and native circuit rendering, not assembly or electrical performance."
+}

@@ -1,0 +1,1734 @@
+(kicad_sch
+(version 20250114)
+(generator "eeschema")
+(generator_version "10.0")
+(uuid "41f6684a-9694-58e5-a622-cf4d6645cd9f")
+(paper "A3")
+(title_block (title "AUDIO / I2S INPUT ISOLATION / MONO PLAYBACK + MIC") (date "2026-11-05") (rev "r6 DRAWING")
+            (company "ESPaperPlay / xiaobaoaaaaaa")
+            (comment 1 "DESIGN REVIEW ONLY - NO PCB RELEASE / NO BATTERY CHARGE APPROVAL"))
+(lib_symbols (symbol "Connector_Generic:Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "ESPaperPlay:74LVC125APW_NEXPERIA"
+      (pin_names (offset 0.508)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 27.94 0) (effects (font (size 1.05 1.05)) ))
+      (property "Value" "74LVC125APW_NEXPERIA" (at 0 -27.94 0) (effects (font (size 1.05 1.05)) ))
+      (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (symbol "74LVC125APW_NEXPERIA_0_1"
+        (rectangle (start -15.24 25.4) (end 15.24 -25.4)
+          (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "74LVC125APW_NEXPERIA_1_1"(pin power_in line (at 0.0 27.94 270) (length 2.54)
+          (name "VCC" (effects (font (size 1.05 1.05))))
+          (number "14" (effects (font (size 1.05 1.05)))))(pin power_in line (at 17.78 -22.86 180) (length 2.54)
+          (name "GND" (effects (font (size 1.05 1.05))))
+          (number "7" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 15.24 0) (length 2.54)
+          (name "1A" (effects (font (size 1.05 1.05))))
+          (number "2" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 15.24 180) (length 2.54)
+          (name "1Y" (effects (font (size 1.05 1.05))))
+          (number "3" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 5.08 0) (length 2.54)
+          (name "2A" (effects (font (size 1.05 1.05))))
+          (number "5" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 5.08 180) (length 2.54)
+          (name "2Y" (effects (font (size 1.05 1.05))))
+          (number "6" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 -5.08 0) (length 2.54)
+          (name "3A" (effects (font (size 1.05 1.05))))
+          (number "9" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 -5.08 180) (length 2.54)
+          (name "3Y" (effects (font (size 1.05 1.05))))
+          (number "8" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 -15.24 0) (length 2.54)
+          (name "4A" (effects (font (size 1.05 1.05))))
+          (number "12" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 17.78 -15.24 180) (length 2.54)
+          (name "4Y" (effects (font (size 1.05 1.05))))
+          (number "11" (effects (font (size 1.05 1.05)))))(pin input line (at -10.16 -27.94 90) (length 2.54)
+          (name "~{1OE}" (effects (font (size 1.05 1.05))))
+          (number "1" (effects (font (size 1.05 1.05)))))(pin input line (at -5.08 -27.94 90) (length 2.54)
+          (name "~{2OE}" (effects (font (size 1.05 1.05))))
+          (number "4" (effects (font (size 1.05 1.05)))))(pin input line (at 5.08 -27.94 90) (length 2.54)
+          (name "~{3OE}" (effects (font (size 1.05 1.05))))
+          (number "10" (effects (font (size 1.05 1.05)))))(pin input line (at 10.16 -27.94 90) (length 2.54)
+          (name "~{4OE}" (effects (font (size 1.05 1.05))))
+          (number "13" (effects (font (size 1.05 1.05)))))))(symbol "ESPaperPlay:DMM-4026-B-I2S-R"
+      (pin_names (offset 0.508)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 17.78 0) (effects (font (size 1.05 1.05)) ))
+      (property "Value" "DMM-4026-B-I2S-R" (at 0 -17.78 0) (effects (font (size 1.05 1.05)) ))
+      (property "Footprint" "" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (property "Datasheet" "https://api.puiaudio.com/filename/DMM-4026-B-I2S-R.pdf" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (symbol "DMM-4026-B-I2S-R_0_1"
+        (rectangle (start -13.97 15.24) (end 13.97 -15.24)
+          (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "DMM-4026-B-I2S-R_1_1"(pin power_in line (at 0.0 20.32 270) (length 2.54)
+          (name "VDD" (effects (font (size 1.05 1.05))))
+          (number "3" (effects (font (size 1.05 1.05)))))(pin power_in line (at 0.0 -20.32 90) (length 2.54)
+          (name "GND" (effects (font (size 1.05 1.05))))
+          (number "4" (effects (font (size 1.05 1.05)))))(pin input line (at -16.51 7.62 0) (length 2.54)
+          (name "WS" (effects (font (size 1.05 1.05))))
+          (number "5" (effects (font (size 1.05 1.05)))))(pin input line (at -16.51 0.0 0) (length 2.54)
+          (name "SCK" (effects (font (size 1.05 1.05))))
+          (number "6" (effects (font (size 1.05 1.05)))))(pin input line (at 16.51 -5.08 180) (length 2.54)
+          (name "LR" (effects (font (size 1.05 1.05))))
+          (number "1" (effects (font (size 1.05 1.05)))))(pin input line (at 16.51 -12.7 180) (length 2.54)
+          (name "CONFIG" (effects (font (size 1.05 1.05))))
+          (number "2" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 16.51 10.16 180) (length 2.54)
+          (name "SD" (effects (font (size 1.05 1.05))))
+          (number "7" (effects (font (size 1.05 1.05)))))))(symbol "ESPaperPlay:MAX98357AETE_REVIEWED"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -8.89 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX98357A"
+			(at 10.16 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
+			(at -1.27 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mono DAC with amplifier, I2S, PCM, TDM, 32-bit, 96khz, 3.2W, TQFP-16"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "pcm tdm i2s left-justified amplifier audio dac"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TQFN*3x3mm*P0.5mm*EP1.23x1.23mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MAX98357AETE_REVIEWED_1_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "GAIN_SLOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "~{SD_MODE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 0 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "OUTP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "OUTN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "LRCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "BCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "ESPaperPlay:SN74LVC1G125DBV_AUDIO"
+      (pin_names (offset 0.508)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.05 1.05)) ))
+      (property "Value" "SN74LVC1G125DBV_AUDIO" (at 0 -12.7 0) (effects (font (size 1.05 1.05)) ))
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (symbol "SN74LVC1G125DBV_AUDIO_0_1"
+        (rectangle (start -8.89 10.16) (end 8.89 -10.16)
+          (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "SN74LVC1G125DBV_AUDIO_1_1"(pin power_in line (at 0.0 12.7 270) (length 2.54)
+          (name "VCC" (effects (font (size 1.05 1.05))))
+          (number "5" (effects (font (size 1.05 1.05)))))(pin power_in line (at 0.0 -12.7 90) (length 2.54)
+          (name "GND" (effects (font (size 1.05 1.05))))
+          (number "3" (effects (font (size 1.05 1.05)))))(pin input line (at -11.43 2.54 0) (length 2.54)
+          (name "A" (effects (font (size 1.05 1.05))))
+          (number "2" (effects (font (size 1.05 1.05)))))(pin input line (at -11.43 -5.08 0) (length 2.54)
+          (name "~{OE}" (effects (font (size 1.05 1.05))))
+          (number "1" (effects (font (size 1.05 1.05)))))(pin tri_state line (at 11.43 2.54 180) (length 2.54)
+          (name "Y" (effects (font (size 1.05 1.05))))
+          (number "4" (effects (font (size 1.05 1.05)))))))(symbol "ESPaperPlay:SN74LVC1G14DBV_AUDIO"
+      (pin_names (offset 0.508)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 12.7 0) (effects (font (size 1.05 1.05)) ))
+      (property "Value" "SN74LVC1G14DBV_AUDIO" (at 0 -12.7 0) (effects (font (size 1.05 1.05)) ))
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (symbol "SN74LVC1G14DBV_AUDIO_0_1"
+        (rectangle (start -8.89 10.16) (end 8.89 -10.16)
+          (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "SN74LVC1G14DBV_AUDIO_1_1"(pin power_in line (at 0.0 12.7 270) (length 2.54)
+          (name "VCC" (effects (font (size 1.05 1.05))))
+          (number "5" (effects (font (size 1.05 1.05)))))(pin power_in line (at 0.0 -12.7 90) (length 2.54)
+          (name "GND" (effects (font (size 1.05 1.05))))
+          (number "3" (effects (font (size 1.05 1.05)))))(pin input line (at -11.43 2.54 0) (length 2.54)
+          (name "A_ST" (effects (font (size 1.05 1.05))))
+          (number "2" (effects (font (size 1.05 1.05)))))(pin no_connect line (at -11.43 -5.08 0) (length 2.54)
+          (name "NC" (effects (font (size 1.05 1.05))))
+          (number "1" (effects (font (size 1.05 1.05)))))(pin output line (at 11.43 2.54 180) (length 2.54)
+          (name "Y_INV" (effects (font (size 1.05 1.05))))
+          (number "4" (effects (font (size 1.05 1.05)))))))(symbol "power:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(embedded_fonts no)
+(symbol (lib_id "ESPaperPlay:74LVC125APW_NEXPERIA") (at 95.25 80.01 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "5fa5ba83-7bfb-59fc-be79-f9e6698e9687")
+          (property "Reference" "U801" (at 72.39 36.83 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "Nexperia 74LVC125APW" (at 72.39 40.64 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" (at 95.25 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf" (at 95.25 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Exact manufacturer required: Nexperia Ioff-specified 74LVC125APW,118. All four /OE pins are linked. VCC on switched MIC domain." (at 95.25 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "14" (uuid "71d448a1-db5b-5b97-bc7a-344dcc0caa60"))(pin "7" (uuid "b063eeed-f7c6-5b23-a9f8-a042a0ace0e7"))(pin "2" (uuid "c51cb959-930b-5208-9c72-7c6dc813cb18"))(pin "3" (uuid "17091950-6651-55d8-bce4-76abef5b851e"))(pin "5" (uuid "8cea0294-485c-5e4b-9884-054515404a3c"))(pin "6" (uuid "c9dfaaa0-57f6-5466-939f-8ee34580dd7e"))(pin "9" (uuid "a1f150fc-aac9-59a9-8bd0-955e9d7bba01"))(pin "8" (uuid "bebc21ea-c1e3-5ef0-990e-3ae401ce0f0d"))(pin "12" (uuid "9eb1b33b-f5f2-5de5-97d2-a9848657cac3"))(pin "11" (uuid "fa520df8-46a4-57f6-a6a1-2a03b144fd21"))(pin "1" (uuid "7389ea45-720d-58d6-9fa5-58c1654ba1db"))(pin "4" (uuid "0d37fbed-b77b-5a4d-ba46-42f42474fe4a"))(pin "10" (uuid "47a57078-e6d4-5044-a28c-15da162cfe06"))(pin "13" (uuid "7605a310-763f-5ceb-8b1e-903d68242ea9")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "U801") (unit 1))))
+(property "Manufacturer" "Nexperia" (at 95.25 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "74LVC125APW,118" (at 95.25 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 95.25 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U801" (at 95.25 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf | https://www.nexperia.com/product/74LVC125APW | https://assets.nexperia.com/documents/package-information/SOT402-1.pdf" (at 95.25 80.01 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 143.51 64.77 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "b21c27b2-0e31-5597-a233-b45861c2c52a")
+          (property "Reference" "R808" (at 134.62 58.42 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "22R" (at 134.62 61.595 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 143.51 64.77 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 143.51 64.77 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Initial damping value, place close to U801 output. Validate edges and total I2S setup/hold." (at 143.51 64.77 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "d9dc847a-914d-5743-b5b1-56438145124b"))(pin "2" (uuid "13488fd9-fdb7-51f3-8a28-8f9f2eb59544")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R808") (unit 1))))
+(property "Manufacturer" "Vishay" (at 143.51 64.77 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060322R0FKEA" (at 143.51 64.77 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 143.51 64.77 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R808" (at 143.51 64.77 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 143.51 64.77 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 143.51 74.93 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "a9bc9c7b-07a8-5726-a995-92f3dc7413ba")
+          (property "Reference" "R809" (at 134.62 68.58 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "22R" (at 134.62 71.755 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 143.51 74.93 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 143.51 74.93 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Initial damping value, place close to U801 output. Validate edges and total I2S setup/hold." (at 143.51 74.93 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "bcf85976-5f67-5654-8df2-c244b64d4de0"))(pin "2" (uuid "0b4e4443-fd43-5e24-80e7-45530b1c8f9e")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R809") (unit 1))))
+(property "Manufacturer" "Vishay" (at 143.51 74.93 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060322R0FKEA" (at 143.51 74.93 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 143.51 74.93 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R809" (at 143.51 74.93 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 143.51 74.93 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 143.51 85.09 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "d4fa2b87-3178-5d87-ace4-6ccb04c59e24")
+          (property "Reference" "R810" (at 134.62 78.74 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "22R" (at 134.62 81.915 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 143.51 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 143.51 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Initial damping value, place close to U801 output. Validate edges and total I2S setup/hold." (at 143.51 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "2bfe39b3-60c2-5119-97f2-7b4c61e0ad0b"))(pin "2" (uuid "d6be937d-daa7-51eb-882b-23026df6a606")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R810") (unit 1))))
+(property "Manufacturer" "Vishay" (at 143.51 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060322R0FKEA" (at 143.51 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 143.51 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R810" (at 143.51 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 143.51 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "ESPaperPlay:SN74LVC1G14DBV_AUDIO") (at 60.96 133.35 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "1a1af933-b09b-562c-8e44-52fa931466b8")
+          (property "Reference" "U805" (at 48.26 109.22 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI SN74LVC1G14DBVR" (at 48.26 113.03 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 60.96 133.35 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf" (at 60.96 133.35 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Schmitt inverter with Ioff. AUDIO_EN LOW actively raises all four OE pins before normal MIC rail decay. R416 already defaults GPIO4 LOW. Active edge avoids a 100k pull-up violating U801 input slew constraints." (at 60.96 133.35 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "5" (uuid "f785ca9e-05eb-549d-aa59-6875bceff0ff"))(pin "3" (uuid "2bccfca3-0c09-5c39-81dc-bda10d68ace7"))(pin "2" (uuid "6a9da051-969c-58f5-ae1c-8d97668346c7"))(pin "1" (uuid "7425c51d-56dd-54c8-a954-52754bdd1a59"))(pin "4" (uuid "68d4faf0-d7c5-5102-8711-96792df85806")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "U805") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 60.96 133.35 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "SN74LVC1G14DBVR" (at 60.96 133.35 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 60.96 133.35 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U805" (at 60.96 133.35 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf | https://www.ti.com/product/SN74LVC1G14" (at 60.96 133.35 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 31.75 115.57 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "71b4df81-6052-5d8f-b6df-04555a2b71fb")
+          (property "Reference" "C806" (at 36.83 113.665 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 36.83 117.475 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 31.75 115.57 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 31.75 115.57 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "U805 local decoupling; same switched rail as U801." (at 31.75 115.57 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "343850f5-df0b-5899-b30a-60e99440beef"))(pin "2" (uuid "bb671987-6ffe-5975-aa6f-097300ac67e2")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "C806") (unit 1))))
+(property "Manufacturer" "TDK" (at 31.75 115.57 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 31.75 115.57 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 31.75 115.57 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C806" (at 31.75 115.57 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 31.75 115.57 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 123.19 44.45 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "d233ea72-b3c4-57ef-8715-c03bde244c4f")
+          (property "Reference" "C801" (at 128.27 42.545 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 128.27 46.355 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 123.19 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 123.19 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Place at U801 supply pins, not at remote power switch." (at 123.19 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "498f0203-73aa-5da3-976b-b18788066d9a"))(pin "2" (uuid "14058ab6-fb49-53d4-9693-a30e7086a548")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "C801") (unit 1))))
+(property "Manufacturer" "TDK" (at 123.19 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 123.19 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 123.19 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C801" (at 123.19 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 123.19 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "ESPaperPlay:MAX98357AETE_REVIEWED") (at 307.34 83.82 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "f3791421-99e1-547b-a0fa-a39a810d5221")
+          (property "Reference" "U802" (at 294.64 53.34 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "MAX98357AETE+T" (at 294.64 57.15 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "ESPaperPlay:Analog_MAX98357A_T1633-4_3x3mm_P0.5mm_EP1.23mm" (at 307.34 83.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf" (at 307.34 83.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "TQFN16+EP17. Gain=6dB via VDD. SD_MODE selects LEFT, not hardware stereo mixing. EP connects GND for thermal path." (at 307.34 83.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "54af56ff-b23b-5839-9b83-34c4d457387e"))(pin "2" (uuid "4ae74211-f6e8-5638-b7f8-844964e8667e"))(pin "3" (uuid "d741d4b9-1e05-5baf-aba1-15af12b0ccf3"))(pin "4" (uuid "d58250f9-5942-5fa2-afe9-770e727c6427"))(pin "5" (uuid "82e2db57-48a0-5874-a42d-08729b23f224"))(pin "6" (uuid "5e0f2218-c530-5e40-ac52-92ed918c670d"))(pin "7" (uuid "65c0386c-865e-57bf-a5ca-cb34028cd5fe"))(pin "8" (uuid "a9d1e176-cea7-5baa-bd13-0cf27f65200a"))(pin "9" (uuid "3603ac6c-548e-581b-91da-42bba3bf8467"))(pin "10" (uuid "d45b20b6-14be-5f8c-b01b-a1c5680ff525"))(pin "11" (uuid "33e12ed4-7f87-5d37-b18d-215e44c4780d"))(pin "12" (uuid "6f740fb2-e144-53be-9354-b8cfd2890379"))(pin "13" (uuid "e3d51716-5ba6-56e7-9c42-024599534070"))(pin "14" (uuid "4de35d8f-daf0-5daa-8157-043936cbff14"))(pin "15" (uuid "cee6f506-137d-562d-bf49-219c92564e61"))(pin "16" (uuid "6490257d-de7a-5552-9133-d534df22e073"))(pin "17" (uuid "9aeb4323-8481-55e6-9bdf-0e1484989940")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "U802") (unit 1))))
+(property "Manufacturer" "Analog Devices / Maxim Integrated" (at 307.34 83.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "MAX98357AETE+T" (at 307.34 83.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 307.34 83.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U802" (at 307.34 83.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf | https://mds.analog.com/api/public/content/90-0031.pdf | https://www.analog.com/en/products/max98357a.html" (at 307.34 83.82 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 341.63 44.45 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "62ae1813-8b5b-57ad-ae14-f18f94d61389")
+          (property "Reference" "C802" (at 346.71 42.545 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 346.71 46.355 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 341.63 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 341.63 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Place immediately at VDD7/8." (at 341.63 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "74feadf6-6ca5-54df-a24a-c3cb9e39fecf"))(pin "2" (uuid "a15b6dd0-f990-54a6-b708-ec87da3583a0")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "C802") (unit 1))))
+(property "Manufacturer" "TDK" (at 341.63 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 341.63 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 341.63 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C802" (at 341.63 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 341.63 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 374.65 44.45 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "dd17b2d0-4c00-53b2-b34e-a191ab75a2da")
+          (property "Reference" "C803" (at 379.73 42.545 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10u / 10V" (at 379.73 46.355 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 374.65 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 374.65 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Local bulk in addition to C415=22u at switch; use effective capacitance for startup/inrush tests." (at 374.65 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "7c7bc667-39e1-5953-bbfc-46bfb0ab1094"))(pin "2" (uuid "b70a409c-cc22-54b2-be56-89bd795c2b87")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "C803") (unit 1))))
+(property "Manufacturer" "TDK" (at 374.65 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C2012X7R1A106K125AC" (at 374.65 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 374.65 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C803" (at 374.65 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1A106K125AC" (at 374.65 44.45 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 260.35 104.14 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "f5d097e8-23a4-55d5-9bad-39c9cad785fb")
+          (property "Reference" "R806" (at 264.16 109.22 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "2.00k / 1%" (at 264.16 113.03 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 260.35 104.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 260.35 104.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "ADI-recommended current limiting when 3.3V I/O exceeds low VDD; this is NOT complete power-off isolation." (at 260.35 104.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "6606053f-740d-5b0d-b196-86a65c131edf"))(pin "2" (uuid "44343fab-126e-59cf-a53c-4febe128cb28")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R806") (unit 1))))
+(property "Manufacturer" "Vishay" (at 260.35 104.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW06032K00FKEA" (at 260.35 104.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 260.35 104.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R806" (at 260.35 104.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 260.35 104.14 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 246.38 119.38 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "37299196-e9d7-5f8d-b310-49c4060e06fb")
+          (property "Reference" "R802" (at 251.46 117.475 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 251.46 121.285 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 246.38 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 246.38 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Load-side default low when U801 disabled. SD_MODE has an additional internal approximately 100k pull-down." (at 246.38 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "6a8c5d93-a97b-5012-969a-b8250ae25f8d"))(pin "2" (uuid "6e69a822-897f-5ea8-b3be-7eb408d21ef4")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R802") (unit 1))))
+(property "Manufacturer" "Vishay" (at 246.38 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 246.38 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 246.38 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R802" (at 246.38 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 246.38 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 267.97 119.38 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "9ea59b57-4df0-55ee-bd1b-d1a81d136341")
+          (property "Reference" "R803" (at 273.05 117.475 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 273.05 121.285 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 267.97 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 267.97 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Load-side default low when U801 disabled. SD_MODE has an additional internal approximately 100k pull-down." (at 267.97 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "9df9d03a-03d9-5ebf-99f3-5a1502472df2"))(pin "2" (uuid "3d8fb41b-38f1-5475-bd50-45ef46cdc155")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R803") (unit 1))))
+(property "Manufacturer" "Vishay" (at 267.97 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 267.97 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 267.97 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R803" (at 267.97 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 267.97 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 224.79 119.38 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "c5657f33-c607-5312-b7af-a56e5a6ced3f")
+          (property "Reference" "R804" (at 229.87 117.475 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 229.87 121.285 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 224.79 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 224.79 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Load-side default low when U801 disabled. SD_MODE has an additional internal approximately 100k pull-down." (at 224.79 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "a410aedf-c5d1-53f2-8507-7fc7b0de2853"))(pin "2" (uuid "31fdc333-70e5-5c9a-a35d-8d425674ef42")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R804") (unit 1))))
+(property "Manufacturer" "Vishay" (at 224.79 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 224.79 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 224.79 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R804" (at 224.79 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 224.79 119.38 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 295.91 128.27 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "80d334aa-b8fb-5c96-a956-32fb79ccc595")
+          (property "Reference" "R805" (at 300.99 126.365 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 300.99 130.175 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 295.91 128.27 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 295.91 128.27 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Load-side default low when U801 disabled. SD_MODE has an additional internal approximately 100k pull-down." (at 295.91 128.27 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "153ab449-0da8-5957-a0a3-2ec46c2e9b17"))(pin "2" (uuid "230678e9-0371-5717-88d3-6977cab3df5f")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R805") (unit 1))))
+(property "Manufacturer" "Vishay" (at 295.91 128.27 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 295.91 128.27 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 295.91 128.27 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R805" (at 295.91 128.27 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 295.91 128.27 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 351.79 67.31 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "97011f22-59ad-53d3-85f1-17de84b111f1")
+          (property "Reference" "R811" (at 342.9 59.69 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "0R / SPK_P" (at 342.9 63.5 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 351.79 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 351.79 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "r3 CRCW08050000Z0EA / 0805 candidate; speaker current/temperature qualification pending; optional qualified ferrite replacement only after EMI/current review." (at 351.79 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "b936bd09-2269-5f3b-ae85-ea1e468e1ae9"))(pin "2" (uuid "4396add7-9436-5c0e-8f7a-4667aa3366e4")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R811") (unit 1))))
+(property "Manufacturer" "Vishay" (at 351.79 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW08050000Z0EA" (at 351.79 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 351.79 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R811" (at 351.79 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 351.79 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 351.79 85.09 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "4a1a67a6-8466-59d1-a28c-0820bb56d220")
+          (property "Reference" "R812" (at 342.9 91.44 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "0R / SPK_N" (at 342.9 95.25 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 351.79 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 351.79 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Differential output; never connect either speaker terminal to GND." (at 351.79 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "8c705090-7d41-5de8-9815-8519c47163b7"))(pin "2" (uuid "43c003f8-8c9d-5b72-aa42-4349ac6cceff")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R812") (unit 1))))
+(property "Manufacturer" "Vishay" (at 351.79 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW08050000Z0EA" (at 351.79 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 351.79 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R812" (at 351.79 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 351.79 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 392.43 67.31 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "e1d1bc2e-13c9-5aac-9dff-21acdd1f6e8b")
+          (property "Reference" "J801" (at 373.38 95.25 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "SPEAKER / 8R CANDIDATE" (at 373.38 99.06 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "ESPaperPlay:PhoenixContact_MKDS-1-2-3.5_1751248_1x02_P3.50mm_Horizontal" (at 392.43 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 392.43 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Development-board Phoenix1751248 terminal. User selected3525 cavity8ohm2W speaker; 1.25mm commercial plug family unknown. Pin1 SPK_P,pin2 SPK_N; both BTL outputs must remain isolated from ground." (at 392.43 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "7e34a1bc-c663-5816-85ef-bb03a3fff3e0"))(pin "2" (uuid "8f0390d7-790c-59fd-a922-3174facd6a98")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "J801") (unit 1))))
+(property "Manufacturer" "Phoenix Contact" (at 392.43 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "1751248" (at 392.43 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 392.43 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#J801" (at 392.43 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.phoenixcontact.com/en-pc/products/pcb-terminal-block-mkds-1-2-35-1751248" (at 392.43 67.31 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "ESPaperPlay:DMM-4026-B-I2S-R") (at 91.44 215.9 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "386db264-5326-5fac-a382-5e1e1379019e")
+          (property "Reference" "U803" (at 80.01 184.15 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "DMM-4026-B-I2S-R" (at 80.01 187.96 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "ESPaperPlay:PUI_DMM_4026_B_I2S_R_7Pad_NPTH0.60" (at 91.44 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://api.puiaudio.com/filename/DMM-4026-B-I2S-R.pdf" (at 91.44 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "PUI public catalogue candidate; lifecycle/supply to confirm before BOM freeze. Exact 7-pad footprint/acoustic hole pending. LR=LOW selects LEFT; CONFIG=LOW required at power-up." (at 91.44 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "3" (uuid "ffccc1fd-c362-502d-9fe1-c63e85b53a78"))(pin "4" (uuid "787749f8-8f96-585a-b822-e29d8b3517ad"))(pin "5" (uuid "a2eac876-8d18-5c99-bf0b-fa04c69f0f5c"))(pin "6" (uuid "70076d79-4d07-5773-b207-4bc44a6a6afb"))(pin "1" (uuid "94efef02-4f74-584a-8bdd-39b158d66e3b"))(pin "2" (uuid "743980c9-ec5b-5647-9668-bbaa832334b6"))(pin "7" (uuid "911b81ee-6d4d-5bc8-85c3-72ae9eeadb4b")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "U803") (unit 1))))
+(property "Manufacturer" "PUI Audio" (at 91.44 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "DMM-4026-B-I2S-R" (at 91.44 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 91.44 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U803" (at 91.44 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://api.puiaudio.com/filename/DMM-4026-B-I2S-R.pdf | https://puiaudio.com/product/microphones/dmm-4026-b-i2s-r" (at 91.44 215.9 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 34.29 189.23 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "ff8b9c5e-44ec-5505-9824-1a0556ceb4bd")
+          (property "Reference" "C804" (at 39.37 187.325 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 39.37 191.135 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 34.29 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 34.29 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "PUI pin table requires local 0.1uF at VDD3." (at 34.29 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "75d5bf8e-0fb2-57b6-a2fd-bb3deba6b6d5"))(pin "2" (uuid "ac450be8-d1a3-57f0-b52a-6aa6910de2c2")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "C804") (unit 1))))
+(property "Manufacturer" "TDK" (at 34.29 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 34.29 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 34.29 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C804" (at 34.29 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 34.29 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 58.42 189.23 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "9fd5f618-efbf-5d77-b890-92fcfbeb5723")
+          (property "Reference" "C805" (at 63.5 187.325 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "1u / 16V" (at 63.5 191.135 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 58.42 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 58.42 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Local bulk candidate; review Wi-Fi/EPD noise and power-ramp behavior." (at 58.42 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "d4f1115f-df76-5149-8925-f248492fdb0d"))(pin "2" (uuid "743581ac-243a-5c81-bacb-a2096c0c9244")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "C805") (unit 1))))
+(property "Manufacturer" "TDK" (at 58.42 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1C105K080AC" (at 58.42 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 58.42 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C805" (at 58.42 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1C105K080AC" (at 58.42 189.23 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "ESPaperPlay:SN74LVC1G125DBV_AUDIO") (at 176.53 208.28 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "9c6543c3-c92b-5137-a065-a9f67427b84a")
+          (property "Reference" "U804" (at 165.1 182.88 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI SN74LVC1G125DBVR" (at 165.1 186.69 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 176.53 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf" (at 176.53 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "AON-powered return buffer, overvoltage-tolerant input and explicit Ioff at VCC=0. Prevent direct MIC residual supply injection into an unpowered MCU input." (at 176.53 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "5" (uuid "8904e516-b911-591e-ba5e-c2006441dfa7"))(pin "3" (uuid "424b5fd4-b3eb-5436-b1fe-4fd3a658ca72"))(pin "2" (uuid "2575a31a-f2de-5736-aea9-9b07d5fadf64"))(pin "1" (uuid "998b9d96-7fec-53ee-8099-32a25eb95171"))(pin "4" (uuid "10c57db1-7a6d-5f7d-8f5f-df6d96c339fb")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "U804") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 176.53 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "SN74LVC1G125DBVR" (at 176.53 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 176.53 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U804" (at 176.53 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf | https://www.ti.com/product/SN74LVC1G125" (at 176.53 208.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 134.62 233.68 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "a87fc070-1f5b-51ea-8400-12afb4297e94")
+          (property "Reference" "R813" (at 139.7 231.775 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 139.7 235.585 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 134.62 233.68 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 134.62 233.68 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "PUI p6 required SD pull-down releases the tri-state slot; place before the return buffer." (at 134.62 233.68 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "05d96882-c482-5c7e-b49f-97298b890051"))(pin "2" (uuid "14292338-0ea6-50d8-9598-81ec858f608a")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "R813") (unit 1))))
+(property "Manufacturer" "Vishay" (at 134.62 233.68 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 134.62 233.68 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 134.62 233.68 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R813" (at 134.62 233.68 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 134.62 233.68 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 212.09 187.96 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "77f93329-0e8c-53a2-a9bf-7fa40dc80823")
+          (property "Reference" "C808" (at 217.17 186.055 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 217.17 189.865 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 212.09 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 212.09 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Local U804 decoupling; included in AON sleep-current budget." (at 212.09 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "29b36020-666c-51a4-b62e-9ab8765c551c"))(pin "2" (uuid "046cbb5a-240d-54aa-b395-cfda9641722d")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "C808") (unit 1))))
+(property "Manufacturer" "TDK" (at 212.09 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 212.09 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 212.09 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C808" (at 212.09 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 212.09 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "power:PWR_FLAG") (at 91.44 177.8 0) (unit 1)
+          (exclude_from_sim no) (in_bom no) (on_board no)
+          (dnp no) (uuid "7343af64-f390-58e3-bedc-4823cdc80875")
+          (property "Reference" "#FLG801" (at 96.52 175.895 0) (effects (font (size 1.05 1.05)) (justify left) (hide yes)))
+          (property "Value" "PWR_FLAG" (at 96.52 179.705 0) (effects (font (size 1.05 1.05)) (justify left) (hide yes)))
+          (property "Footprint" "" (at 91.44 177.8 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 91.44 177.8 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 91.44 177.8 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "66b234a3-056d-55e2-9e85-6fdc402888b9")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "#FLG801") (unit 1)))))
+(symbol (lib_id "power:PWR_FLAG") (at 307.34 33.02 0) (unit 1)
+          (exclude_from_sim no) (in_bom no) (on_board no)
+          (dnp no) (uuid "1f34230f-695c-54ab-ba2e-675829c9f22c")
+          (property "Reference" "#FLG802" (at 312.42 31.115 0) (effects (font (size 1.05 1.05)) (justify left) (hide yes)))
+          (property "Value" "PWR_FLAG" (at 312.42 34.925 0) (effects (font (size 1.05 1.05)) (justify left) (hide yes)))
+          (property "Footprint" "" (at 307.34 33.02 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 307.34 33.02 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 307.34 33.02 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "58c9a006-ba1e-5ec3-9df2-02489b608324")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/3be38cb9-f34d-53ec-8858-1fed9219620b" (reference "#FLG802") (unit 1)))))
+(text "AUDIO / CONNECTED FUNCTIONAL MODULES" (at 15.24 15.24 0) (effects (font (size 1.8 1.8)) (justify left top)) (uuid "8a0332dc-453a-5623-8beb-d49340aa000c"))
+(text "OUTPUT ISOLATION + ENABLE" (at 19.05 30.48 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "6a962c88-280b-5981-927d-e7b2069d7c46"))
+(polyline (pts (xy 15.24 26.67) (xy 199.39 26.67) (xy 199.39 163.83) (xy 15.24 163.83) (xy 15.24 26.67)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "4da1356c-229e-500f-9f0d-5834dbdbc3a9"))
+(text "MONO AMPLIFIER + BTL SPEAKER" (at 210.82 30.48 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "3000cfa7-2a13-5547-97d3-75fb94966bde"))
+(polyline (pts (xy 207.01 26.67) (xy 403.86 26.67) (xy 403.86 163.83) (xy 207.01 163.83) (xy 207.01 26.67)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "407a6df6-54fd-5856-adec-2f031da17789"))
+(text "MICROPHONE + DATA RETURN" (at 19.05 175.26 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "c4a5f0ac-aef9-55e5-a39a-2576d86a1454"))
+(polyline (pts (xy 15.24 171.45) (xy 254 171.45) (xy 254 267.97) (xy 15.24 267.97) (xy 15.24 171.45)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "3b4a5b1f-2c9b-5a42-a535-346279ffd983"))
+(text "OPERATING NOTES" (at 265.43 175.26 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "9ac5c0ae-13e9-5d6b-a8bd-27f07a455f2f"))
+(polyline (pts (xy 261.62 171.45) (xy 403.86 171.45) (xy 403.86 252.73) (xy 261.62 252.73) (xy 261.62 171.45)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "694d4aee-0cf1-5f3a-8caf-d4b8ea368122"))
+(text "AUDIO_EN drives all four /OE pins.\nU801/U805 powered from MIC_3V3; exact Ioff-rated vendor." (at 21.59 156.21 0) (effects (font (size 1.0 1.0)) (justify left top)) (uuid "68452ce6-88de-5c44-b393-6c6a152f3d00"))
+(text "8 ohm / 2W selected speaker. Both BTL wires float.\n6dB gain; playback in LEFT slot; initial output cap 0.5W." (at 213.36 151.13 0) (effects (font (size 1.0 1.0)) (justify left top)) (uuid "727d1ab7-dd6e-50bc-b132-73c5a78c83ae"))
+(text "LR and CONFIG strapped LOW. SD pull-down before AON return buffer." (at 21.59 260.35 0) (effects (font (size 1.0 1.0)) (justify left top)) (uuid "8f51fe5e-58f4-5c76-8c32-c5ad89302847"))
+(text "48kHz / 2 x 32-bit I2S slots / 64fs.\nMute -> enable rails -> clocks/zero data\n-> discard startup frames -> unmute.\n\nOFF: mute, finish audio, stop clocks,\ndrive safe levels, then AUDIO_EN=0.\nVerify low-battery THD, pop, rail decay,\nSD_MODE injection and acoustic port.\n\nNo 5V audio boost; no new firmware." (at 267.97 184.15 0) (effects (font (size 1.05 1.05)) (justify left top)) (uuid "cb315536-4cc9-5369-be86-684c574e0a79"))
+(no_connect (at 49.53 138.43) (uuid "335cdbb3-43cb-5cd8-b1f4-b1f82127aa21"))
+(no_connect (at 317.5 81.28) (uuid "b65f3ae0-8fd3-5765-95cd-a1497c13b046"))
+(no_connect (at 317.5 83.82) (uuid "c3004cea-83e6-5679-8099-413c10103c21"))
+(no_connect (at 317.5 88.9) (uuid "770890bb-4dea-5ede-a523-e10ff75192d5"))
+(no_connect (at 317.5 91.44) (uuid "7537feb0-2abd-5f7a-af17-ebf24ef695f8"))
+(junction (at 341.63 33.02) (diameter 0) (color 0 0 0 0) (uuid "25ae46aa-2610-5f84-86db-754a21a2e7a7"))
+(junction (at 116.84 247.65) (diameter 0) (color 0 0 0 0) (uuid "57cd6ccc-6451-5aff-a371-28d2cde4a4ee"))
+(junction (at 285.75 86.36) (diameter 0) (color 0 0 0 0) (uuid "d866c30b-a862-5792-9414-c6702ff538f5"))
+(junction (at 116.84 228.6) (diameter 0) (color 0 0 0 0) (uuid "de3a1f69-68bb-5955-bc25-b527bd9d6c22"))
+(junction (at 90.17 115.57) (diameter 0) (color 0 0 0 0) (uuid "9d792523-3a25-57aa-a38c-2aa531e865fc"))
+(junction (at 105.41 115.57) (diameter 0) (color 0 0 0 0) (uuid "963b37b9-e75a-55c9-94c8-a6bda39355b8"))
+(junction (at 91.44 247.65) (diameter 0) (color 0 0 0 0) (uuid "f4ac0739-e41b-568f-b2ae-bf33b0dc5f35"))
+(junction (at 100.33 115.57) (diameter 0) (color 0 0 0 0) (uuid "05e7f1bd-594c-5310-aac6-96ee3a54123b"))
+(junction (at 267.97 140.97) (diameter 0) (color 0 0 0 0) (uuid "77f75a02-ef82-5ba1-89d9-136211f97d56"))
+(junction (at 58.42 177.8) (diameter 0) (color 0 0 0 0) (uuid "cbfe7731-4b43-572a-ac85-c727b7c9cfca"))
+(junction (at 246.38 140.97) (diameter 0) (color 0 0 0 0) (uuid "1befb8c3-57a2-58d5-807b-628188e74f68"))
+(junction (at 134.62 205.74) (diameter 0) (color 0 0 0 0) (uuid "a3d4d092-3710-575d-94ab-55869ea92676"))
+(wire (pts (xy 31.75 105.41) (xy 31.75 111.76)) (stroke (width 0) (type default)) (uuid "77250ee6-8ffe-5b6b-88c4-1aff8623c5f1"))
+(wire (pts (xy 31.75 105.41) (xy 60.96 105.41)) (stroke (width 0) (type default)) (uuid "75836445-500b-556a-9779-d2d7e4e3b177"))
+(wire (pts (xy 31.75 119.38) (xy 31.75 124.46)) (stroke (width 0) (type default)) (uuid "e38ad852-0270-5a4b-b77f-85c338e36c96"))
+(wire (pts (xy 34.29 177.8) (xy 34.29 185.42)) (stroke (width 0) (type default)) (uuid "182143ce-670d-5777-a995-84307fe040ea"))
+(wire (pts (xy 34.29 177.8) (xy 58.42 177.8)) (stroke (width 0) (type default)) (uuid "b61b51fb-31ad-5bca-8c5e-77b8ae30f017"))
+(wire (pts (xy 34.29 193.04) (xy 34.29 199.39)) (stroke (width 0) (type default)) (uuid "d340dd17-b68b-5429-bbd4-f695c22a5fbf"))
+(wire (pts (xy 34.29 199.39) (xy 58.42 199.39)) (stroke (width 0) (type default)) (uuid "47c0932e-8d98-5303-8cdd-ac40cf352a2d"))
+(wire (pts (xy 44.45 130.81) (xy 49.53 130.81)) (stroke (width 0) (type default)) (uuid "7de9ece4-1ee9-5d64-9b32-b886f89aea75"))
+(wire (pts (xy 58.42 177.8) (xy 58.42 185.42)) (stroke (width 0) (type default)) (uuid "807ffa24-663e-5799-b6fc-cbd47a55e1ba"))
+(wire (pts (xy 58.42 177.8) (xy 91.44 177.8)) (stroke (width 0) (type default)) (uuid "cdfcec4f-db45-5300-a95e-842e0c89c177"))
+(wire (pts (xy 58.42 193.04) (xy 58.42 199.39)) (stroke (width 0) (type default)) (uuid "74501e16-2b61-5604-b4e5-e70598789d02"))
+(wire (pts (xy 60.96 105.41) (xy 60.96 120.65)) (stroke (width 0) (type default)) (uuid "a4f884e3-3ac3-53da-a7db-057867234b1e"))
+(wire (pts (xy 60.96 146.05) (xy 60.96 151.13)) (stroke (width 0) (type default)) (uuid "066bda90-f1be-5f61-b669-8eabfa6bd4b2"))
+(wire (pts (xy 69.85 208.28) (xy 74.93 208.28)) (stroke (width 0) (type default)) (uuid "4d9298a1-bb06-5d48-b190-4decd60cb146"))
+(wire (pts (xy 69.85 215.9) (xy 74.93 215.9)) (stroke (width 0) (type default)) (uuid "f362e9a9-9347-557b-8b16-f01a0fc66346"))
+(wire (pts (xy 72.39 64.77) (xy 77.47 64.77)) (stroke (width 0) (type default)) (uuid "e7096d4a-66da-555f-bead-667628d7c719"))
+(wire (pts (xy 72.39 74.93) (xy 77.47 74.93)) (stroke (width 0) (type default)) (uuid "36ea75a6-33f6-571e-87d0-7eeed12a05d0"))
+(wire (pts (xy 72.39 85.09) (xy 77.47 85.09)) (stroke (width 0) (type default)) (uuid "8003ca0a-cdbb-5e1b-bca9-ee36569dbbb8"))
+(wire (pts (xy 72.39 95.25) (xy 77.47 95.25)) (stroke (width 0) (type default)) (uuid "0f05857d-f8d5-55e2-b013-921e3c37681e"))
+(wire (pts (xy 72.39 130.81) (xy 110.49 130.81)) (stroke (width 0) (type default)) (uuid "e9be7b56-cb68-593b-9747-9c9a54871561"))
+(wire (pts (xy 85.09 107.95) (xy 85.09 115.57)) (stroke (width 0) (type default)) (uuid "d3e52266-12f9-5462-b15c-3aff7436d03c"))
+(wire (pts (xy 85.09 115.57) (xy 90.17 115.57)) (stroke (width 0) (type default)) (uuid "1e4139b4-b1a5-562b-971f-614130659626"))
+(wire (pts (xy 90.17 107.95) (xy 90.17 115.57)) (stroke (width 0) (type default)) (uuid "a3988638-771c-5632-b13c-9b2f0c3f9798"))
+(wire (pts (xy 90.17 115.57) (xy 100.33 115.57)) (stroke (width 0) (type default)) (uuid "f36405b8-27ef-55c5-b5d7-01b169fce013"))
+(wire (pts (xy 91.44 177.8) (xy 91.44 195.58)) (stroke (width 0) (type default)) (uuid "09e14386-47d6-5119-9f02-7b6342fb5b9d"))
+(wire (pts (xy 91.44 236.22) (xy 91.44 247.65)) (stroke (width 0) (type default)) (uuid "618dacf0-393d-52e4-92c3-5f9ff543e104"))
+(wire (pts (xy 91.44 247.65) (xy 116.84 247.65)) (stroke (width 0) (type default)) (uuid "433904ca-e07b-5c61-b8aa-2ce58032101e"))
+(wire (pts (xy 95.25 33.02) (xy 95.25 52.07)) (stroke (width 0) (type default)) (uuid "c5c0e8c6-0471-5a67-8121-db62ea0f56f9"))
+(wire (pts (xy 95.25 33.02) (xy 123.19 33.02)) (stroke (width 0) (type default)) (uuid "d2fe92d0-c74e-5031-9c57-40544ae66222"))
+(wire (pts (xy 100.33 107.95) (xy 100.33 115.57)) (stroke (width 0) (type default)) (uuid "fa625fb9-fb59-5d71-aae6-0938350d6570"))
+(wire (pts (xy 100.33 115.57) (xy 105.41 115.57)) (stroke (width 0) (type default)) (uuid "ea4aac7f-fef9-5683-8837-41a111127a15"))
+(wire (pts (xy 105.41 107.95) (xy 105.41 115.57)) (stroke (width 0) (type default)) (uuid "6fd236ec-9dce-5c9d-b678-053cf0af9501"))
+(wire (pts (xy 105.41 115.57) (xy 110.49 115.57)) (stroke (width 0) (type default)) (uuid "2ed54902-dac9-510c-ba91-9860bad78ec2"))
+(wire (pts (xy 107.95 205.74) (xy 134.62 205.74)) (stroke (width 0) (type default)) (uuid "63882381-f827-5879-971d-9082f3b59ee8"))
+(wire (pts (xy 107.95 220.98) (xy 116.84 220.98)) (stroke (width 0) (type default)) (uuid "c6f2b5d0-63f6-5e14-9b96-9537374813f8"))
+(wire (pts (xy 107.95 228.6) (xy 116.84 228.6)) (stroke (width 0) (type default)) (uuid "b3af4437-7422-52ce-b503-ca35a50b2f51"))
+(wire (pts (xy 110.49 115.57) (xy 110.49 130.81)) (stroke (width 0) (type default)) (uuid "8856440f-8bbd-540f-a743-cae892268888"))
+(wire (pts (xy 113.03 64.77) (xy 139.7 64.77)) (stroke (width 0) (type default)) (uuid "d262b3cd-6c25-5eba-9bda-fa1abdf5c898"))
+(wire (pts (xy 113.03 74.93) (xy 139.7 74.93)) (stroke (width 0) (type default)) (uuid "bbc73725-50d5-5bde-80dd-cca5083ad4f1"))
+(wire (pts (xy 113.03 85.09) (xy 139.7 85.09)) (stroke (width 0) (type default)) (uuid "1491fb97-0281-5a11-a1dc-1a5a842a1e91"))
+(wire (pts (xy 113.03 95.25) (xy 118.11 95.25)) (stroke (width 0) (type default)) (uuid "8a22f413-e18b-50f7-917f-1e08ed057663"))
+(wire (pts (xy 113.03 102.87) (xy 118.11 102.87)) (stroke (width 0) (type default)) (uuid "c90f9b99-8a02-5d9a-bc4a-ee167d2def0e"))
+(wire (pts (xy 116.84 220.98) (xy 116.84 228.6)) (stroke (width 0) (type default)) (uuid "9d46f882-9091-51e4-883f-96fb1bdc66ed"))
+(wire (pts (xy 116.84 228.6) (xy 116.84 247.65)) (stroke (width 0) (type default)) (uuid "6877caf2-75a3-5382-876c-c78d14512fb7"))
+(wire (pts (xy 116.84 247.65) (xy 134.62 247.65)) (stroke (width 0) (type default)) (uuid "b71f9023-aa83-5fe0-8cd6-ad8ecf7b1f8c"))
+(wire (pts (xy 123.19 33.02) (xy 123.19 40.64)) (stroke (width 0) (type default)) (uuid "ac44a8bc-0df0-5ffc-8938-01b8f6a4b285"))
+(wire (pts (xy 123.19 48.26) (xy 123.19 53.34)) (stroke (width 0) (type default)) (uuid "87adb99a-688e-5e83-8419-f4f480e4cac9"))
+(wire (pts (xy 134.62 205.74) (xy 134.62 229.87)) (stroke (width 0) (type default)) (uuid "668485a9-99c6-5025-b527-801133a081bb"))
+(wire (pts (xy 134.62 205.74) (xy 165.1 205.74)) (stroke (width 0) (type default)) (uuid "80c9c219-1eaa-5439-89f9-989915cd713f"))
+(wire (pts (xy 134.62 237.49) (xy 134.62 247.65)) (stroke (width 0) (type default)) (uuid "6ac3ea48-2c98-582f-845d-2da4c1b7b40b"))
+(wire (pts (xy 147.32 64.77) (xy 152.4 64.77)) (stroke (width 0) (type default)) (uuid "762a8aff-b061-567e-ac20-5341286e7c89"))
+(wire (pts (xy 147.32 74.93) (xy 152.4 74.93)) (stroke (width 0) (type default)) (uuid "6c9397d9-9556-551f-b1fa-dbd0009f7232"))
+(wire (pts (xy 147.32 85.09) (xy 152.4 85.09)) (stroke (width 0) (type default)) (uuid "1ac98c2d-9ee4-58ca-8329-3ebe17532d4d"))
+(wire (pts (xy 156.21 213.36) (xy 156.21 234.95)) (stroke (width 0) (type default)) (uuid "07cdb983-4ab1-5023-9e5f-e450e7852c25"))
+(wire (pts (xy 156.21 213.36) (xy 165.1 213.36)) (stroke (width 0) (type default)) (uuid "d369f7b8-7eb6-56f7-abbb-a8261b54b7a4"))
+(wire (pts (xy 156.21 234.95) (xy 176.53 234.95)) (stroke (width 0) (type default)) (uuid "248b504c-9fbb-5c9a-8e18-54eb26ceb71c"))
+(wire (pts (xy 176.53 176.53) (xy 176.53 195.58)) (stroke (width 0) (type default)) (uuid "51f29407-52b7-5748-ade7-d18996b922c7"))
+(wire (pts (xy 176.53 176.53) (xy 212.09 176.53)) (stroke (width 0) (type default)) (uuid "5d76d7e1-e5ac-59ce-8633-ead5bbda314d"))
+(wire (pts (xy 176.53 220.98) (xy 176.53 234.95)) (stroke (width 0) (type default)) (uuid "1827a798-4f3f-568b-820a-82db6463452b"))
+(wire (pts (xy 187.96 205.74) (xy 193.04 205.74)) (stroke (width 0) (type default)) (uuid "34edc1b9-6d94-576d-91aa-1e4bf3191795"))
+(wire (pts (xy 212.09 176.53) (xy 212.09 184.15)) (stroke (width 0) (type default)) (uuid "ef98da92-2388-50cc-85dd-476877c99014"))
+(wire (pts (xy 212.09 191.77) (xy 212.09 196.85)) (stroke (width 0) (type default)) (uuid "969fdf67-2d39-55b4-8b69-4906942cb392"))
+(wire (pts (xy 224.79 76.2) (xy 224.79 115.57)) (stroke (width 0) (type default)) (uuid "38ac1014-f460-513b-8909-42179b12bd9c"))
+(wire (pts (xy 224.79 76.2) (xy 294.64 76.2)) (stroke (width 0) (type default)) (uuid "4065a93f-4548-5680-976a-71be082bc414"))
+(wire (pts (xy 224.79 123.19) (xy 224.79 140.97)) (stroke (width 0) (type default)) (uuid "d1a8e8b6-3403-5dee-a653-ab0ff4ba3dfc"))
+(wire (pts (xy 224.79 140.97) (xy 246.38 140.97)) (stroke (width 0) (type default)) (uuid "2816babb-a820-5882-a856-19ce7824a0d7"))
+(wire (pts (xy 246.38 78.74) (xy 246.38 115.57)) (stroke (width 0) (type default)) (uuid "e0a01a2f-e9b6-52fd-85c7-e0ce237d57e6"))
+(wire (pts (xy 246.38 78.74) (xy 294.64 78.74)) (stroke (width 0) (type default)) (uuid "bf7fc389-8c00-55ca-b62e-bb50bca1bbc0"))
+(wire (pts (xy 246.38 123.19) (xy 246.38 140.97)) (stroke (width 0) (type default)) (uuid "203fef0e-8a2e-5866-96e8-a592f3ce4f2d"))
+(wire (pts (xy 246.38 140.97) (xy 267.97 140.97)) (stroke (width 0) (type default)) (uuid "fe9f8406-97cc-51f3-9da2-e28afd349b64"))
+(wire (pts (xy 251.46 104.14) (xy 256.54 104.14)) (stroke (width 0) (type default)) (uuid "ba608d52-fb40-5fa4-ab7b-b0cb076dab55"))
+(wire (pts (xy 264.16 104.14) (xy 280.67 104.14)) (stroke (width 0) (type default)) (uuid "4ebd8415-2f78-5500-b528-75f8998329c8"))
+(wire (pts (xy 267.97 81.28) (xy 267.97 115.57)) (stroke (width 0) (type default)) (uuid "928f0b3e-a69c-545b-9548-6db305411c8a"))
+(wire (pts (xy 267.97 81.28) (xy 294.64 81.28)) (stroke (width 0) (type default)) (uuid "8a36840c-b325-51d7-8a0f-075f0f577bbe"))
+(wire (pts (xy 267.97 123.19) (xy 267.97 140.97)) (stroke (width 0) (type default)) (uuid "8eebd9cc-03d9-53ea-a616-a81c650c1b8e"))
+(wire (pts (xy 267.97 140.97) (xy 295.91 140.97)) (stroke (width 0) (type default)) (uuid "4b73c3b3-9a49-5fc0-a952-eb0d67c5ab4e"))
+(wire (pts (xy 280.67 86.36) (xy 280.67 104.14)) (stroke (width 0) (type default)) (uuid "fc7b44a5-927b-5325-a89f-0a8f677521a7"))
+(wire (pts (xy 280.67 86.36) (xy 285.75 86.36)) (stroke (width 0) (type default)) (uuid "0e038387-bb72-578f-985d-d1b74b337983"))
+(wire (pts (xy 285.75 86.36) (xy 285.75 120.65)) (stroke (width 0) (type default)) (uuid "f1049984-2182-5aa2-9ce1-9c47c71ca794"))
+(wire (pts (xy 285.75 86.36) (xy 294.64 86.36)) (stroke (width 0) (type default)) (uuid "9edcb191-49b9-5a7f-b5c2-4a93a777ff4d"))
+(wire (pts (xy 285.75 120.65) (xy 295.91 120.65)) (stroke (width 0) (type default)) (uuid "d06251c6-a81c-5139-ac23-52447172d69f"))
+(wire (pts (xy 289.56 88.9) (xy 294.64 88.9)) (stroke (width 0) (type default)) (uuid "327c47c1-6ef5-541d-89fd-c8e430393c85"))
+(wire (pts (xy 295.91 120.65) (xy 295.91 124.46)) (stroke (width 0) (type default)) (uuid "e8e565a7-1aa4-5d8b-a404-a02cbfd27e70"))
+(wire (pts (xy 295.91 132.08) (xy 295.91 140.97)) (stroke (width 0) (type default)) (uuid "a3af2fcb-c631-5ae8-8815-2d32b3c0d571"))
+(wire (pts (xy 304.8 96.52) (xy 304.8 101.6)) (stroke (width 0) (type default)) (uuid "5483a4ad-aba6-5ebf-8572-a83fe3595e97"))
+(wire (pts (xy 304.8 101.6) (xy 309.88 101.6)) (stroke (width 0) (type default)) (uuid "a370cb16-45a1-5676-8e87-09175c21c0bc"))
+(wire (pts (xy 307.34 33.02) (xy 307.34 71.12)) (stroke (width 0) (type default)) (uuid "494282ea-edc3-592a-8778-e91516bad66e"))
+(wire (pts (xy 307.34 33.02) (xy 341.63 33.02)) (stroke (width 0) (type default)) (uuid "75c05925-8395-5a1c-aa9a-dcb1fc711abd"))
+(wire (pts (xy 309.88 96.52) (xy 309.88 101.6)) (stroke (width 0) (type default)) (uuid "da08201d-d1e6-5809-afc4-fe0d6479ee98"))
+(wire (pts (xy 320.04 76.2) (xy 330.2 76.2)) (stroke (width 0) (type default)) (uuid "6d55adbe-64b0-5c19-8f68-a70b4a0ca3e1"))
+(wire (pts (xy 320.04 78.74) (xy 335.28 78.74)) (stroke (width 0) (type default)) (uuid "812b8ec8-3591-5009-94dd-98b0cad34433"))
+(wire (pts (xy 330.2 67.31) (xy 330.2 76.2)) (stroke (width 0) (type default)) (uuid "69142ea1-a78f-566f-a9cc-8ce299cfc858"))
+(wire (pts (xy 330.2 67.31) (xy 347.98 67.31)) (stroke (width 0) (type default)) (uuid "b710f3df-d61c-5437-a298-d3f7df6289eb"))
+(wire (pts (xy 335.28 78.74) (xy 335.28 85.09)) (stroke (width 0) (type default)) (uuid "c83f9391-556d-5ce9-b0ec-09532d49aeee"))
+(wire (pts (xy 335.28 85.09) (xy 347.98 85.09)) (stroke (width 0) (type default)) (uuid "09f325e1-a8bb-5bb0-83ee-40ffb84d6cf8"))
+(wire (pts (xy 341.63 33.02) (xy 341.63 40.64)) (stroke (width 0) (type default)) (uuid "2843f9a9-3929-5757-a967-2c7abffab977"))
+(wire (pts (xy 341.63 33.02) (xy 374.65 33.02)) (stroke (width 0) (type default)) (uuid "8c727d7f-ecc1-5469-ad1c-b8b16a22c9cd"))
+(wire (pts (xy 341.63 48.26) (xy 341.63 52.07)) (stroke (width 0) (type default)) (uuid "ab4db6a8-cce5-5680-a50a-9ca4a1cf3d79"))
+(wire (pts (xy 341.63 52.07) (xy 374.65 52.07)) (stroke (width 0) (type default)) (uuid "3093d347-bd04-5e5a-8ae8-98a824e32c87"))
+(wire (pts (xy 355.6 67.31) (xy 387.35 67.31)) (stroke (width 0) (type default)) (uuid "2472f668-fa59-5c51-9ca1-2bd52f55c08c"))
+(wire (pts (xy 355.6 85.09) (xy 382.27 85.09)) (stroke (width 0) (type default)) (uuid "d2147a4a-0a78-5029-a3e6-7d6c3176bb96"))
+(wire (pts (xy 374.65 33.02) (xy 374.65 40.64)) (stroke (width 0) (type default)) (uuid "1be2efc1-3d5d-5db5-bf98-d4d13a7a6ab1"))
+(wire (pts (xy 374.65 48.26) (xy 374.65 52.07)) (stroke (width 0) (type default)) (uuid "87740a19-b19c-5c09-8d19-e1e00f01fb66"))
+(wire (pts (xy 382.27 69.85) (xy 382.27 85.09)) (stroke (width 0) (type default)) (uuid "db8cd796-aabe-5fff-a183-96ff0731c385"))
+(wire (pts (xy 382.27 69.85) (xy 387.35 69.85)) (stroke (width 0) (type default)) (uuid "efe8155b-aacc-5ecb-9888-c3b72bf0ad6d"))
+(global_label "GND" (shape bidirectional) (at 118.11 102.87 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "1271c06c-e86e-539f-841c-364ea091831e"))
+(global_label "I2S_BCLK" (shape bidirectional) (at 72.39 64.77 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "2b2766ee-2884-542e-a39d-986e5404be9c"))
+(global_label "I2S_WS" (shape bidirectional) (at 72.39 74.93 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "66d8371c-97b2-5788-957f-e809c4a8239f"))
+(global_label "SPEAKER_DATA" (shape bidirectional) (at 72.39 85.09 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "78d4feaa-2c6a-516a-880a-96f1471e405f"))
+(global_label "AMP_SHUTDOWN" (shape bidirectional) (at 72.39 95.25 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "58df38ce-e60b-52c9-bc9f-653603d240af"))
+(label "AUDIO_SD_BUF" (at 118.11 95.25 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "8cbd0245-9c38-55f8-abf4-d2c1497924dd"))
+(label "I2S_BCLK_AUDIO" (at 152.4 64.77 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "989c4f01-04b8-513a-88d2-1ffe03fc6734"))
+(label "I2S_WS_AUDIO" (at 152.4 74.93 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "484a4e1c-a7ae-5347-8919-86b377d42acb"))
+(label "I2S_DIN_AUDIO" (at 152.4 85.09 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "1c8bccc3-c2f0-59cb-9a8c-9d00a2a76d75"))
+(global_label "GND" (shape bidirectional) (at 60.96 151.13 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "f809ac97-b331-5953-babe-b24db124b1fa"))
+(global_label "AUDIO_EN" (shape bidirectional) (at 44.45 130.81 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "b3a4a7b9-f5d4-5eb5-bde5-72cbeb0f2c13"))
+(global_label "GND" (shape bidirectional) (at 31.75 124.46 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "329fdf7d-fb23-56f2-a817-aacc9e0d75c0"))
+(global_label "GND" (shape bidirectional) (at 123.19 53.34 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "131c428a-6176-5637-ae87-74deb4991bcc"))
+(global_label "AMP_SYS" (shape bidirectional) (at 289.56 88.9 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "eb38dc7c-d4a1-5a8f-afb3-bc361a0624b6"))
+(label "AUDIO_SD_BUF" (at 251.46 104.14 0) (effects (font (size 1.05 1.05)) (justify right bottom)) (uuid "127cc78b-eb8f-51ce-be46-110e04aecd17"))
+(label "I2S_WS_AUDIO" (at 69.85 208.28 0) (effects (font (size 1.05 1.05)) (justify right bottom)) (uuid "8e3fdafd-35f6-515a-a907-aaf49864171d"))
+(label "I2S_BCLK_AUDIO" (at 69.85 215.9 0) (effects (font (size 1.05 1.05)) (justify right bottom)) (uuid "55794bbe-6865-5954-8c47-8411945c34af"))
+(global_label "MIC_DATA" (shape bidirectional) (at 193.04 205.74 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "57873efa-9b2b-5cbe-bb25-f4fad71dcca9"))
+(global_label "GND" (shape bidirectional) (at 212.09 196.85 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "237b6197-fbbf-527e-8efc-b7f3741f9d3e"))
+(global_label "MIC_3V3" (shape bidirectional) (at 95.25 33.02 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "12a484b3-cbf6-5a2c-a90a-40d51c8e1d89"))
+(label "AUDIO_BCLK_BUF" (at 113.03 64.77 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "6728f2de-a36e-5b69-9e4f-0ae02f1bfa09"))
+(label "AUDIO_WS_BUF" (at 113.03 74.93 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "bf02089e-cc43-5a44-a256-e173e5184c5d"))
+(label "AUDIO_DIN_BUF" (at 113.03 85.09 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "14ca48db-de5b-514e-a7c5-b669d1750fb6"))
+(label "AUDIO_OE_N" (at 85.09 115.57 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "1c28a55f-e1af-5d79-9975-f80979e7fbb4"))
+(global_label "MIC_3V3" (shape bidirectional) (at 31.75 105.41 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "064abcd2-b392-5481-b095-60879def1790"))
+(label "I2S_DIN_AUDIO" (at 224.79 76.2 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "fee38662-214a-5e7a-8ef0-75b771a9f01d"))
+(global_label "GND" (shape bidirectional) (at 304.8 101.6 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "4a70e9d4-9f81-5688-b59b-34aad1e434f0"))
+(label "AMP_SD_MODE" (at 280.67 86.36 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "485a2c70-0ca5-5f66-b669-6345bda23ad1"))
+(global_label "AMP_SYS" (shape bidirectional) (at 341.63 33.02 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "f789a8e1-c334-58cf-baa1-5f1df68ee9f0"))
+(label "AMP_OUTP" (at 330.2 67.31 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "0de77cbc-53dd-5cf0-a394-dace0f89ad0a"))
+(label "AMP_OUTN" (at 335.28 78.74 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "e8f175dd-7697-545f-9505-57b9562f4d36"))
+(label "I2S_WS_AUDIO" (at 267.97 81.28 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "992a3fb2-7755-5bf3-a18d-797a050ec787"))
+(label "I2S_BCLK_AUDIO" (at 246.38 78.74 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "ef9ce5a4-cb85-5af0-b116-d1536fa64862"))
+(global_label "GND" (shape bidirectional) (at 341.63 52.07 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "867ae29f-c94f-5144-8176-4c173adc64f3"))
+(global_label "GND" (shape bidirectional) (at 224.79 140.97 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "bb5530bd-5c82-57c8-80d7-a9d752ff160c"))
+(label "SPK_P" (at 355.6 67.31 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "ac9fde0a-ec34-5662-b689-4a9437790dda"))
+(label "SPK_N" (at 382.27 69.85 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "d40101b6-2eb3-5081-b4d5-2cf6b460e1e8"))
+(global_label "MIC_3V3" (shape bidirectional) (at 34.29 177.8 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "efe94e2f-b954-5c15-8b47-87c6cc931274"))
+(global_label "GND" (shape bidirectional) (at 116.84 220.98 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "d950c4b3-5b43-56be-8d2b-9c9ab5beefab"))
+(label "MIC_SD_RAW" (at 134.62 205.74 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "ee6a1bdd-b9e2-56fc-b6a5-56680e2a2718"))
+(global_label "GND" (shape bidirectional) (at 34.29 199.39 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "b8ae7ee9-e9d7-5dd8-b114-88f478653ebd"))
+(global_label "3V3_AON" (shape bidirectional) (at 176.53 176.53 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "826377a5-c7f7-57b3-94b6-f7d964565cd0"))
+(global_label "GND" (shape bidirectional) (at 156.21 213.36 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "4a4afa04-08d3-5cee-80e6-21aadc6fcb88"))
+)

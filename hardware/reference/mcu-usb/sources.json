@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-02",
+  "status": "schematic candidate; not board qualification",
+  "sources": [
+    {
+      "file": "tpd2e2u06.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf",
+      "bytes": 785929,
+      "sha256": "a133b86ea3d3c3d34667339b92d3b5e98d541d10e9775d63e7cdfa153794f4ed"
+    },
+    {
+      "file": "aos-smaj6.0a.pdf",
+      "url": "https://www.aosmd.com/sites/default/files/res/datasheets/SMAJ6.0A.pdf",
+      "bytes": 795790,
+      "sha256": "e044fc1ba210bf35155e8e2a6f3d1272c49faa3047c7d38183fe2f79d9cef10d"
+    },
+    {
+      "file": "bourns-mf-msmf.pdf",
+      "url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf?sfvrsn=4a75e5c0_69",
+      "bytes": 1327051,
+      "sha256": "50d80228581842471d563e28ba0f1b67ab095ee95dfac4079f4a49f7f7bbf3c8"
+    },
+    {
+      "file": "usb-type-c-r2.0.pdf",
+      "url": "https://www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019_0.pdf",
+      "bytes": 7069555,
+      "sha256": "a95f23cf9943f4a13ef24b76b32b7cda9fb33888e5072cd4cbebf56ba8a482df"
+    },
+    {
+      "file": "esp32s3-usb-schematic-guidelines.html",
+      "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html",
+      "bytes": 78910,
+      "sha256": "6368354b0eb3cd335fae151fd76e3b460b58d91802e3fe741239532afe4d7a54"
+    },
+    {
+      "file": "esp32s3-usb-layout-guidelines.html",
+      "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/pcb-layout-design.html",
+      "bytes": 53908,
+      "sha256": "aca95bc8a344f1b119d62cf245fe906cf7be3e5e46735f1ea08b8bf828c612da"
+    },
+    {
+      "file": "esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "revision": "v1.8; physical pad map Table 3-1",
+      "bytes": 1280501,
+      "sha256": "27d71971da07c280c6068d08c74720d1a25b8f20cf8494dc1765bdd28d40d435"
+    }
+  ],
+  "candidates": {
+    "data_cc_esd": {
+      "manufacturer": "Texas Instruments",
+      "mpn": "TPD2E2U06DCKR",
+      "symbol": "Power_Protection:TPD2E2U06DCK",
+      "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+      "pins": {
+        "1": "IO1",
+        "2": "IO2",
+        "3": "GND"
+      },
+      "vrwm_V": 5.5,
+      "capacitance_pF": {
+        "typ": 1.5,
+        "max": 1.9,
+        "condition": "1 MHz, 2.5 V bias"
+      },
+      "datasheet_pages": [
+        3,
+        4,
+        5,
+        20,
+        21
+      ],
+      "notes": [
+        "No power pin or shared rail clamp; no VBUS-to-data-source path through this device.",
+        "Use one device for DP/DM and one for CC1/CC2.",
+        "5.5V standoff is not a CC/VBUS short-to-high-voltage OVP guarantee."
+      ]
+    },
+    "usb_ptc": {
+      "manufacturer": "Bourns",
+      "mpn": "MF-MSMF110/16X-2",
+      "package": "1812 (4532 metric)",
+      "max_voltage_V": 16,
+      "hold_A_23C": 1.1,
+      "trip_A_23C": 2.2,
+      "resistance_ohm": {
+        "Rmin": 0.06,
+        "R1max": 0.2
+      },
+      "hold_A_85C": 0.58,
+      "max_trip_at_8A_s": 0.3,
+      "notes": [
+        "USB branch only; bench 1.07A mode bypasses this branch.",
+        "Not a 1.1A precision current limiter.",
+        "Current authorization and USB suspend still require firmware.",
+        "Temperature, board copper, fault duration, and inrush need actual validation."
+      ]
+    },
+    "usb_tvs": {
+      "manufacturer": "Alpha and Omega Semiconductor",
+      "mpn": "SMAJ6.0A",
+      "footprint": "Diode_SMD:D_SMA",
+      "kiCad_pins": {
+        "1": "K -> USB_5V_PROTECTED",
+        "2": "A -> GND"
+      },
+      "vrwm_V": 6.0,
+      "breakdown_V": {
+        "min": 6.67,
+        "max": 7.37,
+        "at_mA": 10
+      },
+      "clamp_V_max": 10.3,
+      "clamp_condition": "38.8 A, 10/1000us, 25C",
+      "leakage_uA_max_at_6V_25C": 800,
+      "notes": [
+        "Rated surge point is not measured board clamping.",
+        "Sustained wrong voltage is not covered by this TVS/PTC candidate.",
+        "Leakage bypasses BQ input current measurement and belongs to whole USB input budget.",
+        "AOS uses a cathode band; no numeric package pin is assigned by its datasheet. KiCad uses 1=K,2=A."
+      ]
+    }
+  },
+  "network": {
+    "selector": {
+      "J502.1": "USB_5V_PROTECTED",
+      "J502.2": "VIN_5V",
+      "J502.3": "BENCH_5V"
+    },
+    "selector_note": "Exactly one 2-pin shunt;1-2 USB,2-3 BENCH,removed input disconnect; do not change live.",
+    "USB_DP": "A6+B6 -> USB_DP_PORT -> 22ohm -> USB_DP_MCU(GPIO20)",
+    "USB_DM": "A7+B7 -> USB_DM_PORT -> 22ohm -> USB_DM_MCU(GPIO19)",
+    "cc": "A5=CC1,B5=CC2; independent 5.1k 1% to GND; no PD/source/Rp mode.",
+    "sbu": "A8/B8 NC",
+    "protection": "USB_VBUS -> PTC -> USB_5V_PROTECTED; TVS from protected rail to GND; no bench-to-USB power parallel path through selector.",
+    "sense": "R221/Q201 detector -> USB_5V_PROTECTED, after PTC and before selector. Low means USB branch voltage available. PTC open/fault may suppress insertion indication; BENCH must not look like USB.",
+    "bench": "Existing J101 only; 5V regulated, current-limited known bench source. Bench branch bypasses USB PTC/TVS; no reverse-polarity or arbitrary source guarantee."
+  },
+  "layout": [
+    "22ohm series and DNP shunt C close to MCU, per Espressif.",
+    "Data ESD devices near connector, short ground return; DP/DM 90ohm +/-10% differential, continuous reference plane, minimal vias.",
+    "Merge A/B copies at USB receptacle; avoid long stubs.",
+    "Input visible capacitance: nominal 0.1uF + existing4.7uF, plus parasitics and tolerance; validate USB inrush (no claim of compliance)."
+  ],
+  "review_notes": [
+    "USBLC6-2SC6 connected directly to 5.5V Type-C VBUS was not selected because its published VRWM is 5.25V.",
+    "C503 is before PTC; actual USB ESD clamping/loop inductance and input inrush are layout/measurement tasks; no blanket board qualification claim."
+  ],
+  "rights": "Unmodified vendor reference files; PDFs/HTML are ignored by Git and are not under this repository MIT license."
+}

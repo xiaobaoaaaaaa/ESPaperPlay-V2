@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-02",
+  "input_sha256": "6f7ce509544b55bf4b9c219072718d0293158a48168d236d9b86a5dadeab3f80",
+  "output": "/home/xiaobao/Projects/ESP32/outputs/espaperplay-bom-r3/ESPaperPlay_BOM_Review_r3.xlsx",
+  "sheets": [
+    "审查总览",
+    "BOM",
+    "封装核对"
+  ],
+  "positions": 222,
+  "metrics": {
+    "labels": [
+      "全部位置",
+      "DNP 位置",
+      "默认装配候选",
+      "有封装候选",
+      "未指定封装",
+      "有准确料号候选",
+      "未指定准确料号",
+      "需专项闭合"
+    ],
+    "expected": [
+      222,
+      6,
+      216,
+      215,
+      7,
+      184,
+      38,
+      51
+    ],
+    "formula_values": [
+      222,
+      6,
+      216,
+      215,
+      7,
+      184,
+      38,
+      51
+    ]
+  },
+  "dnp_recalculation": {
+    "row": 6,
+    "changed": [
+      7,
+      215
+    ],
+    "restored": [
+      6,
+      216
+    ],
+    "pass": true
+  },
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "roundtrip": {
+    "all_bom_values_exact": true,
+    "summary_counts": true,
+    "footprint_group_total": 222
+  },
+  "features": {
+    "BOM_table": "A5:L227",
+    "freeze_rows": 5,
+    "freeze_columns": 1,
+    "footprint_table": "A5:E38",
+    "dnp_validation": [
+      "是",
+      "否"
+    ],
+    "conditional_formatting": [
+      "DNP灰",
+      "缺封装红",
+      "缺料号黄"
+    ]
+  },
+  "previews": [
+    "/home/xiaobao/Projects/ESP32/build/bom-review-r3/workbook/overview.png",
+    "/home/xiaobao/Projects/ESP32/build/bom-review-r3/workbook/bom.png",
+    "/home/xiaobao/Projects/ESP32/build/bom-review-r3/workbook/footprints.png"
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "inspected": [
+      "overview.png",
+      "bom.png",
+      "footprints.png"
+    ],
+    "notes": "三页代表范围已目视检查。中文可读，标题和统计完整，缺项颜色明显，位号分组按完整 token 换行；宽 BOM 可水平滚动并冻结位号。"
+  },
+  "limitations": [
+    "未在桌面Excel/LibreOffice实际打开；已在Artifact Tool中导出、重新读取并重算。",
+    "表中均为候选。未宣称采购库存、报价、PCB DRC或装配验证完成。"
+  ],
+  "native_xlsx_verification": {
+    "panes": {
+      "xl/worksheets/sheet2.xml": {
+        "pane": {
+          "xSplit": "1",
+          "ySplit": "5",
+          "topLeftCell": "B6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "conditional_format_count": 3,
+        "validation_count": 1
+      },
+      "xl/worksheets/sheet3.xml": {
+        "pane": {
+          "xSplit": "1",
+          "ySplit": "5",
+          "topLeftCell": "B6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "conditional_format_count": 1,
+        "validation_count": 0
+      }
+    },
+    "two_table_filters": true
+  },
+  "output_sha256": "84ca9923ac110bdb433abb9efb5b39b0454192044a8a6fa5adab5b04b4248e15",
+  "input_final_hash_matches": true
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "pdf": "output/pdf/ESPaperPlay_Devboard_Charging_r5.pdf",
+  "sha256": "2aa779c490090f0934fe02f575edcbc23ec8ca3488bcc0c040998f4df340dd0d",
+  "pages": 11,
+  "reviewed_at_full_page": [
+    1,
+    2,
+    11
+  ],
+  "reviewed_contact_sheets": [
+    [
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9,
+      10
+    ]
+  ],
+  "unchanged_native_sheets_sha256_verified": [
+    "POWER_3V3_CONTROL.kicad_sch",
+    "MCU_CORE.kicad_sch",
+    "USB_INPUT.kicad_sch",
+    "POWER_DOMAINS.kicad_sch",
+    "TOUCH_ISOLATION.kicad_sch",
+    "EPD_DISPLAY.kicad_sch",
+    "STORAGE_SD.kicad_sch",
+    "AUDIO.kicad_sch"
+  ],
+  "corrections": "U901 top/bottom power-pin direction corrected; final page11 re-exported and inspected. No clipped/overlapping new annotations observed.",
+  "local_render_folder": "build/charge-r5/render",
+  "no_desktop_window_opened": true
+}

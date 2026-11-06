@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "kicad": "10.0.7-1.fc44",
+  "items": [
+    {
+      "name": "Vishay_SC70_3_AN826_72601",
+      "numbered_pads": [
+        "1",
+        "2",
+        "3"
+      ],
+      "native_load": "PASS",
+      "sha256": "5aaf435819d75d2db06bf94025f803e6de61d8b717d20a6eea9f6f9d71476583"
+    },
+    {
+      "name": "Vishay_WFM2010_5.08x2.54mm",
+      "numbered_pads": [
+        "1",
+        "2"
+      ],
+      "native_load": "PASS",
+      "sha256": "3c62f8915bbde1d93bf94eba97f45626eeaa69b1582c26f9d7f0384e969f5209"
+    },
+    {
+      "name": "PUI_DMM_4026_B_I2S_R_7Pad_NPTH0.60",
+      "numbered_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "native_load": "PASS",
+      "sha256": "83084fdc706d6cedd267bea33fc26b0b9646540b12146df859a437788f180d73"
+    }
+  ]
+}

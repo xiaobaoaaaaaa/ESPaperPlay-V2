@@ -1,0 +1,190 @@
+{
+  "R901": {
+    "value": "47k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "manufacturer": "Vishay",
+    "mpn": "CRCW060347K0FKEA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    ],
+    "note": "100ppm/K; actual NTC returns to protected pack GND through J103."
+  },
+  "C902": {
+    "value": "10n / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "manufacturer": "TDK",
+    "mpn": "C1608C0G1H103J080AA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H103J080AA"
+    ],
+    "note": "C0G 5%; sensor input noise filter, no DC load."
+  },
+  "R902": {
+    "value": "100k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "manufacturer": "Vishay",
+    "mpn": "CRCW0603100KFKEA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    ],
+    "note": ""
+  },
+  "R903": {
+    "value": "12k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "manufacturer": "Vishay",
+    "mpn": "CRCW060312K0FKEA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    ],
+    "note": ""
+  },
+  "C903": {
+    "value": "10n / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "manufacturer": "TDK",
+    "mpn": "C1608C0G1H103J080AA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H103J080AA"
+    ],
+    "note": "C0G 5%; reference noise filter."
+  },
+  "R904": {
+    "value": "100k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "manufacturer": "Vishay",
+    "mpn": "CRCW0603100KFKEA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    ],
+    "note": ""
+  },
+  "R905": {
+    "value": "33k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "manufacturer": "Vishay",
+    "mpn": "CRCW060333K0FKEA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    ],
+    "note": ""
+  },
+  "C904": {
+    "value": "10n / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "manufacturer": "TDK",
+    "mpn": "C1608C0G1H103J080AA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H103J080AA"
+    ],
+    "note": "C0G 5%; reference noise filter."
+  },
+  "U901": {
+    "value": "TLV1822DR",
+    "footprint": "ESPaperPlay:TI_D0008A_SOIC8",
+    "manufacturer": "Texas Instruments",
+    "mpn": "TLV1822DR",
+    "pins": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "source_urls": [
+      "https://www.ti.com/lit/ds/symlink/tlv1822.pdf"
+    ],
+    "note": "Rail-to-rail dual open-drain comparator. Direct TS clamp. Shared VIN loss disables charging; separate comparator supply fault is not independently covered."
+  },
+  "C901": {
+    "value": "100n / 50V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "manufacturer": "TDK",
+    "mpn": "C1608X7R1H104K080AA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA"
+    ],
+    "note": "X7R 10%; place directly at U901 pins 8/4."
+  },
+  "R907": {
+    "value": "330k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "manufacturer": "Vishay",
+    "mpn": "CRCW0603330KFKEA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    ],
+    "note": "Positive feedback; solve with R908 and R906, not as independent dividers."
+  },
+  "R908": {
+    "value": "330k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "manufacturer": "Vishay",
+    "mpn": "CRCW0603330KFKEA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    ],
+    "note": "Positive feedback; coupled TS current-source model in review-r5/temperature."
+  },
+  "R906": {
+    "value": "10k / 1%",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "manufacturer": "Vishay",
+    "mpn": "CRCW060310K0FKEA",
+    "pins": [
+      "1",
+      "2"
+    ],
+    "source_urls": [
+      "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+    ],
+    "note": "TS bias resistor is part of the external temperature circuit, not a substitute for the pack NTC."
+  }
+}

@@ -1,0 +1,2197 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "refs": [
+        "C101"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C102"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C103"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "J101"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J102"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "",
+      "status": "需实物核对",
+      "notes": "电池/NTC或扬声器线束连接器及极性尚未确定；不把通用排针视为最终接口。",
+      "source_url": "",
+      "footprint_review": "未定义"
+    },
+    {
+      "refs": [
+        "J103"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "",
+      "status": "需实物核对",
+      "notes": "电池/NTC或扬声器线束连接器及极性尚未确定；不把通用排针视为最终接口。",
+      "source_url": "",
+      "footprint_review": "未定义"
+    },
+    {
+      "refs": [
+        "J104"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J105"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "R103"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06031K62FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R104"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06033K00FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R105"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060368K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R106"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060347K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R107"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R108"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06030000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。 保持DNP，选定封装不改变装配状态。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R109"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R110"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R111"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R112"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R220"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R221"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R222"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060347K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "C201"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C202"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C203"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C204"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "J201"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J202"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300311121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x03_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300311121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J203"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J204"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J205"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300611121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x06_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300611121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J206"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300611121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x06_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300611121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "R201"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603511KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R202"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060391K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R204"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R205"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06031M00FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R206"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R207"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R208"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R209"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R210"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06034K70FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R211"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06034K70FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R212"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R213"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R214"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R215"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R216"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R217"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06030000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R218"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06030000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R219"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R223"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R224"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R225"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R226"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R227"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "C301"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C302"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C303"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "J301"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300811121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x08_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。 默认DNP，仅高阻探测。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300811121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J302"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300911121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x09_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。 默认DNP，仅高阻探测。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300911121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J303"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300811121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x08_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。 默认DNP，仅高阻探测。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300811121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "R301"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R302"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R303"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060347K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R304"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060347K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R305"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060347K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R306"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "SW301"
+      ],
+      "manufacturer": "Omron",
+      "mpn": "B3F-1002-G",
+      "recommended_footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "status": "需实测",
+      "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+      "source_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf",
+      "evidence": "pp2–4; 孔径1.0±0.1mm，标准库1.1mm在上限。4.3mm高度仅开发板候选。",
+      "footprint_review": "尺寸与逻辑触点组核对，实物适配未验"
+    },
+    {
+      "refs": [
+        "SW302"
+      ],
+      "manufacturer": "Omron",
+      "mpn": "B3F-1002-G",
+      "recommended_footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "status": "需实测",
+      "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+      "source_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf",
+      "evidence": "pp2–4; 孔径1.0±0.1mm，标准库1.1mm在上限。4.3mm高度仅开发板候选。",
+      "footprint_review": "尺寸与逻辑触点组核对，实物适配未验"
+    },
+    {
+      "refs": [
+        "SW303"
+      ],
+      "manufacturer": "Omron",
+      "mpn": "B3F-1002-G",
+      "recommended_footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "status": "需实测",
+      "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+      "source_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf",
+      "evidence": "pp2–4; 孔径1.0±0.1mm，标准库1.1mm在上限。4.3mm高度仅开发板候选。",
+      "footprint_review": "尺寸与逻辑触点组核对，实物适配未验"
+    },
+    {
+      "refs": [
+        "SW304"
+      ],
+      "manufacturer": "Omron",
+      "mpn": "B3F-1002-G",
+      "recommended_footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "status": "需实测",
+      "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+      "source_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf",
+      "evidence": "pp2–4; 孔径1.0±0.1mm，标准库1.1mm在上限。4.3mm高度仅开发板候选。",
+      "footprint_review": "尺寸与逻辑触点组核对，实物适配未验"
+    },
+    {
+      "refs": [
+        "SW305"
+      ],
+      "manufacturer": "Omron",
+      "mpn": "B3F-1002-G",
+      "recommended_footprint": "Button_Switch_THT:SW_PUSH_6mm",
+      "status": "需实测",
+      "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+      "source_url": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf",
+      "evidence": "pp2–4; 孔径1.0±0.1mm，标准库1.1mm在上限。4.3mm高度仅开发板候选。",
+      "footprint_review": "尺寸与逻辑触点组核对，实物适配未验"
+    },
+    {
+      "refs": [
+        "C501"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "DNP保留",
+      "notes": "DNP USB调谐位置，0603；调谐容量未定，默认不装。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C502"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "DNP保留",
+      "notes": "DNP USB调谐位置，0603；调谐容量未定，默认不装。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C503"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "J502"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300311121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x03_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300311121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "R501"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06035K10FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R502"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06035K10FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R503"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060322R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R504"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060322R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "C401"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C402"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "CT：4.7nF，优先C0G/NP0、≥25V、±5%、0603；准确料号待锁，需复测软启动时间。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C403"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C404"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C405"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "CT：4.7nF，优先C0G/NP0、≥25V、±5%、0603；准确料号待锁，需复测软启动时间。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C406"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C407"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C408"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "CT：4.7nF，优先C0G/NP0、≥25V、±5%、0603；准确料号待锁，需复测软启动时间。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C409"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C410"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C411"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "CT：4.7nF，优先C0G/NP0、≥25V、±5%、0603；准确料号待锁，需复测软启动时间。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C412"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C413"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C414"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "CT：4.7nF，优先C0G/NP0、≥25V、±5%、0603；准确料号待锁，需复测软启动时间。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C415"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "J401"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J402"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J403"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J404"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "J405"
+      ],
+      "manufacturer": "Würth Elektronik",
+      "mpn": "61300211121",
+      "recommended_footprint": "ESPaperPlay:WR_PHD_1x02_P2.54_Drill1.10",
+      "status": "资料核对",
+      "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+      "source_url": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+      "evidence": "原厂p1–2，在线PDF核对；本地下载403，未伪造原始PDF哈希。",
+      "footprint_review": "按厂商孔位建立本地候选；无3D模型"
+    },
+    {
+      "refs": [
+        "R401"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603330RFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R404"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603330RFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R407"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603330RFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R410"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603330RFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R413"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603330RFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R416"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "C416"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C417"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "R417"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R418"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R419"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R420"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "C601"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C602"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C603"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C604"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C605"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C606"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C607"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C608"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C609"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C610"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C611"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C612"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "R601"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06031M00FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R603"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060333R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R604"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060333R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R605"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060333R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R606"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060333R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R607"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060333R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R608"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R609"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R610"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R611"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R612"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R613"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R614"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "C701"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C702"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C703"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C704"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "卡检测RC：10nF、≥10V、X7R或C0G、0603；与100k构成约1ms，去抖待测。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C705"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "R701"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R702"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R703"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R704"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R705"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060310K0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R706"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R708"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100RFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R710"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060322R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R711"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06030000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R712"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06030000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R713"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06030000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R714"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06030000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R715"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06030000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "C801"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C802"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C803"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C804"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C805"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "需额定校核",
+      "notes": "容量/耐压沿用图纸；X5R或X7R，有效容量须计DC偏压、公差、温度和老化。",
+      "source_url": "",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C806"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "C808"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1H104K080AA",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+      "source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+      "footprint_review": "标准库候选；准确MLCC料号/有效容量未全部冻结"
+    },
+    {
+      "refs": [
+        "J801"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "",
+      "status": "需实物核对",
+      "notes": "电池/NTC或扬声器线束连接器及极性尚未确定；不把通用排针视为最终接口。",
+      "source_url": "",
+      "footprint_review": "未定义"
+    },
+    {
+      "refs": [
+        "R802"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R803"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R804"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R805"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R806"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW06032K00FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R808"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060322R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R809"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060322R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R810"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW060322R0FKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R811"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW08050000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.5A、Rmax≤20mΩ；按实际电流和温度复核。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R812"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW08050000Z0EA",
+      "recommended_footprint": "Resistor_SMD:R_0805_2012Metric",
+      "status": "规格候选",
+      "notes": "0Ω跳线明确额定：2.5A、Rmax≤20mΩ；按实际电流和温度复核。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    },
+    {
+      "refs": [
+        "R813"
+      ],
+      "manufacturer": "Vishay",
+      "mpn": "CRCW0603100KFKEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "status": "规格候选",
+      "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+      "source_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "evidence": "Rev14-Apr-2026 pp1–3,11; 编码按原厂表组成，单个SKU供货仍待询价。",
+      "footprint_review": "标准IPC焊盘候选；与厂商回流示例的差异已记录，未作贴装验证"
+    }
+  ]
+}

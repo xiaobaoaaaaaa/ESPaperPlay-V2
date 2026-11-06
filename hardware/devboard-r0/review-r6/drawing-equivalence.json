@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "revision": "r6 DRAWING",
+  "electrical_baseline": "r5",
+  "components": 236,
+  "nets": 181,
+  "all_pin_connections_checked": 774,
+  "no_connect_pins_preserved": 25,
+  "native_sheets_checked": 11,
+  "native_component_uuids_checked_including_flags": 245,
+  "native_pin_uuids_checked_including_flags": 783,
+  "embedded_symbol_definitions_checked": 65,
+  "local_symbol_definitions_checked": 15,
+  "all_xml_component_fields_and_sheetpaths_preserved": true,
+  "exact_named_nets_membership_pin_functions_types_and_nc_preserved": true,
+  "component_and_pin_uuids_preserved": true,
+  "native_symbol_definitions_preserved": true,
+  "drawing_counts_before": {
+    "wire": 755,
+    "label": 159,
+    "global_label": 568,
+    "junction": 15,
+    "no_connect": 25
+  },
+  "drawing_counts_after": {
+    "wire": 993,
+    "label": 75,
+    "global_label": 334,
+    "junction": 152,
+    "no_connect": 25
+  },
+  "inputs": {
+    "baseline": {
+      "path": "review-r6/electrical-baseline-r5.json",
+      "sha256": "e52e8fd7259b31927fba6e01e52e1fd66a24edd9207fc4695e3f67722f74ca1c"
+    },
+    "netlist": {
+      "path": "hardware/devboard-r0/output/validation/peripheral-r6.net.xml",
+      "sha256": "38b27a9a2af1f0229e19b767f3bae39fdf14c242798dfa5ad9c859c32cd63beb"
+    },
+    "native_sources": {
+      "AUDIO.kicad_sch": "c1606436b4523b00270627744e621192cc328c3da7dea685ef355643b9dc36aa",
+      "CHARGE_TEMP.kicad_sch": "5c93d9d7f8f2e6c88f2960ca562b22dd34ea2eb586185ab4464102719afd2797",
+      "EPD_DISPLAY.kicad_sch": "6618ff91ea103b22b32e40c235ad4689bb0139aecf94a7c4fd62c48a667eaf5f",
+      "ESPaperPlay_Devboard.kicad_sch": "04881857df516822e72f515cb9dcd2036ef034089e2076ae8e6653fd481b298d",
+      "MCU_CORE.kicad_sch": "49a5b4d14459d84af932105d3f0a18c03f3dcefff8e27998b99c245e190ec43f",
+      "POWER_3V3_CONTROL.kicad_sch": "a62937fdee5e2b7b4b09ca6f58f55bcce66e465bdf46e0a292810d0bbb3be869",
+      "POWER_DOMAINS.kicad_sch": "571445e5ea211b3d16402113387cc0c9c13ba83bc3de192f7fb780470a8c05dd",
+      "POWER_INPUT_CHARGER.kicad_sch": "92fccf96a85f637b5761a20b841e3f651ea0f2b627c0520149fef94644b5ca0c",
+      "STORAGE_SD.kicad_sch": "6aeeabbc1ea9414aec5f9dfefcc921fbe43c031edd178476e84467806a491125",
+      "TOUCH_ISOLATION.kicad_sch": "f2bb29d6660dffed531202f1965c7ab7ac7e669b16078a723bc98dc20cdc9d61",
+      "USB_INPUT.kicad_sch": "95a213e56de0b674ef2c4492350b67c69d12ee6df8b2a9bbb2a3c626ab92f9da"
+    },
+    "local_symbol_library_sha256": "f6cb9c6216eece63033d57a75d373fccb6949908266c492cc753e2ebe8c5ec17"
+  },
+  "scope": "Pure drawing equivalence only. Coordinates, rotation/mirroring, annotation layout, wires, labels, junctions, title dates/revision and module graphics may change. All r5 electrical metadata and named connectivity must remain identical; no ERC, analog, PCB or hardware qualification claim."
+}

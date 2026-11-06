@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "refs": [
+        "R201"
+      ],
+      "value": "51.1k / 0.1%",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW060351K1BEEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "status": "calculated_pwm_error_budget_closed",
+      "required_action": "0.1%/25ppm反馈网络；PWM器件误差预算3.249–3.367V，已计0.1%老化预算。PFM纹波、动态和P01额外约49.3µA需实测。"
+    },
+    {
+      "refs": [
+        "R202"
+      ],
+      "value": "9.10k / 0.1%",
+      "manufacturer": "Vishay",
+      "mpn": "TNPW06039K10BEEA",
+      "recommended_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "source_url": "https://www.vishay.com/docs/28758/tnpw_e3.pdf",
+      "status": "calculated_pwm_error_budget_closed",
+      "required_action": "0.1%/25ppm反馈网络；PWM器件误差预算3.249–3.367V，已计0.1%老化预算。PFM纹波、动态和P01额外约49.3µA需实测。"
+    },
+    {
+      "refs": [
+        "F501"
+      ],
+      "value": "MF-MSMF200/16X-2",
+      "manufacturer": "Bourns",
+      "mpn": "MF-MSMF200/16X-2",
+      "recommended_footprint": "ESPaperPlay:Bourns_MF-MSMF_1812_Style2",
+      "source_url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf",
+      "status": "catalog_hold_current_mismatch_closed",
+      "required_action": "50℃Ihold1.68A、60℃1.48A；最高输入+5mA预算约1.085A。Hmax1.60mm。同Style2焊盘；仍须验证PTC热/故障、TVS配合及线束。默认100mA不变。"
+    }
+  ],
+  "calculation": "power-bounds.json",
+  "source_part_code_note": "TNPW B0.1% E25ppm EA5000 reel; exact SKU availability not quoted."
+}

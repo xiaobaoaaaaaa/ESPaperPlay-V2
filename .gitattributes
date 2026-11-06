@@ -1,0 +1,10 @@
+# Preserve byte-exact hardware evidence and SHA-256 manifests on every OS.
+* -text
+hardware/devboard-r0/output/** linguist-generated=true
+hardware/devboard-r0/review-*/** linguist-generated=true
+*.kicad_sch -whitespace
+*.kicad_pcb -whitespace
+*.kicad_sym -whitespace
+*.kicad_mod -whitespace
+hardware/devboard-r0/output/** -whitespace
+*.csv -whitespace

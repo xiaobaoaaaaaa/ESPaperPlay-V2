@@ -1,0 +1,26 @@
+{
+  "status": "VISUALLY_REVIEWED_PLACEMENT_PREVIEWS",
+  "date": "2026-11-06",
+  "board_sha256": "5eb16a5ecb824086f745c8d4737650eaaf315fa305fee58c9a027325d61c740b",
+  "reviewed_images": [
+    "output/pcb/ESPaperPlay_Placement_r7.png",
+    "output/pcb/ESPaperPlay_Placement_r7_3D.png"
+  ],
+  "observations": [
+    "Front-side functional groups, external connector access, four mounting holes, antenna keepout and microphone port visible.",
+    "Board-outline, polarity/debug labels and component references reviewed; no unexpected displacement or unresolved overlap found.",
+    "C701, R710, R713, R715 references kept on assembly layer to preserve clearance in dense SD area."
+  ],
+  "rendering": "Native KiCad SVG and top-view 3D; 2D PNG is a viewport/palette rendering of native SVG.",
+  "limits": [
+    "Some custom footprints have no 3D model and display pads only.",
+    "Preview contains no routed tracks or copper fills; no full 3D collision or manufactured assembly claim."
+  ],
+  "artifacts_sha256": {
+    "output/pcb/ESPaperPlay_Assembly_r7.svg": "f28267d13c1d5528526058dc8a90e4620aa280afbce224858748ba1dc6a52cd1",
+    "output/pcb/ESPaperPlay_Placement_r7.png": "a17df2f5c324e2846f6e2d8d59c38ff17445f54693ccd9f90a6e6a9ff3d1fd78",
+    "output/pcb/ESPaperPlay_Placement_r7.svg": "f33e3690f5c895fea54f99f923ea95e993df1b68966cd0d95a633e33495615d5",
+    "output/pcb/ESPaperPlay_Placement_r7_3D.png": "70979019dc0642cb55c6bc93c6ba0e6d1e3010600f3cb90383f3af41debd4aca",
+    "output/pcb/ESPaperPlay_Placement_r7_preview.svg": "6dc65489a6b246d835c8e6cd86487803794c5b7ca794ee42faefb7b2488bb72e"
+  }
+}

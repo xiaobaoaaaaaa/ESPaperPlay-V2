@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-02",
+  "scope": "EPD_DISPLAY/AUDIO manufacturer/package/order-code review; scratch only",
+  "input_netlist": "hardware/devboard-r0/output/validation/peripheral-r2.net.xml",
+  "input_netlist_sha256": "4b95487bb4c9b1be15ae2c5804f639a5c96b3cd84662b73d523f99b9a63e6467",
+  "result": "DRAFT_PARTIALLY_CLOSED",
+  "no_manufacturing_release": true,
+  "no_kicad_cli_used": true,
+  "formal_project_modified_by_this_subtask": false,
+  "verification": "Native pcbnew footprint parser, all17 MAX numbered lands and seven standard library pad inventories; source dimension drawings visually inspected. No board DRC/assembly validation.",
+  "status_legend": {
+    "pass_candidate_geometry": "Part identity and physical package/pin pattern checked; PCB/process/availability not frozen",
+    "blocked_mechanical": "Do not fill a production-looking footprint before missing mechanical definition",
+    "blocked_effective_capacitance": "Nominal rating is insufficient to freeze an MPN",
+    "replacement_candidate_checked": "Documented new exact part candidate; not blanket interchangeability approval"
+  },
+  "components": [
+    {
+      "refs": [
+        "D601",
+        "D602",
+        "D603"
+      ],
+      "manufacturer": "onsemi",
+      "mpn": "MBR0530T1G",
+      "current": {
+        "value": "onsemi MBR0530",
+        "footprint": "Diode_SMD:D_SOD-123"
+      },
+      "status": "replacement_candidate_checked",
+      "footprint_recommendation": "Diode_SMD:D_SOD-123",
+      "evidence": [
+        "Original MBR0530 is Last Shipments; MBR0530T1G is separately listed Active. No qualified Vishay same-name replacement identified.",
+        "MBR0530T1/D Rev9: 30V VRRM,0.5A IFAV under documented thermal conditions,VFmax0.43V at0.5A/25C. Case425 SOD123 pin1 cathode,pin2 anode.",
+        "Official land pads0.91x1.22mm center spacing3.27mm; standard KiCad0.90x1.20mm center spacing3.30mm. Package/body/polarity compatible candidate."
+      ],
+      "limits": [
+        "Do not retain old MBR0530 datasheet when changing MPN. New part is reviewed by its own ratings, not by a shared stem.",
+        "Peak/repetitive reverse stress, leakage, operating waveform and diode temperature still need bench qualification.",
+        "No stock/price/ordering guarantee."
+      ],
+      "source_ids": [
+        "ONSEMI_OLD_PRODUCT",
+        "ONSEMI_NEW_PRODUCT",
+        "ONSEMI_MBR0530T1"
+      ],
+      "package_dimensions_mm": {
+        "body_length": [
+          2.54,
+          2.84
+        ],
+        "body_width": [
+          1.4,
+          1.8
+        ],
+        "lead_span": [
+          3.56,
+          3.86
+        ],
+        "height": [
+          0.94,
+          1.35
+        ]
+      },
+      "pin_map": {
+        "1": "K",
+        "2": "A"
+      }
+    },
+    {
+      "refs": [
+        "Q601"
+      ],
+      "manufacturer": "Vishay Siliconix",
+      "mpn": "Si1308EDL-T1-GE3",
+      "current": {
+        "value": "Vishay Si1308EDL-T1-GE3",
+        "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70"
+      },
+      "status": "candidate_requires_land_pattern_review",
+      "footprint_recommendation": "Package_TO_SOT_SMD:SOT-323_SC-70 (retain candidate; process review open)",
+      "evidence": [
+        "Vishay63399 1G/2S/3D;30V;RDS(on)max0.185ohm atVGS2.5V. SC70 three-lead body/0.65mm nominal pitch matches generic library.",
+        "Library pads0.925x0.450mm centered x+-0.8875,y+-0.65 pair. Vishay AN826 minimum pads rotated to same orientation0.648x0.559mm; generic library is not identical and short width is narrower."
+      ],
+      "limits": [
+        "Manufacturer-specific G/S/D must remain. Do not substitute TECH PUBLIC same-name MOSFET.",
+        "Confirm use of standard IPC land versus vendor minimum guidance before assembly release; no claim that all vendor land requirements are met.",
+        "Explicit lifecycle statement not observed; confirm supply before freeze.",
+        "Verify boost peak current, MOS thermal conditions and compact switching loop."
+      ],
+      "source_ids": [
+        "VISHAY_SI1308EDL",
+        "VISHAY_SC70_LAND",
+        "VISHAY_PRODUCT"
+      ],
+      "pin_map": {
+        "1": "G",
+        "2": "S",
+        "3": "D"
+      }
+    },
+    {
+      "refs": [
+        "U601"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC541APWR",
+      "current": {
+        "value": "TI SN74LVC541APWR",
+        "footprint": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+      },
+      "status": "pass_candidate_geometry",
+      "footprint_recommendation": "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm",
+      "evidence": [
+        "Exact PW0020A:20pins,body4.4x6.5mm,pitch0.65mm. Standard footprint pin count,ordering,pitch and body match.",
+        "TI recommended pads1.5x0.45mm at x+-2.9; KiCad pads1.475x0.4mm at x+-2.8625. Standard IPC land, not exact vendor example.",
+        "TI product ACTIVE; exact PWR ordering suffix retained."
+      ],
+      "limits": [
+        "Candidate physical geometry review only; PCB placement/solder process/rail ramp behavior not qualified."
+      ],
+      "source_ids": [
+        "TI_SN74LVC541A",
+        "TI_541_PRODUCT"
+      ]
+    },
+    {
+      "refs": [
+        "U602",
+        "U804"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC1G125DBVR",
+      "current": {
+        "value": "TI SN74LVC1G125DBVR",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5"
+      },
+      "status": "pass_candidate_geometry",
+      "footprint_recommendation": "Package_TO_SOT_SMD:SOT-23-5",
+      "evidence": [
+        "DBV0005A five-lead SOT23:1/OE,2A,3GND,4Y,5VCC;0.95mm pitch. Standard footprint pad ordering matches.",
+        "TI example pads1.1x0.6mm at x+-1.3 versus KiCad1.325x0.6mm at x+-1.1375. Shared package, distinct land implementation.",
+        "TI product ACTIVE; exact DBVR ordering suffix retained."
+      ],
+      "limits": [
+        "Candidate physical geometry review only; solder process/board clearance and layout remain open."
+      ],
+      "source_ids": [
+        "TI_SN74LVC1G125",
+        "TI_125_PRODUCT"
+      ],
+      "pin_map": {
+        "1": "/OE",
+        "2": "A",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      }
+    },
+    {
+      "refs": [
+        "U805"
+      ],
+      "manufacturer": "Texas Instruments",
+      "mpn": "SN74LVC1G14DBVR",
+      "current": {
+        "value": "TI SN74LVC1G14DBVR",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5"
+      },
+      "status": "pass_candidate_geometry",
+      "footprint_recommendation": "Package_TO_SOT_SMD:SOT-23-5",
+      "evidence": [
+        "DBV0005A:1NC,2A,3GND,4Y,5VCC; same five-lead body/0.95mm pitch as above; exact NC handling remains schematic responsibility.",
+        "TI product ACTIVE. Standard land differs from vendor example in the same way as U602/U804."
+      ],
+      "limits": [
+        "Candidate physical geometry review only."
+      ],
+      "source_ids": [
+        "TI_SCHMITT_14",
+        "TI_14_PRODUCT"
+      ],
+      "pin_map": {
+        "1": "NC",
+        "2": "A",
+        "3": "GND",
+        "4": "Y",
+        "5": "VCC"
+      }
+    },
+    {
+      "refs": [
+        "U801"
+      ],
+      "manufacturer": "Nexperia",
+      "mpn": "74LVC125APW,118",
+      "current": {
+        "value": "Nexperia 74LVC125APW",
+        "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+      },
+      "status": "pass_candidate_geometry",
+      "footprint_recommendation": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "evidence": [
+        "Exact PW package SOT402-1:TSSOP14,5x4.4mm body,0.65mm pitch,max height1.2mm. Standard footprint count/pitch/body matches.",
+        "Official Nexperia product Production; retain Nexperia exact ,118 orderable code and Ioff requirements."
+      ],
+      "limits": [
+        "Do not infer electrical equivalence from another vendor same-name part.",
+        "Package source downloaded text via web; raw manufacturer PDF access denied403, no local source hash claimed."
+      ],
+      "source_ids": [
+        "NEXPERIA_125",
+        "NEXPERIA_125_PRODUCT",
+        "NEXPERIA_SOT402"
+      ]
+    },
+    {
+      "refs": [
+        "U802"
+      ],
+      "manufacturer": "Analog Devices / Maxim Integrated",
+      "mpn": "MAX98357AETE+T",
+      "current": {
+        "value": "MAX98357AETE+T",
+        "footprint": "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
+      },
+      "status": "custom_vendor_land_pattern_prepared",
+      "footprint_recommendation": "ESPaperPlay:Analog_MAX98357A_T1633-4_3x3mm_P0.5mm_EP1.23mm",
+      "evidence": [
+        "Rev16 package table maps ETE 16TQFN to T1633+4,outline21-0136,land90-0031. +4 physical exposed pad D2/E2 range0.95..1.25mm; nominal1.10mm. Land EP1.23mm is correct.",
+        "Existing KiCad generic footprint cites T1633+5/90-0032. It has correct17-pad numbering and1.23mm EP; it must not be called an EP size/pin-map failure.",
+        "New scratch candidate uses actual90-0031 RevC:0.8x0.3mm perimeter lands,0.5mm pitch,2.85mm opposing center spacing,1.23x1.23mm EP17. Native pcbnew parser checked all17 numbered pad dimensions.",
+        "ADI product PRODUCTION."
+      ],
+      "limits": [
+        "Four0.5mm square paste windows provide66.1% EP area; this is an assembly-process candidate, not a vendor mandate.",
+        "Thermal vias, stencil thickness and thermal copper must be reviewed together before PCB release.",
+        "No PCB/assembly/thermal test; custom footprint not installed in formal project by this subtask."
+      ],
+      "source_ids": [
+        "ADI_MAX98357A",
+        "ADI_90_0031",
+        "ADI_PRODUCT"
+      ],
+      "artifact": "build/bom-review-r3/audio_epd/Analog_MAX98357A_T1633-4_3x3mm_P0.5mm_EP1.23mm.kicad_mod"
+    },
+    {
+      "refs": [
+        "U803"
+      ],
+      "manufacturer": "PUI Audio",
+      "mpn": "DMM-4026-B-I2S-R",
+      "current": {
+        "value": "DMM-4026-B-I2S-R",
+        "footprint": ""
+      },
+      "status": "blocked_mechanical",
+      "footprint_recommendation": "Keep Footprint empty pending PCB acoustic-hole and mask/paste definition",
+      "evidence": [
+        "Vendor drawing shows 4.0x3.0x1.0mm body,seven pads; six signal lands0.6x0.4mm,column pitch2.15mm,row pitch0.65mm;GND annulus outer1.65/inner1.05mm.",
+        "Device bottom acoustic port diameter0.25+-0.05mm is specified, but PCB acoustic drill diameter is not. The microphone port must not be copied as PCB drill.",
+        "Pinmap1LR,2CONFIG,3VDD,4GND,5WS,6SCK,7SD; bottom-view drawing requires explicit mirror to PCB top-view."
+      ],
+      "limits": [
+        "Need manufacturer or mechanical acoustic design confirmation for PCB hole diameter, tolerances, mask/paste exclusion and enclosure sound channel.",
+        "Public catalog presence does not establish lifecycle or procurement availability.",
+        "No complete KiCad footprint generated because an arbitrary acoustic drill would look production-ready."
+      ],
+      "source_ids": [
+        "PUI_MIC",
+        "PUI_PRODUCT"
+      ],
+      "artifact": "build/bom-review-r3/audio_epd/pui-mechanical-constraints.json"
+    },
+    {
+      "refs": [
+        "L601"
+      ],
+      "manufacturer": "Bourns",
+      "mpn": "SRN4018-100M",
+      "current": {
+        "value": "10uH / >=1A target",
+        "footprint": ""
+      },
+      "status": "pass_candidate_geometry_rating_target",
+      "footprint_recommendation": "Inductor_SMD:L_Bourns-SRN4018",
+      "evidence": [
+        "Rev10/26:10uH+-20%,Irms1.3A at40C rise,Isat1.4A at30% inductance reduction,DCRmax0.180ohm; fulfills draft >=1A target under those definitions.",
+        "4x4mm body,1.8mm max height; vendor pads1.5x3.6mm with3.05mm center spacing exactly match installed KiCad L_Bourns-SRN4018 copper dimensions."
+      ],
+      "limits": [
+        "The panel reference differs between drawing1A and table500mA; this choice provides a candidate margin but does not prove real boost waveform requirements.",
+        "Need worst-case startup/refresh Ipeak,Irms, temperature and voltage behavior; Isat rating at30% drop is not zero saturation.",
+        "Raw source PDF403; primary web PDF text inspected, no local PDF hash or stock claim."
+      ],
+      "source_ids": [
+        "BOURNS_SRN4018"
+      ]
+    },
+    {
+      "refs": [
+        "C601",
+        "C602",
+        "C604",
+        "C607",
+        "C608",
+        "C609"
+      ],
+      "manufacturer": "Murata (candidate)",
+      "mpn": "GRM31CR71H475KA12L (candidate, not frozen)",
+      "current": {
+        "value": "4.7u / 50V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric"
+      },
+      "status": "blocked_effective_capacitance",
+      "footprint_recommendation": "Consider Capacitor_SMD:C_1206_3216Metric; current C_0805_2012Metric is not a drop-in footprint for this candidate",
+      "evidence": [
+        "Current nominal4.7uF/50V0805 has no exact MPN or operating-voltage effective-capacity evidence.",
+        "Concrete larger-body candidate GRM31CR71H475KA12L:4.7uF50V X7R+-10%,1206(3216M),max thickness1.8mm.",
+        "Source retrieved defines nominal specifications, not verified minimum capacitance under actual bias. No numerical derating claim can be justified from available curve evidence."
+      ],
+      "limits": [
+        "Need terminal-to-terminal voltage for each node and manufacturer DC-bias curve plus tolerance/temperature/aging budget before freeze. C602 stress is FLY-to-SW, not one pin to ground.",
+        "1206 candidate requires footprint change and is not declared guaranteed to retain4.7uF at working voltage.",
+        "Vendor stock/lifecycle not claimed."
+      ],
+      "source_ids": [
+        "MURATA_475"
+      ]
+    },
+    {
+      "refs": [
+        "C603",
+        "C605",
+        "C606",
+        "C610"
+      ],
+      "manufacturer": "TBD",
+      "mpn": "TBD",
+      "current": {
+        "value": "4.7u / 25V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric"
+      },
+      "status": "blocked_exact_mpn_derating",
+      "footprint_recommendation": "Existing C_0805_2012Metric remains candidate",
+      "evidence": [
+        "Nominal voltage/capacitance alone does not define effective capacitance or exact assembly part."
+      ],
+      "limits": [
+        "Root passive review to choose actual MPN with voltage,temperature and DC-bias evidence."
+      ]
+    },
+    {
+      "refs": [
+        "R602"
+      ],
+      "manufacturer": "TBD",
+      "mpn": "TBD",
+      "current": {
+        "value": "0.47R / 1%",
+        "footprint": ""
+      },
+      "status": "blocked_pulse_rating",
+      "footprint_recommendation": "Keep empty until pulse/continuous-power MPN selected",
+      "evidence": [
+        "0.47ohm1% boost sense; resistance alone does not define pulse endurance. Kelvin routing required."
+      ],
+      "limits": [
+        "Need measured/justified Ipeak,Irms,pulse duration,duty and ambient-temperature derating.1A DC would dissipate0.47W, but a1A peak is not1A RMS."
+      ]
+    },
+    {
+      "refs": [
+        "R811",
+        "R812"
+      ],
+      "manufacturer": "TBD",
+      "mpn": "TBD",
+      "current": {
+        "value": "0R / SPK_P",
+        "footprint": ""
+      },
+      "status": "blocked_current_rating",
+      "footprint_recommendation": "Do not assign small generic zero-ohm resistor without current rating",
+      "evidence": [
+        "BTL speaker current flows through each link; zero-ohm resistance designation does not establish current rating."
+      ],
+      "limits": [
+        "Root passive/connector review to select package and current-rating candidate against intended speaker drive."
+      ]
+    },
+    {
+      "refs": [
+        "J601",
+        "J801"
+      ],
+      "manufacturer": "TBD",
+      "mpn": "TBD",
+      "current": {
+        "value": "EPD FPC 24 x 0.5mm",
+        "footprint": ""
+      },
+      "status": "delegated_connector_review",
+      "footprint_recommendation": "Other agent / parent owns selection",
+      "evidence": [
+        "J601 is screen24-wayFPC;J801 is8ohm speaker connection."
+      ],
+      "limits": [
+        "No duplicate candidate assignment in this subtask."
+      ]
+    }
+  ],
+  "sources": "sources.json",
+  "geometry_evidence": "footprint-check.json"
+}

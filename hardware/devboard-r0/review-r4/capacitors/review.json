@@ -1,0 +1,936 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-02",
+  "scope": "r3 blank MLCC identities and six EPD50V capacitor bias gates; scratch-only review",
+  "result": "MPN_CANDIDATES_DEFINED__CRITICAL_EFFECTIVE_CAPACITANCE_NOT_CLOSED",
+  "no_kicad_cli_used": true,
+  "formal_project_modified": false,
+  "no_purchase_or_manufacturing_release": true,
+  "input_bom": "hardware/devboard-r0/review-r3/bom-review.json",
+  "input_bom_sha256": "6f7ce509544b55bf4b9c219072718d0293158a48168d236d9b86a5dadeab3f80",
+  "input_netlist": "hardware/devboard-r0/output/validation/peripheral-r3.net.xml",
+  "input_netlist_sha256": "5fe8819156c55b2d92bd0518619ed1d7057dbc209db06aaa55727d900e44e8e2",
+  "summary": {
+    "blank_mlcc_positions": 32,
+    "newly_assigned_default_fit_candidates": 30,
+    "intentionally_blank_dnp": 2,
+    "existing_high_voltage_candidates_retained": 6,
+    "unique_new_candidate_mpns": 8,
+    "proposed_footprint_changes": [
+      "C102",
+      "C103",
+      "C201"
+    ]
+  },
+  "items": [
+    {
+      "refs": [
+        "C402",
+        "C405",
+        "C408",
+        "C411",
+        "C414"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608C0G1H472J080AA",
+      "function": "load-switch CT",
+      "nominal": {
+        "uf": 0.0047,
+        "voltage": 50,
+        "tolerance": 0.05,
+        "dielectric": "C0G",
+        "package": "0603",
+        "dimensions_mm": [
+          1.6,
+          0.8,
+          0.8
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "tempco_ppm_C": 30
+      },
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "recommended_value": "4.7n / 50V",
+      "recommended_tolerance": "±5%",
+      "existing_value": {
+        "C402": "4.7n / 25V",
+        "C405": "4.7n / 25V",
+        "C408": "4.7n / 25V",
+        "C411": "4.7n / 25V",
+        "C414": "4.7n / 25V"
+      },
+      "existing_footprint": {
+        "C402": "Capacitor_SMD:C_0603_1608Metric",
+        "C405": "Capacitor_SMD:C_0603_1608Metric",
+        "C408": "Capacitor_SMD:C_0603_1608Metric",
+        "C411": "Capacitor_SMD:C_0603_1608Metric",
+        "C414": "Capacitor_SMD:C_0603_1608Metric"
+      },
+      "pin_nets": {
+        "C402": {
+          "1": "/POWER_DOMAINS/EPD_CT",
+          "2": "GND"
+        },
+        "C405": {
+          "1": "/POWER_DOMAINS/SD_CT",
+          "2": "GND"
+        },
+        "C408": {
+          "1": "/POWER_DOMAINS/TOUCH_CT",
+          "2": "GND"
+        },
+        "C411": {
+          "1": "/POWER_DOMAINS/MIC_CT",
+          "2": "GND"
+        },
+        "C414": {
+          "1": "/POWER_DOMAINS/AMP_CT",
+          "2": "GND"
+        }
+      },
+      "notes": [
+        "改用明确的 C0G ±5% 型号；标称 4.7nF 不变。CT 端工作电压低于输入电源，50V 为额定值，不是 CT 节点工作电压。",
+        "关闭原来的介质/容差/型号空项；不把电容公差等同于 TPS22918 完整上升时间公差。"
+      ],
+      "source_urls": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H472J080AA"
+      ],
+      "lifecycle": {
+        "status": "Production",
+        "checked_on": "2026-11-02",
+        "stock_and_price": "not assessed"
+      },
+      "status": "candidate_mpn_dielectric_tolerance_resolved__timing_validation_remains",
+      "effective_capacitance_guaranteed_uF": null,
+      "land_pattern_review": "KiCad standard package candidate; body dimensions matched to named package. No claim of exact vendor-specific land pattern equivalence or assembly release."
+    },
+    {
+      "refs": [
+        "C704"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608C0G1H103J080AA",
+      "function": "SD card-detect RC",
+      "nominal": {
+        "uf": 0.01,
+        "voltage": 50,
+        "tolerance": 0.05,
+        "dielectric": "C0G",
+        "package": "0603",
+        "dimensions_mm": [
+          1.6,
+          0.8,
+          0.8
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "tempco_ppm_C": 30
+      },
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "recommended_value": "10n / 50V",
+      "recommended_tolerance": "±5%",
+      "existing_value": {
+        "C704": "10n / 10V"
+      },
+      "existing_footprint": {
+        "C704": "Capacitor_SMD:C_0603_1608Metric"
+      },
+      "pin_nets": {
+        "C704": {
+          "2": "GND",
+          "1": "SD_CD_N"
+        }
+      },
+      "notes": [
+        "10nF C0G ±5%；100kΩ 与 10nF 给出标称 1ms 时间常数，机械去抖结果还受接点与 Schmitt 阈值影响。"
+      ],
+      "source_urls": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H103J080AA"
+      ],
+      "lifecycle": {
+        "status": "Production",
+        "checked_on": "2026-11-02",
+        "stock_and_price": "not assessed"
+      },
+      "status": "candidate_mpn_dielectric_tolerance_resolved__timing_validation_remains",
+      "effective_capacitance_guaranteed_uF": null,
+      "land_pattern_review": "KiCad standard package candidate; body dimensions matched to named package. No claim of exact vendor-specific land pattern equivalence or assembly release."
+    },
+    {
+      "refs": [
+        "C303",
+        "C401",
+        "C404",
+        "C407",
+        "C410",
+        "C412",
+        "C413",
+        "C805"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C1608X7R1C105K080AC",
+      "function": "1uF low-voltage bypass/reset RC",
+      "nominal": {
+        "uf": 1,
+        "voltage": 16,
+        "tolerance": 0.1,
+        "dielectric": "X7R",
+        "package": "0603",
+        "dimensions_mm": [
+          1.6,
+          0.8,
+          0.8
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "recommended_value": "1u / 16V",
+      "recommended_tolerance": "±10%",
+      "existing_value": {
+        "C303": "1u / 10V",
+        "C401": "1u / 10V",
+        "C404": "1u / 10V",
+        "C407": "1u / 10V",
+        "C410": "1u / 10V",
+        "C412": "1u / 10V",
+        "C413": "1u / 10V",
+        "C805": "1u / 10V"
+      },
+      "existing_footprint": {
+        "C303": "Capacitor_SMD:C_0603_1608Metric",
+        "C401": "Capacitor_SMD:C_0603_1608Metric",
+        "C404": "Capacitor_SMD:C_0603_1608Metric",
+        "C407": "Capacitor_SMD:C_0603_1608Metric",
+        "C410": "Capacitor_SMD:C_0603_1608Metric",
+        "C412": "Capacitor_SMD:C_0603_1608Metric",
+        "C413": "Capacitor_SMD:C_0603_1608Metric",
+        "C805": "Capacitor_SMD:C_0603_1608Metric"
+      },
+      "pin_nets": {
+        "C303": {
+          "1": "/MCU_CORE/MCU_EN",
+          "2": "GND"
+        },
+        "C401": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C404": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C407": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C410": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C412": {
+          "2": "GND",
+          "1": "MIC_3V3"
+        },
+        "C413": {
+          "2": "GND",
+          "1": "SYS"
+        },
+        "C805": {
+          "2": "GND",
+          "1": "MIC_3V3"
+        }
+      },
+      "notes": [
+        "1µF16V X7R ±10%0603；C303 是 EN RC，不等同电源旁路；C413 位于 SYS 输入，按 5.0V 电容资格验证包络，其余低压位按 3.6V。",
+        "C401/C404/C407/C410/C413 是负载开关输入侧；不能当作断开电源域的下游储能。C412/C805 是 MIC_3V3 本地去耦。"
+      ],
+      "source_urls": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1C105K080AC"
+      ],
+      "lifecycle": {
+        "status": "Production",
+        "checked_on": "2026-11-02",
+        "stock_and_price": "not assessed"
+      },
+      "status": "candidate_mpn_and_package_resolved__electrical_qualification_open",
+      "effective_capacitance_guaranteed_uF": null,
+      "land_pattern_review": "KiCad standard package candidate; body dimensions matched to named package. No claim of exact vendor-specific land pattern equivalence or assembly release."
+    },
+    {
+      "refs": [
+        "C101",
+        "C409",
+        "C603"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C2012X7R1E475K125AB",
+      "function": "4.7uF input/touch/EPD bypass",
+      "nominal": {
+        "uf": 4.7,
+        "voltage": 25,
+        "tolerance": 0.1,
+        "dielectric": "X7R",
+        "package": "0805",
+        "dimensions_mm": [
+          2,
+          1.25,
+          1.25
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "recommended_value": "4.7u / 25V",
+      "recommended_tolerance": "±10%",
+      "existing_value": {
+        "C101": "4.7u / 16V",
+        "C409": "4.7u / 10V",
+        "C603": "4.7u / 25V"
+      },
+      "existing_footprint": {
+        "C101": "Capacitor_SMD:C_0805_2012Metric",
+        "C409": "Capacitor_SMD:C_0805_2012Metric",
+        "C603": "Capacitor_SMD:C_0805_2012Metric"
+      },
+      "pin_nets": {
+        "C101": {
+          "2": "GND",
+          "1": "VIN_5V"
+        },
+        "C409": {
+          "2": "GND",
+          "1": "TOUCH_3V3"
+        },
+        "C603": {
+          "1": "EPD_3V3",
+          "2": "GND"
+        }
+      },
+      "notes": [
+        "统一 4.7µF25V X7R ±10%0805，原容量不变。C101 USB 输入按 5.5V 稳态电容资格包络；TVS 残余瞬态须独立检查，25V 额定不能替代浪涌证明。",
+        "C409 TOUCH 与 C603 EPD 低压轨按 3.6V 检查。C603 保持屏厂参考 4.7µF/至少25V 的标称要求。"
+      ],
+      "source_urls": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1E475K125AB"
+      ],
+      "lifecycle": {
+        "status": "Production",
+        "checked_on": "2026-11-02",
+        "stock_and_price": "not assessed"
+      },
+      "status": "candidate_mpn_and_package_resolved__electrical_qualification_open",
+      "effective_capacitance_guaranteed_uF": null,
+      "land_pattern_review": "KiCad standard package candidate; body dimensions matched to named package. No claim of exact vendor-specific land pattern equivalence or assembly release."
+    },
+    {
+      "refs": [
+        "C102",
+        "C103",
+        "C201"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C3216X5R1C106K160AA",
+      "function": "BQ OUT/BAT and buck-boost input",
+      "nominal": {
+        "uf": 10,
+        "voltage": 16,
+        "tolerance": 0.1,
+        "dielectric": "X5R",
+        "package": "1206",
+        "dimensions_mm": [
+          3.2,
+          1.6,
+          1.6
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          85
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "recommended_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "recommended_value": "10u / 16V",
+      "recommended_tolerance": "±10%",
+      "existing_value": {
+        "C102": "10u / 10V",
+        "C103": "10u / 10V",
+        "C201": "10u / 10V"
+      },
+      "existing_footprint": {
+        "C102": "Capacitor_SMD:C_0805_2012Metric",
+        "C103": "Capacitor_SMD:C_0805_2012Metric",
+        "C201": "Capacitor_SMD:C_0805_2012Metric"
+      },
+      "pin_nets": {
+        "C102": {
+          "2": "GND",
+          "1": "SYS_RAW"
+        },
+        "C103": {
+          "1": "BAT_PROT",
+          "2": "GND"
+        },
+        "C201": {
+          "2": "GND",
+          "1": "SYS"
+        }
+      },
+      "notes": [
+        "建议由 0805 增为 1206，10µF16V X5R ±10%；容量不变，提高额定电压并为实物筛选提供较大器件候选。尺寸/额定变大本身不能证明 DC 偏压后容量更高。",
+        "C102 BQ OUT、C201 SYS 的稳态资料上限是 4.5V；资格验证选择 5.0V 留余量。C103 BAT 的 BQ 充电稳态上限 4.23V，电容资格验证选择 4.5V。",
+        "X5R 上限 +85°C；电容本体温度应低于该额定值，不能拿芯片 +125°C 结温规格替代电容温度校核。"
+      ],
+      "source_urls": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X5R1C106K160AA"
+      ],
+      "lifecycle": {
+        "status": "Production",
+        "checked_on": "2026-11-02",
+        "stock_and_price": "not assessed"
+      },
+      "status": "candidate_mpn_and_package_resolved__electrical_qualification_open",
+      "effective_capacitance_guaranteed_uF": null,
+      "land_pattern_review": "KiCad standard package candidate; body dimensions matched to named package. No claim of exact vendor-specific land pattern equivalence or assembly release."
+    },
+    {
+      "refs": [
+        "C301",
+        "C702",
+        "C803"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C2012X7R1A106K125AC",
+      "function": "MCU/SD/amplifier local bulk",
+      "nominal": {
+        "uf": 10,
+        "voltage": 10,
+        "tolerance": 0.1,
+        "dielectric": "X7R",
+        "package": "0805",
+        "dimensions_mm": [
+          2,
+          1.25,
+          1.25
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "recommended_value": "10u / 10V",
+      "recommended_tolerance": "±10%",
+      "existing_value": {
+        "C301": "10u / 10V",
+        "C702": "10u / 10V",
+        "C803": "10u / 10V"
+      },
+      "existing_footprint": {
+        "C301": "Capacitor_SMD:C_0805_2012Metric",
+        "C702": "Capacitor_SMD:C_0805_2012Metric",
+        "C803": "Capacitor_SMD:C_0805_2012Metric"
+      },
+      "pin_nets": {
+        "C301": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C702": {
+          "2": "GND",
+          "1": "SD_3V3"
+        },
+        "C803": {
+          "1": "AMP_SYS",
+          "2": "GND"
+        }
+      },
+      "notes": [
+        "保留 0805，10µF10V X7R ±10%。C301/C702 按 3.6V，C803 AMP_SYS 按 5.0V 资格包络检查。",
+        "MAX98357A 要求在 VDD 就近配置 10µF 与 0.1µF 标称旁路；C803 不能因同域 C415 存在而省略或任意移远。该资料未给出可直接冻结此型号的全偏压最低有效容量。",
+        "该组没有伪造统一的保证容量下限；需用板端跌落/纹波和所属器件要求做功能验收。"
+      ],
+      "source_urls": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1A106K125AC"
+      ],
+      "lifecycle": {
+        "status": "Production",
+        "checked_on": "2026-11-02",
+        "stock_and_price": "not assessed"
+      },
+      "status": "candidate_mpn_and_package_resolved__electrical_qualification_open",
+      "effective_capacitance_guaranteed_uF": null,
+      "land_pattern_review": "KiCad standard package candidate; body dimensions matched to named package. No claim of exact vendor-specific land pattern equivalence or assembly release."
+    },
+    {
+      "refs": [
+        "C202",
+        "C403",
+        "C406",
+        "C415"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C3216X5R1C226M160AB",
+      "function": "converter output/switched-domain bulk",
+      "nominal": {
+        "uf": 22,
+        "voltage": 16,
+        "tolerance": 0.2,
+        "dielectric": "X5R",
+        "package": "1206",
+        "dimensions_mm": [
+          3.2,
+          1.6,
+          1.6
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          85
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "recommended_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "recommended_value": "22u / 16V",
+      "recommended_tolerance": "±20%",
+      "existing_value": {
+        "C202": "22u / 10V",
+        "C403": "22u / 10V",
+        "C406": "22u / 10V",
+        "C415": "22u / 10V"
+      },
+      "existing_footprint": {
+        "C202": "Capacitor_SMD:C_1206_3216Metric",
+        "C403": "Capacitor_SMD:C_1206_3216Metric",
+        "C406": "Capacitor_SMD:C_1206_3216Metric",
+        "C415": "Capacitor_SMD:C_1206_3216Metric"
+      },
+      "pin_nets": {
+        "C202": {
+          "1": "/POWER_3V3_CONTROL/3V3_REG",
+          "2": "GND"
+        },
+        "C403": {
+          "1": "EPD_3V3",
+          "2": "GND"
+        },
+        "C406": {
+          "2": "GND",
+          "1": "SD_3V3"
+        },
+        "C415": {
+          "1": "AMP_SYS",
+          "2": "GND"
+        }
+      },
+      "notes": [
+        "22µF16V X5R ±20%1206；实际公差是 M=±20%，不是 ±10%。原 22µF 容量与1206封装不变。",
+        "C202 是 TPS63802 输出，要求有效容量至少 7µF；C403/C406/C415 是电源域储能，须重算使能涌流和放电等待，不能沿用理想 22µF。",
+        "C202/C403/C406 按3.6V、C415 AMP_SYS 按5.0V资格包络；本体温度最高85°C。"
+      ],
+      "source_urls": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X5R1C226M160AB"
+      ],
+      "lifecycle": {
+        "status": "Production",
+        "checked_on": "2026-11-02",
+        "stock_and_price": "not assessed"
+      },
+      "status": "candidate_mpn_and_package_resolved__electrical_qualification_open",
+      "effective_capacitance_guaranteed_uF": null,
+      "land_pattern_review": "KiCad standard package candidate; body dimensions matched to named package. No claim of exact vendor-specific land pattern equivalence or assembly release."
+    },
+    {
+      "refs": [
+        "C605",
+        "C606",
+        "C610"
+      ],
+      "manufacturer": "TDK",
+      "mpn": "C2012X7R1H105K125AB",
+      "function": "EPD VCI/internal VDD/VCOM bypass",
+      "nominal": {
+        "uf": 1,
+        "voltage": 50,
+        "tolerance": 0.1,
+        "dielectric": "X7R",
+        "package": "0805",
+        "dimensions_mm": [
+          2,
+          1.25,
+          1.25
+        ],
+        "dimension_tolerance_mm": 0.2,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "recommended_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "recommended_value": "1u / 50V",
+      "recommended_tolerance": "±10%",
+      "existing_value": {
+        "C605": "1u / 25V",
+        "C606": "1u / 25V",
+        "C610": "1u / 50V"
+      },
+      "existing_footprint": {
+        "C605": "Capacitor_SMD:C_0805_2012Metric",
+        "C606": "Capacitor_SMD:C_0805_2012Metric",
+        "C610": "Capacitor_SMD:C_0805_2012Metric"
+      },
+      "pin_nets": {
+        "C605": {
+          "1": "EPD_3V3",
+          "2": "GND"
+        },
+        "C606": {
+          "1": "EPD_VDD_INT",
+          "2": "GND"
+        },
+        "C610": {
+          "1": "EPD_VCOM",
+          "2": "GND"
+        }
+      },
+      "notes": [
+        "统一 1µF50V X7R ±10%0805，C605/C606 原最低25V要求满足，C610原50V要求保留。",
+        "C605 位于 EPD_3V3；C606 只接屏内部 EPD_VDD_INT，不得接到外部3V3。C610 是 VCOM，不能当3.3V电容评估。",
+        "C605/C606可按3.6V检查，C610必须取得真实VCOM绝对值/瞬态。50V额定并不能给出该节点有效容量下限。"
+      ],
+      "source_urls": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1H105K125AB"
+      ],
+      "lifecycle": {
+        "status": "Production",
+        "checked_on": "2026-11-02",
+        "stock_and_price": "not assessed"
+      },
+      "status": "candidate_mpn_and_package_resolved__electrical_qualification_open",
+      "effective_capacitance_guaranteed_uF": null,
+      "land_pattern_review": "KiCad standard package candidate; body dimensions matched to named package. No claim of exact vendor-specific land pattern equivalence or assembly release."
+    },
+    {
+      "refs": [
+        "C601",
+        "C602",
+        "C604",
+        "C607",
+        "C608",
+        "C609"
+      ],
+      "manufacturer": "Murata",
+      "mpn": "GRM31CR71H475KA12L",
+      "function": "EPD high-voltage reservoir/flying",
+      "nominal": {
+        "uf": 4.7,
+        "voltage": 50,
+        "tolerance": 0.1,
+        "dielectric": "X7R",
+        "package": "1206",
+        "dimensions_mm": [
+          3.2,
+          1.6,
+          1.6
+        ],
+        "maximum_thickness_mm": 1.8,
+        "temperature_C": [
+          -55,
+          125
+        ],
+        "temperature_change_no_bias": 0.15
+      },
+      "recommended_footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "recommended_value": "4.7u / 50V",
+      "recommended_tolerance": "±10%",
+      "existing_value": {
+        "C601": "4.7u / 50V",
+        "C602": "4.7u / 50V",
+        "C604": "4.7u / 50V",
+        "C607": "4.7u / 50V",
+        "C608": "4.7u / 50V",
+        "C609": "4.7u / 50V"
+      },
+      "existing_footprint": {
+        "C601": "Capacitor_SMD:C_1206_3216Metric",
+        "C602": "Capacitor_SMD:C_1206_3216Metric",
+        "C604": "Capacitor_SMD:C_1206_3216Metric",
+        "C607": "Capacitor_SMD:C_1206_3216Metric",
+        "C608": "Capacitor_SMD:C_1206_3216Metric",
+        "C609": "Capacitor_SMD:C_1206_3216Metric"
+      },
+      "pin_nets": {
+        "C601": {
+          "1": "EPD_VSHR",
+          "2": "GND"
+        },
+        "C602": {
+          "2": "/EPD_DISPLAY/EPD_SW",
+          "1": "EPD_FLY"
+        },
+        "C604": {
+          "1": "EPD_PREVGH",
+          "2": "GND"
+        },
+        "C607": {
+          "1": "EPD_VSH1",
+          "2": "GND"
+        },
+        "C608": {
+          "1": "EPD_VSL",
+          "2": "GND"
+        },
+        "C609": {
+          "1": "EPD_PREVGL",
+          "2": "GND"
+        }
+      },
+      "notes": [
+        "保留 r3 Murata 4.7µF50V X7R ±10%1206候选。屏厂参考图给4.7µF/25V及X5R/X7R，并未给高压各节点的全条件范围或最低有效容量。",
+        "C602 的应力是 V(EPD_FLY)-V(EPD_SW) 的端到端波形，不能取任一端对地电压或把两端对地绝对峰值机械相加当真实实测值。",
+        "不得凭50V额定、1206体积或典型曲线直接宣称4.7µF有效。高压端到端包络、偏压容量和飞跨纹波温升仍是具体剩余门槛。"
+      ],
+      "source_urls": [
+        "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L"
+      ],
+      "lifecycle": {
+        "status": "In Production",
+        "checked_on": "2026-11-02",
+        "stock_and_price": "not assessed"
+      },
+      "status": "existing_candidate_retained__hv_operating_envelope_and_bias_unresolved",
+      "effective_capacitance_guaranteed_uF": null,
+      "land_pattern_review": "KiCad standard package candidate; body dimensions matched to named package. No claim of exact vendor-specific land pattern equivalence or assembly release."
+    },
+    {
+      "refs": [
+        "C501",
+        "C502"
+      ],
+      "manufacturer": "",
+      "mpn": "",
+      "recommended_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "status": "DNP_intentionally_unpopulated",
+      "notes": [
+        "USB D+/D- 调谐位置默认不装；没有信号完整性测量依据前不虚填MLCC料号。"
+      ],
+      "pin_nets": {
+        "C501": {
+          "2": "GND",
+          "1": "USB_DP_MCU"
+        },
+        "C502": {
+          "2": "GND",
+          "1": "USB_DM_MCU"
+        }
+      }
+    }
+  ],
+  "critical_acceptance": [
+    {
+      "ref": "C102",
+      "minimum_effective_uF": 4.7,
+      "qualification_voltage_V": 5.0,
+      "basis": "Project conservative criterion based on BQ OUT recommended nominal4.7–47µF; not a stated BQ DC-biased guarantee",
+      "source_id": "TI_BQ24074",
+      "mpn": "C3216X5R1C106K160AA",
+      "nominal_uF": 10,
+      "initial_negative_tolerance": 0.1,
+      "minimum_combined_retention_after_initial_tolerance": 0.5222222222222223,
+      "illustrative_dc_retention_if_temp_reserve_15pct_and_age_reserve_10pct": 0.682643427741467,
+      "measured_or_vendor_guaranteed_capacitance_uF": null,
+      "qualification_temperature_grid_C": [
+        -40,
+        25,
+        85
+      ],
+      "qualification_temperature_note": "Engineering electronics component qualification grid; +85°C is X5R body limit. Whole panel operation remains0..50°C. Three sample points alone do not guarantee the continuous temperature interval.",
+      "aging_and_ac_test_condition": "Obtain vendor condition-specific data and record post-reflow time, bias dwell, AC test frequency/amplitude; no service-life or combined-aging minimum has been established. The illustrative10% aging reserve is not a vendor guarantee.",
+      "result": "acceptance_threshold_defined__part_not_yet_qualified",
+      "parallel_two_same_parts_required_combined_retention": 0.2611111111111111
+    },
+    {
+      "ref": "C103",
+      "minimum_effective_uF": 4.7,
+      "qualification_voltage_V": 4.5,
+      "basis": "Project conservative criterion based on BQ BAT recommended nominal4.7–47µF; not a stated BQ DC-biased guarantee",
+      "source_id": "TI_BQ24074",
+      "mpn": "C3216X5R1C106K160AA",
+      "nominal_uF": 10,
+      "initial_negative_tolerance": 0.1,
+      "minimum_combined_retention_after_initial_tolerance": 0.5222222222222223,
+      "illustrative_dc_retention_if_temp_reserve_15pct_and_age_reserve_10pct": 0.682643427741467,
+      "measured_or_vendor_guaranteed_capacitance_uF": null,
+      "qualification_temperature_grid_C": [
+        -40,
+        25,
+        85
+      ],
+      "qualification_temperature_note": "Engineering electronics component qualification grid; +85°C is X5R body limit. Whole panel operation remains0..50°C. Three sample points alone do not guarantee the continuous temperature interval.",
+      "aging_and_ac_test_condition": "Obtain vendor condition-specific data and record post-reflow time, bias dwell, AC test frequency/amplitude; no service-life or combined-aging minimum has been established. The illustrative10% aging reserve is not a vendor guarantee.",
+      "result": "acceptance_threshold_defined__part_not_yet_qualified",
+      "parallel_two_same_parts_required_combined_retention": 0.2611111111111111
+    },
+    {
+      "ref": "C201",
+      "minimum_effective_uF": 4.0,
+      "qualification_voltage_V": 5.0,
+      "basis": "Explicit TPS63802 section8.3 effective input capacitance minimum",
+      "source_id": "TI_TPS63802",
+      "mpn": "C3216X5R1C106K160AA",
+      "nominal_uF": 10,
+      "initial_negative_tolerance": 0.1,
+      "minimum_combined_retention_after_initial_tolerance": 0.4444444444444444,
+      "illustrative_dc_retention_if_temp_reserve_15pct_and_age_reserve_10pct": 0.5809731299927378,
+      "measured_or_vendor_guaranteed_capacitance_uF": null,
+      "qualification_temperature_grid_C": [
+        -40,
+        25,
+        85
+      ],
+      "qualification_temperature_note": "Engineering electronics component qualification grid; +85°C is X5R body limit. Whole panel operation remains0..50°C. Three sample points alone do not guarantee the continuous temperature interval.",
+      "aging_and_ac_test_condition": "Obtain vendor condition-specific data and record post-reflow time, bias dwell, AC test frequency/amplitude; no service-life or combined-aging minimum has been established. The illustrative10% aging reserve is not a vendor guarantee.",
+      "result": "acceptance_threshold_defined__part_not_yet_qualified",
+      "parallel_two_same_parts_required_combined_retention": 0.2222222222222222
+    },
+    {
+      "ref": "C202",
+      "minimum_effective_uF": 7.0,
+      "qualification_voltage_V": 3.6,
+      "basis": "Explicit TPS63802 section8.3 effective output capacitance minimum for output>2.3V",
+      "source_id": "TI_TPS63802",
+      "mpn": "C3216X5R1C226M160AB",
+      "nominal_uF": 22,
+      "initial_negative_tolerance": 0.2,
+      "minimum_combined_retention_after_initial_tolerance": 0.3977272727272727,
+      "illustrative_dc_retention_if_temp_reserve_15pct_and_age_reserve_10pct": 0.5199049316696375,
+      "measured_or_vendor_guaranteed_capacitance_uF": null,
+      "qualification_temperature_grid_C": [
+        -40,
+        25,
+        85
+      ],
+      "qualification_temperature_note": "Engineering electronics component qualification grid; +85°C is X5R body limit. Whole panel operation remains0..50°C. Three sample points alone do not guarantee the continuous temperature interval.",
+      "aging_and_ac_test_condition": "Obtain vendor condition-specific data and record post-reflow time, bias dwell, AC test frequency/amplitude; no service-life or combined-aging minimum has been established. The illustrative10% aging reserve is not a vendor guarantee.",
+      "result": "acceptance_threshold_defined__part_not_yet_qualified",
+      "parallel_two_same_parts_required_combined_retention": 0.19886363636363635
+    }
+  ],
+  "rail_envelopes": {
+    "low_voltage_3V3": {
+      "qualification_voltage_V": 3.6,
+      "meaning": "Engineering capacitor check ceiling, consistent with panel VCI maximum. Does not declare rail transient compliance."
+    },
+    "SYS": {
+      "datasheet_steady_max_V": 4.5,
+      "capacitor_qualification_voltage_V": 5.0,
+      "meaning": "0.5V engineering margin; not an assertion that SYS actually peaks at5.0V or that all devices tolerate arbitrary overshoot."
+    },
+    "BAT": {
+      "bq24074_steady_regulation_max_V": 4.23,
+      "capacitor_qualification_voltage_V": 4.5
+    },
+    "VIN_5V": {
+      "capacitor_qualification_voltage_V": 5.5,
+      "note": "USB5V design; source fault/TVS/clamp behavior checked separately."
+    },
+    "HV": {
+      "maximum_actual_terminal_stress_V": null,
+      "reason": "Panel reference gives capacitor nominal25V rating, not a guaranteed high-voltage-node waveform envelope. C602 is differential."
+    }
+  },
+  "voltage_budget_finding": {
+    "status": "sent_to_root_for_power_budget",
+    "text": "Old511k/91k feedback divider plus ±1% TPS63802 reference and up-to100nA FB current cannot be represented as fixed3.3V worst-case. Root is independently updating feedback budget; this subtask makes no resistor edit."
+  },
+  "gates": [
+    {
+      "id": "CAP-01",
+      "refs": [
+        "C102",
+        "C103",
+        "C201",
+        "C202"
+      ],
+      "status": "open_quantified",
+      "requirement": "Supplier minimum data or measured, guarded capacitance at specified bias/temperature/age/AC conditions must meet critical_acceptance. Typical curves may guide choice but cannot establish production minima.",
+      "specific_next_step": "Obtain exact-MPN TCBias / capacitance-versus-voltage data from TDK or approved supplier; record test AC amplitude/frequency, DC dwell and post-reflow/de-aging history. Prototype verification checks actual rail stability/step response too; sample measurement alone does not guarantee all lots."
+    },
+    {
+      "id": "CAP-02",
+      "refs": [
+        "C601",
+        "C602",
+        "C604",
+        "C607",
+        "C608",
+        "C609",
+        "C610"
+      ],
+      "status": "open_vendor_voltage_envelope",
+      "requirement": "Panel vendor confirms per-node operating ranges and capacitance requirements or qualifies the exact candidate. Measure startup/full/partial refresh/power-down peak voltage, including C602 terminal-to-terminal, across intended temperature/supply range.",
+      "specific_next_step": "Record for each reference DC operating bias, peak instantaneous absolute terminal voltage, ripple RMS/frequency and case temperature. Check rating at combined DC+AC stress and required capacitance with manufacturer data. Do not infer C_min=4.7µF from the nominal reference label."
+    },
+    {
+      "id": "CAP-03",
+      "refs": [
+        "C402",
+        "C405",
+        "C408",
+        "C411",
+        "C414"
+      ],
+      "status": "component_selection_closed__system_ramp_test_remains",
+      "requirement": "CT candidates are C0G±5%; use real switch ramp including silicon variation and downstream positive capacitance tolerance for inrush/discharge tests. calculations.json supplies downstream capacitive sums."
+    },
+    {
+      "id": "CAP-04",
+      "refs": [
+        "C202",
+        "C403",
+        "C406",
+        "C415",
+        "C102",
+        "C103",
+        "C201"
+      ],
+      "status": "layout_temperature_gate",
+      "requirement": "X5R capacitor body stays within -55..85°C; layout keeps MLCCs off board flex/corner/fastener stress areas and validates solder/land process. Generic KiCad package assignment is not an exact vendor land approval."
+    },
+    {
+      "id": "CAP-05",
+      "refs": [
+        "C501",
+        "C502"
+      ],
+      "status": "closed_by_intentional_DNP",
+      "requirement": "Keep tuning caps unpopulated and MPN blank until USB signal-integrity evidence justifies a part."
+    }
+  ],
+  "immediate_user_information_needed": [],
+  "comments": [
+    "不需要为了30个MLCC型号再向用户提问；物料工程证据由原厂/供应商资料与后续实测取得。",
+    "这份review可用于选定候选料号和开发板预布局。不能把候选全部有MPN或额定电压提高记作有效容量已闭合。",
+    "未改变标称电容量，未增加并联电容，未编辑原理图；三个关键10µF的0805→1206仅为建议。"
+  ],
+  "calculation_artifact": "build/closure-r4/capacitors/calculations.json",
+  "source_manifest": "build/closure-r4/capacitors/sources.json"
+}

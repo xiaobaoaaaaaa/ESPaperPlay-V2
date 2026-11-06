@@ -1,0 +1,49 @@
+name: V2 platform checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify published design records
+        run: python3 tools/verify_repository.py
+  host:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure with sanitizers
+        run: cmake -S v2/tests -B v2/build/host -G Ninja -DCMAKE_C_COMPILER=clang -DCMAKE_BUILD_TYPE=Debug
+      - name: Build and test
+        run: |
+          cmake --build v2/build/host
+          ctest --test-dir v2/build/host --output-on-failure
+  firmware:
+    runs-on: ubuntu-latest
+    container: espressif/idf:v6.1
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build N16R8 bootstrap
+        shell: bash
+        run: |
+          . "$IDF_PATH/export.sh"
+          idf.py -C v2 -B build/esp32s3 build
+      - name: Save development artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: espaperplay-v2-bootstrap
+          path: |
+            build/esp32s3/ESPaperPlay_v2.bin
+            build/esp32s3/ESPaperPlay_v2.elf
+            build/esp32s3/bootloader/bootloader.bin
+            build/esp32s3/partition_table/partition-table.bin
+            build/esp32s3/ota_data_initial.bin
+            build/esp32s3/flash_args
+          if-no-files-found: error

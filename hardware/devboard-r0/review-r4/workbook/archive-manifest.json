@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-02",
+  "purpose": "Archive of the Artifact Tool builder and read-only exported XLSX verifier used for the frozen r4 BOM.",
+  "files": [
+    {
+      "name": "build_workbook.mjs",
+      "sha256": "b6d8a8c67159831479263470d16c80107fad81f5678b97ab9053a9856bae65ed"
+    },
+    {
+      "name": "verify_export.py",
+      "sha256": "eb8ec0c63d15f638d4f8d9a55c032a1fe7e1c29ec0f3e6dae006835315854c3e"
+    }
+  ],
+  "working_directory": "/home/xiaobao/Projects/ESP32",
+  "path_note": "Builder and verifier retain original scratch paths under build/closure-r4/workbook. These are archived provenance copies, not relocated standalone tools. Recreate the scratch directory and its bundled-runtime node_modules symlink to rerun.",
+  "node_runtime": "/home/xiaobao/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+  "python_runtime": "/home/xiaobao/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "dependency_note": "Only bundled @oai/artifact-tool was used for authoring. node_modules was not archived.",
+  "marker": "The create marker succeeded once before initial authoring and was not repeated for final regeneration.",
+  "final_regeneration": "node build/closure-r4/workbook/build_workbook.mjs --charging-update",
+  "verification": "python3 build/closure-r4/workbook/verify_export.py",
+  "qa_record": "hardware/devboard-r0/review-r4/workbook-qa.json",
+  "input": "hardware/devboard-r0/review-r4/bom-review.json",
+  "output": "outputs/espaperplay-bom-r4/ESPaperPlay_BOM_Review_r4.xlsx"
+}

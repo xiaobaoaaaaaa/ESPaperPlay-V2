@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "date": "2026-11-04",
+  "local_doc_links_checked": 117,
+  "unchanged_functional_pages": [
+    "POWER_3V3_CONTROL.kicad_sch",
+    "MCU_CORE.kicad_sch",
+    "USB_INPUT.kicad_sch",
+    "POWER_DOMAINS.kicad_sch",
+    "TOUCH_ISOLATION.kicad_sch",
+    "EPD_DISPLAY.kicad_sch",
+    "STORAGE_SD.kicad_sch",
+    "AUDIO.kicad_sch"
+  ],
+  "components": 236,
+  "nets": 181,
+  "all_pin_connections_checked": 774,
+  "legacy_chain_critical_pin_checks": 668,
+  "source_snapshots": "build/charge-r5/intake/ contains pre-change10 native pages, library, BOM, checks and full prior manifest.",
+  "schematic_pages": 11,
+  "local_symbols": 15,
+  "local_footprints": 20
+}

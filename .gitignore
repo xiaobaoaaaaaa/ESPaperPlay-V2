@@ -1,0 +1,52 @@
+# Build output and local ESP-IDF setup
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+.espressif/
+.component_cache/
+.vscode/
+.idea/
+compile_commands.json
+*.o
+*.a
+*.elf
+*.bin
+*.map
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Workstation state and temporary files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+.pytest_cache/
+*.log
+*.tmp
+*.bak
+*~
+.DS_Store
+.directory
+*.kicad_prl
+*.lck
+*-backups/
+fp-info-cache
+_autosave-*
+
+# Original third-party downloads and legacy archives stay local.
+# Their sources and hashes are versioned under hardware/reference/.
+/hardware/reference/**/*.pdf
+/hardware/reference/**/*.html
+/hardware/reference/**/*.htm
+/hardware/reference/**/*.png
+/hardware/reference/**/*.jpg
+/hardware/reference/**/*.jpeg
+/hardware/reference/**/*.rar
+/hardware/reference/**/*.zip
+/hardware/reference/**/*.epro2
+/hardware/reference/**/*.epro
+/hardware/reference/**/*.epru

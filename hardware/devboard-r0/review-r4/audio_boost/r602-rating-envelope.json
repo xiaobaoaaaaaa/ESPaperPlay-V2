@@ -1,0 +1,25 @@
+{
+  "label": "Resistor-only qualification envelope; not observed circuit operating conditions",
+  "model": "WFMB2010R4700FEA",
+  "Rnom_ohm": 0.47,
+  "initial_tolerance": 0.01,
+  "TCR_per_C": 5e-05,
+  "reference_temperature_C": 25,
+  "terminal_temperature_limit_C": 110,
+  "Rmax_budget_ohm": 0.476717475,
+  "design_IRMS_max_A": 1,
+  "design_Ipeak_max_A": 2,
+  "Pavg_max_W": 0.476717475,
+  "Pinstant_max_W": 1.9068699,
+  "continuous_rating_at_terminal_limit_W": 2,
+  "average_fraction_of_2W": 0.2383587375,
+  "peak_fraction_of_2W": 0.95343495,
+  "power_comparison_pass": true,
+  "limitations": [
+    "The2W figure is tied to measured terminal temperature, not ambient temperature; PCB copper must keep the terminal <=110C.",
+    "No reliance on published overload pulse curves: WFM p3 explicitly restricts them to33mohm;0.47ohm overload would need separate manufacturer qualification.",
+    "Actual UC8179 boost current threshold and waveform are not established; <=1A RMS / <=2A peak are proposed validation limits for resistor selection only. They do not increase the allowable limits of Q601,L601,diodes,controller or battery.",
+    "At higher current, higher terminal temperature or altered sense value, repeat selection/qualification.",
+    "Power calculations include initial resistance tolerance and component TCR but are not measured thermal performance."
+  ]
+}

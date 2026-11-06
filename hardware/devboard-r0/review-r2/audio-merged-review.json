@@ -1,0 +1,1063 @@
+{
+  "date": "2026-11-02",
+  "review": "Read-only final merged AUDIO review; no native modification, no KiCad CLI invoked.",
+  "result": "PASS",
+  "failures": [],
+  "evidence": [
+    {
+      "path": "hardware/devboard-r0/AUDIO.kicad_sch",
+      "bytes": 88142,
+      "sha256": "99c9e594e2730351657b9922277a1caa0a46aa259c5cc466e38eb3fb3f0fe7b8"
+    },
+    {
+      "path": "build/devboard-r2-authoring/audio/AUDIO.kicad_sch",
+      "bytes": 88142,
+      "sha256": "99c9e594e2730351657b9922277a1caa0a46aa259c5cc466e38eb3fb3f0fe7b8"
+    },
+    {
+      "path": "build/devboard-r2/peripheral.net.xml",
+      "bytes": 362639,
+      "sha256": "4b95487bb4c9b1be15ae2c5804f639a5c96b3cd84662b73d523f99b9a63e6467"
+    },
+    {
+      "path": "build/devboard-r2-authoring/audio/expected-nets.json",
+      "bytes": 2159,
+      "sha256": "7873c3e78c47874931fabd2b2f05d88a3158b68f4ef60ee31cd351dd8e4407a1"
+    }
+  ],
+  "formal_identical_to_visual_reviewed_authoring_page": true,
+  "counts": {
+    "audio_physical_components": 24,
+    "audio_physical_pin_checks": 86,
+    "additional_power_control_pin_checks": 24,
+    "value_checks": 9
+  },
+  "audio_pin_checks": [
+    {
+      "reference": "U801",
+      "pin": "14",
+      "expected_net": "MIC_3V3",
+      "actual_net": "MIC_3V3",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "7",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "2",
+      "expected_net": "I2S_BCLK",
+      "actual_net": "I2S_BCLK",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "3",
+      "expected_net": "AUDIO_BCLK_BUF",
+      "actual_net": "/AUDIO/AUDIO_BCLK_BUF",
+      "electrical_type": "tri_state",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "5",
+      "expected_net": "I2S_WS",
+      "actual_net": "I2S_WS",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "6",
+      "expected_net": "AUDIO_WS_BUF",
+      "actual_net": "/AUDIO/AUDIO_WS_BUF",
+      "electrical_type": "tri_state",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "9",
+      "expected_net": "SPEAKER_DATA",
+      "actual_net": "SPEAKER_DATA",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "8",
+      "expected_net": "AUDIO_DIN_BUF",
+      "actual_net": "/AUDIO/AUDIO_DIN_BUF",
+      "electrical_type": "tri_state",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "12",
+      "expected_net": "AMP_SHUTDOWN",
+      "actual_net": "AMP_SHUTDOWN",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "11",
+      "expected_net": "AUDIO_SD_BUF",
+      "actual_net": "/AUDIO/AUDIO_SD_BUF",
+      "electrical_type": "tri_state",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "1",
+      "expected_net": "AUDIO_OE_N",
+      "actual_net": "/AUDIO/AUDIO_OE_N",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "4",
+      "expected_net": "AUDIO_OE_N",
+      "actual_net": "/AUDIO/AUDIO_OE_N",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "10",
+      "expected_net": "AUDIO_OE_N",
+      "actual_net": "/AUDIO/AUDIO_OE_N",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "pin": "13",
+      "expected_net": "AUDIO_OE_N",
+      "actual_net": "/AUDIO/AUDIO_OE_N",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "R808",
+      "pin": "1",
+      "expected_net": "AUDIO_BCLK_BUF",
+      "actual_net": "/AUDIO/AUDIO_BCLK_BUF",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R808",
+      "pin": "2",
+      "expected_net": "I2S_BCLK_AUDIO",
+      "actual_net": "/AUDIO/I2S_BCLK_AUDIO",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R809",
+      "pin": "1",
+      "expected_net": "AUDIO_WS_BUF",
+      "actual_net": "/AUDIO/AUDIO_WS_BUF",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R809",
+      "pin": "2",
+      "expected_net": "I2S_WS_AUDIO",
+      "actual_net": "/AUDIO/I2S_WS_AUDIO",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R810",
+      "pin": "1",
+      "expected_net": "AUDIO_DIN_BUF",
+      "actual_net": "/AUDIO/AUDIO_DIN_BUF",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R810",
+      "pin": "2",
+      "expected_net": "I2S_DIN_AUDIO",
+      "actual_net": "/AUDIO/I2S_DIN_AUDIO",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "U805",
+      "pin": "1",
+      "expected_net": null,
+      "actual_net": "unconnected-(U805-NC-Pad1)",
+      "electrical_type": "no_connect",
+      "pass": true
+    },
+    {
+      "reference": "U805",
+      "pin": "2",
+      "expected_net": "AUDIO_EN",
+      "actual_net": "AUDIO_EN",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U805",
+      "pin": "3",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "U805",
+      "pin": "4",
+      "expected_net": "AUDIO_OE_N",
+      "actual_net": "/AUDIO/AUDIO_OE_N",
+      "electrical_type": "output",
+      "pass": true
+    },
+    {
+      "reference": "U805",
+      "pin": "5",
+      "expected_net": "MIC_3V3",
+      "actual_net": "MIC_3V3",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "C806",
+      "pin": "1",
+      "expected_net": "MIC_3V3",
+      "actual_net": "MIC_3V3",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C806",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C801",
+      "pin": "1",
+      "expected_net": "MIC_3V3",
+      "actual_net": "MIC_3V3",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C801",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "1",
+      "expected_net": "I2S_DIN_AUDIO",
+      "actual_net": "/AUDIO/I2S_DIN_AUDIO",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "2",
+      "expected_net": "AMP_SYS",
+      "actual_net": "AMP_SYS",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "3",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "4",
+      "expected_net": "AMP_SD_MODE",
+      "actual_net": "/AUDIO/AMP_SD_MODE",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "5",
+      "expected_net": null,
+      "actual_net": "unconnected-(U802-NC-Pad5)",
+      "electrical_type": "no_connect",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "6",
+      "expected_net": null,
+      "actual_net": "unconnected-(U802-NC-Pad6)",
+      "electrical_type": "no_connect",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "7",
+      "expected_net": "AMP_SYS",
+      "actual_net": "AMP_SYS",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "8",
+      "expected_net": "AMP_SYS",
+      "actual_net": "AMP_SYS",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "9",
+      "expected_net": "AMP_OUTP",
+      "actual_net": "/AUDIO/AMP_OUTP",
+      "electrical_type": "output",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "10",
+      "expected_net": "AMP_OUTN",
+      "actual_net": "/AUDIO/AMP_OUTN",
+      "electrical_type": "output",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "11",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "12",
+      "expected_net": null,
+      "actual_net": "unconnected-(U802-NC-Pad12)",
+      "electrical_type": "no_connect",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "13",
+      "expected_net": null,
+      "actual_net": "unconnected-(U802-NC-Pad13)",
+      "electrical_type": "no_connect",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "14",
+      "expected_net": "I2S_WS_AUDIO",
+      "actual_net": "/AUDIO/I2S_WS_AUDIO",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "15",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "16",
+      "expected_net": "I2S_BCLK_AUDIO",
+      "actual_net": "/AUDIO/I2S_BCLK_AUDIO",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "pin": "17",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C802",
+      "pin": "1",
+      "expected_net": "AMP_SYS",
+      "actual_net": "AMP_SYS",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C802",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C803",
+      "pin": "1",
+      "expected_net": "AMP_SYS",
+      "actual_net": "AMP_SYS",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C803",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R806",
+      "pin": "1",
+      "expected_net": "AUDIO_SD_BUF",
+      "actual_net": "/AUDIO/AUDIO_SD_BUF",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R806",
+      "pin": "2",
+      "expected_net": "AMP_SD_MODE",
+      "actual_net": "/AUDIO/AMP_SD_MODE",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R802",
+      "pin": "1",
+      "expected_net": "I2S_BCLK_AUDIO",
+      "actual_net": "/AUDIO/I2S_BCLK_AUDIO",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R802",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R803",
+      "pin": "1",
+      "expected_net": "I2S_WS_AUDIO",
+      "actual_net": "/AUDIO/I2S_WS_AUDIO",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R803",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R804",
+      "pin": "1",
+      "expected_net": "I2S_DIN_AUDIO",
+      "actual_net": "/AUDIO/I2S_DIN_AUDIO",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R804",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R805",
+      "pin": "1",
+      "expected_net": "AMP_SD_MODE",
+      "actual_net": "/AUDIO/AMP_SD_MODE",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R805",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R811",
+      "pin": "1",
+      "expected_net": "AMP_OUTP",
+      "actual_net": "/AUDIO/AMP_OUTP",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R811",
+      "pin": "2",
+      "expected_net": "SPK_P",
+      "actual_net": "/AUDIO/SPK_P",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R812",
+      "pin": "1",
+      "expected_net": "AMP_OUTN",
+      "actual_net": "/AUDIO/AMP_OUTN",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R812",
+      "pin": "2",
+      "expected_net": "SPK_N",
+      "actual_net": "/AUDIO/SPK_N",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "J801",
+      "pin": "1",
+      "expected_net": "SPK_P",
+      "actual_net": "/AUDIO/SPK_P",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "J801",
+      "pin": "2",
+      "expected_net": "SPK_N",
+      "actual_net": "/AUDIO/SPK_N",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "U803",
+      "pin": "1",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U803",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U803",
+      "pin": "3",
+      "expected_net": "MIC_3V3",
+      "actual_net": "MIC_3V3",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "U803",
+      "pin": "4",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "U803",
+      "pin": "5",
+      "expected_net": "I2S_WS_AUDIO",
+      "actual_net": "/AUDIO/I2S_WS_AUDIO",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U803",
+      "pin": "6",
+      "expected_net": "I2S_BCLK_AUDIO",
+      "actual_net": "/AUDIO/I2S_BCLK_AUDIO",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U803",
+      "pin": "7",
+      "expected_net": "MIC_SD_RAW",
+      "actual_net": "/AUDIO/MIC_SD_RAW",
+      "electrical_type": "tri_state",
+      "pass": true
+    },
+    {
+      "reference": "C804",
+      "pin": "1",
+      "expected_net": "MIC_3V3",
+      "actual_net": "MIC_3V3",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C804",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C805",
+      "pin": "1",
+      "expected_net": "MIC_3V3",
+      "actual_net": "MIC_3V3",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C805",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "U804",
+      "pin": "1",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U804",
+      "pin": "2",
+      "expected_net": "MIC_SD_RAW",
+      "actual_net": "/AUDIO/MIC_SD_RAW",
+      "electrical_type": "input",
+      "pass": true
+    },
+    {
+      "reference": "U804",
+      "pin": "3",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "U804",
+      "pin": "4",
+      "expected_net": "MIC_DATA",
+      "actual_net": "MIC_DATA",
+      "electrical_type": "tri_state",
+      "pass": true
+    },
+    {
+      "reference": "U804",
+      "pin": "5",
+      "expected_net": "3V3_AON",
+      "actual_net": "3V3_AON",
+      "electrical_type": "power_in",
+      "pass": true
+    },
+    {
+      "reference": "R813",
+      "pin": "1",
+      "expected_net": "MIC_SD_RAW",
+      "actual_net": "/AUDIO/MIC_SD_RAW",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "R813",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C808",
+      "pin": "1",
+      "expected_net": "3V3_AON",
+      "actual_net": "3V3_AON",
+      "electrical_type": "passive",
+      "pass": true
+    },
+    {
+      "reference": "C808",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "electrical_type": "passive",
+      "pass": true
+    }
+  ],
+  "power_control_pin_checks": [
+    {
+      "reference": "R416",
+      "pin": "1",
+      "expected_net": "AUDIO_EN",
+      "actual_net": "AUDIO_EN",
+      "pass": true
+    },
+    {
+      "reference": "R416",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true
+    },
+    {
+      "reference": "R306",
+      "pin": "1",
+      "expected_net": "AMP_SHUTDOWN",
+      "actual_net": "AMP_SHUTDOWN",
+      "pass": true
+    },
+    {
+      "reference": "R306",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true
+    },
+    {
+      "reference": "U404",
+      "pin": "1",
+      "expected_net": "3V3_AON",
+      "actual_net": "3V3_AON",
+      "pass": true
+    },
+    {
+      "reference": "U404",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true
+    },
+    {
+      "reference": "U404",
+      "pin": "3",
+      "expected_net": "AUDIO_EN",
+      "actual_net": "AUDIO_EN",
+      "pass": true
+    },
+    {
+      "reference": "U404",
+      "pin": "4",
+      "expected_net": "/POWER_DOMAINS/MIC_CT",
+      "actual_net": "/POWER_DOMAINS/MIC_CT",
+      "pass": true
+    },
+    {
+      "reference": "U404",
+      "pin": "5",
+      "expected_net": "/POWER_DOMAINS/MIC_QOD",
+      "actual_net": "/POWER_DOMAINS/MIC_QOD",
+      "pass": true
+    },
+    {
+      "reference": "U404",
+      "pin": "6",
+      "expected_net": "/POWER_DOMAINS/MIC_SW",
+      "actual_net": "/POWER_DOMAINS/MIC_SW",
+      "pass": true
+    },
+    {
+      "reference": "U405",
+      "pin": "1",
+      "expected_net": "SYS",
+      "actual_net": "SYS",
+      "pass": true
+    },
+    {
+      "reference": "U405",
+      "pin": "2",
+      "expected_net": "GND",
+      "actual_net": "GND",
+      "pass": true
+    },
+    {
+      "reference": "U405",
+      "pin": "3",
+      "expected_net": "AUDIO_EN",
+      "actual_net": "AUDIO_EN",
+      "pass": true
+    },
+    {
+      "reference": "U405",
+      "pin": "4",
+      "expected_net": "/POWER_DOMAINS/AMP_CT",
+      "actual_net": "/POWER_DOMAINS/AMP_CT",
+      "pass": true
+    },
+    {
+      "reference": "U405",
+      "pin": "5",
+      "expected_net": "/POWER_DOMAINS/AMP_QOD",
+      "actual_net": "/POWER_DOMAINS/AMP_QOD",
+      "pass": true
+    },
+    {
+      "reference": "U405",
+      "pin": "6",
+      "expected_net": "/POWER_DOMAINS/AMP_SW",
+      "actual_net": "/POWER_DOMAINS/AMP_SW",
+      "pass": true
+    },
+    {
+      "reference": "R411",
+      "pin": "1",
+      "expected_net": "/POWER_DOMAINS/MIC_SW",
+      "actual_net": "/POWER_DOMAINS/MIC_SW",
+      "pass": true
+    },
+    {
+      "reference": "R411",
+      "pin": "2",
+      "expected_net": "MIC_3V3",
+      "actual_net": "MIC_3V3",
+      "pass": true
+    },
+    {
+      "reference": "R414",
+      "pin": "1",
+      "expected_net": "/POWER_DOMAINS/AMP_SW",
+      "actual_net": "/POWER_DOMAINS/AMP_SW",
+      "pass": true
+    },
+    {
+      "reference": "R414",
+      "pin": "2",
+      "expected_net": "AMP_SYS",
+      "actual_net": "AMP_SYS",
+      "pass": true
+    },
+    {
+      "reference": "R410",
+      "pin": "1",
+      "expected_net": "/POWER_DOMAINS/MIC_QOD",
+      "actual_net": "/POWER_DOMAINS/MIC_QOD",
+      "pass": true
+    },
+    {
+      "reference": "R410",
+      "pin": "2",
+      "expected_net": "MIC_3V3",
+      "actual_net": "MIC_3V3",
+      "pass": true
+    },
+    {
+      "reference": "R413",
+      "pin": "1",
+      "expected_net": "/POWER_DOMAINS/AMP_QOD",
+      "actual_net": "/POWER_DOMAINS/AMP_QOD",
+      "pass": true
+    },
+    {
+      "reference": "R413",
+      "pin": "2",
+      "expected_net": "AMP_SYS",
+      "actual_net": "AMP_SYS",
+      "pass": true
+    }
+  ],
+  "value_checks": [
+    {
+      "reference": "R416",
+      "expected_value": "10k",
+      "actual_value": "10k",
+      "pass": true
+    },
+    {
+      "reference": "R306",
+      "expected_value": "10k",
+      "actual_value": "10k",
+      "pass": true
+    },
+    {
+      "reference": "U801",
+      "expected_value": "Nexperia 74LVC125APW",
+      "actual_value": "Nexperia 74LVC125APW",
+      "pass": true
+    },
+    {
+      "reference": "U802",
+      "expected_value": "MAX98357AETE+T",
+      "actual_value": "MAX98357AETE+T",
+      "pass": true
+    },
+    {
+      "reference": "U804",
+      "expected_value": "TI SN74LVC1G125DBVR",
+      "actual_value": "TI SN74LVC1G125DBVR",
+      "pass": true
+    },
+    {
+      "reference": "U805",
+      "expected_value": "TI SN74LVC1G14DBVR",
+      "actual_value": "TI SN74LVC1G14DBVR",
+      "pass": true
+    },
+    {
+      "reference": "R806",
+      "expected_value": "2.00k / 1%",
+      "actual_value": "2.00k / 1%",
+      "pass": true
+    },
+    {
+      "reference": "R805",
+      "expected_value": "100k",
+      "actual_value": "100k",
+      "pass": true
+    },
+    {
+      "reference": "R813",
+      "expected_value": "100k",
+      "actual_value": "100k",
+      "pass": true
+    }
+  ],
+  "final_configuration": {
+    "audio_enable": "GPIO4/AUDIO_EN drives both U404 and U405 ON pins and U805 input; R41610k toGND. U404 from3V3_AON throughR411→MIC_3V3; U405 fromSYS throughR414→AMP_SYS. QOD resistors remain downstream of measurementlinks.",
+    "schmitt": "U805 TI1G14 onMIC_3V3 invertsAUDIO_EN. Its output connects all four U801 OE1/4/10/13. U801 is Nexperia74LVC125APW, poweredMIC_3V3. NoQ801 orR801 remains in AUDIO.",
+    "shutdown": "GPIO6/AMP_SHUTDOWN hasR30610k toGND and enters U801pin12; U801pin11→R8062k/1%→SD_MODE U802pin4 withR805100k toGND. This is currentlimiting and hardwaredisable, not an arbitrary independentrail fault guarantee.",
+    "amplifier": "MAX98357AETE+T onAMP_SYS; GAIN_SLOTpin2=AMP_SYS→6dB. GND3/11/15 andEP17 connectedGND; NC5/6/12/13 explicit. Leftslot; softwaremix required.",
+    "microphone": "PUI seven-pad candidate; VDD3=MIC_3V3, GND4/LR1/CONFIG2=GND, WS5/BCLK6 buffered, SD7→R813100k pulldown→U804 AONpoweredreturn→MIC_DATA.",
+    "new_default_pulls": "Both R416 andR306 confirmed10k. At1% assumption, prior10.2uA AUDIO_EN worstcasesum gives0.103V before MCU/PCB leakage; Nexperia20uA inputleak throughR306 gives0.202V before MCU/PCB leakage. Actual10kparttolerance is not frozen invalue text; up to5% still yields0.107V/0.210V respectively.",
+    "interface_nodes": {
+      "AUDIO_EN": [
+        {
+          "ref": "R416",
+          "pin": "1"
+        },
+        {
+          "ref": "U301",
+          "pin": "4"
+        },
+        {
+          "ref": "U404",
+          "pin": "3"
+        },
+        {
+          "ref": "U405",
+          "pin": "3"
+        },
+        {
+          "ref": "U805",
+          "pin": "2"
+        }
+      ],
+      "AMP_SHUTDOWN": [
+        {
+          "ref": "J303",
+          "pin": "8"
+        },
+        {
+          "ref": "R306",
+          "pin": "1"
+        },
+        {
+          "ref": "U301",
+          "pin": "6"
+        },
+        {
+          "ref": "U801",
+          "pin": "12"
+        }
+      ],
+      "I2S_BCLK": [
+        {
+          "ref": "J303",
+          "pin": "4"
+        },
+        {
+          "ref": "U301",
+          "pin": "20"
+        },
+        {
+          "ref": "U801",
+          "pin": "2"
+        }
+      ],
+      "I2S_WS": [
+        {
+          "ref": "J303",
+          "pin": "5"
+        },
+        {
+          "ref": "U301",
+          "pin": "7"
+        },
+        {
+          "ref": "U801",
+          "pin": "5"
+        }
+      ],
+      "SPEAKER_DATA": [
+        {
+          "ref": "J303",
+          "pin": "7"
+        },
+        {
+          "ref": "U301",
+          "pin": "37"
+        },
+        {
+          "ref": "U801",
+          "pin": "9"
+        }
+      ],
+      "MIC_DATA": [
+        {
+          "ref": "J303",
+          "pin": "6"
+        },
+        {
+          "ref": "U301",
+          "pin": "19"
+        },
+        {
+          "ref": "U804",
+          "pin": "4"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "This PASS certifies actual merged connectivity and listed values, not PCB layout, analog behavior, total sleepcurrent or wholeprojectERC.",
+    "PUI lifecycle/stock, exactmic acousticfootprint and speaker/outputlinkfootprints remain procurement/layout gates.",
+    "Ioff is finiteleakage atVCC0; intermediate rail decay, measurementlink removal, SD_MODE injection and speakerpops still requirephysical validation.",
+    "48kHz/64fs/two32bitslots remains firsttest contract; existing16k firmware notmodified."
+  ]
+}

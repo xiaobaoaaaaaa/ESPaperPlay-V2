@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-04",
+  "scope": "Official battery-family research and documentation only",
+  "prior_manifest_entries": 166,
+  "changed_existing_entries": [
+    "../../docs/v2/hardware/README.md",
+    "../../docs/v2/hardware/power-design-spec.md",
+    "../reference/user-selected-r4/selected-components.json",
+    "../../docs/v2/hardware/design-assumptions-2026-11-04.md",
+    "review-r4/decisions-2026-11-04.json"
+  ],
+  "unchanged_prior_entries": 161,
+  "new_schematic_erc_or_hardware_test_claimed": false,
+  "exact_sku_qualified": false,
+  "charging_enabled": false,
+  "baseline_manifest": "verification-before.json",
+  "independent_review": "Read-only parallel reviewer verified product-family table, exact-model search limits and image; root checked4000mAh image andTI temperature-window limitation."
+}

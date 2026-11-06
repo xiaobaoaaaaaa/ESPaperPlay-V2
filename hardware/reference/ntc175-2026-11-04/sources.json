@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-04",
+  "task": "Search actual175/10kohm NTC curve for selectedZoncell755570 battery",
+  "result": "Candidate Honeywell175-103LAE-301 R-T table found; not confirmed as battery component",
+  "zoncell_source": "../zoncell-2026-11-04/product-3002.json",
+  "zoncell_only_identifies": "175 / 10kohm; no component manufacturer or suffix",
+  "manufacturer_family_reference": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/temperature-sensors/common/documents/sps-siot-temperature-sensors-line-guide-009033-4-en-ciid-45085.pdf",
+  "candidate": {
+    "manufacturer": "Honeywell",
+    "mpn": "175-103LAE-301",
+    "drawing_revision": "B",
+    "drawing_date": "2006-09-08",
+    "package": "1206",
+    "r25_ohm": 10000,
+    "r25_tolerance_pct": 3,
+    "beta_25_85_k": 3750,
+    "beta_tolerance_pct": 3,
+    "points": [
+      {
+        "temperature_c": 0,
+        "min_kohm": 27.63,
+        "nominal_kohm": 29.42,
+        "max_kohm": 31.3
+      },
+      {
+        "temperature_c": 10,
+        "min_kohm": 17.83,
+        "nominal_kohm": 18.73,
+        "max_kohm": 19.66
+      },
+      {
+        "temperature_c": 15,
+        "min_kohm": 14.47,
+        "nominal_kohm": 15.1,
+        "max_kohm": 15.75
+      },
+      {
+        "temperature_c": 25,
+        "min_kohm": 9.7,
+        "nominal_kohm": 10,
+        "max_kohm": 10.3
+      },
+      {
+        "temperature_c": 40,
+        "min_kohm": 5.35,
+        "nominal_kohm": 5.611,
+        "max_kohm": 5.881
+      },
+      {
+        "temperature_c": 45,
+        "min_kohm": 4.425,
+        "nominal_kohm": 4.667,
+        "max_kohm": 4.918
+      },
+      {
+        "temperature_c": 50,
+        "min_kohm": 3.675,
+        "nominal_kohm": 3.897,
+        "max_kohm": 4.129
+      },
+      {
+        "temperature_c": 85,
+        "min_kohm": 1.107,
+        "nominal_kohm": 1.216,
+        "max_kohm": 1.334
+      }
+    ]
+  },
+  "conflicting_data": {
+    "other_mpn": "175-103LAF-301",
+    "catalog_rt_curve": 16,
+    "distributor_lae_listing_b0_50_k": 3887,
+    "b0_50_derived_from_lae_table_k": 3568.6352805314523,
+    "decision": "No cross-mixing curves or vendor metadata; retained LAE values apply only to archived revision."
+  },
+  "search_scope": [
+    "Zoncell public REST search NTC/175/热敏/B值/阻温 and media index",
+    "Chinese and English17510k/NTC175 searches",
+    "Honeywell175 full-part documentation and manufacturer line guide",
+    "Zoncell/Honeywell cross-reference searches without confirmed link"
+  ],
+  "visual_review": "Root inspected rendered engineering drawingp1 and R-T tablesp2/p3; independent reviewer checkedp1 and complete extracted table. No sample measured.",
+  "identity_confirmed": false,
+  "firmware_curve_or_schematic_changed": false,
+  "files": [
+    {
+      "file": "honeywell-175-103lae-301.pdf",
+      "url": "https://www.rxelectronics.nl/datasheet/67/175-103lae-301.pdf",
+      "bytes": 117287,
+      "sha256": "dc3dda5cf64f1d9e3c754ba7eb1782f4104a8288d09f1c77ebfae9b78960f8d4",
+      "scope": "Honeywell engineering drawing RevB2006-09-08 with R-T tables, distributor mirror; candidate only"
+    },
+    {
+      "file": "honeywell-173-175-series.pdf",
+      "url": "https://media.digikey.com/pdf/Data%20Sheets/Honeywell%20Sensing%20%26%20Control%20PDFs/173_175_Series.pdf",
+      "bytes": 44067,
+      "sha256": "375647cf881b1cf3ffaee7cf832d0d4c7116ac49fe9aebd0445d1d531d24d092",
+      "scope": "Honeywell historical family catalog via DigiKey; LAF curve16, do not substitute LAE table"
+    }
+  ]
+}

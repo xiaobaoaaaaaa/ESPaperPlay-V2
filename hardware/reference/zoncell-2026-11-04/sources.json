@@ -1,0 +1,106 @@
+{
+  "retrieved_on": "2026-11-04",
+  "manufacturer": "ZON.CELL / 中顺芯",
+  "selected_product": "755570 / 4000mAh / 3.7V protected 3-wire NTC",
+  "product_page": "https://www.zoncell.com/product/lp1s-ntc/",
+  "access": "Public product page returned HTTP403; official unauthenticated WordPress REST GET returned product content and excerpt. No seller contact or Taobao navigation.",
+  "product_record_modified": "2024-11-20T09:12:35",
+  "evidence_level": "Manufacturer product-family page, not selected SKU approval sheet",
+  "family_parameters": {
+    "scope": "Ordinary 4.2V series provisionally relevant; page also lists other variants",
+    "charge_cv_nominal_v": 4.2,
+    "charge_cv_tolerance": null,
+    "standard_charge_c": 0.1,
+    "fast_charge_c": 0.2,
+    "listed_standard_hours": 15,
+    "listed_fast_hours": 7.5,
+    "termination_current_c_below": 0.01,
+    "charge_temperature_c": [
+      10,
+      45
+    ],
+    "ordinary_max_charge_c": 0.5,
+    "ordinary_max_charge_below_20c_c": 0.2,
+    "ordinary_continuous_discharge_c": 0.5,
+    "ordinary_continuous_discharge_below_10c_c": 0.1,
+    "ordinary_max_discharge_c": 1.0,
+    "ordinary_max_discharge_below_10c_c": 0.2,
+    "max_discharge_duration_s": null,
+    "ordinary_discharge_temperature_c": [
+      -10,
+      55
+    ],
+    "ntc_model_text": "175",
+    "ntc_resistance_ohm": 10000,
+    "ntc_beta_or_rt": null
+  },
+  "derived_for_nominal_4ah": {
+    "standard_charge_a": 0.4,
+    "fast_charge_a": 0.8,
+    "termination_reference_a": 0.04,
+    "ordinary_continuous_discharge_a": 2.0,
+    "ordinary_continuous_discharge_below_10c_a": 0.4
+  },
+  "exact_model_search": {
+    "search-755570.json": {
+      "url": "https://www.zoncell.com/wp-json/wp/v2/search?search=755570",
+      "count": 0
+    },
+    "media-755570.json": {
+      "url": "https://www.zoncell.com/wp-json/wp/v2/media?search=755570",
+      "count": 0
+    }
+  },
+  "image_review": "Root and independent reviewer inspected original 800x800: 4000mAh/3.7V 3-wire product visible and175/10kohm caption; exact cell model cannot reliably be read.",
+  "not_closed": [
+    "Exact755570 variant/batch applicability and CV tolerance",
+    "NTC reference temperature/tolerance/Beta/R-T/ground relationship",
+    "Protection thresholds/delays and pulse duration",
+    "Harness polarity/gauge"
+  ],
+  "design_impact": {
+    "charge_temperature_target_c": [
+      10,
+      45
+    ],
+    "existing_budget_retained": true,
+    "r108": "DNP",
+    "j105": "OPEN",
+    "native_or_bom_changed": false,
+    "charging_enabled": false,
+    "blocks_layout": false
+  },
+  "document": "docs/v2/hardware/battery-zoncell-2026-11-04.md",
+  "files": [
+    {
+      "file": "product-3002.json",
+      "url": "https://www.zoncell.com/wp-json/wp/v2/product/3002",
+      "bytes": 89771,
+      "sha256": "9410d115ff8917c0295996976ce95cea44d4530e76d4b70db0bd6c34a16e3adc"
+    },
+    {
+      "file": "LP1S20004000NTC1a.jpg",
+      "url": "https://www.zoncell.com/wp-content/uploads/2024/10/LP1S20004000NTC1a.jpg",
+      "bytes": 127600,
+      "sha256": "738e37b1e56f5c1f7c6a5a31d71f3c74d46d092f9e59b86699d08a18a422581a"
+    },
+    {
+      "file": "search-755570.json",
+      "url": "https://www.zoncell.com/wp-json/wp/v2/search?search=755570",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "media-755570.json",
+      "url": "https://www.zoncell.com/wp-json/wp/v2/media?search=755570",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "media-6891.json",
+      "url": "https://www.zoncell.com/wp-json/wp/v2/media/6891",
+      "bytes": 7668,
+      "sha256": "624517efe9d2ebb8e7ecddfed521a1b629bb260717dfdedbe9ff28463c970926"
+    }
+  ]
+}

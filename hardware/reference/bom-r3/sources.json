@@ -1,0 +1,4869 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-02",
+  "purpose": "BOM/footprint r3 primary-source evidence preparation; no formal project modified",
+  "target_root": "hardware/reference/bom-r3",
+  "path_rules": {
+    "local_path": "Repository-relative intended path after root installs archive; existing hardware/reference paths remain unchanged.",
+    "archive_relative_path": "Relative to this archive directory, safe to copy files/ wholesale.",
+    "original_path": "Original scratch/reference provenance only, not a runtime dependency."
+  },
+  "rights": "Manufacturer documents remain third-party copyrighted reference material, not covered by project MIT license. PDF bytes unchanged. No prices or stock claims.",
+  "deduplication": "Original PDF bytes deduplicated by SHA-256; existing hardware/reference PDFs referenced without copying.",
+  "input_manifests": [
+    {
+      "path": "build/bom-review-r3/audio_epd/sources.json",
+      "sha256": "632403f675e9415ed370858b802a4137b0cc24ac6bc0b7de8d5195261fd365c1"
+    },
+    {
+      "path": "build/bom-review-r3/interconnect/reference/download.json",
+      "sha256": "1c4d7fe3d95b7c0c0569ff972b70c061436457e72f24f520fd5f5bd42006dc54"
+    },
+    {
+      "path": "build/bom-review-r3/interconnect/reference/gct-usb4105.pdf.source.json",
+      "sha256": "97f4eea61b599a4ad9c3d9a0e31a48dfbf0b6796a68c5c9160eec62fecfd9200"
+    },
+    {
+      "path": "build/bom-review-r3/power/sources.json",
+      "sha256": "4fb23245f904c226133a6d26306d8508b9d114f85920cbae7ac4580720d019b8"
+    },
+    {
+      "path": "build/bom-review-r3/root/reference/murata-sources.json",
+      "sha256": "912ab93e404ab94817f906633dc17f67aa3a50c75fc954395643efdd806e5e4e"
+    },
+    {
+      "path": "build/bom-review-r3/root/reference/sources.json",
+      "sha256": "f13b30a107f9831be33aa57460d34c5a1d0b7a94b90b15906ac92478c43ead7f"
+    },
+    {
+      "path": "build/bom-review-r3/audio_epd/review.json",
+      "sha256": "fc98ec3609882ae21fe8d3cab23a8b8808eb33ac15a5b4b58bd9644f423b4a92"
+    },
+    {
+      "path": "build/bom-review-r3/power/review.json",
+      "sha256": "023a2a6984696dd6ae94b7e7dc41f7ee6772af5f0233d77e68d7b16018d763b5"
+    },
+    {
+      "path": "build/bom-review-r3/interconnect/review.json",
+      "sha256": "2e3944439f43bd18a12745ae54c7b6a9e583e8ae7662d24f22dd708a117fe79e"
+    },
+    {
+      "path": "build/bom-review-r3/root/independent-review.json",
+      "sha256": "22d9dd4d85b39e46f94ec630aa6f09a2fcabb2046e058e665f27321794a20c38"
+    },
+    {
+      "path": "build/bom-review-r3/root/review.json",
+      "sha256": "aff5d4df64f16683ab390cb9dcaaf5cd5ad3153d40fdd5e0564d0269566959ad"
+    }
+  ],
+  "prepared_files": [
+    {
+      "archive_relative_path": "files/gct-usb4105.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/gct-usb4105.pdf",
+      "original_path": "build/bom-review-r3/interconnect/reference/gct-usb4105.pdf",
+      "sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+      "size_bytes": 164547
+    },
+    {
+      "archive_relative_path": "files/90-0031.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/90-0031.pdf",
+      "original_path": "build/bom-review-r3/audio_epd/90-0031.pdf",
+      "sha256": "5661318725986f79e664adb5fd24d80c2b444c1d48d3aa4c1b0d51ebfa53f4c8",
+      "size_bytes": 23409
+    },
+    {
+      "archive_relative_path": "files/max17048-package.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/max17048-package.pdf",
+      "original_path": "build/bom-review-r3/power/max17048-package.pdf",
+      "sha256": "01e449022cf1c5e20834fcf2c3587e6a8725e707eed1caa000f095e891be9b0f",
+      "size_bytes": 234587
+    },
+    {
+      "archive_relative_path": "files/omron-b3f.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/omron-b3f.pdf",
+      "original_path": "build/bom-review-r3/root/reference/omron-b3f.pdf",
+      "sha256": "be9cf69e5f43fb7689448a2097c19858e5643c0e2e49cd77d018881543e27a1f",
+      "size_bytes": 711882
+    },
+    {
+      "archive_relative_path": "files/max17048-pin2571d.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/max17048-pin2571d.pdf",
+      "original_path": "build/bom-review-r3/power/max17048-pin2571d.pdf",
+      "sha256": "1cc9251679ccd22f460387b5ef42d80d346f6252c54a7cc534b9bc7292822e9a",
+      "size_bytes": 284947
+    },
+    {
+      "archive_relative_path": "files/aos-sot23-package.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/aos-sot23-package.pdf",
+      "original_path": "build/bom-review-r3/power/aos-sot23-package.pdf",
+      "sha256": "b6fac64d55f133ce74dd85ddddc618c3d5408e9531cb21e660f6a8ef3d8c5408",
+      "size_bytes": 276341
+    },
+    {
+      "archive_relative_path": "files/aos-do214ac.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/aos-do214ac.pdf",
+      "original_path": "build/bom-review-r3/power/aos-do214ac.pdf",
+      "sha256": "d35e43dfc6d190cb8df52914ce3efee545ddd9cb62a61064f9ad01cdbd5914f0",
+      "size_bytes": 282630
+    },
+    {
+      "archive_relative_path": "files/bourns-crf-j.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/bourns-crf-j.pdf",
+      "original_path": "build/bom-review-r3/power/bourns-crf-j.pdf",
+      "sha256": "9402c1c5eb28c02fb3e9f3993095ae4390c30939ba55d41b73fa3dc7010f0693",
+      "size_bytes": 546786
+    },
+    {
+      "archive_relative_path": "files/coilcraft-xfl4015.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/coilcraft-xfl4015.pdf",
+      "original_path": "build/bom-review-r3/power/coilcraft-xfl4015.pdf",
+      "sha256": "6535ab70d0ef65ba03d4b0800e206fc7867f26464e2d9dfd5dd931a2bcb0c7c1",
+      "size_bytes": 199218
+    },
+    {
+      "archive_relative_path": "files/mbr0530t1.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/mbr0530t1.pdf",
+      "original_path": "build/bom-review-r3/audio_epd/mbr0530t1.pdf",
+      "sha256": "31f5f2f63cc79d4ec9d4146ee71bb16d50c17701eb35a2c7e4a03bdf89cbc457",
+      "size_bytes": 195242
+    },
+    {
+      "archive_relative_path": "files/vishay-dcrcwe3.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/vishay-dcrcwe3.pdf",
+      "original_path": "build/bom-review-r3/root/reference/vishay-dcrcwe3.pdf",
+      "sha256": "170da9602c7606b91255f7881c1ec54b1372300b6b9ddd02ef100fa73f022c04",
+      "size_bytes": 150402
+    },
+    {
+      "archive_relative_path": "files/sc70-land.pdf",
+      "intended_repository_path": "hardware/reference/bom-r3/files/sc70-land.pdf",
+      "original_path": "build/bom-review-r3/audio_epd/sc70-land.pdf",
+      "sha256": "814d4ccc7b04f1451110f2c39e63484c56ddcbe9522282afed2ca0d366717c77",
+      "size_bytes": 30503
+    }
+  ],
+  "sources": [
+    {
+      "urls": [
+        "https://api.puiaudio.com/filename/DMM-4026-B-I2S-R.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/peripherals/DMM-4026-B-I2S-R.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U803"
+          ],
+          "manufacturer": "PUI Audio",
+          "mpn": "DMM-4026-B-I2S-R",
+          "status": "blocked_mechanical",
+          "evidence": [
+            "Vendor drawing shows 4.0x3.0x1.0mm body,seven pads; six signal lands0.6x0.4mm,column pitch2.15mm,row pitch0.65mm;GND annulus outer1.65/inner1.05mm.",
+            "Device bottom acoustic port diameter0.25+-0.05mm is specified, but PCB acoustic drill diameter is not. The microphone port must not be copied as PCB drill.",
+            "Pinmap1LR,2CONFIG,3VDD,4GND,5WS,6SCK,7SD; bottom-view drawing requires explicit mirror to PCB top-view."
+          ]
+        }
+      ],
+      "revisions": [
+        "Rev A; 2021-05-26"
+      ],
+      "access_notes": [
+        "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02."
+      ],
+      "origin_domain": {
+        "hostname": "api.puiaudio.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/peripherals/DMM-4026-B-I2S-R.pdf",
+          "sha256": "ce42c9bf03b671cd6e7e95a4bfc414a9ffbd61747dbe4c76220ce650535f1a19",
+          "size_bytes": 965628,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/peripherals/DMM-4026-B-I2S-R.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_d0fc44ec5d87"
+    },
+    {
+      "urls": [
+        "https://assets.nexperia.com/documents/data-sheet/74LVC125A.pdf"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U801"
+          ],
+          "manufacturer": "Nexperia",
+          "mpn": "74LVC125APW,118",
+          "status": "pass_candidate_geometry",
+          "evidence": [
+            "Exact PW package SOT402-1:TSSOP14,5x4.4mm body,0.65mm pitch,max height1.2mm. Standard footprint count/pitch/body matches.",
+            "Official Nexperia product Production; retain Nexperia exact ,118 orderable code and Ioff requirements."
+          ]
+        }
+      ],
+      "revisions": [
+        "Rev 12; 2025-05-02"
+      ],
+      "access_notes": [
+        "Official PDF fully extracted by web tool. Local downloads (urllib/curl, assets and www URLs) returned HTTP403; no local PDF/hash fabricated."
+      ],
+      "origin_domain": {
+        "hostname": "assets.nexperia.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_5e918e06609a"
+    },
+    {
+      "urls": [
+        "https://assets.nexperia.com/documents/package-information/SOT402-1.pdf"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "SOT402-1 TSSOP14, 5x4.4mm,0.65mm pitch,1.2mm max; drawing 7-Nov-2023; direct download denied HTTP403, web PDF text inspected"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U801"
+          ],
+          "manufacturer": "Nexperia",
+          "mpn": "74LVC125APW,118",
+          "status": "pass_candidate_geometry",
+          "evidence": [
+            "Exact PW package SOT402-1:TSSOP14,5x4.4mm body,0.65mm pitch,max height1.2mm. Standard footprint count/pitch/body matches.",
+            "Official Nexperia product Production; retain Nexperia exact ,118 orderable code and Ioff requirements."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "assets.nexperia.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_5572caeb4e27"
+    },
+    {
+      "urls": [
+        "https://gct.co/connector/usb4105"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J501"
+          ],
+          "manufacturer": "Global Connector Technology (GCT)",
+          "mpn": "USB4105-GF-A",
+          "status": "candidate_vendor_drawing_reviewed",
+          "notes": [
+            "Original GCT USB4105 drawing B4 dated18/12/23 downloaded from official URL and page1 visually reviewed. Product page now labels family Active; exact purchased lot/revision and price remain procurement checks.",
+            "16 logical USB contacts occupy12 physical SMT lands: A1/B12,A4/B9,A9/B4,A12/B1 share four wider lands; other8 contacts separate. This matches current stacked schematic pads; all power/GND pairs have same net. D+ A6/B6 and D- A7/B7 remain separate physical lands joined by PCB. A8/B8 SBU remainNC. FourSH stakes are ground.",
+            "Checked standard footprint: wide lands0.60x1.15mm, narrow0.30x1.15mm; data positions0.50mm pitch, wide outer centers6.40mm span; NPTH2x0.65mm at5.78mm span;4SH with0.6x1.7/1.4mm slots and1.0x2.1/1.8mm lands,8.64mm across,4.18mm front/back spacing. Matches drawing.",
+            "GF selects gold flash; blank stake suffix is0.95mm. Default PCB thickness, mechanical housing/edge and pin-in-paste or hand solder process must be checked. Board uses5V USB2 device only; connector48V/5A rating does not addPD capability or authorize higher input current."
+          ],
+          "lifecycle": "Official product page Active on2026-11-02; no stock/price or lowest-cost claim.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "gct.co",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_6b2993dcb4fa"
+    },
+    {
+      "urls": [
+        "https://gct.co/download?name=USB4105.pdf&type=PDFDrawing"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/interconnect/reference/gct-usb4105.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/interconnect/reference/download.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J501"
+          ],
+          "manufacturer": "Global Connector Technology (GCT)",
+          "mpn": "USB4105-GF-A",
+          "status": "candidate_vendor_drawing_reviewed",
+          "notes": [
+            "Original GCT USB4105 drawing B4 dated18/12/23 downloaded from official URL and page1 visually reviewed. Product page now labels family Active; exact purchased lot/revision and price remain procurement checks.",
+            "16 logical USB contacts occupy12 physical SMT lands: A1/B12,A4/B9,A9/B4,A12/B1 share four wider lands; other8 contacts separate. This matches current stacked schematic pads; all power/GND pairs have same net. D+ A6/B6 and D- A7/B7 remain separate physical lands joined by PCB. A8/B8 SBU remainNC. FourSH stakes are ground.",
+            "Checked standard footprint: wide lands0.60x1.15mm, narrow0.30x1.15mm; data positions0.50mm pitch, wide outer centers6.40mm span; NPTH2x0.65mm at5.78mm span;4SH with0.6x1.7/1.4mm slots and1.0x2.1/1.8mm lands,8.64mm across,4.18mm front/back spacing. Matches drawing.",
+            "GF selects gold flash; blank stake suffix is0.95mm. Default PCB thickness, mechanical housing/edge and pin-in-paste or hand solder process must be checked. Board uses5V USB2 device only; connector48V/5A rating does not addPD capability or authorize higher input current."
+          ],
+          "lifecycle": "Official product page Active on2026-11-02; no stock/price or lowest-cost claim.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "HTTP Error 403: Forbidden"
+      ],
+      "origin_domain": {
+        "hostname": "gct.co",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/interconnect/reference/gct-usb4105.pdf",
+          "sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+          "size_bytes": 164547,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/gct-usb4105.pdf",
+          "local_path": "hardware/reference/bom-r3/files/gct-usb4105.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_450ba36d1c78"
+    },
+    {
+      "urls": [
+        "https://gct.co/files/drawings/usb4105.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/interconnect/reference/gct-usb4105.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/interconnect/reference/gct-usb4105.pdf.source.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J501"
+          ],
+          "manufacturer": "Global Connector Technology (GCT)",
+          "mpn": "USB4105-GF-A",
+          "status": "candidate_vendor_drawing_reviewed",
+          "notes": [
+            "Original GCT USB4105 drawing B4 dated18/12/23 downloaded from official URL and page1 visually reviewed. Product page now labels family Active; exact purchased lot/revision and price remain procurement checks.",
+            "16 logical USB contacts occupy12 physical SMT lands: A1/B12,A4/B9,A9/B4,A12/B1 share four wider lands; other8 contacts separate. This matches current stacked schematic pads; all power/GND pairs have same net. D+ A6/B6 and D- A7/B7 remain separate physical lands joined by PCB. A8/B8 SBU remainNC. FourSH stakes are ground.",
+            "Checked standard footprint: wide lands0.60x1.15mm, narrow0.30x1.15mm; data positions0.50mm pitch, wide outer centers6.40mm span; NPTH2x0.65mm at5.78mm span;4SH with0.6x1.7/1.4mm slots and1.0x2.1/1.8mm lands,8.64mm across,4.18mm front/back spacing. Matches drawing.",
+            "GF selects gold flash; blank stake suffix is0.95mm. Default PCB thickness, mechanical housing/edge and pin-in-paste or hand solder process must be checked. Board uses5V USB2 device only; connector48V/5A rating does not addPD capability or authorize higher input current."
+          ],
+          "lifecycle": "Official product page Active on2026-11-02; no stock/price or lowest-cost claim.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "gct.co",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/interconnect/reference/gct-usb4105.pdf",
+          "sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+          "size_bytes": 164547,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/gct-usb4105.pdf",
+          "local_path": "hardware/reference/bom-r3/files/gct-usb4105.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_a839f8bc202f"
+    },
+    {
+      "urls": [
+        "https://mds.analog.com/api/public/content/90-0031.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/audio_epd/90-0031.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U802"
+          ],
+          "manufacturer": "Analog Devices / Maxim Integrated",
+          "mpn": "MAX98357AETE+T",
+          "status": "custom_vendor_land_pattern_prepared",
+          "evidence": [
+            "Rev16 package table maps ETE 16TQFN to T1633+4,outline21-0136,land90-0031. +4 physical exposed pad D2/E2 range0.95..1.25mm; nominal1.10mm. Land EP1.23mm is correct.",
+            "Existing KiCad generic footprint cites T1633+5/90-0032. It has correct17-pad numbering and1.23mm EP; it must not be called an EP size/pin-map failure.",
+            "New scratch candidate uses actual90-0031 RevC:0.8x0.3mm perimeter lands,0.5mm pitch,2.85mm opposing center spacing,1.23x1.23mm EP17. Native pcbnew parser checked all17 numbered pad dimensions.",
+            "ADI product PRODUCTION."
+          ]
+        }
+      ],
+      "revisions": [
+        "Rev C"
+      ],
+      "access_notes": [
+        "Downloaded original manufacturer PDF; visually inspected land pattern/package drawings"
+      ],
+      "origin_domain": {
+        "hostname": "mds.analog.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/audio_epd/90-0031.pdf",
+          "sha256": "5661318725986f79e664adb5fd24d80c2b444c1d48d3aa4c1b0d51ebfa53f4c8",
+          "size_bytes": 23409,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/90-0031.pdf",
+          "local_path": "hardware/reference/bom-r3/files/90-0031.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_8199474da361"
+    },
+    {
+      "urls": [
+        "https://mds.analog.com/api/public/content/tdfn-cu_21-0168.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/power/max17048-package.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U203"
+          ],
+          "manufacturer": "Analog Devices / Maxim Integrated",
+          "mpn": "MAX17048G+T10",
+          "status": "retain-package-matched-candidate",
+          "notes": [
+            "MAX17048G+ is tube-pack alternative. T822+3 package2x2mm,pitch0.5mm,EP0.8x1.2mm matches current footprint; EP9 is GND in XML.",
+            "Existing peripheral pad numbering1–4 left,5–8 right matches top view. Four existing paste windows total64% of EP area; assembly stencil needs process approval.",
+            "2026 PIN2571D concerns non-drypack reel shipping material; vendor says no fit/form/function change. It is not an electrical erratum."
+          ],
+          "lifecycle": {
+            "status": "PRODUCTION",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.analog.com/en/products/max17048.html",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "21-0168 T822+3"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "mds.analog.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/power/max17048-package.pdf",
+          "sha256": "01e449022cf1c5e20834fcf2c3587e6a8725e707eed1caa000f095e891be9b0f",
+          "size_bytes": 234587,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/max17048-package.pdf",
+          "local_path": "hardware/reference/bom-r3/files/max17048-package.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_5b15995c3a36"
+    },
+    {
+      "urls": [
+        "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/root/reference/omron-b3f.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/root/reference/sources.json",
+        "build/bom-review-r3/root/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "SW301"
+          ],
+          "manufacturer": "Omron",
+          "mpn": "B3F-1002-G",
+          "status": "需实测",
+          "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "SW302"
+          ],
+          "manufacturer": "Omron",
+          "mpn": "B3F-1002-G",
+          "status": "需实测",
+          "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "SW303"
+          ],
+          "manufacturer": "Omron",
+          "mpn": "B3F-1002-G",
+          "status": "需实测",
+          "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "SW304"
+          ],
+          "manufacturer": "Omron",
+          "mpn": "B3F-1002-G",
+          "status": "需实测",
+          "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "SW305"
+          ],
+          "manufacturer": "Omron",
+          "mpn": "B3F-1002-G",
+          "status": "需实测",
+          "notes": "开发板采用6×6mm直插镀金触点候选。孔距6.5×4.5mm，库1/2各复用两焊盘；厂家3/4同组、1/2同组。47k按键约70µA低于100µA额定档但高于10µA@1V参考最小负载，需低电流接触可靠性验证。EN/BOOT约330µA。",
+          "scope": "root"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "omronfs.omron.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/root/reference/omron-b3f.pdf",
+          "sha256": "be9cf69e5f43fb7689448a2097c19858e5643c0e2e49cd77d018881543e27a1f",
+          "size_bytes": 711882,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/omron-b3f.pdf",
+          "local_path": "hardware/reference/bom-r3/files/omron-b3f.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_bcebae8f85f4"
+    },
+    {
+      "urls": [
+        "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/review.json",
+        "Parent /root official-source review, 2026-11-02"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "C203"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C204"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C302"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C503"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C416"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C417"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C611"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C612"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C701"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C703"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C705"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C801"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C802"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C804"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C806"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "C808"
+          ],
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "规格候选",
+          "notes": "100nF/50V/X7R/±10%/0603候选，厚0.8±0.1mm；覆盖图纸10V或16V要求。2026-11-02原厂状态Production，价格库存未查。原Murata候选将停产，未选用。",
+          "scope": "root"
+        },
+        {
+          "manufacturer": "TDK",
+          "mpn": "C1608X7R1H104K080AA",
+          "status": "selected_candidate",
+          "purpose": "100nF50V+-10%X7R0603,height0.8+-0.1mm; official Production observed by parent"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only official product-page evidence supplied by parent review; no original PDF downloaded."
+      ],
+      "origin_domain": {
+        "hostname": "product.tdk.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_40c18f7aa083"
+    },
+    {
+      "urls": [
+        "https://puiaudio.com/product/microphones/dmm-4026-b-i2s-r"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "Public catalog entry; explicit lifecycle/supply commitment not observed"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U803"
+          ],
+          "manufacturer": "PUI Audio",
+          "mpn": "DMM-4026-B-I2S-R",
+          "status": "blocked_mechanical",
+          "evidence": [
+            "Vendor drawing shows 4.0x3.0x1.0mm body,seven pads; six signal lands0.6x0.4mm,column pitch2.15mm,row pitch0.65mm;GND annulus outer1.65/inner1.05mm.",
+            "Device bottom acoustic port diameter0.25+-0.05mm is specified, but PCB acoustic drill diameter is not. The microphone port must not be copied as PCB drill.",
+            "Pinmap1LR,2CONFIG,3VDD,4GND,5WS,6SCK,7SD; bottom-view drawing requires explicit mirror to PCB top-view."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "puiaudio.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_8ec200bf2de9"
+    },
+    {
+      "urls": [
+        "https://support.hirose.com/en/support/solutions/articles/68000029780-what-is-the-difference-between-dm3at-sf-pejm5-and-dm3at-sf-pejm5-40-"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J701"
+          ],
+          "manufacturer": "Hirose Electric",
+          "mpn": "DM3AT-SF-PEJM5",
+          "status": "retain_existing_candidate_mechanical_gate",
+          "notes": [
+            "Official product page:0.5A,1.1mm contact pitch,1.68mm height,10000cycles; catalog and2D drawing identify push-push mechanism. Standard KiCad description says push-pull, a metadata discrepancy; do not plan a pull-only enclosure.",
+            "Eight signal pad names and1.1mm pitch agree with primary catalog; KiCad9/10 represent the nonpolar card-detection pair, not official numerical pins.4SH onGND. Existing geometry: signal lands0.7x1.2mm; detect pad9 at(-5.875,-7.725),pad10(-6.825,2.775),relative footprint coordinates.",
+            "New official6-page2D PDF EDC-325165-00-00(2024-09-02) is accessible to web text extraction; local original download remainedHTTP403, and rendered images were not exposed to this tool. Therefore exact A/B physical association,4SH mounting positions and all keepout geometry are NOT claimed visually approved. Keep previous candidate footprint, no replacement assignment.",
+            "Catalog states no-cardOPEN/insertedCLOSED and no-conductive-trace regions; nominal card overstroke/lock/eject positions16.75/17.55/21.55mm must be accommodated. Mechanical template/sample fit remains required.",
+            "Official Hirose FAQ says suffix(40) changes reel quantity400 versus1500 only; do not infer equivalence of other suffixes such as(11)/(26)/(42)."
+          ],
+          "lifecycle": "Official product currently listed; procurement availability not established.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "support.hirose.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_312ad1a24341"
+    },
+    {
+      "urls": [
+        "https://v4.cecdn.yun300.cn/100001_1909185147/GDEY075T7-T01-CAD.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/good-display/GDEY075T7-T01-CAD.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J601"
+          ],
+          "status": "mechanical_fit_unresolved",
+          "notes": [
+            "Legacy FPC1 is explicitly HYCW3D-05FPC24-200B in the archived source. Prioritize obtaining this exact part drawing or measuring the known working assembly; existing project fit evidence is more relevant than assuming a new FH12. The legacy annotation HYCWD3D-056FPC22-200B(26PIN) is erroneous and must not replace the actual24-contact property.",
+            "Reused GDEY075T7-T01 FPC has24contacts at0.50mm,tip width12.50±0.1mm,first-to-last span11.50±0.05mm and0.30±0.03mm thickness; visible front drawing shows pin1left/pin24right. Contacts andPI stiffener are on opposite faces.",
+            "Cannot freeze an arbitrary24pos0.5mm0.3mm connector: actual insertion direction,which board face,the pin1 orientation after folding,tip/contact/stiffener lengths and assembly clearance matter.",
+            "Common bottom-contact Hirose FH12-24S-0.5SH(55) matches count/pitch/nominal thickness but its official recommended FPC calls for3.5mm min uncovered length and4.5mm min stiffener; the panel CAD exposes a3.20±0.2mm end dimension. This is a fit concern requiring dimension interpretation/sample or manufacturer matching; do not label FH12 proven compatible. No candidate is assigned merely by pitch.",
+            "A top-contact or dual-contact connector may avoid a forced cable flip, but still needs complete mechanical comparison. EPD24 signals exclude mechanical hold-down pads."
+          ],
+          "lifecycle": "No selected connector; lifecycle not applicable.",
+          "scope": "interconnect"
+        },
+        {
+          "refs": [
+            "J406"
+          ],
+          "status": "mechanical_fit_unresolved",
+          "notes": [
+            "Legacy FPC2 is explicitly LAIL-FPC-CDX01-6P0.5-GW, with6signals plus2hold-downs. Retain this known working-project candidate while obtaining its original mechanical drawing/sample; FH12 is only a comparison, not the sole known option.",
+            "TP075-Y01 has6contacts,0.50mm pitch,3.50±0.1mm tip width,2.50mm first-to-last span,0.30±0.03mm contact thickness. Its front view shows pin6left/pin1right, opposite theEPDfront-view numbering direction.",
+            "Symbol1GND2VCC3RST4INT5SDA6SCL matches panel table. Connector contact face,complete insertion/stiffener dimensions and actual cable fold must be selected before footprint; do not mirror pin numbering just to make routing convenient.",
+            "Hirose FH12-6S-0.5SH(55) is a documented0.5mm,0.3mm,bottom-contact comparison candidate with a standard KiCad footprint, but compatibility is not closed by those two dimensions. A matched24pinconnector does not automatically establish this6pinpart."
+          ],
+          "lifecycle": "No selected connector; lifecycle not applicable.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "v4.cecdn.yun300.cn",
+        "classification": "manufacturer_linked_cdn",
+        "note": "Good Display official product linked CDN; source provenance in hardware/reference/good-display/sources.json"
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/good-display/GDEY075T7-T01-CAD.pdf",
+          "sha256": "65b84cb5820b65d45fc857ef9f09c232c800a4a7d7f8acef2db0f9df1ad116d4",
+          "size_bytes": 371929,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/good-display/GDEY075T7-T01-CAD.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_ec2a2cada49d"
+    },
+    {
+      "urls": [
+        "https://v4.cecdn.yun300.cn/100001_1909185147/TP075-Y01.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/good-display/TP075-Y01.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J406"
+          ],
+          "status": "mechanical_fit_unresolved",
+          "notes": [
+            "Legacy FPC2 is explicitly LAIL-FPC-CDX01-6P0.5-GW, with6signals plus2hold-downs. Retain this known working-project candidate while obtaining its original mechanical drawing/sample; FH12 is only a comparison, not the sole known option.",
+            "TP075-Y01 has6contacts,0.50mm pitch,3.50±0.1mm tip width,2.50mm first-to-last span,0.30±0.03mm contact thickness. Its front view shows pin6left/pin1right, opposite theEPDfront-view numbering direction.",
+            "Symbol1GND2VCC3RST4INT5SDA6SCL matches panel table. Connector contact face,complete insertion/stiffener dimensions and actual cable fold must be selected before footprint; do not mirror pin numbering just to make routing convenient.",
+            "Hirose FH12-6S-0.5SH(55) is a documented0.5mm,0.3mm,bottom-contact comparison candidate with a standard KiCad footprint, but compatibility is not closed by those two dimensions. A matched24pinconnector does not automatically establish this6pinpart."
+          ],
+          "lifecycle": "No selected connector; lifecycle not applicable.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "v4.cecdn.yun300.cn",
+        "classification": "manufacturer_linked_cdn",
+        "note": "Good Display official product linked CDN; source provenance in hardware/reference/good-display/sources.json"
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/good-display/TP075-Y01.pdf",
+          "sha256": "c39473ed565138f764fa5693ad550fde227d1b7f7171840084d2ba58fe3a5518",
+          "size_bytes": 58909,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/good-display/TP075-Y01.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_d997edff63b2"
+    },
+    {
+      "urls": [
+        "https://www.analog.com/en/products/max17048.html"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U203"
+          ],
+          "manufacturer": "Analog Devices / Maxim Integrated",
+          "mpn": "MAX17048G+T10",
+          "status": "retain-package-matched-candidate",
+          "notes": [
+            "MAX17048G+ is tube-pack alternative. T822+3 package2x2mm,pitch0.5mm,EP0.8x1.2mm matches current footprint; EP9 is GND in XML.",
+            "Existing peripheral pad numbering1–4 left,5–8 right matches top view. Four existing paste windows total64% of EP area; assembly stencil needs process approval.",
+            "2026 PIN2571D concerns non-drypack reel shipping material; vendor says no fit/form/function change. It is not an electrical erratum."
+          ],
+          "lifecycle": {
+            "status": "PRODUCTION",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.analog.com/en/products/max17048.html",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.analog.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_76cdd4087baf"
+    },
+    {
+      "urls": [
+        "https://www.analog.com/en/products/max98357a.html"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "PRODUCTION observed"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U802"
+          ],
+          "manufacturer": "Analog Devices / Maxim Integrated",
+          "mpn": "MAX98357AETE+T",
+          "status": "custom_vendor_land_pattern_prepared",
+          "evidence": [
+            "Rev16 package table maps ETE 16TQFN to T1633+4,outline21-0136,land90-0031. +4 physical exposed pad D2/E2 range0.95..1.25mm; nominal1.10mm. Land EP1.23mm is correct.",
+            "Existing KiCad generic footprint cites T1633+5/90-0032. It has correct17-pad numbering and1.23mm EP; it must not be called an EP size/pin-map failure.",
+            "New scratch candidate uses actual90-0031 RevC:0.8x0.3mm perimeter lands,0.5mm pitch,2.85mm opposing center spacing,1.23x1.23mm EP17. Native pcbnew parser checked all17 numbered pad dimensions.",
+            "ADI product PRODUCTION."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.analog.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_e8eb946955f2"
+    },
+    {
+      "urls": [
+        "https://www.analog.com/media/en/pcn/pcn_2571d.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/power/max17048-pin2571d.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U203"
+          ],
+          "manufacturer": "Analog Devices / Maxim Integrated",
+          "mpn": "MAX17048G+T10",
+          "status": "retain-package-matched-candidate",
+          "notes": [
+            "MAX17048G+ is tube-pack alternative. T822+3 package2x2mm,pitch0.5mm,EP0.8x1.2mm matches current footprint; EP9 is GND in XML.",
+            "Existing peripheral pad numbering1–4 left,5–8 right matches top view. Four existing paste windows total64% of EP area; assembly stencil needs process approval.",
+            "2026 PIN2571D concerns non-drypack reel shipping material; vendor says no fit/form/function change. It is not an electrical erratum."
+          ],
+          "lifecycle": {
+            "status": "PRODUCTION",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.analog.com/en/products/max17048.html",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "PIN2571D, 2026"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.analog.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/power/max17048-pin2571d.pdf",
+          "sha256": "1cc9251679ccd22f460387b5ef42d80d346f6252c54a7cc534b9bc7292822e9a",
+          "size_bytes": 284947,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/max17048-pin2571d.pdf",
+          "local_path": "hardware/reference/bom-r3/files/max17048-pin2571d.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_c719e7c3adb1"
+    },
+    {
+      "urls": [
+        "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/power/max17048.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U203"
+          ],
+          "manufacturer": "Analog Devices / Maxim Integrated",
+          "mpn": "MAX17048G+T10",
+          "status": "retain-package-matched-candidate",
+          "notes": [
+            "MAX17048G+ is tube-pack alternative. T822+3 package2x2mm,pitch0.5mm,EP0.8x1.2mm matches current footprint; EP9 is GND in XML.",
+            "Existing peripheral pad numbering1–4 left,5–8 right matches top view. Four existing paste windows total64% of EP area; assembly stencil needs process approval.",
+            "2026 PIN2571D concerns non-drypack reel shipping material; vendor says no fit/form/function change. It is not an electrical erratum."
+          ],
+          "lifecycle": {
+            "status": "PRODUCTION",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.analog.com/en/products/max17048.html",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "19-6171; Rev 7; 2016-11"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.analog.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/power/max17048.pdf",
+          "sha256": "70dc8eef0e012276dcdc58b6dce64af08258304bcf865ceace64e856b8029330",
+          "size_bytes": 1109267,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/power/max17048.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_be34230092be"
+    },
+    {
+      "urls": [
+        "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/power/max98357a.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U802"
+          ],
+          "manufacturer": "Analog Devices / Maxim Integrated",
+          "mpn": "MAX98357AETE+T",
+          "status": "custom_vendor_land_pattern_prepared",
+          "evidence": [
+            "Rev16 package table maps ETE 16TQFN to T1633+4,outline21-0136,land90-0031. +4 physical exposed pad D2/E2 range0.95..1.25mm; nominal1.10mm. Land EP1.23mm is correct.",
+            "Existing KiCad generic footprint cites T1633+5/90-0032. It has correct17-pad numbering and1.23mm EP; it must not be called an EP size/pin-map failure.",
+            "New scratch candidate uses actual90-0031 RevC:0.8x0.3mm perimeter lands,0.5mm pitch,2.85mm opposing center spacing,1.23x1.23mm EP17. Native pcbnew parser checked all17 numbered pad dimensions.",
+            "ADI product PRODUCTION."
+          ]
+        }
+      ],
+      "revisions": [
+        "19-6779 Rev16 February2026"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.analog.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/power/max98357a.pdf",
+          "sha256": "dea228ad619901d34c2f5f106243bdb9b9e95e38989d4d66fd6c6c489bfa6f1c",
+          "size_bytes": 3933655,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/power/max98357a.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_3ae334f174df"
+    },
+    {
+      "urls": [
+        "https://www.aosmd.com/products/mosfets/low-voltage-mosfets-12v-30v/ao3400a"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "Q101",
+            "Q201"
+          ],
+          "manufacturer": "Alpha and Omega Semiconductor",
+          "mpn": "AO3400A",
+          "status": "candidate-vendor-land-verified",
+          "notes": [
+            "Use actual AO3400A SOT23 PO-00001 N, not the different SOT23A drawing. Pins1G/2S/3D agree with actual XML.",
+            "Vendor body1.6x2.9mm, lead pitch0.95mm; exact recommended pads0.8mm square, opposite row centres2.4mm. Existing generic KiCad SOT-23 pin map was correct, with different land geometry.",
+            "30V VDS and±12V VGS cover the low-current control use; the datasheet current headline is not used to rate board power."
+          ],
+          "lifecycle": {
+            "status": "Full Production",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.aosmd.com/products/mosfets/low-voltage-mosfets-12v-30v/ao3400a",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.aosmd.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_a3bc562b0e29"
+    },
+    {
+      "urls": [
+        "https://www.aosmd.com/products/tvs/high-power-tvs/smaj60a"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "D501"
+          ],
+          "manufacturer": "Alpha and Omega Semiconductor",
+          "mpn": "SMAJ6.0A",
+          "status": "retain-vendor-envelope-matched-candidate",
+          "notes": [
+            "DO-214AC PO-00355C recommends pad width≥1.8mm,pad length≥2.1mm,innergap≤2.3mm. Existing2.5x1.8mm pads at±2mm yield1.5mm gap and meet these bounds.",
+            "Pad1 is cathode atUSB_5V_PROTECTED, pad2GND; unidirectional A suffix is required.",
+            "6V stand-off; clamp10.3V at38.8A10/1000µs. It does not hold VBUS to6V under surge, and is not sustained overvoltage protection."
+          ],
+          "lifecycle": {
+            "status": "Full Production",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.aosmd.com/products/tvs/high-power-tvs/smaj60a",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.aosmd.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_bca4d58bba22"
+    },
+    {
+      "urls": [
+        "https://www.aosmd.com/sites/default/files/res/data_sheets/AO3400A.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/power/ao3400a.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "Q101",
+            "Q201"
+          ],
+          "manufacturer": "Alpha and Omega Semiconductor",
+          "mpn": "AO3400A",
+          "status": "candidate-vendor-land-verified",
+          "notes": [
+            "Use actual AO3400A SOT23 PO-00001 N, not the different SOT23A drawing. Pins1G/2S/3D agree with actual XML.",
+            "Vendor body1.6x2.9mm, lead pitch0.95mm; exact recommended pads0.8mm square, opposite row centres2.4mm. Existing generic KiCad SOT-23 pin map was correct, with different land geometry.",
+            "30V VDS and±12V VGS cover the low-current control use; the datasheet current headline is not used to rate board power."
+          ],
+          "lifecycle": {
+            "status": "Full Production",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.aosmd.com/products/mosfets/low-voltage-mosfets-12v-30v/ao3400a",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "Rev 3.1: July 2023"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.aosmd.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/power/ao3400a.pdf",
+          "sha256": "9c60d0b6c1ddc7609a4b788a91181468d8ffe6c3e9ba425c3d8ffc5ba88c5033",
+          "size_bytes": 317848,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/power/ao3400a.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_7396496a3fe2"
+    },
+    {
+      "urls": [
+        "https://www.aosmd.com/sites/default/files/res/datasheets/SMAJ6.0A.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/mcu-usb/aos-smaj6.0a.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "D501"
+          ],
+          "manufacturer": "Alpha and Omega Semiconductor",
+          "mpn": "SMAJ6.0A",
+          "status": "retain-vendor-envelope-matched-candidate",
+          "notes": [
+            "DO-214AC PO-00355C recommends pad width≥1.8mm,pad length≥2.1mm,innergap≤2.3mm. Existing2.5x1.8mm pads at±2mm yield1.5mm gap and meet these bounds.",
+            "Pad1 is cathode atUSB_5V_PROTECTED, pad2GND; unidirectional A suffix is required.",
+            "6V stand-off; clamp10.3V at38.8A10/1000µs. It does not hold VBUS to6V under surge, and is not sustained overvoltage protection."
+          ],
+          "lifecycle": {
+            "status": "Full Production",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.aosmd.com/products/tvs/high-power-tvs/smaj60a",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.aosmd.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/mcu-usb/aos-smaj6.0a.pdf",
+          "sha256": "e044fc1ba210bf35155e8e2a6f3d1272c49faa3047c7d38183fe2f79d9cef10d",
+          "size_bytes": 795790,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/mcu-usb/aos-smaj6.0a.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_5135398de9fc"
+    },
+    {
+      "urls": [
+        "https://www.aosmd.com/sites/default/files/res/package/SOT23.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/power/aos-sot23-package.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "Q101",
+            "Q201"
+          ],
+          "manufacturer": "Alpha and Omega Semiconductor",
+          "mpn": "AO3400A",
+          "status": "candidate-vendor-land-verified",
+          "notes": [
+            "Use actual AO3400A SOT23 PO-00001 N, not the different SOT23A drawing. Pins1G/2S/3D agree with actual XML.",
+            "Vendor body1.6x2.9mm, lead pitch0.95mm; exact recommended pads0.8mm square, opposite row centres2.4mm. Existing generic KiCad SOT-23 pin map was correct, with different land geometry.",
+            "30V VDS and±12V VGS cover the low-current control use; the datasheet current headline is not used to rate board power."
+          ],
+          "lifecycle": {
+            "status": "Full Production",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.aosmd.com/products/mosfets/low-voltage-mosfets-12v-30v/ao3400a",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "PO-00001 N"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.aosmd.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/power/aos-sot23-package.pdf",
+          "sha256": "b6fac64d55f133ce74dd85ddddc618c3d5408e9531cb21e660f6a8ef3d8c5408",
+          "size_bytes": 276341,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/aos-sot23-package.pdf",
+          "local_path": "hardware/reference/bom-r3/files/aos-sot23-package.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_c71ea04a9348"
+    },
+    {
+      "urls": [
+        "https://www.aosmd.com/sites/default/files/res/packaging_information/DO-214AC.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/power/aos-do214ac.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "D501"
+          ],
+          "manufacturer": "Alpha and Omega Semiconductor",
+          "mpn": "SMAJ6.0A",
+          "status": "retain-vendor-envelope-matched-candidate",
+          "notes": [
+            "DO-214AC PO-00355C recommends pad width≥1.8mm,pad length≥2.1mm,innergap≤2.3mm. Existing2.5x1.8mm pads at±2mm yield1.5mm gap and meet these bounds.",
+            "Pad1 is cathode atUSB_5V_PROTECTED, pad2GND; unidirectional A suffix is required.",
+            "6V stand-off; clamp10.3V at38.8A10/1000µs. It does not hold VBUS to6V under surge, and is not sustained overvoltage protection."
+          ],
+          "lifecycle": {
+            "status": "Full Production",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.aosmd.com/products/tvs/high-power-tvs/smaj60a",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "PO-00355 C"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.aosmd.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/power/aos-do214ac.pdf",
+          "sha256": "d35e43dfc6d190cb8df52914ce3efee545ddd9cb62a61064f9ad01cdbd5914f0",
+          "size_bytes": 282630,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/aos-do214ac.pdf",
+          "local_path": "hardware/reference/bom-r3/files/aos-do214ac.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_c383036b0f11"
+    },
+    {
+      "urls": [
+        "https://www.bourns.com/docs/product-datasheets/crf-j.pdf?sfvrsn=da3727f6_4"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/power/bourns-crf-j.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "R101",
+            "R102",
+            "R203",
+            "R402",
+            "R405",
+            "R408",
+            "R411",
+            "R414"
+          ],
+          "manufacturer": "Bourns",
+          "mpn": "CRF0805-J/-000ELF",
+          "status": "candidate-vendor-land-verified-board-current-open",
+          "notes": [
+            "Order code follows manufacturer CRF0805-J/-000ELF format, including slash. Metal jumper≤0.2mohm,0.5W@70°C;50A is a component specification only.",
+            "Recommended land1.2x1.4mm per pad,1.1mm gap. Larger dedicated metal jumper reduces measurement-link burden compared with ordinary thick-film0ohm.",
+            "At3A and25°C upper nominal resistance gives≤0.6mV and1.8mW; at5A≤1mV/5mW. Actual solder/copper resistance and high-temperature TCR are additional."
+          ],
+          "lifecycle": {
+            "status": "Current vendor catalogue; no explicit lifecycle status observed",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.bourns.com/docs/product-datasheets/crf-j.pdf?sfvrsn=da3727f6_4",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "01/24"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.bourns.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/power/bourns-crf-j.pdf",
+          "sha256": "9402c1c5eb28c02fb3e9f3993095ae4390c30939ba55d41b73fa3dc7010f0693",
+          "size_bytes": 546786,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/bourns-crf-j.pdf",
+          "local_path": "hardware/reference/bom-r3/files/bourns-crf-j.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_82f4c0e6082e"
+    },
+    {
+      "urls": [
+        "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf?sfvrsn=4a75e5c0_69"
+      ],
+      "original_paths": [
+        "hardware/reference/mcu-usb/bourns-mf-msmf.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "F501"
+          ],
+          "manufacturer": "Bourns",
+          "mpn": "MF-MSMF110/16X-2",
+          "status": "candidate-vendor-land-verified-current-budget-open",
+          "notes": [
+            "The /16X version is Style2. Vendor recommended pads1.68x2.95mm, gap3.10mm, centres4.78mm. Generic Fuse_1812 pads1.125x3.4mm differed; replace with exact candidate.",
+            "16V max; Ihold1.10A and Itrip2.20A at23°C. Ihold falls to0.85A at50°C,0.77A at60°C; total charger+system current must be compared at local board temperature.",
+            "Rmin0.06ohm,R1max0.20ohm; fuse heating/drop cannot be ignored. The -2 suffix selects tape/reel."
+          ],
+          "lifecycle": {
+            "status": "Current vendor catalogue; no explicit lifecycle status observed",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.bourns.com/docs/product-datasheets/mf-msmf.pdf?sfvrsn=4a75e5c0_69",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.bourns.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/mcu-usb/bourns-mf-msmf.pdf",
+          "sha256": "50d80228581842471d563e28ba0f1b67ab095ee95dfac4079f4a49f7f7bbf3c8",
+          "size_bytes": 1327051,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/mcu-usb/bourns-mf-msmf.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_a5a3ec25289e"
+    },
+    {
+      "urls": [
+        "https://www.bourns.com/docs/product-datasheets/srn4018.pdf"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "Rev10/26: SRN4018-100M 10uH20%, DCRmax0.180ohm, Irms1.3A at40C rise, Isat1.4A at30% inductance drop; land pads1.5x3.6mm centers3.05mm; raw download HTTP403, web PDF text inspected"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "L601"
+          ],
+          "manufacturer": "Bourns",
+          "mpn": "SRN4018-100M",
+          "status": "pass_candidate_geometry_rating_target",
+          "evidence": [
+            "Rev10/26:10uH+-20%,Irms1.3A at40C rise,Isat1.4A at30% inductance reduction,DCRmax0.180ohm; fulfills draft >=1A target under those definitions.",
+            "4x4mm body,1.8mm max height; vendor pads1.5x3.6mm with3.05mm center spacing exactly match installed KiCad L_Bourns-SRN4018 copper dimensions."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.bourns.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_4de41e12b974"
+    },
+    {
+      "urls": [
+        "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl4015/xfl4015-471/"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "L201"
+          ],
+          "manufacturer": "Coilcraft",
+          "mpn": "XFL4015-471MEC",
+          "status": "candidate-vendor-land-verified-current-budget-open",
+          "notes": [
+            "TI Table10-2 explicitly lists XFL4015-471ME; exact current order code addsC reel packaging.0.47µH±20%, DCRtyp7.60/max8.36mohm.",
+            "At25°C Isat for10/20/30% inductance drop=3.5/5.4/6.6A. Irms9.1A/11.2A means20/40°C rise under vendor reference conditions, not absolute maximum.",
+            "Current vendor mechanical drawing:4.0±0.3mm square,1.60mm max height; land pads0.98x3.4mm,centre spacing2.37mm. TI old table4x4x2 is not the latest mechanical limit."
+          ],
+          "lifecycle": {
+            "status": "Current vendor catalogue; no explicit lifecycle status observed",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl4015/xfl4015-471/",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.coilcraft.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_9c60486755e4"
+    },
+    {
+      "urls": [
+        "https://www.coilcraft.com/getmedia/84927b8b-f089-421b-a7f4-a0fa23afe908/xfl4015.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/power/coilcraft-xfl4015.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "L201"
+          ],
+          "manufacturer": "Coilcraft",
+          "mpn": "XFL4015-471MEC",
+          "status": "candidate-vendor-land-verified-current-budget-open",
+          "notes": [
+            "TI Table10-2 explicitly lists XFL4015-471ME; exact current order code addsC reel packaging.0.47µH±20%, DCRtyp7.60/max8.36mohm.",
+            "At25°C Isat for10/20/30% inductance drop=3.5/5.4/6.6A. Irms9.1A/11.2A means20/40°C rise under vendor reference conditions, not absolute maximum.",
+            "Current vendor mechanical drawing:4.0±0.3mm square,1.60mm max height; land pads0.98x3.4mm,centre spacing2.37mm. TI old table4x4x2 is not the latest mechanical limit."
+          ],
+          "lifecycle": {
+            "status": "Current vendor catalogue; no explicit lifecycle status observed",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl4015/xfl4015-471/",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "Document769,03/10/26"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.coilcraft.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/power/coilcraft-xfl4015.pdf",
+          "sha256": "6535ab70d0ef65ba03d4b0800e206fc7867f26464e2d9dfd5dd931a2bcb0c7c1",
+          "size_bytes": 199218,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/coilcraft-xfl4015.pdf",
+          "local_path": "hardware/reference/bom-r3/files/coilcraft-xfl4015.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_b8841a1e6f03"
+    },
+    {
+      "urls": [
+        "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/mcu-usb/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U301"
+          ],
+          "manufacturer": "Espressif Systems",
+          "mpn": "ESP32-S3-WROOM-1-N16R8",
+          "status": "reviewed_geometry_process_pending",
+          "notes": [
+            "40 peripheral pads match0.9x1.5mm lands,1.27mm pitch,17.5mm side-row spacing; numbering1..14 left,15..26 bottom,27..40 right is correct in component-side view. N16R8 remains the fixed module, no WROOM-2 change.",
+            "The footprint central pad41 is3.9x3.9mm with12x0.2mm-drill vias and9x0.9mm paste windows. Espressif p45 shows a3.7mm overall9-island copper example; perimeter dimensions and pad41 electrical function match, but central copper/via/stencil are a process choice, not an exact copy of that drawing. Retain existing footprint and review tenting/filling/stencil to prevent solder wicking.",
+            "Antenna courtyard/keepout does not alone implement board placement rules. Prefer antenna beyond base-board edge; otherwise follow official15mm clearance guidance and enclosure RF review."
+          ],
+          "lifecycle": "Current official module product page lists ESP32-S3-WROOM-1 family; no inventory/price guarantee claimed.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [
+        "v1.8; physical pad map Table 3-1"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.espressif.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/mcu-usb/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+          "sha256": "27d71971da07c280c6068d08c74720d1a25b8f20cf8494dc1765bdd28d40d435",
+          "size_bytes": 1280501,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/mcu-usb/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_dbdfd4ddc180"
+    },
+    {
+      "urls": [
+        "https://www.good-display.cn/blank7.html?productId=477"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J601"
+          ],
+          "status": "mechanical_fit_unresolved",
+          "notes": [
+            "Legacy FPC1 is explicitly HYCW3D-05FPC24-200B in the archived source. Prioritize obtaining this exact part drawing or measuring the known working assembly; existing project fit evidence is more relevant than assuming a new FH12. The legacy annotation HYCWD3D-056FPC22-200B(26PIN) is erroneous and must not replace the actual24-contact property.",
+            "Reused GDEY075T7-T01 FPC has24contacts at0.50mm,tip width12.50±0.1mm,first-to-last span11.50±0.05mm and0.30±0.03mm thickness; visible front drawing shows pin1left/pin24right. Contacts andPI stiffener are on opposite faces.",
+            "Cannot freeze an arbitrary24pos0.5mm0.3mm connector: actual insertion direction,which board face,the pin1 orientation after folding,tip/contact/stiffener lengths and assembly clearance matter.",
+            "Common bottom-contact Hirose FH12-24S-0.5SH(55) matches count/pitch/nominal thickness but its official recommended FPC calls for3.5mm min uncovered length and4.5mm min stiffener; the panel CAD exposes a3.20±0.2mm end dimension. This is a fit concern requiring dimension interpretation/sample or manufacturer matching; do not label FH12 proven compatible. No candidate is assigned merely by pitch.",
+            "A top-contact or dual-contact connector may avoid a forced cable flip, but still needs complete mechanical comparison. EPD24 signals exclude mechanical hold-down pads."
+          ],
+          "lifecycle": "No selected connector; lifecycle not applicable.",
+          "scope": "interconnect"
+        },
+        {
+          "refs": [
+            "J406"
+          ],
+          "status": "mechanical_fit_unresolved",
+          "notes": [
+            "Legacy FPC2 is explicitly LAIL-FPC-CDX01-6P0.5-GW, with6signals plus2hold-downs. Retain this known working-project candidate while obtaining its original mechanical drawing/sample; FH12 is only a comparison, not the sole known option.",
+            "TP075-Y01 has6contacts,0.50mm pitch,3.50±0.1mm tip width,2.50mm first-to-last span,0.30±0.03mm contact thickness. Its front view shows pin6left/pin1right, opposite theEPDfront-view numbering direction.",
+            "Symbol1GND2VCC3RST4INT5SDA6SCL matches panel table. Connector contact face,complete insertion/stiffener dimensions and actual cable fold must be selected before footprint; do not mirror pin numbering just to make routing convenient.",
+            "Hirose FH12-6S-0.5SH(55) is a documented0.5mm,0.3mm,bottom-contact comparison candidate with a standard KiCad footprint, but compatibility is not closed by those two dimensions. A matched24pinconnector does not automatically establish this6pinpart."
+          ],
+          "lifecycle": "No selected connector; lifecycle not applicable.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.good-display.cn",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_bbc1bb1a7b0a"
+    },
+    {
+      "urls": [
+        "https://www.hirose.com/en/product/document?clcode=&documentid=D49662_en&documenttype=Catalog&lang=en&productname=&series=DM3"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J701"
+          ],
+          "manufacturer": "Hirose Electric",
+          "mpn": "DM3AT-SF-PEJM5",
+          "status": "retain_existing_candidate_mechanical_gate",
+          "notes": [
+            "Official product page:0.5A,1.1mm contact pitch,1.68mm height,10000cycles; catalog and2D drawing identify push-push mechanism. Standard KiCad description says push-pull, a metadata discrepancy; do not plan a pull-only enclosure.",
+            "Eight signal pad names and1.1mm pitch agree with primary catalog; KiCad9/10 represent the nonpolar card-detection pair, not official numerical pins.4SH onGND. Existing geometry: signal lands0.7x1.2mm; detect pad9 at(-5.875,-7.725),pad10(-6.825,2.775),relative footprint coordinates.",
+            "New official6-page2D PDF EDC-325165-00-00(2024-09-02) is accessible to web text extraction; local original download remainedHTTP403, and rendered images were not exposed to this tool. Therefore exact A/B physical association,4SH mounting positions and all keepout geometry are NOT claimed visually approved. Keep previous candidate footprint, no replacement assignment.",
+            "Catalog states no-cardOPEN/insertedCLOSED and no-conductive-trace regions; nominal card overstroke/lock/eject positions16.75/17.55/21.55mm must be accommodated. Mechanical template/sample fit remains required.",
+            "Official Hirose FAQ says suffix(40) changes reel quantity400 versus1500 only; do not infer equivalence of other suffixes such as(11)/(26)/(42)."
+          ],
+          "lifecycle": "Official product currently listed; procurement availability not established.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.hirose.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_4fc50963ef7c"
+    },
+    {
+      "urls": [
+        "https://www.hirose.com/en/product/p/CL0586-0582-5-55"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J406"
+          ],
+          "status": "mechanical_fit_unresolved",
+          "notes": [
+            "Legacy FPC2 is explicitly LAIL-FPC-CDX01-6P0.5-GW, with6signals plus2hold-downs. Retain this known working-project candidate while obtaining its original mechanical drawing/sample; FH12 is only a comparison, not the sole known option.",
+            "TP075-Y01 has6contacts,0.50mm pitch,3.50±0.1mm tip width,2.50mm first-to-last span,0.30±0.03mm contact thickness. Its front view shows pin6left/pin1right, opposite theEPDfront-view numbering direction.",
+            "Symbol1GND2VCC3RST4INT5SDA6SCL matches panel table. Connector contact face,complete insertion/stiffener dimensions and actual cable fold must be selected before footprint; do not mirror pin numbering just to make routing convenient.",
+            "Hirose FH12-6S-0.5SH(55) is a documented0.5mm,0.3mm,bottom-contact comparison candidate with a standard KiCad footprint, but compatibility is not closed by those two dimensions. A matched24pinconnector does not automatically establish this6pinpart."
+          ],
+          "lifecycle": "No selected connector; lifecycle not applicable.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "comparison candidate only; not assigned"
+      ],
+      "origin_domain": {
+        "hostname": "www.hirose.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_b4efa3374ade"
+    },
+    {
+      "urls": [
+        "https://www.hirose.com/en/product/p/CL0609-0031-0-00"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J701"
+          ],
+          "manufacturer": "Hirose Electric",
+          "mpn": "DM3AT-SF-PEJM5",
+          "status": "retain_existing_candidate_mechanical_gate",
+          "notes": [
+            "Official product page:0.5A,1.1mm contact pitch,1.68mm height,10000cycles; catalog and2D drawing identify push-push mechanism. Standard KiCad description says push-pull, a metadata discrepancy; do not plan a pull-only enclosure.",
+            "Eight signal pad names and1.1mm pitch agree with primary catalog; KiCad9/10 represent the nonpolar card-detection pair, not official numerical pins.4SH onGND. Existing geometry: signal lands0.7x1.2mm; detect pad9 at(-5.875,-7.725),pad10(-6.825,2.775),relative footprint coordinates.",
+            "New official6-page2D PDF EDC-325165-00-00(2024-09-02) is accessible to web text extraction; local original download remainedHTTP403, and rendered images were not exposed to this tool. Therefore exact A/B physical association,4SH mounting positions and all keepout geometry are NOT claimed visually approved. Keep previous candidate footprint, no replacement assignment.",
+            "Catalog states no-cardOPEN/insertedCLOSED and no-conductive-trace regions; nominal card overstroke/lock/eject positions16.75/17.55/21.55mm must be accommodated. Mechanical template/sample fit remains required.",
+            "Official Hirose FAQ says suffix(40) changes reel quantity400 versus1500 only; do not infer equivalence of other suffixes such as(11)/(26)/(42)."
+          ],
+          "lifecycle": "Official product currently listed; procurement availability not established.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.hirose.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_b3ff8c699e9f"
+    },
+    {
+      "urls": [
+        "https://www.hirose.com/en/product/p/CL0609-0031-0-00/documents?path=/api/v1/products/CL0609-0031-0-00/documents/drawing_2d/content?lang%3DEN"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/reference/download.json"
+      ],
+      "uses": [],
+      "revisions": [],
+      "access_notes": [
+        "HTTP Error 403: Forbidden"
+      ],
+      "origin_domain": {
+        "hostname": "www.hirose.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "evidence_scope": "download_attempt_only_no_specification_claim",
+      "id": "BOM_R3_95d18e2b03d6"
+    },
+    {
+      "urls": [
+        "https://www.hirose.com/product/document?clcode=&documentid=D31648_en&documenttype=Catalog&lang=en&productname=&series=FH12"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J601"
+          ],
+          "status": "mechanical_fit_unresolved",
+          "notes": [
+            "Legacy FPC1 is explicitly HYCW3D-05FPC24-200B in the archived source. Prioritize obtaining this exact part drawing or measuring the known working assembly; existing project fit evidence is more relevant than assuming a new FH12. The legacy annotation HYCWD3D-056FPC22-200B(26PIN) is erroneous and must not replace the actual24-contact property.",
+            "Reused GDEY075T7-T01 FPC has24contacts at0.50mm,tip width12.50±0.1mm,first-to-last span11.50±0.05mm and0.30±0.03mm thickness; visible front drawing shows pin1left/pin24right. Contacts andPI stiffener are on opposite faces.",
+            "Cannot freeze an arbitrary24pos0.5mm0.3mm connector: actual insertion direction,which board face,the pin1 orientation after folding,tip/contact/stiffener lengths and assembly clearance matter.",
+            "Common bottom-contact Hirose FH12-24S-0.5SH(55) matches count/pitch/nominal thickness but its official recommended FPC calls for3.5mm min uncovered length and4.5mm min stiffener; the panel CAD exposes a3.20±0.2mm end dimension. This is a fit concern requiring dimension interpretation/sample or manufacturer matching; do not label FH12 proven compatible. No candidate is assigned merely by pitch.",
+            "A top-contact or dual-contact connector may avoid a forced cable flip, but still needs complete mechanical comparison. EPD24 signals exclude mechanical hold-down pads."
+          ],
+          "lifecycle": "No selected connector; lifecycle not applicable.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "FPC uncovered/stiffener length limits; official web extraction only"
+      ],
+      "origin_domain": {
+        "hostname": "www.hirose.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_339f2afada82"
+    },
+    {
+      "urls": [
+        "https://www.hirose.com/product/download/?distributor=chip1&lang=en&num=DM3AT-SF-PEJM5&type=2d"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J701"
+          ],
+          "manufacturer": "Hirose Electric",
+          "mpn": "DM3AT-SF-PEJM5",
+          "status": "retain_existing_candidate_mechanical_gate",
+          "notes": [
+            "Official product page:0.5A,1.1mm contact pitch,1.68mm height,10000cycles; catalog and2D drawing identify push-push mechanism. Standard KiCad description says push-pull, a metadata discrepancy; do not plan a pull-only enclosure.",
+            "Eight signal pad names and1.1mm pitch agree with primary catalog; KiCad9/10 represent the nonpolar card-detection pair, not official numerical pins.4SH onGND. Existing geometry: signal lands0.7x1.2mm; detect pad9 at(-5.875,-7.725),pad10(-6.825,2.775),relative footprint coordinates.",
+            "New official6-page2D PDF EDC-325165-00-00(2024-09-02) is accessible to web text extraction; local original download remainedHTTP403, and rendered images were not exposed to this tool. Therefore exact A/B physical association,4SH mounting positions and all keepout geometry are NOT claimed visually approved. Keep previous candidate footprint, no replacement assignment.",
+            "Catalog states no-cardOPEN/insertedCLOSED and no-conductive-trace regions; nominal card overstroke/lock/eject positions16.75/17.55/21.55mm must be accommodated. Mechanical template/sample fit remains required.",
+            "Official Hirose FAQ says suffix(40) changes reel quantity400 versus1500 only; do not infer equivalence of other suffixes such as(11)/(26)/(42)."
+          ],
+          "lifecycle": "Official product currently listed; procurement availability not established.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "official web extraction only; no original local hash claimed"
+      ],
+      "origin_domain": {
+        "hostname": "www.hirose.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_91ccd70de1f4"
+    },
+    {
+      "urls": [
+        "https://www.hirose.com/product/p/CL0586-0521-0-55"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J601"
+          ],
+          "status": "mechanical_fit_unresolved",
+          "notes": [
+            "Legacy FPC1 is explicitly HYCW3D-05FPC24-200B in the archived source. Prioritize obtaining this exact part drawing or measuring the known working assembly; existing project fit evidence is more relevant than assuming a new FH12. The legacy annotation HYCWD3D-056FPC22-200B(26PIN) is erroneous and must not replace the actual24-contact property.",
+            "Reused GDEY075T7-T01 FPC has24contacts at0.50mm,tip width12.50±0.1mm,first-to-last span11.50±0.05mm and0.30±0.03mm thickness; visible front drawing shows pin1left/pin24right. Contacts andPI stiffener are on opposite faces.",
+            "Cannot freeze an arbitrary24pos0.5mm0.3mm connector: actual insertion direction,which board face,the pin1 orientation after folding,tip/contact/stiffener lengths and assembly clearance matter.",
+            "Common bottom-contact Hirose FH12-24S-0.5SH(55) matches count/pitch/nominal thickness but its official recommended FPC calls for3.5mm min uncovered length and4.5mm min stiffener; the panel CAD exposes a3.20±0.2mm end dimension. This is a fit concern requiring dimension interpretation/sample or manufacturer matching; do not label FH12 proven compatible. No candidate is assigned merely by pitch.",
+            "A top-contact or dual-contact connector may avoid a forced cable flip, but still needs complete mechanical comparison. EPD24 signals exclude mechanical hold-down pads."
+          ],
+          "lifecycle": "No selected connector; lifecycle not applicable.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "FH12 comparison only, NOT selected"
+      ],
+      "origin_domain": {
+        "hostname": "www.hirose.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_b79f43789534"
+    },
+    {
+      "urls": [
+        "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "GRM31CR71H475KA12L 4.7uF50V X7R10%,1206(3216M),max thickness1.8mm; Aug23 2025; no DC-bias curve captured, raw download403, web PDF text inspected"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "C601",
+            "C602",
+            "C604",
+            "C607",
+            "C608",
+            "C609"
+          ],
+          "manufacturer": "Murata (candidate)",
+          "mpn": "GRM31CR71H475KA12L (candidate, not frozen)",
+          "status": "blocked_effective_capacitance",
+          "evidence": [
+            "Current nominal4.7uF/50V0805 has no exact MPN or operating-voltage effective-capacity evidence.",
+            "Concrete larger-body candidate GRM31CR71H475KA12L:4.7uF50V X7R+-10%,1206(3216M),max thickness1.8mm.",
+            "Source retrieved defines nominal specifications, not verified minimum capacitance under actual bias. No numerical derating claim can be justified from available curve evidence."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.murata.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_87eb6f9180d4"
+    },
+    {
+      "urls": [
+        "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM1885C1H472JA01%23"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/reference/murata-sources.json"
+      ],
+      "uses": [],
+      "revisions": [],
+      "access_notes": [
+        "HTTP Error 403: Forbidden"
+      ],
+      "origin_domain": {
+        "hostname": "www.murata.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "evidence_scope": "download_attempt_only_no_specification_claim",
+      "id": "BOM_R3_c912763a90b1"
+    },
+    {
+      "urls": [
+        "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R61A105KA61%23"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/reference/murata-sources.json"
+      ],
+      "uses": [],
+      "revisions": [],
+      "access_notes": [
+        "HTTP Error 403: Forbidden"
+      ],
+      "origin_domain": {
+        "hostname": "www.murata.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "evidence_scope": "download_attempt_only_no_specification_claim",
+      "id": "BOM_R3_42a1b72d10e8"
+    },
+    {
+      "urls": [
+        "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM188R71C104KA01%23"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/reference/murata-sources.json"
+      ],
+      "uses": [],
+      "revisions": [],
+      "access_notes": [
+        "HTTP Error 403: Forbidden"
+      ],
+      "selection_override": "NOT_SELECTED: former 100nF Murata candidate superseded by TDK C1608X7R1H104K080AA per parent 2026-11-02; retain as review provenance only.",
+      "origin_domain": {
+        "hostname": "www.murata.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "evidence_scope": "download_attempt_only_no_specification_claim",
+      "id": "BOM_R3_c5909ffb1757"
+    },
+    {
+      "urls": [
+        "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM21BR61A106KE19%23"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/reference/murata-sources.json"
+      ],
+      "uses": [],
+      "revisions": [],
+      "access_notes": [
+        "HTTP Error 403: Forbidden"
+      ],
+      "origin_domain": {
+        "hostname": "www.murata.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "evidence_scope": "download_attempt_only_no_specification_claim",
+      "id": "BOM_R3_7227e8e96d51"
+    },
+    {
+      "urls": [
+        "https://www.nexperia.com/product/74LVC125APW"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "Production observed; orderable suffix ,118"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U801"
+          ],
+          "manufacturer": "Nexperia",
+          "mpn": "74LVC125APW,118",
+          "status": "pass_candidate_geometry",
+          "evidence": [
+            "Exact PW package SOT402-1:TSSOP14,5x4.4mm body,0.65mm pitch,max height1.2mm. Standard footprint count/pitch/body matches.",
+            "Official Nexperia product Production; retain Nexperia exact ,118 orderable code and Ioff requirements."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.nexperia.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_358d4dbcbf27"
+    },
+    {
+      "urls": [
+        "https://www.onsemi.com/download/data-sheet/pdf/mbr0530-d.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/peripherals/mbr0530.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json"
+      ],
+      "uses": [],
+      "revisions": [
+        "MBR0530/D Rev2, March2019"
+      ],
+      "access_notes": [
+        "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02."
+      ],
+      "origin_domain": {
+        "hostname": "www.onsemi.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/peripherals/mbr0530.pdf",
+          "sha256": "e5faf541bc98e8032192f18e8902883f76fa6aa62d851c0c242c5450d4168929",
+          "size_bytes": 197806,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/peripherals/mbr0530.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_cd1ce24755b1"
+    },
+    {
+      "urls": [
+        "https://www.onsemi.com/download/data-sheet/pdf/mbr0530t1-d.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/audio_epd/mbr0530t1.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "D601",
+            "D602",
+            "D603"
+          ],
+          "manufacturer": "onsemi",
+          "mpn": "MBR0530T1G",
+          "status": "replacement_candidate_checked",
+          "evidence": [
+            "Original MBR0530 is Last Shipments; MBR0530T1G is separately listed Active. No qualified Vishay same-name replacement identified.",
+            "MBR0530T1/D Rev9: 30V VRRM,0.5A IFAV under documented thermal conditions,VFmax0.43V at0.5A/25C. Case425 SOD123 pin1 cathode,pin2 anode.",
+            "Official land pads0.91x1.22mm center spacing3.27mm; standard KiCad0.90x1.20mm center spacing3.30mm. Package/body/polarity compatible candidate."
+          ]
+        }
+      ],
+      "revisions": [
+        "MBR0530T1/D Rev9 October2024; CASE425 IssueH 29-Feb-2024"
+      ],
+      "access_notes": [
+        "Downloaded original manufacturer PDF; visually inspected land pattern/package drawings"
+      ],
+      "origin_domain": {
+        "hostname": "www.onsemi.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/audio_epd/mbr0530t1.pdf",
+          "sha256": "31f5f2f63cc79d4ec9d4146ee71bb16d50c17701eb35a2c7e4a03bdf89cbc457",
+          "size_bytes": 195242,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/mbr0530t1.pdf",
+          "local_path": "hardware/reference/bom-r3/files/mbr0530t1.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_b1520d4c4e3a"
+    },
+    {
+      "urls": [
+        "https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "Last Shipments observed"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "D601",
+            "D602",
+            "D603"
+          ],
+          "manufacturer": "onsemi",
+          "mpn": "MBR0530T1G",
+          "status": "replacement_candidate_checked",
+          "evidence": [
+            "Original MBR0530 is Last Shipments; MBR0530T1G is separately listed Active. No qualified Vishay same-name replacement identified.",
+            "MBR0530T1/D Rev9: 30V VRRM,0.5A IFAV under documented thermal conditions,VFmax0.43V at0.5A/25C. Case425 SOD123 pin1 cathode,pin2 anode.",
+            "Official land pads0.91x1.22mm center spacing3.27mm; standard KiCad0.90x1.20mm center spacing3.30mm. Package/body/polarity compatible candidate."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.onsemi.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_86c3cf391e8b"
+    },
+    {
+      "urls": [
+        "https://www.onsemi.com/products/discrete-power-modules/schottky-diodes-schottky-rectifiers/mbr0530t1g"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "MBR0530T1G Active observed; distinct part/source from legacy MBR0530"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "D601",
+            "D602",
+            "D603"
+          ],
+          "manufacturer": "onsemi",
+          "mpn": "MBR0530T1G",
+          "status": "replacement_candidate_checked",
+          "evidence": [
+            "Original MBR0530 is Last Shipments; MBR0530T1G is separately listed Active. No qualified Vishay same-name replacement identified.",
+            "MBR0530T1/D Rev9: 30V VRRM,0.5A IFAV under documented thermal conditions,VFmax0.43V at0.5A/25C. Case425 SOD123 pin1 cathode,pin2 anode.",
+            "Official land pads0.91x1.22mm center spacing3.27mm; standard KiCad0.90x1.20mm center spacing3.30mm. Package/body/polarity compatible candidate."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.onsemi.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_943545fa77bd"
+    },
+    {
+      "urls": [
+        "https://www.szhoauc.com/about.html"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J601"
+          ],
+          "status": "mechanical_fit_unresolved",
+          "notes": [
+            "Legacy FPC1 is explicitly HYCW3D-05FPC24-200B in the archived source. Prioritize obtaining this exact part drawing or measuring the known working assembly; existing project fit evidence is more relevant than assuming a new FH12. The legacy annotation HYCWD3D-056FPC22-200B(26PIN) is erroneous and must not replace the actual24-contact property.",
+            "Reused GDEY075T7-T01 FPC has24contacts at0.50mm,tip width12.50±0.1mm,first-to-last span11.50±0.05mm and0.30±0.03mm thickness; visible front drawing shows pin1left/pin24right. Contacts andPI stiffener are on opposite faces.",
+            "Cannot freeze an arbitrary24pos0.5mm0.3mm connector: actual insertion direction,which board face,the pin1 orientation after folding,tip/contact/stiffener lengths and assembly clearance matter.",
+            "Common bottom-contact Hirose FH12-24S-0.5SH(55) matches count/pitch/nominal thickness but its official recommended FPC calls for3.5mm min uncovered length and4.5mm min stiffener; the panel CAD exposes a3.20±0.2mm end dimension. This is a fit concern requiring dimension interpretation/sample or manufacturer matching; do not label FH12 proven compatible. No candidate is assigned merely by pitch.",
+            "A top-contact or dual-contact connector may avoid a forced cable flip, but still needs complete mechanical comparison. EPD24 signals exclude mechanical hold-down pads."
+          ],
+          "lifecycle": "No selected connector; lifecycle not applicable.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.szhoauc.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_90161d5b06aa"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/lit/ds/symlink/bq24074.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/power/bq24074.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U101"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "BQ24074RGTR",
+          "status": "candidate-vendor-land-verified",
+          "notes": [
+            "RGT0016C: body3x3mm,0.5mm pitch. Exact current TI land has EP17=1.68x1.68mm, 16 peripheral pads0.6x0.24mm; existing generic EP1.6mm is not declared an electrical mismatch.",
+            "EP17 is GND in actual XML. Candidate uses1.55mm-square paste aperture; thermal vias are intentionally left to board/assembly design.",
+            "BQ24074RGTT is250-piece packaging alternative; RGTR is3000-piece reel. R108 CHG_ARM remains DNP and charging defaults off.",
+            "Actual XML R103=1.62kohm±1% onILIM: KILIM1500/1610/1720Aohm gives about0.917–1.072A with resistor tolerance,nominal0.994A. R104=3.00kohm±1% onISET: KISET797/890/975Aohm gives0.263–0.328A,nominal0.297A; battery permission is still unknown."
+          ],
+          "lifecycle": {
+            "status": "ACTIVE",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.ti.com/product/BQ24074/part-details/BQ24074RGTR",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        },
+        {
+          "refs": [
+            "C101"
+          ],
+          "status": "constraint-only-root-selects-mpn",
+          "notes": [
+            "Retain4.7µF/16V input target; verify X5R/X7R DC bias, tolerance, input inrush and actual USB transient. Total pre-charger direct VBUS capacitance matters."
+          ],
+          "scope": "power"
+        },
+        {
+          "refs": [
+            "C102",
+            "C103"
+          ],
+          "status": "constraint-only-root-selects-mpn",
+          "notes": [
+            "10µF/10V nominal is within BQ recommended bypass values. BQ pins BAT/OUT specify4.7–47µF ceramic; for conservative design acceptance target≥4.7µF remaining after bias/tolerance/temperature at4.2V/4.4V."
+          ],
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "SLUS810N; Rev N; 2021-10"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/power/bq24074.pdf",
+          "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1",
+          "size_bytes": 3739103,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/power/bq24074.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_c37773b82749"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/peripherals/sn74lvc1g125.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U602",
+            "U804"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "SN74LVC1G125DBVR",
+          "status": "pass_candidate_geometry",
+          "evidence": [
+            "DBV0005A five-lead SOT23:1/OE,2A,3GND,4Y,5VCC;0.95mm pitch. Standard footprint pad ordering matches.",
+            "TI example pads1.1x0.6mm at x+-1.3 versus KiCad1.325x0.6mm at x+-1.1375. Shared package, distinct land implementation.",
+            "TI product ACTIVE; exact DBVR ordering suffix retained."
+          ]
+        }
+      ],
+      "revisions": [
+        "SCES223U, August2026"
+      ],
+      "access_notes": [
+        "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02."
+      ],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/peripherals/sn74lvc1g125.pdf",
+          "sha256": "1098d46e4565695e9823a08309bc581e2c9ead26b19e99a43a011a38642b27ca",
+          "size_bytes": 3056649,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/peripherals/sn74lvc1g125.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_594bbdb66548"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/peripherals/sn74lvc1g14.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U805"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "SN74LVC1G14DBVR",
+          "status": "pass_candidate_geometry",
+          "evidence": [
+            "DBV0005A:1NC,2A,3GND,4Y,5VCC; same five-lead body/0.95mm pitch as above; exact NC handling remains schematic responsibility.",
+            "TI product ACTIVE. Standard land differs from vendor example in the same way as U602/U804."
+          ]
+        }
+      ],
+      "revisions": [
+        "SCES218AA; October2025"
+      ],
+      "access_notes": [
+        "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02."
+      ],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/peripherals/sn74lvc1g14.pdf",
+          "sha256": "3d59568b16a2b7abb63d33ebe6f8ddd37e12dd3ca2616dd803872c509a583283",
+          "size_bytes": 3094384,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/peripherals/sn74lvc1g14.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_faf4f25dd166"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/peripherals/sn74lvc541a.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U601"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "SN74LVC541APWR",
+          "status": "pass_candidate_geometry",
+          "evidence": [
+            "Exact PW0020A:20pins,body4.4x6.5mm,pitch0.65mm. Standard footprint pin count,ordering,pitch and body match.",
+            "TI recommended pads1.5x0.45mm at x+-2.9; KiCad pads1.475x0.4mm at x+-2.8625. Standard IPC land, not exact vendor example.",
+            "TI product ACTIVE; exact PWR ordering suffix retained."
+          ]
+        }
+      ],
+      "revisions": [
+        "SCAS298O, June2026"
+      ],
+      "access_notes": [
+        "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02."
+      ],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/peripherals/sn74lvc541a.pdf",
+          "sha256": "1341bf46dbe37ed3dd3a83767c09a607e760baba6ab541e69708d5c282b08f71",
+          "size_bytes": 3555843,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/peripherals/sn74lvc541a.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_c32e879e8834"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/lit/ds/symlink/tca9539.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/power/tca9539.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U202"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TCA9539PWR",
+          "status": "retain-compatible-ipc-land",
+          "notes": [
+            "PW0024A body4.4x7.8mm,pitch0.65mm,24 pins. Existing counterclockwise numbering matches vendor top view.",
+            "Existing KiCad pads1.475x0.4mm, row centres±2.8625mm; TI example1.5x0.45mm, row centres±2.9mm. This is an IPC-land difference, not a pin-map mismatch."
+          ],
+          "lifecycle": {
+            "status": "ACTIVE",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.ti.com/product/TCA9539/part-details/TCA9539PWR",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "SCPS202C; Rev C; 2016-05"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/power/tca9539.pdf",
+          "sha256": "fec29f61c247a467417a4c35ff616ee16379ac4ce95a6c1c8a6d6fe97ef010b9",
+          "size_bytes": 3020912,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/power/tca9539.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_dc869bccd89d"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/lit/ds/symlink/tmux1511.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/power/tmux1511.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U406",
+            "U701",
+            "U706"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TMUX1511PWR",
+          "status": "reviewed_geometry_process_pending",
+          "notes": [
+            "14 pads,0.65mm pitch,4.4x5mm nominal body; standard numbering counterclockwise viewed from top;1SEL1,2S1,3D1,4SEL2,5S2,6D2,7GND,8D3,9S3,10SEL3,11D4,12S4,13SEL4,14VDD.",
+            "Library lands1.475x0.400mm with5.725mm row-center span; TI PW0014A example1.50x0.45mm with5.8mm span. This is an IPC-derived alternative land geometry, not a pin mismatch; retain as candidate and finalize assembly process rather than blindly requiring exact example lands.",
+            "Order suffix PWR selected; PW identifies package only. Existing signal/SEL rail-ramp limitations from r2 remain."
+          ],
+          "lifecycle": "TI part page ACTIVE on2026-11-02; no reliable purchased quantity or price recorded.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [
+        "SCDS390B; Rev B; 2025-03"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/power/tmux1511.pdf",
+          "sha256": "04291b41a68347fedbbb0776aa44f500eaca65f2ca3af0e022ee60d41c7b1e9f",
+          "size_bytes": 2548204,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/power/tmux1511.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_962c8651e05d"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/mcu-usb/tpd2e2u06.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U501",
+            "U502",
+            "U702",
+            "U703",
+            "U704",
+            "U705"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TPD2E2U06DCKR",
+          "status": "recommended_geometry_correction",
+          "notes": [
+            "Pin1IO1,pin2IO2,pin3GND; old symbol and orientation correct. This is specifically DCK3, not DRL5.",
+            "Old generic KiCad lands0.925x0.45mm and row-center separation1.775mm differ materially from the vendor DCK0003A example0.95x0.40mm and2.20mm row-center separation. Pin pitch remains0.65mm. Recommend local exact vendor-land footprint to remove the generic-package ambiguity.",
+            "Created native local candidate with3 numbered pads, no EP,0.05mm corner radius; board solder-mask/stencil and ESD-placement effectiveness remain unqualified. No claim that every generic IPC footprint is inherently unmanufacturable."
+          ],
+          "lifecycle": "TI exact part page ACTIVE on2026-11-02.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [
+        "SLLSEG9C,RevC,2019-12"
+      ],
+      "access_notes": [
+        "unmodified previously retrieved manufacturer PDF",
+        "r2 design evidence"
+      ],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/mcu-usb/tpd2e2u06.pdf",
+          "sha256": "a133b86ea3d3c3d34667339b92d3b5e98d541d10e9775d63e7cdfa153794f4ed",
+          "size_bytes": 785929,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/mcu-usb/tpd2e2u06.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_e2ac83d2fe55"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/lit/ds/symlink/tps22918.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/power/tps22918.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U401",
+            "U402",
+            "U403",
+            "U404",
+            "U405"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TPS22918DBVR",
+          "status": "retain-compatible-ipc-land",
+          "notes": [
+            "DBV0006A 6-pin map1VIN,2GND,3ON,4CT,5QOD,6VOUT agrees with schematic. Existing0.95mm pitch and numbering match.",
+            "TI land pads1.1x0.6mm at rowcentres±1.3mm; generic KiCad1.325x0.6mm at±1.1375mm overlaps required lead region. Retain as compatible candidate.",
+            "5.5V input maximum covers nominal3.3V/4.4V rails.2A continuous rating is not a precision current limit."
+          ],
+          "lifecycle": {
+            "status": "ACTIVE",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.ti.com/product/TPS22918/part-details/TPS22918DBVR",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        },
+        {
+          "refs": [
+            "C401",
+            "C403",
+            "C404",
+            "C406",
+            "C407",
+            "C409",
+            "C410",
+            "C412",
+            "C413",
+            "C415"
+          ],
+          "status": "constraint-only-root-selects-mpn",
+          "notes": [
+            "Keep domain input/output nominal targets and10V voltage ratings as candidates. Count every connected downstream bulk capacitor when checking TPS22918 inrush/discharge; X5R/X7R bias data and actual load steps remain required."
+          ],
+          "scope": "power"
+        },
+        {
+          "refs": [
+            "C402",
+            "C405",
+            "C408",
+            "C411",
+            "C414"
+          ],
+          "status": "constraint-only-root-selects-mpn",
+          "notes": [
+            "4.7nF/25V CT capacitors: prefer C0G/NP0±5% candidate to reduce timing drift; switch timing still includes IC and application variation."
+          ],
+          "scope": "power"
+        },
+        {
+          "refs": [
+            "R401",
+            "R404",
+            "R407",
+            "R410",
+            "R413"
+          ],
+          "status": "nominal-power-compatible-pulse-budget-open",
+          "notes": [
+            "330ohm upper initial QOD resistor dissipation ignoring internal series resistance:3.3V→33.0mW;4.4V→58.7mW. Root0.1W@70°C0603 candidate covers this nominal initial value.",
+            "AMP known C41522µF+C80310µF+C8020.1µF=32.1µF stores0.311mJ at4.4V; nominal330ohm time constant10.6ms before internalQOD resistance. Full loading/tolerance may be greater."
+          ],
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "SLVSD76C; Rev C; 2017-07"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/power/tps22918.pdf",
+          "sha256": "1b28eb58003d28b18bf919a15734056f296a499bebee2bd493a1e4358c4dfb1c",
+          "size_bytes": 1072926,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/power/tps22918.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_02a138befb3e"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/lit/ds/symlink/tps63802.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/power/tps63802.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/power/sources.json",
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U201"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TPS63802DLAR",
+          "status": "candidate-vendor-land-verified",
+          "notes": [
+            "Existing footprint is blank. DLA0010A is asymmetric: exactly10 pads; pin8PGND is1.3x0.25mm atx0.55,y0, no separate exposed centre pad. Pin3AGND and8PGND are both GND in XML.",
+            "Body2x3mm,pitch0.5mm; left pads0.6x0.25,right ordinary pads0.9x0.25. Pin8 has two separate0.55x0.25mm paste apertures as TI example.",
+            "DLAT is250-piece packaging alternative. VIN recommended1.3–5.5V, but startup requires>1.8V until PG."
+          ],
+          "lifecycle": {
+            "status": "ACTIVE",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.ti.com/product/TPS63802/part-details/TPS63802DLAR",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        },
+        {
+          "refs": [
+            "L201"
+          ],
+          "manufacturer": "Coilcraft",
+          "mpn": "XFL4015-471MEC",
+          "status": "candidate-vendor-land-verified-current-budget-open",
+          "notes": [
+            "TI Table10-2 explicitly lists XFL4015-471ME; exact current order code addsC reel packaging.0.47µH±20%, DCRtyp7.60/max8.36mohm.",
+            "At25°C Isat for10/20/30% inductance drop=3.5/5.4/6.6A. Irms9.1A/11.2A means20/40°C rise under vendor reference conditions, not absolute maximum.",
+            "Current vendor mechanical drawing:4.0±0.3mm square,1.60mm max height; land pads0.98x3.4mm,centre spacing2.37mm. TI old table4x4x2 is not the latest mechanical limit."
+          ],
+          "lifecycle": {
+            "status": "Current vendor catalogue; no explicit lifecycle status observed",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl4015/xfl4015-471/",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        },
+        {
+          "refs": [
+            "C201",
+            "C202"
+          ],
+          "status": "constraint-only-root-selects-mpn",
+          "notes": [
+            "TPS63802 explicitly requires effectiveCIN≥4µF andCOUT≥7µF forVOUT>2.3V. Existing10µF/10V and22µF/10V nominal values must satisfy these after actual voltage bias,tolerance,temperature and aging."
+          ],
+          "scope": "power"
+        }
+      ],
+      "revisions": [
+        "SLVSEU9D; Rev D; 2021-01"
+      ],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/power/tps63802.pdf",
+          "sha256": "be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6",
+          "size_bytes": 2466159,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/power/tps63802.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_b12f851617a8"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/product/BQ24074/part-details/BQ24074RGTR"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U101"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "BQ24074RGTR",
+          "status": "candidate-vendor-land-verified",
+          "notes": [
+            "RGT0016C: body3x3mm,0.5mm pitch. Exact current TI land has EP17=1.68x1.68mm, 16 peripheral pads0.6x0.24mm; existing generic EP1.6mm is not declared an electrical mismatch.",
+            "EP17 is GND in actual XML. Candidate uses1.55mm-square paste aperture; thermal vias are intentionally left to board/assembly design.",
+            "BQ24074RGTT is250-piece packaging alternative; RGTR is3000-piece reel. R108 CHG_ARM remains DNP and charging defaults off.",
+            "Actual XML R103=1.62kohm±1% onILIM: KILIM1500/1610/1720Aohm gives about0.917–1.072A with resistor tolerance,nominal0.994A. R104=3.00kohm±1% onISET: KISET797/890/975Aohm gives0.263–0.328A,nominal0.297A; battery permission is still unknown."
+          ],
+          "lifecycle": {
+            "status": "ACTIVE",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.ti.com/product/BQ24074/part-details/BQ24074RGTR",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_93f660f259be"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/product/SN74LVC1G125"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "ACTIVE observed"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U602",
+            "U804"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "SN74LVC1G125DBVR",
+          "status": "pass_candidate_geometry",
+          "evidence": [
+            "DBV0005A five-lead SOT23:1/OE,2A,3GND,4Y,5VCC;0.95mm pitch. Standard footprint pad ordering matches.",
+            "TI example pads1.1x0.6mm at x+-1.3 versus KiCad1.325x0.6mm at x+-1.1375. Shared package, distinct land implementation.",
+            "TI product ACTIVE; exact DBVR ordering suffix retained."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_fb5053930fec"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/product/SN74LVC1G14"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "ACTIVE observed"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U805"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "SN74LVC1G14DBVR",
+          "status": "pass_candidate_geometry",
+          "evidence": [
+            "DBV0005A:1NC,2A,3GND,4Y,5VCC; same five-lead body/0.95mm pitch as above; exact NC handling remains schematic responsibility.",
+            "TI product ACTIVE. Standard land differs from vendor example in the same way as U602/U804."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_99e5332804ce"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/product/SN74LVC541A"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "ACTIVE observed"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "U601"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "SN74LVC541APWR",
+          "status": "pass_candidate_geometry",
+          "evidence": [
+            "Exact PW0020A:20pins,body4.4x6.5mm,pitch0.65mm. Standard footprint pin count,ordering,pitch and body match.",
+            "TI recommended pads1.5x0.45mm at x+-2.9; KiCad pads1.475x0.4mm at x+-2.8625. Standard IPC land, not exact vendor example.",
+            "TI product ACTIVE; exact PWR ordering suffix retained."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_fa896b24eb2f"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/product/TCA9539/part-details/TCA9539PWR"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U202"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TCA9539PWR",
+          "status": "retain-compatible-ipc-land",
+          "notes": [
+            "PW0024A body4.4x7.8mm,pitch0.65mm,24 pins. Existing counterclockwise numbering matches vendor top view.",
+            "Existing KiCad pads1.475x0.4mm, row centres±2.8625mm; TI example1.5x0.45mm, row centres±2.9mm. This is an IPC-land difference, not a pin-map mismatch."
+          ],
+          "lifecycle": {
+            "status": "ACTIVE",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.ti.com/product/TCA9539/part-details/TCA9539PWR",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_d1e5f2119fc6"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/product/TMUX1511/part-details/TMUX1511PWR"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U406",
+            "U701",
+            "U706"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TMUX1511PWR",
+          "status": "reviewed_geometry_process_pending",
+          "notes": [
+            "14 pads,0.65mm pitch,4.4x5mm nominal body; standard numbering counterclockwise viewed from top;1SEL1,2S1,3D1,4SEL2,5S2,6D2,7GND,8D3,9S3,10SEL3,11D4,12S4,13SEL4,14VDD.",
+            "Library lands1.475x0.400mm with5.725mm row-center span; TI PW0014A example1.50x0.45mm with5.8mm span. This is an IPC-derived alternative land geometry, not a pin mismatch; retain as candidate and finalize assembly process rather than blindly requiring exact example lands.",
+            "Order suffix PWR selected; PW identifies package only. Existing signal/SEL rail-ramp limitations from r2 remain."
+          ],
+          "lifecycle": "TI part page ACTIVE on2026-11-02; no reliable purchased quantity or price recorded.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_3bc7ae51e1af"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/product/TPD2E2U06/part-details/TPD2E2U06DCKR"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/interconnect/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U501",
+            "U502",
+            "U702",
+            "U703",
+            "U704",
+            "U705"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TPD2E2U06DCKR",
+          "status": "recommended_geometry_correction",
+          "notes": [
+            "Pin1IO1,pin2IO2,pin3GND; old symbol and orientation correct. This is specifically DCK3, not DRL5.",
+            "Old generic KiCad lands0.925x0.45mm and row-center separation1.775mm differ materially from the vendor DCK0003A example0.95x0.40mm and2.20mm row-center separation. Pin pitch remains0.65mm. Recommend local exact vendor-land footprint to remove the generic-package ambiguity.",
+            "Created native local candidate with3 numbered pads, no EP,0.05mm corner radius; board solder-mask/stencil and ESD-placement effectiveness remain unqualified. No claim that every generic IPC footprint is inherently unmanufacturable."
+          ],
+          "lifecycle": "TI exact part page ACTIVE on2026-11-02.",
+          "scope": "interconnect"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_8ad743f44439"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/product/TPS22918/part-details/TPS22918DBVR"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U401",
+            "U402",
+            "U403",
+            "U404",
+            "U405"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TPS22918DBVR",
+          "status": "retain-compatible-ipc-land",
+          "notes": [
+            "DBV0006A 6-pin map1VIN,2GND,3ON,4CT,5QOD,6VOUT agrees with schematic. Existing0.95mm pitch and numbering match.",
+            "TI land pads1.1x0.6mm at rowcentres±1.3mm; generic KiCad1.325x0.6mm at±1.1375mm overlaps required lead region. Retain as compatible candidate.",
+            "5.5V input maximum covers nominal3.3V/4.4V rails.2A continuous rating is not a precision current limit."
+          ],
+          "lifecycle": {
+            "status": "ACTIVE",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.ti.com/product/TPS22918/part-details/TPS22918DBVR",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_64aa24dc6da6"
+    },
+    {
+      "urls": [
+        "https://www.ti.com/product/TPS63802/part-details/TPS63802DLAR"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/power/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "U201"
+          ],
+          "manufacturer": "Texas Instruments",
+          "mpn": "TPS63802DLAR",
+          "status": "candidate-vendor-land-verified",
+          "notes": [
+            "Existing footprint is blank. DLA0010A is asymmetric: exactly10 pads; pin8PGND is1.3x0.25mm atx0.55,y0, no separate exposed centre pad. Pin3AGND and8PGND are both GND in XML.",
+            "Body2x3mm,pitch0.5mm; left pads0.6x0.25,right ordinary pads0.9x0.25. Pin8 has two separate0.55x0.25mm paste apertures as TI example.",
+            "DLAT is250-piece packaging alternative. VIN recommended1.3–5.5V, but startup requires>1.8V until PG."
+          ],
+          "lifecycle": {
+            "status": "ACTIVE",
+            "checked_date": "2026-11-02",
+            "source_url": "https://www.ti.com/product/TPS63802/part-details/TPS63802DLAR",
+            "stock_and_price": "not assessed"
+          },
+          "scope": "power"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.ti.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_f882fcea6022"
+    },
+    {
+      "urls": [
+        "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/root/reference/vishay-dcrcwe3.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/root/review.json",
+        "root/review.json source_url plus exact PDF filename"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "R103"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06031K62FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R104"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06033K00FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R105"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060368K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R106"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060347K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R107"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R108"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06030000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。 保持DNP，选定封装不改变装配状态。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R109"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R110"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R111"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R112"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R220"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R221"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R222"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060347K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R201"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603511KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R202"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060391K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R204"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R205"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06031M00FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R206"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R207"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R208"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R209"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R210"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06034K70FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R211"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06034K70FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R212"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R213"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R214"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R215"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R216"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R217"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06030000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R218"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06030000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R219"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R223"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R224"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R225"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R226"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R227"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R301"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R302"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R303"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060347K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R304"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060347K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R305"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060347K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R306"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R501"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06035K10FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R502"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06035K10FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R503"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060322R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R504"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060322R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R401"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603330RFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R404"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603330RFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R407"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603330RFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R410"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603330RFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R413"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603330RFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。 QOD最大4.4V起始约58.7mW；释放能量和热仍待测。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R416"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R417"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R418"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R419"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R420"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R601"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06031M00FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R603"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060333R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R604"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060333R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R605"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060333R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R606"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060333R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R607"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060333R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R608"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R609"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R610"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R611"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R612"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R613"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R614"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R701"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R702"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R703"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R704"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R705"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060310K0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R706"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R708"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100RFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R710"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060322R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R711"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06030000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R712"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06030000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R713"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06030000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R714"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06030000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R715"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06030000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.0A、Rmax≤20mΩ；按实际电流和温度复核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R802"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R803"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R804"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R805"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R806"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW06032K00FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R808"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060322R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R809"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060322R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R810"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW060322R0FKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R811"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW08050000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.5A、Rmax≤20mΩ；按实际电流和温度复核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R812"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW08050000Z0EA",
+          "status": "规格候选",
+          "notes": "0Ω跳线明确额定：2.5A、Rmax≤20mΩ；按实际电流和温度复核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "R813"
+          ],
+          "manufacturer": "Vishay",
+          "mpn": "CRCW0603100KFKEA",
+          "status": "规格候选",
+          "notes": "1%/100ppm，0603标准P70=0.1W、75V；按实际工作温度降额。",
+          "scope": "root"
+        },
+        {
+          "purpose": "Generic resistor ratings, ordering code and land pattern"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.vishay.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/root/reference/vishay-dcrcwe3.pdf",
+          "sha256": "170da9602c7606b91255f7881c1ec54b1372300b6b9ddd02ef100fa73f022c04",
+          "size_bytes": 150402,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/vishay-dcrcwe3.pdf",
+          "local_path": "hardware/reference/bom-r3/files/vishay-dcrcwe3.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_2b7d0c7c9019"
+    },
+    {
+      "urls": [
+        "https://www.vishay.com/docs/63399/si1308edl.pdf"
+      ],
+      "original_paths": [
+        "hardware/reference/peripherals/si1308edl.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "Q601"
+          ],
+          "manufacturer": "Vishay Siliconix",
+          "mpn": "Si1308EDL-T1-GE3",
+          "status": "candidate_requires_land_pattern_review",
+          "evidence": [
+            "Vishay63399 1G/2S/3D;30V;RDS(on)max0.185ohm atVGS2.5V. SC70 three-lead body/0.65mm nominal pitch matches generic library.",
+            "Library pads0.925x0.450mm centered x+-0.8875,y+-0.65 pair. Vishay AN826 minimum pads rotated to same orientation0.648x0.559mm; generic library is not identical and short width is narrower."
+          ]
+        }
+      ],
+      "revisions": [
+        "Vishay63399; inspected first-page G/S/D and electrical table"
+      ],
+      "access_notes": [
+        "Unmodified local manufacturer source; SHA-256 and byte count checked during archival on2026-11-02."
+      ],
+      "origin_domain": {
+        "hostname": "www.vishay.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "hardware/reference/peripherals/si1308edl.pdf",
+          "sha256": "a86d6f766f259d8b170a01081f577055f37b527257a0f9af497c8f2c33625c9a",
+          "size_bytes": 259741,
+          "storage": "existing_reference",
+          "local_path": "hardware/reference/peripherals/si1308edl.pdf",
+          "archive_relative_path": null
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_910fe485c6d6"
+    },
+    {
+      "urls": [
+        "https://www.vishay.com/docs/72601/landpatternsc-70-3lead.pdf"
+      ],
+      "original_paths": [
+        "build/bom-review-r3/audio_epd/sc70-land.pdf"
+      ],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "Q601"
+          ],
+          "manufacturer": "Vishay Siliconix",
+          "mpn": "Si1308EDL-T1-GE3",
+          "status": "candidate_requires_land_pattern_review",
+          "evidence": [
+            "Vishay63399 1G/2S/3D;30V;RDS(on)max0.185ohm atVGS2.5V. SC70 three-lead body/0.65mm nominal pitch matches generic library.",
+            "Library pads0.925x0.450mm centered x+-0.8875,y+-0.65 pair. Vishay AN826 minimum pads rotated to same orientation0.648x0.559mm; generic library is not identical and short width is narrower."
+          ]
+        }
+      ],
+      "revisions": [
+        "72601, 21-Jan-2008"
+      ],
+      "access_notes": [
+        "Downloaded original manufacturer PDF; visually inspected land pattern/package drawings"
+      ],
+      "origin_domain": {
+        "hostname": "www.vishay.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [
+        {
+          "original_path": "build/bom-review-r3/audio_epd/sc70-land.pdf",
+          "sha256": "814d4ccc7b04f1451110f2c39e63484c56ddcbe9522282afed2ca0d366717c77",
+          "size_bytes": 30503,
+          "storage": "new_archived_pdf",
+          "archive_relative_path": "files/sc70-land.pdf",
+          "local_path": "hardware/reference/bom-r3/files/sc70-land.pdf"
+        }
+      ],
+      "access": "local_original_pdf",
+      "id": "BOM_R3_a34e63ce3288"
+    },
+    {
+      "urls": [
+        "https://www.vishay.com/en/product/63399/"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/audio_epd/sources.json",
+        "build/bom-review-r3/audio_epd/review.json"
+      ],
+      "uses": [
+        {
+          "evidence": "Official datasheet/sample/buy links; explicit lifecycle field not observed"
+        },
+        {
+          "scope": "audio_epd",
+          "refs": [
+            "Q601"
+          ],
+          "manufacturer": "Vishay Siliconix",
+          "mpn": "Si1308EDL-T1-GE3",
+          "status": "candidate_requires_land_pattern_review",
+          "evidence": [
+            "Vishay63399 1G/2S/3D;30V;RDS(on)max0.185ohm atVGS2.5V. SC70 three-lead body/0.65mm nominal pitch matches generic library.",
+            "Library pads0.925x0.450mm centered x+-0.8875,y+-0.65 pair. Vishay AN826 minimum pads rotated to same orientation0.648x0.559mm; generic library is not identical and short width is narrower."
+          ]
+        }
+      ],
+      "revisions": [],
+      "access_notes": [
+        "Online-only primary source; no local byte/hash claim"
+      ],
+      "origin_domain": {
+        "hostname": "www.vishay.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_eb070e56b25f"
+    },
+    {
+      "urls": [
+        "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J101"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J104"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J105"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J201"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J203"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J204"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J401"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J402"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J403"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J404"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J405"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300211121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.we-online.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_7377895d4cf5"
+    },
+    {
+      "urls": [
+        "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J202"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300311121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J502"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300311121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.we-online.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_a22dbed3c795"
+    },
+    {
+      "urls": [
+        "https://www.we-online.com/components/products/datasheet/61300611121.pdf"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J205"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300611121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J206"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300611121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。",
+          "scope": "root"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.we-online.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_f42c1612f0c5"
+    },
+    {
+      "urls": [
+        "https://www.we-online.com/components/products/datasheet/61300811121.pdf"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J301"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300811121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。 默认DNP，仅高阻探测。",
+          "scope": "root"
+        },
+        {
+          "refs": [
+            "J303"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300811121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。 默认DNP，仅高阻探测。",
+          "scope": "root"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.we-online.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_268c8e489078"
+    },
+    {
+      "urls": [
+        "https://www.we-online.com/components/products/datasheet/61300911121.pdf"
+      ],
+      "original_paths": [],
+      "records": [
+        "build/bom-review-r3/root/review.json"
+      ],
+      "uses": [
+        {
+          "refs": [
+            "J302"
+          ],
+          "manufacturer": "Würth Elektronik",
+          "mpn": "61300911121",
+          "status": "资料核对",
+          "notes": "开发板直针候选，2.54mm节距、1.10mm孔、3A单触点额定。单跳帽选择器仅装一只跳帽；配套短路帽/线束额定另核。 默认DNP，仅高阻探测。",
+          "scope": "root"
+        }
+      ],
+      "revisions": [],
+      "access_notes": [],
+      "origin_domain": {
+        "hostname": "www.we-online.com",
+        "classification": "manufacturer_domain",
+        "note": "Domain allowlist checked; this is not a cryptographic authenticity guarantee."
+      },
+      "local_files": [],
+      "access": "online_only_no_downloaded_original",
+      "id": "BOM_R3_ff3fcb283527"
+    }
+  ],
+  "excluded_nonprimary_leads": [
+    {
+      "url": "https://www.lcsc.com/zh-CN/product-detail/C55172961.html",
+      "origin": "build/bom-review-r3/interconnect/review.json",
+      "reason": "Distributor lookup lead only, not primary manufacturer evidence and not selected mechanical part"
+    }
+  ],
+  "validation_issues": []
+}

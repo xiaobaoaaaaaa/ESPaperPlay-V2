@@ -1,0 +1,94 @@
+{
+  "retrieved_on": "2026-11-01",
+  "product": "GDEY075T7-T01",
+  "official_product_pages": [
+    "https://www.good-display.cn/blank7.html?productId=477",
+    "https://www.good-display.com/product/483.html"
+  ],
+  "bare_panel_product_page": "https://www.good-display.com/product/396.html",
+  "provenance": "Asset URLs were obtained from official product HTML hidden file-url fields or the official download endpoint; CDN owner namespace is linked by Good Display. Files are retained unmodified. No third-party mirror used.",
+  "rights": "Third-party vendor material; not licensed by this project MIT license. Binary files are intentionally git-ignored and kept as local reference only.",
+  "files": [
+    {
+      "filename": "GDEY075T7-T01.pdf",
+      "title": "GDEY075T7-T01 总成规格书",
+      "landing_url": "https://www.good-display.cn/companyfile/1506.html",
+      "asset_url": "https://v4.cecdn.yun300.cn/100001_1909185147/GDEY075T7-T01.pdf",
+      "version": "PDF p2: revision 1.0, document date 2024/03/10; PDF metadata modified 2025-11-06; product page label updated 25.11.06",
+      "pages": 45,
+      "evidence_pages": {
+        "2": "document revision/date",
+        "4": "800x480 and assembly dimensions",
+        "5": "assembly mechanical drawing",
+        "6": "24-pin EPD pin assignment",
+        "7": "control polarity, bus selection, touch voltage/current",
+        "8": "EPD DC characteristics and sleep currents",
+        "38": "EPD external boost reference circuit"
+      },
+      "validation": "PDF opens/renders; Poppler reports malformed xref entry 1013 and unknown FXE3 state during text extraction. Raw source retained unchanged; critical pages 6, 7, 8, 38 rendered and visually checked.",
+      "size_bytes": 13114117,
+      "sha256": "ca8c82117b5ebaaa846a0d4fac9fad29cb3890570fc7a7d8efabbb7a944d108a"
+    },
+    {
+      "filename": "GDEY075T7-T01-CAD.pdf",
+      "title": "GDEY075T7-T01 总成机械图",
+      "landing_url": "https://www.good-display.cn/companyfile/983.html",
+      "asset_url": "https://v4.cecdn.yun300.cn/100001_1909185147/GDEY075T7-T01-CAD.pdf",
+      "version": "Drawing title block: Init Version / 2023.05.26; PDF metadata creation 2025-02-25; product page label updated 25.02.25",
+      "pages": 1,
+      "evidence_pages": {
+        "1": "24-pin EPD and separate 6-pin touch FPC, 0.5mm pitch, 0.30mm contact thickness, pin definitions, assembly dimensions"
+      },
+      "validation": "Rendered and visually checked.",
+      "size_bytes": 371929,
+      "sha256": "65b84cb5820b65d45fc857ef9f09c232c800a4a7d7f8acef2db0f9df1ad116d4"
+    },
+    {
+      "filename": "TP075-Y01.pdf",
+      "title": "TP075-Y01 触摸层机械图",
+      "landing_url": "https://www.good-display.cn/companyfile/984.html",
+      "asset_url": "https://v4.cecdn.yun300.cn/100001_1909185147/TP075-Y01.pdf",
+      "alternate_verified_asset_url": "https://v4.cecdn.yun300.cn/100001_1909185148/TP075-Y01.pdf",
+      "version": "Drawing title block and PDF metadata: 2023-07-12; Chinese landing page label updated 25.02.25; Chinese and English CDN bytes identical",
+      "pages": 1,
+      "evidence_pages": {
+        "1": "GT911, six touch pins, 0.5mm pitch, 0.30±0.03mm contact thickness"
+      },
+      "validation": "Both official copies downloaded and SHA-256 compared; identical. One retained. Rendered and visually checked.",
+      "size_bytes": 58909,
+      "sha256": "c39473ed565138f764fa5693ad550fde227d1b7f7171840084d2ba58fe3a5518"
+    },
+    {
+      "filename": "GT911-Datasheet-English-20150625-Rev10.pdf",
+      "title": "Goodix GT911 controller datasheet (Good Display hosted)",
+      "landing_url": "https://www.good-display.cn/companyfile/1002.html",
+      "asset_url": "https://v4.cecdn.yun300.cn/100001_1909185147/GT911%20Datasheet_English%2020150625_Rev.10.pdf",
+      "version": "PDF p1: Rev.10, June 25, 2015; PDF metadata title erroneously mentions HA2605, body is GT911",
+      "pages": 28,
+      "evidence_pages": {
+        "1": "title/revision and Goodix redistribution notice",
+        "11": "I2C recommended at or below 400Kbps",
+        "12": "reset/INT initialization and 8-bit address pairs 0xBA/0xBB or 0x28/0x29",
+        "22": "bare-controller AVDD28 recommended 2.8–3.3V"
+      },
+      "validation": "Text extracted; reset/INT timing page 12 rendered and visually checked. Contains GOODIX CONFIDENTIAL / redistribution restriction; local reference only.",
+      "size_bytes": 1409961,
+      "sha256": "4f0093f6b163edbf6cffb6a269bf03ae78d1a8d228bcb8a2dce5c640f14ef011"
+    },
+    {
+      "filename": "T075T7_GT911_Arduino.rar",
+      "title": "GDEY075T7-T01 ESP32 Sample Code (site label)",
+      "landing_url": "https://www.good-display.com/companyfile/1838.html",
+      "download_endpoint": "https://www.good-display.com/comp/xcompanyFile/downloadNew.do?appId=24&fid=2450&id=1838",
+      "asset_url": "https://v4.cecdn.yun300.cn/100001_1909185148/T075T7_GT911_Arduino.rar",
+      "version": "Official page creation 2025-07-17; archive directory T075T7_Arduino_V2.3.5",
+      "validation": "RAR v5; verified by libarchive. 9 entries (7 files, 2 directories), 795521 uncompressed bytes. All paths relative, no traversal or links. Extracted only to /tmp for review; no code executed or imported into firmware. Fedora 7z build does not include RAR support.",
+      "evidence_paths": {
+        "T075T7_GT911_Arduino/T075T7_Arduino_V2.3.5/GT911.h": "default 8-bit address pair BA/BB; alternate 28/29",
+        "T075T7_GT911_Arduino/T075T7_Arduino_V2.3.5/i2c.cpp": "Arduino A3/A4/A5 pin assumptions; not drop-in ESP32-S3 firmware"
+      },
+      "size_bytes": 254758,
+      "sha256": "b60491780d205bd2853a593e6abfdb5274b23980e1744c70b6b7608e67419029"
+    }
+  ]
+}

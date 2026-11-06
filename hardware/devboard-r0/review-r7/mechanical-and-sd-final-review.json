@@ -1,0 +1,506 @@
+{
+  "status": "PASS",
+  "date": "2026-11-06",
+  "scope": "Independent read-only final placement review; this is not routed-board or manufacturing approval.",
+  "source_board": "ESPaperPlay_Devboard.kicad_pcb",
+  "source_board_sha256": "5eb16a5ecb824086f745c8d4737650eaaf315fa305fee58c9a027325d61c740b",
+  "source_adjustments": "build/pcb-r7/sd-debug-adjustments.json",
+  "source_adjustments_sha256": "f701b63c1b4ec51fec29d4e694fcaff983c937dad4a8bc9efba5d40dfe3f3674",
+  "board_extent_mm": [
+    50.0,
+    50.0,
+    210.0,
+    160.0
+  ],
+  "board_size_mm": [
+    160,
+    110
+  ],
+  "copper_layers": 4,
+  "electrical_footprints": 236,
+  "mechanical_footprints": 4,
+  "tracks": 0,
+  "mcu_xy_rotation": [
+    160.0,
+    56.75,
+    0.0
+  ],
+  "antenna_rule_area": [
+    {
+      "polygon_mm": [
+        [
+          136.0,
+          50.0
+        ],
+        [
+          184.0,
+          50.0
+        ],
+        [
+          184.0,
+          29.0
+        ],
+        [
+          136.0,
+          29.0
+        ]
+      ],
+      "all_active_copper_layers_covered": true,
+      "all_five_restriction_types_enabled": true
+    }
+  ],
+  "antenna_observation": "Antenna feed-side rule boundary is at baseboard top y50; antenna portion extends north beyond baseboard. The external screen, battery, wires and metal fixtures must remain clear of this area during use.",
+  "mounts": {
+    "H1": {
+      "xy_rotation": [
+        55.0,
+        55.0,
+        0.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "hole_edge_to_board_edge_min_mm": 3.4
+    },
+    "H2": {
+      "xy_rotation": [
+        205.0,
+        55.0,
+        0.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "hole_edge_to_board_edge_min_mm": 3.4
+    },
+    "H3": {
+      "xy_rotation": [
+        55.0,
+        155.0,
+        0.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "hole_edge_to_board_edge_min_mm": 3.4
+    },
+    "H4": {
+      "xy_rotation": [
+        205.0,
+        155.0,
+        0.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "hole_edge_to_board_edge_min_mm": 3.4
+    }
+  },
+  "connectors": {
+    "J501": {
+      "xy_rotation": [
+        108.0,
+        53.0,
+        180.0
+      ],
+      "insertion_or_wire_exit_direction": "north"
+    },
+    "J701": {
+      "xy_rotation": [
+        200.8,
+        70.5,
+        90.0
+      ],
+      "insertion_or_wire_exit_direction": "east"
+    },
+    "J601": {
+      "xy_rotation": [
+        191.0,
+        152.0,
+        0.0
+      ],
+      "insertion_or_wire_exit_direction": "south"
+    },
+    "J406": {
+      "xy_rotation": [
+        204.6,
+        105.0,
+        90.0
+      ],
+      "insertion_or_wire_exit_direction": "east"
+    },
+    "J102": {
+      "xy_rotation": [
+        65.0,
+        151.5,
+        0.0
+      ],
+      "insertion_or_wire_exit_direction": "south"
+    },
+    "J103": {
+      "xy_rotation": [
+        78.0,
+        151.5,
+        0.0
+      ],
+      "insertion_or_wire_exit_direction": "south"
+    },
+    "J801": {
+      "xy_rotation": [
+        91.0,
+        55.0,
+        180.0
+      ],
+      "insertion_or_wire_exit_direction": "north"
+    }
+  },
+  "mechanical_observations": [
+    "All seven checked connector mating/wire directions face the appropriate outer board edge.",
+    "SD eject direction is east into external free space; card signal contacts remain on the board.",
+    "EPD exits south, touch exits east; current component placement leaves perimeter latch/extension access.",
+    "All240 front-courtyard polygons checked pairwise; zero overlap.",
+    "Connector latch operation, real extension bends, wire/tool access and final RF performance remain physical assembly tests."
+  ],
+  "sd_adjustment_coordinates_applied": {
+    "J302": [
+      173.8,
+      73.0,
+      180.0
+    ],
+    "R710": [
+      171.0,
+      62.9,
+      90.0
+    ],
+    "R711": [
+      171.0,
+      73.5,
+      90.0
+    ],
+    "R712": [
+      171.0,
+      70.0,
+      90.0
+    ],
+    "R713": [
+      171.0,
+      66.5,
+      90.0
+    ],
+    "R714": [
+      171.0,
+      58.3,
+      90.0
+    ],
+    "R715": [
+      171.0,
+      54.7,
+      90.0
+    ],
+    "R302": [
+      172.0,
+      77.5,
+      0.0
+    ],
+    "C705": [
+      177.2,
+      65.8,
+      0.0
+    ]
+  },
+  "sd_route_same_net_segments_checked": 24,
+  "sd_lengths_through_debug_pads": {
+    "CLK": {
+      "route_via_debug_pad": [
+        "U301.31",
+        "J302.3",
+        "R710.1",
+        "R710.2",
+        "U701.2",
+        "U701.3",
+        "J701.5"
+      ],
+      "pad_xy_mm": [
+        [
+          168.75,
+          62.92
+        ],
+        [
+          173.8,
+          67.92
+        ],
+        [
+          171.0,
+          63.725
+        ],
+        [
+          171.0,
+          62.075
+        ],
+        [
+          176.6375,
+          71.7
+        ],
+        [
+          176.6375,
+          72.35
+        ],
+        [
+          193.075,
+          72.125
+        ]
+      ],
+      "straight_line_copper_lower_bound_mm": 39.744,
+      "45deg_free_space_copper_lower_bound_mm": 40.967,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 9.833
+    },
+    "CMD": {
+      "route_via_debug_pad": [
+        "U301.32",
+        "J302.4",
+        "R711.1",
+        "R711.2",
+        "U701.5",
+        "U701.6",
+        "J701.3"
+      ],
+      "pad_xy_mm": [
+        [
+          168.75,
+          61.65
+        ],
+        [
+          173.8,
+          65.38
+        ],
+        [
+          171.0,
+          74.325
+        ],
+        [
+          171.0,
+          72.675
+        ],
+        [
+          176.6375,
+          73.65
+        ],
+        [
+          176.6375,
+          74.3
+        ],
+        [
+          193.075,
+          69.925
+        ]
+      ],
+      "straight_line_copper_lower_bound_mm": 38.382,
+      "45deg_free_space_copper_lower_bound_mm": 40.991,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 9.809
+    },
+    "D0": {
+      "route_via_debug_pad": [
+        "U301.24",
+        "J302.5",
+        "R712.1",
+        "R712.2",
+        "U701.9",
+        "U701.8",
+        "J701.7"
+      ],
+      "pad_xy_mm": [
+        [
+          164.445,
+          69.25
+        ],
+        [
+          173.8,
+          62.84
+        ],
+        [
+          171.0,
+          70.825
+        ],
+        [
+          171.0,
+          69.175
+        ],
+        [
+          182.3625,
+          74.3
+        ],
+        [
+          182.3625,
+          74.95
+        ],
+        [
+          193.075,
+          74.325
+        ]
+      ],
+      "straight_line_copper_lower_bound_mm": 42.998,
+      "45deg_free_space_copper_lower_bound_mm": 45.612,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 5.188
+    },
+    "D1": {
+      "route_via_debug_pad": [
+        "U301.25",
+        "J302.6",
+        "R713.1",
+        "R713.2",
+        "U701.12",
+        "U701.11",
+        "J701.8"
+      ],
+      "pad_xy_mm": [
+        [
+          165.715,
+          69.25
+        ],
+        [
+          173.8,
+          60.3
+        ],
+        [
+          171.0,
+          67.325
+        ],
+        [
+          171.0,
+          65.675
+        ],
+        [
+          182.3625,
+          72.35
+        ],
+        [
+          182.3625,
+          73.0
+        ],
+        [
+          193.075,
+          75.425
+        ]
+      ],
+      "straight_line_copper_lower_bound_mm": 43.785,
+      "45deg_free_space_copper_lower_bound_mm": 46.328,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 4.472
+    },
+    "D2": {
+      "route_via_debug_pad": [
+        "U301.34",
+        "J302.7",
+        "R714.1",
+        "R714.2",
+        "U706.2",
+        "U706.3",
+        "J701.1"
+      ],
+      "pad_xy_mm": [
+        [
+          168.75,
+          59.11
+        ],
+        [
+          173.8,
+          57.76
+        ],
+        [
+          171.0,
+          59.125
+        ],
+        [
+          171.0,
+          57.475
+        ],
+        [
+          182.3625,
+          63.3
+        ],
+        [
+          182.3625,
+          62.65
+        ],
+        [
+          193.075,
+          67.725
+        ]
+      ],
+      "straight_line_copper_lower_bound_mm": 32.965,
+      "45deg_free_space_copper_lower_bound_mm": 35.565,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 15.235
+    },
+    "D3": {
+      "route_via_debug_pad": [
+        "U301.33",
+        "J302.8",
+        "R715.1",
+        "R715.2",
+        "U706.5",
+        "U706.6",
+        "J701.2"
+      ],
+      "pad_xy_mm": [
+        [
+          168.75,
+          60.38
+        ],
+        [
+          173.8,
+          55.22
+        ],
+        [
+          171.0,
+          55.525
+        ],
+        [
+          171.0,
+          53.875
+        ],
+        [
+          182.3625,
+          61.35
+        ],
+        [
+          182.3625,
+          60.7
+        ],
+        [
+          193.075,
+          68.825
+        ]
+      ],
+      "straight_line_copper_lower_bound_mm": 37.083,
+      "45deg_free_space_copper_lower_bound_mm": 38.715,
+      "remaining_to_50_8mm_target_before_obstacles_and_tuning_mm": 12.085
+    }
+  },
+  "decoupling_distances_mm": {
+    "C705.1_to_U706.14": 1.8622,
+    "R710.1_to_U301.31": 2.3897
+  },
+  "sd_routing_notes": [
+    "J302 pads now lie beside the MCU-to-SD area; routing should include each debug pad on its main signal path to avoid a long separate stub.",
+    "Calculated lengths are lower bounds from actual final pad positions, including the debug-pad detour and excluding chip internals, obstacle avoidance, vias and length tuning.",
+    "45degree lower-bound margin to50.8mm is4.472mm minimum; actual routed length, skew and controlled impedance remain unverified.",
+    "U706 remains180degrees. This is electrically valid; input escape can be adjusted during actual routing if needed."
+  ],
+  "courtyard_overlaps": [],
+  "drc_reference": {
+    "file": "review-r7/drc-r7.json",
+    "sha256": "70db06bea90e1b343bb89538407778dfef8f7cd628a93827df086bed33dc40ec",
+    "violations": 1,
+    "violation_types": [
+      "lib_footprint_mismatch"
+    ],
+    "unconnected_items": 499,
+    "schematic_parity": 0,
+    "known_warning": "U301 board-outside antenna silk moved to Dwgs.User; exact pad geometry and antenna rule area are unchanged. No DRC exclusion added for this warning."
+  },
+  "failures": [],
+  "formal_board_modified": false
+}

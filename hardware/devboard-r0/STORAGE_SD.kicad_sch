@@ -1,0 +1,1898 @@
+(kicad_sch
+(version 20250114)
+(generator "eeschema")
+(generator_version "10.0")
+(uuid "290d1b31-8fd1-54fd-af76-b607c24d91b8")
+(paper "A3")
+(title_block (title "MICROSD / 4-BIT BUS / INDEPENDENT SIGNAL ISOLATION") (date "2026-11-05") (rev "r6 DRAWING")
+            (company "ESPaperPlay / xiaobaoaaaaaa")
+            (comment 1 "DESIGN REVIEW ONLY - NO PCB RELEASE / NO BATTERY CHARGE APPROVAL"))
+(lib_symbols (symbol "Connector:Micro_SD_Card_Det_Hirose_DM3AT"
+(exclude_from_sim no)
+(in_bom yes)
+(on_board yes)
+(in_pos_files yes)
+(duplicate_pin_numbers_are_jumpers no)
+(property "Reference" "J"
+			(at -16.51 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "Value" "Micro_SD_Card_Det_Hirose_DM3AT"
+			(at 16.51 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+(property "Footprint" ""
+			(at 52.07 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "Datasheet" "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "Description" "Micro SD Card Socket with card detection pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "ki_keywords" "connector SD microsd"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(property "ki_fp_filters" "microSD*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+(symbol "Micro_SD_Card_Det_Hirose_DM3AT_0_1"
+			(polyline
+				(pts
+					(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
+					(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -7.62 10.795)
+				(end -5.08 9.525)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -7.62 8.255)
+				(end -5.08 6.985)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -7.62 5.715)
+				(end -5.08 4.445)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -7.62 3.175)
+				(end -5.08 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -7.62 0.635)
+				(end -5.08 -0.635)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -7.62 -1.905)
+				(end -5.08 -3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -7.62 -4.445)
+				(end -5.08 -5.715)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -7.62 -6.985)
+				(end -5.08 -8.255)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.51 15.24) (xy 16.51 16.51) (xy -19.05 16.51) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -8.89)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+(symbol "Micro_SD_Card_Det_Hirose_DM3AT_1_1"
+			(pin bidirectional line
+				(at -22.86 10.16 0)
+				(length 3.81)
+				(name "DAT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 7.62 0)
+				(length 3.81)
+				(name "DAT3/CD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 5.08 0)
+				(length 3.81)
+				(name "CMD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 2.54 0)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 0 0)
+				(length 3.81)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -2.54 0)
+				(length 3.81)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -5.08 0)
+				(length 3.81)
+				(name "DAT0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 -7.62 0)
+				(length 3.81)
+				(name "DAT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -12.7 0)
+				(length 3.81)
+				(name "DET_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -10.16 0)
+				(length 3.81)
+				(name "DET_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -12.7 180)
+				(length 3.81)
+				(name "SHIELD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+(embedded_fonts no))(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "ESPaperPlay:TMUX1511PW"
+      (pin_names (offset 0.508)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 22.86 0) (effects (font (size 1.05 1.05)) ))
+      (property "Value" "TMUX1511PW" (at 0 -22.86 0) (effects (font (size 1.05 1.05)) ))
+      (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux1511.pdf" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (symbol "TMUX1511PW_0_1"
+        (rectangle (start -15.24 20.32) (end 15.24 -20.32)
+          (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "TMUX1511PW_1_1"(pin power_in line (at 0.0 22.86 270) (length 2.54)
+          (name "VDD" (effects (font (size 1.05 1.05))))
+          (number "14" (effects (font (size 1.05 1.05)))))(pin power_in line (at 17.78 -16.51 180) (length 2.54)
+          (name "GND" (effects (font (size 1.05 1.05))))
+          (number "7" (effects (font (size 1.05 1.05)))))(pin bidirectional line (at -17.78 12.7 0) (length 2.54)
+          (name "S1" (effects (font (size 1.05 1.05))))
+          (number "2" (effects (font (size 1.05 1.05)))))(pin bidirectional line (at 17.78 12.7 180) (length 2.54)
+          (name "D1" (effects (font (size 1.05 1.05))))
+          (number "3" (effects (font (size 1.05 1.05)))))(pin bidirectional line (at -17.78 5.08 0) (length 2.54)
+          (name "S2" (effects (font (size 1.05 1.05))))
+          (number "5" (effects (font (size 1.05 1.05)))))(pin bidirectional line (at 17.78 5.08 180) (length 2.54)
+          (name "D2" (effects (font (size 1.05 1.05))))
+          (number "6" (effects (font (size 1.05 1.05)))))(pin bidirectional line (at -17.78 -2.54 0) (length 2.54)
+          (name "S3" (effects (font (size 1.05 1.05))))
+          (number "9" (effects (font (size 1.05 1.05)))))(pin bidirectional line (at 17.78 -2.54 180) (length 2.54)
+          (name "D3" (effects (font (size 1.05 1.05))))
+          (number "8" (effects (font (size 1.05 1.05)))))(pin bidirectional line (at -17.78 -10.16 0) (length 2.54)
+          (name "S4" (effects (font (size 1.05 1.05))))
+          (number "12" (effects (font (size 1.05 1.05)))))(pin bidirectional line (at 17.78 -10.16 180) (length 2.54)
+          (name "D4" (effects (font (size 1.05 1.05))))
+          (number "11" (effects (font (size 1.05 1.05)))))(pin input line (at -11.43 -22.86 90) (length 2.54)
+          (name "SEL1" (effects (font (size 1.05 1.05))))
+          (number "1" (effects (font (size 1.05 1.05)))))(pin input line (at -6.35 -22.86 90) (length 2.54)
+          (name "SEL2" (effects (font (size 1.05 1.05))))
+          (number "4" (effects (font (size 1.05 1.05)))))(pin input line (at 6.35 -22.86 90) (length 2.54)
+          (name "SEL3" (effects (font (size 1.05 1.05))))
+          (number "10" (effects (font (size 1.05 1.05)))))(pin input line (at 11.43 -22.86 90) (length 2.54)
+          (name "SEL4" (effects (font (size 1.05 1.05))))
+          (number "13" (effects (font (size 1.05 1.05)))))))(symbol "Power_Protection:TPD2E2U06DCK"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -3.81 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD2E2U06DCK"
+			(at 0.508 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at -20.32 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf"
+			(at -5.08 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual-Channel High-Speed ESD Protection, SC-70"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TVS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*SC?70*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPD2E2U06DCK_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 2.54 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -3.556 4.318)
+				(end 0 -4.318)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 3.81) (xy -4.064 3.048) (xy -3.048 3.048) (xy -3.556 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.556 2.54)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 2.54) (xy -5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.556 2.032) (xy -4.064 1.27) (xy -3.048 1.27) (xy -3.556 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 3.81) (xy -4.064 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 2.032) (xy -4.064 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.032 4.318)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -1.27) (xy -2.54 -2.032) (xy -1.524 -2.032) (xy -2.032 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.032 -2.54)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -3.048) (xy -2.54 -3.81) (xy -1.524 -3.81) (xy -2.032 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.032 -4.318)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -4.318) (xy -2.032 4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -1.27) (xy -2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -3.048) (xy -2.54 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.016) (xy 1.016 -1.016) (xy -1.016 -1.016) (xy 0 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.318) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -4.318)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 1.016) (xy -1.016 1.016) (xy -1.016 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TPD2E2U06DCK_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "power:PWR_FLAG"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#FLG"
+			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "flag power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_0"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(embedded_fonts no)
+(symbol (lib_id "ESPaperPlay:TMUX1511PW") (at 82.55 82.55 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "b144e475-5959-5c7d-be66-12c1c670f3a5")
+          (property "Reference" "U701" (at 63.5 36.83 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI TMUX1511PW" (at 63.5 40.64 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" (at 82.55 82.55 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux1511.pdf" (at 82.55 82.55 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "VDD is switched SD_3V3. All four used SEL pins connect SD_IO_EN, with existing R22310k pull-down on control page." (at 82.55 82.55 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "14" (uuid "2bf4c1c2-ab65-52e1-b53a-d144200818d5"))(pin "7" (uuid "17769bfc-91cd-5870-bcee-e2b8db26ec80"))(pin "2" (uuid "bed95587-0830-5839-9aa4-b6d0cf7650ba"))(pin "3" (uuid "72b889ad-cfe9-5e10-8cb7-ac6d2d0ab5d6"))(pin "5" (uuid "b5e800c1-11bb-5169-8926-0fa76c5808dc"))(pin "6" (uuid "b14a0704-5069-5c15-b144-849aac311069"))(pin "9" (uuid "e5cb4f2e-fafa-57e0-a4ba-133d95604121"))(pin "8" (uuid "caf878aa-7a88-5f23-8b18-e14800b5367e"))(pin "12" (uuid "677d7fc0-7e68-5301-a3dc-4b89de38fba0"))(pin "11" (uuid "0050c334-c787-566d-a798-76541d2664e0"))(pin "1" (uuid "644fac56-1a40-59c1-95dc-f31704b84a62"))(pin "4" (uuid "3b67475d-d085-5d38-89ef-3f73ab9da777"))(pin "10" (uuid "b3223c12-6889-5fab-b46e-3088982d33f4"))(pin "13" (uuid "6167ed5b-7770-5c2c-9f16-2990bdd7156e")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "U701") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 82.55 82.55 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "TMUX1511PWR" (at 82.55 82.55 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 82.55 82.55 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U701" (at 82.55 82.55 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/product/TMUX1511/part-details/TMUX1511PWR" (at 82.55 82.55 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "ESPaperPlay:TMUX1511PW") (at 82.55 200.66 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "401d2416-c6e6-5857-9067-261f98e75e3c")
+          (property "Reference" "U706" (at 63.5 153.67 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI TMUX1511PW" (at 63.5 157.48 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" (at 82.55 200.66 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux1511.pdf" (at 82.55 200.66 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Only first two channels used. SEL3/4 tied GND, corresponding S/D pins NC. VDD follows card power, not AON." (at 82.55 200.66 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "14" (uuid "1fd19e03-626f-5c8a-8d9c-3031aae94aa1"))(pin "7" (uuid "49e1d002-3d9e-58d3-adee-37a112979480"))(pin "2" (uuid "8f47bea6-06b0-5d69-9ba4-844793a5bce1"))(pin "3" (uuid "e58f1a40-148a-5de6-a8a8-f001274db21b"))(pin "5" (uuid "2f72d7dd-7e72-57b0-9517-f14c2512b317"))(pin "6" (uuid "583ff94c-bc5d-5ba7-89ce-940372dcd79b"))(pin "9" (uuid "b076212a-f99f-5eef-9064-360ee0764898"))(pin "8" (uuid "c4acab48-0bd5-546e-b725-69bcb59da0e3"))(pin "12" (uuid "ff8cb2a4-83fb-5149-b16e-34df57b2c324"))(pin "11" (uuid "bf2e9961-675e-5b3c-81cb-0baed142ab4e"))(pin "1" (uuid "9375e9bb-5670-58f0-9242-bc3ec6b80011"))(pin "4" (uuid "b48040b6-8c01-5381-b9ee-0b3d316321b6"))(pin "10" (uuid "d82dcb19-7dd1-55ba-8f52-21c59bb1ce2b"))(pin "13" (uuid "28172939-b709-5441-b51b-a09ddcff926f")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "U706") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 82.55 200.66 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "TMUX1511PWR" (at 82.55 200.66 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 82.55 200.66 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U706" (at 82.55 200.66 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/product/TMUX1511/part-details/TMUX1511PWR" (at 82.55 200.66 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 34.29 69.85 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "db5577da-3d90-5f59-af8c-06733b3bddbe")
+          (property "Reference" "R710" (at 25.4 64.77 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "22R" (at 25.4 67.564 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 34.29 69.85 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 34.29 69.85 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Initial source-series tuning position on MCU side. CLK starts22R; bidirectional CMD/DAT start0R. Tune after layout; no 40MHz guarantee." (at 34.29 69.85 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "10e398d8-a92c-5acf-8d08-c9d15dd2c9ec"))(pin "2" (uuid "11cbe851-f510-5294-8249-50d92e645e9a")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R710") (unit 1))))
+(property "Manufacturer" "Vishay" (at 34.29 69.85 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060322R0FKEA" (at 34.29 69.85 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 34.29 69.85 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R710" (at 34.29 69.85 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 34.29 69.85 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 34.29 77.47 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "f5ee7ef5-e1ce-5937-9832-50eee8a2263e")
+          (property "Reference" "R711" (at 25.4 72.39 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "0R" (at 25.4 75.184 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 34.29 77.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 34.29 77.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Initial source-series tuning position on MCU side. CLK starts22R; bidirectional CMD/DAT start0R. Tune after layout; no 40MHz guarantee." (at 34.29 77.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "d1bd9603-99d8-50e2-815e-1ca05b5efd2a"))(pin "2" (uuid "f4260787-1c76-5e11-b5bf-ebed26b6394c")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R711") (unit 1))))
+(property "Manufacturer" "Vishay" (at 34.29 77.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW06030000Z0EA" (at 34.29 77.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 34.29 77.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R711" (at 34.29 77.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 34.29 77.47 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 34.29 85.09 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "596ab4bf-1db2-580d-928f-5705a8df82f9")
+          (property "Reference" "R712" (at 25.4 80.01 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "0R" (at 25.4 82.804 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 34.29 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 34.29 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Initial source-series tuning position on MCU side. CLK starts22R; bidirectional CMD/DAT start0R. Tune after layout; no 40MHz guarantee." (at 34.29 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "b2ca79a7-7d75-5d36-b68c-b05c15a1ad75"))(pin "2" (uuid "d567e1c1-cef7-5bb6-8094-ebc73a03fce9")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R712") (unit 1))))
+(property "Manufacturer" "Vishay" (at 34.29 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW06030000Z0EA" (at 34.29 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 34.29 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R712" (at 34.29 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 34.29 85.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 34.29 92.71 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "8243c858-2802-54e0-8fb4-08e25191cd52")
+          (property "Reference" "R713" (at 25.4 87.63 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "0R" (at 25.4 90.424 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 34.29 92.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 34.29 92.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Initial source-series tuning position on MCU side. CLK starts22R; bidirectional CMD/DAT start0R. Tune after layout; no 40MHz guarantee." (at 34.29 92.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "d5569ff6-5b97-5b4d-a123-137476f05dd7"))(pin "2" (uuid "62437740-6782-55da-bf9c-db3c25a83388")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R713") (unit 1))))
+(property "Manufacturer" "Vishay" (at 34.29 92.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW06030000Z0EA" (at 34.29 92.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 34.29 92.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R713" (at 34.29 92.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 34.29 92.71 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 34.29 187.96 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "4aa825e1-7e8b-54dd-9f9f-7c6d2bb73a8f")
+          (property "Reference" "R714" (at 25.4 182.88 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "0R" (at 25.4 185.674 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 34.29 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 34.29 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Initial source-series tuning position on MCU side. CLK starts22R; bidirectional CMD/DAT start0R. Tune after layout; no 40MHz guarantee." (at 34.29 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "89775c1a-c022-5b82-aaa8-3ebb439f2dc3"))(pin "2" (uuid "0e038a8f-c8cf-5d27-9d4a-de7cbdf345bc")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R714") (unit 1))))
+(property "Manufacturer" "Vishay" (at 34.29 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW06030000Z0EA" (at 34.29 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 34.29 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R714" (at 34.29 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 34.29 187.96 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 34.29 195.58 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "550a50f7-9ed8-55ce-ae9c-3a8682a42dd8")
+          (property "Reference" "R715" (at 25.4 190.5 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "0R" (at 25.4 193.294 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 34.29 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 34.29 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Initial source-series tuning position on MCU side. CLK starts22R; bidirectional CMD/DAT start0R. Tune after layout; no 40MHz guarantee." (at 34.29 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "3072e08d-711a-5e66-9d2a-d89c02cc7217"))(pin "2" (uuid "a355c91a-e9a1-5ef5-812f-229e632f2a6c")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R715") (unit 1))))
+(property "Manufacturer" "Vishay" (at 34.29 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW06030000Z0EA" (at 34.29 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 34.29 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R715" (at 34.29 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 34.29 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Connector:Micro_SD_Card_Det_Hirose_DM3AT") (at 369.57 127 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "4e0c2e55-9a5f-593d-a04a-f3a3628f5bbe")
+          (property "Reference" "J701" (at 336.55 66.04 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "Hirose DM3AT-SF-PEJM5" (at 336.55 69.85 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" (at 369.57 127 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" (at 369.57 127 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Hirose original EDC3-325165-00 older drawing: KiCad9=B,10=A; normally open and closes with inserted card. SH to GND. Push-push clearance and current sample/revision still require qualification." (at 369.57 127 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "fc06787f-ff8c-58e9-b7c3-50ddb3c6fc29"))(pin "2" (uuid "afe436ce-3e26-5841-9cc6-ddc91f458568"))(pin "3" (uuid "3dc3ccab-d1b5-5737-a6b9-80ab391dedcf"))(pin "4" (uuid "d7177ef8-361b-5c4d-80e7-60e42f605cda"))(pin "5" (uuid "58ac0de5-66bc-5fa5-b1e5-9615da159859"))(pin "6" (uuid "8322893b-9719-5be9-b9b9-d90b4b6a1888"))(pin "7" (uuid "0c1e2a65-49f5-53b0-b9f9-f6ab87e6bf2e"))(pin "8" (uuid "8dc46d5a-71b9-5039-940d-033daae81aca"))(pin "9" (uuid "bb3c66a4-25d4-5da3-b60d-5747408e4495"))(pin "10" (uuid "ef144b70-f505-5a59-aa0d-2ad9322e39d8"))(pin "SH" (uuid "ad1902b0-c46c-5d16-81b4-f32f936a49c1")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "J701") (unit 1))))
+(property "Manufacturer" "Hirose" (at 369.57 127 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "DM3AT-SF-PEJM5" (at 369.57 127 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 369.57 127 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#J701" (at 369.57 127 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.hirose.com/en/product/p/CL0609-0031-0-00 | https://www.hirose.com/product/download/?distributor=chip1&lang=en&num=DM3AT-SF-PEJM5&type=2d | https://www.hirose.com/en/product/document?clcode=&documentid=D49662_en&documenttype=Catalog&lang=en&productname=&series=DM3 | https://support.hirose.com/en/support/solutions/articles/68000029780-what-is-the-difference-between-dm3at-sf-pejm5-and-dm3at-sf-pejm5-40- | https://static.chipdip.ru/lib/505/DOC014505249.pdf" (at 369.57 127 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 247.65 100.33 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "2fe253b8-71aa-5f2f-9c2a-9e8906c7b8e5")
+          (property "Reference" "R701" (at 252.73 98.425 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10k / 1%" (at 252.73 102.235 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 247.65 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 247.65 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "All five pull-ups stay on switched card power, including DAT1-3 when running1-bit mode." (at 247.65 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "901e4114-55fb-5d8e-ab09-68f884fba393"))(pin "2" (uuid "8c86b516-6c25-5611-b560-6322dfcbad2d")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R701") (unit 1))))
+(property "Manufacturer" "Vishay" (at 247.65 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060310K0FKEA" (at 247.65 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 247.65 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R701" (at 247.65 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 247.65 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 220.98 100.33 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "5952ee7d-c566-56ee-b2e4-2fe074549014")
+          (property "Reference" "R702" (at 226.06 98.425 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10k / 1%" (at 226.06 102.235 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 220.98 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 220.98 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "All five pull-ups stay on switched card power, including DAT1-3 when running1-bit mode." (at 220.98 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "0f2f2dc8-8d11-52a9-b391-50c0417825d2"))(pin "2" (uuid "6b02ff47-d06f-53f4-b8a9-6fab488d2b5a")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R702") (unit 1))))
+(property "Manufacturer" "Vishay" (at 220.98 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060310K0FKEA" (at 220.98 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 220.98 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R702" (at 220.98 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 220.98 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 194.31 100.33 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "ca5bfe22-904f-5dad-a703-c39bebe7d4ce")
+          (property "Reference" "R703" (at 199.39 98.425 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10k / 1%" (at 199.39 102.235 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 194.31 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 194.31 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "All five pull-ups stay on switched card power, including DAT1-3 when running1-bit mode." (at 194.31 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "1b72ff40-e87d-5b70-9805-0cc393fb3d65"))(pin "2" (uuid "cb09c03f-95c4-5204-b306-db6463de8d58")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R703") (unit 1))))
+(property "Manufacturer" "Vishay" (at 194.31 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060310K0FKEA" (at 194.31 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 194.31 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R703" (at 194.31 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 194.31 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 300.99 100.33 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "8da9460b-194c-53ea-ab2f-ca1df2d5723a")
+          (property "Reference" "R704" (at 306.07 98.425 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10k / 1%" (at 306.07 102.235 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 300.99 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 300.99 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "All five pull-ups stay on switched card power, including DAT1-3 when running1-bit mode." (at 300.99 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "ec9acb2e-d93a-5200-9bd5-b7a13217412a"))(pin "2" (uuid "d17d4288-1665-5a35-a73d-6f5572cfdd03")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R704") (unit 1))))
+(property "Manufacturer" "Vishay" (at 300.99 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060310K0FKEA" (at 300.99 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 300.99 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R704" (at 300.99 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 300.99 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 274.32 100.33 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "f7d5519b-fdb5-5e8c-b08a-214ef1d0ece9")
+          (property "Reference" "R705" (at 279.4 98.425 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10k / 1%" (at 279.4 102.235 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 274.32 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 274.32 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "All five pull-ups stay on switched card power, including DAT1-3 when running1-bit mode." (at 274.32 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "7b50355b-2be5-5374-83e9-8db7fac99199"))(pin "2" (uuid "1d071aac-a7e8-56b9-bb5c-b88bd63b57b7")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R705") (unit 1))))
+(property "Manufacturer" "Vishay" (at 274.32 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060310K0FKEA" (at 274.32 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 274.32 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R705" (at 274.32 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 274.32 100.33 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 312.42 170.18 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "d2583771-fa24-5604-8f25-e461e862a1ab")
+          (property "Reference" "R706" (at 317.5 168.275 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k" (at 317.5 172.085 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 312.42 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 312.42 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Weak card-side clock LOW while isolated; clock is not pulled up." (at 312.42 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "674a955a-f466-59fe-ae2b-d4aaf77adae9"))(pin "2" (uuid "4e9e854d-f20d-5ef7-9cfb-cf2621764913")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R706") (unit 1))))
+(property "Manufacturer" "Vishay" (at 312.42 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 312.42 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 312.42 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R706" (at 312.42 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 312.42 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 120.65 53.34 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "2c8ab466-e3d5-5276-af93-0f0961de27a7")
+          (property "Reference" "C701" (at 125.73 51.435 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 125.73 55.245 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 120.65 53.34 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 120.65 53.34 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Place next to U701 VDD pin14; follows switched card power." (at 120.65 53.34 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "95cabd0d-d0d0-578b-9ff1-193e12bb845b"))(pin "2" (uuid "efe5814e-3e44-5ad6-839d-e86a74d3f699")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "C701") (unit 1))))
+(property "Manufacturer" "TDK" (at 120.65 53.34 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 120.65 53.34 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 120.65 53.34 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C701" (at 120.65 53.34 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 120.65 53.34 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 354.33 170.18 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "5d8a5441-9284-5197-ab97-6caf28b1b98d")
+          (property "Reference" "C702" (at 359.41 168.275 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10u / 10V" (at 359.41 172.085 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 354.33 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 354.33 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Local card bulk; adds to C40622uF on POWER_DOMAINS. Validate effective capacitance and SD peak current." (at 354.33 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "cf28134f-c0d2-5714-8218-2e6863147674"))(pin "2" (uuid "e29ee07d-ed63-5be3-9424-d8a7258f9ae8")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "C702") (unit 1))))
+(property "Manufacturer" "TDK" (at 354.33 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C2012X7R1A106K125AC" (at 354.33 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 354.33 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C702" (at 354.33 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1A106K125AC" (at 354.33 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 383.54 170.18 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "003d9a91-5617-57c8-94af-9285d12e711d")
+          (property "Reference" "C703" (at 388.62 168.275 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 388.62 172.085 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 383.54 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 383.54 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Place at card VDD/VSS contacts." (at 383.54 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "c2b0ea41-05ed-552d-9be3-7576922dfaf3"))(pin "2" (uuid "6d8d6340-f436-5e7f-aa5e-c3cc0b8e5445")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "C703") (unit 1))))
+(property "Manufacturer" "TDK" (at 383.54 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 383.54 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 383.54 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C703" (at 383.54 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 383.54 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 120.65 170.18 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "ef3d8d9d-eba2-598e-b22a-3b25c7078ba1")
+          (property "Reference" "C705" (at 125.73 168.275 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 10V" (at 125.73 172.085 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 120.65 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 120.65 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Local U706 decoupling at VDD14." (at 120.65 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "03f7b395-7090-54ab-b816-32828c4452bb"))(pin "2" (uuid "b69762b8-01b0-575d-9ed3-64e42bf1d582")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "C705") (unit 1))))
+(property "Manufacturer" "TDK" (at 120.65 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 120.65 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 120.65 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C705" (at 120.65 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 120.65 170.18 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 284.48 195.58 90) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "f0cf2f0f-5d5c-58f7-9399-4273b6a78134")
+          (property "Reference" "R708" (at 275.59 187.96 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "100R" (at 275.59 191.77 90) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 284.48 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 284.48 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Mechanical detect series protection. Upstream R216100k toAON; CD is separate from card DAT3/CD pin2." (at 284.48 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "c8a070a4-4e3f-5956-a233-eac4a2b5efb5"))(pin "2" (uuid "f7ec64db-d980-511a-9969-81476f6eb093")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "R708") (unit 1))))
+(property "Manufacturer" "Vishay" (at 284.48 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100RFKEA" (at 284.48 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 284.48 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#R708" (at 284.48 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 284.48 195.58 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 256.54 214.63 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "21518262-db14-54cb-a30c-59175717f395")
+          (property "Reference" "C704" (at 261.62 212.725 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10n / 50V" (at 261.62 216.535 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 256.54 214.63 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 256.54 214.63 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Nominal1ms with upstream100k. Mechanical debounce remains firmware responsibility; not a precise card-removal deadline." (at 256.54 214.63 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "4470407e-9b1e-5176-a352-4e455fca5687"))(pin "2" (uuid "8930cec6-dcd5-5617-af52-2f63e681ba89")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "C704") (unit 1))))
+(property "Manufacturer" "TDK" (at 256.54 214.63 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608C0G1H103J080AA" (at 256.54 214.63 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 256.54 214.63 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#C704" (at 256.54 214.63 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H103J080AA" (at 256.54 214.63 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "power:PWR_FLAG") (at 194.31 86.36 0) (unit 1)
+          (exclude_from_sim no) (in_bom no) (on_board no)
+          (dnp no) (uuid "166c5151-2730-5f5f-b2be-27d8136cb208")
+          (property "Reference" "#FLG701" (at 199.39 84.455 0) (effects (font (size 1.05 1.05)) (justify left) (hide yes)))
+          (property "Value" "PWR_FLAG" (at 199.39 88.265 0) (effects (font (size 1.05 1.05)) (justify left) (hide yes)))
+          (property "Footprint" "" (at 194.31 86.36 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 194.31 86.36 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 194.31 86.36 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "1c968386-84d4-52b3-ba04-fa8696e77789")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "#FLG701") (unit 1)))))
+(symbol (lib_id "Power_Protection:TPD2E2U06DCK") (at 190.5 232.41 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "ab5a53c0-4a5a-5e06-8ee8-86443893014d")
+          (property "Reference" "U702" (at 177.8 215.9 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI TPD2E2U06DCKR" (at 177.8 219.71 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "ESPaperPlay:TI_DCK0003A_SC70_3_Recommended" (at 190.5 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf" (at 190.5 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Two parallel clamps to GND; IO1 pin1,IO2 pin2,GND pin3. Place near socket; short return. Does not certify board ESD performance or sustained power faults." (at 190.5 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "a8c40b41-44d0-52e1-b021-3683ef0e1937"))(pin "2" (uuid "929121c4-d124-5d85-ba2d-b2c26ad8c588"))(pin "3" (uuid "910153c5-e987-5e77-8314-01ca6a756918")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "U702") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 190.5 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "TPD2E2U06DCKR" (at 190.5 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 190.5 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U702" (at 190.5 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/product/TPD2E2U06/part-details/TPD2E2U06DCKR" (at 190.5 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Power_Protection:TPD2E2U06DCK") (at 247.65 232.41 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "00684871-8aba-5010-a3af-93478706ff37")
+          (property "Reference" "U703" (at 234.95 215.9 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI TPD2E2U06DCKR" (at 234.95 219.71 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "ESPaperPlay:TI_DCK0003A_SC70_3_Recommended" (at 247.65 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf" (at 247.65 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Two parallel clamps to GND; IO1 pin1,IO2 pin2,GND pin3. Place near socket; short return. Does not certify board ESD performance or sustained power faults." (at 247.65 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "7a9f0824-aa6b-568a-ae56-0017e6f2f91e"))(pin "2" (uuid "1d65e8ce-3b62-53a2-8083-f76a764305d6"))(pin "3" (uuid "1eec9911-7f83-508e-9539-b6eb9a6359aa")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "U703") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 247.65 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "TPD2E2U06DCKR" (at 247.65 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 247.65 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U703" (at 247.65 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/product/TPD2E2U06/part-details/TPD2E2U06DCKR" (at 247.65 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Power_Protection:TPD2E2U06DCK") (at 304.8 232.41 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "6c17f120-5734-5599-9bb8-d63e40b98b24")
+          (property "Reference" "U704" (at 292.1 215.9 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI TPD2E2U06DCKR" (at 292.1 219.71 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "ESPaperPlay:TI_DCK0003A_SC70_3_Recommended" (at 304.8 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf" (at 304.8 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Two parallel clamps to GND; IO1 pin1,IO2 pin2,GND pin3. Place near socket; short return. Does not certify board ESD performance or sustained power faults." (at 304.8 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "92362253-aba7-53f3-b0a6-8f6821e1bcc7"))(pin "2" (uuid "93cfe170-d778-5fe3-812d-c448553889b7"))(pin "3" (uuid "bd7868b2-02cc-5733-abc8-479baea1dcbc")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "U704") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 304.8 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "TPD2E2U06DCKR" (at 304.8 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 304.8 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U704" (at 304.8 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/product/TPD2E2U06/part-details/TPD2E2U06DCKR" (at 304.8 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Power_Protection:TPD2E2U06DCK") (at 361.95 232.41 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "fea64e05-a128-57ca-a0ca-e1f5ea08070a")
+          (property "Reference" "U705" (at 349.25 215.9 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TI TPD2E2U06DCKR" (at 349.25 219.71 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "ESPaperPlay:TI_DCK0003A_SC70_3_Recommended" (at 361.95 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf" (at 361.95 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Two parallel clamps to GND; IO1 pin1,IO2 pin2,GND pin3. Place near socket; short return. Does not certify board ESD performance or sustained power faults." (at 361.95 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "d1ec5144-d473-54a9-a972-94531c2b567b"))(pin "2" (uuid "ba23788d-733d-538c-9ea5-be1b6ee281a3"))(pin "3" (uuid "91442448-53a9-544e-9cab-1ba86b426568")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/c030585b-bdf2-5c2a-89c1-357186046ec6" (reference "U705") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 361.95 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "TPD2E2U06DCKR" (at 361.95 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r4 CANDIDATE - NOT RELEASED" (at 361.95 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r4/bom-review.json#U705" (at 361.95 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/product/TPD2E2U06/part-details/TPD2E2U06DCKR" (at 361.95 232.41 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(text "MICROSD / WIRED ISOLATION, PULL-UPS AND CARD DETECT" (at 15.24 15.24 0) (effects (font (size 1.8 1.8)) (justify left top)) (uuid "558bda0e-d716-5326-b2cb-de66c63ab7df"))
+(text "CLK / CMD / D0 / D1" (at 19.05 30.48 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "17e26658-c111-5ad1-91e6-4e119ac1a6f9"))
+(polyline (pts (xy 15.24 26.67) (xy 147.32 26.67) (xy 147.32 138.43) (xy 15.24 138.43) (xy 15.24 26.67)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "d6b73d59-59d4-584b-adb2-346f79933374"))
+(text "D2 / D3" (at 19.05 149.86 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "332146ef-2799-5282-87fd-33cd3f3c5d17"))
+(polyline (pts (xy 15.24 146.05) (xy 147.32 146.05) (xy 147.32 257.81) (xy 15.24 257.81) (xy 15.24 146.05)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "a405f3db-117e-5098-b091-7460f749abb3"))
+(text "CARD SOCKET / PULL-UPS / DETECT / ESD" (at 160.02 30.48 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "e974d236-ce08-571e-bfb9-6241922860c1"))
+(polyline (pts (xy 156.21 26.67) (xy 403.86 26.67) (xy 403.86 250.19) (xy 156.21 250.19) (xy 156.21 26.67)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "dce6b45b-1f9f-54a3-b533-f402345f5ba4"))
+(text "All SEL -> SD_IO_EN (IOX P13).\nR223 default pull-down is on control page." (at 21.59 124.46 0) (effects (font (size 0.95 0.95)) (justify left top)) (uuid "4b21f950-484e-58ae-b974-cbd96d1b25ec"))
+(text "Spare channels: SEL LOW, S/D NC." (at 21.59 248.92 0) (effects (font (size 0.95 0.95)) (justify left top)) (uuid "352d7999-7d05-54fe-add8-d7b07415d300"))
+(text "Five pull-ups use SD_3V3; CLK is pulled LOW.\nCard power and SD_IO_EN are independently controlled." (at 163.83 38.1 0) (effects (font (size 1.05 1.05)) (justify left top)) (uuid "39f1e0d7-8d56-5ad0-b52d-b837466e173e"))
+(text "DAT3 is not the mechanical detect contact.\nR708/C704 filter contact bounce; firmware still debounces." (at 163.83 147.32 0) (effects (font (size 1.0 1.0)) (justify left top)) (uuid "db506d0e-0d41-54ac-9687-0c6c07c8b629"))
+(text "Parallel ESD clamps at the connector; short return to GND." (at 163.83 204.47 0) (effects (font (size 1.0 1.0)) (justify left top)) (uuid "d1563ada-71b9-58fa-8937-7c3c7bc0b645"))
+(text "ON: isolate -> power valid -> connect I/O -> initialize. OFF: flush/unmount -> isolate -> power OFF.\nNo UHS 1.8V; begin at 400kHz init, then 4-bit 20MHz target. Values and connectivity unchanged from r5." (at 15.24 270.51 0) (effects (font (size 1.05 1.05)) (justify left top)) (uuid "1d8c10f6-427d-5351-baf2-bcc659bd12b7"))
+(no_connect (at 64.77 203.2) (uuid "b9c0d824-a072-5d7a-8f93-534ff3c62d2d"))
+(no_connect (at 100.33 203.2) (uuid "5e6cbf4e-af81-5c5c-a5c6-1b4a777d3ef4"))
+(no_connect (at 64.77 210.82) (uuid "763839c0-a556-5856-9e8c-43ea1f1f1633"))
+(no_connect (at 100.33 210.82) (uuid "4bde297f-51fc-5b1b-9d55-eb2403f32b16"))
+(junction (at 247.65 86.36) (diameter 0) (color 0 0 0 0) (uuid "00186e84-57ba-5b9a-8dc5-e5c4584b81c3"))
+(junction (at 93.98 236.22) (diameter 0) (color 0 0 0 0) (uuid "6a2b8531-270c-5ea2-a648-79d5ef967adb"))
+(junction (at 76.2 111.76) (diameter 0) (color 0 0 0 0) (uuid "9e24581e-bd95-5680-b34b-8630811a9c42"))
+(junction (at 274.32 86.36) (diameter 0) (color 0 0 0 0) (uuid "1ade8688-1eac-52c1-b12e-f7c6036b5276"))
+(junction (at 220.98 86.36) (diameter 0) (color 0 0 0 0) (uuid "7cecd91e-72e1-5a21-b04d-ab07649c2dd5"))
+(junction (at 354.33 153.67) (diameter 0) (color 0 0 0 0) (uuid "7e462d10-01dc-5a5d-ad76-c20faf3d530f"))
+(junction (at 88.9 111.76) (diameter 0) (color 0 0 0 0) (uuid "ca3f6c60-3c61-597a-8462-29825bd39f6e"))
+(junction (at 340.36 137.16) (diameter 0) (color 0 0 0 0) (uuid "888a9c56-e886-5678-b8b0-e2776c2d0179"))
+(wire (pts (xy 25.4 69.85) (xy 30.48 69.85)) (stroke (width 0) (type default)) (uuid "03e75542-bf7d-5e57-b042-23b410ea885e"))
+(wire (pts (xy 25.4 77.47) (xy 30.48 77.47)) (stroke (width 0) (type default)) (uuid "2b6ba101-c1a5-52b6-b8f6-b35c0c693b91"))
+(wire (pts (xy 25.4 85.09) (xy 30.48 85.09)) (stroke (width 0) (type default)) (uuid "7cba765b-a27c-5a95-b341-f2944fe7906c"))
+(wire (pts (xy 25.4 92.71) (xy 30.48 92.71)) (stroke (width 0) (type default)) (uuid "b16219da-9ba1-5864-9714-0532194486e6"))
+(wire (pts (xy 25.4 187.96) (xy 30.48 187.96)) (stroke (width 0) (type default)) (uuid "984ce2da-dba1-5030-8382-2c44d814a206"))
+(wire (pts (xy 25.4 195.58) (xy 30.48 195.58)) (stroke (width 0) (type default)) (uuid "82731622-860c-5711-a84b-8d764a04c90d"))
+(wire (pts (xy 38.1 69.85) (xy 64.77 69.85)) (stroke (width 0) (type default)) (uuid "9f8c610d-3803-573e-bf58-79e2c17cd8ee"))
+(wire (pts (xy 38.1 77.47) (xy 64.77 77.47)) (stroke (width 0) (type default)) (uuid "7f62bff9-de39-55d7-9419-37b20f19a5f4"))
+(wire (pts (xy 38.1 85.09) (xy 64.77 85.09)) (stroke (width 0) (type default)) (uuid "bf03fecf-1e6f-50e7-8c40-d5fe517b9316"))
+(wire (pts (xy 38.1 92.71) (xy 64.77 92.71)) (stroke (width 0) (type default)) (uuid "5f3c03e6-b9ce-50f1-b0e9-2a0378b52687"))
+(wire (pts (xy 38.1 187.96) (xy 64.77 187.96)) (stroke (width 0) (type default)) (uuid "cc1d5a21-441f-5851-bd63-756b1972a825"))
+(wire (pts (xy 38.1 195.58) (xy 64.77 195.58)) (stroke (width 0) (type default)) (uuid "4c256ae3-e6b8-5565-8745-d2697f561f88"))
+(wire (pts (xy 71.12 105.41) (xy 71.12 111.76)) (stroke (width 0) (type default)) (uuid "bfbe5cc0-a15c-57a6-ba60-25d5fcbf54da"))
+(wire (pts (xy 71.12 111.76) (xy 76.2 111.76)) (stroke (width 0) (type default)) (uuid "1fd6ad88-14a0-5621-9336-2d6b99efaa93"))
+(wire (pts (xy 71.12 223.52) (xy 71.12 229.87)) (stroke (width 0) (type default)) (uuid "18a6e470-3631-5fc4-961c-26e39fca1747"))
+(wire (pts (xy 71.12 229.87) (xy 76.2 229.87)) (stroke (width 0) (type default)) (uuid "b5d7ad54-251b-515d-b222-14e1c8c99725"))
+(wire (pts (xy 76.2 105.41) (xy 76.2 111.76)) (stroke (width 0) (type default)) (uuid "8ea319f6-830a-5209-a448-aa8380421162"))
+(wire (pts (xy 76.2 111.76) (xy 88.9 111.76)) (stroke (width 0) (type default)) (uuid "0b8afb08-ccd3-5eac-a099-1184d52a4857"))
+(wire (pts (xy 76.2 223.52) (xy 76.2 229.87)) (stroke (width 0) (type default)) (uuid "c06f84e0-65ec-5184-aada-d6f8f77e0230"))
+(wire (pts (xy 82.55 45.72) (xy 82.55 59.69)) (stroke (width 0) (type default)) (uuid "8f3ab452-1c2e-5af0-a701-8e6034df7709"))
+(wire (pts (xy 82.55 45.72) (xy 120.65 45.72)) (stroke (width 0) (type default)) (uuid "caf5c07a-de53-591a-a649-518d24bbe399"))
+(wire (pts (xy 82.55 162.56) (xy 82.55 177.8)) (stroke (width 0) (type default)) (uuid "0de057b1-619a-5342-9ad8-228e12e46bf4"))
+(wire (pts (xy 82.55 162.56) (xy 120.65 162.56)) (stroke (width 0) (type default)) (uuid "a23802f2-37b4-56a6-97d8-31d3ec6c75d4"))
+(wire (pts (xy 88.9 105.41) (xy 88.9 111.76)) (stroke (width 0) (type default)) (uuid "2afa9602-8a26-5763-8b8d-31b70a72206f"))
+(wire (pts (xy 88.9 111.76) (xy 93.98 111.76)) (stroke (width 0) (type default)) (uuid "9ae23337-9f00-52dc-9eea-671688bc28c2"))
+(wire (pts (xy 88.9 223.52) (xy 88.9 236.22)) (stroke (width 0) (type default)) (uuid "5009d224-4d80-5dd2-9c43-69e963b283a3"))
+(wire (pts (xy 88.9 236.22) (xy 93.98 236.22)) (stroke (width 0) (type default)) (uuid "6a4fd45b-e3ad-5d80-ad36-fae6cb3a9774"))
+(wire (pts (xy 93.98 105.41) (xy 93.98 111.76)) (stroke (width 0) (type default)) (uuid "8c18df6f-4312-5b40-9f0f-0290159c9966"))
+(wire (pts (xy 93.98 223.52) (xy 93.98 236.22)) (stroke (width 0) (type default)) (uuid "727f3ac9-e60e-56fa-b5f1-bb9ed1e15059"))
+(wire (pts (xy 93.98 236.22) (xy 130.81 236.22)) (stroke (width 0) (type default)) (uuid "1458b076-49c4-5ff1-92d7-8adaa8992888"))
+(wire (pts (xy 100.33 69.85) (xy 105.41 69.85)) (stroke (width 0) (type default)) (uuid "fff9ecf2-ec49-54b8-a64b-acced9159262"))
+(wire (pts (xy 100.33 77.47) (xy 105.41 77.47)) (stroke (width 0) (type default)) (uuid "b126411f-5668-55b4-aed5-23a12c86a8f7"))
+(wire (pts (xy 100.33 85.09) (xy 105.41 85.09)) (stroke (width 0) (type default)) (uuid "1e630dde-5982-5581-b1e5-9f4cff19151b"))
+(wire (pts (xy 100.33 92.71) (xy 105.41 92.71)) (stroke (width 0) (type default)) (uuid "e8be68fc-3abf-5f89-912f-b158d2e980fb"))
+(wire (pts (xy 100.33 99.06) (xy 105.41 99.06)) (stroke (width 0) (type default)) (uuid "42da8fdb-1f8b-5fc1-a3e5-b6c82dd6a6a9"))
+(wire (pts (xy 100.33 187.96) (xy 105.41 187.96)) (stroke (width 0) (type default)) (uuid "d7575abf-42b1-573b-8e96-ed496320af04"))
+(wire (pts (xy 100.33 195.58) (xy 105.41 195.58)) (stroke (width 0) (type default)) (uuid "477a7e30-ff9b-5ba7-aff0-fbd3b900c079"))
+(wire (pts (xy 100.33 217.17) (xy 130.81 217.17)) (stroke (width 0) (type default)) (uuid "9acd767c-88c6-58fb-87ff-4c247e6fc4ca"))
+(wire (pts (xy 120.65 45.72) (xy 120.65 49.53)) (stroke (width 0) (type default)) (uuid "0b01ec90-1386-5621-8eac-2d4dfe9d50fd"))
+(wire (pts (xy 120.65 57.15) (xy 120.65 62.23)) (stroke (width 0) (type default)) (uuid "d6c4b66f-b9f0-5597-89b6-b0af2bb60a73"))
+(wire (pts (xy 120.65 162.56) (xy 120.65 166.37)) (stroke (width 0) (type default)) (uuid "ee1d6151-0d7d-55e1-91f5-ca56202bf7d6"))
+(wire (pts (xy 120.65 173.99) (xy 120.65 179.07)) (stroke (width 0) (type default)) (uuid "57942aad-4391-5965-be34-ab3c6f2bdcfc"))
+(wire (pts (xy 130.81 217.17) (xy 130.81 236.22)) (stroke (width 0) (type default)) (uuid "a88a91c9-ae8d-5209-a31a-388d1ac26798"))
+(wire (pts (xy 177.8 229.87) (xy 182.88 229.87)) (stroke (width 0) (type default)) (uuid "b68c4c4a-4f5b-5dd6-937e-cdac294936c8"))
+(wire (pts (xy 177.8 234.95) (xy 182.88 234.95)) (stroke (width 0) (type default)) (uuid "51a66c44-ae99-5a64-95da-901cb0a84255"))
+(wire (pts (xy 190.5 240.03) (xy 190.5 245.11)) (stroke (width 0) (type default)) (uuid "51337ebc-c56b-529d-87a6-19e29bae18c8"))
+(wire (pts (xy 194.31 86.36) (xy 194.31 96.52)) (stroke (width 0) (type default)) (uuid "18829644-9d04-5be0-9106-eb1216ea21a3"))
+(wire (pts (xy 194.31 86.36) (xy 220.98 86.36)) (stroke (width 0) (type default)) (uuid "93fa3fe7-ae27-5c75-a337-e8ead5d5cc55"))
+(wire (pts (xy 194.31 104.14) (xy 194.31 134.62)) (stroke (width 0) (type default)) (uuid "a1022330-3320-5a2d-97cf-02e3453191e7"))
+(wire (pts (xy 194.31 134.62) (xy 346.71 134.62)) (stroke (width 0) (type default)) (uuid "97e206ca-25cb-56dd-9b22-0c1223e90757"))
+(wire (pts (xy 220.98 86.36) (xy 220.98 96.52)) (stroke (width 0) (type default)) (uuid "5fa2e8ec-2f7c-559a-872e-443c44e71d8b"))
+(wire (pts (xy 220.98 86.36) (xy 247.65 86.36)) (stroke (width 0) (type default)) (uuid "907462d7-3dfa-5062-acbe-c0ba3104aa1f"))
+(wire (pts (xy 220.98 104.14) (xy 220.98 132.08)) (stroke (width 0) (type default)) (uuid "24ed2325-0505-554c-a878-501343658f3a"))
+(wire (pts (xy 220.98 132.08) (xy 346.71 132.08)) (stroke (width 0) (type default)) (uuid "f15360a1-9080-5931-828c-bb486925f85b"))
+(wire (pts (xy 234.95 229.87) (xy 240.03 229.87)) (stroke (width 0) (type default)) (uuid "20c7de8d-1554-5b1a-a23c-a080fa313e25"))
+(wire (pts (xy 234.95 234.95) (xy 240.03 234.95)) (stroke (width 0) (type default)) (uuid "264954ad-9988-52e1-ae7c-78069921cde0"))
+(wire (pts (xy 247.65 86.36) (xy 247.65 96.52)) (stroke (width 0) (type default)) (uuid "f0ba03b7-61eb-5cc7-a73d-240a19e029c2"))
+(wire (pts (xy 247.65 86.36) (xy 274.32 86.36)) (stroke (width 0) (type default)) (uuid "4ed1ff08-069a-5c62-8f3e-5e199ba53e1c"))
+(wire (pts (xy 247.65 104.14) (xy 247.65 121.92)) (stroke (width 0) (type default)) (uuid "83b3fada-5297-5f5d-820d-f683e9bd706f"))
+(wire (pts (xy 247.65 121.92) (xy 346.71 121.92)) (stroke (width 0) (type default)) (uuid "58b55c1a-3687-5880-a20d-6c4875ff3ef8"))
+(wire (pts (xy 247.65 240.03) (xy 247.65 245.11)) (stroke (width 0) (type default)) (uuid "902caf59-ad8c-5a6b-9d3f-30f8e20fb005"))
+(wire (pts (xy 256.54 195.58) (xy 256.54 210.82)) (stroke (width 0) (type default)) (uuid "3f83dce9-0ccb-599e-8127-b0b172a530a7"))
+(wire (pts (xy 256.54 195.58) (xy 280.67 195.58)) (stroke (width 0) (type default)) (uuid "7cca7976-7fa7-5797-af7b-5cb641284a71"))
+(wire (pts (xy 256.54 218.44) (xy 256.54 223.52)) (stroke (width 0) (type default)) (uuid "2aca8b2a-0715-5c5b-acdd-c931aecf819d"))
+(wire (pts (xy 274.32 86.36) (xy 274.32 96.52)) (stroke (width 0) (type default)) (uuid "a677efff-c500-56bb-8d5b-3471e8ee1848"))
+(wire (pts (xy 274.32 86.36) (xy 300.99 86.36)) (stroke (width 0) (type default)) (uuid "d23dc50e-0e6e-5de4-8785-e4b7558af211"))
+(wire (pts (xy 274.32 104.14) (xy 274.32 119.38)) (stroke (width 0) (type default)) (uuid "c8e6a905-d945-5702-8089-4ab825db14d3"))
+(wire (pts (xy 274.32 119.38) (xy 346.71 119.38)) (stroke (width 0) (type default)) (uuid "a12fba58-ed77-5382-baa0-e3e56b77b4b8"))
+(wire (pts (xy 288.29 195.58) (xy 327.66 195.58)) (stroke (width 0) (type default)) (uuid "302c5533-d78d-5bdb-9871-3d8abd236f3e"))
+(wire (pts (xy 292.1 229.87) (xy 297.18 229.87)) (stroke (width 0) (type default)) (uuid "8eb66dc3-0895-54ec-9b1c-c565962e2395"))
+(wire (pts (xy 292.1 234.95) (xy 297.18 234.95)) (stroke (width 0) (type default)) (uuid "b00e04fa-fe79-5e26-bbca-3b0da0845352"))
+(wire (pts (xy 300.99 86.36) (xy 300.99 96.52)) (stroke (width 0) (type default)) (uuid "b6df40fd-084d-5361-a392-5559925d6d87"))
+(wire (pts (xy 300.99 104.14) (xy 300.99 116.84)) (stroke (width 0) (type default)) (uuid "178373bc-fa3c-50c9-82fc-1325a81d3d56"))
+(wire (pts (xy 300.99 116.84) (xy 346.71 116.84)) (stroke (width 0) (type default)) (uuid "77856562-2e04-563b-bb3d-4bb5f75ccb87"))
+(wire (pts (xy 304.8 240.03) (xy 304.8 245.11)) (stroke (width 0) (type default)) (uuid "c0618882-06d3-52a6-9ecd-c9ddc3a2fe48"))
+(wire (pts (xy 312.42 127) (xy 312.42 166.37)) (stroke (width 0) (type default)) (uuid "ede4b723-a567-5cc4-9f36-7bef0c6da2d8"))
+(wire (pts (xy 312.42 127) (xy 346.71 127)) (stroke (width 0) (type default)) (uuid "9c5bb4ac-3883-5f4f-a7f9-dba9da5e2ce8"))
+(wire (pts (xy 312.42 173.99) (xy 312.42 179.07)) (stroke (width 0) (type default)) (uuid "14e2fd55-a833-5475-abe6-e2c4e19309a6"))
+(wire (pts (xy 327.66 139.7) (xy 327.66 195.58)) (stroke (width 0) (type default)) (uuid "8238f3f9-fbc9-5600-8558-25ff2083e477"))
+(wire (pts (xy 327.66 139.7) (xy 346.71 139.7)) (stroke (width 0) (type default)) (uuid "61899ed8-fff2-5f3f-b24d-0d6820054c64"))
+(wire (pts (xy 339.09 124.46) (xy 339.09 153.67)) (stroke (width 0) (type default)) (uuid "58296f45-adf9-57d8-902f-aa12a58c7ae5"))
+(wire (pts (xy 339.09 124.46) (xy 346.71 124.46)) (stroke (width 0) (type default)) (uuid "19e973b6-5764-53a3-8f9f-87ec0f1172c1"))
+(wire (pts (xy 339.09 153.67) (xy 354.33 153.67)) (stroke (width 0) (type default)) (uuid "1d52cb8d-acde-5352-90f2-e7d3a48b3ab0"))
+(wire (pts (xy 340.36 129.54) (xy 340.36 137.16)) (stroke (width 0) (type default)) (uuid "b30c955e-b4fb-51f3-95da-c2f664e6bfab"))
+(wire (pts (xy 340.36 129.54) (xy 346.71 129.54)) (stroke (width 0) (type default)) (uuid "eb86cff9-6474-5f43-bd4b-9ca37bf38be9"))
+(wire (pts (xy 340.36 137.16) (xy 340.36 148.59)) (stroke (width 0) (type default)) (uuid "482c3f71-802d-547f-a95e-65faeb2d7e71"))
+(wire (pts (xy 340.36 137.16) (xy 346.71 137.16)) (stroke (width 0) (type default)) (uuid "80b2c03f-037e-52a8-a256-2005af759710"))
+(wire (pts (xy 340.36 148.59) (xy 389.89 148.59)) (stroke (width 0) (type default)) (uuid "fee3476b-c5be-5598-ac8d-0039dcc7444e"))
+(wire (pts (xy 349.25 229.87) (xy 354.33 229.87)) (stroke (width 0) (type default)) (uuid "f6260a88-51ea-5ae3-948b-326970502aba"))
+(wire (pts (xy 349.25 234.95) (xy 354.33 234.95)) (stroke (width 0) (type default)) (uuid "6df91229-13ed-569f-84a7-fe5d1471851e"))
+(wire (pts (xy 354.33 153.67) (xy 354.33 166.37)) (stroke (width 0) (type default)) (uuid "eb0e8119-cc55-5069-b44a-a35fbe872bba"))
+(wire (pts (xy 354.33 153.67) (xy 383.54 153.67)) (stroke (width 0) (type default)) (uuid "caffc624-445e-5f4f-af29-8ffbfc66f23d"))
+(wire (pts (xy 354.33 173.99) (xy 354.33 179.07)) (stroke (width 0) (type default)) (uuid "f74fb472-5155-572e-9774-5c31c417d7eb"))
+(wire (pts (xy 354.33 179.07) (xy 383.54 179.07)) (stroke (width 0) (type default)) (uuid "ba9f4b3b-2e61-5771-9990-a90c726ebad7"))
+(wire (pts (xy 361.95 240.03) (xy 361.95 245.11)) (stroke (width 0) (type default)) (uuid "286463db-ca49-5c6b-92e6-8450e7ace1df"))
+(wire (pts (xy 383.54 153.67) (xy 383.54 166.37)) (stroke (width 0) (type default)) (uuid "8e3ec2b8-cce6-5a81-85a4-7108f44d2951"))
+(wire (pts (xy 383.54 173.99) (xy 383.54 179.07)) (stroke (width 0) (type default)) (uuid "88c3306a-5d3f-5c82-8070-faaa90c439d7"))
+(wire (pts (xy 389.89 139.7) (xy 389.89 148.59)) (stroke (width 0) (type default)) (uuid "fcc9e0bd-39c0-5e6f-b2d8-bc7750ff2059"))
+(global_label "GND" (shape bidirectional) (at 105.41 99.06 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "b4ba093c-1e6e-5a10-94e5-cef51c2d2bd6"))
+(global_label "SD_CARD_CLK" (shape bidirectional) (at 105.41 69.85 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "15fc8bcb-2809-5f89-8793-ff9983aca1de"))
+(global_label "SD_CARD_CMD" (shape bidirectional) (at 105.41 77.47 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "64228e0e-cd63-5eab-96a6-3f356b9b5680"))
+(global_label "SD_CARD_D0" (shape bidirectional) (at 105.41 85.09 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "4db75053-7e91-5566-b25a-b971bc26b94e"))
+(global_label "SD_CARD_D1" (shape bidirectional) (at 105.41 92.71 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "7520ba26-7947-5a86-8260-37acdb25e519"))
+(global_label "SD_CARD_D2" (shape bidirectional) (at 105.41 187.96 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "5ba6903b-fd28-5b9b-8a44-ba42864475b9"))
+(global_label "SD_CARD_D3" (shape bidirectional) (at 105.41 195.58 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "459e115a-d478-5036-80b3-af03345024d3"))
+(global_label "SD_CLK" (shape bidirectional) (at 25.4 69.85 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "226d1ea0-7651-5f68-8757-13cbdd567361"))
+(global_label "SD_CMD" (shape bidirectional) (at 25.4 77.47 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "77d51bd3-a3d9-5253-bbee-ab889edf60f7"))
+(global_label "SD_D0" (shape bidirectional) (at 25.4 85.09 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "01d31b01-5e9c-5aaa-80d9-117a26f274a5"))
+(global_label "SD_D1" (shape bidirectional) (at 25.4 92.71 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "901bf9ce-af37-5c7f-9e59-50e243a48186"))
+(global_label "SD_D2" (shape bidirectional) (at 25.4 187.96 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "cffdf945-aea3-5eb6-9dce-f3d5dfb3be0b"))
+(global_label "SD_D3" (shape bidirectional) (at 25.4 195.58 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "14089f9f-5b0a-5c30-9bd7-eb12c694fdb6"))
+(global_label "GND" (shape bidirectional) (at 312.42 179.07 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "0fa35eb1-3414-5ba7-91f1-539df4b7671e"))
+(global_label "GND" (shape bidirectional) (at 120.65 62.23 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "9dda14e6-edf7-52d6-a527-50e7b55e7450"))
+(global_label "GND" (shape bidirectional) (at 120.65 179.07 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "64e40376-0ea1-5d77-9b31-bbca73561483"))
+(global_label "GND" (shape bidirectional) (at 256.54 223.52 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "58a124a3-075f-5d49-b525-a19960521c3d"))
+(global_label "SD_CARD_CLK" (shape bidirectional) (at 177.8 229.87 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "82f5ffb5-12ef-53ff-9d5c-fa6f26c11c5b"))
+(global_label "SD_CARD_CMD" (shape bidirectional) (at 177.8 234.95 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "724b2f54-37f9-5aad-95ca-3502dd764786"))
+(global_label "GND" (shape bidirectional) (at 190.5 245.11 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "92af1e58-04c5-5b38-830e-2aa5a2d6cae1"))
+(global_label "SD_CARD_D0" (shape bidirectional) (at 234.95 229.87 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "0f0d23f9-2103-5dd4-bc71-f51d34e7a9dc"))
+(global_label "SD_CARD_D1" (shape bidirectional) (at 234.95 234.95 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "39b23317-b601-533b-b335-7cfd4e8a6946"))
+(global_label "GND" (shape bidirectional) (at 247.65 245.11 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "1ec409c0-9bba-5f00-9ed4-c3101ec7098c"))
+(global_label "SD_CARD_D2" (shape bidirectional) (at 292.1 229.87 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "19fd27c1-97a3-5879-ab0e-63524889b4b3"))
+(global_label "SD_CARD_D3" (shape bidirectional) (at 292.1 234.95 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "137dad89-f3b2-5061-aa52-a460d6a94f76"))
+(global_label "GND" (shape bidirectional) (at 304.8 245.11 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "0faf8c49-7444-5ef8-b005-ccc23307903e"))
+(global_label "SD_DETECT_CONTACT" (shape bidirectional) (at 349.25 229.87 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "3138dcab-f4bd-5250-9079-6c28f188497d"))
+(global_label "SD_3V3" (shape bidirectional) (at 349.25 234.95 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "11fc0585-8ccd-533c-9041-5c8ef314b375"))
+(global_label "GND" (shape bidirectional) (at 361.95 245.11 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "6a0fa44c-44ca-57e9-9729-14299ae30b10"))
+(global_label "SD_3V3" (shape bidirectional) (at 82.55 45.72 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "e8d7a6b4-9cdb-5a3c-9619-013fec1df66c"))
+(label "SD_CLK_BUS" (at 38.1 69.85 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "001e12cd-21ab-5197-8814-d7eeec7b85c3"))
+(label "SD_CMD_BUS" (at 38.1 77.47 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "af4aaa8a-d20d-52b2-96af-8de1cd812021"))
+(label "SD_D0_BUS" (at 38.1 85.09 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "008a7d43-b228-554c-a47c-928948594104"))
+(label "SD_D1_BUS" (at 38.1 92.71 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "4fcef23e-9258-548b-83cf-04a63f2453e3"))
+(global_label "SD_IO_EN" (shape bidirectional) (at 71.12 111.76 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "942c078e-af4a-5c41-9619-2025b82a4fb5"))
+(global_label "SD_3V3" (shape bidirectional) (at 82.55 162.56 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "8ab0d1ab-4c93-5ea7-a712-11496f488c43"))
+(global_label "GND" (shape bidirectional) (at 130.81 217.17 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "47d20a19-ee49-5757-94f2-77cb61f3738a"))
+(label "SD_D2_BUS" (at 38.1 187.96 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "496fcb3c-f81a-52e6-9ef9-7615ad01cd84"))
+(label "SD_D3_BUS" (at 38.1 195.58 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "552052bb-7e2c-59e4-a6be-dead555f4743"))
+(global_label "SD_IO_EN" (shape bidirectional) (at 71.12 229.87 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "843846f6-f2c5-54bf-a623-060a9922e81c"))
+(global_label "SD_CARD_D2" (shape bidirectional) (at 300.99 116.84 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "930c7569-6bbb-5923-95d0-ecf4b6c2ec7d"))
+(global_label "SD_CARD_D3" (shape bidirectional) (at 274.32 119.38 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "181741a1-40aa-5c6b-9cbc-fa8e2bd4bac6"))
+(global_label "SD_CARD_CMD" (shape bidirectional) (at 247.65 121.92 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "e4a13f25-b304-58ba-9510-5c7ba2ef2fce"))
+(global_label "SD_3V3" (shape bidirectional) (at 339.09 124.46 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "79660de7-dd92-5f7d-9c97-72b3094644c1"))
+(global_label "SD_CARD_CLK" (shape bidirectional) (at 312.42 127 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "ab66ed71-5508-55a2-83a6-ef81ae8c7bb1"))
+(global_label "GND" (shape bidirectional) (at 340.36 129.54 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "e1411744-2056-5c63-b2d7-fee93c734630"))
+(global_label "SD_CARD_D0" (shape bidirectional) (at 220.98 132.08 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "860fb878-8764-5f3b-bb19-db19524fddca"))
+(global_label "SD_CARD_D1" (shape bidirectional) (at 194.31 134.62 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "787162f8-12bb-5486-845f-6e6440286be3"))
+(global_label "SD_DETECT_CONTACT" (shape bidirectional) (at 327.66 139.7 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "5d0d0659-cbd2-58e7-b1f4-7c4af5484e89"))
+(global_label "SD_3V3" (shape bidirectional) (at 220.98 86.36 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "1c35ca0f-6ed4-56d4-8515-c312003f1568"))
+(global_label "GND" (shape bidirectional) (at 354.33 179.07 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "08573627-ba09-55b5-8b0b-62d37a12ddc4"))
+(global_label "SD_CD_N" (shape bidirectional) (at 256.54 195.58 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "d8234839-3d12-51db-8c2b-00a3cc2d5bd7"))
+)

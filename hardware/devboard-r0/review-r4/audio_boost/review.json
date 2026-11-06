@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-02",
+  "scope": "U803,Q601,R602; candidate closure, no formal project modified",
+  "items": [
+    {
+      "refs": [
+        "U803"
+      ],
+      "manufacturer": "PUI Audio",
+      "mpn": "DMM-4026-B-I2S-R",
+      "recommended_footprint": "ESPaperPlay:PUI_DMM_4026_B_I2S_R_7Pad_NPTH0.60",
+      "status": "candidate_geometry_and_acoustic_board_hole_defined",
+      "source_ids": [
+        "PUI_PART",
+        "PUI_APP",
+        "PUI_PRODUCT"
+      ],
+      "source_url": "https://api.puiaudio.com/filename/DMM-4026-B-I2S-R.pdf",
+      "closed": [
+        "Seven electrical pad IDs mapped from package bottom view to top PCB:1/2/3 left,7/6/5 right; GND ring4 surrounds acoustic port.",
+        "Nominal copper follows PUI1:1 recommendation: signal lands.6x.4mm,2.15mm columns,.65mm row pitch; GND annulusOD1.65/ID1.05mm.",
+        "PCB sound hole now defined as0.60mm NPTH, required finished tolerance+/-0.05mm. Minimum.55mm exceeds PUI general minimum.50mm; it is deliberately distinct from device acoustic port.25+/-0.05mm.",
+        "All-copper-layer radius.50mm keepout around sound passage excludes tracks/vias/pours. Native custom pad polygon leaves acoustic centre clear.",
+        "Signal paste.51x.34mm(85%linear), continuous annular paste width.255mm(85%of.30mm), mask expansion.025mm are explicit assembly candidates. Copper ring remains continuous as acoustic seal."
+      ],
+      "mechanical_interpretation": "Datum is port centre(0,+1.00mm) relative body centre; third signal row is1.28mm above it, giving y=-.28,-.93,-1.58. Source rounded.23mm top inset and.43mm side inset differ <=.01mm; nominal coordinates prioritize quoted1.28/.65/2.15 dimensions within drawing+/-0.15mm general tolerance.",
+      "required_action": "孔径/铜环/镜像脚序已定义，可用于开发板布局；贴装厂确认0.10–0.12mm钢网、85%开口、环形焊点密封与孔公差，样机验证声学；最终外壳声道和供应状态另核。",
+      "remaining": [
+        "Final enclosure acoustic channel/gasket must stay short, sealed and not narrower than PCB sound hole; developer board open-air test does not establish enclosure frequency response.",
+        "Use type4 no-clean low-flux paste; do not wash or ultrasonic-clean after reflow. Keep speaker mechanically separate using user-selected wired8ohm chamber; avoid microphones near power/RF vibration sources.",
+        "Lifecycle and real procurement remain unconfirmed; catalogue existence is not a supply promise.",
+        "Hole diameter and exact paste/mask reduction are project engineering choices within general PUI guidance, not explicit dimensions from part datasheet; assembly coupon/sample validation remains mandatory."
+      ]
+    },
+    {
+      "refs": [
+        "Q601"
+      ],
+      "manufacturer": "Vishay Siliconix",
+      "mpn": "Si1308EDL-T1-GE3",
+      "recommended_footprint": "ESPaperPlay:Vishay_SC70_3_AN826_72601",
+      "status": "vendor_minimum_land_mismatch_closed",
+      "source_ids": [
+        "VISHAY_SC70",
+        "VISHAY_MOS",
+        "VISHAY_MOS_PRODUCT"
+      ],
+      "source_url": "https://www.vishay.com/docs/72601/landpatternsc-70-3lead.pdf",
+      "closed": [
+        "Dedicated Vishay AN826 SC70-3 land replaces generic.45mm-wide pad with.648x.559mm pads.",
+        "Pads1G/2S on left and3D on right retain exact schematic pinmap. Opposing pad-centres1.791mm,paired centre pitch1.245mm; source mm rounding reconciled outward by <=.001mm.",
+        "Native reader checks all3pad positions,dimensions and numbering."
+      ],
+      "required_action": "原厂最小焊盘差异已闭合；布局时保持升压回路短，样机核对MOS波形/温升与实际电流。",
+      "remaining": [
+        "No assembly/thermal/boost-loop test performed. Exact live lifecycle/stock commitment not observed."
+      ]
+    },
+    {
+      "refs": [
+        "R602"
+      ],
+      "manufacturer": "Vishay Dale",
+      "mpn": "WFMB2010R4700FEA",
+      "recommended_footprint": "ESPaperPlay:Vishay_WFM2010_5.08x2.54mm",
+      "status": "specific_low_inductance_candidate_and_verification_envelope_defined",
+      "source_ids": [
+        "VISHAY_WFM",
+        "VISHAY_WFM_PRODUCT",
+        "PANEL_REF"
+      ],
+      "source_url": "https://www.vishay.com/docs/30387/wfm.pdf",
+      "closed": [
+        "0.47ohm +/-1%,componentTCR+/-50ppm/C,metal-plate0.5–5nH family; exact order code follows manufacturer table.",
+        "WFM2010 rates3W@terminal70C or2W@terminal110C. Vendor recommended copper1.25x3.00mm with3.50mm inner gap; dedicated footprint avoids generic2010 land assumptions.",
+        "Resistor-only design verification envelope Irms<=1A,Ipeak<=2A,Tterminal<=110C givesRworst0.476717475ohm,Pavg<=0.476717475W,Ppeak<=1.9068699W<2W. No overload-pulse credit required inside this envelope.",
+        "Source p3 pulse curves valid only33mohm; not used for0.47ohm. Sense value and all electrical nets unchanged."
+      ],
+      "required_action": "型号/2010原厂焊盘可落图；Kelvin取样，实测实际Ipeak/Irms与端子温度，确认落在电阻包络且满足更严格MOS/电感/面板边界。",
+      "remaining": [
+        "The2W figure is tied to measured terminal temperature, not ambient temperature; PCB copper must keep the terminal <=110C.",
+        "No reliance on published overload pulse curves: WFM p3 explicitly restricts them to33mohm;0.47ohm overload would need separate manufacturer qualification.",
+        "Actual UC8179 boost current threshold and waveform are not established; <=1A RMS / <=2A peak are proposed validation limits for resistor selection only. They do not increase the allowable limits of Q601,L601,diodes,controller or battery.",
+        "At higher current, higher terminal temperature or altered sense value, repeat selection/qualification.",
+        "Power calculations include initial resistance tolerance and component TCR but are not measured thermal performance."
+      ],
+      "calculation_file": "r602-rating-envelope.json"
+    }
+  ],
+  "native_validation": "native-footprint-validation.json",
+  "footprint_contracts": "footprint-contracts.json",
+  "sources": "sources.json",
+  "visual_review": "Source package/land drawings and all three generated previews visually inspected; native parser validates dimensional and custom-ring acoustic clearances.",
+  "not_claimed": "No PCB placement, DRC, assembly, acoustic or power-on qualification."
+}

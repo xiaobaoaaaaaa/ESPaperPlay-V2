@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-04",
+  "scope": "Design assumptions addendum; native schematic/BOM/PDF remain r4 dated2026-11-02. No new electrical/bench pass claimed.",
+  "user_inputs": {
+    "battery": "User asks to proceed using conservative estimates.",
+    "panel_interconnect": "User confirms screen/touch adapters are extension only, no other function, and requests manufacturer documents as basis."
+  },
+  "battery_design": {
+    "nominal_capacity_ah": 4.0,
+    "nominal_voltage_v": 3.7,
+    "charge_system_design_assumption_v": 4.2,
+    "charge_system_verified_for_actual_pack": false,
+    "runtime_usable_energy_factor": 0.75,
+    "runtime_equivalent_capacity_ah": 3.0,
+    "runtime_energy_wh": 11.1,
+    "runtime_factor_basis": "Engineering planning allowance, not vendor minimum or measurement; never use this reduced capacity for charge timer sizing.",
+    "initial_test_temperature_c": [
+      20,
+      30
+    ],
+    "temperature_enforcement": "Externally controlled test environment; no automatic pack-temperature control implemented.",
+    "initial_total_battery_current_budget_a": 1.0,
+    "extra_peak_current_credit_a": 0,
+    "scope_of_budget": "Total discharge including transients. A test/load-planning envelope, not a hardware current-limit or measured maximum. Larger loads remain bench-source tests.",
+    "existing_charge_candidate": {
+      "r104_ohm": 3000,
+      "typical_a": 0.2966666666666667,
+      "estimated_c_rate": 0.07416666666666667,
+      "r105_ohm": 68000,
+      "timer_nominal_h": 9.066666666666666,
+      "full_charge_with_existing_timer_qualified": false
+    },
+    "charge_arm": "R108 DNP;J105 OPEN",
+    "unknown_parameters_not_invented": [
+      "actual pack CV tolerance",
+      "NTC Beta/R-T/reference tolerance",
+      "protection thresholds/delays",
+      "pulse capability/duration"
+    ],
+    "not_a_layout_blocker": true,
+    "first_real_charge_requires": "Verify actual pack voltage/temperature-sensing compatibility and ISET/TMR profile before enabling."
+  },
+  "initial_load_example": {
+    "main_rail_v": 3.3,
+    "main_rail_a": 0.5,
+    "audio_electrical_output_w": 0.25,
+    "sys_assumed_floor_v": 2.9,
+    "regulator_assumed_efficiency": 0.8,
+    "amplifier_assumed_efficiency": 0.8,
+    "other_battery_current_allocation_a": 0.05,
+    "not_claimed": "Not measured, not guaranteed efficiency/SYS voltage, not automatic firmware limits. SYS2.9V is not a cell cutoff permission.",
+    "estimated_battery_a": 0.8689655172413794,
+    "budget_headroom_a": 0.13103448275862062
+  },
+  "panel_interconnect": {
+    "type": "passive_extension_only",
+    "design_basis": [
+      "hardware/reference/good-display/GDEY075T7-T01.pdf",
+      "docs/v2/hardware/panel-reference.md"
+    ],
+    "mapping": "Keep panel-side manufacturer pin numbers and corresponding nets. Connector orientation/pad numbering follows selected connector drawing; physical left-to-right appearance is not the numbering rule.",
+    "additional_functional_investigation_required": false,
+    "adapter_model_or_photos_required_to_continue_layout": false,
+    "existing_j601_j406_signal_map_and_sh_gnd_retained": true,
+    "assembly_check": "Normal H01 insertion orientation/polarity/shorts inspection; no new user-supplied proof gate.",
+    "physical_mating_measured_this_turn": false
+  },
+  "official_source_checked": {
+    "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+    "revision": "SLUS810N",
+    "facts": [
+      "Fixed4.20V nominal/4.23V max under datasheet conditions; ISET does not set CV.",
+      "103AT-2 example0..50C;10kohm alone does not identify curve.",
+      "Rs/Rp TS network widens, not narrows, the direct-thermistor window.",
+      "RTMR allowed18..72kohm."
+    ]
+  },
+  "independent_review": "Parallel read-only reviewer confirmed arithmetic, no pulse credit, timer/NTC limitations and unchanged native r4 scope.",
+  "document": "docs/v2/hardware/design-assumptions-2026-11-04.md",
+  "manufacturer_research_addendum": {
+    "source": "hardware/reference/zoncell-2026-11-04/sources.json",
+    "document": "docs/v2/hardware/battery-zoncell-2026-11-04.md",
+    "scope": "Family4.2V/0.1C/10..45C/17510kohm evidence; actual-pack compatibility remains unverified",
+    "budgets_and_native_values_unchanged": true
+  }
+}

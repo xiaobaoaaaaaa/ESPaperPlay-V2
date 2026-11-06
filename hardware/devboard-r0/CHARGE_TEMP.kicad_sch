@@ -1,0 +1,661 @@
+(kicad_sch
+(version 20250114)
+(generator "eeschema")
+(generator_version "10.0")
+(uuid "187689c2-b583-5f0c-9726-9219cb623814")
+(paper "A3")
+(title_block (title "Battery temperature window / TS pause") (date "2026-11-05") (rev "r6 DRAWING")
+            (company "ESPaperPlay / xiaobaoaaaaaa")
+            (comment 1 "DESIGN REVIEW ONLY - NO PCB RELEASE / NO BATTERY CHARGE APPROVAL"))
+(lib_symbols (symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "ESPaperPlay:TLV1822D"
+      (pin_names (offset 0.508)) (exclude_from_sim no) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 19.05 0) (effects (font (size 1.05 1.05)) ))
+      (property "Value" "TLV1822D" (at 0 -19.05 0) (effects (font (size 1.05 1.05)) ))
+      (property "Footprint" "ESPaperPlay:TI_D0008A_SOIC8" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv1822.pdf" (at 0 0 0) (effects (font (size 1.05 1.05)) (hide yes)))
+      (symbol "TLV1822D_0_1"
+        (rectangle (start -15.24 16.51) (end 15.24 -16.51)
+          (stroke (width 0.254) (type default)) (fill (type background))))
+      (symbol "TLV1822D_1_1"(pin power_in line (at 0.0 20.32 270) (length 2.54)
+          (name "V+" (effects (font (size 1.05 1.05))))
+          (number "8" (effects (font (size 1.05 1.05)))))(pin power_in line (at 0.0 -20.32 90) (length 2.54)
+          (name "V-" (effects (font (size 1.05 1.05))))
+          (number "4" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 10.16 0) (length 2.54)
+          (name "HOT_IN-" (effects (font (size 1.05 1.05))))
+          (number "2" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 5.08 0) (length 2.54)
+          (name "HOT_IN+" (effects (font (size 1.05 1.05))))
+          (number "3" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 -5.08 0) (length 2.54)
+          (name "COLD_IN+" (effects (font (size 1.05 1.05))))
+          (number "5" (effects (font (size 1.05 1.05)))))(pin input line (at -17.78 -10.16 0) (length 2.54)
+          (name "COLD_IN-" (effects (font (size 1.05 1.05))))
+          (number "6" (effects (font (size 1.05 1.05)))))(pin open_collector line (at 17.78 7.62 180) (length 2.54)
+          (name "HOT_OUT" (effects (font (size 1.05 1.05))))
+          (number "1" (effects (font (size 1.05 1.05)))))(pin open_collector line (at 17.78 -7.62 180) (length 2.54)
+          (name "COLD_OUT" (effects (font (size 1.05 1.05))))
+          (number "7" (effects (font (size 1.05 1.05))))))))
+(embedded_fonts no)
+(symbol (lib_id "Device:R") (at 69.85 81.28 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "ab8de327-9628-599b-9be1-f758eafd9f01")
+          (property "Reference" "R901" (at 74.93 79.375 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "47k / 1%" (at 74.93 83.185 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 69.85 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 69.85 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "100ppm/K; actual NTC returns to protected pack GND through J103." (at 69.85 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "1e61addc-38c4-55d9-95fa-9a27716f1aaa"))(pin "2" (uuid "7cb23029-eaff-5fa8-a657-4e4ece261baf")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "R901") (unit 1))))
+(property "Manufacturer" "Vishay" (at 69.85 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060347K0FKEA" (at 69.85 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 69.85 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#R901" (at 69.85 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 69.85 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 69.85 147.32 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "c8ea60cc-5a94-5278-8d54-d10900b47d51")
+          (property "Reference" "C902" (at 74.93 145.415 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10n / 50V" (at 74.93 149.225 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 69.85 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 69.85 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "C0G 5%; sensor input noise filter, no DC load." (at 69.85 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "ce0850d4-d458-5494-b0d9-f4cdf72b1d97"))(pin "2" (uuid "4d525f76-643b-5e04-b014-f8058f38e47b")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "C902") (unit 1))))
+(property "Manufacturer" "TDK" (at 69.85 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608C0G1H103J080AA" (at 69.85 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 69.85 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#C902" (at 69.85 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H103J080AA" (at 69.85 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 133.35 81.28 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "68cd9228-8772-5e3f-b0a6-0c7fa300f516")
+          (property "Reference" "R902" (at 138.43 79.375 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k / 1%" (at 138.43 83.185 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 133.35 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 133.35 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 133.35 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "36b708ae-4a14-5e52-bae2-a36eae3edd4d"))(pin "2" (uuid "1f06c442-ec2d-586b-956b-3c29f451be19")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "R902") (unit 1))))
+(property "Manufacturer" "Vishay" (at 133.35 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 133.35 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 133.35 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#R902" (at 133.35 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 133.35 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 133.35 147.32 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "2214f490-4337-5baf-b85f-193b3844ea53")
+          (property "Reference" "R903" (at 138.43 145.415 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "12k / 1%" (at 138.43 149.225 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 133.35 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 133.35 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 133.35 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "d11ed6ec-0991-5e6e-810f-ccdac1505504"))(pin "2" (uuid "4fe14acb-5b8e-5a54-9441-73f6286cf012")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "R903") (unit 1))))
+(property "Manufacturer" "Vishay" (at 133.35 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060312K0FKEA" (at 133.35 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 133.35 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#R903" (at 133.35 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 133.35 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 158.75 147.32 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "f225780f-509c-5802-830b-47c6f5809d1b")
+          (property "Reference" "C903" (at 163.83 145.415 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10n / 50V" (at 163.83 149.225 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 158.75 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 158.75 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "C0G 5%; reference noise filter." (at 158.75 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "d43d9308-a19f-5081-85e5-ace089c853eb"))(pin "2" (uuid "84a36354-ac61-580f-8748-693292610a27")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "C903") (unit 1))))
+(property "Manufacturer" "TDK" (at 158.75 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608C0G1H103J080AA" (at 158.75 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 158.75 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#C903" (at 158.75 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H103J080AA" (at 158.75 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 203.2 81.28 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "4866e4d4-8822-5137-8e7a-48887b4938f0")
+          (property "Reference" "R904" (at 208.28 79.375 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100k / 1%" (at 208.28 83.185 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 203.2 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 203.2 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 203.2 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "76a0c93a-87d1-5a74-8896-f830c259d9db"))(pin "2" (uuid "d7595d3b-55ef-50b3-bcc4-dcf034909c26")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "R904") (unit 1))))
+(property "Manufacturer" "Vishay" (at 203.2 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603100KFKEA" (at 203.2 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 203.2 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#R904" (at 203.2 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 203.2 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 203.2 147.32 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "eb227224-021a-5b27-96ea-d1ee845d72e2")
+          (property "Reference" "R905" (at 208.28 145.415 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "33k / 1%" (at 208.28 149.225 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 203.2 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 203.2 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "" (at 203.2 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "d2751c15-89c6-59e0-87fa-3053fcef7561"))(pin "2" (uuid "f9bc6f65-9eb2-5692-ada8-aa37d635d663")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "R905") (unit 1))))
+(property "Manufacturer" "Vishay" (at 203.2 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060333K0FKEA" (at 203.2 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 203.2 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#R905" (at 203.2 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 203.2 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 228.6 147.32 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "7618e968-955f-59bd-8d3c-c8420a5fd733")
+          (property "Reference" "C904" (at 233.68 145.415 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10n / 50V" (at 233.68 149.225 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 228.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 228.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "C0G 5%; reference noise filter." (at 228.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "4fbf0cf1-10be-558e-839d-60e37963a99f"))(pin "2" (uuid "26ee1e8f-856c-51c7-b13b-88f6f79957cf")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "C904") (unit 1))))
+(property "Manufacturer" "TDK" (at 228.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608C0G1H103J080AA" (at 228.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 228.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#C904" (at 228.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H103J080AA" (at 228.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "ESPaperPlay:TLV1822D") (at 285.75 114.3 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "da273674-8b71-5563-9c70-ed33ad543e5b")
+          (property "Reference" "U901" (at 273.05 81.28 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Value" "TLV1822DR" (at 273.05 85.09 0) (effects (justify left) (font (size 1.05 1.05)) ))
+          (property "Footprint" "ESPaperPlay:TI_D0008A_SOIC8" (at 285.75 114.3 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv1822.pdf" (at 285.75 114.3 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "TI Rev.E; SOIC-8 D0008A. Outputs wired together; VOL budget 0.25V vs BQ hot threshold 0.27V; TI table at VS=12V, qualify actual 5V operation. No software dependency." (at 285.75 114.3 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "8" (uuid "eaa71745-4e07-53c9-8984-7b27a499db9f"))(pin "4" (uuid "1635f4cd-2e7a-5415-b02f-65ddfaa1ef51"))(pin "2" (uuid "bc3d9693-0442-5af4-91b0-52ca5ee67924"))(pin "3" (uuid "dde0190f-c65d-54f3-9f73-adc54c30c21b"))(pin "5" (uuid "eab7d0ec-bbe3-503e-a5d4-00019f4826b5"))(pin "6" (uuid "119756a5-a812-5ede-b740-27504c4cb622"))(pin "1" (uuid "d813dd61-4c1d-5fb9-a8ab-ea2298b8a49e"))(pin "7" (uuid "a6ad3e95-dc4a-52c9-a25e-9ce559a7892a")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "U901") (unit 1))))
+(property "Manufacturer" "Texas Instruments" (at 285.75 114.3 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "TLV1822DR" (at 285.75 114.3 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 285.75 114.3 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#U901" (at 285.75 114.3 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.ti.com/lit/ds/symlink/tlv1822.pdf" (at 285.75 114.3 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:C") (at 355.6 81.28 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "acbc92ed-14f8-5515-beae-963626191a6e")
+          (property "Reference" "C901" (at 360.68 79.375 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "100n / 50V" (at 360.68 83.185 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 355.6 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 355.6 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "X7R 10%; place directly at U901 pins 8/4." (at 355.6 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "0fd7b044-9d87-5142-99bc-e5b551eeb86d"))(pin "2" (uuid "aa1354f9-8262-526d-813d-3b63283c2351")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "C901") (unit 1))))
+(property "Manufacturer" "TDK" (at 355.6 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "C1608X7R1H104K080AA" (at 355.6 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 355.6 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#C901" (at 355.6 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA" (at 355.6 81.28 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 114.3 190.5 270) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "4e4f7139-826d-56a3-81c5-84f3adc21216")
+          (property "Reference" "R907" (at 114.3 182.88 90) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "330k / 1%" (at 114.3 186.055 90) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 114.3 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 114.3 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Positive feedback; solve with R908 and R906, not as independent dividers." (at 114.3 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "d39d5690-7092-5b12-9cdb-eef1e7a49e48"))(pin "2" (uuid "f3015f5a-0224-5f3a-8cc2-5cfe05772fbc")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "R907") (unit 1))))
+(property "Manufacturer" "Vishay" (at 114.3 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603330KFKEA" (at 114.3 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 114.3 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#R907" (at 114.3 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 114.3 190.5 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 220.98 212.09 270) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "d1254049-6109-5ba4-863e-ed0ac8df0e28")
+          (property "Reference" "R908" (at 220.98 204.47 90) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "330k / 1%" (at 220.98 207.645 90) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 220.98 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 220.98 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "Positive feedback; coupled TS current-source model in review-r5/temperature." (at 220.98 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "2bd41c49-d572-5fe7-b2ee-7c54f9faf65a"))(pin "2" (uuid "ce773644-762b-5a7c-a2cc-f677b850bb03")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "R908") (unit 1))))
+(property "Manufacturer" "Vishay" (at 220.98 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW0603330KFKEA" (at 220.98 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 220.98 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#R908" (at 220.98 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 220.98 212.09 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(symbol (lib_id "Device:R") (at 355.6 147.32 0) (unit 1)
+          (exclude_from_sim no) (in_bom yes) (on_board yes)
+          (dnp no) (uuid "b8925c2a-e63c-5c91-8ba7-0666ad7f7b0e")
+          (property "Reference" "R906" (at 360.68 145.415 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Value" "10k / 1%" (at 360.68 149.225 0) (effects (font (size 1.05 1.05)) (justify left) ))
+          (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 355.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Datasheet" "" (at 355.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (property "Design_Note" "TS bias resistor is part of the external temperature circuit, not a substitute for the pack NTC." (at 355.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+          (pin "1" (uuid "147032c6-1fbc-568f-97c1-7f6ac1d7e7df"))(pin "2" (uuid "3e1f9530-39d1-5f0b-9891-bc968d5f6a07")) (instances (project "ESPaperPlay_Devboard" (path "/df6675c5-47a8-5519-a4bf-948aa20b91ae/0c3e12f6-2635-5a22-915c-0d425dd53e1c" (reference "R906") (unit 1))))
+(property "Manufacturer" "Vishay" (at 355.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_MPN" "CRCW060310K0FKEA" (at 355.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review" "r5 DESIGN CANDIDATE" (at 355.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "BOM_Review_Record" "review-r5/bom-review.json#R906" (at 355.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+
+(property "Candidate_Source" "https://www.vishay.com/docs/20035/dcrcwe3.pdf" (at 355.6 147.32 0) (effects (font (size 1.05 1.05)) (hide yes)))
+)
+(text "CHARGE TEMPERATURE WINDOW / CONNECTED ANALOG CIRCUIT" (at 22.86 17.78 0) (effects (font (size 1.8 1.8)) (justify left top)) (uuid "80f0cf79-d0c4-5943-a700-cc397c9b50e3"))
+(text "Assumed Honeywell175-103LAE-301 Rev.B curve; actual pack NTC identity remains unverified. No electrical change from r5." (at 22.86 27.94 0) (effects (font (size 1.1 1.1)) (justify left top)) (uuid "bfea8cf3-d59a-5ec8-8abe-05e9b28af273"))
+(text "1  NTC SENSE / COLD AND HOT REFERENCES / OPEN-DRAIN WINDOW" (at 19.05 43.18 0) (effects (font (size 1.6 1.6)) (justify left top)) (uuid "38efcbc9-ce5e-5f7f-9501-7130e16307f1"))
+(polyline (pts (xy 15.24 39.37) (xy 401.32 39.37) (xy 401.32 226.06) (xy 15.24 226.06) (xy 15.24 39.37)) (stroke (width 0.254) (type dash)) (fill (type none)) (uuid "312481df-b6cb-56fa-bd59-4f664363bc5a"))
+(text "330k feedback paths produce hysteresis; solve the three coupled nodes, not separate unloaded dividers." (at 22.86 234.95 0) (effects (font (size 1.1 1.1)) (justify left top)) (uuid "a1d81344-514f-55a9-baef-dbf5e97b4e10"))
+(text "5V nominal pause points: cold14.8C / hot40.1C. Resume example15.5C /39.5C assumes fault TS=0.1V.\nNTC open -> cold fault; short -> hot fault. Either output pulls TS low, pausing charge and its timer.\nU901 uses the same VIN as BQ24074. No battery-only divider load; independent comparator failure is not covered.\n5V comparator offset/VOL are engineering budgets. Verify TS clamp, startup, hysteresis and actual pack R-T on hardware.\nR108 stays DNP; J105 open. Reference review-r5/temperature for the unchanged circuit model and limitations." (at 22.86 247.65 0) (effects (font (size 1.1 1.1)) (justify left top)) (uuid "2e8ebccf-9af0-5b9d-8ddf-93c7f83df9c7"))
+(junction (at 330.2 114.3) (diameter 0) (color 0 0 0 0) (uuid "c27084cc-c902-59b8-b483-49749f64ccc2"))
+(junction (at 158.75 104.14) (diameter 0) (color 0 0 0 0) (uuid "d7808839-469a-5f3f-afb8-0d59111daec0"))
+(junction (at 330.2 121.92) (diameter 0) (color 0 0 0 0) (uuid "5732ff99-8642-5ce0-bc0d-eafb2619873f"))
+(junction (at 133.35 104.14) (diameter 0) (color 0 0 0 0) (uuid "8322ad4b-a185-578f-ba2d-dc6fb8575ea7"))
+(junction (at 228.6 119.38) (diameter 0) (color 0 0 0 0) (uuid "19bd588f-aad9-5042-b4e5-ef96eb704599"))
+(junction (at 203.2 119.38) (diameter 0) (color 0 0 0 0) (uuid "154ae0b9-a26e-5131-a6a8-a55b82c4fd99"))
+(junction (at 133.35 57.15) (diameter 0) (color 0 0 0 0) (uuid "10c5bdc8-0b90-5c52-8fbd-49a51a38a7a8"))
+(junction (at 203.2 57.15) (diameter 0) (color 0 0 0 0) (uuid "1348dab8-a90e-5ed3-a1fb-f61f67b357f4"))
+(junction (at 330.2 190.5) (diameter 0) (color 0 0 0 0) (uuid "f7e0f2fe-222a-5ed1-b5cb-bab537b3268c"))
+(junction (at 69.85 109.22) (diameter 0) (color 0 0 0 0) (uuid "7bad3f09-c521-5ced-afd8-403bc6e02e5c"))
+(junction (at 251.46 109.22) (diameter 0) (color 0 0 0 0) (uuid "e35a7e1a-8eea-522a-a402-cdb2e564bd19"))
+(junction (at 158.75 167.64) (diameter 0) (color 0 0 0 0) (uuid "0d954fd0-074f-5cd5-932b-8dc7541c8a8c"))
+(junction (at 228.6 167.64) (diameter 0) (color 0 0 0 0) (uuid "a8b41a51-001e-55d1-a350-9bf7b718fad2"))
+(junction (at 285.75 57.15) (diameter 0) (color 0 0 0 0) (uuid "a1bbb221-dbe8-50f1-bf85-2e00910f1b24"))
+(junction (at 133.35 167.64) (diameter 0) (color 0 0 0 0) (uuid "b0b5db14-94fb-57b4-ac13-adac1bf88b49"))
+(junction (at 203.2 167.64) (diameter 0) (color 0 0 0 0) (uuid "447207ab-c26a-5fe6-8863-37e840312669"))
+(wire (pts (xy 50.8 109.22) (xy 50.8 190.5)) (stroke (width 0) (type default)) (uuid "0d720122-5e06-5ecc-b912-3f874f156d52"))
+(wire (pts (xy 50.8 109.22) (xy 69.85 109.22)) (stroke (width 0) (type default)) (uuid "a1854a6b-a796-5bf8-9a19-58387b32cd63"))
+(wire (pts (xy 50.8 190.5) (xy 110.49 190.5)) (stroke (width 0) (type default)) (uuid "35994a91-0b94-53da-a297-6397fa25e053"))
+(wire (pts (xy 69.85 57.15) (xy 69.85 77.47)) (stroke (width 0) (type default)) (uuid "c3f8bf8b-7689-5bde-974d-200da6818141"))
+(wire (pts (xy 69.85 57.15) (xy 133.35 57.15)) (stroke (width 0) (type default)) (uuid "06b47c15-1b4e-5ab7-9dbd-3a311b0fabb3"))
+(wire (pts (xy 69.85 85.09) (xy 69.85 109.22)) (stroke (width 0) (type default)) (uuid "005f49e5-cef3-56a3-84c5-b52c6986a8de"))
+(wire (pts (xy 69.85 109.22) (xy 69.85 143.51)) (stroke (width 0) (type default)) (uuid "d91ef696-06e5-5a2a-aa08-0690e3af3f1a"))
+(wire (pts (xy 69.85 109.22) (xy 251.46 109.22)) (stroke (width 0) (type default)) (uuid "49e1eaab-5416-5215-8649-cfb79e42bdf6"))
+(wire (pts (xy 69.85 151.13) (xy 69.85 167.64)) (stroke (width 0) (type default)) (uuid "dbb87bee-407b-526a-8fed-6ee8701ce951"))
+(wire (pts (xy 69.85 167.64) (xy 133.35 167.64)) (stroke (width 0) (type default)) (uuid "b9dd5682-f8ce-560d-bf96-a48c95a1e290"))
+(wire (pts (xy 118.11 190.5) (xy 330.2 190.5)) (stroke (width 0) (type default)) (uuid "befb65cd-ce31-53c4-bacf-1751708d2097"))
+(wire (pts (xy 133.35 57.15) (xy 133.35 77.47)) (stroke (width 0) (type default)) (uuid "60cc580a-69dd-51a1-8e22-ec41d6e8dea2"))
+(wire (pts (xy 133.35 57.15) (xy 203.2 57.15)) (stroke (width 0) (type default)) (uuid "a8ce5e13-7382-53d9-8088-3d3d7a52d78f"))
+(wire (pts (xy 133.35 85.09) (xy 133.35 104.14)) (stroke (width 0) (type default)) (uuid "d56c8232-45d8-51c4-aadb-e08201a48f34"))
+(wire (pts (xy 133.35 104.14) (xy 133.35 143.51)) (stroke (width 0) (type default)) (uuid "dae8787d-b005-566e-b336-0d874c83666d"))
+(wire (pts (xy 133.35 104.14) (xy 158.75 104.14)) (stroke (width 0) (type default)) (uuid "3e98c3ef-8003-576d-816a-faef39428375"))
+(wire (pts (xy 133.35 151.13) (xy 133.35 167.64)) (stroke (width 0) (type default)) (uuid "a000a03b-59f3-5ca6-b938-4715f3a831b8"))
+(wire (pts (xy 133.35 167.64) (xy 158.75 167.64)) (stroke (width 0) (type default)) (uuid "99050f32-5c24-5b2a-857b-cf110ff7f7e4"))
+(wire (pts (xy 158.75 104.14) (xy 158.75 143.51)) (stroke (width 0) (type default)) (uuid "f116b0d9-91b5-5a05-909f-93858742cb7f"))
+(wire (pts (xy 158.75 104.14) (xy 267.97 104.14)) (stroke (width 0) (type default)) (uuid "9d324f24-2946-5fe3-9c30-131cdd09c75a"))
+(wire (pts (xy 158.75 151.13) (xy 158.75 167.64)) (stroke (width 0) (type default)) (uuid "1e025759-34d5-5799-81ec-65d3f5f16d64"))
+(wire (pts (xy 158.75 167.64) (xy 203.2 167.64)) (stroke (width 0) (type default)) (uuid "7edec206-6929-5ee0-8119-7ad6c9f7c309"))
+(wire (pts (xy 184.15 119.38) (xy 184.15 212.09)) (stroke (width 0) (type default)) (uuid "28d840cd-9439-5ede-aded-0a2d1108ceb9"))
+(wire (pts (xy 184.15 119.38) (xy 203.2 119.38)) (stroke (width 0) (type default)) (uuid "2eff859e-93ed-578d-9b46-d507b16b0ffd"))
+(wire (pts (xy 184.15 212.09) (xy 217.17 212.09)) (stroke (width 0) (type default)) (uuid "d63c3df4-1b85-5279-9753-01e655deed77"))
+(wire (pts (xy 203.2 57.15) (xy 203.2 77.47)) (stroke (width 0) (type default)) (uuid "fde2f20f-6bf5-5205-901f-9c5be97bec1d"))
+(wire (pts (xy 203.2 57.15) (xy 285.75 57.15)) (stroke (width 0) (type default)) (uuid "3f037f5b-31c3-5a98-a0e3-2bee9e9d3784"))
+(wire (pts (xy 203.2 85.09) (xy 203.2 119.38)) (stroke (width 0) (type default)) (uuid "fb9d6168-b6bf-5bf4-85fc-3600f1ca2f4b"))
+(wire (pts (xy 203.2 119.38) (xy 203.2 143.51)) (stroke (width 0) (type default)) (uuid "b973f890-be8d-5ca9-a700-120e118ec18c"))
+(wire (pts (xy 203.2 119.38) (xy 228.6 119.38)) (stroke (width 0) (type default)) (uuid "afdceaf3-14fa-53c6-ba29-b3d1f63d3017"))
+(wire (pts (xy 203.2 151.13) (xy 203.2 167.64)) (stroke (width 0) (type default)) (uuid "a941f0d0-114f-5ac1-b1af-7e0fff6cf620"))
+(wire (pts (xy 203.2 167.64) (xy 228.6 167.64)) (stroke (width 0) (type default)) (uuid "f532f99b-f0c6-5835-83dd-2fe70dd0223e"))
+(wire (pts (xy 224.79 212.09) (xy 330.2 212.09)) (stroke (width 0) (type default)) (uuid "25b6cd4a-7e46-51a3-8dac-66b7980e0056"))
+(wire (pts (xy 228.6 119.38) (xy 228.6 143.51)) (stroke (width 0) (type default)) (uuid "f27e1803-ebfb-5722-9ffb-c54b0a649a27"))
+(wire (pts (xy 228.6 119.38) (xy 267.97 119.38)) (stroke (width 0) (type default)) (uuid "548b5c07-2af2-5090-9982-9da4d6de0b49"))
+(wire (pts (xy 228.6 151.13) (xy 228.6 167.64)) (stroke (width 0) (type default)) (uuid "d7645bf9-f1e6-53d2-a6e4-e81af53f755f"))
+(wire (pts (xy 228.6 167.64) (xy 285.75 167.64)) (stroke (width 0) (type default)) (uuid "2a7ba2c3-4a15-54b0-a0fc-f49c9ae405c0"))
+(wire (pts (xy 251.46 109.22) (xy 251.46 124.46)) (stroke (width 0) (type default)) (uuid "cc03d4a1-8aff-5552-a612-153db512e6e3"))
+(wire (pts (xy 251.46 109.22) (xy 267.97 109.22)) (stroke (width 0) (type default)) (uuid "e004cda0-df18-5c1a-8fcd-71b87e6d99b6"))
+(wire (pts (xy 251.46 124.46) (xy 267.97 124.46)) (stroke (width 0) (type default)) (uuid "802d49bf-4b1d-5f6a-a59f-319cb849d0e2"))
+(wire (pts (xy 285.75 57.15) (xy 285.75 93.98)) (stroke (width 0) (type default)) (uuid "2f8982a2-0443-5d89-b91b-fa9a41eeecd6"))
+(wire (pts (xy 285.75 57.15) (xy 355.6 57.15)) (stroke (width 0) (type default)) (uuid "a803ce50-fcb9-5ec7-9e40-a07bcbc15dfc"))
+(wire (pts (xy 285.75 134.62) (xy 285.75 167.64)) (stroke (width 0) (type default)) (uuid "9d570607-d8f2-5cfd-a195-fba5ab4efa0e"))
+(wire (pts (xy 303.53 106.68) (xy 330.2 106.68)) (stroke (width 0) (type default)) (uuid "b019ccf5-8df2-5c5a-8fbe-0dc85da6f506"))
+(wire (pts (xy 303.53 121.92) (xy 330.2 121.92)) (stroke (width 0) (type default)) (uuid "2629f3cc-36b9-568c-b3f9-208127d64f3f"))
+(wire (pts (xy 330.2 106.68) (xy 330.2 114.3)) (stroke (width 0) (type default)) (uuid "43e65027-36be-5ab9-bd39-456d65ce3610"))
+(wire (pts (xy 330.2 114.3) (xy 330.2 121.92)) (stroke (width 0) (type default)) (uuid "96d59dba-04f4-5825-aa88-a0773bd568f5"))
+(wire (pts (xy 330.2 114.3) (xy 355.6 114.3)) (stroke (width 0) (type default)) (uuid "48f32b6c-2128-59e2-ac0e-f994dd2b580f"))
+(wire (pts (xy 330.2 121.92) (xy 330.2 190.5)) (stroke (width 0) (type default)) (uuid "921c4741-b296-57a7-a6b5-88aeb566eb3c"))
+(wire (pts (xy 330.2 190.5) (xy 330.2 212.09)) (stroke (width 0) (type default)) (uuid "e9314f74-d1ec-54ca-915b-49f864c1ce07"))
+(wire (pts (xy 355.6 57.15) (xy 355.6 77.47)) (stroke (width 0) (type default)) (uuid "39442dc5-63cc-5391-a810-18a4bcef2c86"))
+(wire (pts (xy 355.6 85.09) (xy 355.6 92.71)) (stroke (width 0) (type default)) (uuid "bcad27c8-4315-5e9f-ae35-4fe3aa820b75"))
+(wire (pts (xy 355.6 114.3) (xy 355.6 143.51)) (stroke (width 0) (type default)) (uuid "4607fbea-8488-501e-8d89-be3b00add853"))
+(wire (pts (xy 355.6 151.13) (xy 355.6 157.48)) (stroke (width 0) (type default)) (uuid "fce7c629-f12b-5e04-8f46-e01e031ef4f6"))
+(global_label "VIN_5V" (shape bidirectional) (at 69.85 57.15 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "305afcec-3e09-5f18-975d-da291a795c57"))
+(global_label "GND" (shape bidirectional) (at 355.6 92.71 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "ba2d21a6-8fa9-57ea-919b-b6530567cbbc"))
+(global_label "BAT_NTC" (shape bidirectional) (at 69.85 109.22 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "49c7e0d1-0b9a-5ff4-bc48-135495ef8e26"))
+(global_label "GND" (shape bidirectional) (at 285.75 167.64 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "6fa7d369-cbf1-519e-bacc-639d2e538402"))
+(global_label "GND" (shape bidirectional) (at 355.6 157.48 180) (effects (font (size 1.05 1.05)) (justify right)) (uuid "7153a501-b5bd-5832-a86a-c42419fff600"))
+(global_label "CHG_TS" (shape bidirectional) (at 355.6 114.3 0) (effects (font (size 1.05 1.05)) (justify left)) (uuid "15591195-b892-5ade-9e54-cf1d7235d732"))
+(label "NTC_HOT_REF" (at 133.35 104.14 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "019e7f25-7fa1-5c00-8a2a-007d531bfa2d"))
+(label "NTC_COLD_REF" (at 184.15 119.38 0) (effects (font (size 1.05 1.05)) (justify left bottom)) (uuid "50d699e5-7399-5812-b2f6-245b81317ede"))
+)

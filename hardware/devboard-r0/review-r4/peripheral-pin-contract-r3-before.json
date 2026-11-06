@@ -1,0 +1,742 @@
+{
+  "revision": "r2",
+  "review_basis": [
+    "Good Display GDEY075T7-T01 PDF pp6/7/38; rendered and independently checked topology",
+    "TI LVC541A and LVC1G125 physical pins and explicit Ioff",
+    "PUI DMM-4026-B-I2S-R PDF p6 physical map, p1/p3 clocks; ADI MAX98357A Rev16 pp15-18",
+    "SD final dual TMUX1511 independently checked against TI SCDS390B; Hirose nonpolar detection pair and standard-library pad map reviewed, mechanical sample remains pending"
+  ],
+  "connections": {
+    "C603": {
+      "1": "EPD_3V3",
+      "2": "GND"
+    },
+    "L601": {
+      "1": "EPD_3V3",
+      "2": "EPD_SW"
+    },
+    "Q601": {
+      "1": "EPD_GDR",
+      "2": "EPD_RESE",
+      "3": "EPD_SW"
+    },
+    "R601": {
+      "1": "EPD_GDR",
+      "2": "GND"
+    },
+    "R602": {
+      "1": "EPD_RESE",
+      "2": "GND"
+    },
+    "D601": {
+      "1": "EPD_FLY",
+      "2": "EPD_PREVGL"
+    },
+    "D602": {
+      "1": "GND",
+      "2": "EPD_FLY"
+    },
+    "D603": {
+      "1": "EPD_PREVGH",
+      "2": "EPD_SW"
+    },
+    "C602": {
+      "1": "EPD_FLY",
+      "2": "EPD_SW"
+    },
+    "J601": {
+      "1": null,
+      "2": "EPD_GDR",
+      "3": "EPD_RESE",
+      "4": null,
+      "5": "EPD_VSHR",
+      "6": null,
+      "7": null,
+      "8": "GND",
+      "9": "EPD_PAD_BUSY",
+      "10": "EPD_PAD_RST_N",
+      "11": "EPD_PAD_DC",
+      "12": "EPD_PAD_CS",
+      "13": "EPD_PAD_SCLK",
+      "14": "EPD_PAD_MOSI",
+      "15": "EPD_3V3",
+      "16": "EPD_3V3",
+      "17": "GND",
+      "18": "EPD_VDD_INT",
+      "19": null,
+      "20": "EPD_VSH1",
+      "21": "EPD_PREVGH",
+      "22": "EPD_VSL",
+      "23": "EPD_PREVGL",
+      "24": "EPD_VCOM"
+    },
+    "C601": {
+      "1": "EPD_VSHR",
+      "2": "GND"
+    },
+    "C604": {
+      "1": "EPD_PREVGH",
+      "2": "GND"
+    },
+    "C605": {
+      "1": "EPD_3V3",
+      "2": "GND"
+    },
+    "C606": {
+      "1": "EPD_VDD_INT",
+      "2": "GND"
+    },
+    "C607": {
+      "1": "EPD_VSH1",
+      "2": "GND"
+    },
+    "C608": {
+      "1": "EPD_VSL",
+      "2": "GND"
+    },
+    "C609": {
+      "1": "EPD_PREVGL",
+      "2": "GND"
+    },
+    "C610": {
+      "1": "EPD_VCOM",
+      "2": "GND"
+    },
+    "U601": {
+      "1": "GND",
+      "19": "GND",
+      "20": "EPD_3V3",
+      "10": "GND",
+      "2": "EPD_SCLK",
+      "3": "EPD_MOSI",
+      "4": "EPD_CS",
+      "5": "EPD_DC",
+      "6": "EPD_RST_N",
+      "7": "GND",
+      "8": "GND",
+      "9": "GND",
+      "18": "EPD_BUF_SCLK",
+      "17": "EPD_BUF_MOSI",
+      "16": "EPD_BUF_CS",
+      "15": "EPD_BUF_DC",
+      "14": "EPD_BUF_RST_N",
+      "13": null,
+      "12": null,
+      "11": null
+    },
+    "C611": {
+      "1": "EPD_3V3",
+      "2": "GND"
+    },
+    "R603": {
+      "1": "EPD_BUF_SCLK",
+      "2": "EPD_PAD_SCLK"
+    },
+    "R604": {
+      "1": "EPD_BUF_MOSI",
+      "2": "EPD_PAD_MOSI"
+    },
+    "R605": {
+      "1": "EPD_BUF_CS",
+      "2": "EPD_PAD_CS"
+    },
+    "R606": {
+      "1": "EPD_BUF_DC",
+      "2": "EPD_PAD_DC"
+    },
+    "R607": {
+      "1": "EPD_BUF_RST_N",
+      "2": "EPD_PAD_RST_N"
+    },
+    "R608": {
+      "1": "EPD_SCLK",
+      "2": "GND"
+    },
+    "R609": {
+      "1": "EPD_MOSI",
+      "2": "GND"
+    },
+    "R610": {
+      "1": "3V3_AON",
+      "2": "EPD_CS"
+    },
+    "R611": {
+      "1": "EPD_DC",
+      "2": "GND"
+    },
+    "R612": {
+      "1": "EPD_RST_N",
+      "2": "GND"
+    },
+    "R613": {
+      "1": "EPD_PAD_RST_N",
+      "2": "GND"
+    },
+    "U602": {
+      "1": "GND",
+      "2": "EPD_PAD_BUSY",
+      "3": "GND",
+      "4": "EPD_BUSY",
+      "5": "3V3_AON"
+    },
+    "R614": {
+      "1": "EPD_PAD_BUSY",
+      "2": "GND"
+    },
+    "C612": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "U701": {
+      "14": "SD_3V3",
+      "7": "GND",
+      "1": "SD_IO_EN",
+      "4": "SD_IO_EN",
+      "10": "SD_IO_EN",
+      "13": "SD_IO_EN",
+      "2": "SD_CLK_BUS",
+      "3": "SD_CARD_CLK",
+      "5": "SD_CMD_BUS",
+      "6": "SD_CARD_CMD",
+      "9": "SD_D0_BUS",
+      "8": "SD_CARD_D0",
+      "12": "SD_D1_BUS",
+      "11": "SD_CARD_D1"
+    },
+    "U706": {
+      "14": "SD_3V3",
+      "7": "GND",
+      "1": "SD_IO_EN",
+      "4": "SD_IO_EN",
+      "10": "GND",
+      "13": "GND",
+      "2": "SD_D2_BUS",
+      "3": "SD_CARD_D2",
+      "5": "SD_D3_BUS",
+      "6": "SD_CARD_D3",
+      "9": null,
+      "8": null,
+      "12": null,
+      "11": null
+    },
+    "R710": {
+      "1": "SD_CLK",
+      "2": "SD_CLK_BUS"
+    },
+    "R711": {
+      "1": "SD_CMD",
+      "2": "SD_CMD_BUS"
+    },
+    "R712": {
+      "1": "SD_D0",
+      "2": "SD_D0_BUS"
+    },
+    "R713": {
+      "1": "SD_D1",
+      "2": "SD_D1_BUS"
+    },
+    "R714": {
+      "1": "SD_D2",
+      "2": "SD_D2_BUS"
+    },
+    "R715": {
+      "1": "SD_D3",
+      "2": "SD_D3_BUS"
+    },
+    "J701": {
+      "1": "SD_CARD_D2",
+      "2": "SD_CARD_D3",
+      "3": "SD_CARD_CMD",
+      "4": "SD_3V3",
+      "5": "SD_CARD_CLK",
+      "6": "GND",
+      "7": "SD_CARD_D0",
+      "8": "SD_CARD_D1",
+      "9": "SD_DETECT_CONTACT",
+      "10": "GND",
+      "SH": "GND"
+    },
+    "R701": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_CMD"
+    },
+    "R702": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_D0"
+    },
+    "R703": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_D1"
+    },
+    "R704": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_D2"
+    },
+    "R705": {
+      "1": "SD_3V3",
+      "2": "SD_CARD_D3"
+    },
+    "R706": {
+      "1": "SD_CARD_CLK",
+      "2": "GND"
+    },
+    "C701": {
+      "1": "SD_3V3",
+      "2": "GND"
+    },
+    "C702": {
+      "1": "SD_3V3",
+      "2": "GND"
+    },
+    "C703": {
+      "1": "SD_3V3",
+      "2": "GND"
+    },
+    "C705": {
+      "1": "SD_3V3",
+      "2": "GND"
+    },
+    "R708": {
+      "1": "SD_CD_N",
+      "2": "SD_DETECT_CONTACT"
+    },
+    "C704": {
+      "1": "SD_CD_N",
+      "2": "GND"
+    },
+    "U702": {
+      "1": "SD_CARD_CLK",
+      "2": "SD_CARD_CMD",
+      "3": "GND"
+    },
+    "U703": {
+      "1": "SD_CARD_D0",
+      "2": "SD_CARD_D1",
+      "3": "GND"
+    },
+    "U704": {
+      "1": "SD_CARD_D2",
+      "2": "SD_CARD_D3",
+      "3": "GND"
+    },
+    "U705": {
+      "1": "SD_DETECT_CONTACT",
+      "2": "SD_3V3",
+      "3": "GND"
+    },
+    "U801": {
+      "14": "MIC_3V3",
+      "7": "GND",
+      "2": "I2S_BCLK",
+      "3": "AUDIO_BCLK_BUF",
+      "5": "I2S_WS",
+      "6": "AUDIO_WS_BUF",
+      "9": "SPEAKER_DATA",
+      "8": "AUDIO_DIN_BUF",
+      "12": "AMP_SHUTDOWN",
+      "11": "AUDIO_SD_BUF",
+      "1": "AUDIO_OE_N",
+      "4": "AUDIO_OE_N",
+      "10": "AUDIO_OE_N",
+      "13": "AUDIO_OE_N"
+    },
+    "R808": {
+      "1": "AUDIO_BCLK_BUF",
+      "2": "I2S_BCLK_AUDIO"
+    },
+    "R809": {
+      "1": "AUDIO_WS_BUF",
+      "2": "I2S_WS_AUDIO"
+    },
+    "R810": {
+      "1": "AUDIO_DIN_BUF",
+      "2": "I2S_DIN_AUDIO"
+    },
+    "U805": {
+      "1": null,
+      "2": "AUDIO_EN",
+      "3": "GND",
+      "4": "AUDIO_OE_N",
+      "5": "MIC_3V3"
+    },
+    "C806": {
+      "1": "MIC_3V3",
+      "2": "GND"
+    },
+    "C801": {
+      "1": "MIC_3V3",
+      "2": "GND"
+    },
+    "U802": {
+      "1": "I2S_DIN_AUDIO",
+      "2": "AMP_SYS",
+      "3": "GND",
+      "4": "AMP_SD_MODE",
+      "5": null,
+      "6": null,
+      "7": "AMP_SYS",
+      "8": "AMP_SYS",
+      "9": "AMP_OUTP",
+      "10": "AMP_OUTN",
+      "11": "GND",
+      "12": null,
+      "13": null,
+      "14": "I2S_WS_AUDIO",
+      "15": "GND",
+      "16": "I2S_BCLK_AUDIO",
+      "17": "GND"
+    },
+    "C802": {
+      "1": "AMP_SYS",
+      "2": "GND"
+    },
+    "C803": {
+      "1": "AMP_SYS",
+      "2": "GND"
+    },
+    "R806": {
+      "1": "AUDIO_SD_BUF",
+      "2": "AMP_SD_MODE"
+    },
+    "R802": {
+      "1": "I2S_BCLK_AUDIO",
+      "2": "GND"
+    },
+    "R803": {
+      "1": "I2S_WS_AUDIO",
+      "2": "GND"
+    },
+    "R804": {
+      "1": "I2S_DIN_AUDIO",
+      "2": "GND"
+    },
+    "R805": {
+      "1": "AMP_SD_MODE",
+      "2": "GND"
+    },
+    "R811": {
+      "1": "AMP_OUTP",
+      "2": "SPK_P"
+    },
+    "R812": {
+      "1": "AMP_OUTN",
+      "2": "SPK_N"
+    },
+    "J801": {
+      "1": "SPK_P",
+      "2": "SPK_N"
+    },
+    "U803": {
+      "1": "GND",
+      "2": "GND",
+      "3": "MIC_3V3",
+      "4": "GND",
+      "5": "I2S_WS_AUDIO",
+      "6": "I2S_BCLK_AUDIO",
+      "7": "MIC_SD_RAW"
+    },
+    "C804": {
+      "1": "MIC_3V3",
+      "2": "GND"
+    },
+    "C805": {
+      "1": "MIC_3V3",
+      "2": "GND"
+    },
+    "U804": {
+      "1": "GND",
+      "2": "MIC_SD_RAW",
+      "3": "GND",
+      "4": "MIC_DATA",
+      "5": "3V3_AON"
+    },
+    "R813": {
+      "1": "MIC_SD_RAW",
+      "2": "GND"
+    },
+    "C808": {
+      "1": "3V3_AON",
+      "2": "GND"
+    }
+  },
+  "global_nets": [
+    "EPD_3V3",
+    "EPD_SCLK",
+    "EPD_MOSI",
+    "EPD_CS",
+    "EPD_DC",
+    "EPD_RST_N",
+    "EPD_BUSY",
+    "SD_3V3",
+    "SD_CLK",
+    "SD_CMD",
+    "SD_D0",
+    "SD_D1",
+    "SD_D2",
+    "SD_D3",
+    "SD_CD_N",
+    "SD_IO_EN",
+    "MIC_3V3",
+    "AMP_SYS",
+    "AUDIO_EN",
+    "AMP_SHUTDOWN",
+    "I2S_BCLK",
+    "I2S_WS",
+    "MIC_DATA",
+    "SPEAKER_DATA"
+  ],
+  "values": {
+    "R601": "1M / 1%",
+    "R602": "0.47R / 1%",
+    "R806": "2.00k / 1%",
+    "R813": "100k",
+    "U802": "MAX98357AETE+T",
+    "U803": "DMM-4026-B-I2S-R"
+  },
+  "dnp": [
+    "J301",
+    "J302",
+    "J303"
+  ],
+  "footprint_tbd": [
+    "J601",
+    "R602",
+    "U803",
+    "J801"
+  ],
+  "distinct_pins": [
+    [
+      [
+        "U301",
+        "9"
+      ],
+      [
+        "J601",
+        "13"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "8"
+      ],
+      [
+        "J601",
+        "14"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "10"
+      ],
+      [
+        "J601",
+        "12"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "11"
+      ],
+      [
+        "J601",
+        "11"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "12"
+      ],
+      [
+        "J601",
+        "10"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "17"
+      ],
+      [
+        "J601",
+        "9"
+      ]
+    ],
+    [
+      [
+        "J601",
+        "18"
+      ],
+      [
+        "J601",
+        "15"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "31"
+      ],
+      [
+        "J701",
+        "5"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "32"
+      ],
+      [
+        "J701",
+        "3"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "24"
+      ],
+      [
+        "J701",
+        "7"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "25"
+      ],
+      [
+        "J701",
+        "8"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "34"
+      ],
+      [
+        "J701",
+        "1"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "33"
+      ],
+      [
+        "J701",
+        "2"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "20"
+      ],
+      [
+        "U802",
+        "16"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "7"
+      ],
+      [
+        "U802",
+        "14"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "37"
+      ],
+      [
+        "U802",
+        "1"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "6"
+      ],
+      [
+        "U802",
+        "4"
+      ]
+    ],
+    [
+      [
+        "U301",
+        "19"
+      ],
+      [
+        "U803",
+        "7"
+      ]
+    ],
+    [
+      [
+        "J801",
+        "1"
+      ],
+      [
+        "U802",
+        "3"
+      ]
+    ],
+    [
+      [
+        "J801",
+        "2"
+      ],
+      [
+        "U802",
+        "3"
+      ]
+    ],
+    [
+      [
+        "J801",
+        "1"
+      ],
+      [
+        "J801",
+        "2"
+      ]
+    ],
+    [
+      [
+        "L601",
+        "2"
+      ],
+      [
+        "U401",
+        "6"
+      ]
+    ]
+  ],
+  "checks": [
+    "24-pin EPD map, NCs and separate internal VDD",
+    "boost rectifier polarity, flying capacitor and source current sense",
+    "five EPD outputs and reverse BUSY buffering",
+    "six SD lines isolated and five pulls on SD rail",
+    "mechanical SD detect separate from DAT3",
+    "four audio output buffers and all four OE pins",
+    "MAX98357A TQFN16/EP17, 6dB gain and left-channel control",
+    "PUI seven-pad map, straps and data pull-down",
+    "microphone return buffer and BTL speaker terminals",
+    "Schmitt audio enable, separate Ioff buffer manufacturer and revised default pulls",
+    "EPD boost switch node separate from load-switch output on another sheet"
+  ]
+}

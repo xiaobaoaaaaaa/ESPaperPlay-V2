@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-02",
+  "scope": "Independent TI TMUX1511PW electrical and control pull-down review; not measured qualification",
+  "sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf",
+      "local": "hardware/reference/power/tmux1511.pdf",
+      "sha256": "04291b41a68347fedbbb0776aa44f500eaca65f2ca3af0e022ee60d41c7b1e9f",
+      "revision": "SCDS390B, March 2025",
+      "pages": [
+        3,
+        4,
+        6,
+        21,
+        22
+      ]
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tca9539.pdf",
+      "local": "hardware/reference/power/tca9539.pdf",
+      "sha256": "fec29f61c247a467417a4c35ff616ee16379ac4ce95a6c1c8a6d6fe97ef010b9",
+      "revision": "SCPS202C, May 2016",
+      "pages": [
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "pw14_pin_functions": {
+    "1": "SEL1",
+    "2": "S1",
+    "3": "D1",
+    "4": "SEL2",
+    "5": "S2",
+    "6": "D2",
+    "7": "GND",
+    "8": "D3",
+    "9": "S3",
+    "10": "SEL3",
+    "11": "D4",
+    "12": "S4",
+    "13": "SEL4",
+    "14": "VDD"
+  },
+  "voltage_limits": {
+    "S_D_absolute_V": [
+      -0.5,
+      6
+    ],
+    "S_D_absolute_supply_dependency": "None in p4 table; all referenced to GND",
+    "S_D_recommended_VDD_ge_1_5": "0..min(2*VDD,5.5) V",
+    "S_D_recommended_VDD_lt_1_5": "0..3.6 V",
+    "SEL_recommended": "0..5.5 V; fail-safe independent of VDD state per section7.3.5",
+    "ramp_limit": "At VDD1.5..1.65 V, a fixed3.3 V S/D exceeds the recommended operation range but not the absolute rating. Do not claim guaranteed Hi-Z or leakage across all ramp points; keep select low and validate ramp waveforms/current. At VDD=0, IPOFF maximum +/-2uA applies for VS0..3.6 V, VD0 V over full rated temperature; typical0.01uA is not a max."
+  },
+  "control": {
+    "truth": "SEL LOW=Hi-Z/OFF; HIGH=conducting/ON",
+    "VIL_max_V": 0.45,
+    "VIH_min_V": 1.2,
+    "IIL_max_uA": 2,
+    "IIL_test": "VSEL=0 V; electrical table VDD1.5..5.5 V, TA-40..125C. Table lists +/-2uA in MAX column. Treat unfavorable leakage direction as source into pull-down.",
+    "IIH_max_uA": 2,
+    "IIH_test": "VSEL=1.8 V or VDD",
+    "internal_pull_down": "6 Mohm typical only, no minimum/maximum guaranteed; excluded from worst-case pull-down sizing.",
+    "TCA9539_IIL": "P-port input VI=GND, VCC1.65..5.5 V, TA-40..85C: -1uA max magnitude; add1uA unfavorable source. Does not specify VCC=0 or brownout leakage.",
+    "SD_six_SEL": {
+      "sum_leakage_uA": 13,
+      "100k_voltage_V": 1.3,
+      "10k_nominal_voltage_V": 0.13,
+      "10k_1pct_upper_voltage_V": 0.1313,
+      "10k_5pct_upper_voltage_V": 0.1365,
+      "decision": "Use R22310k external to GND;100k cannot establish worst-case default LOW."
+    },
+    "TOUCH_four_SEL": {
+      "sum_leakage_uA": 9,
+      "100k_voltage_V": 0.9,
+      "10k_nominal_voltage_V": 0.09,
+      "10k_1pct_upper_voltage_V": 0.0909,
+      "10k_5pct_upper_voltage_V": 0.0945,
+      "decision": "Use R21510k external to GND and update TOUCH sheet note."
+    },
+    "power_budget": "Each10k pull consumes330uA at3.3 V while enabled, plus switch/control input currents; not a standby current when held LOW. TMUX supply70uA max per IC in documented test conditions; two SD switches add140uA max as rail-on allocation.",
+    "limits": "These calculations use specified endpoint leakage to size passive defaults with margin; actual AON/SD/TOUCH brownout and reset sequencing still need bench tests. No assumption of guaranteed IOX output behavior below valid VCC."
+  },
+  "unused_channels": {
+    "recommendation": "Tie unused SEL3/SEL4 hard toGND; mark corresponding S3/D3/S4/D4 explicit no-connect. These are analog switch terminals, not CMOS logic inputs; do not confuse functional unused terminals with dedicated NC package pins.",
+    "used_channel_grouping": "U701 all4SEL toSD_IO_EN, U706 SEL1/SEL2 toSD_IO_EN; U706 SEL3/SEL4 toGND. Both VDD=SD_3V3, local100n each."
+  },
+  "reuse": "Use exact existing ESPaperPlay:TMUX1511PW library definition from reviewed TOUCH page. Do not create another same-name shape/pin mapping."
+}

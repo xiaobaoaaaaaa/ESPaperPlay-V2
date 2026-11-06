@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS",
+  "scope": "Documentation/decision-only update; prior electrical, BOM and PDF checks not rerun or relabeled as new tests.",
+  "previous_manifest_entries": 161,
+  "unchanged_outside_authorized_document_updates": 152,
+  "unchanged_native_and_export_artifacts_checked": 41,
+  "local_document_links_checked": 131,
+  "estimated_battery_a": 0.8689655172413794,
+  "body_gpio_pinmap_components_and_dnp_changed": false,
+  "external_information_required_for_layout": [
+    "No further adapter functional/model/photo proof required. Battery conservative assumptions used for design; actual charge qualification remains separate."
+  ]
+}
