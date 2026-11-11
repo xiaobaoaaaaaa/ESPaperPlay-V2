@@ -1,0 +1,1659 @@
+{
+  "date": "2026-11-11",
+  "status": "PASS_GEOMETRY_WITH_ASSEMBLY_CONDITIONS",
+  "scope": "Read-only frozen r8 mechanical geometry and manual stencil/reflow preparation; no fabricated sample or cable inspected. Not a general fabrication/power-up approval.",
+  "source_board": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "source_board_sha256_before": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "source_board_sha256_after": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "source_unchanged": true,
+  "board": {
+    "outline_valid": true,
+    "extent_mm": [
+      50.0,
+      50.0,
+      210.0,
+      160.0
+    ],
+    "size_mm": [
+      160.0,
+      110.0
+    ],
+    "outline_area_mm2": 17600.0,
+    "outline_count": 1,
+    "outline_internal_cutouts": 0,
+    "copper_layers": 4,
+    "native_board_thickness_mm": 1.6,
+    "auxiliary_origin_mm": [
+      0.0,
+      0.0
+    ],
+    "grid_origin_mm": [
+      0.0,
+      0.0
+    ]
+  },
+  "footprints_count": 240,
+  "courtyard": {
+    "method": "Native BuildCourtyardCaches + polygon intersection. KiCad cache boundaries can be 0.005 mm inward from graphic centreline. Values are planar courtyard geometry, not hand-access qualification.",
+    "missing": [],
+    "pairs_tested": 28680,
+    "overlaps": [],
+    "minimum_pair_distance": {
+      "refs": [
+        "C501",
+        "R503"
+      ],
+      "distance_mm": 0.1
+    },
+    "outside_board": [
+      {
+        "ref": "J501",
+        "outside_area_mm2": 12.49025,
+        "bbox_mm": [
+          102.685,
+          48.825,
+          113.315,
+          57.755
+        ]
+      },
+      {
+        "ref": "U301",
+        "outside_area_mm2": 1007.40755,
+        "bbox_mm": [
+          136.005,
+          29.005,
+          183.995,
+          70.195
+        ]
+      }
+    ],
+    "minimum_inside_edge_distances": [
+      {
+        "ref": "J701",
+        "distance_mm": 0.325
+      },
+      {
+        "ref": "J406",
+        "distance_mm": 0.605
+      },
+      {
+        "ref": "J801",
+        "distance_mm": 0.905
+      },
+      {
+        "ref": "J302",
+        "distance_mm": 0.985
+      },
+      {
+        "ref": "J601",
+        "distance_mm": 1.205
+      },
+      {
+        "ref": "H4",
+        "distance_mm": 1.552474
+      },
+      {
+        "ref": "H1",
+        "distance_mm": 1.552474
+      },
+      {
+        "ref": "H2",
+        "distance_mm": 1.552474
+      },
+      {
+        "ref": "H3",
+        "distance_mm": 1.552474
+      },
+      {
+        "ref": "C302",
+        "distance_mm": 2.025
+      }
+    ]
+  },
+  "mounts": [
+    {
+      "ref": "H1",
+      "xy_mm": [
+        55.0,
+        55.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "npth": true,
+      "hole_edge_to_board_edge_mm": 3.4,
+      "courtyard_bbox_mm": [
+        51.55753,
+        51.552474,
+        58.444999,
+        58.447526
+      ],
+      "nearest_other_courtyard_ref": "C804",
+      "center_to_nearest_other_courtyard_mm": 4.978077,
+      "excluded_bom": true,
+      "excluded_position": true
+    },
+    {
+      "ref": "H2",
+      "xy_mm": [
+        205.0,
+        55.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "npth": true,
+      "hole_edge_to_board_edge_mm": 3.4,
+      "courtyard_bbox_mm": [
+        201.55753,
+        51.552474,
+        208.444999,
+        58.447526
+      ],
+      "nearest_other_courtyard_ref": "J701",
+      "center_to_nearest_other_courtyard_mm": 7.625,
+      "excluded_bom": true,
+      "excluded_position": true
+    },
+    {
+      "ref": "H3",
+      "xy_mm": [
+        55.0,
+        155.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "npth": true,
+      "hole_edge_to_board_edge_mm": 3.4,
+      "courtyard_bbox_mm": [
+        51.55753,
+        151.552474,
+        58.444999,
+        158.447526
+      ],
+      "nearest_other_courtyard_ref": "J102",
+      "center_to_nearest_other_courtyard_mm": 7.505,
+      "excluded_bom": true,
+      "excluded_position": true
+    },
+    {
+      "ref": "H4",
+      "xy_mm": [
+        205.0,
+        155.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "npth": true,
+      "hole_edge_to_board_edge_mm": 3.4,
+      "courtyard_bbox_mm": [
+        201.55753,
+        151.552474,
+        208.444999,
+        158.447526
+      ],
+      "nearest_other_courtyard_ref": "J601",
+      "center_to_nearest_other_courtyard_mm": 5.005,
+      "excluded_bom": true,
+      "excluded_position": true
+    }
+  ],
+  "connectors": {
+    "J501": {
+      "value": "USB-C USB2 16P",
+      "mpn": "USB4105-GF-A",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal",
+      "xy_mm": [
+        108.0,
+        53.0
+      ],
+      "native_rotation_deg": 180.0,
+      "entry_direction": "north / -Y",
+      "courtyard_bbox_mm": [
+        102.685,
+        48.825,
+        113.315,
+        57.755
+      ],
+      "pads": [
+        {
+          "number": "A1",
+          "xy_mm": [
+            111.2,
+            56.68
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "A4",
+          "xy_mm": [
+            110.4,
+            56.68
+          ],
+          "net": "USB_VBUS",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "A5",
+          "xy_mm": [
+            109.25,
+            56.68
+          ],
+          "net": "/USB_INPUT/USB_CC1",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "A6",
+          "xy_mm": [
+            108.25,
+            56.68
+          ],
+          "net": "/USB_INPUT/USB_DP_PORT",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "A7",
+          "xy_mm": [
+            107.75,
+            56.68
+          ],
+          "net": "/USB_INPUT/USB_DM_PORT",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "A8",
+          "xy_mm": [
+            106.75,
+            56.68
+          ],
+          "net": "unconnected-(J501-SBU1-PadA8)",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "A9",
+          "xy_mm": [
+            105.6,
+            56.68
+          ],
+          "net": "USB_VBUS",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "A12",
+          "xy_mm": [
+            104.8,
+            56.68
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "B1",
+          "xy_mm": [
+            104.8,
+            56.68
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "B4",
+          "xy_mm": [
+            105.6,
+            56.68
+          ],
+          "net": "USB_VBUS",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "B5",
+          "xy_mm": [
+            106.25,
+            56.68
+          ],
+          "net": "/USB_INPUT/USB_CC2",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "B6",
+          "xy_mm": [
+            107.25,
+            56.68
+          ],
+          "net": "/USB_INPUT/USB_DP_PORT",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "B7",
+          "xy_mm": [
+            108.75,
+            56.68
+          ],
+          "net": "/USB_INPUT/USB_DM_PORT",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "B8",
+          "xy_mm": [
+            109.75,
+            56.68
+          ],
+          "net": "unconnected-(J501-SBU2-PadB8)",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "B9",
+          "xy_mm": [
+            110.4,
+            56.68
+          ],
+          "net": "USB_VBUS",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "B12",
+          "xy_mm": [
+            111.2,
+            56.68
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            112.32,
+            56.105
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.6,
+            1.7
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            112.32,
+            51.925
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.6,
+            1.4
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            103.68,
+            56.105
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.6,
+            1.7
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            103.68,
+            51.925
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.6,
+            1.4
+          ]
+        }
+      ]
+    },
+    "J701": {
+      "value": "Hirose DM3AT-SF-PEJM5",
+      "mpn": "DM3AT-SF-PEJM5",
+      "footprint": "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5",
+      "xy_mm": [
+        200.8,
+        70.5
+      ],
+      "native_rotation_deg": 90.0,
+      "entry_direction": "east / +X",
+      "courtyard_bbox_mm": [
+        191.985,
+        62.625,
+        209.675,
+        78.315
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            193.075,
+            67.725
+          ],
+          "net": "SD_CARD_D2",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            193.075,
+            68.825
+          ],
+          "net": "SD_CARD_D3",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "3",
+          "xy_mm": [
+            193.075,
+            69.925
+          ],
+          "net": "SD_CARD_CMD",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "4",
+          "xy_mm": [
+            193.075,
+            71.025
+          ],
+          "net": "SD_3V3",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "5",
+          "xy_mm": [
+            193.075,
+            72.125
+          ],
+          "net": "SD_CARD_CLK",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "6",
+          "xy_mm": [
+            193.075,
+            73.225
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "7",
+          "xy_mm": [
+            193.075,
+            74.325
+          ],
+          "net": "SD_CARD_D0",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "8",
+          "xy_mm": [
+            193.075,
+            75.425
+          ],
+          "net": "SD_CARD_D1",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "9",
+          "xy_mm": [
+            193.075,
+            76.375
+          ],
+          "net": "SD_DETECT_CONTACT",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "10",
+          "xy_mm": [
+            203.575,
+            77.325
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            197.375,
+            77.325
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            207.725,
+            77.325
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            193.075,
+            66.175
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            208.175,
+            63.825
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "J601": {
+      "value": "EPD FPC 24 x 0.5mm",
+      "mpn": "HYCW3D-05FPC24-200B",
+      "footprint": "ESPaperPlay:HOAUC_HYCW3D-05FPC24-200B_1x24_P0.50mm_SH",
+      "xy_mm": [
+        191.0,
+        152.0
+      ],
+      "native_rotation_deg": 0.0,
+      "entry_direction": "south / +Y",
+      "courtyard_bbox_mm": [
+        182.005,
+        150.605,
+        199.995,
+        158.795
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            185.25,
+            152.0
+          ],
+          "net": "unconnected-(J601-NC-Pad1)",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            185.75,
+            152.0
+          ],
+          "net": "EPD_GDR",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "3",
+          "xy_mm": [
+            186.25,
+            152.0
+          ],
+          "net": "EPD_RESE",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "4",
+          "xy_mm": [
+            186.75,
+            152.0
+          ],
+          "net": "unconnected-(J601-NC-Pad4)",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "5",
+          "xy_mm": [
+            187.25,
+            152.0
+          ],
+          "net": "EPD_VSHR",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "6",
+          "xy_mm": [
+            187.75,
+            152.0
+          ],
+          "net": "unconnected-(J601-TSCL-Pad6)",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "7",
+          "xy_mm": [
+            188.25,
+            152.0
+          ],
+          "net": "unconnected-(J601-TSDA-Pad7)",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "8",
+          "xy_mm": [
+            188.75,
+            152.0
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "9",
+          "xy_mm": [
+            189.25,
+            152.0
+          ],
+          "net": "EPD_PAD_BUSY",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "10",
+          "xy_mm": [
+            189.75,
+            152.0
+          ],
+          "net": "EPD_PAD_RST_N",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "11",
+          "xy_mm": [
+            190.25,
+            152.0
+          ],
+          "net": "EPD_PAD_DC",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "12",
+          "xy_mm": [
+            190.75,
+            152.0
+          ],
+          "net": "EPD_PAD_CS",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "13",
+          "xy_mm": [
+            191.25,
+            152.0
+          ],
+          "net": "EPD_PAD_SCLK",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "14",
+          "xy_mm": [
+            191.75,
+            152.0
+          ],
+          "net": "EPD_PAD_MOSI",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "15",
+          "xy_mm": [
+            192.25,
+            152.0
+          ],
+          "net": "EPD_3V3",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "16",
+          "xy_mm": [
+            192.75,
+            152.0
+          ],
+          "net": "EPD_3V3",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "17",
+          "xy_mm": [
+            193.25,
+            152.0
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "18",
+          "xy_mm": [
+            193.75,
+            152.0
+          ],
+          "net": "EPD_VDD_INT",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "19",
+          "xy_mm": [
+            194.25,
+            152.0
+          ],
+          "net": "unconnected-(J601-VPP-Pad19)",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "20",
+          "xy_mm": [
+            194.75,
+            152.0
+          ],
+          "net": "EPD_VSH1",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "21",
+          "xy_mm": [
+            195.25,
+            152.0
+          ],
+          "net": "EPD_PREVGH",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "22",
+          "xy_mm": [
+            195.75,
+            152.0
+          ],
+          "net": "EPD_VSL",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "23",
+          "xy_mm": [
+            196.25,
+            152.0
+          ],
+          "net": "EPD_PREVGL",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "24",
+          "xy_mm": [
+            196.75,
+            152.0
+          ],
+          "net": "EPD_VCOM",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            183.45,
+            155.08
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            198.55,
+            155.08
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "J406": {
+      "value": "GT911_FUNCTIONAL_6PIN",
+      "mpn": "LAIL-FPC-CDX01-6P0.5-GW",
+      "footprint": "ESPaperPlay:LAILAN_LAIL-FPC-CDX01-6P0.5-GW_1x06_P0.50mm_SH",
+      "xy_mm": [
+        204.6,
+        105.0
+      ],
+      "native_rotation_deg": 90.0,
+      "entry_direction": "east / +X",
+      "courtyard_bbox_mm": [
+        203.405,
+        102.005,
+        209.395,
+        107.995
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            204.6,
+            103.75
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            204.6,
+            104.25
+          ],
+          "net": "TOUCH_3V3",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "3",
+          "xy_mm": [
+            204.6,
+            104.75
+          ],
+          "net": "TP_RESET_N",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "4",
+          "xy_mm": [
+            204.6,
+            105.25
+          ],
+          "net": "TP_INT",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "5",
+          "xy_mm": [
+            204.6,
+            105.75
+          ],
+          "net": "TP_SDA",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "6",
+          "xy_mm": [
+            204.6,
+            106.25
+          ],
+          "net": "TP_SCL",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            207.1,
+            107.3
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "number": "SH",
+          "xy_mm": [
+            207.1,
+            102.7
+          ],
+          "net": "GND",
+          "drill_mm": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "J102": {
+      "value": "BAT_PACK_PROTECTED",
+      "mpn": "1751248",
+      "footprint": "ESPaperPlay:PhoenixContact_MKDS-1-2-3.5_1751248_1x02_P3.50mm_Horizontal",
+      "xy_mm": [
+        65.0,
+        151.5
+      ],
+      "native_rotation_deg": 0.0,
+      "entry_direction": "south / +Y",
+      "courtyard_bbox_mm": [
+        62.505,
+        147.305,
+        70.995,
+        155.595
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            65.0,
+            151.5
+          ],
+          "net": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+          "drill_mm": [
+            1.1,
+            1.1
+          ]
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            68.5,
+            151.5
+          ],
+          "net": "GND",
+          "drill_mm": [
+            1.1,
+            1.1
+          ]
+        }
+      ]
+    },
+    "J103": {
+      "value": "PACK_NTC",
+      "mpn": "1751248",
+      "footprint": "ESPaperPlay:PhoenixContact_MKDS-1-2-3.5_1751248_1x02_P3.50mm_Horizontal",
+      "xy_mm": [
+        78.0,
+        151.5
+      ],
+      "native_rotation_deg": 0.0,
+      "entry_direction": "south / +Y",
+      "courtyard_bbox_mm": [
+        75.505,
+        147.305,
+        83.995,
+        155.595
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            78.0,
+            151.5
+          ],
+          "net": "BAT_NTC",
+          "drill_mm": [
+            1.1,
+            1.1
+          ]
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            81.5,
+            151.5
+          ],
+          "net": "GND",
+          "drill_mm": [
+            1.1,
+            1.1
+          ]
+        }
+      ]
+    },
+    "J801": {
+      "value": "SPEAKER / 8R CANDIDATE",
+      "mpn": "1751248",
+      "footprint": "ESPaperPlay:PhoenixContact_MKDS-1-2-3.5_1751248_1x02_P3.50mm_Horizontal",
+      "xy_mm": [
+        91.0,
+        55.0
+      ],
+      "native_rotation_deg": 180.0,
+      "entry_direction": "north / -Y",
+      "courtyard_bbox_mm": [
+        85.005,
+        50.905,
+        93.495,
+        59.195
+      ],
+      "pads": [
+        {
+          "number": "1",
+          "xy_mm": [
+            91.0,
+            55.0
+          ],
+          "net": "/AUDIO/SPK_P",
+          "drill_mm": [
+            1.1,
+            1.1
+          ]
+        },
+        {
+          "number": "2",
+          "xy_mm": [
+            87.5,
+            55.0
+          ],
+          "net": "/AUDIO/SPK_N",
+          "drill_mm": [
+            1.1,
+            1.1
+          ]
+        }
+      ]
+    }
+  },
+  "insertion_corridors": {
+    "J501": {
+      "bbox_mm": [
+        100,
+        34,
+        116,
+        49.325
+      ],
+      "other_footprint_obstructions": [],
+      "test": "corridor polygon versus native cached F.CrtYd; wires, fingers, latch motion in Z and future case are not represented"
+    },
+    "J701": {
+      "bbox_mm": [
+        208.925,
+        63.575,
+        220,
+        77.425
+      ],
+      "other_footprint_obstructions": [],
+      "test": "corridor polygon versus native cached F.CrtYd; wires, fingers, latch motion in Z and future case are not represented"
+    },
+    "J601": {
+      "bbox_mm": [
+        182.75,
+        157.08,
+        199.25,
+        169
+      ],
+      "other_footprint_obstructions": [],
+      "test": "corridor polygon versus native cached F.CrtYd; wires, fingers, latch motion in Z and future case are not represented"
+    },
+    "J406": {
+      "bbox_mm": [
+        207.65,
+        102,
+        220,
+        108
+      ],
+      "other_footprint_obstructions": [],
+      "test": "corridor polygon versus native cached F.CrtYd; wires, fingers, latch motion in Z and future case are not represented"
+    },
+    "J102": {
+      "bbox_mm": [
+        63,
+        155.1,
+        70.5,
+        165
+      ],
+      "other_footprint_obstructions": [],
+      "test": "corridor polygon versus native cached F.CrtYd; wires, fingers, latch motion in Z and future case are not represented"
+    },
+    "J103": {
+      "bbox_mm": [
+        76,
+        155.1,
+        83.5,
+        165
+      ],
+      "other_footprint_obstructions": [],
+      "test": "corridor polygon versus native cached F.CrtYd; wires, fingers, latch motion in Z and future case are not represented"
+    },
+    "J801": {
+      "bbox_mm": [
+        85.5,
+        45,
+        93,
+        51.4
+      ],
+      "other_footprint_obstructions": [],
+      "test": "corridor polygon versus native cached F.CrtYd; wires, fingers, latch motion in Z and future case are not represented"
+    }
+  },
+  "silkscreen_polarity": [
+    {
+      "text": "BATT+",
+      "xy_mm": [
+        65.0,
+        157.5
+      ]
+    },
+    {
+      "text": "GND",
+      "xy_mm": [
+        69.5,
+        157.5
+      ]
+    },
+    {
+      "text": "NTC",
+      "xy_mm": [
+        78.0,
+        157.5
+      ]
+    },
+    {
+      "text": "GND",
+      "xy_mm": [
+        81.5,
+        157.5
+      ]
+    },
+    {
+      "text": "SPK:1+ 2-",
+      "xy_mm": [
+        98.0,
+        55.0
+      ]
+    }
+  ],
+  "antenna": [
+    {
+      "bbox_mm": [
+        136.0,
+        29.0,
+        184.0,
+        50.0
+      ],
+      "layers": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu",
+        "B.Cu"
+      ],
+      "no_tracks": true,
+      "no_vias": true,
+      "no_pads": true,
+      "no_zone_fill": true,
+      "no_footprints": true
+    }
+  ],
+  "mic": {
+    "ref": "U803",
+    "part": "DMM-4026-B-I2S-R",
+    "mount_side": "F.Cu",
+    "sound_entry_side": "B.Cu underside through board NPTH",
+    "hole_xy_mm": [
+      61.0,
+      62.0
+    ],
+    "hole_drill_mm": [
+      0.6,
+      0.6
+    ],
+    "keepout_bbox_mm": [
+      60.5,
+      61.5,
+      61.5,
+      62.5
+    ],
+    "keepout_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "copper_intrusions": [],
+    "case_opening": "No case designed; do not tape, glue, place foam or rest board directly against the underside acoustic opening."
+  },
+  "population_group_counts": {
+    "do_not_populate": 6,
+    "mechanical_hole_only": 4,
+    "post_reflow_smd_connector_hand_solder": 4,
+    "post_reflow_tht_hand_solder": 23,
+    "top_smd_reflow": 203
+  },
+  "population_groups": {
+    "do_not_populate": [
+      "C501",
+      "C502",
+      "J301",
+      "J302",
+      "J303",
+      "R108"
+    ],
+    "mechanical_hole_only": [
+      "H1",
+      "H2",
+      "H3",
+      "H4"
+    ],
+    "post_reflow_smd_connector_hand_solder": [
+      "J406",
+      "J501",
+      "J601",
+      "J701"
+    ],
+    "post_reflow_tht_hand_solder": [
+      "J101",
+      "J102",
+      "J103",
+      "J104",
+      "J105",
+      "J201",
+      "J202",
+      "J203",
+      "J204",
+      "J205",
+      "J206",
+      "J401",
+      "J402",
+      "J403",
+      "J404",
+      "J405",
+      "J502",
+      "J801",
+      "SW301",
+      "SW302",
+      "SW303",
+      "SW304",
+      "SW305"
+    ],
+    "top_smd_reflow": [
+      "C101",
+      "C102",
+      "C103",
+      "C201",
+      "C202",
+      "C203",
+      "C204",
+      "C301",
+      "C302",
+      "C303",
+      "C401",
+      "C402",
+      "C403",
+      "C404",
+      "C405",
+      "C406",
+      "C407",
+      "C408",
+      "C409",
+      "C410",
+      "C411",
+      "C412",
+      "C413",
+      "C414",
+      "C415",
+      "C416",
+      "C417",
+      "C503",
+      "C601",
+      "C602",
+      "C603",
+      "C604",
+      "C605",
+      "C606",
+      "C607",
+      "C608",
+      "C609",
+      "C610",
+      "C611",
+      "C612",
+      "C701",
+      "C702",
+      "C703",
+      "C704",
+      "C705",
+      "C801",
+      "C802",
+      "C803",
+      "C804",
+      "C805",
+      "C806",
+      "C808",
+      "C901",
+      "C902",
+      "C903",
+      "C904",
+      "D501",
+      "D601",
+      "D602",
+      "D603",
+      "F501",
+      "L201",
+      "L601",
+      "Q101",
+      "Q201",
+      "Q601",
+      "R101",
+      "R102",
+      "R103",
+      "R104",
+      "R105",
+      "R106",
+      "R107",
+      "R109",
+      "R110",
+      "R111",
+      "R112",
+      "R113",
+      "R201",
+      "R202",
+      "R203",
+      "R204",
+      "R205",
+      "R206",
+      "R207",
+      "R208",
+      "R209",
+      "R210",
+      "R211",
+      "R212",
+      "R213",
+      "R214",
+      "R215",
+      "R216",
+      "R217",
+      "R218",
+      "R219",
+      "R220",
+      "R221",
+      "R222",
+      "R223",
+      "R224",
+      "R225",
+      "R226",
+      "R227",
+      "R301",
+      "R302",
+      "R303",
+      "R304",
+      "R305",
+      "R306",
+      "R401",
+      "R402",
+      "R404",
+      "R405",
+      "R407",
+      "R408",
+      "R410",
+      "R411",
+      "R413",
+      "R414",
+      "R416",
+      "R417",
+      "R418",
+      "R419",
+      "R420",
+      "R501",
+      "R502",
+      "R503",
+      "R504",
+      "R601",
+      "R602",
+      "R603",
+      "R604",
+      "R605",
+      "R606",
+      "R607",
+      "R608",
+      "R609",
+      "R610",
+      "R611",
+      "R612",
+      "R613",
+      "R614",
+      "R701",
+      "R702",
+      "R703",
+      "R704",
+      "R705",
+      "R706",
+      "R708",
+      "R710",
+      "R711",
+      "R712",
+      "R713",
+      "R714",
+      "R715",
+      "R802",
+      "R803",
+      "R804",
+      "R805",
+      "R806",
+      "R808",
+      "R809",
+      "R810",
+      "R811",
+      "R812",
+      "R813",
+      "R901",
+      "R902",
+      "R903",
+      "R904",
+      "R905",
+      "R906",
+      "R907",
+      "R908",
+      "U101",
+      "U201",
+      "U202",
+      "U203",
+      "U301",
+      "U401",
+      "U402",
+      "U403",
+      "U404",
+      "U405",
+      "U406",
+      "U501",
+      "U502",
+      "U601",
+      "U602",
+      "U701",
+      "U702",
+      "U703",
+      "U704",
+      "U705",
+      "U706",
+      "U801",
+      "U802",
+      "U803",
+      "U804",
+      "U805",
+      "U901"
+    ]
+  },
+  "fitted_electrical_count": 230,
+  "dnp_stencil_requirement": "DNP must be absent from both physical population and all final stencil apertures; a KiCad DNP flag by itself does not suppress plotted paste. Native paste remediation is audited separately.",
+  "manual_connector_stencil_requirement": "J501/J701/J601/J406 are fitted SMD connectors but excluded from the default stencil under user-selected manual connector soldering. Their SH apertures must also be absent; THT connectors/switches are hand-soldered after reflow.",
+  "module_paste_note": "U301 perimeter contacts reflow; central EPAD not printed under the selected optional-EPAD assembly profile. This is not a DNP module. Confirm actual thermal performance later.",
+  "position_notes": "Native footprint anchors and angles are recorded for manual assembly lookup only. No pick-and-place format conversion or outsourced PCBA submission was requested. Native auxiliary origin is (0,0); CAD coordinates are not package-centroid positions by definition.",
+  "conditions": [
+    "Use exact MPN/footprint; generic 0.5 mm FPC sockets and generic 1.25 mm wire housings are not interchangeable.",
+    "Existing passive 24P/6P extension is the accepted interface basis; verify full pin mapping and exposed-conductor face with power disconnected before first plug-in. No photo/model request is needed to continue board design.",
+    "GCT USB4105-GF-A shell stakes are 0.95±0.15 mm, nominal PCB 1.6 mm: they do not emerge from bottom. Inspect top-side shell-slot solder and retention after assembly; normal bottom-side protruding-pin solder practice is not sufficient.",
+    "Use insulating standoffs under H1-H4 for bench work; steel screw/washer envelope is not frozen. Screen, battery and speaker are external, not mounted by the PCB mechanical holes.",
+    "Observe mic bottom sound port and MCU antenna keep-clear volume during bench setup."
+  ]
+}

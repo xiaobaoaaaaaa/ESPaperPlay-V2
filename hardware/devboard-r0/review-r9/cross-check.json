@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "status": "PASS_FOR_CHECKED_ARTIFACTS_REVIEW_ONLY_NOT_FABRICATION_RELEASE",
+  "source_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "source_unchanged_after_read": true,
+  "completed_check_groups": 3,
+  "groups": [
+    {
+      "name": "assembly_native_cross_check",
+      "status": "pass",
+      "native_rows_checked": 240,
+      "checked_fields": [
+        "absolute_x_y",
+        "lower_left_origin_x_y",
+        "native_rotation",
+        "uuid",
+        "candidate_mpn",
+        "dnp"
+      ],
+      "csv_file_hashes_checked": 5,
+      "assembly_groups": {
+        "top_smd_reflow": 203,
+        "do_not_populate": 6,
+        "mechanical_hole_only": 4,
+        "post_reflow_tht_hand_solder": 23,
+        "post_reflow_smd_connector_hand_solder": 4
+      },
+      "fitted_bom_unique_references": 230
+    },
+    {
+      "name": "bare_board_cam_readback",
+      "status": "pass",
+      "layer_count": 9,
+      "file_hashes_checked": 14,
+      "drills_bijectively_matched": 663,
+      "hole_groups": {
+        "pth": 656,
+        "npth": 7
+      },
+      "max_coordinate_difference_mm": 0.0005,
+      "tolerance_mm": 0.000501,
+      "no_paste_files_in_bare_board_directory": true,
+      "coordinate_transform": "CAM (X,Y) -> KiCad (X,-Y); slot endpoints matched after order normalization",
+      "parser_warnings": [
+        "KiCad G90 after Excellon header accepted by gerbonara; warning preserved in cam-readback.json"
+      ]
+    },
+    {
+      "name": "formal_process_check_reproducibility",
+      "status": "pass",
+      "command": "python3 hardware/devboard-r0/review-r9/process-check.py --output build/dfm-r9/process/formal-process-check.json",
+      "json_semantic_equality": true,
+      "byte_identity": true,
+      "inventory_sha256": "8aa81fa3537caf295cd6f24aafaaf64b97d8084377c1da900cb586f78d5a64e0",
+      "checker_sha256": "486252e9e14627e7ac8b2304ec3b1c59e0928626a25191b1bb383bc92eb5baf6"
+    }
+  ],
+  "stencil_observation": {
+    "status": "snapshot_observed_final_regeneration_not_attested",
+    "prior_actual_gerber_objects": 636,
+    "prior_actual_component_attributes": 203,
+    "prior_observed_no_dnp_or_hand_connector_attributes": true,
+    "prior_observed_report_refs_equal_assembly_reflow_refs": true,
+    "prior_source_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+    "note": "A previously published stencil artifact and its report matched during this review; stencil script/report refinement was still running. This record does not declare final regeneration complete or replace the final stencil audit."
+  },
+  "hashes": {
+    "hardware/devboard-r0/review-r9/process-check.py": "486252e9e14627e7ac8b2304ec3b1c59e0928626a25191b1bb383bc92eb5baf6",
+    "hardware/devboard-r0/review-r9/native-process-inventory.json": "8aa81fa3537caf295cd6f24aafaaf64b97d8084377c1da900cb586f78d5a64e0",
+    "hardware/devboard-r0/output/manufacturing/r9-review/assembly/assembly-map.html": "223a1edae9bd12d9806b2cff0e8061f64d237a7a55871be67c28b00924e3158d",
+    "hardware/devboard-r0/output/manufacturing/r9-review/assembly/assembly-summary.json": "d2fd4b8e7ac41d16b1588d6bfd08414a13d0f8a4452d6347711cc5945d8ea63a",
+    "hardware/devboard-r0/output/manufacturing/r9-review/assembly/bom-fitted.csv": "08707ad0f4fb0b196aad9c11d5d24ee8af2076a2c74b35dbdb53625457bcf720",
+    "hardware/devboard-r0/output/manufacturing/r9-review/assembly/dnp.csv": "26c4c0166dda23a665ff5553831709dfe8cdc765402251a4fb3743dd17957844",
+    "hardware/devboard-r0/output/manufacturing/r9-review/assembly/hand-solder.csv": "58149ea4b5e07b37807f16fff2f9bf6bc8f55ae76598fd20668288b978fff8f7",
+    "hardware/devboard-r0/output/manufacturing/r9-review/assembly/population.csv": "505fd67a8a1a3c5d663f45e137f3c9995820779443c1aff6fc0f9c95d3bfe350",
+    "hardware/devboard-r0/output/manufacturing/r9-review/assembly/reflow-positions.csv": "917661d61a0b08ae847d3c0620873a6ee6e9777134500e7491966c45e2f28a60",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-B_Cu.gbl": "163ca7366b3bd502e3d97256ebca7ffd0b24ce803393620e8ecec0dc2ae5a487",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-B_Mask.gbs": "cd3da94016fe40e8027b0bd5a108c44acd0b3ef64219c80da05108a49c8510be",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-B_Silkscreen.gbo": "1b09b63da893fb9f5822d0a03210ba49b752cf58d14437011963136f1a8a038f",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-Edge_Cuts.gm1": "ca517b7d6d46f489636a5ec724936a7e66ddbb7d7792f06bb2bfbeb6c909833e",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-F_Cu.gtl": "cef51cb9a5255be070d38bc2ac35914321a9748e0d5e092a33b123594c9bb5f0",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-F_Mask.gts": "ef601219d0be7d264019cef567bc124968daff1b363675ed1f6669ddeaf53a76",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-F_Silkscreen.gto": "ba8ce62f1d660148a9270befa18fe390e32df304f0756c3631c07f1453782739",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-In1_Cu.g1": "2a1f0f14b72829f76c188f4a592522ac9d8ae088e89cd524e9893324bace8c35",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-In2_Cu.g2": "db14d39bb0e3c19a7fab2aaf92b6bc04b89b3bc6e220aecb1c555e81edf8bdc8",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-NPTH-drl_map.svg": "aa2bccd8ef095369a2e72882dbb3f4df1aef4e1b7ef14f41a145833dca411160",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-NPTH.drl": "ad219b671d012d9d8fec3fdaec8bca094f6b09c118b6c4b931c75dbf5a8bc518",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-PTH-drl_map.svg": "cb7b8a7f80ed3675ff3a2944977bb32867231271f738deba8114d375a53ad2cd",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-PTH.drl": "3da9320ec005c22e2ddd7cebcc19752282c4fbd452f571b22ee6cea1eed57fa6",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/ESPaperPlay_Devboard-job.gbrjob": "bdf546891aaf8c8cf055bb1c5ec6d5063d36648377cab1a9f62d6f405b7ac196",
+    "hardware/devboard-r0/output/manufacturing/r9-review/board/README.md": "6d4f07c4e5fa1cc0146e5046b73e620958045144db9f35697e372e82b70f5431"
+  },
+  "review_notes": [
+    "Inspected all three export scripts. Default paths preserve the formal r8 source board; stencil source/output path alias prevention was requested separately.",
+    "gbrjob ImpedanceControlled=true is an original CAD design intent flag, not factory qualification.",
+    "No fabrication order, upload, quote or physical print/reflow/impedance test performed.",
+    "Gerber parser readback is not an independent copper netlist DRC; the frozen-source and native DRC reports remain separate.",
+    "Final root review updated bare-board README to identify the 0.00498 mm near-via mask margin and the included 67-hole register; CAM and all assembly artifact hashes remain identical to the checked files."
+  ]
+}

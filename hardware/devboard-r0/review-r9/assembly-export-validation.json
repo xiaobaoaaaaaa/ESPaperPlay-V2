@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "Real regenerated assembly exports, CSV roundtrip/data comparisons, HTML/SVG structure and JavaScript syntax/logic checks; no browser visual QA performed by this validator.",
+  "source_board": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "source_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "generator": "tools/export_assembly_r9.py",
+  "generator_sha256": "6b63b33480371f12f953f1385c363642828b74055b827292bfaa0a8901c10fa4",
+  "summary": "hardware/devboard-r0/output/manufacturing/r9-review/assembly/assembly-summary.json",
+  "summary_sha256": "d2fd4b8e7ac41d16b1588d6bfd08414a13d0f8a4452d6347711cc5945d8ea63a",
+  "independent_inventory": "hardware/devboard-r0/review-r9/mechanical-population.json",
+  "independent_inventory_sha256": "c508502ebde6dac1b64f1750f28cc6eb621edf031127acbccacdc56d932fac10",
+  "validation_harness": "build/dfm-r9/mechanical/validate_assembly_export.py",
+  "validation_harness_sha256": "07027a7f5131681e9d6e126f40bec264788336f91bb7f7e8c6606738136139be",
+  "validation_command": "/usr/bin/python3 build/dfm-r9/mechanical/validate_assembly_export.py",
+  "counts": {
+    "population_rows": 240,
+    "fitted_components": 230,
+    "reflow_rows": 203,
+    "hand_solder_rows": 27,
+    "dnp_rows": 6,
+    "bom_groups": 106,
+    "bom_total_quantity": 230,
+    "map_points": 240
+  },
+  "checks": {
+    "all_csv_rows_compared_with_independent_mechanical_inventory": true,
+    "all_coordinate_transforms_verified": true,
+    "all_native_angles_preserved": true,
+    "dnp_and_manual_groups_disjoint_from_reflow": true,
+    "repeat_export_byte_identical": true,
+    "changed_source_sha_rejected_before_output_creation": true,
+    "all_export_hashes_match_summary": true,
+    "summary_generator_hash_matches_current_script": true,
+    "formal_source_board_unchanged": true,
+    "html_start_end_tag_structure_balanced": true,
+    "inline_svg_xml_parse": true,
+    "embedded_json_exactly_matches_population_csv": true,
+    "all_svg_anchors_match_native_kicad_coordinates": true,
+    "no_external_resource_dependencies_or_inline_event_attributes": true,
+    "xml_and_json_script_escaping_injection_roundtrip": true,
+    "generated_javascript_node_syntax_check": true,
+    "actual_generated_javascript_filter_search_click_keyboard_labels_zoom_with_minimal_dom_stub": true
+  },
+  "limitations": [
+    "No browser screenshot or visual layout test in this validator. Root agent may perform visual inspection separately.",
+    "SVG shows footprint anchors only, not package bodies/pin 1 or a 1:1 assembly template.",
+    "Validation harness and Node scratch files remain in ignored build/; generator and formal outputs are the retained reproducible deliverables."
+  ],
+  "files": {
+    "assembly-map.html": "223a1edae9bd12d9806b2cff0e8061f64d237a7a55871be67c28b00924e3158d",
+    "assembly-summary.json": "d2fd4b8e7ac41d16b1588d6bfd08414a13d0f8a4452d6347711cc5945d8ea63a",
+    "bom-fitted.csv": "08707ad0f4fb0b196aad9c11d5d24ee8af2076a2c74b35dbdb53625457bcf720",
+    "dnp.csv": "26c4c0166dda23a665ff5553831709dfe8cdc765402251a4fb3743dd17957844",
+    "hand-solder.csv": "58149ea4b5e07b37807f16fff2f9bf6bc8f55ae76598fd20668288b978fff8f7",
+    "population.csv": "505fd67a8a1a3c5d663f45e137f3c9995820779443c1aff6fc0f9c95d3bfe350",
+    "reflow-positions.csv": "917661d61a0b08ae847d3c0620873a6ee6e9777134500e7491966c45e2f28a60"
+  }
+}

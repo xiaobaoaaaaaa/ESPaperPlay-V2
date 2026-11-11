@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "source_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "method": "native hole inventory compared with identical tuple inventory; one drill displaced by 0.01 mm in memory",
+  "unchanged_inventory_passed": true,
+  "perturbed_drill_rejected": true,
+  "source_files_written": false
+}

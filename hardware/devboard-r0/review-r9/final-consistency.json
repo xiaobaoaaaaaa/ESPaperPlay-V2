@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-11",
+  "status": "PASS_LOCAL_REVIEW; NOT_MANUFACTURING_RELEASED",
+  "source_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "pcb_revision": "r8",
+  "review_revision": "r9",
+  "all_formal_cad_unchanged": true,
+  "prior_manifest_paths_checked": 284,
+  "changed_prior_paths": [
+    "../../docs/v2/README.md",
+    "../../docs/v2/hardware/README.md",
+    "../../docs/v2/roadmap.md",
+    "README.md"
+  ],
+  "native_drc": {
+    "checked": true,
+    "report": "hardware/devboard-r0/review-r9/drc.json",
+    "sha256": "25eee57be2097d3406655f86566a458a0f64fff7124b94140a673a318334493c",
+    "errors": 0,
+    "warnings": 1,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "cam_drill_count": 663,
+  "cam_outline_segments": 4,
+  "cam_layer_count": 9,
+  "cam_hole_displacement_negative_control": "0.01 mm displacement rejected in memory",
+  "assembly_counts": {
+    "population_rows": 240,
+    "electrical_references": 236,
+    "fitted_electrical_references": 230,
+    "reflow_position_rows": 203,
+    "hand_solder_rows": 27,
+    "bom_group_rows": 106,
+    "bom_total_quantity": 230,
+    "dnp_rows": 6,
+    "by_assembly_group": {
+      "top_smd_reflow": 203,
+      "do_not_populate": 6,
+      "mechanical_hole_only": 4,
+      "post_reflow_tht_hand_solder": 23,
+      "post_reflow_smd_connector_hand_solder": 4
+    }
+  },
+  "stencil_refs_match_assembly_reflow_set": true,
+  "stencil_apertures": 636,
+  "stencil_assertions": {
+    "source_matches_pinned_r8_revision": true,
+    "source_unchanged": true,
+    "native_copper_mask_drill_routes_placement_invariants_unchanged": true,
+    "plotted_F_B_mask_geometry_unchanged": true,
+    "paste_refs_exactly_203_fitted_SMD_minus_manual": true,
+    "B_Paste_empty": true,
+    "DNP_paste_absent": true,
+    "manual_connectors_paste_absent": true,
+    "footprint_PTH_NPTH_pads_have_no_paste_layers": true,
+    "U301_exactly_40_peripheral_paste_pads": true,
+    "U301_optional_EPAD_paste_absent": true,
+    "U803_no_unsupported_stencil_island": true
+  },
+  "special_hole_register_rows": 67,
+  "indexed_package_files_verified": 31,
+  "new_markdown_files_link_checked": 8,
+  "cam_previews_visually_inspected": [
+    "front",
+    "back"
+  ],
+  "mic_stencil_comparison_visually_inspected": true,
+  "assembly_map_browser_render_tested": false,
+  "firmware_changed_or_tested": false,
+  "factory_contact_upload_order": false,
+  "open_conditions": [
+    "Factory stackup/impedance confirmation",
+    "IC solder-area hole and near-pad via treatment; minimum nominal mask margin 0.00498 mm",
+    "Soldermask compensation/registration and stencil manufacturability",
+    "Procurement/BOM candidate conditions including existing MLCC derating evidence; first-board print/reflow/thermal/acoustic/electrical qualification"
+  ]
+}

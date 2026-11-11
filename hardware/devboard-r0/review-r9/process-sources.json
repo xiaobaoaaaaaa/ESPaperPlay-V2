@@ -1,0 +1,55 @@
+{
+  "accessed": "2026-11-11",
+  "sources": [
+    {
+      "id": "jlc_cn_capability",
+      "url": "https://www.jlc.com/portal/vtechnology.html",
+      "relevance": "国内FR4能力表：几何、塞孔、阻焊及公差",
+      "authority": "manufacturer official"
+    },
+    {
+      "id": "jlc_global_capability",
+      "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+      "relevance": "国际能力表：孔铜平均18um、孔位±.075mm和0.5mm最小NPTH",
+      "authority": "manufacturer official"
+    },
+    {
+      "id": "jlc_calc",
+      "url": "https://jlcpcb.com/pcb-impedance-calculator",
+      "relevance": "官方计算器实际交互结果见独立JSON；不是工程签核",
+      "authority": "manufacturer official"
+    },
+    {
+      "id": "jlc_stackup",
+      "url": "https://jlcpcb.com/impedance",
+      "relevance": "JLC04161H-7628标准叠层及材料常数",
+      "authority": "manufacturer official"
+    },
+    {
+      "id": "jlc_cn_vias",
+      "url": "https://www.jlc.com/portal/server_guide_15544.html",
+      "relevance": "国内五种过孔工艺，更新2026-09-30",
+      "authority": "manufacturer official"
+    },
+    {
+      "id": "jlc_global_vias",
+      "url": "https://jlcpcb.com/help/article/pcb-via-covering",
+      "relevance": "国际五种过孔工艺，更新2026-11-10；部分塞油限制与国内描述不同",
+      "authority": "manufacturer official"
+    },
+    {
+      "id": "jlc_pofv_cost_scope",
+      "url": "https://jlcpcb.com/blog/via-filling-guide",
+      "relevance": "官方博客：4L POFV收费；不作为国内价格或几何能力承诺",
+      "authority": "manufacturer official"
+    },
+    {
+      "id": "espressif_module",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "relevance": "v1.8 pp41/45：模块EPAD非必须焊，推荐thermal via",
+      "authority": "manufacturer official"
+    }
+  ],
+  "source_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "review_status": "review_only_not_fabrication_release"
+}

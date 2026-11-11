@@ -1,0 +1,759 @@
+{
+  "source": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "source_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "kicad": "10.0.8-1.fc45",
+  "method": "Read-only pcbnew. Nominal drilling geometry, circle/capsule axis distance; current slots are axis aligned. Does not model drilling tolerances or finished plating; DRC handles copper clearance separately.",
+  "counts": {
+    "tracks": 2335,
+    "vias": 549,
+    "pth": 107,
+    "npth": 7
+  },
+  "track_width_counts": {
+    "0.18": 23,
+    "0.2": 1461,
+    "0.22": 7,
+    "0.24": 2,
+    "0.2498": 2,
+    "0.25": 12,
+    "0.26": 23,
+    "0.3": 139,
+    "0.35": 230,
+    "0.4": 8,
+    "0.4006": 10,
+    "0.45": 3,
+    "0.5": 17,
+    "0.6": 145,
+    "0.65": 11,
+    "0.7": 2,
+    "0.8": 204,
+    "0.9": 2,
+    "1.0": 7,
+    "1.1": 1,
+    "1.2": 26
+  },
+  "via_geometry_counts": [
+    {
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2,
+      "annular_ring_mm": 0.125,
+      "count": 205
+    },
+    {
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "annular_ring_mm": 0.15,
+      "count": 344
+    }
+  ],
+  "hole_min_gap_by_pair_type": {
+    "via/via": {
+      "gap_mm": 0.27215,
+      "a": {
+        "kind": "via",
+        "id": "48875782-7bf4-4dd1-bade-ae54aeedc815",
+        "net": "USB_VBUS",
+        "xy_mm": [
+          111.0875,
+          60.122
+        ],
+        "drill_mm": [
+          0.3,
+          0.3
+        ],
+        "angle_deg": 0,
+        "diameter_mm": 0.6
+      },
+      "b": {
+        "kind": "via",
+        "id": "c7f1b21f-7b82-4b24-80c5-61bac4f89705",
+        "net": "USB_VBUS",
+        "xy_mm": [
+          111.1,
+          59.6
+        ],
+        "drill_mm": [
+          0.2,
+          0.2
+        ],
+        "angle_deg": 0,
+        "diameter_mm": 0.45
+      }
+    },
+    "pth/via": {
+      "gap_mm": 0.686076,
+      "a": {
+        "kind": "via",
+        "id": "520e0a49-53fd-49b2-a6df-60633815c28e",
+        "net": "GND",
+        "xy_mm": [
+          173.3149,
+          56.5151
+        ],
+        "drill_mm": [
+          0.2,
+          0.2
+        ],
+        "angle_deg": 0,
+        "diameter_mm": 0.45
+      },
+      "b": {
+        "kind": "pth",
+        "id": "4ec0f983-add0-5463-aa0f-f40d2a364922",
+        "reference": "J302",
+        "pad": "7",
+        "net": "SD_D2",
+        "xy_mm": [
+          173.8,
+          57.76
+        ],
+        "drill_mm": [
+          1.1,
+          1.1
+        ],
+        "angle_deg": 180.0,
+        "copper_mm": [
+          1.8,
+          1.8
+        ]
+      }
+    },
+    "npth/via": {
+      "gap_mm": 0.572433,
+      "a": {
+        "kind": "via",
+        "id": "2b2edb3c-db2e-4f95-aca6-9798f97b703a",
+        "net": "GND",
+        "xy_mm": [
+          60.3,
+          61.325
+        ],
+        "drill_mm": [
+          0.2,
+          0.2
+        ],
+        "angle_deg": 0,
+        "diameter_mm": 0.45
+      },
+      "b": {
+        "kind": "npth",
+        "id": "48af6cb9-bdb2-5c08-9d1f-a1239c4c18c8",
+        "reference": "U803",
+        "pad": "",
+        "net": "",
+        "xy_mm": [
+          61.0,
+          62.0
+        ],
+        "drill_mm": [
+          0.6,
+          0.6
+        ],
+        "angle_deg": 0.0,
+        "copper_mm": [
+          0.6,
+          0.6
+        ]
+      }
+    },
+    "pth/pth": {
+      "gap_mm": 0.789949,
+      "a": {
+        "kind": "pth",
+        "id": "cfe7ded4-2df6-5088-a072-8845a2517146",
+        "reference": "U301",
+        "pad": "41",
+        "net": "GND",
+        "xy_mm": [
+          157.8,
+          57.81
+        ],
+        "drill_mm": [
+          0.2,
+          0.2
+        ],
+        "angle_deg": 0.0,
+        "copper_mm": [
+          0.6,
+          0.6
+        ]
+      },
+      "b": {
+        "kind": "pth",
+        "id": "aa2763be-b79b-5e1f-b1e5-ec636187da10",
+        "reference": "U301",
+        "pad": "41",
+        "net": "GND",
+        "xy_mm": [
+          158.5,
+          58.51
+        ],
+        "drill_mm": [
+          0.2,
+          0.2
+        ],
+        "angle_deg": 0.0,
+        "copper_mm": [
+          0.6,
+          0.6
+        ]
+      }
+    },
+    "npth/pth": {
+      "gap_mm": 0.805,
+      "a": {
+        "kind": "npth",
+        "id": "67eeb1a8-4c43-5edd-9818-73c667367853",
+        "reference": "J501",
+        "pad": "",
+        "net": "",
+        "xy_mm": [
+          110.89,
+          55.605
+        ],
+        "drill_mm": [
+          0.65,
+          0.65
+        ],
+        "angle_deg": 180.0,
+        "copper_mm": [
+          0.65,
+          0.65
+        ]
+      },
+      "b": {
+        "kind": "pth",
+        "id": "2a7bd9e9-00bd-532f-a46d-4910fd08fb44",
+        "reference": "J501",
+        "pad": "SH",
+        "net": "GND",
+        "xy_mm": [
+          112.32,
+          56.105
+        ],
+        "drill_mm": [
+          0.6,
+          1.7
+        ],
+        "angle_deg": 180.0,
+        "copper_mm": [
+          1.0,
+          2.1
+        ]
+      }
+    },
+    "npth/npth": {
+      "gap_mm": 5.13,
+      "a": {
+        "kind": "npth",
+        "id": "67eeb1a8-4c43-5edd-9818-73c667367853",
+        "reference": "J501",
+        "pad": "",
+        "net": "",
+        "xy_mm": [
+          110.89,
+          55.605
+        ],
+        "drill_mm": [
+          0.65,
+          0.65
+        ],
+        "angle_deg": 180.0,
+        "copper_mm": [
+          0.65,
+          0.65
+        ]
+      },
+      "b": {
+        "kind": "npth",
+        "id": "a8eab432-ac80-54b1-89e6-26a3aa0ff8ea",
+        "reference": "J501",
+        "pad": "",
+        "net": "",
+        "xy_mm": [
+          105.11,
+          55.605
+        ],
+        "drill_mm": [
+          0.65,
+          0.65
+        ],
+        "angle_deg": 180.0,
+        "copper_mm": [
+          0.65,
+          0.65
+        ]
+      }
+    }
+  },
+  "holes_below_0_2_gap": [],
+  "min_ordinary_pth_annular_mm": 0.2,
+  "npth": [
+    {
+      "kind": "npth",
+      "id": "48af6cb9-bdb2-5c08-9d1f-a1239c4c18c8",
+      "reference": "U803",
+      "pad": "",
+      "net": "",
+      "xy_mm": [
+        61.0,
+        62.0
+      ],
+      "drill_mm": [
+        0.6,
+        0.6
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "npth",
+      "id": "3f0a993c-e560-51a7-be1b-d7fbb9885595",
+      "reference": "H4",
+      "pad": "",
+      "net": "",
+      "xy_mm": [
+        205.0,
+        155.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        3.2,
+        3.2
+      ]
+    },
+    {
+      "kind": "npth",
+      "id": "0d5b761c-8aa3-5bce-831d-e912f7d2f5de",
+      "reference": "H1",
+      "pad": "",
+      "net": "",
+      "xy_mm": [
+        55.0,
+        55.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        3.2,
+        3.2
+      ]
+    },
+    {
+      "kind": "npth",
+      "id": "76715f7b-3610-5de9-91ec-02685e4fe467",
+      "reference": "H2",
+      "pad": "",
+      "net": "",
+      "xy_mm": [
+        205.0,
+        55.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        3.2,
+        3.2
+      ]
+    },
+    {
+      "kind": "npth",
+      "id": "24a26108-01c0-57fc-91cf-2633eb1daa98",
+      "reference": "H3",
+      "pad": "",
+      "net": "",
+      "xy_mm": [
+        55.0,
+        155.0
+      ],
+      "drill_mm": [
+        3.2,
+        3.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        3.2,
+        3.2
+      ]
+    },
+    {
+      "kind": "npth",
+      "id": "67eeb1a8-4c43-5edd-9818-73c667367853",
+      "reference": "J501",
+      "pad": "",
+      "net": "",
+      "xy_mm": [
+        110.89,
+        55.605
+      ],
+      "drill_mm": [
+        0.65,
+        0.65
+      ],
+      "angle_deg": 180.0,
+      "copper_mm": [
+        0.65,
+        0.65
+      ]
+    },
+    {
+      "kind": "npth",
+      "id": "a8eab432-ac80-54b1-89e6-26a3aa0ff8ea",
+      "reference": "J501",
+      "pad": "",
+      "net": "",
+      "xy_mm": [
+        105.11,
+        55.605
+      ],
+      "drill_mm": [
+        0.65,
+        0.65
+      ],
+      "angle_deg": 180.0,
+      "copper_mm": [
+        0.65,
+        0.65
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "kind": "pth",
+      "id": "2a7bd9e9-00bd-532f-a46d-4910fd08fb44",
+      "reference": "J501",
+      "pad": "SH",
+      "net": "GND",
+      "xy_mm": [
+        112.32,
+        56.105
+      ],
+      "drill_mm": [
+        0.6,
+        1.7
+      ],
+      "angle_deg": 180.0,
+      "copper_mm": [
+        1.0,
+        2.1
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "c4fc5619-6732-50fa-9d4d-193cd6f270e7",
+      "reference": "J501",
+      "pad": "SH",
+      "net": "GND",
+      "xy_mm": [
+        112.32,
+        51.925
+      ],
+      "drill_mm": [
+        0.6,
+        1.4
+      ],
+      "angle_deg": 180.0,
+      "copper_mm": [
+        1.0,
+        1.8
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "2f0ca584-83cc-5f2b-9ec9-df96669057f0",
+      "reference": "J501",
+      "pad": "SH",
+      "net": "GND",
+      "xy_mm": [
+        103.68,
+        56.105
+      ],
+      "drill_mm": [
+        0.6,
+        1.7
+      ],
+      "angle_deg": 180.0,
+      "copper_mm": [
+        1.0,
+        2.1
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "97a9b6a1-40bc-50e8-9e75-7b98d072d35b",
+      "reference": "J501",
+      "pad": "SH",
+      "net": "GND",
+      "xy_mm": [
+        103.68,
+        51.925
+      ],
+      "drill_mm": [
+        0.6,
+        1.4
+      ],
+      "angle_deg": 180.0,
+      "copper_mm": [
+        1.0,
+        1.8
+      ]
+    }
+  ],
+  "module_thermal_holes": [
+    {
+      "kind": "pth",
+      "id": "898fa94a-f6f7-598a-ad2c-a94824742c41",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        157.1,
+        58.51
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 90.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "3788e698-a816-535e-8081-0e4fff529131",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        157.1,
+        59.91
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "cfe7ded4-2df6-5088-a072-8845a2517146",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        157.8,
+        57.81
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "549a7738-7470-5e83-9738-e862e84e9bfa",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        157.8,
+        59.21
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "3df85572-e262-568b-9283-f33315bb5137",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        157.8,
+        60.61
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "aa2763be-b79b-5e1f-b1e5-ec636187da10",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        158.5,
+        58.51
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "16567676-e26c-5e35-921f-dd036d962ad7",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        158.5,
+        59.91
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "230f4dff-d260-5c8f-81f8-4190d94c08c8",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        159.2,
+        57.81
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "9dff5508-08b8-58c2-9043-f873869b044d",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        159.2,
+        59.21
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "e3ec8068-bbca-5acb-8c84-476f6efe6778",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        159.2,
+        60.61
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "ca1f1e3b-5864-522d-806e-de31cd2e1bc8",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        159.9,
+        58.51
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "kind": "pth",
+      "id": "522fad73-b1ae-58d1-9b3b-489ced88c482",
+      "reference": "U301",
+      "pad": "41",
+      "net": "GND",
+      "xy_mm": [
+        159.9,
+        59.91
+      ],
+      "drill_mm": [
+        0.2,
+        0.2
+      ],
+      "angle_deg": 0.0,
+      "copper_mm": [
+        0.6,
+        0.6
+      ]
+    }
+  ],
+  "source_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "review_status": "review_only_not_fabrication_release"
+}

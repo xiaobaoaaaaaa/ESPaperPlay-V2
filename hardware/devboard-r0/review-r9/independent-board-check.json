@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "stage": "r8 structural routing/electrical identity audit; see native_drc for separate completion checks",
+  "electrical_components_checked": 236,
+  "mechanical_components_expected": 4,
+  "nets_checked": 181,
+  "logical_pin_connections_checked": 774,
+  "physical_numbered_pads_checked": 804,
+  "candidate_fields_checked": [
+    "Design_Note",
+    "Manufacturer",
+    "Candidate_MPN",
+    "BOM_Review",
+    "BOM_Review_Record",
+    "Candidate_Source"
+  ],
+  "dnp": [
+    "C501",
+    "C502",
+    "J301",
+    "J302",
+    "J303",
+    "R108"
+  ],
+  "local_and_standard_footprints_checked": 38,
+  "board_outline_bbox_mm": [
+    50.0,
+    50.0,
+    160.0,
+    110.0
+  ],
+  "copper_layers": 4,
+  "tracks": 2335,
+  "vias": 549,
+  "internal_layer_tracks": [],
+  "inner_ground_planes": {
+    "In1.Cu": [
+      {
+        "net": "GND",
+        "is_filled": true,
+        "needs_refill": false,
+        "filled_connected_regions": 1,
+        "filled_area_mm2": 16895.4288,
+        "board_area_fraction": 0.959968
+      }
+    ],
+    "In2.Cu": [
+      {
+        "net": "GND",
+        "is_filled": true,
+        "needs_refill": false,
+        "filled_connected_regions": 1,
+        "filled_area_mm2": 16895.4288,
+        "board_area_fraction": 0.959968
+      }
+    ]
+  },
+  "native_drc": {
+    "checked": true,
+    "report": "hardware/devboard-r0/review-r9/drc.json",
+    "sha256": "25eee57be2097d3406655f86566a458a0f64fff7124b94140a673a318334493c",
+    "errors": 0,
+    "warnings": 1,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "original_footprint_and_pad_uuid_identities_checked": 240,
+  "critical_footprint_rule_counts": {
+    "U301": 1,
+    "J701": 5,
+    "U803": 1
+  },
+  "critical_pad_distances": [
+    {
+      "from": "C301.1",
+      "to": "U301.2",
+      "pad_distance_mm": 5.3054,
+      "review_target_mm": 5
+    },
+    {
+      "from": "C302.1",
+      "to": "U301.2",
+      "pad_distance_mm": 1.875,
+      "review_target_mm": 3
+    },
+    {
+      "from": "C303.1",
+      "to": "U301.3",
+      "pad_distance_mm": 3.4032,
+      "review_target_mm": 5
+    },
+    {
+      "from": "R503.2",
+      "to": "U301.14",
+      "pad_distance_mm": 2.625,
+      "review_target_mm": 6
+    },
+    {
+      "from": "R504.2",
+      "to": "U301.13",
+      "pad_distance_mm": 2.678,
+      "review_target_mm": 6
+    },
+    {
+      "from": "U501.1",
+      "to": "J501.A6",
+      "pad_distance_mm": 4.5107,
+      "review_target_mm": 7
+    },
+    {
+      "from": "U501.2",
+      "to": "J501.A7",
+      "pad_distance_mm": 4.5107,
+      "review_target_mm": 7
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "kind": "placement_distance_review",
+      "from": "C301.1",
+      "to": "U301.2",
+      "pad_distance_mm": 5.3054,
+      "review_target_mm": 5
+    }
+  ],
+  "inputs": {
+    "netlist": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/output/validation/peripheral-r6.net.xml",
+    "netlist_sha256": "38b27a9a2af1f0229e19b767f3bae39fdf14c242798dfa5ad9c859c32cd63beb",
+    "board": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+    "board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+    "checker_sha256": "87e5a179932e73b1949722ba489bfc8298ff1c17edd334eb600c324d7d5229cf",
+    "frozen_identity": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/review-r8/layout-r7-identity.json",
+    "frozen_identity_sha256": "6c075ac882d266093b1b9ae5e41936b982ecaab0e62a030466879a9dee4afb74"
+  },
+  "footprint_library_sha256": {
+    "/usr/share/kicad/footprints/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb",
+    "/usr/share/kicad/footprints/Capacitor_SMD.pretty/C_1206_3216Metric.kicad_mod": "b2e4a08e3aaf40bc587090190c0e3969e962d7ae962c172cce0581ae8327651c",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x02_P2.54_Drill1.10.kicad_mod": "912bc2688959ff673452f342c2f72f366f42bdd700424f0892c9bb03efaccbb5",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/PhoenixContact_MKDS-1-2-3.5_1751248_1x02_P3.50mm_Horizontal.kicad_mod": "453235d7fd2f15eb599218613097d58146c11155a34b6b054920aba24e89f2a0",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/AOS_SOT23_PO00001N.kicad_mod": "ce336b90b6344581eaecf7110e46bec30b2e0b7a73f6717c0606656bceabbe5a",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/Bourns_CRF0805_Jumper.kicad_mod": "62b53530d9ac045f7ae45aa59de9ae1c8a829c6a84075627414bf004549266c7",
+    "/usr/share/kicad/footprints/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/TI_RGT0016C_VQFN_3x3mm_P0.5mm_EP1.68mm.kicad_mod": "a4d397ee34de050795b13b5057a2524af434f8a2c55f17b236331ef9633402ad",
+    "/usr/share/kicad/footprints/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod": "fe0dbfefbb181a0466f93a8de52d84ba7b00fcd9acdbb69575f4128a0af4e405",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x03_P2.54_Drill1.10.kicad_mod": "5ab4d0cc0973dfb5602a0399d505a2fb86060475ceebc8006a8e67705f0948da",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x06_P2.54_Drill1.10.kicad_mod": "7cf4da82573904ae919d50944746616f43b8412efc70bc2906c7da0fe334e75d",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/Coilcraft_XFL4015_4x4mm.kicad_mod": "e34198c8f672351150d85c9d61df0a283022b9960ed11d6c970c440792e92a11",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/TI_DLA0010A_VSON-HR_2x3mm_P0.5mm.kicad_mod": "0c6de199e0350b2bb19fb0b34cf266c3167755131c76266812d4f281ae026b58",
+    "/usr/share/kicad/footprints/Package_SO.pretty/TSSOP-24_4.4x7.8mm_P0.65mm.kicad_mod": "951159bb3a87997ba4a4f14affd963324813db13d9426715b2a29388369d74ed",
+    "/usr/share/kicad/footprints/Package_DFN_QFN.pretty/TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm.kicad_mod": "6235ad64cede8fde7fb6fadaf0f1497b54d853d6cd1bdc63976e234d1e1764db",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x08_P2.54_Drill1.10.kicad_mod": "f029c84cabd5289c1fcb25a663adbf1bd9f4c728baae1fd8559b83cdf73a68b0",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x09_P2.54_Drill1.10.kicad_mod": "5a24b97f47703181eca53434ee5da460cf6378a5ea7ce920d8afee829bae1335",
+    "/usr/share/kicad/footprints/Button_Switch_THT.pretty/SW_PUSH_6mm.kicad_mod": "45f5bc8d06f716115e6f50d19634a72a8aeffbb24ae6b28a12a958f2d4519d86",
+    "/usr/share/kicad/footprints/RF_Module.pretty/ESP32-S3-WROOM-1.kicad_mod": "d0cfbb31fef0c47396c0d061ec5a3bff60f0567d8d4ea8dd4769c84f52bd656f",
+    "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SMA.kicad_mod": "f7cba3b52ed8b34dce89170722de58324eac04e9e61a095e0eab37b9ca93cb7f",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/Bourns_MF-MSMF_1812_Style2.kicad_mod": "6f2e1deba318634f1fd74dedaeda13d0a2208c3be0a551e8782bd853644359e8",
+    "/usr/share/kicad/footprints/Connector_USB.pretty/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.kicad_mod": "3b8d7da3cae5114ec83022a759a78925113bc2eeec100ea447594f6d8687e4b8",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/TI_DCK0003A_SC70_3_Recommended.kicad_mod": "c238e91880e296e4b8ec4cec0bebfd218cd10980c3868d15e64784ac78539f11",
+    "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/LAILAN_LAIL-FPC-CDX01-6P0.5-GW_1x06_P0.50mm_SH.kicad_mod": "ea9f55567206764e1bbeb089a7740625c568a0f3c6efd51ad7a6aa27d27e3953",
+    "/usr/share/kicad/footprints/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": "e4bf82cea6d3b3259ddf42469b1407628ad1181a28ae6f3f340190c0cca31ccd",
+    "/usr/share/kicad/footprints/Diode_SMD.pretty/D_SOD-123.kicad_mod": "fd16785935b01254e1076f490e12f0f096da73cf087adefce51225585c62557a",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/HOAUC_HYCW3D-05FPC24-200B_1x24_P0.50mm_SH.kicad_mod": "f064bab345b591053fc7d09749a76dd99f2da24c5f1e136f11f966b0dd99cfc6",
+    "/usr/share/kicad/footprints/Inductor_SMD.pretty/L_Bourns-SRN4018.kicad_mod": "910cfd86dd149aa89cd91989c7a749e8d1c084368e71cd033cf3cb29ffc120a8",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/Vishay_SC70_3_AN826_72601.kicad_mod": "5aaf435819d75d2db06bf94025f803e6de61d8b717d20a6eea9f6f9d71476583",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/Vishay_WFM2010_5.08x2.54mm.kicad_mod": "3c62f8915bbde1d93bf94eba97f45626eeaa69b1582c26f9d7f0384e969f5209",
+    "/usr/share/kicad/footprints/Package_SO.pretty/TSSOP-20_4.4x6.5mm_P0.65mm.kicad_mod": "b7ca3a31dd45c1225609f9b94e8ba1534bd16edd193628c8d67a8ea669b26b72",
+    "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761",
+    "/usr/share/kicad/footprints/Connector_Card.pretty/microSD_HC_Hirose_DM3AT-SF-PEJM5.kicad_mod": "cc0efdbdb9b21e7cc31a577ea45e753c8985b1c67cf1f58d39e352018f0cb938",
+    "/usr/share/kicad/footprints/Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/Analog_MAX98357A_T1633-4_3x3mm_P0.5mm_EP1.23mm.kicad_mod": "8c9e8d1540e65a050c368bf3ea45b51f2e719ae44cb555ad22b52020f7a0dd03",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/PUI_DMM_4026_B_I2S_R_7Pad_NPTH0.60.kicad_mod": "83084fdc706d6cedd267bea33fc26b0b9646540b12146df859a437788f180d73",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay.pretty/TI_D0008A_SOIC8.kicad_mod": "60fcba7128ce01e4f5f88e0614ea60aba58ec8a613241ed59ecc2ce16684406d"
+  }
+}

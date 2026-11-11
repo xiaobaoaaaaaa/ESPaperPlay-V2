@@ -1,0 +1,75 @@
+{
+  "review_date": "2026-11-11",
+  "source_url": "https://jlcpcb.com/pcb-impedance-calculator",
+  "evidence_method": "Official browser UI calculation, selected result checked in accessibility tree and screenshot; manually transcribed here. No CAD upload, login, quote, order, or factory contact.",
+  "board_type": "Rigid",
+  "layers": 4,
+  "nominal_thickness_mm": 1.6,
+  "outer_copper_oz": 1,
+  "inner_copper_oz": 0.5,
+  "unit": "mm",
+  "stackup": "JLC04161H-7628",
+  "stackup_class": "Standard",
+  "ui_finished_thickness_mm": 1.59,
+  "ui_finished_thickness_tolerance_percent": 10,
+  "ui_calculation_tolerance_percent": 0.5,
+  "stackup_mm": {
+    "L1": 0.035,
+    "prepreg_7628_top": 0.2104,
+    "L2": 0.0152,
+    "core": 1.065,
+    "L3": 0.0152,
+    "prepreg_7628_bottom": 0.2104,
+    "L4": 0.035
+  },
+  "cases": [
+    {
+      "target_ohm": 50,
+      "model": "Single Ended (Non coplanar)",
+      "signal_layer": "L1",
+      "top_reference": null,
+      "bottom_reference": "L2",
+      "mask_included": true,
+      "result_width_mm": 0.3586,
+      "r8_width_mm": 0.35,
+      "width_deviation_percent": -2.398215
+    },
+    {
+      "target_ohm": 90,
+      "model": "Differential Pair (Non coplanar)",
+      "signal_layer": "L1",
+      "top_reference": null,
+      "bottom_reference": "L2",
+      "mask_included": true,
+      "input_spacing_mm": 0.15,
+      "result_width_mm": 0.2474,
+      "result_spacing_mm": 0.1501,
+      "r8_width_mm": 0.26,
+      "r8_spacing_mm": 0.15,
+      "width_deviation_percent": 5.092967
+    }
+  ],
+  "limits": [
+    "Width deviation is not impedance deviation",
+    "No official inverse impedance result for current r8 widths obtained",
+    "Solver tolerance is not manufacturing tolerance",
+    "No factory confirmation for this board",
+    "L4 to L3 inference relies on symmetric stackup and was not separately calculated",
+    "Screenshots viewed in session, not saved as local artifact"
+  ],
+  "source_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "review_status": "review_only_not_fabrication_release",
+  "tolerance_window_review": {
+    "status": "not_obtained",
+    "single_ended_targets_ohm": [
+      45,
+      55
+    ],
+    "differential_targets_ohm": [
+      81,
+      99
+    ],
+    "differential_spacing_mm": 0.15,
+    "note": "Four target endpoint widths and inverse impedance of existing r8 dimensions were not obtained. Existing official results are target-width calculations only, not evidence of containment in a +/-10% manufactured impedance window."
+  }
+}
