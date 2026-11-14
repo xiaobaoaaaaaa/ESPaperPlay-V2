@@ -1,0 +1,676 @@
+{
+  "baseline_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "allowed_vias": {
+    "06e6bf69-a48b-4988-9813-2e3ffc19a0c5": {
+      "net": "GND",
+      "before_nm": [
+        71069700,
+        68444700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "0e746ec6-285c-4e9c-ac8c-e31313c3ea42": {
+      "net": "GND",
+      "before_nm": [
+        57800000,
+        59500000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "119d0102-9532-44f0-982f-32a6c137e871": {
+      "net": "GND",
+      "before_nm": [
+        176855300,
+        149669700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "1340e3c7-9d4b-42ab-b2fd-d12d1b77408d": {
+      "net": "GND",
+      "before_nm": [
+        148400000,
+        71075000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "141281ce-e707-4e63-b012-1cafcb03b55e": {
+      "net": "GND",
+      "before_nm": [
+        123644700,
+        111469700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "191fb09f-e45f-4c01-ba0c-73757027a451": {
+      "net": "GND",
+      "before_nm": [
+        161930300,
+        138244700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "19a3fe98-d833-4d8a-9e87-4d3e3699e9a7": {
+      "net": "GND",
+      "before_nm": [
+        63355300,
+        105030300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "1b1ad083-0f45-4f41-b99d-1df42399c60a": {
+      "net": "GND",
+      "before_nm": [
+        193739900,
+        146889900
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "1ddedecb-ad74-45e8-9aae-61821355120d": {
+      "net": "GND",
+      "before_nm": [
+        139155300,
+        115030300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "220af14a-ccf2-4273-8cdb-2020bb1051b2": {
+      "net": "GND",
+      "before_nm": [
+        177625000,
+        148300000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "265fea89-69ee-4ad0-b575-d042823027ff": {
+      "net": "PGOOD_N",
+      "before_nm": [
+        75150000,
+        116950000
+      ],
+      "before_size_nm": 450000,
+      "before_drill_nm": 200000
+    },
+    "2711bd67-89e0-4cce-a279-c07eaa7f78c0": {
+      "net": "GND",
+      "before_nm": [
+        146925000,
+        55200000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "29f75c7d-6f2b-4ecd-adab-e65b81d0c036": {
+      "net": "GND",
+      "before_nm": [
+        123644700,
+        115469700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "2a97bc2d-64de-4a96-87e6-32e1ed59df0b": {
+      "net": "GND",
+      "before_nm": [
+        190475000,
+        68500000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "2b2edb3c-db2e-4f95-aca6-9798f97b703a": {
+      "net": "GND",
+      "before_nm": [
+        60300000,
+        61325000
+      ],
+      "before_size_nm": 450000,
+      "before_drill_nm": 200000
+    },
+    "2e5044fe-c990-428a-9669-5f7cf5f11364": {
+      "net": "GND",
+      "before_nm": [
+        179955300,
+        144180300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "3db6ddb5-f0e9-4467-9114-c28858b7172f": {
+      "net": "GND",
+      "before_nm": [
+        178200000,
+        101000000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "3ea5c5af-c2ca-49aa-bab7-3fc5023de208": {
+      "net": "GND",
+      "before_nm": [
+        57000000,
+        63725000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "400441b4-d6ad-44de-8052-c6b157f00f5e": {
+      "net": "GND",
+      "before_nm": [
+        139155300,
+        117030300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "4a1c1411-981b-4e1b-9254-b13f6908dd25": {
+      "net": "GND",
+      "before_nm": [
+        98855300,
+        111030300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "4ab16e58-24a7-4dfe-a17b-e247ba9cacd2": {
+      "net": "GND",
+      "before_nm": [
+        100530300,
+        61944700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "4b2e7eac-4728-486f-ae9e-36fd0b6e75a7": {
+      "net": "GND",
+      "before_nm": [
+        65855300,
+        64330299
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "52691804-4a49-4611-a0f7-17ee29e33dfe": {
+      "net": "GND",
+      "before_nm": [
+        84530300,
+        66144700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "5c47344a-8fc0-44b2-8e0b-0cc83d939846": {
+      "net": "GND",
+      "before_nm": [
+        71069700,
+        58644700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "5caaa0de-8a7f-4d2c-a15e-f3ab3ae0b84a": {
+      "net": "GND",
+      "before_nm": [
+        76530300,
+        117444700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "5d839f22-1da6-45bd-ae5e-7fb171887bbe": {
+      "net": "GND",
+      "before_nm": [
+        196569700,
+        106144700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "61ab292d-a081-4aa6-b461-1b593062cf12": {
+      "net": "GND",
+      "before_nm": [
+        138575000,
+        109300000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "6b6a9142-6841-4efb-ac4d-6750da0d442a": {
+      "net": "GND",
+      "before_nm": [
+        142855300,
+        111030300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "6c9535e7-d03f-47c8-a4cd-97e0ee5128d6": {
+      "net": "GND",
+      "before_nm": [
+        177975000,
+        66599999
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "6e63d0da-f2fc-4f51-b97b-af1fdae271ca": {
+      "net": "GND",
+      "before_nm": [
+        146144700,
+        58469700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "6edbdcb7-a0db-4ff4-a95c-a3a94af9c48e": {
+      "net": "GND",
+      "before_nm": [
+        176700000,
+        146500000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "74f2b35e-b6ad-4e53-8041-66ba29d8f05f": {
+      "net": "GND",
+      "before_nm": [
+        161930300,
+        148144700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "7bb0bb3f-0b9d-4790-a4ff-ebbd92013f37": {
+      "net": "GND",
+      "before_nm": [
+        144810100,
+        52239900
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "7fdff572-1988-493c-b30c-16277c12e2a9": {
+      "net": "GND",
+      "before_nm": [
+        142855300,
+        115030300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "8382ce8d-b4c0-46e9-96f8-8fcaa5ee4056": {
+      "net": "GND",
+      "before_nm": [
+        142855300,
+        113030300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "83fb026e-fb34-4342-9a96-e994535118b4": {
+      "net": "GND",
+      "before_nm": [
+        196569700,
+        109644700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "843538d8-e352-492d-95fc-12ff4824be98": {
+      "net": "GND",
+      "before_nm": [
+        123644700,
+        113469700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "85c0957d-71d6-4ad3-8aa7-366449cb198b": {
+      "net": "GND",
+      "before_nm": [
+        184169700,
+        67644700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "8c229623-5781-46c9-8773-4ea1833f9ed9": {
+      "net": "GND",
+      "before_nm": [
+        191489900,
+        146889900
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "9ab5cbf6-5b10-4429-ac2b-93543bff7008": {
+      "net": "GND",
+      "before_nm": [
+        64855300,
+        73530300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "9d141440-e6ff-4d4e-8e2e-d7c45a0c3319": {
+      "net": "GND",
+      "before_nm": [
+        190400000,
+        75500000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "9db8e825-d596-4e52-96b5-cc1ec618f504": {
+      "net": "GND",
+      "before_nm": [
+        86355300,
+        71030300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "9f72957f-19d9-4cec-b5f8-57fd57972f6d": {
+      "net": "GND",
+      "before_nm": [
+        82700000,
+        78000000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "a15d41eb-a767-4901-8145-63381974748f": {
+      "net": "GND",
+      "before_nm": [
+        123644700,
+        109469700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "a2d57b52-1a92-47a0-bf58-e74d4f744612": {
+      "net": "GND",
+      "before_nm": [
+        64269700,
+        104419700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "a2ece33a-bf5c-4280-8665-8d74afa6fcbb": {
+      "net": "GND",
+      "before_nm": [
+        190239900,
+        58789900
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "a3d5d19a-f574-46fe-bee5-723053d78fb6": {
+      "net": "SD_CARD_D0",
+      "before_nm": [
+        188200000,
+        74850000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "afd2cb6e-6817-4b8e-a5d8-5c8cb53d5b2c": {
+      "net": "GND",
+      "before_nm": [
+        164200000,
+        124000000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "b3695150-1f32-49f1-9b1d-87c8154ab4f2": {
+      "net": "GND",
+      "before_nm": [
+        142855300,
+        109030300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "b7030a68-1a94-445b-8e12-94da8becab06": {
+      "net": "GND",
+      "before_nm": [
+        199787400,
+        156317400
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "b9444f9a-f265-42a2-8901-5528f35950dd": {
+      "net": "GND",
+      "before_nm": [
+        182075000,
+        84300000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "beccc056-6662-42a1-815a-97b8435667d2": {
+      "net": "GND",
+      "before_nm": [
+        100530300,
+        65244699
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "c15cfef1-d82f-47f5-a286-7231c3b87a46": {
+      "net": "GND",
+      "before_nm": [
+        148600000,
+        62825000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "c3cb01b9-271b-4f8c-ae42-0c5ef945b1b0": {
+      "net": "GND",
+      "before_nm": [
+        98855300,
+        118530300
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "c88103c3-a9e4-4d21-8700-a39953628d76": {
+      "net": "GND",
+      "before_nm": [
+        161930300,
+        134944700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "d2718215-e8d3-41b5-9c8d-3a0baf6f1565": {
+      "net": "GND",
+      "before_nm": [
+        161930300,
+        144844700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "d87853bb-03de-4363-84f4-59fae9b68aea": {
+      "net": "GND",
+      "before_nm": [
+        167700000,
+        83400000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "df049a2f-7086-4182-acb0-5f9b337b8d6f": {
+      "net": "GND",
+      "before_nm": [
+        60700000,
+        78000000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "e6c34cd5-bbcd-4ef2-a528-d28f675d1a41": {
+      "net": "GND",
+      "before_nm": [
+        202974000,
+        77926000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "e79fa518-4d74-4aa4-9db8-9387ab37ffda": {
+      "net": "GND",
+      "before_nm": [
+        182212600,
+        156317400
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "f07d13d9-cace-4e31-9f8f-dd5ca85476f5": {
+      "net": "GND",
+      "before_nm": [
+        99500000,
+        113000000
+      ],
+      "before_size_nm": 450000,
+      "before_drill_nm": 200000
+    },
+    "f1a924e1-06ee-4f66-a002-acec05023e7e": {
+      "net": "GND",
+      "before_nm": [
+        199539900,
+        147810100
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "f64146ff-a472-4b87-9651-60a48108e6c8": {
+      "net": "GND",
+      "before_nm": [
+        113800000,
+        59225000
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    },
+    "fec96bc6-0503-483f-a15c-d55d292e15d5": {
+      "net": "GND",
+      "before_nm": [
+        171330300,
+        150144700
+      ],
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000
+    }
+  },
+  "allowed_board_text": {
+    "11e2bd12-1d16-52b0-aee8-881cd0a2ddad": "ESPaperPlay DEV / r10",
+    "be79badf-6ff1-5729-bba0-d936f07564cc": "4L / 160 x 110 / 2026-11-14"
+  },
+  "title_block": {
+    "title": "ESPaperPlay Development Board - DFM r10",
+    "date": "2026-11-14",
+    "rev": "r10 DFM PROTOTYPE",
+    "comment_1": "160 x 110 mm / 4 layers / 1.6 mm nominal / DFM REVIEW"
+  },
+  "limits": {
+    "maximum_added_GND_segments": 4,
+    "added_GND_segment_max_length_mm": 3.0
+  },
+  "scope": "Frozen change scope, independently checked against actual baseline/candidate objects. 64 vias, their original attached segments and only short local GND repair segments. No generator imports.",
+  "protected_thermal_via_uuids": [
+    "d74b363b-9baa-492c-b91b-1f5aa7f50a1c",
+    "b3bda032-01c9-4a68-88e2-9398eff0afde",
+    "22e7048f-6dee-4116-b23e-f1cbf8e02ae1",
+    "73cbdc1d-ae69-4abf-a8b7-9984542aef58",
+    "6eb97cee-11e8-48c0-82d7-eab3940ce1c3",
+    "8f3e8303-4115-4546-b6c9-11d5f7248eb8",
+    "2fc7ee81-ac43-4574-9d1d-9351c5651a08",
+    "3026ef76-e368-40ff-be7b-552ec25ca26b",
+    "15d4657b-1ccb-4d48-8c40-f579a60ccff2",
+    "660e3e86-5eca-47c2-9685-0d482f9930be",
+    "32ca1787-235c-4d2b-be3a-49e6cb41cecd"
+  ],
+  "protected_module_PTH_uuids": [
+    "898fa94a-f6f7-598a-ad2c-a94824742c41",
+    "3788e698-a816-535e-8081-0e4fff529131",
+    "cfe7ded4-2df6-5088-a072-8845a2517146",
+    "549a7738-7470-5e83-9738-e862e84e9bfa",
+    "3df85572-e262-568b-9283-f33315bb5137",
+    "aa2763be-b79b-5e1f-b1e5-ec636187da10",
+    "16567676-e26c-5e35-921f-dd036d962ad7",
+    "230f4dff-d260-5c8f-81f8-4190d94c08c8",
+    "9dff5508-08b8-58c2-9043-f873869b044d",
+    "e3ec8068-bbca-5acb-8c84-476f6efe6778",
+    "ca1f1e3b-5864-522d-806e-de31cd2e1bc8",
+    "522fad73-b1ae-58d1-9b3b-489ced88c482"
+  ],
+  "protected_design_files_sha256": {
+    "hardware/devboard-r0/AUDIO.kicad_sch": "c1606436b4523b00270627744e621192cc328c3da7dea685ef355643b9dc36aa",
+    "hardware/devboard-r0/CHARGE_TEMP.kicad_sch": "5c93d9d7f8f2e6c88f2960ca562b22dd34ea2eb586185ab4464102719afd2797",
+    "hardware/devboard-r0/EPD_DISPLAY.kicad_sch": "6618ff91ea103b22b32e40c235ad4689bb0139aecf94a7c4fd62c48a667eaf5f",
+    "hardware/devboard-r0/ESPaperPlay.kicad_sym": "f6cb9c6216eece63033d57a75d373fccb6949908266c492cc753e2ebe8c5ec17",
+    "hardware/devboard-r0/ESPaperPlay.pretty/AOS_SOT23_PO00001N.kicad_mod": "ce336b90b6344581eaecf7110e46bec30b2e0b7a73f6717c0606656bceabbe5a",
+    "hardware/devboard-r0/ESPaperPlay.pretty/Analog_MAX98357A_T1633-4_3x3mm_P0.5mm_EP1.23mm.kicad_mod": "8c9e8d1540e65a050c368bf3ea45b51f2e719ae44cb555ad22b52020f7a0dd03",
+    "hardware/devboard-r0/ESPaperPlay.pretty/Bourns_CRF0805_Jumper.kicad_mod": "62b53530d9ac045f7ae45aa59de9ae1c8a829c6a84075627414bf004549266c7",
+    "hardware/devboard-r0/ESPaperPlay.pretty/Bourns_MF-MSMF_1812_Style2.kicad_mod": "6f2e1deba318634f1fd74dedaeda13d0a2208c3be0a551e8782bd853644359e8",
+    "hardware/devboard-r0/ESPaperPlay.pretty/Coilcraft_XFL4015_4x4mm.kicad_mod": "e34198c8f672351150d85c9d61df0a283022b9960ed11d6c970c440792e92a11",
+    "hardware/devboard-r0/ESPaperPlay.pretty/HOAUC_HYCW3D-05FPC24-200B_1x24_P0.50mm_SH.kicad_mod": "f064bab345b591053fc7d09749a76dd99f2da24c5f1e136f11f966b0dd99cfc6",
+    "hardware/devboard-r0/ESPaperPlay.pretty/LAILAN_LAIL-FPC-CDX01-6P0.5-GW_1x06_P0.50mm_SH.kicad_mod": "ea9f55567206764e1bbeb089a7740625c568a0f3c6efd51ad7a6aa27d27e3953",
+    "hardware/devboard-r0/ESPaperPlay.pretty/PUI_DMM_4026_B_I2S_R_7Pad_NPTH0.60.kicad_mod": "83084fdc706d6cedd267bea33fc26b0b9646540b12146df859a437788f180d73",
+    "hardware/devboard-r0/ESPaperPlay.pretty/PhoenixContact_MKDS-1-2-3.5_1751248_1x02_P3.50mm_Horizontal.kicad_mod": "453235d7fd2f15eb599218613097d58146c11155a34b6b054920aba24e89f2a0",
+    "hardware/devboard-r0/ESPaperPlay.pretty/TI_D0008A_SOIC8.kicad_mod": "60fcba7128ce01e4f5f88e0614ea60aba58ec8a613241ed59ecc2ce16684406d",
+    "hardware/devboard-r0/ESPaperPlay.pretty/TI_DCK0003A_SC70_3_Recommended.kicad_mod": "c238e91880e296e4b8ec4cec0bebfd218cd10980c3868d15e64784ac78539f11",
+    "hardware/devboard-r0/ESPaperPlay.pretty/TI_DLA0010A_VSON-HR_2x3mm_P0.5mm.kicad_mod": "0c6de199e0350b2bb19fb0b34cf266c3167755131c76266812d4f281ae026b58",
+    "hardware/devboard-r0/ESPaperPlay.pretty/TI_RGT0016C_VQFN_3x3mm_P0.5mm_EP1.68mm.kicad_mod": "a4d397ee34de050795b13b5057a2524af434f8a2c55f17b236331ef9633402ad",
+    "hardware/devboard-r0/ESPaperPlay.pretty/Vishay_SC70_3_AN826_72601.kicad_mod": "5aaf435819d75d2db06bf94025f803e6de61d8b717d20a6eea9f6f9d71476583",
+    "hardware/devboard-r0/ESPaperPlay.pretty/Vishay_WFM2010_5.08x2.54mm.kicad_mod": "3c62f8915bbde1d93bf94eba97f45626eeaa69b1582c26f9d7f0384e969f5209",
+    "hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x02_P2.54_Drill1.10.kicad_mod": "912bc2688959ff673452f342c2f72f366f42bdd700424f0892c9bb03efaccbb5",
+    "hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x03_P2.54_Drill1.10.kicad_mod": "5ab4d0cc0973dfb5602a0399d505a2fb86060475ceebc8006a8e67705f0948da",
+    "hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x06_P2.54_Drill1.10.kicad_mod": "7cf4da82573904ae919d50944746616f43b8412efc70bc2906c7da0fe334e75d",
+    "hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x08_P2.54_Drill1.10.kicad_mod": "f029c84cabd5289c1fcb25a663adbf1bd9f4c728baae1fd8559b83cdf73a68b0",
+    "hardware/devboard-r0/ESPaperPlay.pretty/WR_PHD_1x09_P2.54_Drill1.10.kicad_mod": "5a24b97f47703181eca53434ee5da460cf6378a5ea7ce920d8afee829bae1335",
+    "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pro": "c562cf8d63b91dc6cb19f55b1470cb70fcda54158d8238295e5e4a7766f20400",
+    "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_sch": "04881857df516822e72f515cb9dcd2036ef034089e2076ae8e6653fd481b298d",
+    "hardware/devboard-r0/MCU_CORE.kicad_sch": "49a5b4d14459d84af932105d3f0a18c03f3dcefff8e27998b99c245e190ec43f",
+    "hardware/devboard-r0/POWER_3V3_CONTROL.kicad_sch": "a62937fdee5e2b7b4b09ca6f58f55bcce66e465bdf46e0a292810d0bbb3be869",
+    "hardware/devboard-r0/POWER_DOMAINS.kicad_sch": "571445e5ea211b3d16402113387cc0c9c13ba83bc3de192f7fb780470a8c05dd",
+    "hardware/devboard-r0/POWER_INPUT_CHARGER.kicad_sch": "92fccf96a85f637b5761a20b841e3f651ea0f2b627c0520149fef94644b5ca0c",
+    "hardware/devboard-r0/STORAGE_SD.kicad_sch": "6aeeabbc1ea9414aec5f9dfefcc921fbe43c031edd178476e84467806a491125",
+    "hardware/devboard-r0/TOUCH_ISOLATION.kicad_sch": "f2bb29d6660dffed531202f1965c7ab7ac7e669b16078a723bc98dc20cdc9d61",
+    "hardware/devboard-r0/USB_INPUT.kicad_sch": "95a213e56de0b674ef2c4492350b67c69d12ee6df8b2a9bbb2a3c626ab92f9da",
+    "hardware/devboard-r0/fp-lib-table": "99c57c3cd0cedc1bc691fda267b4da6abb7634c90ddb42e3640de356ac7365b7",
+    "hardware/devboard-r0/sym-lib-table": "12b75f8e6788e7ef0a476d5c42a902d82970da4ee53da404006a5c7137945736"
+  },
+  "resized_vias": [
+    {
+      "uuid": "29f75c7d-6f2b-4ecd-adab-e65b81d0c036",
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000,
+      "after_size_nm": 450000,
+      "after_drill_nm": 200000
+    },
+    {
+      "uuid": "843538d8-e352-492d-95fc-12ff4824be98",
+      "before_size_nm": 600000,
+      "before_drill_nm": 300000,
+      "after_size_nm": 450000,
+      "after_drill_nm": 200000
+    }
+  ]
+}

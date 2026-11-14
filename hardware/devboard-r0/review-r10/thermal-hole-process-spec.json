@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-14",
+  "status": "engineering_process_specification_not_order_or_factory_approval",
+  "source_board_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "mandatory_scope": {
+    "count": 11,
+    "owners": {
+      "U101.17": 4,
+      "U201.8": 2,
+      "U203.9": 1,
+      "U802.17": 4
+    },
+    "hole_list": "thermal-via-fill-spec.csv",
+    "native_hole_diameter_mm": 0.2,
+    "process": "Epoxy resin filling, planarization and copper cap, with solderable ENIG surface. Preserve plated barrel and existing GND connections. Not simple ink tenting/plugging.",
+    "cap_copper_min_um": 10,
+    "planarity": "Must provide flat, continuous solderable surface compatible with 0.10mm stencil; obtain supplier finished cap recess/protrusion specification, do not assume all generic POFV quality classes meet print-transfer needs.",
+    "do_not_change": "Do not remove EPAD/PGND paste or copper, do not remove these thermal vias, do not cover solderable thermal-pad area with soldermask as a substitute."
+  },
+  "other_vias": {
+    "ordinary_native_vias": 538,
+    "module_optional_epad_pth": 12,
+    "default_design_requirement": "Tented according to supplied mask; no mandatory fill/cap on module EPAD because it is unprinted. Near-pad vias are being relocated by separate rework.",
+    "factory_all_via_process": "Factory may require an order-wide fill/cap process rather than selecting only 11 holes. This is compatible with native via electrical function but changes actual process scope and price; explicit production review required. No claim of selective pricing/availability."
+  },
+  "must_remain_open": {
+    "ordinary_component_pth": 95,
+    "npth": 7,
+    "microphone_sound_port": "U803 at (61,62), diameter0.60 mm NPTH"
+  },
+  "coordinate_convention": "Absolute KiCad mm, +Y down; CAM uses negative Y. UUID ties positions to the source board.",
+  "factory_capability_basis": "https://www.jlc.com/portal/vtechnology.html (2026-11-14): epoxy/copper filling and cap, cap copper >=10um, via hole .15-.55mm.",
+  "registration_margin_target": {
+    "hole_edge_to_mask_opening_mm": 0.2,
+    "meaning": "Project layout margin, not a published factory worst-case guarantee. Hole position tolerance is separate; no numerical mask registration tolerance was found on current capability pages.",
+    "ink_plug_boundary": "International capability page requires >=.35mm from other mask openings for ink plugging; .20mm target does not establish eligibility for ink plugging."
+  },
+  "no_upload_contact_order": true,
+  "reference_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "r10_applicability": "All 11 retained via UUIDs, coordinates, hole diameters and GND nets checked against final r10; mask and thermal pads unchanged."
+}

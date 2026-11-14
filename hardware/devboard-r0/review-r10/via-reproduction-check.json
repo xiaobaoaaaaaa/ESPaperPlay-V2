@@ -1,0 +1,11 @@
+{
+  "changes_applied": 131,
+  "output_sha256": "9766e861758cd442592698e37831f60def1f1f575210e228bcc5ce01e6566f4d",
+  "source_unchanged": true,
+  "script": "hardware/devboard-r0/review-r10/apply_via_delta.py",
+  "script_sha256": "8f40f1d45dad2c80128e2b7f24363960a5e19ff893221ea4f7cfba4212f4b973",
+  "baseline_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "expected_candidate_sha256": "9766e861758cd442592698e37831f60def1f1f575210e228bcc5ce01e6566f4d",
+  "byte_identical_to_via_candidate": true,
+  "titleblock_and_silkscreen_updates_are_separate": true
+}

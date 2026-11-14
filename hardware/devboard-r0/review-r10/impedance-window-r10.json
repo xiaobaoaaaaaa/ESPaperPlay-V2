@@ -1,0 +1,131 @@
+{
+  "review_date": "2026-11-14",
+  "source_url": "https://jlcpcb.com/pcb-impedance-calculator",
+  "source_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "status": "OFFICIAL_NOMINAL_WIDTH_WINDOW_CHECK_COMPLETED_NOT_FACTORY_RELEASE",
+  "evidence_method": "Official calculator operated through CUA browser UI. Four input cases calculated together. Selected JLC04161H-7628 result checked in accessibility tree and visible screenshot. Results manually transcribed, not an API export.",
+  "evidence_files": [
+    "official-ui-transcription.txt"
+  ],
+  "screenshots": "Viewed in tool session; no local screenshot file was saved or claimed.",
+  "board_type": "Rigid",
+  "layers": 4,
+  "nominal_thickness_mm": 1.6,
+  "outer_copper_oz": 1,
+  "inner_copper_oz": 0.5,
+  "unit": "mm",
+  "stackup": "JLC04161H-7628",
+  "stackup_class": "Standard",
+  "ui_finished_thickness_mm": 1.59,
+  "ui_finished_thickness_tolerance_percent": 10,
+  "ui_calculation_tolerance_percent": 0.5,
+  "width_spacing_complement_checked": false,
+  "stackup_mm": {
+    "L1": 0.035,
+    "prepreg_7628_top": 0.2104,
+    "L2": 0.0152,
+    "core": 1.065,
+    "L3": 0.0152,
+    "prepreg_7628_bottom": 0.2104,
+    "L4": 0.035
+  },
+  "cases": [
+    {
+      "target_ohm": 45,
+      "model": "Single Ended (Non coplanar)",
+      "mask_included": true,
+      "signal_layer": "L1",
+      "top_reference": null,
+      "bottom_reference": "L2",
+      "result_width_mm": 0.4295
+    },
+    {
+      "target_ohm": 55,
+      "model": "Single Ended (Non coplanar)",
+      "mask_included": true,
+      "signal_layer": "L1",
+      "top_reference": null,
+      "bottom_reference": "L2",
+      "result_width_mm": 0.2951
+    },
+    {
+      "target_ohm": 81,
+      "model": "Differential Pair (Non coplanar)",
+      "mask_included": true,
+      "signal_layer": "L1",
+      "top_reference": null,
+      "bottom_reference": "L2",
+      "input_spacing_mm": 0.15,
+      "result_width_mm": 0.3195,
+      "result_spacing_mm": 0.1501
+    },
+    {
+      "target_ohm": 99,
+      "model": "Differential Pair (Non coplanar)",
+      "mask_included": true,
+      "signal_layer": "L1",
+      "top_reference": null,
+      "bottom_reference": "L2",
+      "input_spacing_mm": 0.15,
+      "result_width_mm": 0.1897,
+      "result_spacing_mm": 0.1501
+    }
+  ],
+  "width_window_checks": [
+    {
+      "net_group": "SD",
+      "nominal_target_ohm": 50,
+      "target_bounds_ohm": [
+        45,
+        55
+      ],
+      "model_endpoint_widths_sorted_mm": [
+        0.2951,
+        0.4295
+      ],
+      "existing_main_width_mm": 0.35,
+      "inside_model_width_window": true,
+      "nearest_endpoint_width_margin_mm": 0.0549
+    },
+    {
+      "net_group": "USB",
+      "nominal_target_ohm": 90,
+      "target_bounds_ohm": [
+        81,
+        99
+      ],
+      "model_endpoint_widths_sorted_mm": [
+        0.1897,
+        0.3195
+      ],
+      "input_spacing_mm": 0.15,
+      "output_spacing_display_mm": 0.1501,
+      "existing_main_width_mm": 0.26,
+      "inside_model_width_window": true,
+      "nearest_endpoint_width_margin_mm": 0.0595
+    }
+  ],
+  "interpretation": "Under the official calculator nominal cross-section and its monotonic width-versus-impedance relation, both existing main trace widths fall inside widths computed at the +/-10% target endpoints. This closes the r9 missing nominal width-window check and does not motivate a width change solely for that check.",
+  "not_obtained": [
+    "Exact forward/inverse official impedance for W=.35 or W/S=.26/.15",
+    "Separate L4/L3 calculation",
+    "Actual-board factory stackup/etch compensation signoff",
+    "Manufactured impedance measurements"
+  ],
+  "limits": [
+    "Official target solver tolerance +/-0.5% is distinct from manufactured impedance tolerance.",
+    "The pair spacing was entered as .1500 mm and displayed by the result as .1501 mm; preserve this rounding/conversion detail.",
+    "Non-coplanar nominal cross-section does not evaluate pad escapes, branch stubs, vias, local plane clearance, coupling to nearby copper, or the full routed board.",
+    "This result uses the calculator default mask treatment; actual mask/material/copper/etch tolerances still need factory review.",
+    "L4/L3 follows the symmetric nominal stackup by inference only, not separate calculation.",
+    "No width deviation percentage was relabeled as impedance error."
+  ],
+  "actions": {
+    "formal_files_modified": false,
+    "cad_uploaded": false,
+    "factory_contacted": false,
+    "logged_in": false,
+    "order_placed": false
+  },
+  "recommendation": "Keep r8 signal main widths for the current local ground-via/DFM remediation; preserve USB pair spacing and reference plane. Carry 90 ohm differential and 50 ohm single-ended targets into the eventual fabrication review."
+}

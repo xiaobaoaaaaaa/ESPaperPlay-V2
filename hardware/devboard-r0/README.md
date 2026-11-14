@@ -1,8 +1,8 @@
-# ESPaperPlay 开发验证板：r8 PCB / r9 制造装配审查
+# ESPaperPlay 开发验证板：PCB r10 / 制造与自行装配
 
-更新日期：2026-11-11。**r9已完成对r8源板的制造与自装审查，PCB未修改；KiCad 10.0.8复查仍为0错误、0未连接、0原理图一致性问题及1条已说明的U301绘图警告。** 十一页原理图仍为r6绘图、r5电气。236个电气位置（6个DNP）、4个机械孔、181条网络、774个逻辑引脚保持。按用户选择准备203位钢网回流、4个SMD接口及23个通孔器件手焊。见[r9报告](../../docs/v2/hardware/manufacturing-review-r9.md)、[审查证据](review-r9/README.md)和[制造/装配审查包](output/manufacturing/r9-review/README.md)。尚未制造放行、上电或冻结采购BOM。
+更新日期：2026-11-14。**r10已完成近焊盘过孔整改及制造文件更新：64个via、67个原线段端点调整，538个普通孔两面孔边至阻焊开口≥0.20mm；11个IC热孔明确采用树脂填平/电镀盖帽。** 原理图仍为r6绘图/r5电气，240封装、181网络、774逻辑引脚/804编号焊盘保持；DRC为0错误、0未连接、0原理图差异，仅保留1条U301绘图提示。自装203位回流、27位手焊、6位DNP保持，尚未下单或上电。
 
-当前工作见[PCB布线r8](../../docs/v2/hardware/pcb-routing-r8.md)、[原生PCB](ESPaperPlay_Devboard.kicad_pcb)和[布线检查](review-r8/)。屏幕、电池、扬声器外接。层叠按JLC04161H-7628名义值设置；USB/SD阻抗仍须工厂确认，样机性能尚未验证。
+当前入口：[r10设计记录](../../docs/v2/hardware/pcb-dfm-r10.md)、[原生PCB](ESPaperPlay_Devboard.kicad_pcb)、[复核证据](review-r10/README.md)和[制造/装配审查包](output/manufacturing/r10-review/README.md)。官方名义模型窗口支持保持现有USB/SD线宽；实际阻抗与填孔加工按生产稿确认。[r8布线](../../docs/v2/hardware/pcb-routing-r8.md)及[r9制造审查](../../docs/v2/hardware/manufacturing-review-r9.md)为历史依据。
 
 原理图见[模块化绘图r6](../../docs/v2/hardware/schematic-layout-r6.md)。电气依据仍见[充电设计r5](../../docs/v2/hardware/charging-design-r5.md)和[逐位号BOM](review-r5/bom-review.json)。温窗按用户授权的Honeywell 175-103LAE-301 Rev.B曲线假设设计，尚未证实电池实际NTC相同；R108继续DNP。此前[保守电池预算与纯延长连接](../../docs/v2/hardware/design-assumptions-2026-11-04.md)仍适用。
 
@@ -28,7 +28,7 @@
 
 [本地十一页PDF预览](output/pdf/ESPaperPlay_Devboard_Modules_r6.pdf)由当前原生工程导出，未纳入Git，可按下方命令重建。旧r0–r5 PDF为历史。
 
-原理图r6与PCB r8曾用KiCad **10.0.7**检查；r9使用 **10.0.8**复查PCB及导出CAM。初始文件使用兼容格式，首次用编辑器保存时可能提示升级格式。**原生文件是后续手工编辑的工作源，不应运行生成器覆盖。** `tools/generate_power_schematic.py`保留最初r0两页草稿；其余生成脚本只生成各自分组草稿，均不是完整r2工程的再生成命令。实验输出必须放在空的临时目录。
+原理图r6与PCB r8曾用KiCad **10.0.7**检查；r9/r10使用 **10.0.8**复查PCB及导出CAM。初始文件使用兼容格式，首次用编辑器保存时可能提示升级格式。**原生文件是后续手工编辑的工作源，不应运行生成器覆盖。** `tools/generate_power_schematic.py`保留最初r0两页草稿；其余生成脚本只生成各自分组草稿，均不是完整r2工程的再生成命令。实验输出必须放在空的临时目录。
 
 ## 电路与默认状态
 
@@ -149,4 +149,6 @@ python3 hardware/devboard-r0/tools/check_power_route_budget.py \
 
 [r4逐引脚基线](review-r5/electrical-baseline-r4.json)和差异契约可在其他机器复核。原生工程是编辑源，旧生成脚本不能覆盖它。r4原BOM检查器/报告保留为历史，不能拿r4固定器件数量直接验证r5。
 
-r9已完成本地制造文件回读、机械与钢网审查并生成自装清单。下一步按[r9具体工艺条件](../../docs/v2/hardware/manufacturing-review-r9.md)取得工厂层叠/阻抗、阻焊对位与焊盘内过孔处理确认，并冻结可购BOM及钢网试印方案。实物功能/热试验在样机阶段进行；电池容量4000mAh、电流和温窗设计不变，R108仍DNP、J105保持开放。
+r10已完成近孔整改、官方阻抗窗口及制造文件复核。下一步按[r10明确规格](../../docs/v2/hardware/pcb-dfm-r10.md)核对工厂生产稿、实际填孔范围/表面平整度与阻抗加工，冻结可购BOM及首板钢网试印方案。实物功能/热试验在样机阶段进行；电池容量4000mAh、电流和温窗设计不变，R108仍DNP、J105保持开放。
+
+当前制造文件复现：`PYTHONPATH=/已有依赖目录 python3 tools/export_manufacturing_r10.py --render`（从仓库根目录运行）；来源哈希检查、依赖及独立差异核对见[review-r10](review-r10/README.md)。旧r8预览保留历史，当前几何见r10 CAM预览。

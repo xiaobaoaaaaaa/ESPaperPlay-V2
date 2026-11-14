@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-14",
+  "status": "PASS_R10_DESIGN_AND_EXPORT_REVIEW; NOT_FACTORY_RELEASED",
+  "pcb_revision": "r10",
+  "drawing_revision": "r6",
+  "electrical_revision": "r5",
+  "source_board_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "prior_hardware_hashes_checked": 346,
+  "changed_prior_files": [
+    "../../README.md",
+    "../../docs/v2/README.md",
+    "../../docs/v2/hardware/README.md",
+    "../../docs/v2/roadmap.md",
+    "ESPaperPlay_Devboard.kicad_pcb",
+    "README.md"
+  ],
+  "source_and_project_match_baseline": true,
+  "all_240_footprints_fields_pads_UUIDs_unchanged": true,
+  "modified_vias": 64,
+  "modified_original_segments": 67,
+  "added_or_removed_route_objects": 0,
+  "via_geometries": [
+    {
+      "count": 207,
+      "diameter_mm": 0.45,
+      "drill_mm": 0.2
+    },
+    {
+      "count": 342,
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "native_drc": {
+    "checked": true,
+    "report": "hardware/devboard-r0/review-r10/drc.json",
+    "sha256": "8a1790110b014c0d5d6e4dfbb5cbcf0d04566169068dfe0ffba0f1fa8d012d1d",
+    "errors": 0,
+    "warnings": 1,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "all_538_nonthermal_vias_two_side_mask_gap_at_least_0_20_mm": true,
+  "actual_minimum_gap_mm": 0.1999999999999602,
+  "retained_IC_thermal_vias": 11,
+  "specified_process": "resin fill, planarization, copper cap >=10um, solderable ENIG; actual supplier production scope/planarity pending",
+  "USB_paths_unchanged": true,
+  "SD_D0_length_change_mm": -0.056454974726094065,
+  "all_21_power_paths_unchanged": true,
+  "no_new_return_via_distance_target_exceedance": true,
+  "cam_drills_bijectively_matched": 663,
+  "cam_layers": 9,
+  "cam_outline_segments": 4,
+  "assembly_counts": {
+    "population_rows": 240,
+    "electrical_references": 236,
+    "fitted_electrical_references": 230,
+    "reflow_position_rows": 203,
+    "hand_solder_rows": 27,
+    "bom_group_rows": 106,
+    "bom_total_quantity": 230,
+    "dnp_rows": 6,
+    "by_assembly_group": {
+      "top_smd_reflow": 203,
+      "do_not_populate": 6,
+      "mechanical_hole_only": 4,
+      "post_reflow_tht_hand_solder": 23,
+      "post_reflow_smd_connector_hand_solder": 4
+    }
+  },
+  "stencil_geometry_metrics_equal_r9": true,
+  "indexed_package_files_verified": 31,
+  "board_and_stencil_ZIPs_verified_no_duplicate_members": true,
+  "cam_top_bottom_visually_reviewed": true,
+  "all_new_Markdown_links_resolve": true,
+  "firmware_changed_or_tested": false,
+  "schematics_changed_or_ERC_rerun": false,
+  "factory_contact_upload_order": false,
+  "limitations": [
+    "Factory production artwork, specified fill/cap scope and planarity, controlled impedance acceptance remain to confirm.",
+    "BOM candidate purchasing/effective capacitance conditions remain from prior electrical review.",
+    "First-board print/reflow, thermal, acoustic and electrical tests not performed.",
+    "IOX_RESET_N and USB_DP_PORT retain prior >2mm nearest-return geometric exceptions; SD_D0/D1 debug stubs unchanged."
+  ]
+}

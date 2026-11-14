@@ -1,0 +1,46 @@
+{
+  "source": "r8",
+  "candidate": "via-return-final-v2",
+  "all_non_GND_native_vias_checked": 219,
+  "new_exceedances_of_internal_2mm_target": [],
+  "two_repaired": [
+    {
+      "uuid": "c4a77dda-b2fc-4755-8c25-e88ef90f315d",
+      "before": {
+        "net": "3V3_AON",
+        "xy_mm": [
+          143.7376,
+          116.03
+        ],
+        "nearest_GND_via_mm": 1.3333616838652538
+      },
+      "after": {
+        "net": "3V3_AON",
+        "xy_mm": [
+          143.7376,
+          116.03
+        ],
+        "nearest_GND_via_mm": 1.943455968508155
+      }
+    },
+    {
+      "uuid": "8dd518f7-6713-4e2d-903b-a38ee7e2f74b",
+      "before": {
+        "net": "EPD_EN",
+        "xy_mm": [
+          121.7313,
+          113.4014
+        ],
+        "nearest_GND_via_mm": 1.9146186173752686
+      },
+      "after": {
+        "net": "EPD_EN",
+        "xy_mm": [
+          121.7313,
+          113.4014
+        ],
+        "nearest_GND_via_mm": 1.819750487667191
+      }
+    }
+  ]
+}

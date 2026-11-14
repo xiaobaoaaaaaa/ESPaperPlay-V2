@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-14",
+  "pcb_revision": "r10",
+  "baseline_commit": "7e27d82",
+  "baseline_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "candidate_copper_sha256": "9766e861758cd442592698e37831f60def1f1f575210e228bcc5ce01e6566f4d",
+  "board_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "project_sha256": "c562cf8d63b91dc6cb19f55b1470cb70fcda54158d8238295e5e4a7766f20400",
+  "retained_ic_thermal_via_uuids": [
+    "15d4657b-1ccb-4d48-8c40-f579a60ccff2",
+    "22e7048f-6dee-4116-b23e-f1cbf8e02ae1",
+    "2fc7ee81-ac43-4574-9d1d-9351c5651a08",
+    "3026ef76-e368-40ff-be7b-552ec25ca26b",
+    "32ca1787-235c-4d2b-be3a-49e6cb41cecd",
+    "660e3e86-5eca-47c2-9685-0d482f9930be",
+    "6eb97cee-11e8-48c0-82d7-eab3940ce1c3",
+    "73cbdc1d-ae69-4abf-a8b7-9984542aef58",
+    "8f3e8303-4115-4546-b6c9-11d5f7248eb8",
+    "b3bda032-01c9-4a68-88e2-9398eff0afde",
+    "d74b363b-9baa-492c-b91b-1f5aa7f50a1c"
+  ],
+  "silkscreen_delta": [
+    {
+      "uuid": "be79badf-6ff1-5729-bba0-d936f07564cc",
+      "before": "4L / 160 x 110 / 2026-11-07",
+      "after": "4L / 160 x 110 / 2026-11-14"
+    },
+    {
+      "uuid": "11e2bd12-1d16-52b0-aee8-881cd0a2ddad",
+      "before": "ESPaperPlay DEV / r8",
+      "after": "ESPaperPlay DEV / r10"
+    }
+  ],
+  "titleblock": {
+    "title": "ESPaperPlay Development Board - DFM r10",
+    "revision": "r10 DFM PROTOTYPE",
+    "date": "2026-11-14",
+    "comment_1": "160 x 110 mm / 4 layers / 1.6 mm nominal / DFM REVIEW"
+  },
+  "scope": "64 native vias and 67 connected segment endpoint moves; R213/R214 GND vias reduced to existing .45/.20 geometry; no footprint, schematic, netlist, mask or paste changes. Board labels/date updated."
+}

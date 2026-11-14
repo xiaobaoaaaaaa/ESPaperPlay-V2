@@ -1,0 +1,23 @@
+{
+  "status": "PASS_NEGATIVE_CONTROL",
+  "method": "An unrelated USB segment start shifted by 0.01 mm in a disposable copy; exact native delta checker must reject.",
+  "source_board_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "mutated_object": {
+    "uuid": "0405576b-c60c-4380-ac5c-93c9774f4c8c",
+    "net": "USB_DM_MCU",
+    "before_nm": [
+      148625000,
+      65200000
+    ],
+    "after_nm": [
+      148635000,
+      65200000
+    ]
+  },
+  "checker_exit_code": 1,
+  "rejection_kinds": [
+    "unapproved_copper_change"
+  ],
+  "checker_sha256": "85a240ccde44abd0233d4622a6cabbed65f2f3b38585e187424a3ea802d6c616",
+  "source_unchanged": true
+}

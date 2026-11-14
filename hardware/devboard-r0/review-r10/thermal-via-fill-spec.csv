@@ -1,0 +1,12 @@
+uuid,x_mm,y_mm,drill_x_mm,drill_y_mm,associated_pads,net,required_process,mask_policy
+d74b363b-9baa-492c-b91b-1f5aa7f50a1c,70.0,138.0,0.2,0.2,U203.9,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+b3bda032-01c9-4a68-88e2-9398eff0afde,74.6,114.6,0.2,0.2,U101.17,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+22e7048f-6dee-4116-b23e-f1cbf8e02ae1,74.6,115.4,0.2,0.2,U101.17,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+73cbdc1d-ae69-4abf-a8b7-9984542aef58,75.4,114.6,0.2,0.2,U101.17,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+6eb97cee-11e8-48c0-82d7-eab3940ce1c3,75.4,115.4,0.2,0.2,U101.17,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+8f3e8303-4115-4546-b6c9-11d5f7248eb8,87.65,64.65,0.2,0.2,U802.17,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+2fc7ee81-ac43-4574-9d1d-9351c5651a08,87.65,65.349999,0.2,0.2,U802.17,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+3026ef76-e368-40ff-be7b-552ec25ca26b,88.35,64.65,0.2,0.2,U802.17,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+15d4657b-1ccb-4d48-8c40-f579a60ccff2,88.35,65.349999,0.2,0.2,U802.17,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+660e3e86-5eca-47c2-9685-0d482f9930be,101.2,113.0,0.2,0.2,U201.8,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad
+32ca1787-235c-4d2b-be3a-49e6cb41cecd,101.8,113.0,0.2,0.2,U201.8,GND,epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG,retain_design_apertures;no_soldermask_substitution_on_solderable_pad

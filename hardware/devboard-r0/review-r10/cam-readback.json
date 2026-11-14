@@ -1,0 +1,145 @@
+{
+  "status": "PASS: export readback; REVIEW ONLY, not fabrication release",
+  "source_board": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "source_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "kicad": "10.0.8-1.fc45",
+  "parser": "gerbonara 1.6.2",
+  "layers": {
+    "top/copper": 3123,
+    "top/mask": 811,
+    "top/silk": 16469,
+    "bottom/copper": 1221,
+    "bottom/mask": 102,
+    "bottom/silk": 102,
+    "inner_1/copper": 657,
+    "inner_2/copper": 657,
+    "mechanical/outline": 4
+  },
+  "hole_counts": {
+    "plated": 656,
+    "nonplated": 7
+  },
+  "hole_inventory": [
+    {
+      "kind": "nonplated",
+      "diameter_mm": 0.6,
+      "count": 1
+    },
+    {
+      "kind": "nonplated",
+      "diameter_mm": 0.65,
+      "count": 2
+    },
+    {
+      "kind": "nonplated",
+      "diameter_mm": 3.2,
+      "count": 4
+    },
+    {
+      "kind": "plated",
+      "diameter_mm": 0.2,
+      "count": 219
+    },
+    {
+      "kind": "plated",
+      "diameter_mm": 0.3,
+      "count": 342
+    },
+    {
+      "kind": "plated",
+      "diameter_mm": 0.6,
+      "count": 4
+    },
+    {
+      "kind": "plated",
+      "diameter_mm": 1.1,
+      "count": 91
+    }
+  ],
+  "all_663_drills_bijectively_match_native": true,
+  "max_coordinate_error_mm": 0.0005000000000165983,
+  "allowed_export_rounding_mm": 0.000501,
+  "plated_slots": 4,
+  "outline_segments_match_native": true,
+  "board_edge_centerline_size_mm": [
+    160,
+    110
+  ],
+  "outline_stroke_bbox_size_mm": [
+    160.05,
+    110.05000000000001
+  ],
+  "coordinate_convention": "KiCad absolute X, negative KiCad Y in all CAM; mm. Assembly CSV separately uses board lower-left origin.",
+  "commands": [
+    [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,Edge.Cuts",
+      "--precision",
+      "6",
+      "--subtract-soldermask",
+      "--check-zones",
+      "-o",
+      "hardware/devboard-r0/output/manufacturing/r10-review/board/",
+      "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb"
+    ],
+    [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "drill",
+      "--format",
+      "excellon",
+      "--drill-origin",
+      "absolute",
+      "--excellon-units",
+      "mm",
+      "--excellon-zeros-format",
+      "decimal",
+      "--excellon-oval-format",
+      "route",
+      "--excellon-separate-th",
+      "--generate-map",
+      "--map-format",
+      "svg",
+      "--generate-report",
+      "--report-path",
+      "hardware/devboard-r0/review-r10/drill-report.txt",
+      "-o",
+      "hardware/devboard-r0/output/manufacturing/r10-review/board/",
+      "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb"
+    ]
+  ],
+  "parser_warnings": [
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Layer \"bottom paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, inner_1 copper, inner_2 copper, mechanical outline",
+    "Layer \"top paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, inner_1 copper, inner_2 copper, mechanical outline",
+    "hardware/devboard-r0/output/manufacturing/r10-review/board/ESPaperPlay_Devboard-NPTH.drl:16 \"G90\": G90 header statement found after end of header",
+    "hardware/devboard-r0/output/manufacturing/r10-review/board/ESPaperPlay_Devboard-PTH.drl:20 \"G90\": G90 header statement found after end of header"
+  ],
+  "limits": [
+    "Readback checks layer inventory, exact outline centerlines, all drill locations/diameters/plating/slots and parser acceptance.",
+    "It is not an independent copper-netlist DRC or factory CAM/impedance qualification.",
+    "KiCad job bounding box includes 0.05 mm outline stroke; physical profile uses its centerline.",
+    "No paste is included in the bare-board CAM. Use the separately audited DIY stencil variant."
+  ],
+  "sha256": {
+    "ESPaperPlay_Devboard-F_Cu.gtl": "33ebc2b720d6c9ca045fe38819e605b5c2ada647694de77227466b69a87d3062",
+    "ESPaperPlay_Devboard-In1_Cu.g1": "d9ced4255bc476e0488e9f712036abb7ee59cbf75577baa52ceb8820e0be19b6",
+    "ESPaperPlay_Devboard-In2_Cu.g2": "84188993b9808c8a6599bde1f4ec13b14943739db7e506da3de61ea2ddca4be3",
+    "ESPaperPlay_Devboard-B_Cu.gbl": "e26cd966d900b75aea46fa8c5d0e68c2a18ee33c1ec30cc3f6da117083af7235",
+    "ESPaperPlay_Devboard-F_Mask.gts": "a90bcf234f345f5de8dc77f8220df4228fb07b1ed70874cea5e07e2ab0b503be",
+    "ESPaperPlay_Devboard-B_Mask.gbs": "faccc9894394e8f8c8543f676accf44fd8786bdb5790c678f43322dca3aa2f2c",
+    "ESPaperPlay_Devboard-F_Silkscreen.gto": "8d6bd30d821165df13e03ae8fccb37cf418dde98b699b0263f29efba92d45882",
+    "ESPaperPlay_Devboard-B_Silkscreen.gbo": "d6221522a1f89885671eefca9a47c724efdd8832f42435ec92617495883787c2",
+    "ESPaperPlay_Devboard-Edge_Cuts.gm1": "454575fc0a54d01705afe25fb90a6d4d617b4c5386d59407529075dd352d6832",
+    "ESPaperPlay_Devboard-PTH.drl": "f0dbe3dddb469b9272e9a193127ce0ec0a3458e30846a3b7a22a506ca1dcdf4f",
+    "ESPaperPlay_Devboard-NPTH.drl": "35cb332e14221b4adde289843362a2a529bd9d21c5ee5420bfff9fc7dfc43dd2",
+    "ESPaperPlay_Devboard-PTH-drl_map.svg": "3f5a860c53c4de7035471fdf383937f64cc682f41a35783f2161b54231de185d",
+    "ESPaperPlay_Devboard-NPTH-drl_map.svg": "6fdecc36e2c5f1c41ae84631f420024b466ebf0b0feb19bfda7e2718b3e8fe8c",
+    "ESPaperPlay_Devboard-job.gbrjob": "3632764c3ebfd585ae5e21e48788774461c23712ec7c88035f9d794f8fd0fb17"
+  }
+}

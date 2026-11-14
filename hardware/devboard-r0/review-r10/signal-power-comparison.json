@@ -1,0 +1,186 @@
+{
+  "source_board_sha256": "1a4556d866cc1352a2c45b674c94d2f233edf28c3e003bd96c8f6caf1e630681",
+  "candidate_board_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "status": "PASS_NO_NEW_SIGNAL_LENGTH_OR_POWER_PATH_FINDINGS",
+  "USB_exact_report_geometry_equal": true,
+  "SD": {
+    "CLK": {
+      "before": {
+        "connected": true,
+        "main_total_mm": 50.34763838182892,
+        "main_planar_mm": 47.14763838182892,
+        "main_vertical_mm": 3.2,
+        "main_layer_transitions": 2,
+        "debug_stub_estimate_mm": 7.831834703247906,
+        "skew_from_clk_mm": 0.0,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "after": {
+        "connected": true,
+        "main_total_mm": 50.34763838182892,
+        "main_planar_mm": 47.14763838182892,
+        "main_vertical_mm": 3.2,
+        "main_layer_transitions": 2,
+        "debug_stub_estimate_mm": 7.831834703247906,
+        "skew_from_clk_mm": 0.0,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "length_change_mm": 0.0
+    },
+    "CMD": {
+      "before": {
+        "connected": true,
+        "main_total_mm": 50.39427039891725,
+        "main_planar_mm": 43.99427039891725,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 0,
+        "skew_from_clk_mm": 0.04663201708832787,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "after": {
+        "connected": true,
+        "main_total_mm": 50.39427039891725,
+        "main_planar_mm": 43.99427039891725,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 0,
+        "skew_from_clk_mm": 0.04663201708832787,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "length_change_mm": 0.0
+    },
+    "D0": {
+      "before": {
+        "connected": true,
+        "main_total_mm": 50.358461372255064,
+        "main_planar_mm": 43.95846137225506,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 19.212655720079525,
+        "skew_from_clk_mm": 0.010822990426142098,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "after": {
+        "connected": true,
+        "main_total_mm": 50.30200639752897,
+        "main_planar_mm": 43.902006397528964,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 19.212655720079525,
+        "skew_from_clk_mm": -0.045631984299951966,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "length_change_mm": -0.056454974726094065
+    },
+    "D1": {
+      "before": {
+        "connected": true,
+        "main_total_mm": 50.38086976244469,
+        "main_planar_mm": 43.980869762444684,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 13.545741380360724,
+        "skew_from_clk_mm": 0.03323138061576714,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "after": {
+        "connected": true,
+        "main_total_mm": 50.38086976244469,
+        "main_planar_mm": 43.980869762444684,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 13.545741380360724,
+        "skew_from_clk_mm": 0.03323138061576714,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "length_change_mm": 0.0
+    },
+    "D2": {
+      "before": {
+        "connected": true,
+        "main_total_mm": 49.541401858225015,
+        "main_planar_mm": 43.14140185822501,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 6.607936619427722,
+        "skew_from_clk_mm": -0.8062365236039071,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "after": {
+        "connected": true,
+        "main_total_mm": 49.541401858225015,
+        "main_planar_mm": 43.14140185822501,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 6.607936619427722,
+        "skew_from_clk_mm": -0.8062365236039071,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "length_change_mm": 0.0
+    },
+    "D3": {
+      "before": {
+        "connected": true,
+        "main_total_mm": 50.697469718898375,
+        "main_planar_mm": 44.29746971889838,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 0,
+        "skew_from_clk_mm": 0.34983133706945324,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "after": {
+        "connected": true,
+        "main_total_mm": 50.697469718898375,
+        "main_planar_mm": 44.29746971889838,
+        "main_vertical_mm": 6.4,
+        "main_layer_transitions": 4,
+        "debug_stub_estimate_mm": 0,
+        "skew_from_clk_mm": 0.34983133706945324,
+        "within_50_8mm": true,
+        "within_1_27mm_skew": true
+      },
+      "length_change_mm": 0.0
+    }
+  },
+  "SD_only_changed_main_path": "D0",
+  "all_SD_main_paths_within_50_8mm": true,
+  "all_SD_skew_within_1_27mm": true,
+  "SD_max_abs_skew_mm": 0.8062365236039071,
+  "all_21_power_paths_exactly_equal": true,
+  "power_material_assumptions_unchanged": true,
+  "power_review_findings_unchanged": true,
+  "retained_power_findings": [
+    {
+      "id": "sys_main_converter_feed",
+      "findings": [
+        "narrow_path_length_above_review_allowance"
+      ]
+    },
+    {
+      "id": "amp_output_to_device",
+      "findings": [
+        "narrow_path_length_above_review_allowance"
+      ]
+    }
+  ],
+  "power_unconnected_or_invalid_paths": [],
+  "limits": [
+    "Path lengths are native centerline geometry, not SI or timing certification.",
+    "SD_D0/D1 debug stubs remain 19.212656/13.545741mm; this change does not repair them.",
+    "Power report retains the existing nominal 20um hole-copper arithmetic assumption, not a manufacturing guarantee.",
+    "Native DRC/parity is run separately by root; this report does not substitute for it."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-14",
+  "sources": [
+    {
+      "name": "JLC国内能力表",
+      "url": "https://www.jlc.com/portal/vtechnology.html",
+      "cache": "jlc-capabilities-2026-11-14.html",
+      "evidence": "LDI 1:1 mask openings since June 2025; green 1oz bridge design spacing .10mm; epoxy filling + cap with cap copper >=10um; fill diameters .15-.55mm.",
+      "short_quote": "所有板焊盘与开窗1:1设计制作",
+      "accessed": "2026-11-14",
+      "local_path": "build/dfm-r10/process/jlc-capabilities-2026-11-14.html",
+      "sha256": "2a8f5584375c861ab9a936b4eea078efd61c0083d47736f52c7ce20b1042b49e",
+      "evidence_mode": "local cached primary document plus web verification"
+    },
+    {
+      "name": "JLC阻焊设计说明",
+      "url": "https://www.jlc.com/portal/server_guide_34402.html",
+      "cache": "jlc-mask-guide-2026-11-14.html",
+      "evidence": "Updated 2026-09-28. Explicit new-order LDI1:1, oversized openings may be reduced; special pad-size preservation requires order note and production review. Old generic +.05mm discussion is followed by the LDI update.",
+      "short_quote": "新单阻焊开窗与焊盘1：1",
+      "accessed": "2026-11-14",
+      "local_path": "build/dfm-r10/process/jlc-mask-guide-2026-11-14.html",
+      "sha256": "32f4dc3278c7c83035f56a50bd0824d2297c4f5be83e7081c52a842d047a228a",
+      "evidence_mode": "local cached primary document plus web verification"
+    },
+    {
+      "name": "JLC国际能力表",
+      "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+      "evidence": "Also confirms LDI1:1. Ink-plugging eligibility requires >=.35mm to other soldermask openings; do not transfer to bare tenting or claim .20mm ensures ink plugging.",
+      "cache": null,
+      "accessed": "2026-11-14",
+      "local_path": null,
+      "sha256": null,
+      "evidence_mode": "web primary source; no claimed cached binary"
+    },
+    {
+      "name": "JLC国际孔处理说明",
+      "url": "https://jlcpcb.com/help/article/pcb-via-covering",
+      "evidence": "Updated2026-11-10. Distinguishes tenting, ink plugging and filled/capped; currently published global surface-cap criteria differ from domestic capability page; use domestic >=10um as selected design requirement. No 11-hole selective-pricing guarantee.",
+      "cache": null,
+      "accessed": "2026-11-14",
+      "local_path": null,
+      "sha256": null,
+      "evidence_mode": "web primary source; no claimed cached binary"
+    },
+    {
+      "name": "TI BQ24074",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "local": "hardware/reference/power/bq24074.pdf",
+      "evidence": "SLUS810N; layout p40, thermal p42, RGT0016C drawing PDF p53 and stencil p54. EP is main GND and must solder; under-paste vias may be filled/plugged/tented. Image of p53 reviewed.",
+      "accessed": "2026-11-14",
+      "local_path": "hardware/reference/power/bq24074.pdf",
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1",
+      "evidence_mode": "local cached primary document plus web verification"
+    },
+    {
+      "name": "TI TPS63802",
+      "url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "local": "hardware/reference/power/tps63802.pdf",
+      "evidence": "SLVSEU9D. DLA0010A pad8 is broad PGND terminal, not an extra pad11. PDF p36/p37 visually reviewed: NSMD preferred, .10mm stencil, pad8 split aperture ~83%.",
+      "accessed": "2026-11-14",
+      "local_path": "hardware/reference/power/tps63802.pdf",
+      "sha256": "be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6",
+      "evidence_mode": "local cached primary document plus web verification"
+    },
+    {
+      "name": "ADI MAX17048",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
+      "local": "hardware/reference/power/max17048.pdf",
+      "evidence": "Rev7; PDF p6 visually reviewed: exposed pad connected to GND. Do not apply module optional-EPAD rule.",
+      "accessed": "2026-11-14",
+      "local_path": "hardware/reference/power/max17048.pdf",
+      "sha256": "70dc8eef0e012276dcdc58b6dce64af08258304bcf865ceace64e856b8029330",
+      "evidence_mode": "local cached primary document plus web verification"
+    },
+    {
+      "name": "ADI MAX98357A",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf",
+      "local": "hardware/reference/power/max98357a.pdf",
+      "evidence": "Rev16 (02/2026), PDF p15 visually reviewed: EP is not internally connected but is connected to solid GND plane for thermal dissipation.",
+      "accessed": "2026-11-14",
+      "local_path": "hardware/reference/power/max98357a.pdf",
+      "sha256": "dea228ad619901d34c2f5f106243bdb9b9e95e38989d4d66fd6c6c489bfa6f1c",
+      "evidence_mode": "local cached primary document plus web verification"
+    },
+    {
+      "name": "ADI QFN assembly guidance",
+      "url": "https://www.analog.com/en/resources/app-notes/smt-assembly-and-pcb-design-guidelines-for-maxims-standard-wirebonded-quad-flatpack.html",
+      "cache": null,
+      "evidence": "Generic NSMD preference and exposed-pad bonding/thermal vias; 50-80% EP paste, 4mil stencil ordinary pad1:1. This is assembly guidance, not proof JLC LDI1:1 is unmanufacturable or mandatory +.025mm.",
+      "accessed": "2026-11-14",
+      "local_path": null,
+      "sha256": null,
+      "evidence_mode": "web primary source; no claimed cached binary"
+    }
+  ],
+  "raw_html_distribution": "Primary-page caches retained under ignored build directory; final report should link official URLs and preserve hashes without distributing whole pages.",
+  "pdf_visual_review": [
+    "bq-landpattern.png",
+    "tps-package-36.png",
+    "tps-package-37.png",
+    "max17048-pins.png",
+    "max98357-pins.png"
+  ]
+}

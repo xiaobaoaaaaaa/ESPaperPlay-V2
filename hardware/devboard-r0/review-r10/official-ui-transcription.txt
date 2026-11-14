@@ -1,0 +1,33 @@
+Manual transcription of visible official calculator UI, 2026-11-14 Asia/Shanghai
+URL: https://jlcpcb.com/pcb-impedance-calculator
+This is a transcription, not a raw API response or locally saved screenshot.
+
+Inputs:
+Board Type Rigid; Layers 4; PCB Thickness 1.6; Inner Copper Weight 0.5oz;
+Outer Copper Weight 1oz; Unit mm; Width/Spacing Complement unchecked.
+All four cases: L1 signal, Top Ref /, Bottom Ref L2.
+Rows: 45 Single Ended (Non coplanar), 55 Single Ended (Non coplanar),
+81 Differential Pair (Non coplanar) S=.15,
+99 Differential Pair (Non coplanar) S=.15.
+
+Selected result tab:
+recommend JLC04161H-7628(Standard/Finished thickness1.59mm±10%)
+Impedance Tolerance (±): 0.5 %
+
+Impedance  Type                             Signal Top Bottom Width  Spacing
+45         Single Ended (Non coplanar)      L1     /   L2     0.4295 /
+55         Single Ended (Non coplanar)      L1     /   L2     0.2951 /
+81         Differential Pair (Non coplanar) L1     /   L2     0.3195 0.1501
+99         Differential Pair (Non coplanar) L1     /   L2     0.1897 0.1501
+
+Stackup result:
+L1 Outer Copper Weight1oz                     1.38 mil   0.0350 mm
+Prepreg 7628, RC49%, 8.6mil                    8.28 mil   0.2104 mm
+L2 Inner Copper Weight                       0.60 mil   0.0152 mm
+Core 1.1mm H/HOZ with copper                 41.93 mil   1.0650 mm
+L3 Inner Copper Weight                       0.60 mil   0.0152 mm
+Prepreg 7628, RC49%, 8.6mil                    8.28 mil   0.2104 mm
+L4 Outer Copper Weight1oz                     1.38 mil   0.0350 mm
+
+The result table and stackup were visibly checked in the browser screenshot.
+No actual-board upload, vendor contact, quote, login or order was performed.
