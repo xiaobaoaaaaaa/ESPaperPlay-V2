@@ -1,0 +1,1068 @@
+{
+  "schema_version": 1,
+  "document_date": "2026-11-14",
+  "record_type": "unexecuted_test_template",
+  "hardware_revision": "r10",
+  "preparation_revision": "r11",
+  "physical_validation_performed": false,
+  "plan": {
+    "bare_boards": 5,
+    "initial_assembled_boards": 2,
+    "stencil": "unframed, tape-hinge alignment",
+    "reflow_positions_per_board": 203,
+    "hand_solder_positions_per_board": 27,
+    "dnp_positions_per_board": 6
+  },
+  "baseline": {
+    "pcb_path": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+    "pcb_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+    "schematic_sha256": {
+      "hardware/devboard-r0/AUDIO.kicad_sch": "c1606436b4523b00270627744e621192cc328c3da7dea685ef355643b9dc36aa",
+      "hardware/devboard-r0/CHARGE_TEMP.kicad_sch": "5c93d9d7f8f2e6c88f2960ca562b22dd34ea2eb586185ab4464102719afd2797",
+      "hardware/devboard-r0/EPD_DISPLAY.kicad_sch": "6618ff91ea103b22b32e40c235ad4689bb0139aecf94a7c4fd62c48a667eaf5f",
+      "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_sch": "04881857df516822e72f515cb9dcd2036ef034089e2076ae8e6653fd481b298d",
+      "hardware/devboard-r0/MCU_CORE.kicad_sch": "49a5b4d14459d84af932105d3f0a18c03f3dcefff8e27998b99c245e190ec43f",
+      "hardware/devboard-r0/POWER_3V3_CONTROL.kicad_sch": "a62937fdee5e2b7b4b09ca6f58f55bcce66e465bdf46e0a292810d0bbb3be869",
+      "hardware/devboard-r0/POWER_DOMAINS.kicad_sch": "571445e5ea211b3d16402113387cc0c9c13ba83bc3de192f7fb780470a8c05dd",
+      "hardware/devboard-r0/POWER_INPUT_CHARGER.kicad_sch": "92fccf96a85f637b5761a20b841e3f651ea0f2b627c0520149fef94644b5ca0c",
+      "hardware/devboard-r0/STORAGE_SD.kicad_sch": "6aeeabbc1ea9414aec5f9dfefcc921fbe43c031edd178476e84467806a491125",
+      "hardware/devboard-r0/TOUCH_ISOLATION.kicad_sch": "f2bb29d6660dffed531202f1965c7ab7ac7e669b16078a723bc98dc20cdc9d61",
+      "hardware/devboard-r0/USB_INPUT.kicad_sch": "95a213e56de0b674ef2c4492350b67c69d12ee6df8b2a9bbb2a3c626ab92f9da"
+    },
+    "connectivity_export_command": "kicad-cli sch export netlist --format kicadxml -o build/r11-bringup/current-netlist.xml hardware/devboard-r0/ESPaperPlay_Devboard.kicad_sch",
+    "current_connectivity_equals_archived_r6": true,
+    "network_count": 181,
+    "pin_node_count": 774
+  },
+  "static_pin_map": {
+    "J101": {
+      "1": "BENCH_5V",
+      "2": "GND"
+    },
+    "J102": {
+      "1": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+      "2": "GND"
+    },
+    "J103": {
+      "1": "BAT_NTC",
+      "2": "GND"
+    },
+    "J104": {
+      "1": "SYS",
+      "2": "GND"
+    },
+    "J105": {
+      "1": "/POWER_INPUT_CHARGER/CHG_CE_N",
+      "2": "GND"
+    },
+    "J201": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "J202": {
+      "1": "/POWER_3V3_CONTROL/MAIN_EN_PULL",
+      "2": "/POWER_3V3_CONTROL/MAIN_EN",
+      "3": "GND"
+    },
+    "J203": {
+      "1": "/POWER_3V3_CONTROL/REG_MODE",
+      "2": "/POWER_3V3_CONTROL/3V3_REG"
+    },
+    "J204": {
+      "1": "/POWER_3V3_CONTROL/REG_PG",
+      "2": "GND"
+    },
+    "J205": {
+      "1": "3V3_AON",
+      "2": "GND",
+      "3": "I2C_AON_SDA",
+      "4": "I2C_AON_SCL",
+      "5": "IOX_RESET_N",
+      "6": "VBUS_SENSE_N"
+    },
+    "J206": {
+      "1": "EPD_EN",
+      "2": "SD_EN",
+      "3": "TOUCH_EN",
+      "4": "TOUCH_IO_EN",
+      "5": "SD_CD_N",
+      "6": "GND"
+    },
+    "J401": {
+      "1": "EPD_3V3",
+      "2": "GND"
+    },
+    "J402": {
+      "1": "SD_3V3",
+      "2": "GND"
+    },
+    "J403": {
+      "1": "TOUCH_3V3",
+      "2": "GND"
+    },
+    "J404": {
+      "1": "MIC_3V3",
+      "2": "GND"
+    },
+    "J405": {
+      "1": "AMP_SYS",
+      "2": "GND"
+    },
+    "J406": {
+      "1": "GND",
+      "2": "TOUCH_3V3",
+      "3": "TP_RESET_N",
+      "4": "TP_INT",
+      "5": "TP_SDA",
+      "6": "TP_SCL",
+      "SH": "GND"
+    },
+    "J501": {
+      "A1": "GND",
+      "A12": "GND",
+      "A4": "USB_VBUS",
+      "A5": "/USB_INPUT/USB_CC1",
+      "A6": "/USB_INPUT/USB_DP_PORT",
+      "A7": "/USB_INPUT/USB_DM_PORT",
+      "A8": "unconnected-(J501-SBU1-PadA8)",
+      "A9": "USB_VBUS",
+      "B1": "GND",
+      "B12": "GND",
+      "B4": "USB_VBUS",
+      "B5": "/USB_INPUT/USB_CC2",
+      "B6": "/USB_INPUT/USB_DP_PORT",
+      "B7": "/USB_INPUT/USB_DM_PORT",
+      "B8": "unconnected-(J501-SBU2-PadB8)",
+      "B9": "USB_VBUS",
+      "SH": "GND"
+    },
+    "J502": {
+      "1": "USB_5V_PROTECTED",
+      "2": "VIN_5V",
+      "3": "BENCH_5V"
+    },
+    "J601": {
+      "1": "unconnected-(J601-NC-Pad1)",
+      "10": "EPD_PAD_RST_N",
+      "11": "EPD_PAD_DC",
+      "12": "EPD_PAD_CS",
+      "13": "EPD_PAD_SCLK",
+      "14": "EPD_PAD_MOSI",
+      "15": "EPD_3V3",
+      "16": "EPD_3V3",
+      "17": "GND",
+      "18": "EPD_VDD_INT",
+      "19": "unconnected-(J601-VPP-Pad19)",
+      "2": "EPD_GDR",
+      "20": "EPD_VSH1",
+      "21": "EPD_PREVGH",
+      "22": "EPD_VSL",
+      "23": "EPD_PREVGL",
+      "24": "EPD_VCOM",
+      "3": "EPD_RESE",
+      "4": "unconnected-(J601-NC-Pad4)",
+      "5": "EPD_VSHR",
+      "6": "unconnected-(J601-TSCL-Pad6)",
+      "7": "unconnected-(J601-TSDA-Pad7)",
+      "8": "GND",
+      "9": "EPD_PAD_BUSY",
+      "SH": "GND"
+    },
+    "J701": {
+      "1": "SD_CARD_D2",
+      "10": "GND",
+      "2": "SD_CARD_D3",
+      "3": "SD_CARD_CMD",
+      "4": "SD_3V3",
+      "5": "SD_CARD_CLK",
+      "6": "GND",
+      "7": "SD_CARD_D0",
+      "8": "SD_CARD_D1",
+      "9": "SD_DETECT_CONTACT",
+      "SH": "GND"
+    },
+    "J801": {
+      "1": "/AUDIO/SPK_P",
+      "2": "/AUDIO/SPK_N"
+    },
+    "R101": {
+      "1": "SYS_RAW",
+      "2": "SYS"
+    },
+    "R102": {
+      "1": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+      "2": "BAT_PROT"
+    },
+    "R108": {
+      "1": "CHARGE_ALLOW",
+      "2": "/POWER_INPUT_CHARGER/CHG_GATE"
+    },
+    "R203": {
+      "1": "/POWER_3V3_CONTROL/3V3_REG",
+      "2": "3V3_AON"
+    },
+    "R217": {
+      "1": "I2C_AON_SCL",
+      "2": "/POWER_3V3_CONTROL/GAUGE_SCL"
+    },
+    "R218": {
+      "1": "I2C_AON_SDA",
+      "2": "/POWER_3V3_CONTROL/GAUGE_SDA"
+    },
+    "R401": {
+      "1": "/POWER_DOMAINS/EPD_QOD",
+      "2": "EPD_3V3"
+    },
+    "R402": {
+      "1": "/POWER_DOMAINS/EPD_SW",
+      "2": "EPD_3V3"
+    },
+    "R404": {
+      "1": "/POWER_DOMAINS/SD_QOD",
+      "2": "SD_3V3"
+    },
+    "R405": {
+      "1": "/POWER_DOMAINS/SD_SW",
+      "2": "SD_3V3"
+    },
+    "R407": {
+      "1": "/POWER_DOMAINS/TOUCH_QOD",
+      "2": "TOUCH_3V3"
+    },
+    "R408": {
+      "1": "/POWER_DOMAINS/TOUCH_SW",
+      "2": "TOUCH_3V3"
+    },
+    "R410": {
+      "1": "/POWER_DOMAINS/MIC_QOD",
+      "2": "MIC_3V3"
+    },
+    "R411": {
+      "1": "/POWER_DOMAINS/MIC_SW",
+      "2": "MIC_3V3"
+    },
+    "R413": {
+      "1": "/POWER_DOMAINS/AMP_QOD",
+      "2": "AMP_SYS"
+    },
+    "R414": {
+      "1": "/POWER_DOMAINS/AMP_SW",
+      "2": "AMP_SYS"
+    },
+    "R109": {
+      "1": "USB_EN1",
+      "2": "GND"
+    },
+    "R110": {
+      "1": "USB_EN2",
+      "2": "GND"
+    },
+    "SW301": {
+      "1": "/MCU_CORE/MCU_EN",
+      "2": "GND"
+    },
+    "SW302": {
+      "1": "/MCU_CORE/BOOT_N",
+      "2": "GND"
+    },
+    "U202": {
+      "1": "/POWER_3V3_CONTROL/IOX_INT_N",
+      "10": "USB_EN1",
+      "11": "CHARGE_ALLOW",
+      "12": "GND",
+      "13": "TOUCH_IO_EN",
+      "14": "USB_EN2",
+      "15": "FUEL_ALERT_N",
+      "16": "SD_IO_EN",
+      "17": "IOX_SP14",
+      "18": "IOX_SP15",
+      "19": "IOX_SP16",
+      "2": "GND",
+      "20": "IOX_SP17",
+      "21": "GND",
+      "22": "I2C_AON_SCL",
+      "23": "I2C_AON_SDA",
+      "24": "3V3_AON",
+      "3": "IOX_RESET_N",
+      "4": "EPD_EN",
+      "5": "SD_EN",
+      "6": "TOUCH_EN",
+      "7": "PGOOD_N",
+      "8": "CHG_N",
+      "9": "SD_CD_N"
+    }
+  },
+  "firmware_capability": {
+    "current_m0_peripheral_initialization": false,
+    "maintenance_firmware_ready": false,
+    "board_driver_identity_verified_on_hardware": false,
+    "source": "v2/main/main.c"
+  },
+  "initial_restrictions": {
+    "r108": "DNP",
+    "j105": "open",
+    "j203": "open",
+    "charge_enabled": false,
+    "all_external_loads_initially_disconnected": true,
+    "j502_open_during_j102_simulator_and_usb_data_test": true,
+    "real_battery_must_not_parallel_bench_supply": true,
+    "generic_source_only_supply_must_not_sink_charge": true
+  },
+  "engineering_test_settings_not_chip_limits": {
+    "j101_first_test_v": 5.0,
+    "j101_first_limit_a": 0.05,
+    "j102_simulator_v": 3.7,
+    "j102_reset_held_limit_a": 0.05,
+    "mcu_initial_limit_a": 0.3,
+    "mcu_second_limit_a_only_after_fault_exclusion": 0.5
+  },
+  "acceptance_windows": {
+    "bq_sys_raw_v_with_valid_5v_and_light_load": {
+      "min": 4.3,
+      "max": 4.5,
+      "basis": "BQ24074 Rev.N electrical characteristics; not valid in battery-only mode or source current limit"
+    },
+    "bq_ce_high_min_v": {
+      "value": 1.4,
+      "basis": "BQ24074 Rev.N logic input threshold"
+    },
+    "bq_en1_en2_low_max_v": {
+      "value": 0.4,
+      "basis": "BQ24074 Rev.N logic input threshold"
+    },
+    "main_3v3_steady_v": {
+      "min": 3.201,
+      "max": 3.399,
+      "basis": "project 3.3V ±3% target, unmeasured"
+    },
+    "main_3v3_transient_v": {
+      "min": 3.135,
+      "max": 3.465,
+      "basis": "project ±5% target; tighten to actual load requirements; not a steady-state substitute"
+    },
+    "low_voltage_domain_off_at_1s_max_v": {
+      "value": 0.2,
+      "comparison": "less_than",
+      "basis": "project target; excludes EPD high-voltage stored nodes"
+    },
+    "first_audio_output_max_w": {
+      "value": 0.5,
+      "basis": "project test budget; requires real differential power/limit validation"
+    }
+  },
+  "iox_proposed_initialization_unimplemented": {
+    "address_7bit": "0x74",
+    "sequence": [
+      [
+        "output0",
+        "0x02",
+        "0x00"
+      ],
+      [
+        "output1",
+        "0x03",
+        "0x00"
+      ],
+      [
+        "configuration0",
+        "0x06",
+        "0xF8"
+      ],
+      [
+        "configuration1",
+        "0x07",
+        "0xF6"
+      ]
+    ],
+    "readback_required": true,
+    "only_output_ports": [
+      "P00",
+      "P01",
+      "P02",
+      "P10",
+      "P13"
+    ],
+    "usb_limit_and_charge_control_ports_remain_inputs": [
+      "P06",
+      "P07",
+      "P11"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ti.com/lit/gpn/bq24074",
+      "version": "SLUS810N / Rev.N",
+      "consulted": "2026-11-14",
+      "sections": [
+        "7",
+        "8.5",
+        "9.3"
+      ]
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tca9539.pdf",
+      "version": "SCPS202C / Rev.C",
+      "consulted": "2026-11-14",
+      "sections": [
+        "8.6"
+      ]
+    },
+    {
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf",
+      "version": "Rev.7",
+      "consulted": "2026-11-14"
+    },
+    {
+      "path": "docs/v2/hardware/power-design-spec.md",
+      "kind": "project targets, not measured guarantees"
+    }
+  ],
+  "board_records": [
+    {
+      "planned_board_id": "r10-first-01",
+      "actual_serial": null,
+      "assembled_at": null,
+      "operator": null,
+      "stencil_and_paste_batch": null,
+      "actual_parts_substitutions": [],
+      "reflow_profile_evidence": null,
+      "equipment": [],
+      "cases": [
+        {
+          "id": "A00",
+          "title": "断电、装配与极性检查",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "visual_photos": null,
+            "dnp_and_jumper_state": null,
+            "rail_resistance_both_polarities": null,
+            "cable_pin_map": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B01",
+          "title": "J101限流5V输入；主稳压关闭",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "vin_v": null,
+            "sys_raw_v": null,
+            "sys_v": null,
+            "ce_n_v": null,
+            "usb_en1_v": null,
+            "usb_en2_v": null,
+            "input_current_ma": null,
+            "supply_cc_or_cv": null,
+            "thermal_observation": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B02",
+          "title": "J102限流3.7V模拟电池；主稳压关闭",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "j102_v": null,
+            "bat_prot_v": null,
+            "sys_raw_v": null,
+            "sys_v": null,
+            "aon_residual_v": null,
+            "input_current_ma": null,
+            "supply_cc_or_cv": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B03",
+          "title": "主轨建立，MCU保持复位",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "reg_v": null,
+            "aon_v": null,
+            "reg_pg_v": null,
+            "rise_time_ms": null,
+            "ripple_vpp": null,
+            "all_domain_output_v": null,
+            "all_enable_v": null,
+            "input_current_ma": null,
+            "scope_capture": null,
+            "supply_cc_or_cv": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B04",
+          "title": "ROM/MCU最小启动与独立USB数据",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "firmware_or_rom_identity": null,
+            "aon_min_v": null,
+            "input_peak_ma": null,
+            "reset_count": null,
+            "usb_enumeration_log": null,
+            "vbus_sense_inserted_v": null,
+            "vbus_sense_removed_v": null,
+            "jumper_photo": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B05",
+          "title": "维护固件AON控制与电量计",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "firmware_sha256": null,
+            "iox_reset_capture": null,
+            "iox_register_readback": null,
+            "gauge_voltage_v": null,
+            "meter_bat_prot_v": null,
+            "gauge_soc_marked_invalid": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B06",
+          "title": "触摸单域",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "touch_3v3_v": null,
+            "rise_time_ms": null,
+            "peak_current_ma": null,
+            "address_7bit": null,
+            "touch_and_interrupt_result": null,
+            "i2c_rise_time_ns": null,
+            "off_at_1s_v": null,
+            "backfeed_observation": null,
+            "scope_capture": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B07",
+          "title": "SD单域",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "sd_3v3_v": null,
+            "rise_time_ms": null,
+            "peak_current_ma": null,
+            "init_hz": null,
+            "four_bit_hz": null,
+            "file_integrity_result": null,
+            "unmount_result": null,
+            "off_at_1s_v": null,
+            "backfeed_observation": null,
+            "scope_capture": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B08",
+          "title": "EPD单域",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "epd_3v3_v": null,
+            "rise_time_ms": null,
+            "peak_current_ma": null,
+            "full_refresh_result": null,
+            "sleep_result": null,
+            "busy_timeout_result": null,
+            "high_voltage_differential_waveforms": null,
+            "low_voltage_off_at_1s_v": null,
+            "scope_capture": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B09",
+          "title": "MIC单域；AMP供电但静音",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "mic_3v3_v": null,
+            "amp_sys_v": null,
+            "sample_rate_hz": null,
+            "bclk_hz": null,
+            "slots_and_bits": null,
+            "startup_discard_samples": null,
+            "recording_result": null,
+            "mic_off_at_1s_v": null,
+            "amp_off_at_1s_v": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B10",
+          "title": "AMP单域与差分扬声器",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "amp_sys_v": null,
+            "speaker_measured_impedance_ohm": null,
+            "output_power_w": null,
+            "clipping_result": null,
+            "pop_result": null,
+            "input_peak_ma": null,
+            "temperature_c": null,
+            "off_at_1s_v": null,
+            "differential_capture": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B11",
+          "title": "真实电池、充电与故障验证；当前未开放",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "battery_identity": null,
+            "actual_ntc_curve": null,
+            "cv_validation": null,
+            "temperature_window_validation": null,
+            "fault_validation": null,
+            "charge_current_a": null,
+            "termination_current_a": null,
+            "timer_validation": null,
+            "thermal_validation": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "R00",
+          "title": "试验后跳线和测流连接复原",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "jumper_and_link_state": null,
+            "dnp_confirmation": null,
+            "rework_log": null,
+            "final_photos": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "planned_board_id": "r10-first-02",
+      "actual_serial": null,
+      "assembled_at": null,
+      "operator": null,
+      "stencil_and_paste_batch": null,
+      "actual_parts_substitutions": [],
+      "reflow_profile_evidence": null,
+      "equipment": [],
+      "cases": [
+        {
+          "id": "A00",
+          "title": "断电、装配与极性检查",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "visual_photos": null,
+            "dnp_and_jumper_state": null,
+            "rail_resistance_both_polarities": null,
+            "cable_pin_map": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B01",
+          "title": "J101限流5V输入；主稳压关闭",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "vin_v": null,
+            "sys_raw_v": null,
+            "sys_v": null,
+            "ce_n_v": null,
+            "usb_en1_v": null,
+            "usb_en2_v": null,
+            "input_current_ma": null,
+            "supply_cc_or_cv": null,
+            "thermal_observation": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B02",
+          "title": "J102限流3.7V模拟电池；主稳压关闭",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "j102_v": null,
+            "bat_prot_v": null,
+            "sys_raw_v": null,
+            "sys_v": null,
+            "aon_residual_v": null,
+            "input_current_ma": null,
+            "supply_cc_or_cv": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B03",
+          "title": "主轨建立，MCU保持复位",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "reg_v": null,
+            "aon_v": null,
+            "reg_pg_v": null,
+            "rise_time_ms": null,
+            "ripple_vpp": null,
+            "all_domain_output_v": null,
+            "all_enable_v": null,
+            "input_current_ma": null,
+            "scope_capture": null,
+            "supply_cc_or_cv": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B04",
+          "title": "ROM/MCU最小启动与独立USB数据",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "firmware_or_rom_identity": null,
+            "aon_min_v": null,
+            "input_peak_ma": null,
+            "reset_count": null,
+            "usb_enumeration_log": null,
+            "vbus_sense_inserted_v": null,
+            "vbus_sense_removed_v": null,
+            "jumper_photo": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B05",
+          "title": "维护固件AON控制与电量计",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "firmware_sha256": null,
+            "iox_reset_capture": null,
+            "iox_register_readback": null,
+            "gauge_voltage_v": null,
+            "meter_bat_prot_v": null,
+            "gauge_soc_marked_invalid": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B06",
+          "title": "触摸单域",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "touch_3v3_v": null,
+            "rise_time_ms": null,
+            "peak_current_ma": null,
+            "address_7bit": null,
+            "touch_and_interrupt_result": null,
+            "i2c_rise_time_ns": null,
+            "off_at_1s_v": null,
+            "backfeed_observation": null,
+            "scope_capture": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B07",
+          "title": "SD单域",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "sd_3v3_v": null,
+            "rise_time_ms": null,
+            "peak_current_ma": null,
+            "init_hz": null,
+            "four_bit_hz": null,
+            "file_integrity_result": null,
+            "unmount_result": null,
+            "off_at_1s_v": null,
+            "backfeed_observation": null,
+            "scope_capture": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B08",
+          "title": "EPD单域",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "epd_3v3_v": null,
+            "rise_time_ms": null,
+            "peak_current_ma": null,
+            "full_refresh_result": null,
+            "sleep_result": null,
+            "busy_timeout_result": null,
+            "high_voltage_differential_waveforms": null,
+            "low_voltage_off_at_1s_v": null,
+            "scope_capture": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B09",
+          "title": "MIC单域；AMP供电但静音",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "mic_3v3_v": null,
+            "amp_sys_v": null,
+            "sample_rate_hz": null,
+            "bclk_hz": null,
+            "slots_and_bits": null,
+            "startup_discard_samples": null,
+            "recording_result": null,
+            "mic_off_at_1s_v": null,
+            "amp_off_at_1s_v": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B10",
+          "title": "AMP单域与差分扬声器",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "amp_sys_v": null,
+            "speaker_measured_impedance_ohm": null,
+            "output_power_w": null,
+            "clipping_result": null,
+            "pop_result": null,
+            "input_peak_ma": null,
+            "temperature_c": null,
+            "off_at_1s_v": null,
+            "differential_capture": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "B11",
+          "title": "真实电池、充电与故障验证；当前未开放",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "battery_identity": null,
+            "actual_ntc_curve": null,
+            "cv_validation": null,
+            "temperature_window_validation": null,
+            "fault_validation": null,
+            "charge_current_a": null,
+            "termination_current_a": null,
+            "timer_validation": null,
+            "thermal_validation": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        },
+        {
+          "id": "R00",
+          "title": "试验后跳线和测流连接复原",
+          "status": "pending",
+          "executed_at": null,
+          "operator": null,
+          "prerequisites_satisfied": null,
+          "supply_voltage_v": null,
+          "supply_current_limit_a": null,
+          "ambient_c": null,
+          "measurements": {
+            "jumper_and_link_state": null,
+            "dnp_confirmation": null,
+            "rework_log": null,
+            "final_photos": null
+          },
+          "evidence_files": [],
+          "result": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

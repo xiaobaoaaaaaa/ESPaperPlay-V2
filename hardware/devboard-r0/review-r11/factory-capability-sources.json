@@ -1,0 +1,97 @@
+{
+  "review_date": "2026-11-14",
+  "status": "PUBLIC_CAPABILITIES_CHECKED_FACTORY_RELEASE_PENDING",
+  "source_board": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "source_board_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "approved_quantities": {
+    "bare_boards": 5,
+    "initial_assembled_boards": 2,
+    "frameless_top_stencil": 1
+  },
+  "selected_engineering_stencil": {
+    "outer_size_mm": [
+      280,
+      380
+    ],
+    "thickness_mm": 0.1,
+    "full_sheet": true,
+    "board_centered_mm": [
+      160,
+      110
+    ],
+    "board_to_sheet_margins_mm": [
+      60,
+      135
+    ],
+    "top_only": true,
+    "aperture_source": "hardware/devboard-r0/output/manufacturing/r10-review/stencil/ESPaperPlay_Devboard-DIY-F_Paste.gtp",
+    "aperture_sha256": "b5ef210786e63462b0a9395ad313a65d62065bc8d13af80e4250fbddf4db84c9",
+    "polishing": "electropolishing engineering selection; price pending",
+    "registration": "user tape hinge manual alignment; no through MARK holes",
+    "thickness_and_bridge_factory_confirmed": false
+  },
+  "sources": [
+    {
+      "id": "capabilities",
+      "url": "https://www.jlc.com/portal/vtechnology.html",
+      "evidence_mode": "web primary page read",
+      "used_for": "Public FR4 drill, copper, layer, fill-cap and mask capabilities; not order acceptance."
+    },
+    {
+      "id": "fill-guide",
+      "url": "https://www.jlc.com/portal/factoryVisitDetails/38630",
+      "evidence_mode": "web primary page read",
+      "used_for": "4-layer via filling/capping is a paid process; no selective 11-hole pricing claim."
+    },
+    {
+      "id": "mask-guide",
+      "url": "https://www.jlc.com/portal/server_guide_34402.html",
+      "evidence_mode": "web primary page read",
+      "used_for": "Retain supplied mask openings through explicit notes and production artwork review."
+    },
+    {
+      "id": "impedance-order",
+      "url": "https://www.jlc.com/portal/server_guide_38565.html",
+      "evidence_mode": "web primary page read",
+      "used_for": "Submit impedance table; choose +/-10 percent. No requirement or +/-20 percent controls track geometry only."
+    },
+    {
+      "id": "domestic-stackup-parameters",
+      "url": "https://www.jlc.com/portal/q6i36372.html",
+      "evidence_mode": "web primary page read",
+      "used_for": "Domestic calculation parameters: outer copper 1.6mil for 1oz, mask base/track 1.0/.6mil. These differ from r10 international calculator input."
+    },
+    {
+      "id": "stencil-preserve-artwork",
+      "url": "https://www.jlc.com/portal/server_guide_17856.html",
+      "evidence_mode": "web primary page and official response read",
+      "used_for": "Single Gerber layer plus explicit 1:1 unmodified apertures needed to avoid default treatment; production artwork is reviewable."
+    },
+    {
+      "id": "frameless-stencil-live-options",
+      "url": "https://www.jlc-gw.com/quote-online/steelmesh",
+      "evidence_mode": "CUA Edge live UI, SMT steel sheet unframed then standard size selected; AX state manually transcribed. No upload, order navigation, form submission or purchase.",
+      "used_for": "Standard 28x38cm available, maximum effective area 20x36 / 26x30cm. Full sheet vs PCB-outline cutting and PDF confirmation options observed.",
+      "local_evidence": "stencil-ui-transcription.txt"
+    }
+  ],
+  "remaining_factory_decisions": [
+    "Exact domestic stackup and copper/mask model; +/-10 percent impedance order selection and four-row table",
+    "11 thermal vias treatment, planarity and actual expanded fill scope",
+    "Supplied mask offsets preserved or changes explicitly reviewed",
+    "0.10mm full steel sheet, 0.15mm microphone bridges and unmodified aperture production artwork",
+    "Actual complete price and lead time"
+  ],
+  "no_external_actions": [
+    "No CAD upload",
+    "No factory messages",
+    "No order submission",
+    "No payment"
+  ],
+  "not_claimed": [
+    "No domestic calculator re-run",
+    "No complete quotation",
+    "No fabrication release",
+    "No physical stencil print or reflow verification"
+  ]
+}

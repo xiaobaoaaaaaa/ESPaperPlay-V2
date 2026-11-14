@@ -1,0 +1,77 @@
+{
+  "source": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "source_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "review_date": "2026-11-14",
+  "method": "Read-only pcbnew 10 native geometry. Circular/capsule drill boundaries via Shapely, 256 segments per quadrant; center/radius lower bound prunes distant pairs. Polygon approximation is not factory tolerance. No DRC rerun or board edits.",
+  "hole_count": 663,
+  "minimum_hole_gaps": {
+    "all": {
+      "gap_mm": 0.27214973018914024,
+      "hole_a": "via:48875782-7bf4-4dd1-bade-ae54aeedc815",
+      "hole_b": "via:c7f1b21f-7b82-4b24-80c5-61bac4f89705"
+    },
+    "component_pth_pair": {
+      "gap_mm": 1.4399999999999693,
+      "hole_a": "J301.1:0aa15bba-f8c0-51d9-896b-b02e45f66b49",
+      "hole_b": "J301.2:5265cd49-9656-5e4e-995c-5102178a6237"
+    }
+  },
+  "regular_component_pth_count": 95,
+  "minimum_regular_component_pth_nominal_ring_mm": 0.2,
+  "plated_usb_slots": [
+    {
+      "reference": "J501",
+      "pad": "SH",
+      "size_mm": [
+        1.0,
+        2.1
+      ],
+      "drill_mm": [
+        0.6,
+        1.7
+      ],
+      "minimum_nominal_ring_mm": 0.2
+    },
+    {
+      "reference": "J501",
+      "pad": "SH",
+      "size_mm": [
+        1.0,
+        1.8
+      ],
+      "drill_mm": [
+        0.6,
+        1.4
+      ],
+      "minimum_nominal_ring_mm": 0.2
+    },
+    {
+      "reference": "J501",
+      "pad": "SH",
+      "size_mm": [
+        1.0,
+        2.1
+      ],
+      "drill_mm": [
+        0.6,
+        1.7
+      ],
+      "minimum_nominal_ring_mm": 0.2
+    },
+    {
+      "reference": "J501",
+      "pad": "SH",
+      "size_mm": [
+        1.0,
+        1.8
+      ],
+      "drill_mm": [
+        0.6,
+        1.4
+      ],
+      "minimum_nominal_ring_mm": 0.2
+    }
+  ],
+  "minimum_actual_track_width_mm": 0.18,
+  "drill_minimum_mm": 0.2
+}

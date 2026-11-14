@@ -4,6 +4,8 @@
 
 当前入口：[r10设计记录](../../docs/v2/hardware/pcb-dfm-r10.md)、[原生PCB](ESPaperPlay_Devboard.kicad_pcb)、[复核证据](review-r10/README.md)和[制造/装配审查包](output/manufacturing/r10-review/README.md)。官方名义模型窗口支持保持现有USB/SD线宽；实际阻抗与填孔加工按生产稿确认。[r8布线](../../docs/v2/hardware/pcb-routing-r8.md)及[r9制造审查](../../docs/v2/hardware/manufacturing-review-r9.md)为历史依据。
 
+首批已按用户确认的**5块PCB、先焊2块、无框钢片**完成[r11准备](../../docs/v2/hardware/first-batch-preparation-r11.md)：[具体加工要求与备料表](output/manufacturing/r10-first-batch/README.md)、[端子/跳帽/首板步骤](review-r11/first-board-checklist.md)。r11不是新PCB版本；当前未对外提交或下单，工厂回复、关键MLCC来料与分域维护固件仍待完成。
+
 原理图见[模块化绘图r6](../../docs/v2/hardware/schematic-layout-r6.md)。电气依据仍见[充电设计r5](../../docs/v2/hardware/charging-design-r5.md)和[逐位号BOM](review-r5/bom-review.json)。温窗按用户授权的Honeywell 175-103LAE-301 Rev.B曲线假设设计，尚未证实电池实际NTC相同；R108继续DNP。此前[保守电池预算与纯延长连接](../../docs/v2/hardware/design-assumptions-2026-11-04.md)仍适用。
 
 [r4审查报告](../../docs/v2/hardware/closure-review-r4.md)、[r4工作簿](../../outputs/espaperplay-bom-r4/ESPaperPlay_BOM_Review_r4.xlsx)为历史，未纳入r5的新值。全套绘图版本为r6；候选器件属性沿用r4/r5审查记录。当前结果以本页和verification.json为准。

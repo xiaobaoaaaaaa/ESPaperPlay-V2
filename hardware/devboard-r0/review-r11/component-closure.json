@@ -1,0 +1,693 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-14",
+  "scope": "r10 first-board component preparation; no CAD/BOM substitution or order",
+  "baseline": {
+    "pcb": {
+      "path": "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+      "sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24"
+    },
+    "bom": {
+      "path": "hardware/devboard-r0/output/manufacturing/r10-review/assembly/bom-fitted.csv",
+      "sha256": "6c06cdf6350e5bb17f5e4345a5ced5efe4c170a837144717f8e59bd76e3d85a2"
+    },
+    "netlist": {
+      "path": "hardware/devboard-r0/output/validation/peripheral-r6.net.xml",
+      "sha256": "38b27a9a2af1f0229e19b767f3bae39fdf14c242798dfa5ad9c859c32cd63beb"
+    }
+  },
+  "result": "CANDIDATES_RETAINED__FOUR_CRITICAL_CAPACITANCE_GATES_QUANTIFIED__NO_PRODUCTION_QUALIFICATION",
+  "counts": {
+    "fitted_capacitor_positions": 56,
+    "distinct_capacitor_mpns": 10,
+    "bom_value_group_rows": 19
+  },
+  "items": [
+    {
+      "refs": [
+        "C101"
+      ],
+      "quantity_per_board": 1,
+      "value": "4.7u / 25V",
+      "mpn": "C2012X7R1E475K125AB",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pin_nets": {
+        "C101": {
+          "2": "GND",
+          "1": "VIN_5V"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C102",
+        "C103"
+      ],
+      "quantity_per_board": 2,
+      "value": "10u / 16V",
+      "mpn": "C3216X5R1C106K160AA",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pin_nets": {
+        "C102": {
+          "2": "GND",
+          "1": "SYS_RAW"
+        },
+        "C103": {
+          "1": "BAT_PROT",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C201"
+      ],
+      "quantity_per_board": 1,
+      "value": "10u / 16V",
+      "mpn": "C3216X5R1C106K160AA",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pin_nets": {
+        "C201": {
+          "2": "GND",
+          "1": "SYS"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C202"
+      ],
+      "quantity_per_board": 1,
+      "value": "22u / 16V",
+      "mpn": "C3216X5R1C226M160AB",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pin_nets": {
+        "C202": {
+          "1": "/POWER_3V3_CONTROL/3V3_REG",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C203",
+        "C204"
+      ],
+      "quantity_per_board": 2,
+      "value": "100n",
+      "mpn": "C1608X7R1H104K080AA",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_nets": {
+        "C203": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C204": {
+          "1": "BAT_PROT",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C301",
+        "C702",
+        "C803"
+      ],
+      "quantity_per_board": 3,
+      "value": "10u / 10V",
+      "mpn": "C2012X7R1A106K125AC",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pin_nets": {
+        "C301": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C702": {
+          "2": "GND",
+          "1": "SD_3V3"
+        },
+        "C803": {
+          "1": "AMP_SYS",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C302",
+        "C416",
+        "C417",
+        "C611",
+        "C612",
+        "C701",
+        "C703",
+        "C705",
+        "C801",
+        "C802",
+        "C804",
+        "C806",
+        "C808"
+      ],
+      "quantity_per_board": 13,
+      "value": "100n / 10V",
+      "mpn": "C1608X7R1H104K080AA",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_nets": {
+        "C302": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C416": {
+          "2": "GND",
+          "1": "TOUCH_3V3"
+        },
+        "C417": {
+          "2": "GND",
+          "1": "TOUCH_3V3"
+        },
+        "C611": {
+          "1": "EPD_3V3",
+          "2": "GND"
+        },
+        "C612": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C701": {
+          "2": "GND",
+          "1": "SD_3V3"
+        },
+        "C703": {
+          "2": "GND",
+          "1": "SD_3V3"
+        },
+        "C705": {
+          "2": "GND",
+          "1": "SD_3V3"
+        },
+        "C801": {
+          "2": "GND",
+          "1": "MIC_3V3"
+        },
+        "C802": {
+          "1": "AMP_SYS",
+          "2": "GND"
+        },
+        "C804": {
+          "2": "GND",
+          "1": "MIC_3V3"
+        },
+        "C806": {
+          "2": "GND",
+          "1": "MIC_3V3"
+        },
+        "C808": {
+          "1": "3V3_AON",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C303",
+        "C805"
+      ],
+      "quantity_per_board": 2,
+      "value": "1u / 16V",
+      "mpn": "C1608X7R1C105K080AC",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_nets": {
+        "C303": {
+          "1": "/MCU_CORE/MCU_EN",
+          "2": "GND"
+        },
+        "C805": {
+          "2": "GND",
+          "1": "MIC_3V3"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C401",
+        "C404",
+        "C407",
+        "C410",
+        "C412",
+        "C413"
+      ],
+      "quantity_per_board": 6,
+      "value": "1u / 16V",
+      "mpn": "C1608X7R1C105K080AC",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_nets": {
+        "C401": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C404": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C407": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C410": {
+          "1": "3V3_AON",
+          "2": "GND"
+        },
+        "C412": {
+          "2": "GND",
+          "1": "MIC_3V3"
+        },
+        "C413": {
+          "2": "GND",
+          "1": "SYS"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C402",
+        "C405",
+        "C408",
+        "C411",
+        "C414"
+      ],
+      "quantity_per_board": 5,
+      "value": "4.7n / 50V",
+      "mpn": "C1608C0G1H472J080AA",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_nets": {
+        "C402": {
+          "1": "/POWER_DOMAINS/EPD_CT",
+          "2": "GND"
+        },
+        "C405": {
+          "1": "/POWER_DOMAINS/SD_CT",
+          "2": "GND"
+        },
+        "C408": {
+          "1": "/POWER_DOMAINS/TOUCH_CT",
+          "2": "GND"
+        },
+        "C411": {
+          "1": "/POWER_DOMAINS/MIC_CT",
+          "2": "GND"
+        },
+        "C414": {
+          "1": "/POWER_DOMAINS/AMP_CT",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C403",
+        "C406",
+        "C415"
+      ],
+      "quantity_per_board": 3,
+      "value": "22u / 16V",
+      "mpn": "C3216X5R1C226M160AB",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pin_nets": {
+        "C403": {
+          "1": "EPD_3V3",
+          "2": "GND"
+        },
+        "C406": {
+          "2": "GND",
+          "1": "SD_3V3"
+        },
+        "C415": {
+          "1": "AMP_SYS",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C409"
+      ],
+      "quantity_per_board": 1,
+      "value": "4.7u / 25V",
+      "mpn": "C2012X7R1E475K125AB",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pin_nets": {
+        "C409": {
+          "2": "GND",
+          "1": "TOUCH_3V3"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C503"
+      ],
+      "quantity_per_board": 1,
+      "value": "100n / 16V",
+      "mpn": "C1608X7R1H104K080AA",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_nets": {
+        "C503": {
+          "2": "GND",
+          "1": "USB_VBUS"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C601",
+        "C602",
+        "C604",
+        "C607",
+        "C608",
+        "C609"
+      ],
+      "quantity_per_board": 6,
+      "value": "4.7u / 50V",
+      "mpn": "GRM31CR71H475KA12L",
+      "footprint": "Capacitor_SMD:C_1206_3216Metric",
+      "pin_nets": {
+        "C601": {
+          "1": "EPD_VSHR",
+          "2": "GND"
+        },
+        "C602": {
+          "2": "/EPD_DISPLAY/EPD_SW",
+          "1": "EPD_FLY"
+        },
+        "C604": {
+          "1": "EPD_PREVGH",
+          "2": "GND"
+        },
+        "C607": {
+          "1": "EPD_VSH1",
+          "2": "GND"
+        },
+        "C608": {
+          "1": "EPD_VSL",
+          "2": "GND"
+        },
+        "C609": {
+          "1": "EPD_PREVGL",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C603"
+      ],
+      "quantity_per_board": 1,
+      "value": "4.7u / 25V",
+      "mpn": "C2012X7R1E475K125AB",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pin_nets": {
+        "C603": {
+          "1": "EPD_3V3",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C605",
+        "C606",
+        "C610"
+      ],
+      "quantity_per_board": 3,
+      "value": "1u / 50V",
+      "mpn": "C2012X7R1H105K125AB",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pin_nets": {
+        "C605": {
+          "1": "EPD_3V3",
+          "2": "GND"
+        },
+        "C606": {
+          "1": "EPD_VDD_INT",
+          "2": "GND"
+        },
+        "C610": {
+          "1": "EPD_VCOM",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C704"
+      ],
+      "quantity_per_board": 1,
+      "value": "10n / 50V",
+      "mpn": "C1608C0G1H103J080AA",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_nets": {
+        "C704": {
+          "2": "GND",
+          "1": "SD_CD_N"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C901"
+      ],
+      "quantity_per_board": 1,
+      "value": "100n / 50V",
+      "mpn": "C1608X7R1H104K080AA",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_nets": {
+        "C901": {
+          "2": "GND",
+          "1": "VIN_5V"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    },
+    {
+      "refs": [
+        "C902",
+        "C903",
+        "C904"
+      ],
+      "quantity_per_board": 3,
+      "value": "10n / 50V",
+      "mpn": "C1608C0G1H103J080AA",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pin_nets": {
+        "C902": {
+          "1": "BAT_NTC",
+          "2": "GND"
+        },
+        "C903": {
+          "1": "/CHARGE_TEMP/NTC_HOT_REF",
+          "2": "GND"
+        },
+        "C904": {
+          "1": "/CHARGE_TEMP/NTC_COLD_REF",
+          "2": "GND"
+        }
+      },
+      "qualified_minimum_effective_uF": null
+    }
+  ],
+  "critical_acceptance": [
+    {
+      "reference": "C102",
+      "mpn": "C3216X5R1C106K160AA",
+      "qualification_voltage_V": 5.0,
+      "minimum_effective_uF": 4.7,
+      "basis": "project conservative OUT criterion; BQ published nominal range is 4.7-47uF",
+      "nominal_uF": 10.0,
+      "initial_negative_tolerance_fraction": 0.1,
+      "required_retention_after_initial_tolerance": 0.5222222222222223,
+      "qualified_uF": null,
+      "prototype_measurement_uF": null,
+      "status": "OPEN_COMPONENT_EVIDENCE_OR_GUARDED_SAMPLE_MEASUREMENT"
+    },
+    {
+      "reference": "C103",
+      "mpn": "C3216X5R1C106K160AA",
+      "qualification_voltage_V": 4.5,
+      "minimum_effective_uF": 4.7,
+      "basis": "project conservative BAT criterion; BQ published nominal range is 4.7-47uF",
+      "nominal_uF": 10.0,
+      "initial_negative_tolerance_fraction": 0.1,
+      "required_retention_after_initial_tolerance": 0.5222222222222223,
+      "qualified_uF": null,
+      "prototype_measurement_uF": null,
+      "status": "OPEN_COMPONENT_EVIDENCE_OR_GUARDED_SAMPLE_MEASUREMENT"
+    },
+    {
+      "reference": "C201",
+      "mpn": "C3216X5R1C106K160AA",
+      "qualification_voltage_V": 5.0,
+      "minimum_effective_uF": 4.0,
+      "basis": "TI TPS63802 section 8.3 explicit effective input minimum",
+      "nominal_uF": 10.0,
+      "initial_negative_tolerance_fraction": 0.1,
+      "required_retention_after_initial_tolerance": 0.4444444444444444,
+      "qualified_uF": null,
+      "prototype_measurement_uF": null,
+      "status": "OPEN_COMPONENT_EVIDENCE_OR_GUARDED_SAMPLE_MEASUREMENT"
+    },
+    {
+      "reference": "C202",
+      "mpn": "C3216X5R1C226M160AB",
+      "qualification_voltage_V": 3.6,
+      "minimum_effective_uF": 7.0,
+      "basis": "TI TPS63802 section 8.3 explicit effective output minimum for VO>2.3V",
+      "nominal_uF": 22.0,
+      "initial_negative_tolerance_fraction": 0.2,
+      "required_retention_after_initial_tolerance": 0.3977272727272727,
+      "qualified_uF": null,
+      "prototype_measurement_uF": null,
+      "status": "OPEN_COMPONENT_EVIDENCE_OR_GUARDED_SAMPLE_MEASUREMENT"
+    }
+  ],
+  "replacements_required_by_verified_evidence": [],
+  "procurement_frozen": false,
+  "sources": [
+    {
+      "id": "TI_TPS63802",
+      "url": "https://www.ti.com/lit/ds/symlink/tps63802.pdf",
+      "access": "official web PDF read 2026-11-14",
+      "revision": "SLVSEU9D January 2021",
+      "sections": [
+        "8.3",
+        "10.2.2.3",
+        "10.2.2.4"
+      ],
+      "facts": [
+        "effective input minimum 4uF",
+        "effective output minimum 7uF when VO>2.3V",
+        "10uF nominal input and 22uF nominal output recommendations do not replace derating check"
+      ]
+    },
+    {
+      "id": "TI_BQ24074",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "access": "web refresh timed out; existing original manufacturer PDF read and rehashed",
+      "local_file": "hardware/reference/power/bq24074.pdf",
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1",
+      "sections": [
+        "pin functions",
+        "10.2.2.5"
+      ],
+      "facts": [
+        "IN nominal recommendation 1-10uF",
+        "OUT and BAT nominal recommendation 4.7-47uF",
+        "requires system operational evaluation; no explicit guaranteed biased 4.7uF threshold located"
+      ]
+    },
+    {
+      "id": "ADI_MAX98357A",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf",
+      "access": "official current web PDF and existing original PDF read",
+      "revision": "Rev 16 February 2026",
+      "section": "printed page 33 Power-Supply Input",
+      "facts": [
+        "0.1uF plus 10uF supply bypass",
+        "additional bulk for long supply traces",
+        "does not specify minimum effective capacitance in this recommendation"
+      ]
+    },
+    {
+      "id": "TDK_DELIVERY_2026",
+      "url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/specification/mlccspec_commercial_general_midvoltage_en.pdf",
+      "access": "official current web PDF read; no local original byte claim",
+      "revision": "GC11010030 September 2026",
+      "sections": [
+        "printed page6 table1 item4",
+        "printed page7 item7",
+        "printed page17 2-3"
+      ],
+      "facts": [
+        "AC capacitance test condition refers to sales representative; no universal 1kHz/1Vrms condition supplied in this revision",
+        "X5R/X7R 15percent temperature category is no-voltage-applied",
+        "effective capacitance depends on applied DC and AC voltage",
+        "X5R body rating -55 to85C"
+      ]
+    },
+    {
+      "id": "C3216X5R1C106K160AA",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X5R1C106K160AA",
+      "access": "official indexed product-page text read; direct product page/download and browser blocked403",
+      "lifecycle_observed": "Production",
+      "lifecycle_observation_source": "indexed official product text; not live distributor stock",
+      "characteristic_url": "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3216x5r1c106k160aa.pdf",
+      "raw_characteristic_pdf_obtained": false,
+      "raw_graph_independently_viewed": false,
+      "guaranteed_combined_bias_temperature_aging_obtained": false
+    },
+    {
+      "id": "C3216X5R1C226M160AB",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X5R1C226M160AB",
+      "access": "official indexed product-page text read; direct product page/download and browser blocked403",
+      "lifecycle_observed": "Production",
+      "lifecycle_observation_source": "indexed official product text; not live distributor stock",
+      "characteristic_url": "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3216x5r1c226m160ab.pdf",
+      "raw_characteristic_pdf_obtained": false,
+      "raw_graph_independently_viewed": false,
+      "guaranteed_combined_bias_temperature_aging_obtained": false
+    },
+    {
+      "id": "C2012X7R1A106K125AC",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1A106K125AC",
+      "access": "official indexed product-page text read; direct product page/download and browser blocked403",
+      "lifecycle_observed": "Production",
+      "lifecycle_observation_source": "indexed official product text; not live distributor stock",
+      "characteristic_url": "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x7r1a106k125ac.pdf",
+      "raw_characteristic_pdf_obtained": false,
+      "raw_graph_independently_viewed": false,
+      "guaranteed_combined_bias_temperature_aging_obtained": false
+    },
+    {
+      "id": "C2012X7R1E475K125AB",
+      "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C2012X7R1E475K125AB",
+      "access": "official indexed product-page text read; direct product page/download and browser blocked403",
+      "lifecycle_observed": "Production",
+      "lifecycle_observation_source": "indexed official product text; not live distributor stock",
+      "characteristic_url": "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x7r1e475k125ab.pdf",
+      "raw_characteristic_pdf_obtained": false,
+      "raw_graph_independently_viewed": false,
+      "guaranteed_combined_bias_temperature_aging_obtained": false
+    },
+    {
+      "id": "MURATA_GRM31",
+      "url": "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H475KA12L",
+      "access": "official API redirected to PIM page unavailable through web tool; retains existing r3/r4 candidate evidence only",
+      "guaranteed_effective_capacitance_obtained": false
+    }
+  ],
+  "staging": {
+    "bare_pcb_review": "May continue with existing r10 footprint geometry; no evidence establishes a mandatory footprint change",
+    "component_purchase": "Exact suffix and supplier/lot identity; reserve samples for biased capacitance check; no order performed",
+    "first_power_stage": "Guarded capacitance checks and source/current-limited rail tests before enabling downstream domains",
+    "epd_stage": "Separate measured differential voltage/ripple/body-temperature gate; minimum effective requirement not inferable from schematic nominal",
+    "production": "Combined bias-temperature-aging minima still open; prototype samples do not qualify all lots"
+  },
+  "note": "Indexed chart summaries were seen, but lack independently viewed raw graphs. Their numeric values are deliberately excluded from pass/fail calculations."
+}

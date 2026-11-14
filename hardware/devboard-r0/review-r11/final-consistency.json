@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-14",
+  "status": "PASS_LOCAL_PREPARATION_NOT_FACTORY_RELEASE",
+  "pcb_revision": "r10",
+  "preparation_revision": "r11",
+  "source_board_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "prior_hardware_hashes_checked": 414,
+  "changed_prior_files": [
+    "../../README.md",
+    "../../docs/v2/README.md",
+    "../../docs/v2/hardware/README.md",
+    "../../docs/v2/hardware/power-budget.md",
+    "../../docs/v2/roadmap.md",
+    "README.md"
+  ],
+  "pcb_project_schematics_libraries_and_firmware_unchanged": true,
+  "r10_package_files_unchanged": 31,
+  "request_contains_verified_ZIP_hashes": true,
+  "procurement_groups": 64,
+  "fitted_references_per_board": 230,
+  "two_board_net_demand": 460,
+  "optional_spares": 198,
+  "net_purchase_quantities_and_prices_unknown": true,
+  "physical_board_templates": 2,
+  "pending_measurements_per_board": 13,
+  "no_measurement_values_filled": true,
+  "markdown_links_checked": 37,
+  "HTML_local_links_checked": 5,
+  "HTML_checks": {
+    "rows": 64,
+    "search_C202": 1,
+    "print_all_rows": true,
+    "wide_and_narrow_no_page_overflow": true,
+    "rendered": true
+  },
+  "HTML_preview_visually_reviewed": true,
+  "native_DRC_rerun": false,
+  "native_DRC_note": "PCB/pro/project/footprints byte identical to r10; existing r10 DRC retained. Agent independently measured native line/hole geometry and re-exported schematic connectivity.",
+  "factory_contact_upload_order_or_power_on": false,
+  "limitations": [
+    "Actual factory quotation, production artwork, stackup/impedance, fill/cap scope/planarity pending.",
+    "Critical capacitor biased effective capacitance not measured or guaranteed; see component-closure.",
+    "M0 peripheral/maintenance firmware not implemented; see first-board checklist.",
+    "No supplier MOQ, stock, price or physical assembly validation claimed."
+  ]
+}

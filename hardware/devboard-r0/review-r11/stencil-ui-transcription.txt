@@ -1,0 +1,11 @@
+2026-11-14 — official live UI observation (manual transcription, not API export)
+https://www.jlc-gw.com/quote-online/steelmesh
+Read-only flow: SMT steel sheet (unframed) > standard dimensions.
+Smallest displayed standard option: 28 x 38 cm.
+Displayed maximum effective area: 20 x 36 / 26 x 30 cm.
+Other standard sheet sizes displayed: 32x42, 42x52, 46x46, 60x60, 60x70, 35x45 cm.
+Product options included full sheet with pattern, whole-board-outline cut, PCB-outline 1:1 cut.
+PDF production-artwork confirmation option and electropolishing option were visible.
+No files uploaded. No external message, order submission, checkout, or payment.
+No screenshot saved or claimed. Raw site price is not a complete project quotation.
+Engineering selection: full 280x380mm sheet, centered 160x110mm board, 0.10mm thickness subject to explicit fabrication confirmation.
