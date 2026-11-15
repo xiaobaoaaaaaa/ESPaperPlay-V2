@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "checks": {
+    "undersized_through": true,
+    "blind_rule_loaded": true,
+    "micro_rule_loaded": true
+  },
+  "added_via_UUIDs": {
+    "undersized_through": "8a2a8eee-85e4-43cf-bf32-ea0bcd34f40b",
+    "blind": "7e6c866b-0286-4bb1-bc4f-2792e1633ecf",
+    "micro": "9172f822-f453-4c8f-9a25-79d2c821eda1"
+  },
+  "findings": {
+    "undersized_through": [
+      {
+        "description": "过孔直径 (电路板配置约束 最小直径 0.6000 mm; 实际 0.4500 mm)",
+        "items": [
+          {
+            "description": "过孔 [GND] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 70.0,
+              "y": 63.0
+            },
+            "uuid": "8a2a8eee-85e4-43cf-bf32-ea0bcd34f40b"
+          }
+        ],
+        "severity": "error",
+        "type": "via_diameter"
+      },
+      {
+        "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+        "items": [
+          {
+            "description": "过孔 [GND] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 70.0,
+              "y": 63.0
+            },
+            "uuid": "8a2a8eee-85e4-43cf-bf32-ea0bcd34f40b"
+          }
+        ],
+        "severity": "error",
+        "type": "drill_out_of_range"
+      },
+      {
+        "description": "孔环宽度 (电路板配置约束 最小孔环宽度 0.1500 mm; 实际 0.1250 mm)",
+        "items": [
+          {
+            "description": "过孔 [GND] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 70.0,
+              "y": 63.0
+            },
+            "uuid": "8a2a8eee-85e4-43cf-bf32-ea0bcd34f40b"
+          }
+        ],
+        "severity": "error",
+        "type": "annular_width"
+      },
+      {
+        "description": "Via is not connected or connected on only one layer",
+        "items": [
+          {
+            "description": "过孔 [GND] (F.Cu - B.Cu)",
+            "pos": {
+              "x": 70.0,
+              "y": 63.0
+            },
+            "uuid": "8a2a8eee-85e4-43cf-bf32-ea0bcd34f40b"
+          }
+        ],
+        "severity": "warning",
+        "type": "via_dangling"
+      }
+    ],
+    "blind": [
+      {
+        "description": "不允许的项目 (规则 'Standard through vias only')",
+        "items": [
+          {
+            "description": "F.Cu - In1.Cu 上的盲孔 [GND]",
+            "pos": {
+              "x": 75.0,
+              "y": 63.0
+            },
+            "uuid": "7e6c866b-0286-4bb1-bc4f-2792e1633ecf"
+          }
+        ],
+        "severity": "error",
+        "type": "items_not_allowed"
+      },
+      {
+        "description": "Via is not connected or connected on only one layer",
+        "items": [
+          {
+            "description": "F.Cu - In1.Cu 上的盲孔 [GND]",
+            "pos": {
+              "x": 75.0,
+              "y": 63.0
+            },
+            "uuid": "7e6c866b-0286-4bb1-bc4f-2792e1633ecf"
+          }
+        ],
+        "severity": "warning",
+        "type": "via_dangling"
+      }
+    ],
+    "micro": [
+      {
+        "description": "不允许的项目 (规则 'Standard through vias only')",
+        "items": [
+          {
+            "description": "F.Cu - In1.Cu 上的微孔 [GND]",
+            "pos": {
+              "x": 80.0,
+              "y": 63.0
+            },
+            "uuid": "9172f822-f453-4c8f-9a25-79d2c821eda1"
+          }
+        ],
+        "severity": "error",
+        "type": "items_not_allowed"
+      },
+      {
+        "description": "Via is not connected or connected on only one layer",
+        "items": [
+          {
+            "description": "F.Cu - In1.Cu 上的微孔 [GND]",
+            "pos": {
+              "x": 80.0,
+              "y": 63.0
+            },
+            "uuid": "9172f822-f453-4c8f-9a25-79d2c821eda1"
+          }
+        ],
+        "severity": "warning",
+        "type": "via_dangling"
+      }
+    ]
+  },
+  "source_unchanged": true,
+  "inputs": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/ESPaperPlay_99.kicad_pcb": "543311d31259839073d7b044477841ac2600a39f099e2fd04e69a8c49db66df7",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/ESPaperPlay_99.kicad_pro": "4875b4003223a4dcc6f4160a6206580782b4b1f99ee84de6b38f4f7fc7a8f48b",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/ESPaperPlay_99.kicad_dru": "aaea1251e5e15e9069559865eeee70d63c436d2e7a19be8cbaea4e3e4f9cac13"
+  },
+  "native_exit_code": 0,
+  "scratch_directory": "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/validation-negative",
+  "scope": "Only disposable negative.kicad_pcb modified. The original project was read but not saved."
+}

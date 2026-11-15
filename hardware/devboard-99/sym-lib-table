@@ -1,0 +1,2 @@
+(sym_lib_table (version 7)
+ (lib (name "ESPaperPlay") (type "KiCad") (uri "${KIPRJMOD}/ESPaperPlay.kicad_sym") (options "") (descr "Locally verified power symbols")))

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "scope": "All published hardware/devboard-r0 files including KiCad r10, EasyEDA snapshots and manufacturing outputs",
+  "files_checked": 468,
+  "changed_files": [],
+  "baseline_commit": "06d10c7",
+  "board_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24"
+}

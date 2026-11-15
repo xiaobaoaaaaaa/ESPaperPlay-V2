@@ -1,0 +1,699 @@
+{
+  "status": "PASS_ENGINEERING_ACCESS_ENVELOPES",
+  "board": "hardware/devboard-99/ESPaperPlay_99.kicad_pcb",
+  "board_sha256": "543311d31259839073d7b044477841ac2600a39f099e2fd04e69a8c49db66df7",
+  "units": "mm; board-local x=0..99, y=0..99, positive y down",
+  "method": "Each operation envelope is checked against every other full front courtyard, including the off-board RF area. Its own connector or switch is excluded. All-pair PCB courtyard DRC is a separate check.",
+  "assumptions": [
+    "Cable, plug, screwdriver and finger margins are engineering design allowances, not manufacturer-certified minimums.",
+    "USB plug candidate is at most 14 mm wide and exits straight through the top; route external cables outside the RF keepout.",
+    "Standoff or screw-head outside diameter is at most 7 mm. Final hardware and enclosure fit still require checking.",
+    "Headers accept vertically inserted 2.54 mm jumpers or individual female leads. No right-angle housing clearance is asserted.",
+    "No height-resolved 3D collision, full-size fingertip clearance, or flex bend-radius proof is asserted."
+  ],
+  "envelopes": [
+    {
+      "name": "USB_PLUG_AND_STRAIGHT_EXIT",
+      "reference": "J501",
+      "shape": "rect",
+      "bounds_mm": [
+        10.5,
+        -16,
+        24.5,
+        -0.375
+      ],
+      "purpose": "14mm wide plug/strain-relief candidate, straight out top; reserve away from MCU RF courtyard"
+    },
+    {
+      "name": "SD_INSERT_EJECT",
+      "reference": "J701",
+      "shape": "rect",
+      "bounds_mm": [
+        98.125,
+        15.5,
+        116,
+        29.5
+      ],
+      "purpose": "18mm outboard insertion/ejection access; includes source card ejected outline toX103.725 atnominalplacement"
+    },
+    {
+      "name": "TOUCH_FFC_EXIT",
+      "reference": "J406",
+      "shape": "rect",
+      "bounds_mm": [
+        97.64999999999999,
+        46.5,
+        111,
+        53.5
+      ],
+      "purpose": "7mm wide flat-flex insertion/exit allowance to right"
+    },
+    {
+      "name": "TOUCH_LOCK_TOP_ACCESS",
+      "reference": "J406",
+      "shape": "rect",
+      "bounds_mm": [
+        93.39999999999999,
+        46.5,
+        99.39999999999999,
+        53.5
+      ],
+      "purpose": "Top approach to flip/slide lock; no adjacent tall fitted parts inside"
+    },
+    {
+      "name": "EPD_FFC_EXIT",
+      "reference": "J601",
+      "shape": "rect",
+      "bounds_mm": [
+        71.5,
+        96.08,
+        89.5,
+        111
+      ],
+      "purpose": "18mm wide flexible-cable handling allowance to bottom"
+    },
+    {
+      "name": "EPD_LOCK_TOP_ACCESS",
+      "reference": "J601",
+      "shape": "rect",
+      "bounds_mm": [
+        71.5,
+        92.0,
+        89.5,
+        99
+      ],
+      "purpose": "Top approach from bottom edge to actuator; original connector body and ownpads excluded"
+    },
+    {
+      "name": "J102_WIRE_ENTRY",
+      "reference": "J102",
+      "shape": "rect",
+      "bounds_mm": [
+        -12,
+        36.5,
+        0.7000000000000002,
+        46.0
+      ],
+      "purpose": "Left-going wire/ferrule insertion; 12mm outboard handling reserve"
+    },
+    {
+      "name": "J102_SCREWDRIVER_TOP",
+      "reference": "J102",
+      "shape": "rect",
+      "bounds_mm": [
+        0.20000000000000018,
+        37.0,
+        8.5,
+        45.5
+      ],
+      "purpose": "Top screwdriver access over screw-terminal housing"
+    },
+    {
+      "name": "J103_WIRE_ENTRY",
+      "reference": "J103",
+      "shape": "rect",
+      "bounds_mm": [
+        -12,
+        48.5,
+        0.7000000000000002,
+        58.0
+      ],
+      "purpose": "Left-going wire/ferrule insertion; 12mm outboard handling reserve"
+    },
+    {
+      "name": "J103_SCREWDRIVER_TOP",
+      "reference": "J103",
+      "shape": "rect",
+      "bounds_mm": [
+        0.20000000000000018,
+        49.0,
+        8.5,
+        57.5
+      ],
+      "purpose": "Top screwdriver access over screw-terminal housing"
+    },
+    {
+      "name": "SPEAKER_WIRE_ENTRY",
+      "reference": "J801",
+      "shape": "rect",
+      "bounds_mm": [
+        98.3,
+        60.0,
+        111,
+        70.0
+      ],
+      "purpose": "Right-going speaker wire insertion; pairedBTL path later mustkeepawayfromsensitive analognodes"
+    },
+    {
+      "name": "SPEAKER_SCREWDRIVER_TOP",
+      "reference": "J801",
+      "shape": "rect",
+      "bounds_mm": [
+        90.39999999999999,
+        60.5,
+        98.8,
+        69.0
+      ],
+      "purpose": "Top screwdriver approach to speaker terminal"
+    },
+    {
+      "name": "SW301_FINGER_ACCESS",
+      "reference": "SW301",
+      "shape": "circle",
+      "center_mm": [
+        17.25,
+        94.75
+      ],
+      "radius_mm": 5,
+      "purpose": "10mm diameter top-approach allowance; 11mm button pitch; not an enclosure ergonomic certification"
+    },
+    {
+      "name": "SW302_FINGER_ACCESS",
+      "reference": "SW302",
+      "shape": "circle",
+      "center_mm": [
+        28.25,
+        94.75
+      ],
+      "radius_mm": 5,
+      "purpose": "10mm diameter top-approach allowance; 11mm button pitch; not an enclosure ergonomic certification"
+    },
+    {
+      "name": "SW303_FINGER_ACCESS",
+      "reference": "SW303",
+      "shape": "circle",
+      "center_mm": [
+        39.25,
+        94.75
+      ],
+      "radius_mm": 5,
+      "purpose": "10mm diameter top-approach allowance; 11mm button pitch; not an enclosure ergonomic certification"
+    },
+    {
+      "name": "SW304_FINGER_ACCESS",
+      "reference": "SW304",
+      "shape": "circle",
+      "center_mm": [
+        50.25,
+        94.75
+      ],
+      "radius_mm": 5,
+      "purpose": "10mm diameter top-approach allowance; 11mm button pitch; not an enclosure ergonomic certification"
+    },
+    {
+      "name": "SW305_FINGER_ACCESS",
+      "reference": "SW305",
+      "shape": "circle",
+      "center_mm": [
+        61.25,
+        94.75
+      ],
+      "radius_mm": 5,
+      "purpose": "10mm diameter top-approach allowance; 11mm button pitch; not an enclosure ergonomic certification"
+    },
+    {
+      "name": "H1_STANDOFF",
+      "reference": "H1",
+      "shape": "circle",
+      "center_mm": [
+        5.0,
+        5.0
+      ],
+      "radius_mm": 3.5,
+      "purpose": "7mm diameter standoff/screwhead allowance on both sides; verify final hardware"
+    },
+    {
+      "name": "H2_STANDOFF",
+      "reference": "H2",
+      "shape": "circle",
+      "center_mm": [
+        94.0,
+        5.0
+      ],
+      "radius_mm": 3.5,
+      "purpose": "7mm diameter standoff/screwhead allowance on both sides; verify final hardware"
+    },
+    {
+      "name": "H3_STANDOFF",
+      "reference": "H3",
+      "shape": "circle",
+      "center_mm": [
+        5.0,
+        94.0
+      ],
+      "radius_mm": 3.5,
+      "purpose": "7mm diameter standoff/screwhead allowance on both sides; verify final hardware"
+    },
+    {
+      "name": "H4_STANDOFF",
+      "reference": "H4",
+      "shape": "circle",
+      "center_mm": [
+        94.0,
+        94.0
+      ],
+      "radius_mm": 3.5,
+      "purpose": "7mm diameter standoff/screwhead allowance on both sides; verify final hardware"
+    }
+  ],
+  "checks": [
+    {
+      "name": "USB_PLUG_AND_STRAIGHT_EXIT",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "SD_INSERT_EJECT",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "TOUCH_FFC_EXIT",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "TOUCH_LOCK_TOP_ACCESS",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "EPD_FFC_EXIT",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "EPD_LOCK_TOP_ACCESS",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "J102_WIRE_ENTRY",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "J102_SCREWDRIVER_TOP",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "J103_WIRE_ENTRY",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "J103_SCREWDRIVER_TOP",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "SPEAKER_WIRE_ENTRY",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "SPEAKER_SCREWDRIVER_TOP",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "SW301_FINGER_ACCESS",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "SW302_FINGER_ACCESS",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "SW303_FINGER_ACCESS",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "SW304_FINGER_ACCESS",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "SW305_FINGER_ACCESS",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "H1_STANDOFF",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "H2_STANDOFF",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "H3_STANDOFF",
+      "other_courtyard_intersections": []
+    },
+    {
+      "name": "H4_STANDOFF",
+      "other_courtyard_intersections": []
+    }
+  ],
+  "expected_angles_degrees_ccw": {
+    "J501": 180,
+    "J701": 90,
+    "J406": 90,
+    "J601": 0,
+    "J102": 90,
+    "J103": 90,
+    "J801": 270,
+    "SW301": 0,
+    "SW302": 0,
+    "SW303": 0,
+    "SW304": 0,
+    "SW305": 0
+  },
+  "reviewed_origins_mm": {
+    "J501": [
+      17.5,
+      3.3
+    ],
+    "J701": [
+      90.0,
+      22.0
+    ],
+    "J406": [
+      94.6,
+      50.0
+    ],
+    "J601": [
+      80.5,
+      91.0
+    ],
+    "J102": [
+      4.4,
+      43.0
+    ],
+    "J103": [
+      4.4,
+      55.0
+    ],
+    "J801": [
+      94.6,
+      63.0
+    ],
+    "SW301": [
+      14.0,
+      92.5
+    ],
+    "SW302": [
+      25.0,
+      92.5
+    ],
+    "SW303": [
+      36.0,
+      92.5
+    ],
+    "SW304": [
+      47.0,
+      92.5
+    ],
+    "SW305": [
+      58.0,
+      92.5
+    ]
+  },
+  "vertical_header_inventory": [
+    {
+      "reference": "J104",
+      "value": "SYS_TEST",
+      "origin_mm": [
+        22.0,
+        37.8
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        20.305,
+        36.105,
+        26.235,
+        39.495
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J301",
+      "value": "EPD_DEBUG",
+      "origin_mm": [
+        41.0,
+        55.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        39.305,
+        53.305,
+        60.475,
+        56.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J201",
+      "value": "3V3_AON_TEST",
+      "origin_mm": [
+        34.0,
+        42.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        32.305,
+        40.305,
+        38.235,
+        43.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J402",
+      "value": "SD_PWR",
+      "origin_mm": [
+        71.5,
+        45.7
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        69.805,
+        44.005,
+        75.735,
+        47.395
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J401",
+      "value": "EPD_PWR",
+      "origin_mm": [
+        45.0,
+        72.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        43.305,
+        70.305,
+        49.235,
+        73.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J303",
+      "value": "AUDIO_DEBUG",
+      "origin_mm": [
+        39.0,
+        50.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        37.305,
+        48.305,
+        58.475,
+        51.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J204",
+      "value": "REG_PG_TEST",
+      "origin_mm": [
+        33.0,
+        46.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        31.305,
+        44.305,
+        37.235,
+        47.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J404",
+      "value": "MIC_PWR",
+      "origin_mm": [
+        10.5,
+        88.5
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        8.805,
+        86.805,
+        14.735,
+        90.195
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J105",
+      "value": "RECOVERY_CE",
+      "origin_mm": [
+        8.0,
+        23.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        6.305,
+        21.305,
+        12.235,
+        24.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J502",
+      "value": "ONE SHUNT: USB / BENCH",
+      "origin_mm": [
+        29.0,
+        9.0
+      ],
+      "angle_degrees_ccw": 0.0,
+      "courtyard_bounds_mm": [
+        27.305,
+        7.305,
+        30.695,
+        15.775
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J101",
+      "value": "5V_BENCH_IN",
+      "origin_mm": [
+        3.0,
+        11.0
+      ],
+      "angle_degrees_ccw": 0.0,
+      "courtyard_bounds_mm": [
+        1.305,
+        9.305,
+        4.695,
+        15.235
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J202",
+      "value": "MAIN_RUN_SELECT",
+      "origin_mm": [
+        28.0,
+        18.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        26.305,
+        16.305,
+        34.775,
+        19.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J205",
+      "value": "MCU_BRINGUP",
+      "origin_mm": [
+        41.0,
+        25.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        39.305,
+        23.305,
+        55.395,
+        26.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J206",
+      "value": "DOMAINS_CONTROL",
+      "origin_mm": [
+        41.0,
+        30.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        39.305,
+        28.305,
+        55.395,
+        31.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J405",
+      "value": "AMP_PWR",
+      "origin_mm": [
+        27.0,
+        87.2
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        25.305,
+        85.505,
+        31.235,
+        88.895
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J403",
+      "value": "TOUCH_PWR",
+      "origin_mm": [
+        66.5,
+        56.2
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        64.805,
+        54.505,
+        70.735,
+        57.895
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J203",
+      "value": "PWM_TEST_OPEN",
+      "origin_mm": [
+        27.0,
+        46.0
+      ],
+      "angle_degrees_ccw": 90.0,
+      "courtyard_bounds_mm": [
+        25.305,
+        44.305,
+        31.235,
+        47.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    },
+    {
+      "reference": "J302",
+      "value": "SD_DEBUG",
+      "origin_mm": [
+        63.0,
+        24.0
+      ],
+      "angle_degrees_ccw": 180.0,
+      "courtyard_bounds_mm": [
+        61.305,
+        1.985,
+        64.695,
+        25.695
+      ],
+      "operation": "vertical insertion; lateral cable sweep not reserved"
+    }
+  ]
+}

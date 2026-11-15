@@ -1,0 +1,11 @@
+{
+  "before_fix_reproduced": true,
+  "before_fix_error": "AttributeError: SwigPyObject has no attribute x after loaded group removal; KiCad SWIG type leak messages",
+  "after_fix_readonly_status": "PASS_RESERVATION_GEOMETRY_ONLY",
+  "after_fix_add_reuse_status": "PASS_RESERVATION_GEOMETRY_ONLY",
+  "same_in_memory_group_and_drawing_UUIDs": true,
+  "same_electrical_signature": true,
+  "frozen_board_sha256": "543311d31259839073d7b044477841ac2600a39f099e2fd04e69a8c49db66df7",
+  "frozen_board_bytes_unchanged": true,
+  "CAD_saved": false
+}

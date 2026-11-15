@@ -1,0 +1,1719 @@
+{
+  "status": "FAIL",
+  "scope": "Dwgs.User documentation-only placement reservations; no physical vias/tracks added; no thermal, soldering, route, CAM, or coupon-cost sign-off",
+  "board": "hardware/devboard-99/ESPaperPlay_99.kicad_pcb",
+  "geometry_method": "Actual KiCad pad polygons and drill polygons, conservative outside approximation <=0.00001 mm; Shapely distance checks; all-copper-layer pad union for through-via candidates, front copper for neck candidates; all physical pads/NPTH included",
+  "thresholds_mm": {
+    "copper_clearance": 0.15,
+    "copper_to_npth": 0.15,
+    "hole_to_hole": 0.25,
+    "external_drill_edge_to_mask": 0.2,
+    "comparison_tolerance": 2e-05
+  },
+  "reserved_hole_diameter_mm": 0.3,
+  "reserved_land_diameter_mm": 0.6,
+  "documentation_layer": "Dwgs.User",
+  "group": "THERMAL_RESERVATIONS_LAYOUT_ONLY",
+  "footprints": {
+    "U101": {
+      "position_mm": [
+        13.0,
+        32.0
+      ],
+      "rotation_deg": 0.0,
+      "process_kind": "filled_capped_in_pad_exception",
+      "note": "盘内填平盖帽工艺例外；0.701A充电热路径保留；不是普通盖油替代。"
+    },
+    "U201": {
+      "position_mm": [
+        32.0,
+        29.0
+      ],
+      "rotation_deg": 0.0,
+      "process_kind": "external_ground_vias",
+      "note": "pad8向右接地孔；近端电容回流和开关回路仍需布线复核。"
+    },
+    "U203": {
+      "position_mm": [
+        14.0,
+        48.0
+      ],
+      "rotation_deg": 0.0,
+      "process_kind": "external_ground_vias",
+      "note": "EP上下外移孔；保留原EP与印膏。"
+    },
+    "U802": {
+      "position_mm": [
+        34.0,
+        71.0
+      ],
+      "rotation_deg": 90.0,
+      "process_kind": "external_ground_vias_thermal_validation_pending",
+      "note": "通过GND3/11/15的外围地孔候选；与盘内孔热性能不等效，首板热测待完成。"
+    }
+  },
+  "reservations": [
+    {
+      "id": "U101-TH1",
+      "ref": "U101",
+      "local_mm": [
+        -0.4,
+        -0.4
+      ],
+      "absolute_mm": [
+        12.6,
+        31.6
+      ],
+      "net_intent": "GND",
+      "process_kind": "filled_capped_in_pad_exception",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.404246,
+          "ref": "U101",
+          "pad": "2",
+          "net": "BAT_PROT",
+          "position_mm": [
+            11.6,
+            31.75
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 15.855274,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 8.143273,
+          "ref": "J105",
+          "pad": "2",
+          "net": "GND",
+          "position_mm": [
+            10.54,
+            23.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "pass": null,
+        "exception": "Intentionally in EP solder opening; requires filled/planarized/copper-capped process, not ordinary tenting."
+      },
+      "pass": true
+    },
+    {
+      "id": "U101-TH2",
+      "ref": "U101",
+      "local_mm": [
+        -0.4,
+        0.4
+      ],
+      "absolute_mm": [
+        12.6,
+        32.4
+      ],
+      "net_intent": "GND",
+      "process_kind": "filled_capped_in_pad_exception",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.404246,
+          "ref": "U101",
+          "pad": "3",
+          "net": "BAT_PROT",
+          "position_mm": [
+            11.6,
+            32.25
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 15.057884,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 8.923072,
+          "ref": "J105",
+          "pad": "2",
+          "net": "GND",
+          "position_mm": [
+            10.54,
+            23.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "pass": null,
+        "exception": "Intentionally in EP solder opening; requires filled/planarized/copper-capped process, not ordinary tenting."
+      },
+      "pass": true
+    },
+    {
+      "id": "U101-TH3",
+      "ref": "U101",
+      "local_mm": [
+        0.4,
+        -0.4
+      ],
+      "absolute_mm": [
+        13.4,
+        31.6
+      ],
+      "net_intent": "GND",
+      "process_kind": "filled_capped_in_pad_exception",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.404246,
+          "ref": "U101",
+          "pad": "11",
+          "net": "SYS_RAW",
+          "position_mm": [
+            14.4,
+            31.75
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 15.810163,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 8.36309,
+          "ref": "J105",
+          "pad": "2",
+          "net": "GND",
+          "position_mm": [
+            10.54,
+            23.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "pass": null,
+        "exception": "Intentionally in EP solder opening; requires filled/planarized/copper-capped process, not ordinary tenting."
+      },
+      "pass": true
+    },
+    {
+      "id": "U101-TH4",
+      "ref": "U101",
+      "local_mm": [
+        0.4,
+        0.4
+      ],
+      "absolute_mm": [
+        13.4,
+        32.4
+      ],
+      "net_intent": "GND",
+      "process_kind": "filled_capped_in_pad_exception",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.404246,
+          "ref": "U101",
+          "pad": "10",
+          "net": "SYS_RAW",
+          "position_mm": [
+            14.4,
+            32.25
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 15.010646,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 9.125451,
+          "ref": "J105",
+          "pad": "2",
+          "net": "GND",
+          "position_mm": [
+            10.54,
+            23.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "pass": null,
+        "exception": "Intentionally in EP solder opening; requires filled/planarized/copper-capped process, not ordinary tenting."
+      },
+      "pass": true
+    },
+    {
+      "id": "U201-TH1",
+      "ref": "U201",
+      "local_mm": [
+        1.7,
+        0
+      ],
+      "absolute_mm": [
+        33.7,
+        29.0
+      ],
+      "net_intent": "GND",
+      "process_kind": "external_ground_vias",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.0,
+          "ref": "R101",
+          "pad": "1",
+          "net": "SYS_RAW",
+          "position_mm": [
+            33.7,
+            29.0
+          ]
+        },
+        "pass": false
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 26.030857,
+          "ref": "J501",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            20.39,
+            5.905
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 6.668165,
+          "ref": "J206",
+          "pad": "1",
+          "net": "EPD_EN",
+          "position_mm": [
+            41.0,
+            30.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "required_mm": 0.2,
+        "nearest": {
+          "clearance_mm": 0.0,
+          "ref": "R101",
+          "pad": "1",
+          "net": "SYS_RAW",
+          "position_mm": [
+            33.7,
+            29.0
+          ]
+        },
+        "pass": false
+      },
+      "pass": false
+    },
+    {
+      "id": "U201-TH2",
+      "ref": "U201",
+      "local_mm": [
+        2.5,
+        0
+      ],
+      "absolute_mm": [
+        34.5,
+        29.0
+      ],
+      "net_intent": "GND",
+      "process_kind": "external_ground_vias",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.0,
+          "ref": "R101",
+          "pad": "1",
+          "net": "SYS_RAW",
+          "position_mm": [
+            33.7,
+            29.0
+          ]
+        },
+        "pass": false
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 26.439201,
+          "ref": "J501",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            20.39,
+            5.905
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 5.876468,
+          "ref": "J206",
+          "pad": "1",
+          "net": "EPD_EN",
+          "position_mm": [
+            41.0,
+            30.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "required_mm": 0.2,
+        "nearest": {
+          "clearance_mm": 0.0,
+          "ref": "R101",
+          "pad": "1",
+          "net": "SYS_RAW",
+          "position_mm": [
+            33.7,
+            29.0
+          ]
+        },
+        "pass": false
+      },
+      "pass": false
+    },
+    {
+      "id": "U203-TH1",
+      "ref": "U203",
+      "local_mm": [
+        0,
+        -1.3
+      ],
+      "absolute_mm": [
+        14.0,
+        46.7
+      ],
+      "net_intent": "GND",
+      "process_kind": "external_ground_vias",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.460027,
+          "ref": "U203",
+          "pad": "8",
+          "net": "/POWER_3V3_CONTROL/GAUGE_SDA",
+          "position_mm": [
+            14.9875,
+            47.25
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.7,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 0.85,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "required_mm": 0.2,
+        "nearest": {
+          "clearance_mm": 0.55,
+          "ref": "U203",
+          "pad": "9",
+          "net": "GND",
+          "position_mm": [
+            14.0,
+            48.0
+          ]
+        },
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "id": "U203-TH2",
+      "ref": "U203",
+      "local_mm": [
+        0,
+        1.3
+      ],
+      "absolute_mm": [
+        14.0,
+        49.3
+      ],
+      "net_intent": "GND",
+      "process_kind": "external_ground_vias",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.460027,
+          "ref": "U203",
+          "pad": "5",
+          "net": "FUEL_ALERT_N",
+          "position_mm": [
+            14.9875,
+            48.75
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.0,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": false
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 0.0,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": false
+      },
+      "drill_to_soldermask_opening": {
+        "required_mm": 0.2,
+        "nearest": {
+          "clearance_mm": 0.0,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ]
+        },
+        "pass": false
+      },
+      "pass": false
+    },
+    {
+      "id": "U802-TH1",
+      "ref": "U802",
+      "local_mm": [
+        -2.3,
+        0.25
+      ],
+      "absolute_mm": [
+        34.25,
+        73.3
+      ],
+      "net_intent": "GND",
+      "process_kind": "external_ground_vias_thermal_validation_pending",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.290023,
+          "ref": "U802",
+          "pad": "2",
+          "net": "AMP_SYS",
+          "position_mm": [
+            33.75,
+            72.425
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 27.160628,
+          "ref": "U803",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            7.0,
+            68.0
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 10.128316,
+          "ref": "J401",
+          "pad": "1",
+          "net": "EPD_3V3",
+          "position_mm": [
+            45.0,
+            72.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "required_mm": 0.2,
+        "nearest": {
+          "clearance_mm": 0.325,
+          "ref": "U802",
+          "pad": "3",
+          "net": "GND",
+          "position_mm": [
+            34.25,
+            72.425
+          ]
+        },
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "id": "U802-TH2",
+      "ref": "U802",
+      "local_mm": [
+        2.3,
+        -0.25
+      ],
+      "absolute_mm": [
+        33.75,
+        68.7
+      ],
+      "net_intent": "GND",
+      "process_kind": "external_ground_vias_thermal_validation_pending",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.290023,
+          "ref": "U802",
+          "pad": "10",
+          "net": "/AUDIO/AMP_OUTN",
+          "position_mm": [
+            34.25,
+            69.575
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 25.78433,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 11.024014,
+          "ref": "J401",
+          "pad": "1",
+          "net": "EPD_3V3",
+          "position_mm": [
+            45.0,
+            72.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "required_mm": 0.2,
+        "nearest": {
+          "clearance_mm": 0.325,
+          "ref": "U802",
+          "pad": "11",
+          "net": "GND",
+          "position_mm": [
+            33.75,
+            69.575
+          ]
+        },
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "id": "U802-TH3",
+      "ref": "U802",
+      "local_mm": [
+        -0.25,
+        -2.3
+      ],
+      "absolute_mm": [
+        31.7,
+        71.25
+      ],
+      "net_intent": "GND",
+      "process_kind": "external_ground_vias_thermal_validation_pending",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.290023,
+          "ref": "U802",
+          "pad": "14",
+          "net": "/AUDIO/I2S_WS_AUDIO",
+          "position_mm": [
+            32.575,
+            70.75
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 24.312893,
+          "ref": "U803",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            7.0,
+            68.0
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 12.621122,
+          "ref": "J401",
+          "pad": "1",
+          "net": "EPD_3V3",
+          "position_mm": [
+            45.0,
+            72.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "required_mm": 0.2,
+        "nearest": {
+          "clearance_mm": 0.325,
+          "ref": "U802",
+          "pad": "15",
+          "net": "GND",
+          "position_mm": [
+            32.575,
+            71.25
+          ]
+        },
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "id": "U802-TH4",
+      "ref": "U802",
+      "local_mm": [
+        2.4,
+        -1.05
+      ],
+      "absolute_mm": [
+        32.95,
+        68.6
+      ],
+      "net_intent": "GND",
+      "process_kind": "external_ground_vias_thermal_validation_pending",
+      "land_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.294245,
+          "ref": "U802",
+          "pad": "12",
+          "net": "unconnected-(U802-NC-Pad12)",
+          "position_mm": [
+            33.25,
+            69.575
+          ]
+        },
+        "pass": true
+      },
+      "land_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 25.147959,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "drill_to_existing_drill": {
+        "required_mm": 0.25,
+        "nearest": {
+          "clearance_mm": 11.82048,
+          "ref": "J401",
+          "pad": "1",
+          "net": "EPD_3V3",
+          "position_mm": [
+            45.0,
+            72.0
+          ],
+          "plated": true
+        },
+        "pass": true
+      },
+      "drill_to_soldermask_opening": {
+        "required_mm": 0.2,
+        "nearest": {
+          "clearance_mm": 0.444244,
+          "ref": "U802",
+          "pad": "12",
+          "net": "unconnected-(U802-NC-Pad12)",
+          "position_mm": [
+            33.25,
+            69.575
+          ]
+        },
+        "pass": true
+      },
+      "pass": true
+    }
+  ],
+  "necks": [
+    {
+      "id": "U201-NECK1",
+      "ref": "U201",
+      "local_points_mm": [
+        [
+          0.55,
+          0
+        ],
+        [
+          2.5,
+          0
+        ]
+      ],
+      "absolute_points_mm": [
+        [
+          32.55,
+          29.0
+        ],
+        [
+          34.5,
+          29.0
+        ]
+      ],
+      "width_mm": 0.25,
+      "physical_copper_created": false,
+      "neck_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.0,
+          "ref": "R101",
+          "pad": "1",
+          "net": "SYS_RAW",
+          "position_mm": [
+            33.7,
+            29.0
+          ]
+        },
+        "pass": false
+      },
+      "neck_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 25.650659,
+          "ref": "J501",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            20.39,
+            5.905
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "pass": false
+    },
+    {
+      "id": "U203-NECK1",
+      "ref": "U203",
+      "local_points_mm": [
+        [
+          0,
+          -1.3
+        ],
+        [
+          0,
+          1.3
+        ]
+      ],
+      "absolute_points_mm": [
+        [
+          14.0,
+          46.7
+        ],
+        [
+          14.0,
+          49.3
+        ]
+      ],
+      "width_mm": 0.6,
+      "physical_copper_created": false,
+      "neck_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.3,
+          "ref": "U203",
+          "pad": "2",
+          "net": "BAT_PROT",
+          "position_mm": [
+            13.0125,
+            47.75
+          ]
+        },
+        "pass": true
+      },
+      "neck_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.0,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": false
+      },
+      "pass": false
+    },
+    {
+      "id": "U802-NECK1",
+      "ref": "U802",
+      "local_points_mm": [
+        [
+          0,
+          0.25
+        ],
+        [
+          -2.3,
+          0.25
+        ]
+      ],
+      "absolute_points_mm": [
+        [
+          34.25,
+          71.0
+        ],
+        [
+          34.25,
+          73.3
+        ]
+      ],
+      "width_mm": 0.3,
+      "physical_copper_created": false,
+      "neck_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.2,
+          "ref": "U802",
+          "pad": "2",
+          "net": "AMP_SYS",
+          "position_mm": [
+            33.75,
+            72.425
+          ]
+        },
+        "pass": true
+      },
+      "neck_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 26.964635,
+          "ref": "U803",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            7.0,
+            68.0
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "id": "U802-NECK2",
+      "ref": "U802",
+      "local_points_mm": [
+        [
+          0,
+          -0.25
+        ],
+        [
+          2.3,
+          -0.25
+        ]
+      ],
+      "absolute_points_mm": [
+        [
+          33.75,
+          71.0
+        ],
+        [
+          33.75,
+          68.7
+        ]
+      ],
+      "width_mm": 0.3,
+      "physical_copper_created": false,
+      "neck_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.2,
+          "ref": "U802",
+          "pad": "10",
+          "net": "/AUDIO/AMP_OUTN",
+          "position_mm": [
+            34.25,
+            69.575
+          ]
+        },
+        "pass": true
+      },
+      "neck_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 25.934329,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "id": "U802-NECK3",
+      "ref": "U802",
+      "local_points_mm": [
+        [
+          -0.25,
+          0
+        ],
+        [
+          -0.25,
+          -2.3
+        ]
+      ],
+      "absolute_points_mm": [
+        [
+          34.0,
+          71.25
+        ],
+        [
+          31.7,
+          71.25
+        ]
+      ],
+      "width_mm": 0.3,
+      "physical_copper_created": false,
+      "neck_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.2,
+          "ref": "U802",
+          "pad": "14",
+          "net": "/AUDIO/I2S_WS_AUDIO",
+          "position_mm": [
+            32.575,
+            70.75
+          ]
+        },
+        "pass": true
+      },
+      "neck_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 24.462893,
+          "ref": "U803",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            7.0,
+            68.0
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "id": "U802-NECK4",
+      "ref": "U802",
+      "local_points_mm": [
+        [
+          2.3,
+          -0.25
+        ],
+        [
+          2.4,
+          -0.25
+        ],
+        [
+          2.4,
+          -1.05
+        ]
+      ],
+      "absolute_points_mm": [
+        [
+          33.75,
+          68.7
+        ],
+        [
+          33.75,
+          68.6
+        ],
+        [
+          32.95,
+          68.6
+        ]
+      ],
+      "width_mm": 0.6,
+      "physical_copper_created": false,
+      "neck_to_other_net_pad": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 0.275,
+          "ref": "U802",
+          "pad": "12",
+          "net": "unconnected-(U802-NC-Pad12)",
+          "position_mm": [
+            33.25,
+            69.575
+          ]
+        },
+        "pass": true
+      },
+      "neck_to_npth": {
+        "required_mm": 0.15,
+        "nearest": {
+          "clearance_mm": 25.147959,
+          "ref": "H1",
+          "pad": "",
+          "net": "",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "plated": false
+        },
+        "pass": true
+      },
+      "pass": true
+    }
+  ],
+  "candidate_pair_checks": [
+    {
+      "a": "U101-TH1",
+      "b": "U101-TH2",
+      "drill_edge_gap_mm": 0.5,
+      "required_mm": 0.25,
+      "pass": true
+    },
+    {
+      "a": "U101-TH1",
+      "b": "U101-TH3",
+      "drill_edge_gap_mm": 0.5,
+      "required_mm": 0.25,
+      "pass": true
+    },
+    {
+      "a": "U101-TH1",
+      "b": "U101-TH4",
+      "drill_edge_gap_mm": 0.831371,
+      "required_mm": 0.25,
+      "pass": true
+    },
+    {
+      "a": "U101-TH2",
+      "b": "U101-TH3",
+      "drill_edge_gap_mm": 0.831371,
+      "required_mm": 0.25,
+      "pass": true
+    },
+    {
+      "a": "U101-TH2",
+      "b": "U101-TH4",
+      "drill_edge_gap_mm": 0.5,
+      "required_mm": 0.25,
+      "pass": true
+    },
+    {
+      "a": "U101-TH3",
+      "b": "U101-TH4",
+      "drill_edge_gap_mm": 0.5,
+      "required_mm": 0.25,
+      "pass": true
+    },
+    {
+      "a": "U201-TH1",
+      "b": "U201-TH2",
+      "drill_edge_gap_mm": 0.5,
+      "required_mm": 0.25,
+      "pass": true
+    },
+    {
+      "a": "U802-TH2",
+      "b": "U802-TH4",
+      "drill_edge_gap_mm": 0.506226,
+      "required_mm": 0.25,
+      "pass": true
+    }
+  ],
+  "actual_module_holes": [
+    {
+      "absolute_mm": [
+        46.6,
+        8.51
+      ],
+      "local_mm": [
+        -2.9,
+        1.76
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        46.6,
+        9.91
+      ],
+      "local_mm": [
+        -2.9,
+        3.16
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        47.3,
+        7.81
+      ],
+      "local_mm": [
+        -2.2,
+        1.06
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        47.3,
+        9.21
+      ],
+      "local_mm": [
+        -2.2,
+        2.46
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        47.3,
+        10.61
+      ],
+      "local_mm": [
+        -2.2,
+        3.86
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        48.0,
+        8.51
+      ],
+      "local_mm": [
+        -1.5,
+        1.76
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        48.0,
+        9.91
+      ],
+      "local_mm": [
+        -1.5,
+        3.16
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        48.7,
+        7.81
+      ],
+      "local_mm": [
+        -0.8,
+        1.06
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        48.7,
+        9.21
+      ],
+      "local_mm": [
+        -0.8,
+        2.46
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        48.7,
+        10.61
+      ],
+      "local_mm": [
+        -0.8,
+        3.86
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        49.4,
+        8.51
+      ],
+      "local_mm": [
+        -0.1,
+        1.76
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    },
+    {
+      "absolute_mm": [
+        49.4,
+        9.91
+      ],
+      "local_mm": [
+        -0.1,
+        3.16
+      ],
+      "drill_mm": [
+        0.3,
+        0.3
+      ],
+      "pad_mm": [
+        0.6,
+        0.6
+      ],
+      "net": "GND",
+      "actual_physical_hole": true,
+      "additional_documentation_circle_created": false
+    }
+  ],
+  "limitations": [
+    "No new copper neck or drill has been manufactured or routed by this function.",
+    "Candidate necks are hypothetical copper envelopes used only for obstacle checks.",
+    "Filled/capped U101 exception remains explicit; no claim of ordinary tenting equivalence.",
+    "U802 external thermal path awaits actual thermal verification.",
+    "Pad/mask geometry checks do not prove assembly voiding, enclosure clearance, or factory process acceptance."
+  ],
+  "electrical_items_unchanged": true,
+  "tracks_and_vias_before": 0,
+  "tracks_and_vias_after": 0,
+  "documentation_circle_count": 24,
+  "errors": [
+    {
+      "kind": "land_to_other_net_pad",
+      "reservation": "U201-TH1",
+      "required_mm": 0.15,
+      "nearest": {
+        "clearance_mm": 0.0,
+        "ref": "R101",
+        "pad": "1",
+        "net": "SYS_RAW",
+        "position_mm": [
+          33.7,
+          29.0
+        ]
+      }
+    },
+    {
+      "kind": "drill_to_soldermask_opening",
+      "reservation": "U201-TH1",
+      "required_mm": 0.2,
+      "nearest": {
+        "clearance_mm": 0.0,
+        "ref": "R101",
+        "pad": "1",
+        "net": "SYS_RAW",
+        "position_mm": [
+          33.7,
+          29.0
+        ]
+      }
+    },
+    {
+      "kind": "land_to_other_net_pad",
+      "reservation": "U201-TH2",
+      "required_mm": 0.15,
+      "nearest": {
+        "clearance_mm": 0.0,
+        "ref": "R101",
+        "pad": "1",
+        "net": "SYS_RAW",
+        "position_mm": [
+          33.7,
+          29.0
+        ]
+      }
+    },
+    {
+      "kind": "drill_to_soldermask_opening",
+      "reservation": "U201-TH2",
+      "required_mm": 0.2,
+      "nearest": {
+        "clearance_mm": 0.0,
+        "ref": "R101",
+        "pad": "1",
+        "net": "SYS_RAW",
+        "position_mm": [
+          33.7,
+          29.0
+        ]
+      }
+    },
+    {
+      "kind": "neck_to_other_net_pad",
+      "reservation": "U201-NECK1",
+      "required_mm": 0.15,
+      "nearest": {
+        "clearance_mm": 0.0,
+        "ref": "R101",
+        "pad": "1",
+        "net": "SYS_RAW",
+        "position_mm": [
+          33.7,
+          29.0
+        ]
+      }
+    },
+    {
+      "kind": "land_to_npth",
+      "reservation": "U203-TH2",
+      "required_mm": 0.15,
+      "nearest": {
+        "clearance_mm": 0.0,
+        "ref": "H1",
+        "pad": "",
+        "net": "",
+        "position_mm": [
+          14.0,
+          49.3
+        ],
+        "plated": false
+      }
+    },
+    {
+      "kind": "drill_to_existing_drill",
+      "reservation": "U203-TH2",
+      "required_mm": 0.25,
+      "nearest": {
+        "clearance_mm": 0.0,
+        "ref": "H1",
+        "pad": "",
+        "net": "",
+        "position_mm": [
+          14.0,
+          49.3
+        ],
+        "plated": false
+      }
+    },
+    {
+      "kind": "drill_to_soldermask_opening",
+      "reservation": "U203-TH2",
+      "required_mm": 0.2,
+      "nearest": {
+        "clearance_mm": 0.0,
+        "ref": "H1",
+        "pad": "",
+        "net": "",
+        "position_mm": [
+          14.0,
+          49.3
+        ]
+      }
+    },
+    {
+      "kind": "neck_to_npth",
+      "reservation": "U203-NECK1",
+      "required_mm": 0.15,
+      "nearest": {
+        "clearance_mm": 0.0,
+        "ref": "H1",
+        "pad": "",
+        "net": "",
+        "position_mm": [
+          14.0,
+          49.3
+        ],
+        "plated": false
+      }
+    }
+  ],
+  "negative_control_fixture": {
+    "purpose": "Deliberate in-memory obstacle overlap to verify conflict detection; not the actual PCB state.",
+    "changes": [
+      "R101 non-GND pad placed at U201-TH1",
+      "H1 NPTH placed at U203-TH2"
+    ],
+    "CAD_saved": false,
+    "expected_status": "FAIL",
+    "expected_failure_kinds": [
+      "land_to_other_net_pad",
+      "land_to_npth",
+      "drill_to_existing_drill",
+      "neck_to_other_net_pad",
+      "neck_to_npth"
+    ],
+    "test_passed": true
+  }
+}

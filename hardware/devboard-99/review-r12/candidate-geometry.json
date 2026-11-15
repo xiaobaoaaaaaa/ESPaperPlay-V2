@@ -1,0 +1,336 @@
+{
+  "board": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb",
+  "units": "mm",
+  "scope": "conservative rectangular pad envelope; standalone footprint local geometry only; no neighborhood, thermal, stencil-process, or PCB DRC claim",
+  "via_land": 0.6,
+  "via_drill": 0.3,
+  "checks": {
+    "U201": {
+      "candidate": {
+        "vias": [
+          [
+            1.7,
+            0
+          ],
+          [
+            2.5,
+            0
+          ]
+        ],
+        "routes": [
+          {
+            "points": [
+              [
+                0.55,
+                0
+              ],
+              [
+                2.5,
+                0
+              ]
+            ],
+            "width": 0.25
+          }
+        ]
+      },
+      "via_checks": [
+        {
+          "center": [
+            1.7,
+            0
+          ],
+          "min_non_ground_copper_gap": 0.325005,
+          "nearest_pad": "7",
+          "min_drill_edge_to_mask_opening": 0.3,
+          "nearest_mask_pad": "8"
+        },
+        {
+          "center": [
+            2.5,
+            0
+          ],
+          "min_non_ground_copper_gap": 1.053006,
+          "nearest_pad": "7",
+          "min_drill_edge_to_mask_opening": 1.1,
+          "nearest_mask_pad": "8"
+        }
+      ],
+      "route_checks": [
+        {
+          "min_non_ground_copper_gap": 0.25,
+          "nearest_pad": "7",
+          "points": [
+            [
+              0.55,
+              0
+            ],
+            [
+              2.5,
+              0
+            ]
+          ],
+          "width": 0.25
+        }
+      ],
+      "passes_candidate_0p15_copper_0p20_hole_to_mask": true
+    },
+    "U203": {
+      "candidate": {
+        "vias": [
+          [
+            0,
+            -1.3
+          ],
+          [
+            0,
+            1.3
+          ]
+        ],
+        "routes": [
+          {
+            "points": [
+              [
+                0,
+                -1.3
+              ],
+              [
+                0,
+                1.3
+              ]
+            ],
+            "width": 0.6
+          }
+        ]
+      },
+      "via_checks": [
+        {
+          "center": [
+            0,
+            -1.3
+          ],
+          "min_non_ground_copper_gap": 0.435274,
+          "nearest_pad": "8",
+          "min_drill_edge_to_mask_opening": 0.55,
+          "nearest_mask_pad": "9"
+        },
+        {
+          "center": [
+            0,
+            1.3
+          ],
+          "min_non_ground_copper_gap": 0.435274,
+          "nearest_pad": "5",
+          "min_drill_edge_to_mask_opening": 0.55,
+          "nearest_mask_pad": "9"
+        }
+      ],
+      "route_checks": [
+        {
+          "min_non_ground_copper_gap": 0.3,
+          "nearest_pad": "2",
+          "points": [
+            [
+              0,
+              -1.3
+            ],
+            [
+              0,
+              1.3
+            ]
+          ],
+          "width": 0.6
+        }
+      ],
+      "passes_candidate_0p15_copper_0p20_hole_to_mask": true
+    },
+    "U802": {
+      "candidate": {
+        "vias": [
+          [
+            -2.3,
+            0.25
+          ],
+          [
+            2.3,
+            -0.25
+          ],
+          [
+            -0.25,
+            -2.3
+          ],
+          [
+            2.4,
+            -1.05
+          ]
+        ],
+        "routes": [
+          {
+            "points": [
+              [
+                0,
+                0.25
+              ],
+              [
+                -2.3,
+                0.25
+              ]
+            ],
+            "width": 0.3
+          },
+          {
+            "points": [
+              [
+                0,
+                -0.25
+              ],
+              [
+                2.3,
+                -0.25
+              ]
+            ],
+            "width": 0.3
+          },
+          {
+            "points": [
+              [
+                -0.25,
+                0
+              ],
+              [
+                -0.25,
+                -2.3
+              ]
+            ],
+            "width": 0.3
+          },
+          {
+            "points": [
+              [
+                2.3,
+                -0.25
+              ],
+              [
+                2.4,
+                -0.25
+              ],
+              [
+                2.4,
+                -1.05
+              ]
+            ],
+            "width": 0.6
+          }
+        ]
+      },
+      "via_checks": [
+        {
+          "center": [
+            -2.3,
+            0.25
+          ],
+          "min_non_ground_copper_gap": 0.290024,
+          "nearest_pad": "4",
+          "min_drill_edge_to_mask_opening": 0.325,
+          "nearest_mask_pad": "3"
+        },
+        {
+          "center": [
+            2.3,
+            -0.25
+          ],
+          "min_non_ground_copper_gap": 0.290024,
+          "nearest_pad": "12",
+          "min_drill_edge_to_mask_opening": 0.325,
+          "nearest_mask_pad": "11"
+        },
+        {
+          "center": [
+            -0.25,
+            -2.3
+          ],
+          "min_non_ground_copper_gap": 0.290024,
+          "nearest_pad": "14",
+          "min_drill_edge_to_mask_opening": 0.325,
+          "nearest_mask_pad": "15"
+        },
+        {
+          "center": [
+            2.4,
+            -1.05
+          ],
+          "min_non_ground_copper_gap": 0.294245,
+          "nearest_pad": "12",
+          "min_drill_edge_to_mask_opening": 0.444243,
+          "nearest_mask_pad": "12"
+        }
+      ],
+      "route_checks": [
+        {
+          "min_non_ground_copper_gap": 0.2,
+          "nearest_pad": "4",
+          "points": [
+            [
+              0,
+              0.25
+            ],
+            [
+              -2.3,
+              0.25
+            ]
+          ],
+          "width": 0.3
+        },
+        {
+          "min_non_ground_copper_gap": 0.2,
+          "nearest_pad": "12",
+          "points": [
+            [
+              0,
+              -0.25
+            ],
+            [
+              2.3,
+              -0.25
+            ]
+          ],
+          "width": 0.3
+        },
+        {
+          "min_non_ground_copper_gap": 0.2,
+          "nearest_pad": "16",
+          "points": [
+            [
+              -0.25,
+              0
+            ],
+            [
+              -0.25,
+              -2.3
+            ]
+          ],
+          "width": 0.3
+        },
+        {
+          "min_non_ground_copper_gap": 0.275,
+          "nearest_pad": "12",
+          "points": [
+            [
+              2.3,
+              -0.25
+            ],
+            [
+              2.4,
+              -0.25
+            ],
+            [
+              2.4,
+              -1.05
+            ]
+          ],
+          "width": 0.6
+        }
+      ],
+      "passes_candidate_0p15_copper_0p20_hole_to_mask": true
+    }
+  }
+}

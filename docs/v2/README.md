@@ -1,10 +1,12 @@
 # ESPaperPlay v2 设计与开发记录
 
-> 最新硬件（2026-11-14）：[r10制造整改](hardware/pcb-dfm-r10.md)已移动64孔并完成实际CAM/钢网复核，明确11个热孔填平盖帽，USB/SD官方名义窗口通过。原理图仍为r6绘图/r5电气；尚未下单或上电。
+> 当前硬件（2026-11-15）：[r12 / 99 × 99 mm 独立 KiCad 工程](../../hardware/devboard-99/README.md)已完成布局与制造规则检查，尚未布线，U101 填平盖帽工艺条件保留。后续完成 KiCad，再于嘉立创EDA新建原生工程重新设计。
+
+> 保留基线：[r10制造整改](hardware/pcb-dfm-r10.md)已移动64孔并完成实际CAM/钢网复核，明确11个热孔填平盖帽，USB/SD官方名义窗口通过。原理图仍为r6绘图/r5电气；尚未下单或上电。
 
 > 最新准备：[r11首批计划](hardware/first-batch-preparation-r11.md)确定5块PCB、先焊2块及无框钢片，完成具体加工要求、64种备料表与首板步骤。r11为准备记录，PCB仍r10，尚未对外提交。
 
-设计起始日期：2026-11-01；硬件状态更新：2026-11-14。当前为独立的 `ESPaperPlay-V2` 仓库，默认分支为 `main`；原仓库的 `refactor/v2-platform` 是迁移前的本地工作分支。
+设计起始日期：2026-11-01；硬件状态更新：2026-11-15。当前为独立的 `ESPaperPlay-V2` 仓库，默认分支为 `main`；原仓库的 `refactor/v2-platform` 是迁移前的本地工作分支。
 
 ## 已确定的基线
 
@@ -24,6 +26,7 @@
 | 软件总体设计与接口约束 | [architecture.md](architecture.md) |
 | 阶段目标与验收 | [roadmap.md](roadmap.md) |
 | 硬件方案与开发验证板 | [hardware/README.md](hardware/README.md) |
+| 当前 99 mm KiCad 布局与制造规则 | [hardware/devboard-99/README.md](../../hardware/devboard-99/README.md) |
 | 开发板电源规格与关断要求 | [hardware/power-design-spec.md](hardware/power-design-spec.md) |
 | KiCad原理图r6、PCB r10与检查结果 | [hardware/devboard-r0/README.md](../../hardware/devboard-r0/README.md) |
 | 首批工厂审核、备料与上电准备 | [hardware/first-batch-preparation-r11.md](hardware/first-batch-preparation-r11.md) |

@@ -1,0 +1,8 @@
+(footprint "Vishay_WFM2010_5.08x2.54mm" (version 20241229) (generator "pcbnew") (layer "F.Cu") (descr "WFMB2010R4700FEA candidate; Vishay30387 Rev04-Aug-22 p2 recommended a1.25 b3.00 gap3.50; Kelvin sense traces at inner edges; terminal temperature must be qualified") (attr smd)
+(fp_text reference "REF**" (at 0 -3) (layer "F.SilkS") (effects (font (size 0.8 0.8) (thickness 0.12))))
+(fp_text value "Vishay_WFM2010_5.08x2.54mm" (at 0 3) (layer "F.Fab") (effects (font (size 0.5 0.5) (thickness 0.1))))
+(fp_rect (start -2.540000 -1.270000) (end 2.540000 1.270000) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+(fp_rect (start -3.250000 -1.750000) (end 3.250000 1.750000) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+(pad "1" smd rect (at -2.375 0) (size 1.25 3.0) (layers "F.Cu" "F.Paste" "F.Mask") )
+(pad "2" smd rect (at 2.375 0) (size 1.25 3.0) (layers "F.Cu" "F.Paste" "F.Mask") )
+)

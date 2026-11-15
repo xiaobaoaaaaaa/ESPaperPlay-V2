@@ -1,0 +1,5 @@
+(version 1)
+# Standard mechanically drilled four-layer process; no blind/buried/laser vias.
+(rule "Standard through vias only"
+  (condition "A.Type == 'Via' && A.Via_Type != 'Through'")
+  (constraint disallow via))

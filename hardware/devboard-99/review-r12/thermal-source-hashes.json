@@ -1,0 +1,30 @@
+{
+  "retrieved_or_rechecked": "2026-11-15",
+  "pdfs_not_distributed": true,
+  "files": [
+    {
+      "path": "hardware/reference/power/bq24074.pdf",
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1"
+    },
+    {
+      "path": "hardware/reference/power/tps63802.pdf",
+      "sha256": "be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6"
+    },
+    {
+      "path": "hardware/reference/power/max17048.pdf",
+      "sha256": "70dc8eef0e012276dcdc58b6dce64af08258304bcf865ceace64e856b8029330"
+    },
+    {
+      "path": "hardware/reference/power/max98357a.pdf",
+      "sha256": "dea228ad619901d34c2f5f106243bdb9b9e95e38989d4d66fd6c6c489bfa6f1c"
+    },
+    {
+      "path": "hardware/reference/mcu-usb/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "sha256": "27d71971da07c280c6068d08c74720d1a25b8f20cf8494dc1765bdd28d40d435"
+    },
+    {
+      "path": "build/pcb-99/thermal/slua271c.pdf",
+      "sha256": "4693fd4df14f57f67088d881b9509a56db4a084a333caac53f81bc5c800b23ce"
+    }
+  ]
+}

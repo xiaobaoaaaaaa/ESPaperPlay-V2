@@ -6,8 +6,9 @@
 
 ## 当前状态
 
+- **当前硬件开发：r12，99 × 99 mm。** [独立 KiCad 工程](hardware/devboard-99/README.md)已完成制造规则整改和布局验证，保留全部器件、接口与按键。尚未布线；U101 填平盖帽热孔仍是收费工艺条件。先在 KiCad 完成，再于嘉立创EDA新建原生工程重新设计。
 - **固件：M0 骨架。** 应用宿主、活动租约、休眠准备契约、板级配置检查、双槽分区和串口演示已经实现；外设驱动、图形界面和网络应用尚待接入。
-- **硬件：r10 PCB 制造整改完成。** 已移动64个近焊盘过孔，538个普通孔的双面阻焊间距达到≥0.20mm，11个IC热孔指定填平盖帽；官方USB/SD名义阻抗窗口检查通过。原理图r6/r5保持，DRC为0错误、0未连接；已更新独立制板、DIY钢网及203位回流/27位手焊文件，尚未下单或上电。见 [r10记录](docs/v2/hardware/pcb-dfm-r10.md)和[文件包](hardware/devboard-r0/output/manufacturing/r10-review/README.md)。
+- **保留基线：r10 PCB 制造整改完成。** 已移动64个近焊盘过孔，538个普通孔的双面阻焊间距达到≥0.20mm，11个IC热孔指定填平盖帽；官方USB/SD名义阻抗窗口检查通过。原理图r6/r5保持，DRC为0错误、0未连接；已更新独立制板、DIY钢网及203位回流/27位手焊文件，尚未下单或上电。见 [r10记录](docs/v2/hardware/pcb-dfm-r10.md)和[文件包](hardware/devboard-r0/output/manufacturing/r10-review/README.md)。这些制造文件不适用于 r12。
 - **首批准备r11：** 已按5块PCB、先焊2块及无框钢片整理[工厂审核规格、64种备料表与首板工作单](hardware/devboard-r0/output/manufacturing/r10-first-batch/README.md)。PCB保持r10，工厂回复、来料容量和实测仍待完成；现有M0不具备分域维护功能。
 - **嘉立创迁移与CAM：** [当前工程与独立制板/钢网包](hardware/devboard-r0/output/easyeda/r10-cam-checked/README.md)已纳入Git；[最终CAM复核](hardware/devboard-r0/output/easyeda/r10-cam-checked/CAM_REVIEW.md)通过、严格DRC为0。已恢复导入遗漏的阻焊、热焊及铜颈设置；原KiCad r10和原制造包保留对照。工厂生产稿与加工工艺仍待确认。
 - 未进行新板烧录或上电验证。硬件的充电默认禁用状态、温窗假设及待验证项见硬件文档。
@@ -19,6 +20,7 @@
 | [v2/](v2/README.md) | 独立 ESP-IDF 固件、主机测试及板级元数据 |
 | [docs/v2/](docs/v2/README.md) | 架构、路线和软硬件设计记录 |
 | [hardware/devboard-r0/](hardware/devboard-r0/README.md) | KiCad r10基线、嘉立创迁移工程、项目库、检查器和评审记录 |
+| [hardware/devboard-99/](hardware/devboard-99/README.md) | 当前 r12：99 mm KiCad 原理图/布局、制造规则、独立检查与预览 |
 | [hardware/reference/](hardware/reference/) | 原厂来源、版本与 SHA-256；原始下载文件仅本地保存 |
 | [outputs/](outputs/) | 已审查的 BOM 工作簿 |
 
