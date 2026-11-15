@@ -1,6 +1,6 @@
 # ESPaperPlay 开发验证板：PCB r10 / 制造与自行装配
 
-更新日期：2026-11-14。**r10已完成近焊盘过孔整改及制造文件更新：64个via、67个原线段端点调整，538个普通孔两面孔边至阻焊开口≥0.20mm；11个IC热孔明确采用树脂填平/电镀盖帽。** 原理图仍为r6绘图/r5电气，240封装、181网络、774逻辑引脚/804编号焊盘保持；DRC为0错误、0未连接、0原理图差异，仅保留1条U301绘图提示。自装203位回流、27位手焊、6位DNP保持，尚未下单或上电。
+更新日期：2026-11-15。**r10已完成近焊盘过孔整改及制造文件更新：64个via、67个原线段端点调整，538个普通孔两面孔边至阻焊开口≥0.20mm；11个IC热孔明确采用树脂填平/电镀盖帽。** 原理图仍为r6绘图/r5电气，240封装、181网络、774逻辑引脚/804编号焊盘保持；DRC为0错误、0未连接、0原理图差异，仅保留1条U301绘图提示。自装203位回流、27位手焊、6位DNP保持，尚未下单或上电。
 
 当前入口：[r10设计记录](../../docs/v2/hardware/pcb-dfm-r10.md)、[原生PCB](ESPaperPlay_Devboard.kicad_pcb)、[复核证据](review-r10/README.md)和[制造/装配审查包](output/manufacturing/r10-review/README.md)。官方名义模型窗口支持保持现有USB/SD线宽；实际阻抗与填孔加工按生产稿确认。[r8布线](../../docs/v2/hardware/pcb-routing-r8.md)及[r9制造审查](../../docs/v2/hardware/manufacturing-review-r9.md)为历史依据。
 
@@ -12,7 +12,7 @@
 
 ## 打开与查看
 
-嘉立创工程使用[已检查的epro2备份](output/easyeda/r10-checked/ESPaperPlay-V2-r10-migration-final.epro2)，客户端工程名为`ESPaperPlay-V2-r10-migrated`。连接、规则及特殊焊盘迁移记录见[检查报告](output/easyeda/r10-checked/CHECK_REPORT.txt)。相邻`output/easyeda/r10/`仅为早期待审历史，不能作为最新工程导入。当前KiCad文件仍为r10对照基线；两套CAD文件没有自动双向同步。
+嘉立创工程使用[最终CAM复核版epro2及资料](output/easyeda/r10-cam-checked/README.md)，客户端工程名为`ESPaperPlay-V2-r10-migrated`。本次修复和检查见[CAM报告](output/easyeda/r10-cam-checked/CAM_REVIEW.md)。`r10-checked/`和`r10/`保留历史，不能作为最新工程导入。当前KiCad文件为r10对照基线；两套CAD没有自动同步，后续嘉立创修改须同时更新原生备份、导出和检查记录。
 
 打开 [ESPaperPlay_Devboard.kicad_pro](ESPaperPlay_Devboard.kicad_pro)，进入PCB编辑器查看当前布局；原理图编辑器中双击根页功能框。也可直接打开[PCB](ESPaperPlay_Devboard.kicad_pcb)或[根原理图](ESPaperPlay_Devboard.kicad_sch)。
 

@@ -1,0 +1,47 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_GENERIC_PASTE_SCOPE",
+  "date": "2026-11-15",
+  "evidence_chain_inputs_match": true,
+  "evidence_sha256": {
+    "repaired1-paste-assembly-audit.json": "03298e44f4f79a81b4d4341206476b728ab86888f1be000e34c290cf1f4281da",
+    "repaired1-paste-operation-invariant.json": "c9da51dccd627d068665177a8a2f22543bda058614acfa97648d642ae49ac5d7",
+    "final-paste-operation-invariant.json": "4d5c464af4989425f7cf87c84495947e721219b24bdc8dd56ff8b3db71abcd43",
+    "final-silk-operation-invariant.json": "bd86175f921d473a3e75901cebab7c390fd4f7a78b1dc9d634321dd02106776a",
+    "final-assembly-invariant.json": "1814fe7d17486f80bb9fdda69685fde4357e953415d4d0a45f613f4b504d27cf"
+  },
+  "final_paste_raw_sha256": "f128a8080704629f36247d4b3f31c5b6fb0a465eb5296065e2377dc21b46108b",
+  "final_silk_raw_sha256": "a512da78894512f90d9c7d3ed987d56242f939960539272c4287c3da0cdb78aa",
+  "final_assembly_status": "PASS",
+  "physical_components": 240,
+  "electrical_Value_fields_verified": 236,
+  "mechanical_references_verified_by_DeviceName": 4,
+  "assembly_counts": {
+    "top_smd_reflow": 203,
+    "do_not_populate": 6,
+    "mechanical_hole_only": 4,
+    "post_reflow_tht_hand_solder": 23,
+    "post_reflow_smd_connector_hand_solder": 4
+  },
+  "paste_geometry_unchanged_after_exact_zero_length_region_edge_normalization": true,
+  "added_degenerate_region_edges": 1,
+  "paste_normalization_tolerance": 0,
+  "paste_flash_stroke_count": 679,
+  "top_silk_drawing_operations_strictly_unchanged": true,
+  "top_silk_operation_count": 15307,
+  "dedicated_DIY_stencil_ref_count": 203,
+  "dedicated_DIY_stencil_apertures": 636,
+  "dedicated_DIY_stencil_sha256": "b5ef210786e63462b0a9395ad313a65d62065bc8d13af80e4250fbddf4db84c9",
+  "output_policy": "Use the dedicated original r10 DIY stencil, never the EasyEDA generic GTP. Separate PCB and stencil deliveries. No back-paste process.",
+  "declared_generic_paste_differences": [
+    "J501: EasyEDA omits four PTH shell paste windows from generic output; all connector pads are intentionally hand soldered and omitted from the dedicated stencil.",
+    "U803: exact circular arcs replace the KiCad custom-pad fractured polygon; generic ring boundary differs by up to 0.004729 mm. Dedicated DIY steel keeps its independently reviewed bridged geometry.",
+    "U203: source serialization shift below 0.000005 mm; all other reference outlines agree within numeric precision."
+  ],
+  "limits": [
+    "Actual raw EasyEDA and native paste shape differences are enumerated, not treated as zero merely because DRC passes.",
+    "An annular generic Gerber drawn as four touching sectors is still a full ring with an unsupported steel island; only the dedicated stencil has four 0.15 mm bridges.",
+    "First-board print/reflow, stencil thickness/cutting capability, and acoustic sealing remain physical checks.",
+    "Top silkscreen equality is against the audited repaired1 EasyEDA output, not a claim of KiCad font/plot identity.",
+    "Final-stage paste proof chains the full repaired1 geometry audit to exact unchanged operation geometry; no expensive full polygon rerender was repeated."
+  ]
+}

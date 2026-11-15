@@ -1,0 +1,83 @@
+{
+  "status": "PASS_WITH_EXPLICIT_INTENTIONAL_GEOMETRY_DIFFERENCES",
+  "counts": {
+    "components": 240,
+    "footprint_documents": 233,
+    "source_pad_records": 838,
+    "standard_copper_or_npth_pads": 810,
+    "source_custom_copper_ring_pads": 1,
+    "paste_only_pads_delegated_to_stencil_review": 27,
+    "actual_outer_copper_pad_layer_checks": 924,
+    "actual_mask_pad_layer_checks": 1620,
+    "npth_dedicated_drills": 7,
+    "npth_dedicated_copper_flashes_across4layers": 28,
+    "npth_dedicated_mask_openings": 14
+  },
+  "checks": {
+    "final-footprint-audit.json": {
+      "status": "PASS",
+      "sha256": "d14282a2dfcaf477ceafd116e6c3bfc9bcf9c7d3e717e3d7100de4476cf4a487"
+    },
+    "final-copper-pad-flash-audit.json": {
+      "status": "PASS",
+      "sha256": "6612ff2612846c48f82a3f60be2ec47d18ecda780e88ab2041c77af4d8b2b5ca"
+    },
+    "final-mask-flash-audit.json": {
+      "status": "PASS",
+      "sha256": "3c360a97b4ffa92fad391a36247541ae75d90c4f1df5367cf998fe87e1d0ef73"
+    },
+    "final-npth-audit.json": {
+      "status": "PASS",
+      "sha256": "c395668521854152a2170073a6f0c7e66c064203ce0be42a8c69608ad236aa42"
+    },
+    "final-u403-capsule-audit.json": {
+      "status": "PASS",
+      "sha256": "992c768ab82e28f9b024849dd1ff8a05ab71b05b17ac33d7f0eb78e855e4d85c"
+    },
+    "final-u803-ring-audit.json": {
+      "status": "NOMINAL_SOURCE_CIRCLES_PASS_BASELINE_GERBER_TESSELLATION_DIFFERENCES",
+      "sha256": "a0a8c0428a18cb7fc3f817a7c83f1030ab7f185af8e79a1ceac17b3e0039b0b8"
+    }
+  },
+  "explicit_differences": [
+    {
+      "object": "7 NPTH pads",
+      "source_intent": "No copper at physical non-plated holes.",
+      "final_source": "Requested1um copper diameter is serialized as0.0394mil=1.00076um, preserving all hole/position/plating/paste fields; source compensated mask apertures differ by<4nm due serialization.",
+      "actual_cam": "All28 copper disks are exactly0.001mm diameter in Gerber; all7NPTHdrills and14mask circles retain nominal source dimensions. Minimum radial copper-to-nominal-hole containment margin0.2995mm.",
+      "caveat": "Raw copper is not mathematically empty. Nominal containment is quantified, not an assertion about measured fabrication tolerance."
+    },
+    {
+      "object": "U803 copper/mask custom annulus",
+      "source_intent": "KiCad gr_circle centerline radius0.675mm,width0.3mm; mask margin0.025mm.",
+      "final_cam": "Four curved sectors produce copper radius0.825/0.525mm and mask radius0.850/0.500mm, passing nominal source-circle geometry at0.1um.",
+      "old_cam_difference": "Old KiCad Gerber has polygonized circles; final ring/copper maximum boundary displacement4.543um, mask4.325um. Both within5um, but not pointwise identical."
+    }
+  ],
+  "resolved_defects": [
+    "53 effective+0.05mm top soldermask margins restored.",
+    "12 unintended U301 pad41 bottom mask openings suppressed.",
+    "U403 pin1 original short-track copper endcaps restored; local copper symmetric difference7.52e-15mm2.",
+    "Original full-diameter NPTH copper disks reduced to tiny deeply contained centers, removing near-drill-edge residual-copper concern."
+  ],
+  "coverage_limits": [
+    "Paste-only27pad records and paste aperture details belong to independent stencil review.",
+    "Whole-board route/copper-pour connectivity, rule coverage, all inner-layer geometry and drill/PTH slots belong to independent fullCAM/drill review.",
+    "This checks migration relative to accepted r10 hardware; it is not a fresh component-datasheet/BOM safety or circuit-design certification.",
+    "No manufacturing order or physical board measurement is implied."
+  ],
+  "portable_final_scripts": [
+    "audit_footprints.py",
+    "audit_copper_pad_flash.py",
+    "audit_mask_flash.py",
+    "audit_npth.py",
+    "audit_u403_capsule.py",
+    "audit_u803_ring.py"
+  ],
+  "dependencies": [
+    "Python3 with pcbnew for source-pad audit.",
+    "gerbonara1.6.3 and shapely2.2.0 for CAM audits.",
+    "cam_geometry.py adjacent to scripts or their parent directory."
+  ],
+  "reproducibility": "All six audit scripts accept explicit CLI source/output paths. audit_footprints.py requires --board and accepts --npth-repairs to validate7explicit small-copper exceptions; no CAD field is blindly skipped."
+}

@@ -1,0 +1,118 @@
+{
+  "status": "NOMINAL_SOURCE_CIRCLES_PASS_BASELINE_GERBER_TESSELLATION_DIFFERENCES",
+  "window_mm": [
+    60.05,
+    -62.95,
+    61.95,
+    -61.05
+  ],
+  "checks": [
+    {
+      "layer": "F.Cu",
+      "source_sha256": "33ebc2b720d6c9ca045fe38819e605b5c2ada647694de77227466b69a87d3062",
+      "converted_sha256": "c769dca59fed1156e298f36d20cde9ac91171bb1dc31e92fb480ec3d3d4bec15",
+      "source_area_mm2": 1.4300574813278426,
+      "converted_area_mm2": 1.4467414363565907,
+      "symmetric_difference_mm2": 0.016684709485932002,
+      "hausdorff_mm": 0.004542720990078463,
+      "removed_beyond_0.0001_mm_mm2": 0.0,
+      "added_beyond_0.0001_mm_mm2": 0.015937846152490328,
+      "removed_beyond_0.001_mm_mm2": 0.0,
+      "added_beyond_0.001_mm_mm2": 0.010238411122457648,
+      "removed_beyond_0.005_mm_mm2": 0.0,
+      "added_beyond_0.005_mm_mm2": 0.0,
+      "pass_0_1um": false
+    },
+    {
+      "layer": "B.Cu",
+      "source_sha256": "e26cd966d900b75aea46fa8c5d0e68c2a18ee33c1ec30cc3f6da117083af7235",
+      "converted_sha256": "b86f0e5f1ec767a9e7200ff2dffbc40010f8f685a9df47ac9e1a6e4880bcd3c8",
+      "source_area_mm2": 0.0799436910234103,
+      "converted_area_mm2": 0.07994324104331939,
+      "symmetric_difference_mm2": 6.382622074492277e-07,
+      "hausdorff_mm": 1.414213558802549e-06,
+      "removed_beyond_0.0001_mm_mm2": 0.0,
+      "added_beyond_0.0001_mm_mm2": 0.0,
+      "removed_beyond_0.001_mm_mm2": 0.0,
+      "added_beyond_0.001_mm_mm2": 0.0,
+      "removed_beyond_0.005_mm_mm2": 0.0,
+      "added_beyond_0.005_mm_mm2": 0.0,
+      "pass_0_1um": true
+    },
+    {
+      "layer": "F.Mask",
+      "source_sha256": "a90bcf234f345f5de8dc77f8220df4228fb07b1ed70874cea5e07e2ab0b503be",
+      "converted_sha256": "d0175b7a3f1030babffee2582dc40cfaf45cf619e67c92bdabacf0a23b066ace",
+      "source_area_mm2": 1.7486819449771647,
+      "converted_area_mm2": 1.7671116802927926,
+      "symmetric_difference_mm2": 0.01842973842649674,
+      "hausdorff_mm": 0.0043254960075614045,
+      "removed_beyond_0.0001_mm_mm2": 0.0,
+      "added_beyond_0.0001_mm_mm2": 0.017608970753273695,
+      "removed_beyond_0.001_mm_mm2": 0.0,
+      "added_beyond_0.001_mm_mm2": 0.011357684682576787,
+      "removed_beyond_0.005_mm_mm2": 0.0,
+      "added_beyond_0.005_mm_mm2": 0.0,
+      "pass_0_1um": false
+    },
+    {
+      "layer": "B.Mask",
+      "source_sha256": "faccc9894394e8f8c8543f676accf44fd8786bdb5790c678f43322dca3aa2f2c",
+      "converted_sha256": "b8203cf1af00018ba40fcce8f5fcf1073f0c45d13ddc1751719a52c8a44319af",
+      "source_area_mm2": 0.2827277991631605,
+      "converted_area_mm2": 0.2827277991631605,
+      "symmetric_difference_mm2": 0.0,
+      "hausdorff_mm": 0.0,
+      "removed_beyond_0.0001_mm_mm2": 0.0,
+      "added_beyond_0.0001_mm_mm2": 0.0,
+      "removed_beyond_0.001_mm_mm2": 0.0,
+      "added_beyond_0.001_mm_mm2": 0.0,
+      "removed_beyond_0.005_mm_mm2": 0.0,
+      "added_beyond_0.005_mm_mm2": 0.0,
+      "pass_0_1um": true
+    }
+  ],
+  "nominal_source_circle_checks": [
+    {
+      "layer": "F.Cu",
+      "sector_count": 4,
+      "outer_radius_mm": 0.825,
+      "inner_radius_mm": 0.525,
+      "actual_bounds_mm": [
+        60.175,
+        -62.825,
+        61.825,
+        -61.175
+      ],
+      "actual_area_mm2": 1.2723294239275065,
+      "nominal_area_mm2": 1.2723448999559084,
+      "hausdorff_mm": 1.245941495881457e-05,
+      "removed_beyond_0_1um_mm2": 0.0,
+      "added_beyond_0_1um_mm2": 0.0,
+      "pass": true
+    },
+    {
+      "layer": "F.Mask",
+      "sector_count": 4,
+      "outer_radius_mm": 0.85,
+      "inner_radius_mm": 0.5,
+      "actual_bounds_mm": [
+        60.15,
+        -62.85,
+        61.85,
+        -61.15
+      ],
+      "actual_area_mm2": 1.484383881129634,
+      "nominal_area_mm2": 1.4844023832818765,
+      "hausdorff_mm": 1.2469000046361085e-05,
+      "removed_beyond_0_1um_mm2": 0.0,
+      "added_beyond_0_1um_mm2": 0.0,
+      "pass": true
+    }
+  ],
+  "source_basis": "KiCad U803 pad4 primitives gr_circle center(0,.675), end(.675,.675), stroke.3mm: ringRout.825 Rin.525; solder_mask_margin.025mm givesmaskRout.850 Rin.500. Original KiCad Gerber tessellates these circles, while final Gerber retains4curvedsectors.",
+  "limits": [
+    "Cu excludes the nominal0.6mm NPTHdisk only, which contains the intentional1um copper dot; surrounding custom annulus and mask are fully included.",
+    "Uses actual CAM geometric union, not source custom-pad shape name. 0.05um curve approximation; reports at0.1um,1um,5um separately."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "before_geometry_sha256": "34d70db7fd5b5f49246cc2f78c89bf5a71dd8e86068a8f265d706bd3a26d228d",
+  "after_geometry_sha256": "34d70db7fd5b5f49246cc2f78c89bf5a71dd8e86068a8f265d706bd3a26d228d",
+  "geometry_equal": true,
+  "regions_equal": true,
+  "macro_definitions_equal": true,
+  "before_operation_count": 15307,
+  "after_operation_count": 15307,
+  "removed_operations": [],
+  "added_operations": [],
+  "before": "build/easyeda-cam-final-20261115/repaired1-gerber/Gerber_TopSilkscreenLayer.GTO",
+  "after": "build/easyeda-cam-final-20261115/final-gerber/Gerber_TopSilkscreenLayer.GTO",
+  "before_raw_sha256": "fb23ce31a615cc2452ccbdc57a8f703d0fd39cee434b36b04136f41b34bb67fd",
+  "after_raw_sha256": "a512da78894512f90d9c7d3ed987d56242f939960539272c4287c3da0cdb78aa",
+  "method": "Exact ordered strokes/flashes, regions, macro definitions and polarity; used aperture numbers resolved, unused definitions and generation comments omitted"
+}

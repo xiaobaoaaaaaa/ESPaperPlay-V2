@@ -1,0 +1,16 @@
+{
+  "before_geometry_sha256": "c84e8d878aa49d85afbd9f770469bdd4743123e7aa427da49d4e27c51b92a248",
+  "after_geometry_sha256": "c84e8d878aa49d85afbd9f770469bdd4743123e7aa427da49d4e27c51b92a248",
+  "geometry_equal": true,
+  "regions_equal": true,
+  "macro_definitions_equal": true,
+  "before_operation_count": 679,
+  "after_operation_count": 679,
+  "removed_operations": [],
+  "added_operations": [],
+  "before": "build/easyeda-cam-final-20261115/eda/Gerber_TopPasteMaskLayer.GTP",
+  "after": "build/easyeda-cam-final-20261115/repaired1-gerber/Gerber_TopPasteMaskLayer.GTP",
+  "before_raw_sha256": "57a8e90b2f7778f467c2cda352f6bbc4fa4c806a13227eb863ffec69be82d38b",
+  "after_raw_sha256": "7d43a800293427ae43aa7ff04d4b415b684600c8227d9bab657acd458c97bdc7",
+  "method": "Exact ordered strokes/flashes, regions, macro definitions and polarity; used aperture numbers resolved, unused definitions and generation comments omitted"
+}

@@ -1,0 +1,465 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "ref": "U803",
+      "pad_id": "ie14",
+      "center_mm": [
+        61.0,
+        -62.0
+      ],
+      "expected_drill_diameter_mm": 0.6,
+      "drill_ok": true,
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.2995
+        },
+        {
+          "layer": "In1.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.2995
+        },
+        {
+          "layer": "In2.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.2995
+        },
+        {
+          "layer": "B.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.2995
+        }
+      ],
+      "mask": [
+        {
+          "layer": "F.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.6,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 0.6
+        },
+        {
+          "layer": "B.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.6,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 0.6
+        }
+      ],
+      "pass": true
+    },
+    {
+      "ref": "H4",
+      "pad_id": "ie5",
+      "center_mm": [
+        205.0,
+        -155.0
+      ],
+      "expected_drill_diameter_mm": 3.2,
+      "drill_ok": true,
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "In1.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "In2.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "B.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        }
+      ],
+      "mask": [
+        {
+          "layer": "F.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 3.2,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 3.2
+        },
+        {
+          "layer": "B.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 3.2,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 3.2
+        }
+      ],
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pad_id": "ie5",
+      "center_mm": [
+        55.0,
+        -55.0
+      ],
+      "expected_drill_diameter_mm": 3.2,
+      "drill_ok": true,
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "In1.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "In2.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "B.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        }
+      ],
+      "mask": [
+        {
+          "layer": "F.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 3.2,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 3.2
+        },
+        {
+          "layer": "B.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 3.2,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 3.2
+        }
+      ],
+      "pass": true
+    },
+    {
+      "ref": "H2",
+      "pad_id": "ie5",
+      "center_mm": [
+        205.0,
+        -55.0
+      ],
+      "expected_drill_diameter_mm": 3.2,
+      "drill_ok": true,
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "In1.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "In2.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "B.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        }
+      ],
+      "mask": [
+        {
+          "layer": "F.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 3.2,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 3.2
+        },
+        {
+          "layer": "B.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 3.2,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 3.2
+        }
+      ],
+      "pass": true
+    },
+    {
+      "ref": "H3",
+      "pad_id": "ie5",
+      "center_mm": [
+        55.0,
+        -155.0
+      ],
+      "expected_drill_diameter_mm": 3.2,
+      "drill_ok": true,
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "In1.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "In2.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        },
+        {
+          "layer": "B.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 1.5995000000000001
+        }
+      ],
+      "mask": [
+        {
+          "layer": "F.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 3.2,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 3.2
+        },
+        {
+          "layer": "B.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 3.2,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 3.2
+        }
+      ],
+      "pass": true
+    },
+    {
+      "ref": "J501",
+      "pad_id": "ie11",
+      "center_mm": [
+        110.89,
+        -55.605
+      ],
+      "expected_drill_diameter_mm": 0.65,
+      "drill_ok": true,
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.3245
+        },
+        {
+          "layer": "In1.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.3245
+        },
+        {
+          "layer": "In2.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.3245
+        },
+        {
+          "layer": "B.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.3245
+        }
+      ],
+      "mask": [
+        {
+          "layer": "F.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.65,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 0.65
+        },
+        {
+          "layer": "B.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.65,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 0.65
+        }
+      ],
+      "pass": true
+    },
+    {
+      "ref": "J501",
+      "pad_id": "ie12",
+      "center_mm": [
+        105.11,
+        -55.605
+      ],
+      "expected_drill_diameter_mm": 0.65,
+      "drill_ok": true,
+      "copper": [
+        {
+          "layer": "F.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.3245
+        },
+        {
+          "layer": "In1.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.3245
+        },
+        {
+          "layer": "In2.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.3245
+        },
+        {
+          "layer": "B.Cu",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.001,
+          "center_error_mm": 0.0,
+          "radial_margin_to_actual_drill_mm": 0.3245
+        }
+      ],
+      "mask": [
+        {
+          "layer": "F.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.65,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 0.65
+        },
+        {
+          "layer": "B.Mask",
+          "flash_count": 1,
+          "pass": true,
+          "diameter_mm": 0.65,
+          "center_error_mm": 0.0,
+          "expected_mask_diameter_mm": 0.65
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "counts": {
+    "npth_holes": 7,
+    "copper_flashes": 28,
+    "mask_apertures": 14,
+    "passed_holes": 7
+  },
+  "input_hashes": {
+    "Gerber_TopLayer.GTL": "c769dca59fed1156e298f36d20cde9ac91171bb1dc31e92fb480ec3d3d4bec15",
+    "Gerber_InnerLayer1.G1": "88e6c12ff25df2f853f86a6751c3a8342baee6a53aca8ae553b9bd40c71b3795",
+    "Gerber_InnerLayer2.G2": "33211824f8d363997d3f4738640ab08d68eb6ba92120e29637cc63f13fcbc07b",
+    "Gerber_BottomLayer.GBL": "b86f0e5f1ec767a9e7200ff2dffbc40010f8f685a9df47ac9e1a6e4880bcd3c8",
+    "Gerber_TopSolderMaskLayer.GTS": "d0175b7a3f1030babffee2582dc40cfaf45cf619e67c92bdabacf0a23b066ace",
+    "Gerber_BottomSolderMaskLayer.GBS": "b8203cf1af00018ba40fcce8f5fcf1073f0c45d13ddc1751719a52c8a44319af",
+    "Drill_NPTH_Through.DRL": "0966a97cd6f7959e0a347270556b486cec15458f84672ff75e3d278283121a82"
+  },
+  "warnings": [
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-cam-final-20261115/final-gerber/Drill_NPTH_Through.DRL:15 \"G90\": G90 header statement found after end of header"
+  ],
+  "method": "Analytic circle diameters/centers, not polygonized bounding boxes. Compare each copper pad flash on all4layers and each mask flash to a matched NPTH Excellon drill. Nominal physical containment is not a factory drill-tolerance guarantee."
+}

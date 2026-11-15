@@ -1,0 +1,1939 @@
+{
+  "status": "PASS_SOURCE_SEMANTICS_AND_CAM_REPAIR_WITNESSES",
+  "saved_footprints_sha256": "309ca00140490ea7970488792ef6c641329f954cf0728afa950588d25290af0c",
+  "inputs_sha256": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-cam-final-20261115/snapshots/final-footprint-sources.json": "b101a7f09daa5abd64752d72f924d98bf18b6faae6cf85dfa5423af4ac51627a",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-cam-final-20261115/final-footprint-sources.json": "309ca00140490ea7970488792ef6c641329f954cf0728afa950588d25290af0c",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-cam-final-20261115/final-pcb-source.txt": "405e6cb05cd1005fc9bb597a48b61202cf7fc5068fb2617691e4da014ebdac41",
+    "thermal-repair-requests.json": "dc5e6a9b5425a8de480faec20983df9e230ad775dab3d42f3b3e74efe290fb14",
+    "pour-neck-repair-requests.json": "798b1f30496e97ee0b7472e4800100a001babbe6627d83031d87af011c04f6fe",
+    "final-inner-comparison.json": "21d3716a23b6a1ecdb3c776a0e87c86d64fa6b8883162b18cf4d49f6766b176a",
+    "narrow-neck-witnesses.json": "99db5e823892c9751c257dc80f49916c0bc3a481571b1fd31d2516a01bb56c50"
+  },
+  "metadata_numeric_tolerance_mil": 5.1e-05,
+  "metadata_tolerance_note": "Current client saves thermal gap/width to4 decimals in mil; allowed rounding is at most1.2954nm in mm. Geometry fields are compared without tolerance.",
+  "thermal_request_count": 59,
+  "thermal_matches": [
+    {
+      "footprint_uuid": "aba8afa3fc1c660b",
+      "pad_id": "ie6",
+      "source_instances": 11,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie81",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie82",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie83",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie84",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie85",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie86",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie87",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie88",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie89",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie90",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie91",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie92",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c5c3dbc7f1f36107",
+      "pad_id": "ie93",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "3df54365c32f8022",
+      "pad_id": "ie6",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "3df54365c32f8022",
+      "pad_id": "ie7",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "3df54365c32f8022",
+      "pad_id": "ie8",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "3df54365c32f8022",
+      "pad_id": "ie9",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "3df54365c32f8022",
+      "pad_id": "ie10",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "3df54365c32f8022",
+      "pad_id": "ie11",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "3df54365c32f8022",
+      "pad_id": "ie12",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "c6ebf847cd1d327e",
+      "pad_id": "ie33",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIRECT",
+          "actual": "DIRECT",
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "18c14f8b0c5ebe1b",
+      "pad_id": "ie7",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "71a356fc0b944f3c",
+      "pad_id": "ie27",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "71a356fc0b944f3c",
+      "pad_id": "ie28",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "71a356fc0b944f3c",
+      "pad_id": "ie29",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "71a356fc0b944f3c",
+      "pad_id": "ie30",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "0e1cf8cc04c5f36b",
+      "pad_id": "ie27",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "0e1cf8cc04c5f36b",
+      "pad_id": "ie28",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "0e1cf8cc04c5f36b",
+      "pad_id": "ie29",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "0e1cf8cc04c5f36b",
+      "pad_id": "ie30",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "7d9ab229cb405309",
+      "pad_id": "ie7",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "0295c0958287001c",
+      "pad_id": "ie6",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "0295c0958287001c",
+      "pad_id": "ie7",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "db4574e195903944",
+      "pad_id": "ie6",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "db4574e195903944",
+      "pad_id": "ie7",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "db4574e195903944",
+      "pad_id": "ie8",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "db4574e195903944",
+      "pad_id": "ie9",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "db4574e195903944",
+      "pad_id": "ie10",
+      "source_instances": 2,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "84ef59ec42967a94",
+      "pad_id": "ie27",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "84ef59ec42967a94",
+      "pad_id": "ie28",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "84ef59ec42967a94",
+      "pad_id": "ie29",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "84ef59ec42967a94",
+      "pad_id": "ie30",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "8511d2f2e11c70b2",
+      "pad_id": "ie27",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "8511d2f2e11c70b2",
+      "pad_id": "ie28",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "8511d2f2e11c70b2",
+      "pad_id": "ie29",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "8511d2f2e11c70b2",
+      "pad_id": "ie30",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "56895a7703b00cf5",
+      "pad_id": "ie27",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "56895a7703b00cf5",
+      "pad_id": "ie28",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "56895a7703b00cf5",
+      "pad_id": "ie29",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "56895a7703b00cf5",
+      "pad_id": "ie30",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "417f4b4301f79f29",
+      "pad_id": "ie6",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "417f4b4301f79f29",
+      "pad_id": "ie7",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "417f4b4301f79f29",
+      "pad_id": "ie8",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "417f4b4301f79f29",
+      "pad_id": "ie9",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "417f4b4301f79f29",
+      "pad_id": "ie10",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "417f4b4301f79f29",
+      "pad_id": "ie11",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "417f4b4301f79f29",
+      "pad_id": "ie12",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    },
+    {
+      "footprint_uuid": "417f4b4301f79f29",
+      "pad_id": "ie13",
+      "source_instances": 1,
+      "fields": [
+        {
+          "field": "connectMode",
+          "expected": "DIVERGENCE",
+          "actual": "DIVERGENCE",
+          "pass": true
+        },
+        {
+          "field": "spokeSpace",
+          "expected": 9.84251968503937,
+          "actual": 9.8425,
+          "pass": true
+        },
+        {
+          "field": "spokeWidth",
+          "expected": 11.811023622047244,
+          "actual": 11.811,
+          "pass": true
+        },
+        {
+          "field": "spokeAngle",
+          "expected": 45.0,
+          "actual": 45,
+          "pass": true
+        }
+      ],
+      "geometry_changed": {}
+    }
+  ],
+  "unchanged_angle90": [
+    {
+      "ref": "J104",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J301",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J201",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J102",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J402",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J401",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J303",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J204",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J801",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J404",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J105",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J502",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J101",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J202",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J103",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J205",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J501",
+      "pin": "SH",
+      "pass": true
+    },
+    {
+      "ref": "J501",
+      "pin": "SH",
+      "pass": true
+    },
+    {
+      "ref": "J501",
+      "pin": "SH",
+      "pass": true
+    },
+    {
+      "ref": "J501",
+      "pin": "SH",
+      "pass": true
+    },
+    {
+      "ref": "J206",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J405",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J403",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J203",
+      "pin": "1",
+      "pass": true
+    },
+    {
+      "ref": "J302",
+      "pin": "1",
+      "pass": true
+    }
+  ],
+  "pours": [
+    {
+      "primitive_id": "ie6149",
+      "pass": true,
+      "actual": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 15,
+        "width": 0.2,
+        "name": "POUR1",
+        "order": 1,
+        "path": [
+          [
+            1980.315,
+            -1980.315,
+            "L",
+            8255.9055,
+            -1980.315,
+            8255.9055,
+            -6287.4016,
+            1980.315,
+            -6287.4016,
+            1980.315,
+            -1980.315
+          ]
+        ],
+        "pourType": {
+          "pourType": "SOLID",
+          "fineness": 5.905511811023622
+        },
+        "keepIsland": false,
+        "locked": false,
+        "zIndex": 6149
+      }
+    },
+    {
+      "primitive_id": "ie6150",
+      "pass": true,
+      "actual": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 16,
+        "width": 0.2,
+        "name": "POUR2",
+        "order": 2,
+        "path": [
+          [
+            1980.315,
+            -1980.315,
+            "L",
+            8255.9055,
+            -1980.315,
+            8255.9055,
+            -6287.4016,
+            1980.315,
+            -6287.4016,
+            1980.315,
+            -1980.315
+          ]
+        ],
+        "pourType": {
+          "pourType": "SOLID",
+          "fineness": 5.905511811023622
+        },
+        "keepIsland": false,
+        "locked": false,
+        "zIndex": 6150
+      }
+    }
+  ],
+  "geometry": [
+    {
+      "layer": 1,
+      "source_component_count": 282,
+      "after_component_count": 282,
+      "beyond10um": {
+        "removed_mm2": 3.5345210407402807e-07,
+        "added_mm2": 0.0
+      },
+      "beyond15um": {
+        "removed_mm2": 0.0,
+        "added_mm2": 0.0
+      },
+      "witnesses": [
+        {
+          "midpoint_cam": [
+            157.45675,
+            -63.68575
+          ],
+          "source_copper": false,
+          "before_copper": true,
+          "after_copper": false,
+          "after_distance_to_copper_mm": 0.11935542624958509
+        },
+        {
+          "midpoint_cam": [
+            153.32870000000003,
+            -67.87335
+          ],
+          "source_copper": false,
+          "before_copper": true,
+          "after_copper": false,
+          "after_distance_to_copper_mm": 0.15313736591716587
+        }
+      ],
+      "U301_EP_through_hole_matrix": {
+        "source_copper_mm2": 16.43301124715607,
+        "before_removed_beyond5um_mm2": 3.5312580460430243,
+        "after_removed_beyond5um_mm2": 0.0,
+        "after_added_beyond5um_mm2": 0.0
+      }
+    },
+    {
+      "layer": 2,
+      "source_component_count": 282,
+      "after_component_count": 282,
+      "beyond10um": {
+        "removed_mm2": 3.5345210407402807e-07,
+        "added_mm2": 0.0
+      },
+      "beyond15um": {
+        "removed_mm2": 0.0,
+        "added_mm2": 0.0
+      },
+      "witnesses": [
+        {
+          "midpoint_cam": [
+            157.45675,
+            -63.68575
+          ],
+          "source_copper": false,
+          "before_copper": true,
+          "after_copper": false,
+          "after_distance_to_copper_mm": 0.11935542624958509
+        },
+        {
+          "midpoint_cam": [
+            153.32870000000003,
+            -67.87335
+          ],
+          "source_copper": false,
+          "before_copper": true,
+          "after_copper": false,
+          "after_distance_to_copper_mm": 0.15313736591716587
+        }
+      ],
+      "U301_EP_through_hole_matrix": {
+        "source_copper_mm2": 16.43301124715607,
+        "before_removed_beyond5um_mm2": 3.5312580460430243,
+        "after_removed_beyond5um_mm2": 0.0,
+        "after_added_beyond5um_mm2": 0.0
+      }
+    }
+  ],
+  "failures": [],
+  "limits": "PASS closes the enumerated migration defects; absolute cross-tool Gerber equivalence is not claimed. All remaining changes need interpretation against tolerances and manufacturing limits."
+}

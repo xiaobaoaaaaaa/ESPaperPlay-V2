@@ -1,0 +1,4568 @@
+{
+  "status": "PASS_BOARD_DELTA_AND_REQUESTED_LIBRARY_FIELDS",
+  "source_changes": [
+    {
+      "type": "ATTR",
+      "id": "ie1117r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "POURED",
+      "id": "[\"POURED\",\"ie6150\"]",
+      "reason": "rebuilt derived copper"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie126r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1679r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie546r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie207r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1171",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1301r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie207",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1522",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "POURED",
+      "id": "[\"POURED\",\"ie6149\"]",
+      "reason": "rebuilt derived copper"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1786",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1557r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "POUR",
+      "id": "ie6149",
+      "reason": "restore 0.15 mm minimum copper neck"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie126",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie2308",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "POUR",
+      "id": "ie6150",
+      "reason": "restore 0.15 mm minimum copper neck"
+    },
+    {
+      "type": "DOCHEAD",
+      "id": null,
+      "reason": "save state/version metadata"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1679",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1301",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie546",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1786r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1117",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1522r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie2308r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie573",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1557",
+      "reason": "hidden library footprint name; prior component binding relocated without change"
+    },
+    {
+      "type": "FILL",
+      "id": "873158c0579218ee",
+      "reason": "restore U403.1 original capsule copper; separately checked actual Gerber against KiCad"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie573r0",
+      "reason": "renamed attribute preserving exact value"
+    },
+    {
+      "type": "ATTR",
+      "id": "ie1171r0",
+      "reason": "renamed attribute preserving exact value"
+    }
+  ],
+  "attribute_binding_relocations": [
+    {
+      "old": "ie1171",
+      "new": "ie1171r0"
+    },
+    {
+      "old": "ie207",
+      "new": "ie207r0"
+    },
+    {
+      "old": "ie1522",
+      "new": "ie1522r0"
+    },
+    {
+      "old": "ie1786",
+      "new": "ie1786r0"
+    },
+    {
+      "old": "ie126",
+      "new": "ie126r0"
+    },
+    {
+      "old": "ie2308",
+      "new": "ie2308r0"
+    },
+    {
+      "old": "ie1679",
+      "new": "ie1679r0"
+    },
+    {
+      "old": "ie1301",
+      "new": "ie1301r0"
+    },
+    {
+      "old": "ie546",
+      "new": "ie546r0"
+    },
+    {
+      "old": "ie1117",
+      "new": "ie1117r0"
+    },
+    {
+      "old": "ie573",
+      "new": "ie573r0"
+    },
+    {
+      "old": "ie1557",
+      "new": "ie1557r0"
+    }
+  ],
+  "additional_hidden_unpositioned_library_attributes": [
+    "ie1171",
+    "ie207",
+    "ie1522",
+    "ie1786",
+    "ie126",
+    "ie2308",
+    "ie1679",
+    "ie1301",
+    "ie546",
+    "ie1117",
+    "ie573",
+    "ie1557"
+  ],
+  "all_component_positions_tracks_vias_nets_pad_nets_and_rules_unchanged": true,
+  "footprint_documents": 233,
+  "repaired_pad_records_checked": 112,
+  "footprint_changes": [
+    {
+      "uuid": "aba8afa3fc1c660b",
+      "pad": "ie6",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "pad": "ie7",
+      "fields": [
+        "bottomSolderExpansion",
+        "relativeAngle",
+        "propagationDelay",
+        "hole",
+        "groupId",
+        "defaultPad",
+        "refs",
+        "padLen",
+        "centerX",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion",
+        "attrsMap"
+      ]
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "pad": "ie6",
+      "fields": [
+        "bottomSolderExpansion",
+        "relativeAngle",
+        "propagationDelay",
+        "hole",
+        "groupId",
+        "defaultPad",
+        "refs",
+        "padLen",
+        "centerX",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion",
+        "attrsMap"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie85",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie89",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie92",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie88",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie82",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie83",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie93",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie87",
+      "fields": [
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie81",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie86",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie84",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie90",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "pad": "ie91",
+      "fields": [
+        "bottomSolderExpansion",
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "3df54365c32f8022",
+      "pad": "ie11",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "3df54365c32f8022",
+      "pad": "ie7",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "3df54365c32f8022",
+      "pad": "ie9",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "3df54365c32f8022",
+      "pad": "ie12",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "3df54365c32f8022",
+      "pad": "ie10",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "3df54365c32f8022",
+      "pad": "ie8",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "3df54365c32f8022",
+      "pad": "ie6",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "pad": "ie7",
+      "fields": [
+        "bottomSolderExpansion",
+        "relativeAngle",
+        "propagationDelay",
+        "hole",
+        "groupId",
+        "defaultPad",
+        "refs",
+        "padLen",
+        "centerX",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion",
+        "attrsMap"
+      ]
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "pad": "ie6",
+      "fields": [
+        "bottomSolderExpansion",
+        "relativeAngle",
+        "propagationDelay",
+        "hole",
+        "groupId",
+        "defaultPad",
+        "refs",
+        "padLen",
+        "centerX",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion",
+        "attrsMap"
+      ]
+    },
+    {
+      "uuid": "57e376c00af9ce28",
+      "pad": "ie14",
+      "fields": [
+        "bottomSolderExpansion",
+        "defaultPad",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "7c4e735271cf5eaf",
+      "pad": "ie5",
+      "fields": [
+        "bottomSolderExpansion",
+        "defaultPad",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "c6ebf847cd1d327e",
+      "pad": "ie33",
+      "fields": [
+        "connectMode"
+      ]
+    },
+    {
+      "uuid": "18c14f8b0c5ebe1b",
+      "pad": "ie7",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "ca20600d0ba16b77",
+      "pad": "ie5",
+      "fields": [
+        "bottomSolderExpansion",
+        "defaultPad",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "71a356fc0b944f3c",
+      "pad": "ie28",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "71a356fc0b944f3c",
+      "pad": "ie30",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "71a356fc0b944f3c",
+      "pad": "ie27",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "71a356fc0b944f3c",
+      "pad": "ie29",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "pad": "ie7",
+      "fields": [
+        "bottomSolderExpansion",
+        "relativeAngle",
+        "propagationDelay",
+        "hole",
+        "groupId",
+        "defaultPad",
+        "refs",
+        "centerY",
+        "padLen",
+        "centerX",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion",
+        "attrsMap"
+      ]
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "pad": "ie9",
+      "fields": [
+        "bottomSolderExpansion",
+        "relativeAngle",
+        "propagationDelay",
+        "hole",
+        "groupId",
+        "defaultPad",
+        "refs",
+        "padLen",
+        "centerX",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion",
+        "attrsMap"
+      ]
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "pad": "ie8",
+      "fields": [
+        "bottomSolderExpansion",
+        "relativeAngle",
+        "propagationDelay",
+        "hole",
+        "groupId",
+        "defaultPad",
+        "refs",
+        "centerY",
+        "padLen",
+        "centerX",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion",
+        "attrsMap"
+      ]
+    },
+    {
+      "uuid": "0e1cf8cc04c5f36b",
+      "pad": "ie28",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "0e1cf8cc04c5f36b",
+      "pad": "ie30",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "0e1cf8cc04c5f36b",
+      "pad": "ie27",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "0e1cf8cc04c5f36b",
+      "pad": "ie29",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "817d6cbec94d0dca",
+      "pad": "ie5",
+      "fields": [
+        "bottomSolderExpansion",
+        "defaultPad",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie16",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie24",
+      "fields": [
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie21",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie11",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie18",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie19",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie22",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie9",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie14",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie20",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie12",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie15",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie23",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie10",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie13",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie8",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "pad": "ie17",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "7d9ab229cb405309",
+      "pad": "ie7",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "pad": "ie7",
+      "fields": [
+        "bottomSolderExpansion",
+        "relativeAngle",
+        "propagationDelay",
+        "hole",
+        "groupId",
+        "defaultPad",
+        "refs",
+        "padLen",
+        "centerX",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion",
+        "attrsMap"
+      ]
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "pad": "ie6",
+      "fields": [
+        "bottomSolderExpansion",
+        "relativeAngle",
+        "propagationDelay",
+        "hole",
+        "groupId",
+        "defaultPad",
+        "refs",
+        "padLen",
+        "centerX",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion",
+        "attrsMap"
+      ]
+    },
+    {
+      "uuid": "12f3edb292f6d91c",
+      "pad": "ie5",
+      "fields": [
+        "bottomSolderExpansion",
+        "defaultPad",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie16",
+      "fields": [
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie11",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie18",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie9",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie14",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie12",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie15",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie10",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie13",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "pad": "ie17",
+      "fields": [
+        "bottomSolderExpansion",
+        "topPasteExpansion",
+        "bottomPasteExpansion",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "0295c0958287001c",
+      "pad": "ie7",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "0295c0958287001c",
+      "pad": "ie6",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "db4574e195903944",
+      "pad": "ie7",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "db4574e195903944",
+      "pad": "ie9",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "db4574e195903944",
+      "pad": "ie10",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "db4574e195903944",
+      "pad": "ie8",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "db4574e195903944",
+      "pad": "ie6",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "5d617139699a32cf",
+      "pad": "ie11",
+      "fields": [
+        "bottomSolderExpansion",
+        "defaultPad",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "5d617139699a32cf",
+      "pad": "ie12",
+      "fields": [
+        "bottomSolderExpansion",
+        "defaultPad",
+        "topSolderExpansion"
+      ]
+    },
+    {
+      "uuid": "84ef59ec42967a94",
+      "pad": "ie28",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "84ef59ec42967a94",
+      "pad": "ie30",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "84ef59ec42967a94",
+      "pad": "ie27",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "84ef59ec42967a94",
+      "pad": "ie29",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "8511d2f2e11c70b2",
+      "pad": "ie28",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "8511d2f2e11c70b2",
+      "pad": "ie30",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "8511d2f2e11c70b2",
+      "pad": "ie27",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "8511d2f2e11c70b2",
+      "pad": "ie29",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "56895a7703b00cf5",
+      "pad": "ie28",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "56895a7703b00cf5",
+      "pad": "ie30",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "56895a7703b00cf5",
+      "pad": "ie27",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "56895a7703b00cf5",
+      "pad": "ie29",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "417f4b4301f79f29",
+      "pad": "ie11",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "417f4b4301f79f29",
+      "pad": "ie7",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "417f4b4301f79f29",
+      "pad": "ie9",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "417f4b4301f79f29",
+      "pad": "ie12",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "417f4b4301f79f29",
+      "pad": "ie10",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "417f4b4301f79f29",
+      "pad": "ie13",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "417f4b4301f79f29",
+      "pad": "ie8",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    },
+    {
+      "uuid": "417f4b4301f79f29",
+      "pad": "ie6",
+      "fields": [
+        "spokeSpace",
+        "connectMode",
+        "spokeAngle",
+        "spokeWidth"
+      ]
+    }
+  ],
+  "additional_library_serialization_changes": [
+    {
+      "uuid": "aba8afa3fc1c660b",
+      "type": "ATTR",
+      "id": "e7bf96dee1e518f71",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "ATTR",
+      "id": "ie1",
+      "fields": {
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "strokeWidth": {
+          "before": 4.72441,
+          "after": 4.7244
+        },
+        "groupId": {
+          "before": "",
+          "after": null
+        },
+        "x": {
+          "before": -129.27559,
+          "after": -129.2756
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "POLY",
+      "id": "ie3",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -78.74016,
+            83.46457,
+            "L",
+            78.74016,
+            83.46457
+          ],
+          "after": [
+            -78.7402,
+            83.4646,
+            "L",
+            78.7402,
+            83.4646
+          ]
+        },
+        "width": {
+          "before": 4.72441,
+          "after": 4.7244
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"DRC\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#FFCC00"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"ALL\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": false
+        },
+        "layerId": {
+          "before": null,
+          "after": 51
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BOLDGRID\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"SELECTBOX\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#00ffff"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PAD",
+      "id": "ie7",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "relativeAngle": {
+          "before": 90,
+          "after": null
+        },
+        "propagationDelay": {
+          "before": null,
+          "after": 0
+        },
+        "hole": {
+          "before": {
+            "holeType": "ROUND",
+            "width": 0,
+            "height": 0
+          },
+          "after": null
+        },
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "defaultPad": {
+          "before": {
+            "padType": "RECT",
+            "width": 38.58268,
+            "height": 133.85827,
+            "radius": 10.20408
+          },
+          "after": {
+            "padType": "RECT",
+            "width": 38.5827,
+            "height": 133.8583,
+            "radius": 10.20408
+          }
+        },
+        "refs": {
+          "before": [],
+          "after": null
+        },
+        "padLen": {
+          "before": null,
+          "after": 0
+        },
+        "centerX": {
+          "before": 46.65354,
+          "after": 46.6535
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "attrsMap": {
+          "before": null,
+          "after": {}
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "LAYER",
+      "id": "[\"LAYER\",47]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 47
+        },
+        "inactiveTransparency": {
+          "before": 0.5,
+          "after": 1
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"COORDINATEAXIS\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"PARTITION\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "POLY",
+      "id": "ie2",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -78.74016,
+            -83.46457,
+            "L",
+            78.74016,
+            -83.46457
+          ],
+          "after": [
+            -78.7402,
+            -83.4646,
+            "L",
+            78.7402,
+            -83.4646
+          ]
+        },
+        "width": {
+          "before": 4.72441,
+          "after": 4.7244
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "NET",
+      "id": "[\"NET\",\"\"]",
+      "fields": {
+        "retLine": {
+          "before": null,
+          "after": true
+        },
+        "isPositiveNet": {
+          "before": null,
+          "after": false
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "POLY",
+      "id": "ie4",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -94.48819,
+            94.48819,
+            "L",
+            -94.48819,
+            -94.48819,
+            94.48819,
+            -94.48819,
+            94.48819,
+            94.48819,
+            -94.48819,
+            94.48819
+          ],
+          "after": [
+            -94.4882,
+            94.4882,
+            "L",
+            94.4882,
+            94.4882,
+            94.4882,
+            -94.4882,
+            -94.4882,
+            -94.4882,
+            -94.4882,
+            94.4882
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BACKGROUND\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#000000"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"CURSOR\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#00ffff"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "ATTR",
+      "id": "ie0",
+      "fields": {
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "strokeWidth": {
+          "before": 3.93701,
+          "after": 3.937
+        },
+        "zIndex": {
+          "before": 0,
+          "after": -1
+        },
+        "groupId": {
+          "before": "",
+          "after": null
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "POLY",
+      "id": "ie5",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -78.74016,
+            78.74016,
+            "L",
+            -78.74016,
+            -78.74016,
+            78.74016,
+            -78.74016,
+            78.74016,
+            78.74016,
+            -78.74016,
+            78.74016
+          ],
+          "after": [
+            -78.7402,
+            78.7402,
+            "L",
+            78.7402,
+            78.7402,
+            78.7402,
+            -78.7402,
+            -78.7402,
+            -78.7402,
+            -78.7402,
+            78.7402
+          ]
+        },
+        "width": {
+          "before": 3.93701,
+          "after": 3.937
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BOARDSHAPE\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#6D6A69"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"GRID\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PAD",
+      "id": "ie6",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "relativeAngle": {
+          "before": 90,
+          "after": null
+        },
+        "propagationDelay": {
+          "before": null,
+          "after": 0
+        },
+        "hole": {
+          "before": {
+            "holeType": "ROUND",
+            "width": 0,
+            "height": 0
+          },
+          "after": null
+        },
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "defaultPad": {
+          "before": {
+            "padType": "RECT",
+            "width": 38.58268,
+            "height": 133.85827,
+            "radius": 10.20408
+          },
+          "after": {
+            "padType": "RECT",
+            "width": 38.5827,
+            "height": 133.8583,
+            "radius": 10.20408
+          }
+        },
+        "refs": {
+          "before": [],
+          "after": null
+        },
+        "padLen": {
+          "before": null,
+          "after": 0
+        },
+        "centerX": {
+          "before": -46.65354,
+          "after": -46.6535
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "attrsMap": {
+          "before": null,
+          "after": {}
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "ATTR",
+      "id": "ee26ec2e2c7426ad8",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 3
+        },
+        "fontSize": {
+          "before": null,
+          "after": 50
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "zIndex": {
+          "before": null,
+          "after": -1
+        },
+        "parentId": {
+          "before": null,
+          "after": ""
+        },
+        "italic": {
+          "before": null,
+          "after": 0
+        },
+        "mirror": {
+          "before": null,
+          "after": false
+        },
+        "keyVisible": {
+          "before": null,
+          "after": false
+        },
+        "key": {
+          "before": null,
+          "after": "Footprint"
+        },
+        "angle": {
+          "before": null,
+          "after": 0
+        },
+        "valueVisible": {
+          "before": null,
+          "after": false
+        },
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "locked": {
+          "before": null,
+          "after": false
+        },
+        "value": {
+          "before": null,
+          "after": ""
+        },
+        "strokeWidth": {
+          "before": null,
+          "after": 8
+        },
+        "fontFamily": {
+          "before": null,
+          "after": "default"
+        },
+        "reverse": {
+          "before": null,
+          "after": false
+        },
+        "origin": {
+          "before": null,
+          "after": "LEFT_BOTTOM"
+        },
+        "expansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "99bab940c4f22b22",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"PROHIBITEDREGION\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#9966FF"
+        }
+      }
+    },
+    {
+      "uuid": "c5c3dbc7f1f36107",
+      "type": "ATTR",
+      "id": "e52259bd746880fea",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "3df54365c32f8022",
+      "type": "ATTR",
+      "id": "ef1935bd0901fef94",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "ATTR",
+      "id": "ie1",
+      "fields": {
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "strokeWidth": {
+          "before": 4.72441,
+          "after": 4.7244
+        },
+        "groupId": {
+          "before": "",
+          "after": null
+        },
+        "x": {
+          "before": 167.23846,
+          "after": 167.2385
+        },
+        "y": {
+          "before": -118.11024,
+          "after": -118.1102
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "POLY",
+      "id": "ie3",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -39.37008,
+            -35.43307,
+            "L",
+            39.37008,
+            -35.43307
+          ],
+          "after": [
+            -39.3701,
+            -35.4331,
+            "L",
+            39.3701,
+            -35.4331
+          ]
+        },
+        "width": {
+          "before": 4.72441,
+          "after": 4.7244
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"DRC\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#FFCC00"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"ALL\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": false
+        },
+        "layerId": {
+          "before": null,
+          "after": 51
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BOLDGRID\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"SELECTBOX\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#00ffff"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PAD",
+      "id": "ie7",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "relativeAngle": {
+          "before": 90,
+          "after": null
+        },
+        "propagationDelay": {
+          "before": null,
+          "after": 0
+        },
+        "hole": {
+          "before": {
+            "holeType": "ROUND",
+            "width": 0,
+            "height": 0
+          },
+          "after": null
+        },
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "defaultPad": {
+          "before": {
+            "padType": "RECT",
+            "width": 47.24409,
+            "height": 55.11811,
+            "radius": 8.33333
+          },
+          "after": {
+            "padType": "RECT",
+            "width": 47.2441,
+            "height": 55.1181,
+            "radius": 8.33333
+          }
+        },
+        "refs": {
+          "before": [],
+          "after": null
+        },
+        "padLen": {
+          "before": null,
+          "after": 0
+        },
+        "centerX": {
+          "before": 45.27559,
+          "after": 45.2756
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "attrsMap": {
+          "before": null,
+          "after": {}
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "LAYER",
+      "id": "[\"LAYER\",47]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 47
+        },
+        "inactiveTransparency": {
+          "before": 0.5,
+          "after": 1
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"COORDINATEAXIS\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"PARTITION\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "POLY",
+      "id": "ie2",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -39.37008,
+            35.43307,
+            "L",
+            39.37008,
+            35.43307
+          ],
+          "after": [
+            -39.3701,
+            35.4331,
+            "L",
+            39.3701,
+            35.4331
+          ]
+        },
+        "width": {
+          "before": 4.72441,
+          "after": 4.7244
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "NET",
+      "id": "[\"NET\",\"\"]",
+      "fields": {
+        "retLine": {
+          "before": null,
+          "after": true
+        },
+        "isPositiveNet": {
+          "before": null,
+          "after": false
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "POLY",
+      "id": "ie4",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -78.74016,
+            38.38583,
+            "L",
+            -78.74016,
+            -38.38583,
+            78.74016,
+            -38.38583,
+            78.74016,
+            38.38583,
+            -78.74016,
+            38.38583
+          ],
+          "after": [
+            -78.7402,
+            38.3858,
+            "L",
+            78.7402,
+            38.3858,
+            78.7402,
+            -38.3858,
+            -78.7402,
+            -38.3858,
+            -78.7402,
+            38.3858
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BACKGROUND\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#000000"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"CURSOR\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#00ffff"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "ATTR",
+      "id": "ie0",
+      "fields": {
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "strokeWidth": {
+          "before": 3.93701,
+          "after": 3.937
+        },
+        "zIndex": {
+          "before": 0,
+          "after": -1
+        },
+        "groupId": {
+          "before": "",
+          "after": null
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "POLY",
+      "id": "ie5",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -39.37008,
+            24.6063,
+            "L",
+            -39.37008,
+            -24.6063,
+            39.37008,
+            -24.6063,
+            39.37008,
+            24.6063,
+            -39.37008,
+            24.6063
+          ],
+          "after": [
+            -39.3701,
+            24.6063,
+            "L",
+            39.3701,
+            24.6063,
+            39.3701,
+            -24.6063,
+            -39.3701,
+            -24.6063,
+            -39.3701,
+            24.6063
+          ]
+        },
+        "width": {
+          "before": 3.93701,
+          "after": 3.937
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BOARDSHAPE\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#6D6A69"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"GRID\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "ATTR",
+      "id": "e654759cf10d5f808",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 3
+        },
+        "fontSize": {
+          "before": null,
+          "after": 50
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "zIndex": {
+          "before": null,
+          "after": -1
+        },
+        "parentId": {
+          "before": null,
+          "after": ""
+        },
+        "italic": {
+          "before": null,
+          "after": 0
+        },
+        "mirror": {
+          "before": null,
+          "after": false
+        },
+        "keyVisible": {
+          "before": null,
+          "after": false
+        },
+        "key": {
+          "before": null,
+          "after": "Footprint"
+        },
+        "angle": {
+          "before": null,
+          "after": 0
+        },
+        "valueVisible": {
+          "before": null,
+          "after": false
+        },
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "locked": {
+          "before": null,
+          "after": false
+        },
+        "value": {
+          "before": null,
+          "after": ""
+        },
+        "strokeWidth": {
+          "before": null,
+          "after": 8
+        },
+        "fontFamily": {
+          "before": null,
+          "after": "default"
+        },
+        "reverse": {
+          "before": null,
+          "after": false
+        },
+        "origin": {
+          "before": null,
+          "after": "LEFT_BOTTOM"
+        },
+        "expansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PAD",
+      "id": "ie6",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "relativeAngle": {
+          "before": 90,
+          "after": null
+        },
+        "propagationDelay": {
+          "before": null,
+          "after": 0
+        },
+        "hole": {
+          "before": {
+            "holeType": "ROUND",
+            "width": 0,
+            "height": 0
+          },
+          "after": null
+        },
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "defaultPad": {
+          "before": {
+            "padType": "RECT",
+            "width": 47.24409,
+            "height": 55.11811,
+            "radius": 8.33333
+          },
+          "after": {
+            "padType": "RECT",
+            "width": 47.2441,
+            "height": 55.1181,
+            "radius": 8.33333
+          }
+        },
+        "refs": {
+          "before": [],
+          "after": null
+        },
+        "padLen": {
+          "before": null,
+          "after": 0
+        },
+        "centerX": {
+          "before": -45.27559,
+          "after": -45.2756
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "attrsMap": {
+          "before": null,
+          "after": {}
+        }
+      }
+    },
+    {
+      "uuid": "e8c1ed82eae21c7c",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"PROHIBITEDREGION\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#9966FF"
+        }
+      }
+    },
+    {
+      "uuid": "7c4e735271cf5eaf",
+      "type": "ATTR",
+      "id": "e82593fc1a0601116",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "c6ebf847cd1d327e",
+      "type": "ATTR",
+      "id": "e034ec34e9ee6d608",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "18c14f8b0c5ebe1b",
+      "type": "ATTR",
+      "id": "efc812ac35a03ce9e",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "ca20600d0ba16b77",
+      "type": "ATTR",
+      "id": "ee07fbe3315abb8dd",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "71a356fc0b944f3c",
+      "type": "ATTR",
+      "id": "e9c922ea3fc640a13",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "ATTR",
+      "id": "ea709972a7aa925d0",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 3
+        },
+        "fontSize": {
+          "before": null,
+          "after": 50
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "zIndex": {
+          "before": null,
+          "after": -1
+        },
+        "parentId": {
+          "before": null,
+          "after": ""
+        },
+        "italic": {
+          "before": null,
+          "after": 0
+        },
+        "mirror": {
+          "before": null,
+          "after": false
+        },
+        "keyVisible": {
+          "before": null,
+          "after": false
+        },
+        "key": {
+          "before": null,
+          "after": "Footprint"
+        },
+        "angle": {
+          "before": null,
+          "after": 0
+        },
+        "valueVisible": {
+          "before": null,
+          "after": false
+        },
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "locked": {
+          "before": null,
+          "after": false
+        },
+        "value": {
+          "before": null,
+          "after": ""
+        },
+        "strokeWidth": {
+          "before": null,
+          "after": 8
+        },
+        "fontFamily": {
+          "before": null,
+          "after": "default"
+        },
+        "reverse": {
+          "before": null,
+          "after": false
+        },
+        "origin": {
+          "before": null,
+          "after": "LEFT_BOTTOM"
+        },
+        "expansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "ATTR",
+      "id": "ie1",
+      "fields": {
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "strokeWidth": {
+          "before": 4.72441,
+          "after": 4.7244
+        },
+        "groupId": {
+          "before": "",
+          "after": null
+        },
+        "x": {
+          "before": 109.59055,
+          "after": 109.5906
+        },
+        "y": {
+          "before": -39.37008,
+          "after": -39.3701
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "POLY",
+      "id": "ie3",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -31.49606,
+            -61.81102,
+            "L",
+            31.49606,
+            -61.81102
+          ],
+          "after": [
+            -31.4961,
+            -61.811,
+            "L",
+            31.4961,
+            -61.811
+          ]
+        },
+        "width": {
+          "before": 4.72441,
+          "after": 4.7244
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"DRC\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#FFCC00"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"ALL\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": false
+        },
+        "layerId": {
+          "before": null,
+          "after": 51
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BOLDGRID\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"SELECTBOX\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#00ffff"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PAD",
+      "id": "ie7",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "relativeAngle": {
+          "before": 90,
+          "after": null
+        },
+        "propagationDelay": {
+          "before": null,
+          "after": 0
+        },
+        "hole": {
+          "before": {
+            "holeType": "ROUND",
+            "width": 0,
+            "height": 0
+          },
+          "after": null
+        },
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "defaultPad": {
+          "before": {
+            "padType": "RECT",
+            "width": 31.49606,
+            "height": 31.49606,
+            "radius": 12.5
+          },
+          "after": {
+            "padType": "RECT",
+            "width": 31.4961,
+            "height": 31.4961,
+            "radius": 12.5
+          }
+        },
+        "refs": {
+          "before": [],
+          "after": null
+        },
+        "centerY": {
+          "before": 37.40157,
+          "after": 37.4016
+        },
+        "padLen": {
+          "before": null,
+          "after": 0
+        },
+        "centerX": {
+          "before": -47.24409,
+          "after": -47.2441
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "attrsMap": {
+          "before": null,
+          "after": {}
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "LAYER",
+      "id": "[\"LAYER\",47]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 47
+        },
+        "inactiveTransparency": {
+          "before": 0.5,
+          "after": 1
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"COORDINATEAXIS\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PAD",
+      "id": "ie9",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "relativeAngle": {
+          "before": 90,
+          "after": null
+        },
+        "propagationDelay": {
+          "before": null,
+          "after": 0
+        },
+        "hole": {
+          "before": {
+            "holeType": "ROUND",
+            "width": 0,
+            "height": 0
+          },
+          "after": null
+        },
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "defaultPad": {
+          "before": {
+            "padType": "RECT",
+            "width": 31.49606,
+            "height": 31.49606,
+            "radius": 12.5
+          },
+          "after": {
+            "padType": "RECT",
+            "width": 31.4961,
+            "height": 31.4961,
+            "radius": 12.5
+          }
+        },
+        "refs": {
+          "before": [],
+          "after": null
+        },
+        "padLen": {
+          "before": null,
+          "after": 0
+        },
+        "centerX": {
+          "before": 47.24409,
+          "after": 47.2441
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "attrsMap": {
+          "before": null,
+          "after": {}
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"PARTITION\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "POLY",
+      "id": "ie2",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -31.49606,
+            61.81102,
+            "L",
+            31.49606,
+            61.81102
+          ],
+          "after": [
+            -31.4961,
+            61.811,
+            "L",
+            31.4961,
+            61.811
+          ]
+        },
+        "width": {
+          "before": 4.72441,
+          "after": 4.7244
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "NET",
+      "id": "[\"NET\",\"\"]",
+      "fields": {
+        "retLine": {
+          "before": null,
+          "after": true
+        },
+        "isPositiveNet": {
+          "before": null,
+          "after": false
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "POLY",
+      "id": "ie4",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            "CIRCLE",
+            -80.70866,
+            57.08661,
+            3.93701
+          ],
+          "after": [
+            "CIRCLE",
+            -80.7087,
+            57.0866,
+            3.937
+          ]
+        },
+        "width": {
+          "before": 3.93701,
+          "after": 3.937
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BACKGROUND\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#000000"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"CURSOR\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#00ffff"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "ATTR",
+      "id": "ie0",
+      "fields": {
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "strokeWidth": {
+          "before": 3.93701,
+          "after": 3.937
+        },
+        "zIndex": {
+          "before": 0,
+          "after": -1
+        },
+        "groupId": {
+          "before": "",
+          "after": null
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PAD",
+      "id": "ie8",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "relativeAngle": {
+          "before": 90,
+          "after": null
+        },
+        "propagationDelay": {
+          "before": null,
+          "after": 0
+        },
+        "hole": {
+          "before": {
+            "holeType": "ROUND",
+            "width": 0,
+            "height": 0
+          },
+          "after": null
+        },
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "defaultPad": {
+          "before": {
+            "padType": "RECT",
+            "width": 31.49606,
+            "height": 31.49606,
+            "radius": 12.5
+          },
+          "after": {
+            "padType": "RECT",
+            "width": 31.4961,
+            "height": 31.4961,
+            "radius": 12.5
+          }
+        },
+        "refs": {
+          "before": [],
+          "after": null
+        },
+        "centerY": {
+          "before": -37.40157,
+          "after": -37.4016
+        },
+        "padLen": {
+          "before": null,
+          "after": 0
+        },
+        "centerX": {
+          "before": -47.24409,
+          "after": -47.2441
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "attrsMap": {
+          "before": null,
+          "after": {}
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "POLY",
+      "id": "ie5",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -74.80315,
+            70.86614,
+            "L",
+            -74.80315,
+            -70.86614,
+            74.80315,
+            -70.86614,
+            74.80315,
+            70.86614,
+            -74.80315,
+            70.86614
+          ],
+          "after": [
+            -74.8031,
+            70.8661,
+            "L",
+            74.8032,
+            70.8661,
+            74.8032,
+            -70.8661,
+            -74.8031,
+            -70.8661,
+            -74.8031,
+            70.8661
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BOARDSHAPE\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#6D6A69"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"GRID\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "POLY",
+      "id": "ie6",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -31.49606,
+            57.08661,
+            "L",
+            -31.49606,
+            -57.08661,
+            31.49606,
+            -57.08661,
+            31.49606,
+            57.08661,
+            -31.49606,
+            57.08661
+          ],
+          "after": [
+            -31.4961,
+            57.0866,
+            "L",
+            31.4961,
+            57.0866,
+            31.4961,
+            -57.0866,
+            -31.4961,
+            -57.0866,
+            -31.4961,
+            57.0866
+          ]
+        },
+        "width": {
+          "before": 3.93701,
+          "after": 3.937
+        }
+      }
+    },
+    {
+      "uuid": "d18562dc0afe363e",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"PROHIBITEDREGION\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#9966FF"
+        }
+      }
+    },
+    {
+      "uuid": "0e1cf8cc04c5f36b",
+      "type": "ATTR",
+      "id": "e851742cb307062d2",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "817d6cbec94d0dca",
+      "type": "ATTR",
+      "id": "ea2d27d4b87f22983",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie16",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie21",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie11",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie18",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie19",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie22",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie9",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie14",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "ATTR",
+      "id": "e34eafdf7ec20696e",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie20",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie12",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie15",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie23",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie10",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie13",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie8",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "12ac6dcd65edc8a3",
+      "type": "PAD",
+      "id": "ie17",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "7d9ab229cb405309",
+      "type": "ATTR",
+      "id": "eabed02166da6a7d2",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "ATTR",
+      "id": "ie1",
+      "fields": {
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "strokeWidth": {
+          "before": 4.72441,
+          "after": 4.7244
+        },
+        "groupId": {
+          "before": "",
+          "after": null
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "POLY",
+      "id": "ie3",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -90.55118,
+            -68.50394,
+            "L",
+            90.55118,
+            -68.50394
+          ],
+          "after": [
+            -90.5512,
+            -68.5039,
+            "L",
+            90.5512,
+            -68.5039
+          ]
+        },
+        "width": {
+          "before": 4.72441,
+          "after": 4.7244
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"DRC\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#FFCC00"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"ALL\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": false
+        },
+        "layerId": {
+          "before": null,
+          "after": 51
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BOLDGRID\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "ATTR",
+      "id": "eeb0b6c1128522e64",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 3
+        },
+        "fontSize": {
+          "before": null,
+          "after": 50
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "zIndex": {
+          "before": null,
+          "after": -1
+        },
+        "parentId": {
+          "before": null,
+          "after": ""
+        },
+        "italic": {
+          "before": null,
+          "after": 0
+        },
+        "mirror": {
+          "before": null,
+          "after": false
+        },
+        "keyVisible": {
+          "before": null,
+          "after": false
+        },
+        "key": {
+          "before": null,
+          "after": "Footprint"
+        },
+        "angle": {
+          "before": null,
+          "after": 0
+        },
+        "valueVisible": {
+          "before": null,
+          "after": false
+        },
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "locked": {
+          "before": null,
+          "after": false
+        },
+        "value": {
+          "before": null,
+          "after": ""
+        },
+        "strokeWidth": {
+          "before": null,
+          "after": 8
+        },
+        "fontFamily": {
+          "before": null,
+          "after": "default"
+        },
+        "reverse": {
+          "before": null,
+          "after": false
+        },
+        "origin": {
+          "before": null,
+          "after": "LEFT_BOTTOM"
+        },
+        "expansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"SELECTBOX\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#00ffff"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PAD",
+      "id": "ie7",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "relativeAngle": {
+          "before": 90,
+          "after": null
+        },
+        "propagationDelay": {
+          "before": null,
+          "after": 0
+        },
+        "hole": {
+          "before": {
+            "holeType": "ROUND",
+            "width": 0,
+            "height": 0
+          },
+          "after": null
+        },
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "defaultPad": {
+          "before": {
+            "padType": "RECT",
+            "width": 66.14173,
+            "height": 116.14173,
+            "radius": 5.95238
+          },
+          "after": {
+            "padType": "RECT",
+            "width": 66.1417,
+            "height": 116.1417,
+            "radius": 5.95238
+          }
+        },
+        "refs": {
+          "before": [],
+          "after": null
+        },
+        "padLen": {
+          "before": null,
+          "after": 0
+        },
+        "centerX": {
+          "before": 94.09449,
+          "after": 94.0945
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "attrsMap": {
+          "before": null,
+          "after": {}
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "LAYER",
+      "id": "[\"LAYER\",47]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 47
+        },
+        "inactiveTransparency": {
+          "before": 0.5,
+          "after": 1
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"COORDINATEAXIS\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"PARTITION\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#C0C0C0"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "POLY",
+      "id": "ie2",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -90.55118,
+            68.50394,
+            "L",
+            90.55118,
+            68.50394
+          ],
+          "after": [
+            -90.5512,
+            68.5039,
+            "L",
+            90.5512,
+            68.5039
+          ]
+        },
+        "width": {
+          "before": 4.72441,
+          "after": 4.7244
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "NET",
+      "id": "[\"NET\",\"\"]",
+      "fields": {
+        "retLine": {
+          "before": null,
+          "after": true
+        },
+        "isPositiveNet": {
+          "before": null,
+          "after": false
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "POLY",
+      "id": "ie4",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -137.79528,
+            77.16535,
+            "L",
+            -137.79528,
+            -77.16535,
+            137.79528,
+            -77.16535,
+            137.79528,
+            77.16535,
+            -137.79528,
+            77.16535
+          ],
+          "after": [
+            -137.7953,
+            77.1654,
+            "L",
+            137.7953,
+            77.1654,
+            137.7953,
+            -77.1653,
+            -137.7953,
+            -77.1653,
+            -137.7953,
+            77.1654
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BACKGROUND\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#000000"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"CURSOR\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#00ffff"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "ATTR",
+      "id": "ie0",
+      "fields": {
+        "groupID": {
+          "before": null,
+          "after": 0
+        },
+        "bold": {
+          "before": null,
+          "after": 0
+        },
+        "strokeWidth": {
+          "before": 3.93701,
+          "after": 3.937
+        },
+        "zIndex": {
+          "before": 0,
+          "after": -1
+        },
+        "groupId": {
+          "before": "",
+          "after": null
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "POLY",
+      "id": "ie5",
+      "fields": {
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "path": {
+          "before": [
+            -90.55118,
+            63.77953,
+            "L",
+            -90.55118,
+            -63.77953,
+            90.55118,
+            -63.77953,
+            90.55118,
+            63.77953,
+            -90.55118,
+            63.77953
+          ],
+          "after": [
+            -90.5512,
+            63.7795,
+            "L",
+            90.5512,
+            63.7795,
+            90.5512,
+            -63.7795,
+            -90.5512,
+            -63.7795,
+            -90.5512,
+            63.7795
+          ]
+        },
+        "width": {
+          "before": 3.93701,
+          "after": 3.937
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"BOARDSHAPE\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#6D6A69"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"GRID\"]",
+      "fields": {
+        "display": {
+          "before": null,
+          "after": true
+        },
+        "color": {
+          "before": null,
+          "after": "#ffffff"
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PAD",
+      "id": "ie6",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "relativeAngle": {
+          "before": 90,
+          "after": null
+        },
+        "propagationDelay": {
+          "before": null,
+          "after": 0
+        },
+        "hole": {
+          "before": {
+            "holeType": "ROUND",
+            "width": 0,
+            "height": 0
+          },
+          "after": null
+        },
+        "groupId": {
+          "before": "",
+          "after": 0
+        },
+        "defaultPad": {
+          "before": {
+            "padType": "RECT",
+            "width": 66.14173,
+            "height": 116.14173,
+            "radius": 5.95238
+          },
+          "after": {
+            "padType": "RECT",
+            "width": 66.1417,
+            "height": 116.1417,
+            "radius": 5.95238
+          }
+        },
+        "refs": {
+          "before": [],
+          "after": null
+        },
+        "padLen": {
+          "before": null,
+          "after": 0
+        },
+        "centerX": {
+          "before": -94.09449,
+          "after": -94.0945
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "attrsMap": {
+          "before": null,
+          "after": {}
+        }
+      }
+    },
+    {
+      "uuid": "c055eb1809a737ff",
+      "type": "PRIMITIVE",
+      "id": "[\"PRIMITIVE\",\"PROHIBITEDREGION\"]",
+      "fields": {
+        "layerId": {
+          "before": null,
+          "after": 0
+        },
+        "color": {
+          "before": null,
+          "after": "#9966FF"
+        }
+      }
+    },
+    {
+      "uuid": "12f3edb292f6d91c",
+      "type": "ATTR",
+      "id": "e1621fa89f1d9acc1",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "PAD",
+      "id": "ie11",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "ATTR",
+      "id": "e3f87be8c64e4ce44",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "PAD",
+      "id": "ie18",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "PAD",
+      "id": "ie9",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "PAD",
+      "id": "ie14",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "PAD",
+      "id": "ie12",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "PAD",
+      "id": "ie15",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "PAD",
+      "id": "ie10",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "PAD",
+      "id": "ie13",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "37d402cfd1be0fe8",
+      "type": "PAD",
+      "id": "ie17",
+      "fields": {
+        "bottomSolderExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "topPasteExpansion": {
+          "before": null,
+          "after": 0
+        },
+        "bottomPasteExpansion": {
+          "before": null,
+          "after": 0
+        }
+      }
+    },
+    {
+      "uuid": "0295c0958287001c",
+      "type": "ATTR",
+      "id": "ec95cbf027ba5f1f1",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "db4574e195903944",
+      "type": "ATTR",
+      "id": "ef6ce8859b6450987",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "5d617139699a32cf",
+      "type": "ATTR",
+      "id": "ebbc5b0e2136b3f97",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "84ef59ec42967a94",
+      "type": "ATTR",
+      "id": "ea0f963c1efe7a52d",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "8511d2f2e11c70b2",
+      "type": "ATTR",
+      "id": "eb1a64b4ed17ba148",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "56895a7703b00cf5",
+      "type": "ATTR",
+      "id": "e3a49108f8113ff3f",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    },
+    {
+      "uuid": "417f4b4301f79f29",
+      "type": "ATTR",
+      "id": "eaf00d5efdb566086",
+      "fields": {
+        "value": {
+          "before": "",
+          "after": "undefined"
+        }
+      }
+    }
+  ],
+  "additional_library_changes_scope": "Recorded for review, not asserted byte-identical. All manufacturing pad fields and actual CAM are covered by independent footprint/mask/copper/paste audits; hidden attributes/UI defaults/noncopper poly rounding may normalize on library update.",
+  "quantization_policy": "Accept exact requested metadata or 4-decimal-mil source serialization. Actual CAM geometry checked independently.",
+  "inputs": {
+    "build/easyeda-cam-final-20261115/live-before-source.txt": "9f89c18e4fa353440b200b7ea6740fd54a90b6cf240bd9d84a57dfba451a8333",
+    "build/easyeda-cam-final-20261115/final-pcb-source.txt": "405e6cb05cd1005fc9bb597a48b61202cf7fc5068fb2617691e4da014ebdac41",
+    "build/easyeda-cam-final-20261115/snapshots/final-footprint-sources.json": "b101a7f09daa5abd64752d72f924d98bf18b6faae6cf85dfa5423af4ac51627a",
+    "build/easyeda-cam-final-20261115/final-footprint-sources.json": "309ca00140490ea7970488792ef6c641329f954cf0728afa950588d25290af0c",
+    "build/easyeda-cam-final-20261115/merged-repair/manifest.json": "b9d67b8ab2c717f40ede5e33d3f3495f92ad134b8b1c4d6e1e9fddc8c5150f83",
+    "build/easyeda-cam-final-20261115/footprints/npth-repair-requests.json": "37fa2af28180161aa39c7cbccbb55340aed6d14eb7e504b0b3b3ab3e981a9250"
+  }
+}

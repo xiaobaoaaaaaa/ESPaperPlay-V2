@@ -1,0 +1,2440 @@
+{
+  "status": "PASS",
+  "problems": [],
+  "inputs": {
+    "build/easyeda-cam-final-20261115/repaired1-netlist.json": "79437f46138f44ec947fb9f3b389fdd5cf4bbedb6f4678ebe278bd540eac8d29",
+    "build/easyeda-cam-final-20261115/final-pcb-netlist.json": "79437f46138f44ec947fb9f3b389fdd5cf4bbedb6f4678ebe278bd540eac8d29",
+    "build/easyeda-cam-final-20261115/repaired1-pcb-source.txt": "aecc18a7d1f3ee6b3e3243a386aa0c53c836a7389f3e8125d87afab6c67b265d",
+    "build/easyeda-cam-final-20261115/final-pcb-source.txt": "405e6cb05cd1005fc9bb597a48b61202cf7fc5068fb2617691e4da014ebdac41",
+    "hardware/devboard-r0/output/manufacturing/r10-review/assembly/population.csv": "9c53a9fb47bb939334ff09c2eb17fa0bef2295c27c39f08b5f71639ec1eb0792"
+  },
+  "physical_components": 240,
+  "electrical_components": 236,
+  "all_240_instance_metadata_and_placement_unchanged": true,
+  "all_236_electrical_component_properties_and_pin_maps_unchanged": true,
+  "electrical_Value_fields_verified": 236,
+  "mechanical_references_verified_by_DeviceName": 4,
+  "mechanical_Value_representation": "H1-H4 have no explicit electrical Value in either snapshot; native M3 NPTH resolves to retained MountingHole_3.2mm_M3 device type and mechanical-only BOM/sync flags.",
+  "assembly_counts": {
+    "top_smd_reflow": 203,
+    "do_not_populate": 6,
+    "mechanical_hole_only": 4,
+    "post_reflow_tht_hand_solder": 23,
+    "post_reflow_smd_connector_hand_solder": 4
+  },
+  "DNP_refs": [
+    "C501",
+    "C502",
+    "J301",
+    "J302",
+    "J303",
+    "R108"
+  ],
+  "rows": [
+    {
+      "ref": "C101",
+      "Value": "4.7u / 25V",
+      "population_Value": "4.7u / 25V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C102",
+      "Value": "10u / 16V",
+      "population_Value": "10u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C103",
+      "Value": "10u / 16V",
+      "population_Value": "10u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C201",
+      "Value": "10u / 16V",
+      "population_Value": "10u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C202",
+      "Value": "22u / 16V",
+      "population_Value": "22u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C203",
+      "Value": "100n",
+      "population_Value": "100n",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C204",
+      "Value": "100n",
+      "population_Value": "100n",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C301",
+      "Value": "10u / 10V",
+      "population_Value": "10u / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C302",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C303",
+      "Value": "1u / 16V",
+      "population_Value": "1u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C401",
+      "Value": "1u / 16V",
+      "population_Value": "1u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C402",
+      "Value": "4.7n / 50V",
+      "population_Value": "4.7n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C403",
+      "Value": "22u / 16V",
+      "population_Value": "22u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C404",
+      "Value": "1u / 16V",
+      "population_Value": "1u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C405",
+      "Value": "4.7n / 50V",
+      "population_Value": "4.7n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C406",
+      "Value": "22u / 16V",
+      "population_Value": "22u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C407",
+      "Value": "1u / 16V",
+      "population_Value": "1u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C408",
+      "Value": "4.7n / 50V",
+      "population_Value": "4.7n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C409",
+      "Value": "4.7u / 25V",
+      "population_Value": "4.7u / 25V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C410",
+      "Value": "1u / 16V",
+      "population_Value": "1u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C411",
+      "Value": "4.7n / 50V",
+      "population_Value": "4.7n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C412",
+      "Value": "1u / 16V",
+      "population_Value": "1u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C413",
+      "Value": "1u / 16V",
+      "population_Value": "1u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C414",
+      "Value": "4.7n / 50V",
+      "population_Value": "4.7n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C415",
+      "Value": "22u / 16V",
+      "population_Value": "22u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C416",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C417",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C501",
+      "Value": "TUNE / DNP",
+      "population_Value": "TUNE / DNP",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "do_not_populate",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C502",
+      "Value": "TUNE / DNP",
+      "population_Value": "TUNE / DNP",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "do_not_populate",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C503",
+      "Value": "100n / 16V",
+      "population_Value": "100n / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C601",
+      "Value": "4.7u / 50V",
+      "population_Value": "4.7u / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C602",
+      "Value": "4.7u / 50V",
+      "population_Value": "4.7u / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C603",
+      "Value": "4.7u / 25V",
+      "population_Value": "4.7u / 25V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C604",
+      "Value": "4.7u / 50V",
+      "population_Value": "4.7u / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C605",
+      "Value": "1u / 50V",
+      "population_Value": "1u / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C606",
+      "Value": "1u / 50V",
+      "population_Value": "1u / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C607",
+      "Value": "4.7u / 50V",
+      "population_Value": "4.7u / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C608",
+      "Value": "4.7u / 50V",
+      "population_Value": "4.7u / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C609",
+      "Value": "4.7u / 50V",
+      "population_Value": "4.7u / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C610",
+      "Value": "1u / 50V",
+      "population_Value": "1u / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C611",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C612",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C701",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C702",
+      "Value": "10u / 10V",
+      "population_Value": "10u / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C703",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C704",
+      "Value": "10n / 50V",
+      "population_Value": "10n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C705",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C801",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C802",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C803",
+      "Value": "10u / 10V",
+      "population_Value": "10u / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C804",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C805",
+      "Value": "1u / 16V",
+      "population_Value": "1u / 16V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C806",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C808",
+      "Value": "100n / 10V",
+      "population_Value": "100n / 10V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C901",
+      "Value": "100n / 50V",
+      "population_Value": "100n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C902",
+      "Value": "10n / 50V",
+      "population_Value": "10n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C903",
+      "Value": "10n / 50V",
+      "population_Value": "10n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "C904",
+      "Value": "10n / 50V",
+      "population_Value": "10n / 50V",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "D501",
+      "Value": "AOS SMAJ6.0A",
+      "population_Value": "AOS SMAJ6.0A",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "D601",
+      "Value": "onsemi MBR0530T1G",
+      "population_Value": "onsemi MBR0530T1G",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "D602",
+      "Value": "onsemi MBR0530T1G",
+      "population_Value": "onsemi MBR0530T1G",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "D603",
+      "Value": "onsemi MBR0530T1G",
+      "population_Value": "onsemi MBR0530T1G",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "F501",
+      "Value": "MF-MSMF200/16X-2",
+      "population_Value": "MF-MSMF200/16X-2",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "H1",
+      "Value": null,
+      "population_Value": "M3 NPTH",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "mechanical_hole_only",
+      "electrical_component_equal": true,
+      "Value_representation": "No explicit electrical Value; mechanical device type MountingHole_3.2mm_M3",
+      "mechanical_device_type": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    {
+      "ref": "H2",
+      "Value": null,
+      "population_Value": "M3 NPTH",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "mechanical_hole_only",
+      "electrical_component_equal": true,
+      "Value_representation": "No explicit electrical Value; mechanical device type MountingHole_3.2mm_M3",
+      "mechanical_device_type": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    {
+      "ref": "H3",
+      "Value": null,
+      "population_Value": "M3 NPTH",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "mechanical_hole_only",
+      "electrical_component_equal": true,
+      "Value_representation": "No explicit electrical Value; mechanical device type MountingHole_3.2mm_M3",
+      "mechanical_device_type": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    {
+      "ref": "H4",
+      "Value": null,
+      "population_Value": "M3 NPTH",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "mechanical_hole_only",
+      "electrical_component_equal": true,
+      "Value_representation": "No explicit electrical Value; mechanical device type MountingHole_3.2mm_M3",
+      "mechanical_device_type": "MountingHole:MountingHole_3.2mm_M3"
+    },
+    {
+      "ref": "J101",
+      "Value": "5V_BENCH_IN",
+      "population_Value": "5V_BENCH_IN",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J102",
+      "Value": "BAT_PACK_PROTECTED",
+      "population_Value": "BAT_PACK_PROTECTED",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J103",
+      "Value": "PACK_NTC",
+      "population_Value": "PACK_NTC",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J104",
+      "Value": "SYS_TEST",
+      "population_Value": "SYS_TEST",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J105",
+      "Value": "RECOVERY_CE",
+      "population_Value": "RECOVERY_CE",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J201",
+      "Value": "3V3_AON_TEST",
+      "population_Value": "3V3_AON_TEST",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J202",
+      "Value": "MAIN_RUN_SELECT",
+      "population_Value": "MAIN_RUN_SELECT",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J203",
+      "Value": "PWM_TEST_OPEN",
+      "population_Value": "PWM_TEST_OPEN",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J204",
+      "Value": "REG_PG_TEST",
+      "population_Value": "REG_PG_TEST",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J205",
+      "Value": "MCU_BRINGUP",
+      "population_Value": "MCU_BRINGUP",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J206",
+      "Value": "DOMAINS_CONTROL",
+      "population_Value": "DOMAINS_CONTROL",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J301",
+      "Value": "EPD_DEBUG",
+      "population_Value": "EPD_DEBUG",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "do_not_populate",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J302",
+      "Value": "SD_DEBUG",
+      "population_Value": "SD_DEBUG",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "do_not_populate",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J303",
+      "Value": "AUDIO_DEBUG",
+      "population_Value": "AUDIO_DEBUG",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "do_not_populate",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J401",
+      "Value": "EPD_PWR",
+      "population_Value": "EPD_PWR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J402",
+      "Value": "SD_PWR",
+      "population_Value": "SD_PWR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J403",
+      "Value": "TOUCH_PWR",
+      "population_Value": "TOUCH_PWR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J404",
+      "Value": "MIC_PWR",
+      "population_Value": "MIC_PWR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J405",
+      "Value": "AMP_PWR",
+      "population_Value": "AMP_PWR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J406",
+      "Value": "GT911_FUNCTIONAL_6PIN",
+      "population_Value": "GT911_FUNCTIONAL_6PIN",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_smd_connector_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J501",
+      "Value": "USB-C USB2 16P",
+      "population_Value": "USB-C USB2 16P",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_smd_connector_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J502",
+      "Value": "ONE SHUNT: USB / BENCH",
+      "population_Value": "ONE SHUNT: USB / BENCH",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J601",
+      "Value": "EPD FPC 24 x 0.5mm",
+      "population_Value": "EPD FPC 24 x 0.5mm",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_smd_connector_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J701",
+      "Value": "Hirose DM3AT-SF-PEJM5",
+      "population_Value": "Hirose DM3AT-SF-PEJM5",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_smd_connector_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "J801",
+      "Value": "SPEAKER / 8R CANDIDATE",
+      "population_Value": "SPEAKER / 8R CANDIDATE",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "L201",
+      "Value": "0.47uH",
+      "population_Value": "0.47uH",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "L601",
+      "Value": "10uH / >=1A target",
+      "population_Value": "10uH / >=1A target",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "Q101",
+      "Value": "AO3400A",
+      "population_Value": "AO3400A",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "Q201",
+      "Value": "AO3400A",
+      "population_Value": "AO3400A",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "Q601",
+      "Value": "Vishay Si1308EDL-T1-GE3",
+      "population_Value": "Vishay Si1308EDL-T1-GE3",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R101",
+      "Value": "0R / I_SYS",
+      "population_Value": "0R / I_SYS",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R102",
+      "Value": "0R / I_BAT",
+      "population_Value": "0R / I_BAT",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R103",
+      "Value": "1.62k / 1%",
+      "population_Value": "1.62k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R104",
+      "Value": "1.27k / 1%",
+      "population_Value": "1.27k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R105",
+      "Value": "68k / 1%",
+      "population_Value": "68k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R106",
+      "Value": "47k / 1%",
+      "population_Value": "47k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R107",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R108",
+      "Value": "0R CHG_ARM",
+      "population_Value": "0R CHG_ARM",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "do_not_populate",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R109",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R110",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R111",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R112",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R113",
+      "Value": "1.27k / 1%",
+      "population_Value": "1.27k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R201",
+      "Value": "51.1k / 0.1%",
+      "population_Value": "51.1k / 0.1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R202",
+      "Value": "9.10k / 0.1%",
+      "population_Value": "9.10k / 0.1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R203",
+      "Value": "0R / I_3V3",
+      "population_Value": "0R / I_3V3",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R204",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R205",
+      "Value": "1M",
+      "population_Value": "1M",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R206",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R207",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R208",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R209",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R210",
+      "Value": "4.7k",
+      "population_Value": "4.7k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R211",
+      "Value": "4.7k",
+      "population_Value": "4.7k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R212",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R213",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R214",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R215",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R216",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R217",
+      "Value": "0R",
+      "population_Value": "0R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R218",
+      "Value": "0R",
+      "population_Value": "0R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R219",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R220",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R221",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R222",
+      "Value": "47k",
+      "population_Value": "47k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R223",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R224",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R225",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R226",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R227",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R301",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R302",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R303",
+      "Value": "47k",
+      "population_Value": "47k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R304",
+      "Value": "47k",
+      "population_Value": "47k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R305",
+      "Value": "47k",
+      "population_Value": "47k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R306",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R401",
+      "Value": "330R / 1%",
+      "population_Value": "330R / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R402",
+      "Value": "0R / I_EPD",
+      "population_Value": "0R / I_EPD",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R404",
+      "Value": "330R / 1%",
+      "population_Value": "330R / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R405",
+      "Value": "0R / I_SD",
+      "population_Value": "0R / I_SD",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R407",
+      "Value": "330R / 1%",
+      "population_Value": "330R / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R408",
+      "Value": "0R / I_TOUCH",
+      "population_Value": "0R / I_TOUCH",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R410",
+      "Value": "330R / 1%",
+      "population_Value": "330R / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R411",
+      "Value": "0R / I_MIC",
+      "population_Value": "0R / I_MIC",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R413",
+      "Value": "330R / 1%",
+      "population_Value": "330R / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R414",
+      "Value": "0R / I_AMP",
+      "population_Value": "0R / I_AMP",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R416",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R417",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R418",
+      "Value": "10k",
+      "population_Value": "10k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R419",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R420",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R501",
+      "Value": "5.1k 1%",
+      "population_Value": "5.1k 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R502",
+      "Value": "5.1k 1%",
+      "population_Value": "5.1k 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R503",
+      "Value": "22R",
+      "population_Value": "22R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R504",
+      "Value": "22R",
+      "population_Value": "22R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R601",
+      "Value": "1M / 1%",
+      "population_Value": "1M / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R602",
+      "Value": "0.47R / 1%",
+      "population_Value": "0.47R / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R603",
+      "Value": "33R",
+      "population_Value": "33R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R604",
+      "Value": "33R",
+      "population_Value": "33R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R605",
+      "Value": "33R",
+      "population_Value": "33R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R606",
+      "Value": "33R",
+      "population_Value": "33R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R607",
+      "Value": "33R",
+      "population_Value": "33R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R608",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R609",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R610",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R611",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R612",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R613",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R614",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R701",
+      "Value": "10k / 1%",
+      "population_Value": "10k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R702",
+      "Value": "10k / 1%",
+      "population_Value": "10k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R703",
+      "Value": "10k / 1%",
+      "population_Value": "10k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R704",
+      "Value": "10k / 1%",
+      "population_Value": "10k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R705",
+      "Value": "10k / 1%",
+      "population_Value": "10k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R706",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R708",
+      "Value": "100R",
+      "population_Value": "100R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R710",
+      "Value": "22R",
+      "population_Value": "22R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R711",
+      "Value": "0R",
+      "population_Value": "0R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R712",
+      "Value": "0R",
+      "population_Value": "0R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R713",
+      "Value": "0R",
+      "population_Value": "0R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R714",
+      "Value": "0R",
+      "population_Value": "0R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R715",
+      "Value": "0R",
+      "population_Value": "0R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R802",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R803",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R804",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R805",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R806",
+      "Value": "2.00k / 1%",
+      "population_Value": "2.00k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R808",
+      "Value": "22R",
+      "population_Value": "22R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R809",
+      "Value": "22R",
+      "population_Value": "22R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R810",
+      "Value": "22R",
+      "population_Value": "22R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R811",
+      "Value": "0R / SPK_P",
+      "population_Value": "0R / SPK_P",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R812",
+      "Value": "0R / SPK_N",
+      "population_Value": "0R / SPK_N",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R813",
+      "Value": "100k",
+      "population_Value": "100k",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R901",
+      "Value": "47k / 1%",
+      "population_Value": "47k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R902",
+      "Value": "100k / 1%",
+      "population_Value": "100k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R903",
+      "Value": "12k / 1%",
+      "population_Value": "12k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R904",
+      "Value": "100k / 1%",
+      "population_Value": "100k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R905",
+      "Value": "33k / 1%",
+      "population_Value": "33k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R906",
+      "Value": "10k / 1%",
+      "population_Value": "10k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R907",
+      "Value": "330k / 1%",
+      "population_Value": "330k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "R908",
+      "Value": "330k / 1%",
+      "population_Value": "330k / 1%",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "SW301",
+      "Value": "RESET",
+      "population_Value": "RESET",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "SW302",
+      "Value": "BOOT",
+      "population_Value": "BOOT",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "SW303",
+      "Value": "POWER / IO21",
+      "population_Value": "POWER / IO21",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "SW304",
+      "Value": "PLUS / IO44",
+      "population_Value": "PLUS / IO44",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "SW305",
+      "Value": "MINUS / IO5",
+      "population_Value": "MINUS / IO5",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "post_reflow_tht_hand_solder",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U101",
+      "Value": "BQ24074RGT",
+      "population_Value": "BQ24074RGT",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U201",
+      "Value": "TPS63802DLA",
+      "population_Value": "TPS63802DLA",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U202",
+      "Value": "TCA9539PW / 0x74",
+      "population_Value": "TCA9539PW / 0x74",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U203",
+      "Value": "MAX17048G+ / 0x36",
+      "population_Value": "MAX17048G+ / 0x36",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U301",
+      "Value": "ESP32-S3-WROOM-1-N16R8",
+      "population_Value": "ESP32-S3-WROOM-1-N16R8",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U401",
+      "Value": "TPS22918DBV",
+      "population_Value": "TPS22918DBV",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U402",
+      "Value": "TPS22918DBV",
+      "population_Value": "TPS22918DBV",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U403",
+      "Value": "TPS22918DBV",
+      "population_Value": "TPS22918DBV",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U404",
+      "Value": "TPS22918DBV",
+      "population_Value": "TPS22918DBV",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U405",
+      "Value": "TPS22918DBV",
+      "population_Value": "TPS22918DBV",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U406",
+      "Value": "TMUX1511PW",
+      "population_Value": "TMUX1511PW",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U501",
+      "Value": "TI TPD2E2U06DCKR",
+      "population_Value": "TI TPD2E2U06DCKR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U502",
+      "Value": "TI TPD2E2U06DCKR",
+      "population_Value": "TI TPD2E2U06DCKR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U601",
+      "Value": "TI SN74LVC541APWR",
+      "population_Value": "TI SN74LVC541APWR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U602",
+      "Value": "TI SN74LVC1G125DBVR",
+      "population_Value": "TI SN74LVC1G125DBVR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U701",
+      "Value": "TI TMUX1511PW",
+      "population_Value": "TI TMUX1511PW",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U702",
+      "Value": "TI TPD2E2U06DCKR",
+      "population_Value": "TI TPD2E2U06DCKR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U703",
+      "Value": "TI TPD2E2U06DCKR",
+      "population_Value": "TI TPD2E2U06DCKR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U704",
+      "Value": "TI TPD2E2U06DCKR",
+      "population_Value": "TI TPD2E2U06DCKR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U705",
+      "Value": "TI TPD2E2U06DCKR",
+      "population_Value": "TI TPD2E2U06DCKR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U706",
+      "Value": "TI TMUX1511PW",
+      "population_Value": "TI TMUX1511PW",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U801",
+      "Value": "Nexperia 74LVC125APW",
+      "population_Value": "Nexperia 74LVC125APW",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U802",
+      "Value": "MAX98357AETE+T",
+      "population_Value": "MAX98357AETE+T",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U803",
+      "Value": "DMM-4026-B-I2S-R",
+      "population_Value": "DMM-4026-B-I2S-R",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U804",
+      "Value": "TI SN74LVC1G125DBVR",
+      "population_Value": "TI SN74LVC1G125DBVR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U805",
+      "Value": "TI SN74LVC1G14DBVR",
+      "population_Value": "TI SN74LVC1G14DBVR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    },
+    {
+      "ref": "U901",
+      "Value": "TLV1822DR",
+      "population_Value": "TLV1822DR",
+      "value_equal_to_baseline": true,
+      "all_instance_attributes_equal": true,
+      "group": "top_smd_reflow",
+      "electrical_component_equal": true,
+      "Value_representation": "Explicit electrical Value"
+    }
+  ],
+  "scope": "Final export metadata/placement invariant chained to the independent KiCad/assembly/paste audit; does not replace Gerber geometry checks."
+}

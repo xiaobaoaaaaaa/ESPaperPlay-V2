@@ -1,0 +1,231 @@
+{
+  "inputs": {
+    "build/easyeda-cam-final-20261115/final-pcb-source.txt": "405e6cb05cd1005fc9bb597a48b61202cf7fc5068fb2617691e4da014ebdac41",
+    "build/easyeda-cam-final-20261115/final-gerber.zip": "34a1738bbf8d7d71bf5caa57626e5282fbc6e053c4685a19a706cdd848e6cc5b",
+    "hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24"
+  },
+  "units": "mm",
+  "via_count": {
+    "kicad": 549,
+    "easyeda": 549
+  },
+  "unique_kicad_matches": 549,
+  "max_position_difference_mm": 1.937524203057292e-06,
+  "max_outer_diameter_difference_mm": 1.339999999960817e-06,
+  "max_drill_diameter_difference_mm": 6.000000000172534e-07,
+  "size_distribution": [
+    {
+      "outer_mm": 0.45,
+      "hole_mm": 0.2,
+      "count": 207
+    },
+    {
+      "outer_mm": 0.6,
+      "hole_mm": 0.3,
+      "count": 342
+    }
+  ],
+  "literal_network_renames": [
+    {
+      "kicad": "/AUDIO/AMP_SD_MODE",
+      "easyeda": "$4I10\\AMP_SD_MODE",
+      "count": 2
+    },
+    {
+      "kicad": "/AUDIO/AUDIO_OE_N",
+      "easyeda": "$4I10\\AUDIO_OE_N",
+      "count": 3
+    },
+    {
+      "kicad": "/AUDIO/AUDIO_SD_BUF",
+      "easyeda": "$4I10\\AUDIO_SD_BUF",
+      "count": 2
+    },
+    {
+      "kicad": "/AUDIO/I2S_WS_AUDIO",
+      "easyeda": "$4I10\\I2S_WS_AUDIO",
+      "count": 2
+    },
+    {
+      "kicad": "/CHARGE_TEMP/NTC_COLD_REF",
+      "easyeda": "$4I11\\NTC_COLD_REF",
+      "count": 2
+    },
+    {
+      "kicad": "/MCU_CORE/BOOT_N",
+      "easyeda": "$4I4\\BOOT_N",
+      "count": 4
+    },
+    {
+      "kicad": "/MCU_CORE/MCU_EN",
+      "easyeda": "$4I4\\MCU_EN",
+      "count": 3
+    },
+    {
+      "kicad": "/POWER_3V3_CONTROL/REG_PG",
+      "easyeda": "$4I3\\REG_PG",
+      "count": 2
+    },
+    {
+      "kicad": "/POWER_DOMAINS/AMP_QOD",
+      "easyeda": "$4I6\\AMP_QOD",
+      "count": 2
+    },
+    {
+      "kicad": "/POWER_DOMAINS/EPD_QOD",
+      "easyeda": "$4I6\\EPD_QOD",
+      "count": 2
+    },
+    {
+      "kicad": "/POWER_DOMAINS/MIC_QOD",
+      "easyeda": "$4I6\\MIC_QOD",
+      "count": 2
+    },
+    {
+      "kicad": "/POWER_DOMAINS/SD_QOD",
+      "easyeda": "$4I6\\SD_QOD",
+      "count": 2
+    },
+    {
+      "kicad": "/POWER_DOMAINS/TOUCH_QOD",
+      "easyeda": "$4I6\\TOUCH_QOD",
+      "count": 2
+    },
+    {
+      "kicad": "/POWER_INPUT_CHARGER/BAT_PACK_P",
+      "easyeda": "$4I2\\BAT_PACK_P",
+      "count": 1
+    },
+    {
+      "kicad": "/POWER_INPUT_CHARGER/CHG_CE_N",
+      "easyeda": "$4I2\\CHG_CE_N",
+      "count": 2
+    },
+    {
+      "kicad": "/STORAGE_SD/SD_D0_BUS",
+      "easyeda": "$4I9\\SD_D0_BUS",
+      "count": 2
+    },
+    {
+      "kicad": "/STORAGE_SD/SD_D1_BUS",
+      "easyeda": "$4I9\\SD_D1_BUS",
+      "count": 2
+    },
+    {
+      "kicad": "/USB_INPUT/USB_DM_PORT",
+      "easyeda": "$4I5\\USB_DM_PORT",
+      "count": 2
+    },
+    {
+      "kicad": "/USB_INPUT/USB_DP_PORT",
+      "easyeda": "$4I5\\USB_DP_PORT",
+      "count": 2
+    }
+  ],
+  "kicad_neighbor_check": {
+    "min_distance_mm": 0.5221496433016096,
+    "duplicate_centers_within_0_00001mm": 0,
+    "pairs_below_0_4mm": 0,
+    "pairs_below_0_6mm": 3
+  },
+  "easyeda_neighbor_check": {
+    "min_distance_mm": 0.5221501073644064,
+    "duplicate_centers_within_0_00001mm": 0,
+    "pairs_below_0_4mm": 0,
+    "pairs_below_0_6mm": 3
+  },
+  "possible_other_geometry": {
+    "standalone_pad_count": 0,
+    "poly_layers": {
+      "71": 20,
+      "11": 1
+    },
+    "primitive_records_are_display_pick_settings": false,
+    "fill_count": 1
+  },
+  "drill_files": {
+    "Drill_PTH_Through.DRL": {
+      "round_hits": 652,
+      "unique_round_hits": 652,
+      "slot_commands": 4,
+      "diameters": {
+        "0.2": 219,
+        "0.3": 342,
+        "1.1": 91
+      }
+    },
+    "Drill_NPTH_Through.DRL": {
+      "round_hits": 7,
+      "unique_round_hits": 7,
+      "slot_commands": 0,
+      "diameters": {
+        "0.6": 1,
+        "0.65": 2,
+        "3.2": 4
+      }
+    },
+    "Drill_PTH_Through_Via.DRL": {
+      "round_hits": 549,
+      "unique_round_hits": 549,
+      "slot_commands": 0,
+      "diameters": {
+        "0.2": 207,
+        "0.3": 342
+      }
+    }
+  },
+  "copper_layer_via_flashes": {
+    "Gerber_TopLayer.GTL": {
+      "count": 549,
+      "unique": 549,
+      "outer_diameters": {
+        "0.6": 342,
+        "0.45": 207
+      },
+      "max_position_difference_mm": 5.882108488237548e-06,
+      "unmatched_position_or_diameter_count": 0
+    },
+    "Gerber_BottomLayer.GBL": {
+      "count": 549,
+      "unique": 549,
+      "outer_diameters": {
+        "0.6": 342,
+        "0.45": 207
+      },
+      "max_position_difference_mm": 5.882108488237548e-06,
+      "unmatched_position_or_diameter_count": 0
+    },
+    "Gerber_InnerLayer1.G1": {
+      "count": 549,
+      "unique": 549,
+      "outer_diameters": {
+        "0.6": 342,
+        "0.45": 207
+      },
+      "max_position_difference_mm": 5.882108488237548e-06,
+      "unmatched_position_or_diameter_count": 0
+    },
+    "Gerber_InnerLayer2.G2": {
+      "count": 549,
+      "unique": 549,
+      "outer_diameters": {
+        "0.6": 342,
+        "0.45": 207
+      },
+      "max_position_difference_mm": 5.882108488237548e-06,
+      "unmatched_position_or_diameter_count": 0
+    }
+  },
+  "via_drill_comparison": {
+    "max_position_difference_mm": 5.6568542754045635e-06,
+    "unmatched_position_or_diameter_count": 0,
+    "via_only_drill_is_subset_of_combined_pth": true
+  },
+  "geometric_and_drill_audit_passed": true,
+  "notes": [
+    "User confirmed that the apparently extra holes were intended GND vias.",
+    "This audit checks via geometry, copper flashes and physical drill outputs; renamed network strings require the separate project netlist equivalence check.",
+    "The combined PTH drill file already contains the via-only file; do not add both counts together.",
+    "Board-level connectivity, clearances, footprints and stencil validation are outside this via-specific audit."
+  ]
+}

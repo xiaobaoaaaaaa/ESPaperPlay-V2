@@ -1,0 +1,694 @@
+{
+  "status": "PASS_WITH_PACKAGING_NOTES",
+  "inputs_sha256": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-cam-final-20261115/final-gerber.zip": "34a1738bbf8d7d71bf5caa57626e5282fbc6e053c4685a19a706cdd848e6cc5b",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/output/manufacturing/r10-review/ESPaperPlay-r10-board-REVIEW_ONLY.zip": "fdc6c7ee5f7d5dbaca721449e4cafc2cb802cbf43a97220d1710c5441c6086e9",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/ESPaperPlay_Devboard.kicad_pcb": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-cam-final-20261115/final-pcb-source.txt": "405e6cb05cd1005fc9bb597a48b61202cf7fc5068fb2617691e4da014ebdac41",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-r0/review-r10/thermal-via-fill-spec.csv": "47ffe55aba28fa467eed9f72aa602b5d5d1a502f5da6a36e36e74767e559bceb"
+  },
+  "coordinate_convention": "CAM absolute X, negative Y; KiCad design Y points down. No translation/rotation/mirror applied.",
+  "quantization": "KiCad Excellon baseline rounds to 0.001mm, EasyEDA to 0.00001mm; source-to-EasyEDA checked within 0.00001mm, package-to-package within sqrt(2)*0.0005mm rounded to0.00072.",
+  "source_counts": {
+    "native_vias": 549,
+    "ordinary_component_plated_holes_including_4_slots": 95,
+    "U301_epad_plated_holes": 12,
+    "PTH_round": 652,
+    "PTH_slots": 4,
+    "NPTH": 7
+  },
+  "comparisons": {
+    "source_to_eda_pth_round": {
+      "pass": true,
+      "reference_count": 652,
+      "candidate_count": 652,
+      "matches": 652,
+      "max_center_or_endpoint_error_mm": 5.6568542754045635e-06,
+      "tolerance_mm": 1e-05,
+      "unmatched_reference": [],
+      "unmatched_candidate": []
+    },
+    "kicad_cam_to_eda_pth_round": {
+      "pass": true,
+      "reference_count": 652,
+      "candidate_count": 652,
+      "matches": 652,
+      "max_center_or_endpoint_error_mm": 0.0007071067811999724,
+      "tolerance_mm": 0.00072,
+      "unmatched_reference": [],
+      "unmatched_candidate": []
+    },
+    "source_to_eda_pth_slots": {
+      "pass": true,
+      "reference_count": 4,
+      "candidate_count": 4,
+      "matches": 4,
+      "max_center_or_endpoint_error_mm": 7.105427357601002e-15,
+      "tolerance_mm": 1e-05,
+      "unmatched_reference": [],
+      "unmatched_candidate": []
+    },
+    "kicad_cam_to_eda_pth_slots": {
+      "pass": true,
+      "reference_count": 4,
+      "candidate_count": 4,
+      "matches": 4,
+      "max_center_or_endpoint_error_mm": 0.0,
+      "tolerance_mm": 0.00072,
+      "unmatched_reference": [],
+      "unmatched_candidate": []
+    },
+    "source_to_eda_npth_round": {
+      "pass": true,
+      "reference_count": 7,
+      "candidate_count": 7,
+      "matches": 7,
+      "max_center_or_endpoint_error_mm": 0.0,
+      "tolerance_mm": 1e-05,
+      "unmatched_reference": [],
+      "unmatched_candidate": []
+    },
+    "kicad_cam_to_eda_npth_round": {
+      "pass": true,
+      "reference_count": 7,
+      "candidate_count": 7,
+      "matches": 7,
+      "max_center_or_endpoint_error_mm": 0.0,
+      "tolerance_mm": 0.00072,
+      "unmatched_reference": [],
+      "unmatched_candidate": []
+    },
+    "source_to_eda_npth_slots": {
+      "pass": true,
+      "reference_count": 0,
+      "candidate_count": 0,
+      "matches": 0,
+      "max_center_or_endpoint_error_mm": 0,
+      "tolerance_mm": 1e-05,
+      "unmatched_reference": [],
+      "unmatched_candidate": []
+    },
+    "kicad_cam_to_eda_npth_slots": {
+      "pass": true,
+      "reference_count": 0,
+      "candidate_count": 0,
+      "matches": 0,
+      "max_center_or_endpoint_error_mm": 0,
+      "tolerance_mm": 0.00072,
+      "unmatched_reference": [],
+      "unmatched_candidate": []
+    },
+    "source_to_eda_via_only": {
+      "pass": true,
+      "reference_count": 549,
+      "candidate_count": 549,
+      "matches": 549,
+      "max_center_or_endpoint_error_mm": 5.6568542754045635e-06,
+      "tolerance_mm": 1e-05,
+      "unmatched_reference": [],
+      "unmatched_candidate": []
+    }
+  },
+  "duplicates": {
+    "pth_round": {
+      "count": 652,
+      "unique": 652,
+      "duplicates": 0
+    },
+    "pth_slots": {
+      "count": 4,
+      "unique": 4,
+      "duplicates": 0
+    },
+    "npth_round": {
+      "count": 7,
+      "unique": 7,
+      "duplicates": 0
+    },
+    "npth_slots": {
+      "count": 0,
+      "unique": 0,
+      "duplicates": 0
+    }
+  },
+  "combined_pth_total_features": 656,
+  "npth_total_features": 7,
+  "via_only_exact_subset_of_combined_pth": true,
+  "via_only_count": 549,
+  "slots": [
+    {
+      "a": [
+        112.32,
+        -56.655
+      ],
+      "b": [
+        112.32,
+        -55.555
+      ],
+      "diameter": 0.6
+    },
+    {
+      "a": [
+        112.32,
+        -52.325
+      ],
+      "b": [
+        112.32,
+        -51.525
+      ],
+      "diameter": 0.6
+    },
+    {
+      "a": [
+        103.68,
+        -56.655
+      ],
+      "b": [
+        103.68,
+        -55.555
+      ],
+      "diameter": 0.6
+    },
+    {
+      "a": [
+        103.68,
+        -52.325
+      ],
+      "b": [
+        103.68,
+        -51.525
+      ],
+      "diameter": 0.6
+    }
+  ],
+  "npth_holes": [
+    {
+      "center": [
+        61.0,
+        -62.0
+      ],
+      "diameter": 0.6
+    },
+    {
+      "center": [
+        110.89,
+        -55.605
+      ],
+      "diameter": 0.65
+    },
+    {
+      "center": [
+        105.11,
+        -55.605
+      ],
+      "diameter": 0.65
+    },
+    {
+      "center": [
+        205.0,
+        -155.0
+      ],
+      "diameter": 3.2
+    },
+    {
+      "center": [
+        55.0,
+        -55.0
+      ],
+      "diameter": 3.2
+    },
+    {
+      "center": [
+        205.0,
+        -55.0
+      ],
+      "diameter": 3.2
+    },
+    {
+      "center": [
+        55.0,
+        -155.0
+      ],
+      "diameter": 3.2
+    }
+  ],
+  "mandatory_fill_cap_holes": [
+    {
+      "source_uuid": "d74b363b-9baa-492c-b91b-1f5aa7f50a1c",
+      "associated_pads": "U203.9",
+      "source_xy_mm": [
+        70.0,
+        138.0
+      ],
+      "cam_xy_mm": [
+        70.0,
+        -138.0
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3841"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "b3bda032-01c9-4a68-88e2-9398eff0afde",
+      "associated_pads": "U101.17",
+      "source_xy_mm": [
+        74.6,
+        114.6
+      ],
+      "cam_xy_mm": [
+        74.6,
+        -114.6
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3804"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "22e7048f-6dee-4116-b23e-f1cbf8e02ae1",
+      "associated_pads": "U101.17",
+      "source_xy_mm": [
+        74.6,
+        115.4
+      ],
+      "cam_xy_mm": [
+        74.6,
+        -115.4
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3601"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "73cbdc1d-ae69-4abf-a8b7-9984542aef58",
+      "associated_pads": "U101.17",
+      "source_xy_mm": [
+        75.4,
+        114.6
+      ],
+      "cam_xy_mm": [
+        75.4,
+        -114.6
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3716"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "6eb97cee-11e8-48c0-82d7-eab3940ce1c3",
+      "associated_pads": "U101.17",
+      "source_xy_mm": [
+        75.4,
+        115.4
+      ],
+      "cam_xy_mm": [
+        75.4,
+        -115.4
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3711"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "8f3e8303-4115-4546-b6c9-11d5f7248eb8",
+      "associated_pads": "U802.17",
+      "source_xy_mm": [
+        87.65,
+        64.65
+      ],
+      "cam_xy_mm": [
+        87.65,
+        -64.65
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3751"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "2fc7ee81-ac43-4574-9d1d-9351c5651a08",
+      "associated_pads": "U802.17",
+      "source_xy_mm": [
+        87.65,
+        65.349999
+      ],
+      "cam_xy_mm": [
+        87.65,
+        -65.349999
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3626"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "3026ef76-e368-40ff-be7b-552ec25ca26b",
+      "associated_pads": "U802.17",
+      "source_xy_mm": [
+        88.35,
+        64.65
+      ],
+      "cam_xy_mm": [
+        88.35,
+        -64.65
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3627"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "15d4657b-1ccb-4d48-8c40-f579a60ccff2",
+      "associated_pads": "U802.17",
+      "source_xy_mm": [
+        88.35,
+        65.349999
+      ],
+      "cam_xy_mm": [
+        88.35,
+        -65.349999
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3582"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "660e3e86-5eca-47c2-9685-0d482f9930be",
+      "associated_pads": "U201.8",
+      "source_xy_mm": [
+        101.2,
+        113.0
+      ],
+      "cam_xy_mm": [
+        101.2,
+        -113.0
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3696"
+      ],
+      "easyeda_net_matches": true
+    },
+    {
+      "source_uuid": "32ca1787-235c-4d2b-be3a-49e6cb41cecd",
+      "associated_pads": "U201.8",
+      "source_xy_mm": [
+        101.8,
+        113.0
+      ],
+      "cam_xy_mm": [
+        101.8,
+        -113.0
+      ],
+      "diameter_mm": 0.2,
+      "matches_eda_via_count": 1,
+      "source_uuid_net": "GND",
+      "source_position_matches_csv": true,
+      "required_process": "epoxy_filled_planarized_and_copper_capped;cap_copper_min_10um;finish_ENIG",
+      "pass": true,
+      "easyeda_primitive_ids": [
+        "ie3630"
+      ],
+      "easyeda_net_matches": true
+    }
+  ],
+  "preserve_open_holes": {
+    "ordinary_component_PTH": 95,
+    "U301_epad_unprinted_PTH_not_mandatory_fill": 12,
+    "NPTH": 7,
+    "microphone": {
+      "center_cam_mm": [
+        61,
+        -62
+      ],
+      "diameter_mm": 0.6
+    },
+    "note": "11 native vias require fill/planarize/copper cap. Source/DRL cannot guarantee factory process acceptance; physical holes must not be blanket-filled."
+  },
+  "outline": {
+    "centerline_equal": true,
+    "easyeda": {
+      "segments": [
+        [
+          [
+            50.0,
+            -160.0
+          ],
+          [
+            50.0,
+            -50.0
+          ]
+        ],
+        [
+          [
+            50.0,
+            -160.0
+          ],
+          [
+            210.0,
+            -160.0
+          ]
+        ],
+        [
+          [
+            50.0,
+            -50.0
+          ],
+          [
+            210.0,
+            -50.0
+          ]
+        ],
+        [
+          [
+            210.0,
+            -160.0
+          ],
+          [
+            210.0,
+            -50.0
+          ]
+        ]
+      ],
+      "closed_single_rectangle": true,
+      "centerline_bounds_mm": [
+        50.0,
+        -160.0,
+        210.0,
+        -50.0
+      ],
+      "size_mm": [
+        160.0,
+        110.0
+      ],
+      "stroke_widths_mm": [
+        0.15
+      ]
+    },
+    "kicad": {
+      "segments": [
+        [
+          [
+            50.0,
+            -160.0
+          ],
+          [
+            50.0,
+            -50.0
+          ]
+        ],
+        [
+          [
+            50.0,
+            -160.0
+          ],
+          [
+            210.0,
+            -160.0
+          ]
+        ],
+        [
+          [
+            50.0,
+            -50.0
+          ],
+          [
+            210.0,
+            -50.0
+          ]
+        ],
+        [
+          [
+            210.0,
+            -160.0
+          ],
+          [
+            210.0,
+            -50.0
+          ]
+        ]
+      ],
+      "closed_single_rectangle": true,
+      "centerline_bounds_mm": [
+        50.0,
+        -160.0,
+        210.0,
+        -50.0
+      ],
+      "size_mm": [
+        160.0,
+        110.0
+      ],
+      "stroke_widths_mm": [
+        0.05
+      ]
+    },
+    "note": "Artwork stroke widened0.05→0.15mm; nominal centerline profile remains160×110mm. EDA stroked bbox160.15×110.15mm is not finished board dimension."
+  },
+  "copper_layer_order": [
+    {
+      "source_id": 1,
+      "source_name": "Top Layer",
+      "source_type": "TOP",
+      "gerber_file": "Gerber_TopLayer.GTL",
+      "file_present": true,
+      "gerber_layer_header": "G04 Layer: TopLayer*"
+    },
+    {
+      "source_id": 15,
+      "source_name": "In1.Cu",
+      "source_type": "SIGNAL",
+      "gerber_file": "Gerber_InnerLayer1.G1",
+      "file_present": true,
+      "gerber_layer_header": "G04 Layer: InnerLayer1*"
+    },
+    {
+      "source_id": 16,
+      "source_name": "In2.Cu",
+      "source_type": "SIGNAL",
+      "gerber_file": "Gerber_InnerLayer2.G2",
+      "file_present": true,
+      "gerber_layer_header": "G04 Layer: InnerLayer2*"
+    },
+    {
+      "source_id": 2,
+      "source_name": "Bottom Layer",
+      "source_type": "BOTTOM",
+      "gerber_file": "Gerber_BottomLayer.GBL",
+      "file_present": true,
+      "gerber_layer_header": "G04 Layer: BottomLayer*"
+    }
+  ],
+  "inner_pours": [
+    {
+      "layer": 15,
+      "net": "GND"
+    },
+    {
+      "layer": 16,
+      "net": "GND"
+    }
+  ],
+  "file_set_recommendations": {
+    "board_fabrication_files": [
+      "Gerber_TopLayer.GTL",
+      "Gerber_InnerLayer1.G1",
+      "Gerber_InnerLayer2.G2",
+      "Gerber_BottomLayer.GBL",
+      "Gerber_TopSolderMaskLayer.GTS",
+      "Gerber_BottomSolderMaskLayer.GBS",
+      "Gerber_TopSilkscreenLayer.GTO",
+      "Gerber_BottomSilkscreenLayer.GBO",
+      "Gerber_BoardOutlineLayer.GKO",
+      "Drill_PTH_Through.DRL",
+      "Drill_NPTH_Through.DRL"
+    ],
+    "exclude_from_board_fabrication_zip": [
+      "Drill_PTH_Through_Via.DRL",
+      "FlyingProbeTesting.json",
+      "Gerber_CustomLayer1.GCL",
+      "Gerber_CustomLayer2.GCL",
+      "Gerber_CustomLayer6.GCL",
+      "Gerber_DrillDrawingLayer.GDD",
+      "Gerber_TopAssemblyLayer.GTA",
+      "Gerber_TopPasteMaskLayer.GTP",
+      "PCB下单必读.txt"
+    ],
+    "add_to_board_fabrication_zip": [
+      "thermal-via-fill-spec.csv (verified coordinates, preserve original header/source meaning)",
+      "README/process requirements with exact layer order and outline centerline definition"
+    ],
+    "drill_policy": "Use combined Drill_PTH_Through.DRL and Drill_NPTH_Through.DRL. Do not also load Drill_PTH_Through_Via.DRL; it repeats 549 native-via drill operations. Keep Via-only as inspection evidence outside the fabrication upload.",
+    "mask_policy": "Preserve exact delivered masks; do not apply global expansion. This subaudit does not itself validate mask polygons.",
+    "stencil_policy": "Do not use generic GTP as DIY stencil. Dedicated 203-placement/636-opening stencil remains separately reviewed."
+  },
+  "limits": [
+    "Comparison covers complete drill/slot output and a rectangular outline, plus layer identification. It does not compare all copper/paste/mask geometry or certify factory stackup/impedance.",
+    "PCB drill centering and actual cap thickness/planarity remain manufacturing verification.",
+    "Raw EasyEDA ZIP is an audit export, not a curated fabrication upload; excluded files are retained untouched in the original ZIP."
+  ]
+}

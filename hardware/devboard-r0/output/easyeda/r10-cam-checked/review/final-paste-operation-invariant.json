@@ -1,0 +1,24 @@
+{
+  "before_geometry_sha256": "c84e8d878aa49d85afbd9f770469bdd4743123e7aa427da49d4e27c51b92a248",
+  "after_geometry_sha256": "9022241beeb19b3d5b0f60016b7a8e4f10d3aec0a282e338e635cda4e39d9a36",
+  "geometry_equal": true,
+  "regions_equal": false,
+  "macro_definitions_equal": true,
+  "before_operation_count": 679,
+  "after_operation_count": 679,
+  "removed_operations": [],
+  "added_operations": [],
+  "strict_geometry_equal": false,
+  "normalization": "Only G01 region edges with identical endpoints removed; exact geometric identity, no coordinate tolerance",
+  "zero_length_region_edges_removed": {
+    "before": 57,
+    "after": 58
+  },
+  "normalized_before_geometry_sha256": "9ab79a2681f6e59df317945163e6066d3999cc73a49817f79183dc62622d2a8a",
+  "normalized_after_geometry_sha256": "9ab79a2681f6e59df317945163e6066d3999cc73a49817f79183dc62622d2a8a",
+  "before": "build/easyeda-cam-final-20261115/repaired1-gerber/Gerber_TopPasteMaskLayer.GTP",
+  "after": "build/easyeda-cam-final-20261115/final-gerber/Gerber_TopPasteMaskLayer.GTP",
+  "before_raw_sha256": "7d43a800293427ae43aa7ff04d4b415b684600c8227d9bab657acd458c97bdc7",
+  "after_raw_sha256": "f128a8080704629f36247d4b3f31c5b6fb0a465eb5296065e2377dc21b46108b",
+  "method": "Exact ordered strokes/flashes, regions, macro definitions and polarity; used aperture numbers resolved, unused definitions and generation comments omitted"
+}

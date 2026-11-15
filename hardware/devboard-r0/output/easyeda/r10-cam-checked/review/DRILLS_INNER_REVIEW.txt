@@ -1,0 +1,97 @@
+ESPaperPlay V2 — final drill, outline and inner-copper CAM review
+2026-11-15
+
+Result: PASS for this audit scope. The identified migration defects are closed.
+Reviewed inputs: final-gerber.zip / final-gerber/, final-pcb-source.txt,
+final-footprint-sources.json, original KiCad r10 board and manufacturing CAM.
+Exact input hashes are recorded in the JSON reports.
+
+Drills, slots, outline and layer order
+  549 native vias;95 ordinary component plated holes including4 USB slots;
+  12 additional U301 EPAD plated holes;7 NPTH. Combined plated drill file
+  contains652 round hits and4 slots,656 features total. No duplicate features.
+  All source holes match the final export within5.657 nm coordinate distance.
+  The original KiCad DRL uses1 um quantization; its maximum difference from
+  the final EasyEDA DRL is0.707107 um, explained by that export quantization.
+  All11 mandatory fill/planarize/copper-cap holes match GND, original UUID,
+  diameter and position. Ordinary component and acoustic holes remain open.
+  The microphone NPTH is0.60 mm at CAM(61,-62). All7 NPTH are preserved.
+  Outline centerline remains160×110 mm, identical to KiCad. Artwork stroke
+  changes0.05→0.15 mm; the stroked bounding box is not the finished board size.
+  Four copper layers remain F / In1 GND / In2 GND / B.
+
+Saved thermal and copper-fill semantics
+  All59 unique library-pad requests read back correctly:14 DIRECT overrides
+  plus45 thermal-angle requests covering70 circular PTH instances. The25
+  rectangular/oval90-degree instances retain their original thermal metadata.
+  Client normalization of gap/width is at most0.6 nm; pad geometry is unchanged
+  for the affected thermal pads. Other footprint geometry is audited separately.
+  Both SOLID pours read back minimum-neck0.15 mm, with their contours, outline
+  stroke, net, layer and keepIsland:false unchanged.
+  U301 EPAD direct-connection region: original3.531258 mm2 significant missing
+  copper per layer is eliminated; neither addition nor removal remains beyond
+  the5 um lens in that region.
+  Both former sub0.15 mm neck witness points are now copper-free, as in KiCad.
+
+Final inner-layer comparison after actual drill/slot removal
+  Both inner layers give the same result. Per layer:
+    Removed copper, raw:          2.638015913794 mm2
+    Added copper, raw:            0.292698998118 mm2
+    Removed beyond5 um:           0.000377268792 mm2
+    Added beyond5 um:             0.000139675834 mm2
+    Removed beyond10 um:          0.000000353452 mm2
+    Added beyond10 um:            0 mm2
+    Removed/added beyond15 um:    0 /0 mm2
+  The remaining differences are boundary polygonization and rounding around
+  clearance/neck corners; examples are near board(68.60,150.11) and
+  (89.88,124.71). The explicit source rules are restored and no retained
+  difference extends outside a15 um geometric envelope. This envelope is
+  a measured diagnostic bound, not a new manufacturing tolerance or rule.
+  Source and final both contain282 polygon components after drilling. The
+  earlier4224 NPTH numerical slivers are gone after shrinking placeholder
+  copper inside the unchanged NPTH drill. No unconditional equivalence or
+  electrical-net proof is inferred solely from polygon component counts.
+
+Packaging requirements
+  Use Drill_PTH_Through.DRL + Drill_NPTH_Through.DRL. Do not also load the
+  via-only drill file: it repeats all549 vias already in the combined PTH.
+  Board upload:4 copper,2 mask,2 silk, outline, combined PTH, NPTH, plus the
+  reviewed fill/cap CSV and process requirements. Keep other files as evidence.
+  Generic exported GTP remains excluded from this batch's stencil; use the
+  separately reviewed dedicated203-placement/636-opening stencil package.
+
+Reports
+  final-drills-outline-audit.json
+  final-drills-outline-audit.fill-cap-map.csv
+  final-inner-comparison.json
+  final-inner-closure.json
+
+Reproducible scripts for archiving
+  compare_repaired_inner.py:
+    --board ORIGINAL.kicad_pcb --source-dir ORIGINAL_KICAD_CAM
+    --previous-eda-dir PRE_REPAIR_EDA_CAM --eda-dir FINAL_EDA_CAM
+    --cache REGENERABLE_CACHE --output final-inner-comparison.json
+    This script includes the Gerber polygon parser, rebuilds drill/slot solids
+    from the original board and regenerates all source/previous/final WKB files.
+    No existing WKB file or absolute project checkout path is required.
+  audit_drills_outline.py:
+    --eda FINAL_GERBER.zip --kicad-zip ORIGINAL_KICAD_CAM.zip
+    --board ORIGINAL.kicad_pcb --pcb-source FINAL_PCB_SOURCE.txt
+    --fill-csv thermal-via-fill-spec.csv --output final-drills-outline-audit.json
+  audit_inner_repairs.py:
+    --source-footprints PRE_REPAIR_FOOTPRINTS.json
+    --current-footprints FINAL_FOOTPRINTS.json --pcb-source FINAL_PCB_SOURCE.txt
+    --thermal-requests thermal-repair-requests.json
+    --pour-requests pour-neck-repair-requests.json
+    --comparison-report final-inner-comparison.json
+    --witnesses narrow-neck-witnesses.json --output final-inner-closure.json
+    Run the comparator first; this closure audit consumes its newly generated
+    geometry companions and imports the neighboring comparator module.
+  Environment: system pcbnew, gerbonara1.6.3, shapely2.2.0. Versions are recorded
+  by the comparator. Cache is optional and SHA-256 keyed.
+
+Scope limits
+  No live CAD, EDA or Git changes were made by this child audit. It does not
+  certify fabrication stackup, factory fill/cap process or electrical behavior.
+  DRC/connectivity, outer copper, solder mask and assembly/stencil reports are
+  separate parts of the parent's final CAM review.

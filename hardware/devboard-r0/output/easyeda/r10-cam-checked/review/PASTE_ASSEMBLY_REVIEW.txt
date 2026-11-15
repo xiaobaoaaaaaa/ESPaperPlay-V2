@@ -1,0 +1,46 @@
+ESPaperPlay V2 最终CAM：锡膏、装配及顶层丝印不变量
+2026-11-15，final导出；只读核验，未修改CAD。
+
+最终结果
+PASS；此前完整钢网/装配检查的结论继续适用于final导出。
+240个组件实例属性与位置保持，236个电气器件的全部属性和引脚表严格不变。
+236个电气Value、MPN、厂家与装配CSV匹配；4个机械孔没有显式电气Value，依据
+原有MountingHole_3.2mm_M3器件类型核对，与基线表示一致，BOM及同步排除标志保持。
+分组仍为203回流、27后手焊、6 DNP、4机械孔；R108禁装状态保持。
+
+锡膏输出
+679个flash/stroke及macro严格不变。U803一个填充region新增了同一点重复一次的
+零长度G01边；它没有长度或面积，不改变填充几何。明确去除region内这种退化直边后，
+所有region路径严格相等。比较没有坐标容差，没有忽略圆弧或外部线段。
+final GTP SHA256：f128a8080704629f36247d4b3f31c5b6fb0a465eb5296065e2377dc21b46108b。
+因此沿用repaired1逐位号、整板多边形钢网检查，无需重复昂贵渲染。
+
+顶层丝印
+相对repaired1，final GTO的15307个绘制操作、region及macro严格相等。
+final GTO SHA256：a512da78894512f90d9c7d3ed987d56242f939960539272c4287c3da0cdb78aa。
+这里证明最后修复未改变丝印，不声称嘉立创与KiCad的字体绘制完全相同。
+
+钢网交付边界
+专用DIY钢网仍为203位、636开口：U301中心不印膏，U803有四条0.15mm钢桥，
+所有后手焊和DNP位置无开口。SHA256为
+b5ef210786e63462b0a9395ad313a65d62065bc8d13af80e4250fbddf4db84c9。
+通用GTP仍有66个手焊/DNP开口、U301中心分窗和U803无桥完整环，不能用于本批钢网。
+通用膏层相对KiCad的J501壳脚开口、U803圆弧/多边形以及U203量化差已独立分类；
+当前后手焊方案及专用钢网未受影响。板厂加工稿、试印、回流和声密封仍需后续验证。
+
+证据链
+final-paste-assembly-summary.json核实全量repaired1报告、最后操作不变量和元数据报告
+使用相同中间输入哈希，然后绑定final文件哈希。
+final-assembly-invariant.json：240组件实例及236电气属性/引脚不变。
+final-paste-operation-invariant.json：保留strict差异和零长度边规范化证据。
+final-silk-operation-invariant.json：顶层丝印严格相同。
+repaired1-paste-assembly-audit.json：完整原生膏层/通用GTP/专用钢网/装配核验。
+
+自足复现脚本（所有路径均由命令行传入）
+audit_paste_assembly_final.py：--board --population --eda-netlist --eda-pcb-source
+  --native-front --native-back --eda-front --diy-stencil --report；需pcbnew、gerbonara、shapely。
+audit_assembly_invariant.py：--baseline-netlist --final-netlist --baseline-pcb-source
+  --final-pcb-source --population --report；仅Python标准库。
+compare_paste_operations.py：--before --after --report；仅Python标准库。
+  最终GTP比较额外传--ignore-zero-length-region-edges；GTO比较保持严格默认。
+  只支持本次实际绝对毫米RS274X子集，不是任意Gerber的通用几何判等工具。

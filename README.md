@@ -9,7 +9,7 @@
 - **固件：M0 骨架。** 应用宿主、活动租约、休眠准备契约、板级配置检查、双槽分区和串口演示已经实现；外设驱动、图形界面和网络应用尚待接入。
 - **硬件：r10 PCB 制造整改完成。** 已移动64个近焊盘过孔，538个普通孔的双面阻焊间距达到≥0.20mm，11个IC热孔指定填平盖帽；官方USB/SD名义阻抗窗口检查通过。原理图r6/r5保持，DRC为0错误、0未连接；已更新独立制板、DIY钢网及203位回流/27位手焊文件，尚未下单或上电。见 [r10记录](docs/v2/hardware/pcb-dfm-r10.md)和[文件包](hardware/devboard-r0/output/manufacturing/r10-review/README.md)。
 - **首批准备r11：** 已按5块PCB、先焊2块及无框钢片整理[工厂审核规格、64种备料表与首板工作单](hardware/devboard-r0/output/manufacturing/r10-first-batch/README.md)。PCB保持r10，工厂回复、来料容量和实测仍待完成；现有M0不具备分域维护功能。
-- **嘉立创迁移：** [当前工程备份](hardware/devboard-r0/output/easyeda/r10-checked/ESPaperPlay-V2-r10-migration-final.epro2)及[迁移检查记录](hardware/devboard-r0/output/easyeda/r10-checked/CHECK_REPORT.txt)已纳入版本管理。迁移检查严格DRC为0，原KiCad r10与制造包保留作对照；迁移输出尚未替换制造交付包。
+- **嘉立创迁移与CAM：** [当前工程与独立制板/钢网包](hardware/devboard-r0/output/easyeda/r10-cam-checked/README.md)已纳入Git；[最终CAM复核](hardware/devboard-r0/output/easyeda/r10-cam-checked/CAM_REVIEW.md)通过、严格DRC为0。已恢复导入遗漏的阻焊、热焊及铜颈设置；原KiCad r10和原制造包保留对照。工厂生产稿与加工工艺仍待确认。
 - 未进行新板烧录或上电验证。硬件的充电默认禁用状态、温窗假设及待验证项见硬件文档。
 
 ## 目录与入口
