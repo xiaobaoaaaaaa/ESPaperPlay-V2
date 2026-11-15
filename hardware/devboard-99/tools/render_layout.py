@@ -17,7 +17,7 @@ def main():
   out=a.output/(name+'.svg');args=['kicad-cli','pcb','export','svg','--layers',layers,'--mode-single','--page-size-mode','2','--exclude-drawing-sheet','--output',str(out)]
   if bw:args.append('--black-and-white')
   if dnp:args.append('--crossout-DNP-footprints-on-fab-layers')
-  run(*args,str(board));return out
+  run(*args,str(board));out.write_text('\n'.join(line.rstrip()for line in out.read_text().splitlines())+'\n');return out
  front=export(a.board,'front-layout','F.Cu,F.Silkscreen,Edge.Cuts')
  with tempfile.TemporaryDirectory(prefix='espaperplay-assembly-')as temp:
   b=P.LoadBoard(str(a.board))

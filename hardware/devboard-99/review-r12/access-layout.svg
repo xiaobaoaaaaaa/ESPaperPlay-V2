@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
- <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
- "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> 
+ <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns="http://www.w3.org/2000/svg"
@@ -14,8 +14,8 @@
 stroke-linecap:round; stroke-linejoin:round;"
  transform="translate(0 0) scale(1 1)">
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="32.5000" y="51.7000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -373,8 +373,8 @@ L73.8724 20.0143
 L73.9105 20.0333
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1100; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1100; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 11.5000 66.5000)">
 <text x="11.5000" y="66.8600"
@@ -572,8 +572,8 @@ L11.5874 65.6429
 L11.5874 65.1971
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 8.5000 28.0000)">
 <text x="8.5000" y="28.2000"
@@ -1173,8 +1173,8 @@ L70.9667 35.0486
 L71.2143 35.0486
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5000" y="6.6500"
 textLength="4.1548" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -1322,8 +1322,8 @@ L50.7857 5.8429
 L50.6905 5.8905
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 60.2000 9.8000)">
 <text x="60.2000" y="10.0000"
@@ -2778,8 +2778,8 @@ L15.6762 72.3915
 L15.6952 72.3534
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="83.5000" y="76.5000"
 textLength="4.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -2960,8 +2960,8 @@ L84.7619 75.6929
 L84.6667 75.7405
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 81.7500 87.6000)">
 <text x="81.7500" y="87.8500"
@@ -3183,8 +3183,8 @@ L81.9533 86.9929
 L81.9295 87.0167
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="17.8000" y="45.0000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -3488,8 +3488,8 @@ L63.3819 49.2857
 L63.7819 49.4571
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 89.8000 87.0000)">
 <text x="89.8000" y="87.2500"
@@ -3681,8 +3681,8 @@ L89.5510 86.3452
 L89.5271 86.2976
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="28.8000" y="31.7000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -3842,8 +3842,8 @@ L29.2476 31.6819
 L29.4952 31.6819
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="82.5000" y="83.4000"
 textLength="3.2857" font-size="1.0667" lengthAdjust="spacingAndGlyphs"
@@ -4024,8 +4024,8 @@ L83.9286 82.5639
 L83.5857 83.3639
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="21.5000" y="52.9000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -4227,8 +4227,8 @@ L21.9667 52.8629
 L21.9476 52.8438
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="68.7000" y="14.0000"
 textLength="4.1548" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -4391,8 +4391,8 @@ L69.9381 13.4310
 L69.8905 13.5262
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 37.5000 67.3000)">
 <text x="37.5000" y="67.5500"
@@ -4557,8 +4557,8 @@ L37.3462 66.6690
 L37.3700 66.7167
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="78.7000" y="52.7000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -4751,8 +4751,8 @@ L16.3010 85.0762
 L16.2819 85.0381
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="78.5000" y="78.4000"
 textLength="3.2857" font-size="1.0667" lengthAdjust="spacingAndGlyphs"
@@ -4957,8 +4957,8 @@ L79.3952 78.3639
 L79.8905 78.3639
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 25.6000 82.5000)">
 <text x="25.6000" y="82.7000"
@@ -5075,8 +5075,8 @@ L25.7629 82.0333
 L25.7438 82.0524
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="94.0000" y="94.5000"
 textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -5101,8 +5101,8 @@ L94.2381 94.1215
 L94.8571 94.1215
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="28.5000" y="34.2000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -5295,8 +5295,8 @@ L28.9857 33.9724
 L28.9667 34.0105
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1100; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1100; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 72.0000 40.5000)">
 <text x="72.0000" y="40.8600"
@@ -5431,8 +5431,8 @@ L72.3274 39.6771
 L72.3274 39.2314
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="14.0000" y="48.2500"
 textLength="2.0924" font-size="0.6667" lengthAdjust="spacingAndGlyphs"
@@ -5595,8 +5595,8 @@ L14.5952 48.2033
 L14.5714 48.1795
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="23.0000" y="58.9000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -6175,8 +6175,8 @@ L75.5629 41.6143
 L75.5438 41.6333
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1100; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1100; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 29.0000 83.5000)">
 <text x="29.0000" y="83.8600"
@@ -6326,8 +6326,8 @@ L29.2931 82.6086
 L29.2588 82.6429
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 53.5000 69.1000)">
 <text x="53.5000" y="69.3000"
@@ -6889,8 +6889,8 @@ L31.4667 76.5486
 L31.7143 76.5486
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 7.1000 41.2500)">
 <text x="7.1000" y="41.6500"
@@ -6959,8 +6959,8 @@ L6.6649 40.3738
 L6.6649 39.9929
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="5.0000" y="5.5000"
 textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -6991,8 +6991,8 @@ L5.3333 4.6929
 L5.2381 4.7405
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 34.5000 85.6000)">
 <text x="34.5000" y="85.8000"
@@ -7097,8 +7097,8 @@ L34.6629 85.1333
 L34.6438 85.1524
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="8.5000" y="32.4000"
 textLength="3.2857" font-size="1.0667" lengthAdjust="spacingAndGlyphs"
@@ -7420,8 +7420,8 @@ L32.2543 23.6905
 L32.2924 23.7667
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="28.5000" y="24.7000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -7560,8 +7560,8 @@ L28.9667 24.5486
 L29.2143 24.5486
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 76.1000 50.7000)">
 <text x="76.1000" y="50.9500"
@@ -7747,8 +7747,8 @@ L76.0891 49.8548
 L76.0414 49.8310
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="21.5000" y="54.9000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -8411,8 +8411,8 @@ L9.9857 78.9724
 L9.9667 79.0105
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="67.0000" y="77.5000"
 textLength="3.9167" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -8750,8 +8750,8 @@ L19.0595 94.4429
 L18.9643 94.4905
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 22.5000 10.3000)">
 <text x="22.5000" y="10.5000"
@@ -9694,8 +9694,8 @@ L3.4476 18.6819
 L3.6952 18.6819
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 40.2000 71.0000)">
 <text x="40.2000" y="71.2500"
@@ -9941,8 +9941,8 @@ L40.4033 70.4167
 L40.3795 70.4405
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 77.5000 42.6000)">
 <text x="77.5000" y="42.8000"
@@ -10317,8 +10317,8 @@ L50.8724 74.6429
 L50.8534 74.6810
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 17.5000 24.1000)">
 <text x="17.5000" y="24.6000"
@@ -10483,8 +10483,8 @@ L17.1929 22.8381
 L17.2405 22.9333
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 17.6000 66.0000)">
 <text x="17.6000" y="66.2000"
@@ -10709,8 +10709,8 @@ L17.7819 65.5524
 L17.7819 65.3048
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1100; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1100; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 67.0000 51.0000)">
 <text x="67.0000" y="51.3600"
@@ -10854,8 +10854,8 @@ L67.2931 50.1429
 L67.2588 50.1771
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="61.2500" y="95.2500"
 textLength="5.2024" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -11075,8 +11075,8 @@ L63.0119 95.1572
 L62.9643 95.1096
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 24.0000 49.2000)">
 <text x="24.0000" y="49.4000"
@@ -11761,8 +11761,8 @@ L73.7772 23.9952
 L73.7962 24.0333
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="94.0000" y="5.5000"
 textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -11808,8 +11808,8 @@ L94.1905 5.4548
 L94.8095 5.4548
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="70.5000" y="30.0000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -11954,8 +11954,8 @@ L70.9667 29.9629
 L70.9476 29.9438
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 91.9000 64.7500)">
 <text x="91.9000" y="65.1500"
@@ -12024,8 +12024,8 @@ L91.4649 63.8738
 L91.4649 63.4929
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="24.0000" y="67.3000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -13869,8 +13869,8 @@ L74.0819 28.0524
 L74.0819 27.8048
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="81.5000" y="48.5000"
 textLength="4.1548" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -14036,8 +14036,8 @@ L82.7381 47.9310
 L82.6905 48.0262
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="87.5000" y="82.4000"
 textLength="3.2857" font-size="1.0667" lengthAdjust="spacingAndGlyphs"
@@ -14275,8 +14275,8 @@ L88.8524 81.9829
 L88.8905 81.9067
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="5.0000" y="94.5000"
 textLength="2.2500" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -14331,8 +14331,8 @@ L5.2381 94.4072
 L5.1905 94.3596
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="84.5000" y="44.2500"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -16036,8 +16036,8 @@ L9.3772 13.0952
 L9.3962 13.1333
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 7.1000 53.2500)">
 <text x="7.1000" y="53.6500"
@@ -16106,8 +16106,8 @@ L6.6649 52.3738
 L6.6649 51.9929
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 38.7000 20.3000)">
 <text x="38.7000" y="20.5000"
@@ -16281,8 +16281,8 @@ L38.5772 19.7952
 L38.5962 19.8333
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 81.6000 40.7000)">
 <text x="81.6000" y="41.1000"
@@ -16468,8 +16468,8 @@ L81.5448 39.7286
 L81.6210 39.7667
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 80.2000 12.0000)">
 <text x="80.2000" y="12.2500"
@@ -16619,8 +16619,8 @@ L80.4271 11.4405
 L80.4271 11.1310
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 78.0000 87.0000)">
 <text x="78.0000" y="87.4000"
@@ -16806,8 +16806,8 @@ L78.0972 86.0667
 L78.0972 85.5714
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="62.5000" y="80.6000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -16979,8 +16979,8 @@ L62.9667 80.4486
 L63.2143 80.4486
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-180.000000 17.5000 3.3000)">
 <text x="17.5000" y="3.8000"
@@ -17124,8 +17124,8 @@ L16.3571 3.6071
 L16.4524 3.5595
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="59.5000" y="76.0000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -17396,8 +17396,8 @@ L87.0915 51.8238
 L87.0534 51.8048
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="68.7000" y="25.0000"
 textLength="4.1548" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -17512,8 +17512,8 @@ L69.9857 24.1929
 L69.8905 24.2405
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 58.0000 65.1000)">
 <text x="58.0000" y="65.5000"
@@ -17675,8 +17675,8 @@ L58.3258 64.1667
 L58.2877 64.2048
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 27.0000 54.0000)">
 <text x="27.0000" y="54.5000"
@@ -17850,8 +17850,8 @@ L26.6929 52.7143
 L26.7405 52.8095
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 50.9000 85.2000)">
 <text x="50.9000" y="85.4000"
@@ -18100,8 +18100,8 @@ L72.2819 52.3857
 L72.6819 52.5571
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 30.5000 67.3000)">
 <text x="30.5000" y="67.5500"
@@ -18281,8 +18281,8 @@ L30.7271 66.7405
 L30.7271 66.4310
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 60.2000 21.5000)">
 <text x="60.2000" y="21.7000"
@@ -18375,8 +18375,8 @@ L60.3819 21.0524
 L60.3819 20.8048
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="50.2500" y="95.2500"
 textLength="5.2024" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -18560,8 +18560,8 @@ L51.9643 94.8715
 L52.5833 94.8715
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="52.8000" y="36.7000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -19228,8 +19228,8 @@ L8.9857 35.9724
 L8.9667 36.0105
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 15.0000 28.0000)">
 <text x="15.0000" y="28.2500"
@@ -19373,8 +19373,8 @@ L14.8462 27.3690
 L14.8700 27.4167
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 75.0000 87.0000)">
 <text x="75.0000" y="87.4000"
@@ -19566,8 +19566,8 @@ L74.7543 85.9905
 L74.7924 86.0667
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="52.8000" y="38.7000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -19854,8 +19854,8 @@ L29.3048 29.3772
 L29.2667 29.3962
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1100; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1100; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 48.0000 67.0000)">
 <text x="48.0000" y="67.3600"
@@ -19975,8 +19975,8 @@ L47.7788 66.0743
 L47.8131 66.1429
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="83.5000" y="77.1000"
 textLength="4.1071" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -20172,8 +20172,8 @@ L84.6190 77.0548
 L85.2381 77.0548
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 50.9000 81.9000)">
 <text x="50.9000" y="82.1000"
@@ -21222,8 +21222,8 @@ L53.2857 44.6629
 L53.2667 44.6438
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 39.0000 81.6000)">
 <text x="39.0000" y="82.0000"
@@ -21346,8 +21346,8 @@ L39.3258 80.6286
 L39.2877 80.6667
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="56.0000" y="81.5000"
 textLength="4.1548" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -21519,8 +21519,8 @@ L57.2857 80.6929
 L57.1905 80.7405
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 12.0000 35.8000)">
 <text x="12.0000" y="36.0000"
@@ -23471,8 +23471,8 @@ L73.9129 16.0143
 L73.8938 16.0333
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1100; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1100; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 11.0000 83.5000)">
 <text x="11.0000" y="83.8600"
@@ -23586,8 +23586,8 @@ L11.0874 82.6429
 L11.0874 82.1971
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="17.8000" y="50.2000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -23889,8 +23889,8 @@ L65.4667 89.3629
 L65.4476 89.3438
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1100; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1100; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 14.0000 79.0000)">
 <text x="14.0000" y="79.3600"
@@ -24124,8 +24124,8 @@ L14.2931 78.1086
 L14.2588 78.1429
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 17.6000 75.8000)">
 <text x="17.6000" y="76.0000"
@@ -24359,8 +24359,8 @@ L17.7629 75.3333
 L17.7438 75.3524
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1100; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1100; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 56.0000 86.5000)">
 <text x="56.0000" y="86.8600"
@@ -24549,8 +24549,8 @@ L56.3274 85.6771
 L56.3274 85.2314
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="28.2500" y="95.2500"
 textLength="5.2024" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -24755,8 +24755,8 @@ L29.9167 95.2048
 L30.5357 95.2048
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 87.0000 87.0000)">
 <text x="87.0000" y="87.4000"
@@ -25026,8 +25026,8 @@ L86.9448 85.6857
 L86.9067 85.7619
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="66.5000" y="80.8500"
 textLength="2.0686" font-size="0.6667" lengthAdjust="spacingAndGlyphs"
@@ -25241,8 +25241,8 @@ L67.0833 80.8033
 L67.0595 80.7795
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="38.1000" y="2.9500"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -25986,8 +25986,8 @@ L73.7986 12.0333
 L73.7986 11.7857
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="39.2500" y="95.2500"
 textLength="5.2024" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -26201,8 +26201,8 @@ L40.9643 95.1572
 L40.9167 95.1096
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="62.5000" y="82.5000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -26715,8 +26715,8 @@ L66.8857 17.4629
 L66.8667 17.4438
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 84.0000 87.6000)">
 <text x="84.0000" y="87.8500"
@@ -26956,8 +26956,8 @@ L83.9652 86.9929
 L84.0129 87.0167
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 62.0000 28.0000)">
 <text x="62.0000" y="28.2000"
@@ -27128,8 +27128,8 @@ L62.1819 27.5524
 L62.1819 27.3048
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 71.5000 76.5000)">
 <text x="71.5000" y="77.0000"
@@ -27336,8 +27336,8 @@ L71.9072 75.3333
 L71.8596 75.3810
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="18.2000" y="28.6000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -27491,8 +27491,8 @@ L18.6667 28.5629
 L18.6476 28.5438
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="21.0000" y="71.5000"
 textLength="4.1548" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -27694,8 +27694,8 @@ L22.2857 70.6929
 L22.1905 70.7405
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 60.2000 14.4000)">
 <text x="60.2000" y="14.6000"
@@ -28152,8 +28152,8 @@ L12.6571 42.9724
 L12.6190 42.9534
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 32.5000 33.3000)">
 <text x="32.5000" y="33.7000"
@@ -28327,8 +28327,8 @@ L32.8639 32.4048
 L32.8639 31.9095
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="34.5000" y="3.2500"
 textLength="2.0686" font-size="0.6667" lengthAdjust="spacingAndGlyphs"
@@ -28494,8 +28494,8 @@ L35.1310 2.8462
 L35.0833 2.8700
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="32.5000" y="58.2000"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -29031,8 +29031,8 @@ L27.4476 58.8819
 L27.6952 58.8819
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="47.0000" y="40.5000"
 textLength="4.1548" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -29186,8 +29186,8 @@ L48.1429 40.4548
 L48.7619 40.4548
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="17.5000" y="32.4000"
 textLength="3.2857" font-size="1.0667" lengthAdjust="spacingAndGlyphs"
@@ -29344,8 +29344,8 @@ L18.3952 32.3639
 L18.8905 32.3639
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="68.1000" y="82.8500"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -30380,8 +30380,8 @@ L12.6629 27.5143
 L12.6438 27.5333
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-90.000000 90.3750 22.0750)">
 <text x="90.3750" y="22.5750"
@@ -30486,8 +30486,8 @@ L90.0705 20.9321
 L90.1181 21.0274
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0600; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0600; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="71.2000" y="20.7500"
 textLength="1.6429" font-size="0.5333" lengthAdjust="spacingAndGlyphs"
@@ -31634,94 +31634,94 @@ L37.7667 18.1629
 <path d="M37.7667 18.1629
 L37.7476 18.1438
 " />
-</g><path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+</g><path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.7000,51.1000
 33.3000,51.1000
 33.3000,51.9000
 31.7000,51.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.4875,19.7000
 74.3125,19.7000
 74.3125,21.3000
 73.4875,21.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.1000,65.0500
 12.3000,65.0500
 12.3000,67.9500
 10.7000,67.9500
 10.7000,65.4500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.7300,36.5300
 25.8100,36.5300
 25.8100,39.0700
 20.7300,39.0700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 8.0875,27.2000
 8.9125,27.2000
 8.9125,28.8000
 8.0875,28.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 52.0000,40.0875
 53.6000,40.0875
 53.6000,40.9125
 52.0000,40.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 29.7000,48.8875
 31.3000,48.8875
 31.3000,49.7125
 29.7000,49.7125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 69.7000,34.6000
 71.3000,34.6000
 71.3000,35.4000
 69.7000,35.4000
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M77.0750 26.3500
 L77.4250 26.0000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 77.0750,26.0000
 78.3250,26.0000
 78.3250,28.0000
 77.0750,28.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 34.3000,27.0000
 38.3000,27.0000
 38.3000,31.0000
 34.3000,31.0000
-Z" /> 
+Z" />
 <path d="M40.5000 -6.0000
 L58.5000 -6.0000
 " />
@@ -31737,94 +31737,94 @@ L58.5000 19.5000
 <path d="M58.5000 19.5000
 L58.5000 -6.0000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.7300,53.7300
 60.0500,53.7300
 60.0500,56.2700
 39.7300,56.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.7875,9.0000
 60.6125,9.0000
 60.6125,10.6000
 59.7875,10.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 9.7000,69.3875
 11.3000,69.3875
 11.3000,70.2125
 9.7000,70.2125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 2.2000,16.0875
 3.8000,16.0875
 3.8000,16.9125
 2.2000,16.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 15.4000,81.3750
 17.4000,81.3750
 17.4000,82.6250
 15.4000,82.6250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 17.0000,37.5875
 18.6000,37.5875
 18.6000,38.4125
 17.0000,38.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 26.2000,75.5875
 27.8000,75.5875
 27.8000,76.4125
 26.2000,76.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 47.0875,87.7000
 47.9125,87.7000
 47.9125,89.3000
 47.0875,89.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 37.1000,70.2000
 37.9000,70.2000
 37.9000,71.8000
 37.1000,71.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.5000,15.7875
 38.1000,15.7875
 38.1000,16.6125
 36.5000,16.6125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 14.2000,71.9875
 15.8000,71.9875
 15.8000,72.8125
 14.2000,72.8125
-Z" /> 
+Z" />
 <path d="M82.1000 77.1000
 L84.9000 77.1000
 " />
@@ -31858,346 +31858,346 @@ L84.9000 78.9000
 <path d="M84.9000 78.9000
 L82.1000 78.9000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 81.1250,86.6000
 82.3750,86.6000
 82.3750,88.6000
 81.1250,88.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 17.0000,44.3875
 18.6000,44.3875
 18.6000,45.2125
 17.0000,45.2125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 63.2000,49.2000
 64.0000,49.2000
 64.0000,50.8000
 63.2000,50.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 89.1750,86.0000
 90.4250,86.0000
 90.4250,88.0000
 89.1750,88.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 28.0000,31.0875
 29.6000,31.0875
 29.6000,31.9125
 28.0000,31.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 32.7300,40.7300
 37.8100,40.7300
 37.8100,43.2700
 32.7300,43.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 80.9000,82.2000
 84.1000,82.2000
 84.1000,83.8000
 80.9000,83.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.7000,52.2875
 22.3000,52.2875
 22.3000,53.1125
 20.7000,53.1125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 69.9000,16.0000
 66.5000,16.0000
 66.5000,11.0000
 70.9000,11.0000
 70.9000,15.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.8750,66.3000
 38.1250,66.3000
 38.1250,68.3000
 36.8750,68.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 77.9000,52.0875
 79.5000,52.0875
 79.5000,52.9125
 77.9000,52.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.0875,84.8000
 16.9125,84.8000
 16.9125,86.4000
 16.0875,86.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 76.9000,77.2000
 80.1000,77.2000
 80.1000,78.8000
 76.9000,78.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 25.2000,81.7000
 26.0000,81.7000
 26.0000,83.3000
 25.2000,83.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 5.5000,65.0000
 8.5000,65.0000
 8.5000,69.0000
 5.5000,69.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 94.7500,47.5000
 97.6500,47.5000
 97.6500,52.5000
 94.7500,52.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 22.0000,31.3750
 24.0000,31.3750
 24.0000,32.6250
 22.0000,32.6250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.7000,33.5875
 29.3000,33.5875
 29.3000,34.4125
 27.7000,34.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 52.4000,64.4750
 54.4000,64.4750
 54.4000,65.7250
 52.4000,65.7250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 71.6000,39.0500
 72.8000,39.0500
 72.8000,41.9500
 71.2000,41.9500
 71.2000,39.4500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 13.5000,47.0000
 15.0000,47.0000
 15.0000,49.0000
 13.0000,49.0000
 13.0000,47.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 22.2000,58.2875
 23.8000,58.2875
 23.8000,59.1125
 22.2000,59.1125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 78.1000,18.8000
 79.7000,18.8000
 79.7000,19.6000
 78.1000,19.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 55.7000,42.0875
 57.3000,42.0875
 57.3000,42.9125
 55.7000,42.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 75.0000,41.3000
 75.8000,41.3000
 75.8000,42.9000
 75.0000,42.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 28.6000,82.0500
 29.8000,82.0500
 29.8000,84.9500
 28.2000,84.9500
 28.2000,82.4500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 53.0875,68.3000
 53.9125,68.3000
 53.9125,69.9000
 53.0875,69.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 29.5875,72.7000
 30.4125,72.7000
 30.4125,74.3000
 29.5875,74.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 30.2000,76.0875
 31.8000,76.0875
 31.8000,76.9125
 30.2000,76.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 0.7000,37.5000
 8.0000,37.5000
 8.0000,45.0000
 0.7000,45.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 34.0875,84.8000
 34.9125,84.8000
 34.9125,86.4000
 34.0875,86.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 6.9000,31.2000
 10.1000,31.2000
 10.1000,32.8000
 6.9000,32.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.7000,23.1000
 33.3000,23.1000
 33.3000,26.3000
 31.7000,26.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 70.2300,44.4300
 75.3100,44.4300
 75.3100,46.9700
 70.2300,46.9700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.7300,70.7300
 48.8100,70.7300
 48.8100,73.2700
 43.7300,73.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.7000,24.0875
 29.3000,24.0875
 29.3000,24.9125
 27.7000,24.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 75.4750,49.7000
 76.7250,49.7000
 76.7250,51.7000
 75.4750,51.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 37.7300,48.7300
 58.0500,48.7300
 58.0500,51.2700
 37.7300,51.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.7000,54.3000
 22.3000,54.3000
 22.3000,55.1000
 20.7000,55.1000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.2000,39.5875
 40.8000,39.5875
 40.8000,40.4125
 39.2000,40.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 70.0000,51.8000
 70.8000,51.8000
 70.8000,53.4000
 70.0000,53.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 8.7000,78.5875
 10.3000,78.5875
 10.3000,79.4125
 8.7000,79.4125
-Z" /> 
+Z" />
 <path d="M65.0000 75.0000
 L65.0000 79.0000
 " />
@@ -32225,99 +32225,99 @@ L20.2500 97.7500
 <path d="M20.2500 97.7500
 L14.2500 97.7500
 " />
-<circle cx="17.2500" cy="94.7500" r="2.0156" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<circle cx="17.2500" cy="94.7500" r="2.0156" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 22.1000,9.5000
 22.9000,9.5000
 22.9000,11.1000
 22.1000,11.1000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 44.2000,65.2000
 45.0000,65.2000
 45.0000,66.8000
 44.2000,66.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.2000,44.5875
 12.8000,44.5875
 12.8000,45.4125
 11.2000,45.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.7000,83.7875
 63.3000,83.7875
 63.3000,84.6125
 61.7000,84.6125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 55.7000,40.0875
 57.3000,40.0875
 57.3000,40.9125
 55.7000,40.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 2.2000,18.0875
 3.8000,18.0875
 3.8000,18.9125
 2.2000,18.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.5750,70.0000
 40.8250,70.0000
 40.8250,72.0000
 39.5750,72.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 77.0875,41.8000
 77.9125,41.8000
 77.9125,43.4000
 77.0875,43.4000
-Z" /> 
+Z" />
 <path d="M78.3250 22.9500
 L77.9750 23.3000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 77.0750,21.3000
 78.3250,21.3000
 78.3250,23.3000
 77.0750,23.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 32.5000,69.5000
 35.5000,69.5000
 35.5000,72.5000
 32.5000,72.5000
-Z" /> 
-<circle cx="32.9500" cy="72.0500" r="0.1000" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<circle cx="32.9500" cy="72.0500" r="0.1000" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.4875,74.5000
 51.3125,74.5000
 51.3125,76.1000
 50.4875,76.1000
-Z" /> 
+Z" />
 <path d="M18.5000 21.8000
 L18.5000 26.4000
 " />
@@ -32348,31 +32348,31 @@ L21.5000 26.4000
 <path d="M21.5000 26.4000
 L18.5000 26.4000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 17.1875,65.2000
 18.0125,65.2000
 18.0125,66.8000
 17.1875,66.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 12.2000,38.5500
 13.8000,38.5500
 13.8000,41.4500
 12.2000,41.4500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 66.6000,49.5500
 67.8000,49.5500
 67.8000,52.4500
 66.2000,52.4500
 66.2000,49.9500
-Z" /> 
+Z" />
 <path d="M58.2500 91.7500
 L61.2500 91.7500
 " />
@@ -32388,552 +32388,552 @@ L64.2500 97.7500
 <path d="M64.2500 97.7500
 L58.2500 97.7500
 " />
-<circle cx="61.2500" cy="94.7500" r="2.0156" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<circle cx="61.2500" cy="94.7500" r="2.0156" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 23.5875,48.4000
 24.4125,48.4000
 24.4125,50.0000
 23.5875,50.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 6.2000,16.5500
 7.8000,16.5500
 7.8000,19.4500
 6.2000,19.4500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 3.4000,66.2000
 4.2000,66.2000
 4.2000,67.8000
 3.4000,67.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 54.2000,89.5875
 55.8000,89.5875
 55.8000,90.4125
 54.2000,90.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.4875,23.7000
 74.3125,23.7000
 74.3125,25.3000
 73.4875,25.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.7300,44.7300
 36.8100,44.7300
 36.8100,47.2700
 31.7300,47.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.5000,30.5000
 14.5000,30.5000
 14.5000,33.5000
 11.5000,33.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 69.7000,29.3875
 71.3000,29.3875
 71.3000,30.2125
 69.7000,30.2125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 91.0000,61.0000
 98.3000,61.0000
 98.3000,68.5000
 91.0000,68.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 23.2000,66.7000
 24.8000,66.7000
 24.8000,67.5000
 23.2000,67.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.8750,37.0000
 33.1250,37.0000
 33.1250,39.0000
 31.8750,39.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 32.0000,84.3000
 32.8000,84.3000
 32.8000,85.9000
 32.0000,85.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 9.9000,19.7875
 11.5000,19.7875
 11.5000,20.6125
 9.9000,20.6125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 17.0000,35.5875
 18.6000,35.5875
 18.6000,36.4125
 17.0000,36.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.2000,45.5875
 40.8000,45.5875
 40.8000,46.4125
 39.2000,46.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.7000,85.6875
 63.3000,85.6875
 63.3000,86.5125
 61.7000,86.5125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 3.4000,69.7000
 4.2000,69.7000
 4.2000,71.3000
 3.4000,71.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 9.2300,87.2300
 14.3100,87.2300
 14.3100,89.7700
 9.2300,89.7700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.5875,16.1000
 12.4125,16.1000
 12.4125,17.7000
 11.5875,17.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.2000,43.5875
 40.8000,43.5875
 40.8000,44.4125
 39.2000,44.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 32.9000,5.5875
 34.5000,5.5875
 34.5000,6.4125
 32.9000,6.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.2000,35.5875
 40.8000,35.5875
 40.8000,36.4125
 39.2000,36.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.4875,27.7000
 74.3125,27.7000
 74.3125,29.3000
 73.4875,29.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 80.3000,45.5000
 83.7000,45.5000
 83.7000,50.5000
 79.3000,50.5000
 79.3000,46.5000
-Z" /> 
+Z" />
 <path d="M78.3250 32.6500
 L77.9750 33.0000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 77.0750,31.0000
 78.3250,31.0000
 78.3250,33.0000
 77.0750,33.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 85.9000,81.2000
 89.1000,81.2000
 89.1000,82.8000
 85.9000,82.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 18.3800,14.2000
 21.6200,14.2000
 21.6200,18.8000
 18.3800,18.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 83.7000,43.6500
 85.3000,43.6500
 85.3000,44.4500
 83.7000,44.4500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 71.4000,48.4750
 73.4000,48.4750
 73.4000,49.7250
 71.4000,49.7250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.9000,12.8000
 37.7000,12.8000
 37.7000,14.4000
 36.9000,14.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 6.7300,21.7300
 11.8100,21.7300
 11.8100,24.2700
 6.7300,24.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.2875,72.7000
 28.1125,72.7000
 28.1125,74.3000
 27.2875,74.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 55.7000,38.0875
 57.3000,38.0875
 57.3000,38.9125
 55.7000,38.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.0000,27.5000
 33.0000,27.5000
 33.0000,30.5000
 31.0000,30.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 10.0875,27.2000
 10.9125,27.2000
 10.9125,28.8000
 10.0875,28.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 72.2500,91.1800
 88.7500,91.1800
 88.7500,96.0800
 72.2500,96.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 14.0000,84.3000
 14.8000,84.3000
 14.8000,85.9000
 14.0000,85.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 33.4000,80.9750
 35.4000,80.9750
 35.4000,82.2250
 33.4000,82.2250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.7300,7.7300
 30.2700,7.7300
 30.2700,15.3500
 27.7300,15.3500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 1.7300,9.7300
 4.2700,9.7300
 4.2700,14.8100
 1.7300,14.8100
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 52.0000,42.0875
 53.6000,42.0875
 53.6000,42.9125
 52.0000,42.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.4000,5.6000
 38.0000,5.6000
 38.0000,6.4000
 36.4000,6.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 26.7300,16.7300
 34.3500,16.7300
 34.3500,19.2700
 26.7300,19.2700
-Z" /> 
+Z" />
 <path d="M78.3250 16.6500
 L77.9750 17.0000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 77.0750,15.0000
 78.3250,15.0000
 78.3250,17.0000
 77.0750,17.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 55.7000,36.0875
 57.3000,36.0875
 57.3000,36.9125
 55.7000,36.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 5.0000,46.3750
 7.0000,46.3750
 7.0000,47.6250
 5.0000,47.6250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.7000,59.6000
 33.3000,59.6000
 33.3000,60.4000
 31.7000,60.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 9.0875,12.8000
 9.9125,12.8000
 9.9125,14.4000
 9.0875,14.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 0.7000,49.5000
 8.0000,49.5000
 8.0000,57.0000
 0.7000,57.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 38.3000,19.5000
 39.1000,19.5000
 39.1000,21.1000
 38.3000,21.1000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 80.8000,39.1000
 82.4000,39.1000
 82.4000,42.3000
 80.8000,42.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 79.5750,11.0000
 80.8250,11.0000
 80.8250,13.0000
 79.5750,13.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 77.2000,85.4000
 78.8000,85.4000
 78.8000,88.6000
 77.2000,88.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.7300,23.7300
 54.9700,23.7300
 54.9700,26.2700
 39.7300,26.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.7000,79.9875
 63.3000,79.9875
 63.3000,80.8125
 61.7000,80.8125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 13.0300,-0.3750
 21.9700,-0.3750
 21.9700,6.9750
 13.0300,6.9750
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 58.7000,75.4000
 60.3000,75.4000
 60.3000,76.2000
 58.7000,76.2000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 86.6875,51.7000
 87.5125,51.7000
 87.5125,53.3000
 86.6875,53.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 67.5000,22.0000
 70.9000,22.0000
 70.9000,27.0000
 66.5000,27.0000
 66.5000,23.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 57.2000,63.5000
 58.8000,63.5000
 58.8000,66.7000
 57.2000,66.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 26.0250,51.5500
 28.9500,51.5500
 28.9500,56.4500
 25.0500,56.4500
 25.0500,52.5250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.4875,84.4000
 51.3125,84.4000
 51.3125,86.0000
 50.4875,86.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 72.0875,52.3000
 72.9125,52.3000
 72.9125,53.9000
 72.0875,53.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 29.8750,66.3000
 31.1250,66.3000
 31.1250,68.3000
 29.8750,68.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 70.8750,79.4500
 72.1250,79.4500
 72.1250,81.4500
 70.8750,81.4500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.7300,28.7300
 54.9700,28.7300
 54.9700,31.2700
 39.7300,31.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.7875,20.7000
 60.6125,20.7000
 60.6125,22.3000
 59.7875,22.3000
-Z" /> 
+Z" />
 <path d="M47.2500 91.7500
 L50.2500 91.7500
 " />
@@ -32949,99 +32949,99 @@ L53.2500 97.7500
 <path d="M53.2500 97.7500
 L47.2500 97.7500
 " />
-<circle cx="50.2500" cy="94.7500" r="2.0156" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<circle cx="50.2500" cy="94.7500" r="2.0156" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 52.0000,36.1000
 53.6000,36.1000
 53.6000,36.9000
 52.0000,36.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.7875,5.4000
 60.6125,5.4000
 60.6125,7.0000
 59.7875,7.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.7000,35.5875
 29.3000,35.5875
 29.3000,36.4125
 27.7000,36.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 58.8000,23.9375
 60.4000,23.9375
 60.4000,24.7625
 58.8000,24.7625
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 7.7000,35.5875
 9.3000,35.5875
 9.3000,36.4125
 7.7000,36.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 14.3750,27.0000
 15.6250,27.0000
 15.6250,29.0000
 14.3750,29.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 74.2000,85.4000
 75.8000,85.4000
 75.8000,88.6000
 74.2000,88.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 52.0000,38.0875
 53.6000,38.0875
 53.6000,38.9125
 52.0000,38.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 28.0000,29.0875
 29.6000,29.0875
 29.6000,29.9125
 28.0000,29.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 47.6000,65.5500
 48.8000,65.5500
 48.8000,68.4500
 47.2000,68.4500
 47.2000,65.9500
-Z" /> 
+Z" />
 <path d="M16.8500 10.9250
 L16.5000 10.5750
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.5000,9.6750
 18.5000,9.6750
 18.5000,10.9250
 16.5000,10.9250
-Z" /> 
+Z" />
 <path d="M82.1000 73.7000
 L84.9000 73.7000
 " />
@@ -33078,250 +33078,250 @@ L82.1000 75.5000
 <path d="M12.6500 9.6750
 L13.0000 10.0250
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.0000,9.6750
 13.0000,9.6750
 13.0000,10.9250
 11.0000,10.9250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.4875,81.1000
 51.3125,81.1000
 51.3125,82.7000
 50.4875,82.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 86.6875,55.2000
 87.5125,55.2000
 87.5125,56.8000
 86.6875,56.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 76.4000,37.9750
 78.4000,37.9750
 78.4000,39.2250
 76.4000,39.2250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 14.4000,65.4000
 15.2000,65.4000
 15.2000,67.0000
 14.4000,67.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 66.9600,84.2300
 72.0400,84.2300
 72.0400,86.7700
 66.9600,86.7700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 7.2000,81.7000
 8.0000,81.7000
 8.0000,83.3000
 7.2000,83.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.7000,26.0875
 29.3000,26.0875
 29.3000,26.9125
 27.7000,26.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 52.0000,44.0875
 53.6000,44.0875
 53.6000,44.9125
 52.0000,44.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 38.2000,80.0000
 39.8000,80.0000
 39.8000,83.2000
 38.2000,83.2000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 54.8000,77.7500
 58.2000,77.7500
 58.2000,84.2500
 53.8000,84.2500
 53.8000,78.7500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.5875,35.0000
 12.4125,35.0000
 12.4125,36.6000
 11.5875,36.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 9.7000,47.6000
 11.3000,47.6000
 11.3000,48.4000
 9.7000,48.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 26.2000,48.8875
 27.8000,48.8875
 27.8000,49.7125
 26.2000,49.7125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.2000,87.3000
 60.8000,87.3000
 60.8000,88.1000
 59.2000,88.1000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.4875,77.8000
 51.3125,77.8000
 51.3125,79.4000
 50.4875,79.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.6000,34.5875
 75.2000,34.5875
 75.2000,35.4125
 73.6000,35.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 17.0000,46.5875
 18.6000,46.5875
 18.6000,47.4125
 17.0000,47.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 25.7300,85.9300
 30.8100,85.9300
 30.8100,88.4700
 25.7300,88.4700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 14.2000,69.0875
 15.8000,69.0875
 15.8000,69.9125
 14.2000,69.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.2000,37.5875
 40.8000,37.5875
 40.8000,38.4125
 39.2000,38.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 90.1000,48.5000
 90.9000,48.5000
 90.9000,50.1000
 90.1000,50.1000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.3375,15.7000
 74.1625,15.7000
 74.1625,17.3000
 73.3375,17.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 10.6000,82.0500
 11.8000,82.0500
 11.8000,84.9500
 10.2000,84.9500
 10.2000,82.4500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 65.2300,54.9300
 70.3100,54.9300
 70.3100,57.4700
 65.2300,57.4700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 17.0000,49.5875
 18.6000,49.5875
 18.6000,50.4125
 17.0000,50.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 64.2000,88.7875
 65.8000,88.7875
 65.8000,89.6125
 64.2000,89.6125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 13.6000,77.5500
 14.8000,77.5500
 14.8000,80.4500
 13.2000,80.4500
 13.2000,77.9500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 17.1875,75.0000
 18.0125,75.0000
 18.0125,76.6000
 17.1875,76.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 56.4000,87.9500
 55.2000,87.9500
 55.2000,85.0500
 56.8000,85.0500
 56.8000,87.5500
-Z" /> 
+Z" />
 <path d="M25.2500 91.7500
 L28.2500 91.7500
 " />
@@ -33337,71 +33337,71 @@ L31.2500 97.7500
 <path d="M31.2500 97.7500
 L25.2500 97.7500
 " />
-<circle cx="28.2500" cy="94.7500" r="2.0156" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<circle cx="28.2500" cy="94.7500" r="2.0156" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 86.2000,85.4000
 87.8000,85.4000
 87.8000,88.6000
 86.2000,88.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 65.5000,79.9750
 67.5000,79.9750
 67.5000,81.2250
 65.5000,81.2250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 25.7300,44.7300
 30.8100,44.7300
 30.8100,47.2700
 25.7300,47.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 37.3000,2.3500
 38.9000,2.3500
 38.9000,3.1500
 37.3000,3.1500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 13.5875,35.0000
 14.4125,35.0000
 14.4125,36.6000
 13.5875,36.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.2000,41.5875
 40.8000,41.5875
 40.8000,42.4125
 39.2000,42.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.7000,78.0875
 63.3000,78.0875
 63.3000,78.9125
 61.7000,78.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.3375,11.7000
 74.1625,11.7000
 74.1625,13.3000
 73.3375,13.3000
-Z" /> 
+Z" />
 <path d="M36.2500 91.7500
 L39.2500 91.7500
 " />
@@ -33417,55 +33417,55 @@ L42.2500 97.7500
 <path d="M42.2500 97.7500
 L36.2500 97.7500
 " />
-<circle cx="39.2500" cy="94.7500" r="2.0156" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<circle cx="39.2500" cy="94.7500" r="2.0156" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.7000,81.8875
 63.3000,81.8875
 63.3000,82.7125
 61.7000,82.7125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.2000,88.0875
 44.8000,88.0875
 44.8000,88.9125
 43.2000,88.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 65.6000,16.9000
 67.2000,16.9000
 67.2000,17.7000
 65.6000,17.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 83.3750,86.6000
 84.6250,86.6000
 84.6250,88.6000
 83.3750,88.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.7300,2.4100
 64.2700,2.4100
 64.2700,25.2700
 61.7300,25.2700
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.5875,27.2000
 62.4125,27.2000
 62.4125,28.8000
 61.5875,28.8000
-Z" /> 
+Z" />
 <path d="M72.6000 75.1000
 L74.4000 75.1000
 " />
@@ -33499,160 +33499,160 @@ L74.4000 77.9000
 <path d="M74.4000 77.9000
 L72.6000 77.9000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 17.4000,27.9875
 19.0000,27.9875
 19.0000,28.8125
 17.4000,28.8125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 19.8000,68.5000
 23.2000,68.5000
 23.2000,73.5000
 18.8000,73.5000
 18.8000,69.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.7875,13.6000
 60.6125,13.6000
 60.6125,15.2000
 59.7875,15.2000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 68.2000,38.7000
 69.0000,38.7000
 69.0000,40.3000
 68.2000,40.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.2000,42.5875
 12.8000,42.5875
 12.8000,43.4125
 11.2000,43.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.7000,31.7000
 33.3000,31.7000
 33.3000,34.9000
 31.7000,34.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 33.5000,2.3750
 35.5000,2.3750
 35.5000,3.6250
 33.5000,3.6250
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.7000,57.5875
 33.3000,57.5875
 33.3000,58.4125
 31.7000,58.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 64.5875,85.9000
 65.4125,85.9000
 65.4125,87.5000
 64.5875,87.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 26.2000,58.3000
 27.8000,58.3000
 27.8000,59.1000
 26.2000,59.1000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 45.8000,36.1000
 49.2000,36.1000
 49.2000,43.9000
 44.8000,43.9000
 44.8000,37.1000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 15.9000,31.2000
 19.1000,31.2000
 19.1000,32.8000
 15.9000,32.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 67.3000,82.2375
 68.9000,82.2375
 68.9000,83.0625
 67.3000,83.0625
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.6000,81.3000
 21.4000,81.3000
 21.4000,82.9000
 20.6000,82.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 51.0000,67.8000
 51.8000,67.8000
 51.8000,69.4000
 51.0000,69.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.7000,55.5875
 33.3000,55.5875
 33.3000,56.4125
 31.7000,56.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 35.2000,88.5875
 36.8000,88.5875
 36.8000,89.4125
 35.2000,89.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.7875,17.2000
 60.6125,17.2000
 60.6125,18.8000
 59.7875,18.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 12.0875,27.2000
 12.9125,27.2000
 12.9125,28.8000
 12.0875,28.8000
-Z" /> 
+Z" />
 <path d="M82.1750 15.0750
 L82.1750 28.9250
 " />
@@ -33708,73 +33708,73 @@ L103.7250 17.4250
 <path d="M99.2250 27.9250 A0.5000 0.5000 0.0 0 0 99.7250 27.4250" />
 <path d="M103.7250 17.4250 A0.5000 0.5000 0.0 0 0 103.2250 16.9250" />
 <path d="M103.2250 27.9250 A0.5000 0.5000 0.0 0 0 103.7250 27.4250" />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 70.4000,20.1500
 72.0000,20.1500
 72.0000,20.9500
 70.4000,20.9500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.2000,8.5875
 37.8000,8.5875
 37.8000,9.4125
 36.2000,9.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 17.2000,78.4500
 18.0000,78.4500
 18.0000,80.0500
 17.2000,80.0500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 81.9000,52.0875
 83.5000,52.0875
 83.5000,52.9125
 81.9000,52.9125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.7000,50.2875
 22.3000,50.2875
 22.3000,51.1125
 20.7000,51.1125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.5000,17.5875
 38.1000,17.5875
 38.1000,18.4125
 36.5000,18.4125
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.0200,50.7700
 33.9800,50.7700
 33.9800,52.2300
 31.0200,52.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.1700,19.0200
 74.6300,19.0200
 74.6300,21.9800
 73.1700,21.9800
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M9.4500 65.0000
 L10.4500 65.0000
@@ -33824,62 +33824,62 @@ L13.5500 68.0000
 <path d="M13.5500 68.0000
 L12.5500 68.0000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.3000,36.1000
 26.2400,36.1000
 26.2400,39.5000
 20.3000,39.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 7.7700,26.5200
 9.2300,26.5200
 9.2300,29.4800
 7.7700,29.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 51.3200,39.7700
 54.2800,39.7700
 54.2800,41.2300
 51.3200,41.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 29.0200,48.5700
 31.9800,48.5700
 31.9800,50.0300
 29.0200,50.0300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 69.0200,34.2700
 71.9800,34.2700
 71.9800,35.7300
 69.0200,35.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 75.8500,25.6500
 79.5500,25.6500
 79.5500,28.3500
 75.8500,28.3500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 33.9000,26.6000
 38.7000,26.6000
 38.7000,31.4000
 33.9000,31.4000
-Z" /> 
+Z" />
 <path d="M25.5000 -21.0000
 L25.5000 0.0000
 " />
@@ -33904,94 +33904,94 @@ L25.5000 -21.0000
 <path d="M73.5000 0.0000
 L73.5000 -21.0000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.3000,53.3000
 60.4800,53.3000
 60.4800,56.7000
 39.3000,56.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.4700,8.3200
 60.9300,8.3200
 60.9300,11.2800
 59.4700,11.2800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 9.0200,69.0700
 11.9800,69.0700
 11.9800,70.5300
 9.0200,70.5300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 1.5200,15.7700
 4.4800,15.7700
 4.4800,17.2300
 1.5200,17.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 14.4000,81.0250
 18.4000,81.0250
 18.4000,82.9750
 14.4000,82.9750
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.3200,37.2700
 19.2800,37.2700
 19.2800,38.7300
 16.3200,38.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 25.5200,75.2700
 28.4800,75.2700
 28.4800,76.7300
 25.5200,76.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 46.7700,87.0200
 48.2300,87.0200
 48.2300,89.9800
 46.7700,89.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.7700,69.5200
 38.2300,69.5200
 38.2300,72.4800
 36.7700,72.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 35.8200,15.4700
 38.7800,15.4700
 38.7800,16.9300
 35.8200,16.9300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 13.5200,71.6700
 16.4800,71.6700
 16.4800,73.1300
 13.5200,73.1300
-Z" /> 
+Z" />
 <path d="M81.1500 76.8500
 L81.1500 79.1500
 " />
@@ -34004,70 +34004,70 @@ L85.8500 79.1500
 <path d="M85.8500 79.1500
 L81.1500 79.1500
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 80.7700,85.9000
 82.7300,85.9000
 82.7300,89.3000
 80.7700,89.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.3200,44.0700
 19.2800,44.0700
 19.2800,45.5300
 16.3200,45.5300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 62.8700,48.5200
 64.3300,48.5200
 64.3300,51.4800
 62.8700,51.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 88.8200,85.3000
 90.7800,85.3000
 90.7800,88.7000
 88.8200,88.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.3200,30.7700
 30.2800,30.7700
 30.2800,32.2300
 27.3200,32.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 32.3000,40.3000
 38.2400,40.3000
 38.2400,43.7000
 32.3000,43.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 80.2000,81.8500
 84.8000,81.8500
 84.8000,84.1500
 80.2000,84.1500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.0200,51.9700
 22.9800,51.9700
 22.9800,53.4300
 20.0200,53.4300
-Z" /> 
+Z" />
 <path d="M64.8500 11.1000
 L66.2500 11.1000
 " />
@@ -34104,87 +34104,87 @@ L72.5500 15.9000
 <path d="M72.5500 15.9000
 L71.1500 15.9000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.5500,65.6200
 38.4500,65.6200
 38.4500,68.9800
 36.5500,68.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 77.2200,51.7700
 80.1800,51.7700
 80.1800,53.2300
 77.2200,53.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 15.7700,84.1200
 17.2300,84.1200
 17.2300,87.0800
 15.7700,87.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 76.2000,76.8500
 80.8000,76.8500
 80.8000,79.1500
 76.2000,79.1500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 24.8700,81.0200
 26.3300,81.0200
 26.3300,83.9800
 24.8700,83.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 5.2500,64.7500
 8.7500,64.7500
 8.7500,69.2500
 5.2500,69.2500
-Z" /> 
-<circle cx="94.0000" cy="94.0000" r="3.4500" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<circle cx="94.0000" cy="94.0000" r="3.4500" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 93.4000,47.0000
 99.4000,47.0000
 99.4000,53.0000
 93.4000,53.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 21.0000,31.0250
 25.0000,31.0250
 25.0000,32.9750
 21.0000,32.9750
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.0200,33.2700
 29.9800,33.2700
 29.9800,34.7300
 27.0200,34.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 51.4000,64.1250
 55.4000,64.1250
 55.4000,66.0750
 51.4000,66.0750
-Z" /> 
+Z" />
 <path d="M69.9500 39.0000
 L70.9500 39.0000
 " />
@@ -34257,38 +34257,38 @@ L15.6300 49.1300
 <path d="M15.6300 49.1300
 L15.2500 49.1300
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 21.5200,57.9700
 24.4800,57.9700
 24.4800,59.4300
 21.5200,59.4300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 77.4200,18.4700
 80.3800,18.4700
 80.3800,19.9300
 77.4200,19.9300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 55.0200,41.7700
 57.9800,41.7700
 57.9800,43.2300
 55.0200,43.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 74.6700,40.6200
 76.1300,40.6200
 76.1300,43.5800
 74.6700,43.5800
-Z" /> 
+Z" />
 <path d="M26.9500 82.0000
 L27.9500 82.0000
 " />
@@ -34325,135 +34325,135 @@ L31.0500 85.0000
 <path d="M31.0500 85.0000
 L30.0500 85.0000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 52.7700,67.6200
 54.2300,67.6200
 54.2300,70.5800
 52.7700,70.5800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 29.2700,72.0200
 30.7300,72.0200
 30.7300,74.9800
 29.2700,74.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 29.5200,75.7700
 32.4800,75.7700
 32.4800,77.2300
 29.5200,77.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 0.2000,37.0000
 8.5000,37.0000
 8.5000,45.5000
 0.2000,45.5000
-Z" /> 
-<circle cx="5.0000" cy="5.0000" r="3.4500" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<circle cx="5.0000" cy="5.0000" r="3.4500" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 33.7700,84.1200
 35.2300,84.1200
 35.2300,87.0800
 33.7700,87.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 6.2000,30.8500
 10.8000,30.8500
 10.8000,33.1500
 6.2000,33.1500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.3500,22.4000
 33.6500,22.4000
 33.6500,27.0000
 31.3500,27.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 69.8000,44.0000
 75.7400,44.0000
 75.7400,47.4000
 69.8000,47.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.3000,70.3000
 49.2400,70.3000
 49.2400,73.7000
 43.3000,73.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.0200,23.7700
 29.9800,23.7700
 29.9800,25.2300
 27.0200,25.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 75.1200,49.0000
 77.0800,49.0000
 77.0800,52.4000
 75.1200,52.4000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 37.3000,48.3000
 58.4800,48.3000
 58.4800,51.7000
 37.3000,51.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.0200,53.9700
 22.9800,53.9700
 22.9800,55.4300
 20.0200,55.4300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 38.5200,39.2700
 41.4800,39.2700
 41.4800,40.7300
 38.5200,40.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 69.6700,51.1200
 71.1300,51.1200
 71.1300,54.0800
 69.6700,54.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 8.0200,78.2700
 10.9800,78.2700
 10.9800,79.7300
 8.0200,79.7300
-Z" /> 
+Z" />
 <path d="M64.4700 74.7500
 L64.4700 79.2500
 " />
@@ -34502,94 +34502,94 @@ L22.0000 98.2500
 <path d="M22.0000 98.5000
 L22.0000 98.2500
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 21.7700,8.8200
 23.2300,8.8200
 23.2300,11.7800
 21.7700,11.7800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 43.8700,64.5200
 45.3300,64.5200
 45.3300,67.4800
 43.8700,67.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 10.5200,44.2700
 13.4800,44.2700
 13.4800,45.7300
 10.5200,45.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.0200,83.4700
 63.9800,83.4700
 63.9800,84.9300
 61.0200,84.9300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 55.0200,39.7700
 57.9800,39.7700
 57.9800,41.2300
 55.0200,41.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 1.5200,17.7700
 4.4800,17.7700
 4.4800,19.2300
 1.5200,19.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.2200,69.3000
 41.1800,69.3000
 41.1800,72.7000
 39.2200,72.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 76.7700,41.1200
 78.2300,41.1200
 78.2300,44.0800
 76.7700,44.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 75.8500,20.9500
 79.5500,20.9500
 79.5500,23.6500
 75.8500,23.6500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.9000,68.9000
 36.1000,68.9000
 36.1000,73.1000
 31.9000,73.1000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.1700,73.8200
 51.6300,73.8200
 51.6300,76.7800
 50.1700,76.7800
-Z" /> 
+Z" />
 <path d="M18.2500 20.6000
 L21.7500 20.6000
 " />
@@ -34602,22 +34602,22 @@ L21.7500 27.6000
 <path d="M21.7500 27.6000
 L18.2500 27.6000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.8700,64.5200
 18.3300,64.5200
 18.3300,67.4800
 16.8700,67.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.1000,38.2000
 14.9000,38.2000
 14.9000,41.8000
 11.1000,41.8000
-Z" /> 
+Z" />
 <path d="M64.9500 49.5000
 L65.9500 49.5000
 " />
@@ -34690,191 +34690,191 @@ L66.0000 98.2500
 <path d="M66.0000 98.5000
 L66.0000 98.2500
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 23.2700,47.7200
 24.7300,47.7200
 24.7300,50.6800
 23.2700,50.6800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 5.1000,16.2000
 8.9000,16.2000
 8.9000,19.8000
 5.1000,19.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 3.0700,65.5200
 4.5300,65.5200
 4.5300,68.4800
 3.0700,68.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 53.5200,89.2700
 56.4800,89.2700
 56.4800,90.7300
 53.5200,90.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.1700,23.0200
 74.6300,23.0200
 74.6300,25.9800
 73.1700,25.9800
-Z" /> 
-<circle cx="94.0000" cy="5.0000" r="3.4500" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<circle cx="94.0000" cy="5.0000" r="3.4500" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.3000,44.3000
 37.2400,44.3000
 37.2400,47.7000
 31.3000,47.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.0500,30.0500
 14.9500,30.0500
 14.9500,33.9500
 11.0500,33.9500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 69.0200,29.0700
 71.9800,29.0700
 71.9800,30.5300
 69.0200,30.5300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 90.5000,60.5000
 98.8000,60.5000
 98.8000,69.0000
 90.5000,69.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 22.5200,66.3700
 25.4800,66.3700
 25.4800,67.8300
 22.5200,67.8300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.5250,36.0000
 33.4750,36.0000
 33.4750,40.0000
 31.5250,40.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.6700,83.6200
 33.1300,83.6200
 33.1300,86.5800
 31.6700,86.5800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 9.2200,19.4700
 12.1800,19.4700
 12.1800,20.9300
 9.2200,20.9300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.3200,35.2700
 19.2800,35.2700
 19.2800,36.7300
 16.3200,36.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 38.5200,45.2700
 41.4800,45.2700
 41.4800,46.7300
 38.5200,46.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.0200,85.3700
 63.9800,85.3700
 63.9800,86.8300
 61.0200,86.8300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 3.0700,69.0200
 4.5300,69.0200
 4.5300,71.9800
 3.0700,71.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 8.8000,86.8000
 14.7400,86.8000
 14.7400,90.2000
 8.8000,90.2000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.2700,15.4200
 12.7300,15.4200
 12.7300,18.3800
 11.2700,18.3800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 38.5200,43.2700
 41.4800,43.2700
 41.4800,44.7300
 38.5200,44.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 32.2200,5.2700
 35.1800,5.2700
 35.1800,6.7300
 32.2200,6.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 38.5200,35.2700
 41.4800,35.2700
 41.4800,36.7300
 38.5200,36.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.1700,27.0200
 74.6300,27.0200
 74.6300,29.9800
 73.1700,29.9800
-Z" /> 
+Z" />
 <path d="M77.6500 45.6000
 L79.0500 45.6000
 " />
@@ -34911,279 +34911,279 @@ L85.3500 50.4000
 <path d="M85.3500 50.4000
 L83.9500 50.4000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 75.8500,30.6500
 79.5500,30.6500
 79.5500,33.3500
 75.8500,33.3500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 85.2000,80.8500
 89.8000,80.8500
 89.8000,83.1500
 85.2000,83.1500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 18.0400,13.0000
 21.9600,13.0000
 21.9600,20.0000
 18.0400,20.0000
-Z" /> 
-<circle cx="5.0000" cy="94.0000" r="3.4500" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<circle cx="5.0000" cy="94.0000" r="3.4500" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 83.0200,43.3200
 85.9800,43.3200
 85.9800,44.7800
 83.0200,44.7800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 70.4000,48.1250
 74.4000,48.1250
 74.4000,50.0750
 70.4000,50.0750
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.5700,12.1200
 38.0300,12.1200
 38.0300,15.0800
 36.5700,15.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 6.3000,21.3000
 12.2400,21.3000
 12.2400,24.7000
 6.3000,24.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 26.9700,72.0200
 28.4300,72.0200
 28.4300,74.9800
 26.9700,74.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 55.0200,37.7700
 57.9800,37.7700
 57.9800,39.2300
 55.0200,39.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 30.5500,27.2500
 33.4500,27.2500
 33.4500,30.7500
 30.5500,30.7500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 9.7700,26.5200
 11.2300,26.5200
 11.2300,29.4800
 9.7700,29.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 71.5000,89.6000
 89.5000,89.6000
 89.5000,97.8000
 71.5000,97.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 13.6700,83.6200
 15.1300,83.6200
 15.1300,86.5800
 13.6700,86.5800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 32.4000,80.6250
 36.4000,80.6250
 36.4000,82.5750
 32.4000,82.5750
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.3000,7.3000
 30.7000,7.3000
 30.7000,15.7800
 27.3000,15.7800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 1.3000,9.3000
 4.7000,9.3000
 4.7000,15.2400
 1.3000,15.2400
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 51.3200,41.7700
 54.2800,41.7700
 54.2800,43.2300
 51.3200,43.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 35.7200,5.2700
 38.6800,5.2700
 38.6800,6.7300
 35.7200,6.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 26.3000,16.3000
 34.7800,16.3000
 34.7800,19.7000
 26.3000,19.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 75.8500,14.6500
 79.5500,14.6500
 79.5500,17.3500
 75.8500,17.3500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 55.0200,35.7700
 57.9800,35.7700
 57.9800,37.2300
 55.0200,37.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 4.0000,46.0250
 8.0000,46.0250
 8.0000,47.9750
 4.0000,47.9750
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.0200,59.2700
 33.9800,59.2700
 33.9800,60.7300
 31.0200,60.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 8.7700,12.1200
 10.2300,12.1200
 10.2300,15.0800
 8.7700,15.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 0.2000,49.0000
 8.5000,49.0000
 8.5000,57.5000
 0.2000,57.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 37.9700,18.8200
 39.4300,18.8200
 39.4300,21.7800
 37.9700,21.7800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 80.4500,38.4000
 82.7500,38.4000
 82.7500,43.0000
 80.4500,43.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 79.2200,10.3000
 81.1800,10.3000
 81.1800,13.7000
 79.2200,13.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 76.8500,84.7000
 79.1500,84.7000
 79.1500,89.3000
 76.8500,89.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.3000,23.3000
 55.4000,23.3000
 55.4000,26.7000
 39.3000,26.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.0200,79.6700
 63.9800,79.6700
 63.9800,81.1300
 61.0200,81.1300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 12.1800,-0.8800
 22.8200,-0.8800
 22.8200,8.0600
 12.1800,8.0600
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 58.0200,75.0700
 60.9800,75.0700
 60.9800,76.5300
 58.0200,76.5300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 86.3700,51.0200
 87.8300,51.0200
 87.8300,53.9800
 86.3700,53.9800
-Z" /> 
+Z" />
 <path d="M64.8500 22.1000
 L66.2500 22.1000
 " />
@@ -35220,14 +35220,14 @@ L72.5500 26.9000
 <path d="M72.5500 26.9000
 L71.1500 26.9000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 56.8500,62.8000
 59.1500,62.8000
 59.1500,67.4000
 56.8500,67.4000
-Z" /> 
+Z" />
 <path d="M23.2500 51.5400
 L24.8000 51.5400
 " />
@@ -35264,54 +35264,54 @@ L30.7500 56.4600
 <path d="M30.7500 56.4600
 L29.2000 56.4600
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.1700,83.7200
 51.6300,83.7200
 51.6300,86.6800
 50.1700,86.6800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 71.7700,51.6200
 73.2300,51.6200
 73.2300,54.5800
 71.7700,54.5800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 29.5500,65.6200
 31.4500,65.6200
 31.4500,68.9800
 29.5500,68.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 70.0000,79.1000
 73.0000,79.1000
 73.0000,81.8000
 70.0000,81.8000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 39.3000,28.3000
 55.4000,28.3000
 55.4000,31.7000
 39.3000,31.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.4700,20.0200
 60.9300,20.0200
 60.9300,22.9800
 59.4700,22.9800
-Z" /> 
+Z" />
 <path d="M45.5000 91.0000
 L45.7500 91.0000
 " />
@@ -35348,78 +35348,78 @@ L55.0000 98.2500
 <path d="M55.0000 98.5000
 L55.0000 98.2500
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 51.3200,35.7700
 54.2800,35.7700
 54.2800,37.2300
 51.3200,37.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.4700,4.7200
 60.9300,4.7200
 60.9300,7.6800
 59.4700,7.6800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.0200,35.2700
 29.9800,35.2700
 29.9800,36.7300
 27.0200,36.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 58.1200,23.6200
 61.0800,23.6200
 61.0800,25.0800
 58.1200,25.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 7.0200,35.2700
 9.9800,35.2700
 9.9800,36.7300
 7.0200,36.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 14.0200,26.3000
 15.9800,26.3000
 15.9800,29.7000
 14.0200,29.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.8500,84.7000
 76.1500,84.7000
 76.1500,89.3000
 73.8500,89.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 51.3200,37.7700
 54.2800,37.7700
 54.2800,39.2300
 51.3200,39.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.3200,28.7700
 30.2800,28.7700
 30.2800,30.2300
 27.3200,30.2300
-Z" /> 
+Z" />
 <path d="M45.9500 65.5000
 L46.9500 65.5000
 " />
@@ -35456,14 +35456,14 @@ L50.0500 68.5000
 <path d="M50.0500 68.5000
 L49.0500 68.5000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.1500,8.4500
 18.8500,8.4500
 18.8500,12.1500
 16.1500,12.1500
-Z" /> 
+Z" />
 <path d="M81.1500 73.4500
 L85.8500 73.4500
 " />
@@ -35476,86 +35476,86 @@ L81.1500 75.7500
 <path d="M85.8500 75.7500
 L85.8500 73.4500
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 10.6500,8.4500
 13.3500,8.4500
 13.3500,12.1500
 10.6500,12.1500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.1700,80.4200
 51.6300,80.4200
 51.6300,83.3800
 50.1700,83.3800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 86.3700,54.5200
 87.8300,54.5200
 87.8300,57.4800
 86.3700,57.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 75.4000,37.6250
 79.4000,37.6250
 79.4000,39.5750
 75.4000,39.5750
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 14.0700,64.7200
 15.5300,64.7200
 15.5300,67.6800
 14.0700,67.6800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 66.2500,83.7500
 72.7500,83.7500
 72.7500,87.2500
 66.2500,87.2500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 6.8700,81.0200
 8.3300,81.0200
 8.3300,83.9800
 6.8700,83.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 27.0200,25.7700
 29.9800,25.7700
 29.9800,27.2300
 27.0200,27.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 51.3200,43.7700
 54.2800,43.7700
 54.2800,45.2300
 51.3200,45.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 37.8500,79.3000
 40.1500,79.3000
 40.1500,83.9000
 37.8500,83.9000
-Z" /> 
+Z" />
 <path d="M52.1500 77.6200
 L53.5500 77.6200
 " />
@@ -35592,102 +35592,102 @@ L59.8500 84.3800
 <path d="M59.8500 84.3800
 L58.4500 84.3800
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.2700,34.3200
 12.7300,34.3200
 12.7300,37.2800
 11.2700,37.2800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 9.0200,47.2700
 11.9800,47.2700
 11.9800,48.7300
 9.0200,48.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 25.5200,48.5700
 28.4800,48.5700
 28.4800,50.0300
 25.5200,50.0300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 58.5200,86.9700
 61.4800,86.9700
 61.4800,88.4300
 58.5200,88.4300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.1700,77.1200
 51.6300,77.1200
 51.6300,80.0800
 50.1700,80.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 72.9200,34.2700
 75.8800,34.2700
 75.8800,35.7300
 72.9200,35.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.3200,46.2700
 19.2800,46.2700
 19.2800,47.7300
 16.3200,47.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 25.3000,85.5000
 31.2400,85.5000
 31.2400,88.9000
 25.3000,88.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 13.5200,68.7700
 16.4800,68.7700
 16.4800,70.2300
 13.5200,70.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 38.5200,37.2700
 41.4800,37.2700
 41.4800,38.7300
 38.5200,38.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 89.7700,47.8200
 91.2300,47.8200
 91.2300,50.7800
 89.7700,50.7800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.0200,15.0200
 74.4800,15.0200
 74.4800,17.9800
 73.0200,17.9800
-Z" /> 
+Z" />
 <path d="M8.9500 82.0000
 L9.9500 82.0000
 " />
@@ -35724,30 +35724,30 @@ L13.0500 85.0000
 <path d="M13.0500 85.0000
 L12.0500 85.0000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 64.8000,54.5000
 70.7400,54.5000
 70.7400,57.9000
 64.8000,57.9000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.3200,49.2700
 19.2800,49.2700
 19.2800,50.7300
 16.3200,50.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 63.5200,88.4700
 66.4800,88.4700
 66.4800,89.9300
 63.5200,89.9300
-Z" /> 
+Z" />
 <path d="M11.9500 77.5000
 L12.9500 77.5000
 " />
@@ -35796,14 +35796,14 @@ L16.0500 80.5000
 <path d="M16.0500 80.5000
 L15.0500 80.5000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.8700,74.3200
 18.3300,74.3200
 18.3300,77.2800
 16.8700,77.2800
-Z" /> 
+Z" />
 <path d="M53.9500 85.0000
 L54.9500 85.0000
 " />
@@ -35888,70 +35888,70 @@ L33.0000 98.2500
 <path d="M33.0000 98.5000
 L33.0000 98.2500
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 85.8500,84.7000
 88.1500,84.7000
 88.1500,89.3000
 85.8500,89.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 64.8000,79.6200
 68.2000,79.6200
 68.2000,81.5800
 64.8000,81.5800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 25.3000,44.3000
 31.2400,44.3000
 31.2400,47.7000
 25.3000,47.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 36.6200,2.0200
 39.5800,2.0200
 39.5800,3.4800
 36.6200,3.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 13.2700,34.3200
 14.7300,34.3200
 14.7300,37.2800
 13.2700,37.2800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 38.5200,41.2700
 41.4800,41.2700
 41.4800,42.7300
 38.5200,42.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.0200,77.7700
 63.9800,77.7700
 63.9800,79.2300
 61.0200,79.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 73.0200,11.0200
 74.4800,11.0200
 74.4800,13.9800
 73.0200,13.9800
-Z" /> 
+Z" />
 <path d="M34.5000 91.0000
 L34.7500 91.0000
 " />
@@ -35988,54 +35988,54 @@ L44.0000 98.2500
 <path d="M44.0000 98.5000
 L44.0000 98.2500
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.0200,81.5700
 63.9800,81.5700
 63.9800,83.0300
 61.0200,83.0300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 42.5200,87.7700
 45.4800,87.7700
 45.4800,89.2300
 42.5200,89.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 64.9200,16.5700
 67.8800,16.5700
 67.8800,18.0300
 64.9200,18.0300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 83.0200,85.9000
 84.9800,85.9000
 84.9800,89.3000
 83.0200,89.3000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.3000,1.9800
 64.7000,1.9800
 64.7000,25.7000
 61.3000,25.7000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 61.2700,26.5200
 62.7300,26.5200
 62.7300,29.4800
 61.2700,29.4800
-Z" /> 
+Z" />
 <path d="M72.3500 74.1500
 L74.6500 74.1500
 " />
@@ -36048,14 +36048,14 @@ L74.6500 78.8500
 <path d="M74.6500 74.1500
 L74.6500 78.8500
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.7200,27.6700
 19.6800,27.6700
 19.6800,29.1300
 16.7200,29.1300
-Z" /> 
+Z" />
 <path d="M17.1500 68.6000
 L18.5500 68.6000
 " />
@@ -36092,70 +36092,70 @@ L24.8500 73.4000
 <path d="M24.8500 73.4000
 L23.4500 73.4000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.4700,12.9200
 60.9300,12.9200
 60.9300,15.8800
 59.4700,15.8800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 67.8700,38.0200
 69.3300,38.0200
 69.3300,40.9800
 67.8700,40.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 10.5200,42.2700
 13.4800,42.2700
 13.4800,43.7300
 10.5200,43.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.3500,31.0000
 33.6500,31.0000
 33.6500,35.6000
 31.3500,35.6000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 32.8000,2.0200
 36.2000,2.0200
 36.2000,3.9800
 32.8000,3.9800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.0200,57.2700
 33.9800,57.2700
 33.9800,58.7300
 31.0200,58.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 64.2700,85.2200
 65.7300,85.2200
 65.7300,88.1800
 64.2700,88.1800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 25.5200,57.9700
 28.4800,57.9700
 28.4800,59.4300
 25.5200,59.4300
-Z" /> 
+Z" />
 <path d="M43.1500 35.9700
 L44.5500 35.9700
 " />
@@ -36192,70 +36192,70 @@ L50.8500 44.0300
 <path d="M50.8500 44.0300
 L49.4500 44.0300
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 15.2000,30.8500
 19.8000,30.8500
 19.8000,33.1500
 15.2000,33.1500
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 66.6200,81.9200
 69.5800,81.9200
 69.5800,83.3800
 66.6200,83.3800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.2700,80.6200
 21.7300,80.6200
 21.7300,83.5800
 20.2700,83.5800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 50.6700,67.1200
 52.1300,67.1200
 52.1300,70.0800
 50.6700,70.0800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 31.0200,55.2700
 33.9800,55.2700
 33.9800,56.7300
 31.0200,56.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 34.5200,88.2700
 37.4800,88.2700
 37.4800,89.7300
 34.5200,89.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 59.4700,16.5200
 60.9300,16.5200
 60.9300,19.4800
 59.4700,19.4800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 11.7700,26.5200
 13.2300,26.5200
 13.2300,29.4800
 11.7700,29.4800
-Z" /> 
+Z" />
 <path d="M81.1800 14.1200
 L98.8800 14.1200
 " />
@@ -36268,54 +36268,54 @@ L98.8800 29.8200
 <path d="M98.8800 29.8200
 L81.1800 29.8200
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 69.7200,19.8200
 72.6800,19.8200
 72.6800,21.2800
 69.7200,21.2800
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 35.5200,8.2700
 38.4800,8.2700
 38.4800,9.7300
 35.5200,9.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 16.8700,77.7700
 18.3300,77.7700
 18.3300,80.7300
 16.8700,80.7300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 81.2200,51.7700
 84.1800,51.7700
 84.1800,53.2300
 81.2200,53.2300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 20.0200,49.9700
 22.9800,49.9700
 22.9800,51.4300
 20.0200,51.4300
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 35.8200,17.2700
 38.7800,17.2700
 38.7800,18.7300
 35.8200,18.7300
-Z" /> 
+Z" />
 <path d="M0.0000 0.0000
 L99.0000 0.0000
 " />
@@ -36328,154 +36328,154 @@ L99.0000 99.0000
 <path d="M99.0000 99.0000
 L0.0000 99.0000
 " />
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M -12.0000,36.5000
 0.7000,36.5000
 0.7000,46.0000
 -12.0000,46.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M -12.0000,48.5000
 0.7000,48.5000
 0.7000,58.0000
 -12.0000,58.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 0.2000,37.0000
 8.5000,37.0000
 8.5000,45.5000
 0.2000,45.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 0.2000,49.0000
 8.5000,49.0000
 8.5000,57.5000
 0.2000,57.5000
-Z" /> 
-<circle cx="5.0000" cy="5.0000" r="3.5000" /> 
-<circle cx="5.0000" cy="94.0000" r="3.5000" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<circle cx="5.0000" cy="5.0000" r="3.5000" />
+<circle cx="5.0000" cy="94.0000" r="3.5000" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 10.5000,-16.0000
 24.5000,-16.0000
 24.5000,-0.3750
 10.5000,-0.3750
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0250; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0250; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
-<circle cx="12.6000" cy="31.6000" r="0.1500" /> 
-<circle cx="12.6000" cy="31.6000" r="0.3000" /> 
-<circle cx="12.6000" cy="32.4000" r="0.1500" /> 
-<circle cx="12.6000" cy="32.4000" r="0.3000" /> 
-<circle cx="13.4000" cy="31.6000" r="0.1500" /> 
-<circle cx="13.4000" cy="31.6000" r="0.3000" /> 
-<circle cx="13.4000" cy="32.4000" r="0.1500" /> 
-<circle cx="13.4000" cy="32.4000" r="0.3000" /> 
-<circle cx="14.0000" cy="46.7000" r="0.1500" /> 
-<circle cx="14.0000" cy="46.7000" r="0.3000" /> 
-<circle cx="14.0000" cy="49.3000" r="0.1500" /> 
-<circle cx="14.0000" cy="49.3000" r="0.3000" /> 
+<circle cx="12.6000" cy="31.6000" r="0.1500" />
+<circle cx="12.6000" cy="31.6000" r="0.3000" />
+<circle cx="12.6000" cy="32.4000" r="0.1500" />
+<circle cx="12.6000" cy="32.4000" r="0.3000" />
+<circle cx="13.4000" cy="31.6000" r="0.1500" />
+<circle cx="13.4000" cy="31.6000" r="0.3000" />
+<circle cx="13.4000" cy="32.4000" r="0.1500" />
+<circle cx="13.4000" cy="32.4000" r="0.3000" />
+<circle cx="14.0000" cy="46.7000" r="0.1500" />
+<circle cx="14.0000" cy="46.7000" r="0.3000" />
+<circle cx="14.0000" cy="49.3000" r="0.1500" />
+<circle cx="14.0000" cy="49.3000" r="0.3000" />
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
-<circle cx="17.2500" cy="94.7500" r="5.0000" /> 
-<circle cx="28.2500" cy="94.7500" r="5.0000" /> 
+<circle cx="17.2500" cy="94.7500" r="5.0000" />
+<circle cx="28.2500" cy="94.7500" r="5.0000" />
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0250; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0250; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
-<circle cx="31.7000" cy="71.2500" r="0.1500" /> 
-<circle cx="31.7000" cy="71.2500" r="0.3000" /> 
-<circle cx="32.9500" cy="68.6000" r="0.1500" /> 
-<circle cx="32.9500" cy="68.6000" r="0.3000" /> 
-<circle cx="33.7000" cy="29.0000" r="0.1500" /> 
-<circle cx="33.7000" cy="29.0000" r="0.3000" /> 
-<circle cx="33.7500" cy="68.7000" r="0.1500" /> 
-<circle cx="33.7500" cy="68.7000" r="0.3000" /> 
-<circle cx="34.2500" cy="73.3000" r="0.1500" /> 
-<circle cx="34.2500" cy="73.3000" r="0.3000" /> 
-<circle cx="34.5000" cy="29.0000" r="0.1500" /> 
-<circle cx="34.5000" cy="29.0000" r="0.3000" /> 
+<circle cx="31.7000" cy="71.2500" r="0.1500" />
+<circle cx="31.7000" cy="71.2500" r="0.3000" />
+<circle cx="32.9500" cy="68.6000" r="0.1500" />
+<circle cx="32.9500" cy="68.6000" r="0.3000" />
+<circle cx="33.7000" cy="29.0000" r="0.1500" />
+<circle cx="33.7000" cy="29.0000" r="0.3000" />
+<circle cx="33.7500" cy="68.7000" r="0.1500" />
+<circle cx="33.7500" cy="68.7000" r="0.3000" />
+<circle cx="34.2500" cy="73.3000" r="0.1500" />
+<circle cx="34.2500" cy="73.3000" r="0.3000" />
+<circle cx="34.5000" cy="29.0000" r="0.1500" />
+<circle cx="34.5000" cy="29.0000" r="0.3000" />
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
-<circle cx="39.2500" cy="94.7500" r="5.0000" /> 
-<circle cx="50.2500" cy="94.7500" r="5.0000" /> 
-<circle cx="61.2500" cy="94.7500" r="5.0000" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+<circle cx="39.2500" cy="94.7500" r="5.0000" />
+<circle cx="50.2500" cy="94.7500" r="5.0000" />
+<circle cx="61.2500" cy="94.7500" r="5.0000" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 71.5000,92.0000
 89.5000,92.0000
 89.5000,99.0000
 71.5000,99.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 71.5000,96.0800
 89.5000,96.0800
 89.5000,111.0000
 71.5000,111.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 90.4000,60.5000
 98.8000,60.5000
 98.8000,69.0000
 90.4000,69.0000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 93.4000,46.5000
 99.4000,46.5000
 99.4000,53.5000
 93.4000,53.5000
-Z" /> 
-<circle cx="94.0000" cy="5.0000" r="3.5000" /> 
-<circle cx="94.0000" cy="94.0000" r="3.5000" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<circle cx="94.0000" cy="5.0000" r="3.5000" />
+<circle cx="94.0000" cy="94.0000" r="3.5000" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 97.6500,46.5000
 111.0000,46.5000
 111.0000,53.5000
 97.6500,53.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 98.1250,15.5000
 116.0000,15.5000
 116.0000,29.5000
 98.1250,29.5000
-Z" /> 
-<path style="fill:none; 
-stroke:#000000; stroke-width:0.0500; stroke-opacity:1; 
+Z" />
+<path style="fill:none;
+stroke:#000000; stroke-width:0.0500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;fill:none"
 d="M 98.3000,60.0000
 111.0000,60.0000
 111.0000,70.0000
 98.3000,70.0000
-Z" /> 
+Z" />
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1500; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1500; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="49.5000" y="114.5000"
 textLength="45.8691" font-size="1.3333" lengthAdjust="spacingAndGlyphs"
@@ -39316,8 +39316,8 @@ L73.7000 -25.2935
 L73.8333 -25.2268
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.0800; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.0800; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <text x="7.0000" y="70.8750"
 textLength="18.9429" font-size="0.6000" lengthAdjust="spacingAndGlyphs"
@@ -40371,8 +40371,8 @@ L16.2893 70.8540
 L16.2893 70.4040
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <g transform="rotate(-180.000000 17.5000 0.2000)">
 <text x="17.5000" y="0.4500"
@@ -40645,8 +40645,8 @@ L15.7619 0.1882
 L16.0000 0.1406
 " />
 </g></g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1200; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1200; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M40.3000 -6.1500
 L40.3000 0.0500
@@ -40658,94 +40658,94 @@ L58.7000 -6.1500
 L58.7000 0.0500
 " />
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.1000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.1000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M12.5000 -0.3750
 L22.5000 -0.3750
 " />
 </g>
 <g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
-<circle cx="22.0000" cy="37.8000" r="0.5500" /> 
-<circle cx="24.5400" cy="37.8000" r="0.5500" /> 
-<circle cx="46.6000" cy="8.5100" r="0.1500" /> 
-<circle cx="46.6000" cy="9.9100" r="0.1500" /> 
-<circle cx="47.3000" cy="7.8100" r="0.1500" /> 
-<circle cx="47.3000" cy="9.2100" r="0.1500" /> 
-<circle cx="47.3000" cy="10.6100" r="0.1500" /> 
-<circle cx="48.0000" cy="8.5100" r="0.1500" /> 
-<circle cx="48.0000" cy="9.9100" r="0.1500" /> 
-<circle cx="48.7000" cy="7.8100" r="0.1500" /> 
-<circle cx="48.7000" cy="9.2100" r="0.1500" /> 
-<circle cx="48.7000" cy="10.6100" r="0.1500" /> 
-<circle cx="49.4000" cy="8.5100" r="0.1500" /> 
-<circle cx="49.4000" cy="9.9100" r="0.1500" /> 
-<circle cx="41.0000" cy="55.0000" r="0.5500" /> 
-<circle cx="43.5400" cy="55.0000" r="0.5500" /> 
-<circle cx="46.0800" cy="55.0000" r="0.5500" /> 
-<circle cx="48.6200" cy="55.0000" r="0.5500" /> 
-<circle cx="51.1600" cy="55.0000" r="0.5500" /> 
-<circle cx="53.7000" cy="55.0000" r="0.5500" /> 
-<circle cx="56.2400" cy="55.0000" r="0.5500" /> 
-<circle cx="58.7800" cy="55.0000" r="0.5500" /> 
-<circle cx="34.0000" cy="42.0000" r="0.5500" /> 
-<circle cx="36.5400" cy="42.0000" r="0.5500" /> 
-<circle cx="7.0000" cy="68.0000" r="0.3000" /> 
-<circle cx="94.0000" cy="94.0000" r="1.6000" /> 
-<circle cx="4.4000" cy="43.0000" r="0.5500" /> 
-<circle cx="4.4000" cy="39.5000" r="0.5500" /> 
-<circle cx="5.0000" cy="5.0000" r="1.6000" /> 
-<circle cx="71.5000" cy="45.7000" r="0.5500" /> 
-<circle cx="74.0400" cy="45.7000" r="0.5500" /> 
-<circle cx="45.0000" cy="72.0000" r="0.5500" /> 
-<circle cx="47.5400" cy="72.0000" r="0.5500" /> 
-<circle cx="39.0000" cy="50.0000" r="0.5500" /> 
-<circle cx="41.5400" cy="50.0000" r="0.5500" /> 
-<circle cx="44.0800" cy="50.0000" r="0.5500" /> 
-<circle cx="46.6200" cy="50.0000" r="0.5500" /> 
-<circle cx="49.1600" cy="50.0000" r="0.5500" /> 
-<circle cx="51.7000" cy="50.0000" r="0.5500" /> 
-<circle cx="54.2400" cy="50.0000" r="0.5500" /> 
-<circle cx="56.7800" cy="50.0000" r="0.5500" /> 
-<circle cx="14.0000" cy="92.5000" r="0.5500" /> 
-<circle cx="20.5000" cy="92.5000" r="0.5500" /> 
-<circle cx="14.0000" cy="97.0000" r="0.5500" /> 
-<circle cx="20.5000" cy="97.0000" r="0.5500" /> 
-<circle cx="58.0000" cy="92.5000" r="0.5500" /> 
-<circle cx="64.5000" cy="92.5000" r="0.5500" /> 
-<circle cx="58.0000" cy="97.0000" r="0.5500" /> 
-<circle cx="64.5000" cy="97.0000" r="0.5500" /> 
-<circle cx="94.0000" cy="5.0000" r="1.6000" /> 
-<circle cx="33.0000" cy="46.0000" r="0.5500" /> 
-<circle cx="35.5400" cy="46.0000" r="0.5500" /> 
-<circle cx="94.6000" cy="63.0000" r="0.5500" /> 
-<circle cx="94.6000" cy="66.5000" r="0.5500" /> 
-<circle cx="10.5000" cy="88.5000" r="0.5500" /> 
-<circle cx="13.0400" cy="88.5000" r="0.5500" /> 
-<circle cx="5.0000" cy="94.0000" r="1.6000" /> 
-<circle cx="8.0000" cy="23.0000" r="0.5500" /> 
-<circle cx="10.5400" cy="23.0000" r="0.5500" /> 
-<circle cx="29.0000" cy="9.0000" r="0.5500" /> 
-<circle cx="29.0000" cy="11.5400" r="0.5500" /> 
-<circle cx="29.0000" cy="14.0800" r="0.5500" /> 
-<circle cx="3.0000" cy="11.0000" r="0.5500" /> 
-<circle cx="3.0000" cy="13.5400" r="0.5500" /> 
-<circle cx="28.0000" cy="18.0000" r="0.5500" /> 
-<circle cx="30.5400" cy="18.0000" r="0.5500" /> 
-<circle cx="33.0800" cy="18.0000" r="0.5500" /> 
-<circle cx="4.4000" cy="55.0000" r="0.5500" /> 
-<circle cx="4.4000" cy="51.5000" r="0.5500" /> 
-<circle cx="41.0000" cy="25.0000" r="0.5500" /> 
-<circle cx="43.5400" cy="25.0000" r="0.5500" /> 
-<circle cx="46.0800" cy="25.0000" r="0.5500" /> 
-<circle cx="48.6200" cy="25.0000" r="0.5500" /> 
-<circle cx="51.1600" cy="25.0000" r="0.5500" /> 
-<circle cx="53.7000" cy="25.0000" r="0.5500" /> 
-<circle cx="20.3900" cy="5.9050" r="0.3250" /> 
-<circle cx="14.6100" cy="5.9050" r="0.3250" /> 
+<circle cx="22.0000" cy="37.8000" r="0.5500" />
+<circle cx="24.5400" cy="37.8000" r="0.5500" />
+<circle cx="46.6000" cy="8.5100" r="0.1500" />
+<circle cx="46.6000" cy="9.9100" r="0.1500" />
+<circle cx="47.3000" cy="7.8100" r="0.1500" />
+<circle cx="47.3000" cy="9.2100" r="0.1500" />
+<circle cx="47.3000" cy="10.6100" r="0.1500" />
+<circle cx="48.0000" cy="8.5100" r="0.1500" />
+<circle cx="48.0000" cy="9.9100" r="0.1500" />
+<circle cx="48.7000" cy="7.8100" r="0.1500" />
+<circle cx="48.7000" cy="9.2100" r="0.1500" />
+<circle cx="48.7000" cy="10.6100" r="0.1500" />
+<circle cx="49.4000" cy="8.5100" r="0.1500" />
+<circle cx="49.4000" cy="9.9100" r="0.1500" />
+<circle cx="41.0000" cy="55.0000" r="0.5500" />
+<circle cx="43.5400" cy="55.0000" r="0.5500" />
+<circle cx="46.0800" cy="55.0000" r="0.5500" />
+<circle cx="48.6200" cy="55.0000" r="0.5500" />
+<circle cx="51.1600" cy="55.0000" r="0.5500" />
+<circle cx="53.7000" cy="55.0000" r="0.5500" />
+<circle cx="56.2400" cy="55.0000" r="0.5500" />
+<circle cx="58.7800" cy="55.0000" r="0.5500" />
+<circle cx="34.0000" cy="42.0000" r="0.5500" />
+<circle cx="36.5400" cy="42.0000" r="0.5500" />
+<circle cx="7.0000" cy="68.0000" r="0.3000" />
+<circle cx="94.0000" cy="94.0000" r="1.6000" />
+<circle cx="4.4000" cy="43.0000" r="0.5500" />
+<circle cx="4.4000" cy="39.5000" r="0.5500" />
+<circle cx="5.0000" cy="5.0000" r="1.6000" />
+<circle cx="71.5000" cy="45.7000" r="0.5500" />
+<circle cx="74.0400" cy="45.7000" r="0.5500" />
+<circle cx="45.0000" cy="72.0000" r="0.5500" />
+<circle cx="47.5400" cy="72.0000" r="0.5500" />
+<circle cx="39.0000" cy="50.0000" r="0.5500" />
+<circle cx="41.5400" cy="50.0000" r="0.5500" />
+<circle cx="44.0800" cy="50.0000" r="0.5500" />
+<circle cx="46.6200" cy="50.0000" r="0.5500" />
+<circle cx="49.1600" cy="50.0000" r="0.5500" />
+<circle cx="51.7000" cy="50.0000" r="0.5500" />
+<circle cx="54.2400" cy="50.0000" r="0.5500" />
+<circle cx="56.7800" cy="50.0000" r="0.5500" />
+<circle cx="14.0000" cy="92.5000" r="0.5500" />
+<circle cx="20.5000" cy="92.5000" r="0.5500" />
+<circle cx="14.0000" cy="97.0000" r="0.5500" />
+<circle cx="20.5000" cy="97.0000" r="0.5500" />
+<circle cx="58.0000" cy="92.5000" r="0.5500" />
+<circle cx="64.5000" cy="92.5000" r="0.5500" />
+<circle cx="58.0000" cy="97.0000" r="0.5500" />
+<circle cx="64.5000" cy="97.0000" r="0.5500" />
+<circle cx="94.0000" cy="5.0000" r="1.6000" />
+<circle cx="33.0000" cy="46.0000" r="0.5500" />
+<circle cx="35.5400" cy="46.0000" r="0.5500" />
+<circle cx="94.6000" cy="63.0000" r="0.5500" />
+<circle cx="94.6000" cy="66.5000" r="0.5500" />
+<circle cx="10.5000" cy="88.5000" r="0.5500" />
+<circle cx="13.0400" cy="88.5000" r="0.5500" />
+<circle cx="5.0000" cy="94.0000" r="1.6000" />
+<circle cx="8.0000" cy="23.0000" r="0.5500" />
+<circle cx="10.5400" cy="23.0000" r="0.5500" />
+<circle cx="29.0000" cy="9.0000" r="0.5500" />
+<circle cx="29.0000" cy="11.5400" r="0.5500" />
+<circle cx="29.0000" cy="14.0800" r="0.5500" />
+<circle cx="3.0000" cy="11.0000" r="0.5500" />
+<circle cx="3.0000" cy="13.5400" r="0.5500" />
+<circle cx="28.0000" cy="18.0000" r="0.5500" />
+<circle cx="30.5400" cy="18.0000" r="0.5500" />
+<circle cx="33.0800" cy="18.0000" r="0.5500" />
+<circle cx="4.4000" cy="55.0000" r="0.5500" />
+<circle cx="4.4000" cy="51.5000" r="0.5500" />
+<circle cx="41.0000" cy="25.0000" r="0.5500" />
+<circle cx="43.5400" cy="25.0000" r="0.5500" />
+<circle cx="46.0800" cy="25.0000" r="0.5500" />
+<circle cx="48.6200" cy="25.0000" r="0.5500" />
+<circle cx="51.1600" cy="25.0000" r="0.5500" />
+<circle cx="53.7000" cy="25.0000" r="0.5500" />
+<circle cx="20.3900" cy="5.9050" r="0.3250" />
+<circle cx="14.6100" cy="5.9050" r="0.3250" />
 </g>
-<g style="fill:none; 
-stroke:#000000; stroke-width:0.6000; stroke-opacity:1; 
+<g style="fill:none;
+stroke:#000000; stroke-width:0.6000; stroke-opacity:1;
 stroke-linecap:round; stroke-linejoin:round;">
 <path d="M21.8200 6.9550
 L21.8200 5.8550
@@ -40761,38 +40761,38 @@ L13.1800 1.8250
 " />
 </g>
 <g style="fill:#000000; fill-opacity:1.0000; stroke:none;">
-<circle cx="41.0000" cy="30.0000" r="0.5500" /> 
-<circle cx="43.5400" cy="30.0000" r="0.5500" /> 
-<circle cx="46.0800" cy="30.0000" r="0.5500" /> 
-<circle cx="48.6200" cy="30.0000" r="0.5500" /> 
-<circle cx="51.1600" cy="30.0000" r="0.5500" /> 
-<circle cx="53.7000" cy="30.0000" r="0.5500" /> 
-<circle cx="47.0000" cy="92.5000" r="0.5500" /> 
-<circle cx="53.5000" cy="92.5000" r="0.5500" /> 
-<circle cx="47.0000" cy="97.0000" r="0.5500" /> 
-<circle cx="53.5000" cy="97.0000" r="0.5500" /> 
-<circle cx="27.0000" cy="87.2000" r="0.5500" /> 
-<circle cx="29.5400" cy="87.2000" r="0.5500" /> 
-<circle cx="66.5000" cy="56.2000" r="0.5500" /> 
-<circle cx="69.0400" cy="56.2000" r="0.5500" /> 
-<circle cx="25.0000" cy="92.5000" r="0.5500" /> 
-<circle cx="31.5000" cy="92.5000" r="0.5500" /> 
-<circle cx="25.0000" cy="97.0000" r="0.5500" /> 
-<circle cx="31.5000" cy="97.0000" r="0.5500" /> 
-<circle cx="27.0000" cy="46.0000" r="0.5500" /> 
-<circle cx="29.5400" cy="46.0000" r="0.5500" /> 
-<circle cx="36.0000" cy="92.5000" r="0.5500" /> 
-<circle cx="42.5000" cy="92.5000" r="0.5500" /> 
-<circle cx="36.0000" cy="97.0000" r="0.5500" /> 
-<circle cx="42.5000" cy="97.0000" r="0.5500" /> 
-<circle cx="63.0000" cy="24.0000" r="0.5500" /> 
-<circle cx="63.0000" cy="21.4600" r="0.5500" /> 
-<circle cx="63.0000" cy="18.9200" r="0.5500" /> 
-<circle cx="63.0000" cy="16.3800" r="0.5500" /> 
-<circle cx="63.0000" cy="13.8400" r="0.5500" /> 
-<circle cx="63.0000" cy="11.3000" r="0.5500" /> 
-<circle cx="63.0000" cy="8.7600" r="0.5500" /> 
-<circle cx="63.0000" cy="6.2200" r="0.5500" /> 
-<circle cx="63.0000" cy="3.6800" r="0.5500" /> 
-</g> 
+<circle cx="41.0000" cy="30.0000" r="0.5500" />
+<circle cx="43.5400" cy="30.0000" r="0.5500" />
+<circle cx="46.0800" cy="30.0000" r="0.5500" />
+<circle cx="48.6200" cy="30.0000" r="0.5500" />
+<circle cx="51.1600" cy="30.0000" r="0.5500" />
+<circle cx="53.7000" cy="30.0000" r="0.5500" />
+<circle cx="47.0000" cy="92.5000" r="0.5500" />
+<circle cx="53.5000" cy="92.5000" r="0.5500" />
+<circle cx="47.0000" cy="97.0000" r="0.5500" />
+<circle cx="53.5000" cy="97.0000" r="0.5500" />
+<circle cx="27.0000" cy="87.2000" r="0.5500" />
+<circle cx="29.5400" cy="87.2000" r="0.5500" />
+<circle cx="66.5000" cy="56.2000" r="0.5500" />
+<circle cx="69.0400" cy="56.2000" r="0.5500" />
+<circle cx="25.0000" cy="92.5000" r="0.5500" />
+<circle cx="31.5000" cy="92.5000" r="0.5500" />
+<circle cx="25.0000" cy="97.0000" r="0.5500" />
+<circle cx="31.5000" cy="97.0000" r="0.5500" />
+<circle cx="27.0000" cy="46.0000" r="0.5500" />
+<circle cx="29.5400" cy="46.0000" r="0.5500" />
+<circle cx="36.0000" cy="92.5000" r="0.5500" />
+<circle cx="42.5000" cy="92.5000" r="0.5500" />
+<circle cx="36.0000" cy="97.0000" r="0.5500" />
+<circle cx="42.5000" cy="97.0000" r="0.5500" />
+<circle cx="63.0000" cy="24.0000" r="0.5500" />
+<circle cx="63.0000" cy="21.4600" r="0.5500" />
+<circle cx="63.0000" cy="18.9200" r="0.5500" />
+<circle cx="63.0000" cy="16.3800" r="0.5500" />
+<circle cx="63.0000" cy="13.8400" r="0.5500" />
+<circle cx="63.0000" cy="11.3000" r="0.5500" />
+<circle cx="63.0000" cy="8.7600" r="0.5500" />
+<circle cx="63.0000" cy="6.2200" r="0.5500" />
+<circle cx="63.0000" cy="3.6800" r="0.5500" />
+</g>
 </svg>
