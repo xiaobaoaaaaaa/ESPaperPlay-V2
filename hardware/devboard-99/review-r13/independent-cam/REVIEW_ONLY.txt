@@ -1,0 +1,3 @@
+REVIEW ONLY — UNROUTED BOARD — NOT A MANUFACTURING RELEASE
+Six selected artwork layers from a four-copper-layer unrouted board, plus drill files, exported independently for U101 inspection.
+No routing, solder-wicking, reflow, thermal or factory-process qualification is implied.

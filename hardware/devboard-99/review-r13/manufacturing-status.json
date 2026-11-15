@@ -1,0 +1,55 @@
+{
+  "status": "CAD_VERIFIED_PROCESS_ACCEPTANCE_PENDING",
+  "manufacturing_release": false,
+  "revision": "r13",
+  "date": "2026-11-15",
+  "size_mm": [
+    99,
+    99
+  ],
+  "copper_layers": 4,
+  "physical_components": 240,
+  "logical_pins": 774,
+  "nets": 181,
+  "native_DRC_violations": 0,
+  "native_ERC_violations": 0,
+  "schematic_parity_violations": 0,
+  "unconnected_items": 499,
+  "independent_checks_passed": 39,
+  "actual_U101_thermal_PTH": 4,
+  "actual_U301_thermal_PTH": 12,
+  "remaining_documentation_only_thermal_locations": 8,
+  "historical_r10_files_unchanged": 468,
+  "supplier_and_assembly_conditions": [
+    {
+      "kind": "supplier_tolerance_envelope_not_certified",
+      "detail": "The analysis envelope is conditional; domestic published PAD/plug-in-hole tolerances are not a certified via-process envelope for this board. See review-r13/README.md."
+    },
+    {
+      "kind": "mask_registration_unspecified",
+      "detail": "Nominal mask bridges are measured; solder-mask registration capability for this order is unverified."
+    },
+    {
+      "kind": "annular_independent_worst_case_not_closed",
+      "detail": "Nominal annuli pass CAD/DRC, but independently combining conservative maximum hole size and position bounds does not establish a guaranteed remaining annulus."
+    },
+    {
+      "kind": "print_registration_not_measured",
+      "detail": "The local ±0.03 mm per-axis stencil registration acceptance bound is an assumption, not a measured printing result."
+    },
+    {
+      "kind": "wicking_and_thermal_unqualified",
+      "detail": "Paste avoidance does not qualify molten-solder wicking, reflow joints, or thermal performance of open PTHs."
+    }
+  ],
+  "scope": "U101 open thermal PTH and relieved F.Paste geometry. Given-envelope clearance verified; factory process capability, actual print, reflow and thermal performance not certified. Full PCB routing and copper planes are pending.",
+  "inputs": {
+    "hardware/devboard-99/ESPaperPlay_99.kicad_pcb": "20e66b62a73244bf95a6b00d41ae58cbaeaa75fc03ff2fb05c80d0b6228b49d8",
+    "hardware/devboard-99/ESPaperPlay_99.kicad_pro": "5d0bb4cbdf0debfde3b0bbaa46beb881384e01f041e8320a8b961a606fbfbe6e",
+    "hardware/devboard-99/ESPaperPlay.pretty/TI_RGT0016C_VQFN_3x3mm_P0.5mm_EP1.68mm.kicad_mod": "84d65147cd9bda4953a1cdbcbc9b08e91c8a527b83faac318ef22a9a22be04fd",
+    "hardware/devboard-99/review-r13/u101-process.json": "4ce96b214b6526a6971827e9b90070ed266f6f1c2d08a263d6a91f64c1ead9a7",
+    "hardware/devboard-99/review-r13/independent-validation.json": "cfb17d2d4e04bcc6ec1c34739f9af06c0116a879f04818a637d3ef2a2f83a1b7",
+    "hardware/devboard-99/review-r13/native-drc.json": "921dd3c1d8d7e5fceef921d96a70ea26f5ae5183902943a0526cdff09221a7d8",
+    "hardware/devboard-99/review-r13/native-erc.json": "64bd2e2f5fb8793b3b42c6c8840cfe851d8533f757a61ade90ff55e16cff1f9b"
+  }
+}

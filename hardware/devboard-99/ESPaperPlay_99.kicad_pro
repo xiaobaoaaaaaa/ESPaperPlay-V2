@@ -287,7 +287,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "r8-seed.kicad_pro",
+    "filename": "ESPaperPlay_99.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -622,8 +622,8 @@
     "legacy_lib_list": [],
     "top_level_sheets": [
       {
-        "filename": "ESPaperPlay_Devboard.kicad_sch",
-        "name": "ESPaperPlay_Devboard",
+        "filename": "ESPaperPlay_99.kicad_sch",
+        "name": "ESPaperPlay_99",
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ]
