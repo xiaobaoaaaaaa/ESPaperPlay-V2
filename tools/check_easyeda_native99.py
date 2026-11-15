@@ -11,11 +11,19 @@ import json
 from pathlib import Path
 
 
-def check(netlist_path, mapping_path, reference_path):
+def check(netlist_path, mapping_path, reference_path, aliases_path=None):
+    aliases = json.loads(aliases_path.read_text()) if aliases_path else {}
     actual = json.loads(netlist_path.read_text())
     mapping = json.loads(mapping_path.read_text())["by_reference"]
     references = {c["reference"]: c for c in json.loads(reference_path.read_text())["components"]}
     errors, by_ref = [], {}
+    reference_nets = {p["net"] for c in mapping.values() for p in c["pins"].values() if not p["no_connect"]}
+    projected = collections.defaultdict(list)
+    for net in reference_nets:
+        projected[aliases.get(net, net)].append(net)
+    for native, originals in projected.items():
+        if len(originals) > 1:
+            errors.append({"kind": "net_alias_collision", "native_net": native, "reference_nets": sorted(originals)})
     for uid, c in actual["components"].items():
         ref = c["props"].get("Designator")
         if ref in by_ref:
@@ -34,7 +42,7 @@ def check(netlist_path, mapping_path, reference_path):
             errors.append({"kind": "pin_set_difference", "reference": ref, "pin": n})
         for n, p in expected["pins"].items():
             expected_pin_count += 1
-            wanted = "" if p["no_connect"] else p["net"]
+            wanted = "" if p["no_connect"] else aliases.get(p["net"], p["net"])
             got = pins.get(n, {}).get("net", "MISSING_PIN")
             if wanted != got:
                 errors.append({"kind": "net_mismatch", "reference": ref, "pin": n, "expected": wanted, "actual": got})
@@ -65,7 +73,7 @@ def check(netlist_path, mapping_path, reference_path):
         "components": len(by_ref), "native_logical_pins": expected_pin_count,
         "connected_pins": connected_pin_count, "intentional_nc_pins": expected_pin_count - connected_pin_count,
         "named_nets": len(nets), "dnp": sorted(r for r, c in references.items() if c["dnp"]),
-        "inputs_sha256": {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in [netlist_path, mapping_path, reference_path]},
+        "inputs_sha256": {str(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in [netlist_path, mapping_path, reference_path] + ([aliases_path] if aliases_path else [])},
         "errors": errors,
     }
 
@@ -76,8 +84,9 @@ def main():
     parser.add_argument("mapping", type=Path)
     parser.add_argument("reference", type=Path)
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--aliases", type=Path, help="Audited one-to-one reference-to-native net name mapping")
     args = parser.parse_args()
-    report = check(args.netlist, args.mapping, args.reference)
+    report = check(args.netlist, args.mapping, args.reference, args.aliases)
     text = json.dumps(report, ensure_ascii=False, indent=2) + "\n"
     if args.output:
         args.output.write_text(text)

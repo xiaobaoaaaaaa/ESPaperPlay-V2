@@ -1,0 +1,73 @@
+{
+  "success": true,
+  "result": {
+    "id": "b45e42e7ff395dbc",
+    "style": {
+      "x": 830,
+      "y": 630,
+      "rotation": 0,
+      "fontSize": null,
+      "fontName": null,
+      "alignMode": null
+    },
+    "canonical": {
+      "uuid": "3db956a88f1144e18cfd8716c5b42b6a",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "classification": [
+        "连接器",
+        "排针"
+      ],
+      "ordinal": 1,
+      "name": "PZ254V-11-09P",
+      "symbolName": "PZ254V-11-09P",
+      "symbolUuid": "459c06e0e4df4610b3845386862840bf",
+      "footprintName": "HDR-TH_9P-P2.54-V-M",
+      "footprintUuid": "060d2c5e99da419aa1f67ee643c446d5",
+      "model3DName": "HDR-TH_9P-P2.54-M-LI-1X9P",
+      "model3DUuid": "b5c1e988b3bb4503807579736b357ad0",
+      "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20240304/19104360FD299A2047533D0C7E52C862.jpg",
+      "description": "插针结构:1x9P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:9P;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度:-40℃~+105℃;颜色:黑色;",
+      "manufacturer": "XFCN(兴飞)",
+      "manufacturerId": "PZ254V-11-09P",
+      "supplier": "LCSC",
+      "supplierId": "C492408",
+      "otherProperty": {
+        "LCSC Part Name": "1x9P 间距:2.54mm 方针 直插",
+        "Supplier Part": "C492408",
+        "Manufacturer": "XFCN(兴飞)",
+        "Manufacturer Part": "PZ254V-11-09P",
+        "Supplier Footprint": "插件,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/PZ254V-11-09P/502964.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "459c06e0e4df4610b3845386862840bf",
+        "Designator": "H?",
+        "Footprint": "060d2c5e99da419aa1f67ee643c446d5",
+        "3D Model": "b5c1e988b3bb4503807579736b357ad0",
+        "3D Model Title": "HDR-TH_9P-P2.54-M-LI-1X9P",
+        "3D Model Transform": "890.15562,98.425,0,0,0,0,0,0,-118.11",
+        "Pin Structure": "1x9P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "方针",
+        "Mounting Type": "直插",
+        "Number of Rows": "单排",
+        "Number of Pins": "9P",
+        "Current Rating": "3A",
+        "Voltage Rating (Max)": "250V",
+        "Length of Mating Pin": "6mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "黄铜",
+        "Contact Plating": "-",
+        "Operating Temperature": "-40℃~+105℃",
+        "Color": "黑色",
+        "Name": "={Manufacturer Part}",
+        "Description": "插针结构:1x9P;间距:2.54mm;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:9P;额定电流:3A;额定电压:250V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:-;工作温度:-40℃~+105℃;颜色:黑色;"
+      }
+    }
+  },
+  "windowId": "16451c0d-04ef-4821-9390-0f0390ecd4f5"
+}

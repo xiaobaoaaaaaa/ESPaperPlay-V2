@@ -1,0 +1,834 @@
+{
+  "sheet": "CHARGE_TEMP",
+  "positions": {
+    "R901": [
+      600,
+      530,
+      270
+    ],
+    "C902": [
+      600,
+      420,
+      90
+    ],
+    "R902": [
+      350,
+      650,
+      270
+    ],
+    "R903": [
+      350,
+      560,
+      270
+    ],
+    "C903": [
+      450,
+      560,
+      90
+    ],
+    "R904": [
+      350,
+      400,
+      270
+    ],
+    "R905": [
+      350,
+      280,
+      270
+    ],
+    "C904": [
+      450,
+      280,
+      90
+    ],
+    "R906": [
+      1000,
+      280,
+      270
+    ],
+    "R907": [
+      500,
+      720,
+      180
+    ],
+    "R908": [
+      700,
+      250,
+      0
+    ],
+    "C901": [
+      900,
+      660,
+      270
+    ],
+    "U901@1": [
+      800,
+      600,
+      0
+    ],
+    "U901@2": [
+      800,
+      340,
+      0
+    ]
+  },
+  "instanceIds": {
+    "C902": "94fd723361e916f9",
+    "C903": "a976ab34dea74fc1",
+    "C904": "49ccca52aada8dbd",
+    "R901": "a69788d71b23cb6b",
+    "R902": "33a94ac593aec189",
+    "R904": "356ef1294ad3132b",
+    "R903": "2b55c542b910b2a6",
+    "R905": "bbc25a4b9ca16bc3",
+    "R906": "691f749bf921b6b5",
+    "R907": "0ea08974b525b412",
+    "R908": "b516383d69c0d692",
+    "C901": "d4bdffaa7021745d",
+    "U901@1": "06424d2e4c9501bd",
+    "U901@2": "86303094b76f7f77"
+  },
+  "components": [
+    {
+      "ref": "R901",
+      "instanceId": "a69788d71b23cb6b",
+      "positionKey": "R901",
+      "x": 600,
+      "y": 530,
+      "rotation": 270,
+      "pins": [
+        {
+          "n": "2",
+          "x": 600.0,
+          "y": 510.0,
+          "rotation": 270
+        },
+        {
+          "n": "1",
+          "x": 600.0,
+          "y": 550.0,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C902",
+      "instanceId": "94fd723361e916f9",
+      "positionKey": "C902",
+      "x": 600,
+      "y": 420,
+      "rotation": 90,
+      "pins": [
+        {
+          "n": "1",
+          "x": 600.0,
+          "y": 440.0,
+          "rotation": 90
+        },
+        {
+          "n": "2",
+          "x": 600.0,
+          "y": 400.0,
+          "rotation": 270
+        }
+      ]
+    },
+    {
+      "ref": "R902",
+      "instanceId": "33a94ac593aec189",
+      "positionKey": "R902",
+      "x": 350,
+      "y": 650,
+      "rotation": 270,
+      "pins": [
+        {
+          "n": "2",
+          "x": 350.0,
+          "y": 630.0,
+          "rotation": 270
+        },
+        {
+          "n": "1",
+          "x": 350.0,
+          "y": 670.0,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R903",
+      "instanceId": "2b55c542b910b2a6",
+      "positionKey": "R903",
+      "x": 350,
+      "y": 560,
+      "rotation": 270,
+      "pins": [
+        {
+          "n": "2",
+          "x": 350.0,
+          "y": 540.0,
+          "rotation": 270
+        },
+        {
+          "n": "1",
+          "x": 350.0,
+          "y": 580.0,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C903",
+      "instanceId": "a976ab34dea74fc1",
+      "positionKey": "C903",
+      "x": 450,
+      "y": 560,
+      "rotation": 90,
+      "pins": [
+        {
+          "n": "1",
+          "x": 450.0,
+          "y": 580.0,
+          "rotation": 90
+        },
+        {
+          "n": "2",
+          "x": 450.0,
+          "y": 540.0,
+          "rotation": 270
+        }
+      ]
+    },
+    {
+      "ref": "R904",
+      "instanceId": "356ef1294ad3132b",
+      "positionKey": "R904",
+      "x": 350,
+      "y": 400,
+      "rotation": 270,
+      "pins": [
+        {
+          "n": "2",
+          "x": 350.0,
+          "y": 380.0,
+          "rotation": 270
+        },
+        {
+          "n": "1",
+          "x": 350.0,
+          "y": 420.0,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R905",
+      "instanceId": "bbc25a4b9ca16bc3",
+      "positionKey": "R905",
+      "x": 350,
+      "y": 280,
+      "rotation": 270,
+      "pins": [
+        {
+          "n": "2",
+          "x": 350.0,
+          "y": 260.0,
+          "rotation": 270
+        },
+        {
+          "n": "1",
+          "x": 350.0,
+          "y": 300.0,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C904",
+      "instanceId": "49ccca52aada8dbd",
+      "positionKey": "C904",
+      "x": 450,
+      "y": 280,
+      "rotation": 90,
+      "pins": [
+        {
+          "n": "1",
+          "x": 450.0,
+          "y": 300.0,
+          "rotation": 90
+        },
+        {
+          "n": "2",
+          "x": 450.0,
+          "y": 260.0,
+          "rotation": 270
+        }
+      ]
+    },
+    {
+      "ref": "R906",
+      "instanceId": "691f749bf921b6b5",
+      "positionKey": "R906",
+      "x": 1000,
+      "y": 280,
+      "rotation": 270,
+      "pins": [
+        {
+          "n": "2",
+          "x": 1000.0,
+          "y": 260.0,
+          "rotation": 270
+        },
+        {
+          "n": "1",
+          "x": 1000.0,
+          "y": 300.0,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R907",
+      "instanceId": "0ea08974b525b412",
+      "positionKey": "R907",
+      "x": 500,
+      "y": 720,
+      "rotation": 180,
+      "pins": [
+        {
+          "n": "2",
+          "x": 480.0,
+          "y": 720.0,
+          "rotation": 180
+        },
+        {
+          "n": "1",
+          "x": 520.0,
+          "y": 720.0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R908",
+      "instanceId": "b516383d69c0d692",
+      "positionKey": "R908",
+      "x": 700,
+      "y": 250,
+      "rotation": 0,
+      "pins": [
+        {
+          "n": "2",
+          "x": 720.0,
+          "y": 250.0,
+          "rotation": 0
+        },
+        {
+          "n": "1",
+          "x": 680.0,
+          "y": 250.0,
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "ref": "C901",
+      "instanceId": "d4bdffaa7021745d",
+      "positionKey": "C901",
+      "x": 900,
+      "y": 660,
+      "rotation": 270,
+      "pins": [
+        {
+          "n": "1",
+          "x": 900.0,
+          "y": 680.0,
+          "rotation": 90
+        },
+        {
+          "n": "2",
+          "x": 900.0,
+          "y": 640.0,
+          "rotation": 270
+        }
+      ]
+    },
+    {
+      "ref": "U901",
+      "instanceId": "06424d2e4c9501bd",
+      "positionKey": "U901@1",
+      "x": 800,
+      "y": 600,
+      "rotation": 0,
+      "pins": [
+        {
+          "n": "1",
+          "x": 840.0,
+          "y": 600.0,
+          "rotation": 0
+        },
+        {
+          "n": "2",
+          "x": 760.0,
+          "y": 610.0,
+          "rotation": 180
+        },
+        {
+          "n": "3",
+          "x": 760.0,
+          "y": 590.0,
+          "rotation": 180
+        },
+        {
+          "n": "8",
+          "x": 800.0,
+          "y": 640.0,
+          "rotation": 90
+        },
+        {
+          "n": "4",
+          "x": 800.0,
+          "y": 560.0,
+          "rotation": 270
+        }
+      ]
+    },
+    {
+      "ref": "U901",
+      "instanceId": "86303094b76f7f77",
+      "positionKey": "U901@2",
+      "x": 800,
+      "y": 340,
+      "rotation": 0,
+      "pins": [
+        {
+          "n": "5",
+          "x": 760.0,
+          "y": 330.0,
+          "rotation": 180
+        },
+        {
+          "n": "6",
+          "x": 760.0,
+          "y": 350.0,
+          "rotation": 180
+        },
+        {
+          "n": "7",
+          "x": 840.0,
+          "y": 340.0,
+          "rotation": 0
+        }
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "net": "VIN_5V",
+      "line": [
+        350.0,
+        670.0,
+        350,
+        690
+      ]
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_HOT_REF",
+      "line": [
+        350.0,
+        630.0,
+        350,
+        610,
+        350.0,
+        580.0
+      ]
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_HOT_REF",
+      "line": [
+        760.0,
+        610.0,
+        350,
+        610
+      ]
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_HOT_REF",
+      "line": [
+        450.0,
+        580.0,
+        450,
+        610
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        350.0,
+        540.0,
+        350,
+        510,
+        450,
+        510,
+        450.0,
+        540.0
+      ]
+    },
+    {
+      "net": "VIN_5V",
+      "line": [
+        600.0,
+        550.0,
+        600,
+        570
+      ]
+    },
+    {
+      "net": "BAT_NTC",
+      "line": [
+        600.0,
+        510.0,
+        600,
+        470,
+        700,
+        470
+      ]
+    },
+    {
+      "net": "BAT_NTC",
+      "line": [
+        600.0,
+        440.0,
+        600,
+        470
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        600.0,
+        400.0,
+        600,
+        380
+      ]
+    },
+    {
+      "net": "BAT_NTC",
+      "line": [
+        760.0,
+        590.0,
+        700,
+        590,
+        700,
+        350,
+        760.0,
+        350.0
+      ]
+    },
+    {
+      "net": "VIN_5V",
+      "line": [
+        350.0,
+        420.0,
+        350,
+        440
+      ]
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_COLD_REF",
+      "line": [
+        350.0,
+        380.0,
+        350,
+        330,
+        350.0,
+        300.0
+      ]
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_COLD_REF",
+      "line": [
+        760.0,
+        330.0,
+        350,
+        330
+      ]
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_COLD_REF",
+      "line": [
+        450.0,
+        300.0,
+        450,
+        330
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        350.0,
+        260.0,
+        350,
+        240,
+        450,
+        240,
+        450.0,
+        260.0
+      ]
+    },
+    {
+      "net": "VIN_5V",
+      "line": [
+        800.0,
+        640.0,
+        800,
+        680,
+        900.0,
+        680.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        900.0,
+        640.0,
+        900,
+        620
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        800.0,
+        560.0,
+        800,
+        540
+      ]
+    },
+    {
+      "net": "CHG_TS",
+      "line": [
+        840.0,
+        600.0,
+        1000,
+        600,
+        1000.0,
+        300.0
+      ]
+    },
+    {
+      "net": "CHG_TS",
+      "line": [
+        840.0,
+        340.0,
+        1000,
+        340
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        1000.0,
+        260.0,
+        1000,
+        240
+      ]
+    },
+    {
+      "net": "CHG_TS",
+      "line": [
+        520.0,
+        720.0,
+        1040,
+        720,
+        1040,
+        600,
+        1000,
+        600
+      ]
+    },
+    {
+      "net": "BAT_NTC",
+      "line": [
+        480.0,
+        720.0,
+        200,
+        720,
+        200,
+        470,
+        600,
+        470
+      ]
+    },
+    {
+      "net": "CHG_TS",
+      "line": [
+        680.0,
+        250.0,
+        650,
+        250,
+        650,
+        200,
+        1050,
+        200,
+        1050,
+        340,
+        1000,
+        340
+      ]
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_COLD_REF",
+      "line": [
+        720.0,
+        250.0,
+        740,
+        250,
+        740,
+        330
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "net": "VIN_5V",
+      "x": 350,
+      "y": 690
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_HOT_REF",
+      "x": 480,
+      "y": 610
+    },
+    {
+      "net": "GND",
+      "x": 365,
+      "y": 510
+    },
+    {
+      "net": "VIN_5V",
+      "x": 600,
+      "y": 570
+    },
+    {
+      "net": "BAT_NTC",
+      "x": 620,
+      "y": 470
+    },
+    {
+      "net": "GND",
+      "x": 600,
+      "y": 380
+    },
+    {
+      "net": "BAT_NTC",
+      "x": 710,
+      "y": 590
+    },
+    {
+      "net": "VIN_5V",
+      "x": 350,
+      "y": 440
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_COLD_REF",
+      "x": 480,
+      "y": 330
+    },
+    {
+      "net": "GND",
+      "x": 365,
+      "y": 240
+    },
+    {
+      "net": "VIN_5V",
+      "x": 810,
+      "y": 680
+    },
+    {
+      "net": "GND",
+      "x": 900,
+      "y": 620
+    },
+    {
+      "net": "GND",
+      "x": 800,
+      "y": 540
+    },
+    {
+      "net": "CHG_TS",
+      "x": 870,
+      "y": 600
+    },
+    {
+      "net": "GND",
+      "x": 1000,
+      "y": 240
+    },
+    {
+      "net": "CHG_TS",
+      "x": 660,
+      "y": 720
+    },
+    {
+      "net": "BAT_NTC",
+      "x": 280,
+      "y": 470
+    },
+    {
+      "net": "CHG_TS",
+      "x": 790,
+      "y": 200
+    },
+    {
+      "net": "/CHARGE_TEMP/NTC_COLD_REF",
+      "x": 740,
+      "y": 290
+    }
+  ],
+  "titles": [
+    {
+      "x": 240,
+      "y": 700,
+      "text": "Hot threshold / filter"
+    },
+    {
+      "x": 500,
+      "y": 580,
+      "text": "Battery NTC bias / filter"
+    },
+    {
+      "x": 240,
+      "y": 490,
+      "text": "Cold threshold / filter"
+    },
+    {
+      "x": 750,
+      "y": 765,
+      "text": "Dual open-drain temperature window"
+    },
+    {
+      "x": 820,
+      "y": 460,
+      "text": "TS to charger"
+    },
+    {
+      "x": 425,
+      "y": 755,
+      "text": "TS to NTC hysteresis"
+    },
+    {
+      "x": 670,
+      "y": 215,
+      "text": "TS to cold-ref feedback"
+    }
+  ],
+  "notes": [
+    "13 physical components, 14 symbol instances: U901@1 is primitive06424d2e4c9501bd with pins1,2,3,4,8; U901@2 is primitive86303094b76f7f77 with pins5,6,7. Do not duplicate the physical U901 BOM entry.",
+    "All comparator inputs, two wired-open-drain outputs, three bias/filter branches, TS pulldown and both hysteresis feedback paths are directly wired. VIN_5V and GND connect across local blocks by named native nets.",
+    "R907 is CHG_TS to BAT_NTC feedback; R908 is CHG_TS to NTC_COLD_REF feedback. Neither is a ground pulldown.",
+    "C902/C903/C904 native pin1 is on the right at rotation0; rotation90 places pin1 at top. Do not apply generic capacitor orientation from other symbols.",
+    "Native short aliases are expected for local net labels. Plan preserves original full net names. Lowest feedback path is y200, above the A4 title block."
+  ],
+  "missing_pin_endpoints": []
+}

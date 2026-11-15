@@ -1,0 +1,61 @@
+{
+  "status": "APPLIED",
+  "scope": "Text-only; no component, wire, pin, net, library or PCB edits",
+  "reason": "Native text deletion reported success in canvas but old nonempty records remained in full project archive. Explicitly storing whitespace-only text preserves the reviewed rendering after restore.",
+  "records": [
+    {
+      "page": "MCU_CORE",
+      "id": "493146442bd31c30",
+      "old_text": "ESP32-S3 / local decoupling",
+      "action": "Retain whitespace-only TEXT to neutralize stale archived title after API deletion failed to persist."
+    },
+    {
+      "page": "MCU_CORE",
+      "id": "19dc9d7e2dc2f3b5",
+      "old_text": "DNP debug headers",
+      "action": "Retain whitespace-only TEXT to neutralize stale archived title after API deletion failed to persist."
+    },
+    {
+      "page": "MCU_CORE",
+      "id": "bd292d0d3930c449",
+      "old_text": "RESET / BOOT / POWER",
+      "action": "Retain whitespace-only TEXT to neutralize stale archived title after API deletion failed to persist."
+    },
+    {
+      "page": "POWER_DOMAINS",
+      "id": "9f410165640eafb5",
+      "old_text": "墨水屏供电",
+      "action": "Retain whitespace-only TEXT to neutralize stale archived title after API deletion failed to persist."
+    },
+    {
+      "page": "POWER_DOMAINS",
+      "id": "a3b36fe6d447fc36",
+      "old_text": "存储卡供电",
+      "action": "Retain whitespace-only TEXT to neutralize stale archived title after API deletion failed to persist."
+    },
+    {
+      "page": "POWER_DOMAINS",
+      "id": "9476643c4d120290",
+      "old_text": "触摸供电",
+      "action": "Retain whitespace-only TEXT to neutralize stale archived title after API deletion failed to persist."
+    },
+    {
+      "page": "POWER_DOMAINS",
+      "id": "9b1b7ad0fc72bc06",
+      "old_text": "音频逻辑供电",
+      "action": "Retain whitespace-only TEXT to neutralize stale archived title after API deletion failed to persist."
+    },
+    {
+      "page": "POWER_DOMAINS",
+      "id": "eddde2829bda5c3f",
+      "old_text": "扬声器功放供电",
+      "action": "Retain whitespace-only TEXT to neutralize stale archived title after API deletion failed to persist."
+    },
+    {
+      "page": "POWER_DOMAINS",
+      "id": "3d1c44e21c6083b9",
+      "old_text": "音频使能默认下拉",
+      "action": "Retain whitespace-only TEXT to neutralize stale archived title after API deletion failed to persist."
+    }
+  ]
+}

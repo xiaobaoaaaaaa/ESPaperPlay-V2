@@ -1,55 +1,30 @@
 {
-  "status": "WIP_NOT_FOR_MANUFACTURING",
-  "date": "2026-11-15T23:18:17.873449+08:00",
+  "status": "SCHEMATIC_VERIFIED_PCB_PENDING_NOT_FOR_MANUFACTURING",
+  "date": "2026-11-16T00:24:22.126372+08:00",
   "project_name": "ESPaperPlay V2 99mm Native",
   "project_uuid": "584d341c900b483c8f51ea584ed7fc13",
   "schematic_uuid": "5bedf48347e90f09",
   "pcb_uuid": "4e1671d0644295dd",
+  "schematic_pages": 12,
   "components": 236,
-  "per_sheet": {
-    "POWER_INPUT_CHARGER": {
-      "net_mismatches": 0,
-      "visual_status": "NEEDS_MANUAL_REWORK_OR_WIRING"
-    },
-    "POWER_3V3_CONTROL": {
-      "net_mismatches": 0,
-      "visual_status": "NEEDS_MANUAL_REWORK_OR_WIRING"
-    },
-    "MCU_CORE": {
-      "net_mismatches": 0,
-      "visual_status": "NEEDS_MANUAL_REWORK_OR_WIRING"
-    },
-    "POWER_DOMAINS": {
-      "net_mismatches": 4,
-      "visual_status": "NEEDS_MANUAL_REWORK_OR_WIRING"
-    },
-    "TOUCH_ISOLATION": {
-      "net_mismatches": 0,
-      "visual_status": "REVIEWED"
-    },
-    "USB_INPUT": {
-      "net_mismatches": 45,
-      "visual_status": "NEEDS_MANUAL_REWORK_OR_WIRING"
-    },
-    "EPD_DISPLAY": {
-      "net_mismatches": 106,
-      "visual_status": "NEEDS_MANUAL_REWORK_OR_WIRING"
-    },
-    "STORAGE_SD": {
-      "net_mismatches": 86,
-      "visual_status": "NEEDS_MANUAL_REWORK_OR_WIRING"
-    },
-    "AUDIO": {
-      "net_mismatches": 81,
-      "visual_status": "NEEDS_MANUAL_REWORK_OR_WIRING"
-    },
-    "CHARGE_TEMP": {
-      "net_mismatches": 32,
-      "visual_status": "NEEDS_MANUAL_REWORK_OR_WIRING"
-    }
+  "symbol_instances": 237,
+  "connected_pins": 767,
+  "intentional_nc_pins": 25,
+  "named_nets": 156,
+  "schematic_native_drc": {
+    "passed": true,
+    "errors": 0,
+    "warnings": 0
   },
-  "pcb_status": "99x99mm four-layer outline and initial rules only; no components/routing",
-  "archive_sha256": "1a5c2b2fd5a8fa0071a4efe50da5ec4d95643a22356a845ecc0e19478c524070",
-  "archive_bytes": 1115965,
-  "user_instruction": "Stop after finishing current work; user will reboot. Resume only on user request."
+  "electrical_mapping": "PASS",
+  "wire_geometry": "PASS all 12 pages; U301 actual body bounds used",
+  "visual_review": "PASS all 12 pages",
+  "pcb_status": "99x99mm four-layer outline and initial rules only; 0 native PCB components, no routing",
+  "archive_sha256": "df840a96339356ce5a634b2fa1a4ce864cb1fd7112f942852a35fd26a225e30a",
+  "archive_bytes": 1560931,
+  "next_step": "Resolve native footprint manufacturing differences, synchronize native schematic to PCB, place/route, then native DRC/CAM. No manufacturing release.",
+  "bridge_state": "Running; user resumed after reboot.",
+  "archive_coherence": "PASS",
+  "final_preview_changed_pixels": 0,
+  "blank_legacy_text_records": 9
 }

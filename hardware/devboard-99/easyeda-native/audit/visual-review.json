@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "method": "Full official native SVG export rendered at 3000 pixels; page-by-page visual review and final label position verification.",
+  "pages": {
+    "POWER_INPUT_CHARGER": {
+      "status": "PASS",
+      "page": 1,
+      "preview": "preview/POWER_INPUT_CHARGER.png",
+      "preview_sha256": "08bb2231242d8273d75364d32b8f04c1a39e64fd9fe898a95470f5464f79196b",
+      "source_sha256": "6efcaafa4a24ed694f48d3300207bf03cf0165c78a7d5f808ed43feaefa42676",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "POWER_REGULATOR_GAUGE": {
+      "status": "PASS",
+      "page": 2,
+      "preview": "preview/POWER_REGULATOR_GAUGE.png",
+      "preview_sha256": "a49bce39238dc107784e08b9517721fcbb9a9bff054924ef8ba2e543ebb32fb4",
+      "source_sha256": "b6ac266e15d1b3320bd21d9819bb43950a010eb44b4c3e852aeec9757ab68417",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "MCU_CORE": {
+      "status": "PASS",
+      "page": 3,
+      "preview": "preview/MCU_CORE.png",
+      "preview_sha256": "dc5c18fba7b0881e0fa8afa53be8f439e3290d822cd0111a97cdf3269c22147b",
+      "source_sha256": "6eb65037f3894fb6809e5b4912da4d2cae83c77250a0858c87c789e2b6fcb5d5",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "POWER_DOMAINS": {
+      "status": "PASS",
+      "page": 4,
+      "preview": "preview/POWER_DOMAINS.png",
+      "preview_sha256": "9d759d07a8f9a25414239a2d264bc1f0be1cacb0ff69d1a393d473b9c0049371",
+      "source_sha256": "f9f78f4e1699e99ca9493e50336da26f53606eef74c0037eaa5cf4a3f5e3b82d",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "TOUCH_ISOLATION": {
+      "status": "PASS",
+      "page": 5,
+      "preview": "preview/TOUCH_ISOLATION.png",
+      "preview_sha256": "5618531789ac8ded51fc5856bf4f3f0638e05c672585727b50203c668a913d7a",
+      "source_sha256": "7c0d29a86ef9941dedd946a123745ede2f40eed183db02900cb481aeb2b92e5f",
+      "notes": [
+        "Final C417/R418 CircuitLabel y=405; root visually confirmed normal separation after catalog metadata changes."
+      ],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "USB_INPUT": {
+      "status": "PASS",
+      "page": 6,
+      "preview": "preview/USB_INPUT.png",
+      "preview_sha256": "4165d42e9a6f451e23f5bb086d52f729b65d53867a7a203fdd41760e0ae205d5",
+      "source_sha256": "d0e0fa708598f60aecfdf5c3d7d9b2bb878d41a2b5b84c1483bedf81ca00f54e",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "EPD_LOGIC": {
+      "status": "PASS",
+      "page": 7,
+      "preview": "preview/EPD_LOGIC.png",
+      "preview_sha256": "fc674cd116b5c1dad086f974f1ea45a8f49c5c80c97c14ff5417fbc25d79d1a1",
+      "source_sha256": "dbba3ac1b6a47976e190da88e0d4006217665178413bdf889ad5b93c7112cdf6",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "STORAGE_SD": {
+      "status": "PASS",
+      "page": 8,
+      "preview": "preview/STORAGE_SD.png",
+      "preview_sha256": "484bc20e905786bca0721a62aac90f13a54e47029fb3c87e79b6f8b82ea633aa",
+      "source_sha256": "6aad0106db075f4d4c50c7a37226dbe24392435aec77b3ef04ad958e5ccdb39b",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "AUDIO": {
+      "status": "PASS",
+      "page": 9,
+      "preview": "preview/AUDIO.png",
+      "preview_sha256": "243c6d5f51c34660d2f0bd9e4fc5a874719ff2cf172fa10c8c682e4688b5dd1f",
+      "source_sha256": "2844bcaf477d2f31a205ed194cca7d046c4bc199f1fe850e65ccb06cae1896a1",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "CHARGE_TEMP": {
+      "status": "PASS",
+      "page": 10,
+      "preview": "preview/CHARGE_TEMP.png",
+      "preview_sha256": "04f0f8d888cc312450cbb3f8ec9a13aa2160fb5620c59c0db6bc756ed19337bf",
+      "source_sha256": "bc58af5b13317a5b11edddc9cae02e1ede8844ef7d5d0570c836d4126e416d6e",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "IO_CONTROL_NATIVE": {
+      "status": "PASS",
+      "page": 11,
+      "preview": "preview/IO_CONTROL_NATIVE.png",
+      "preview_sha256": "4659da75002765ce7bfa68fd02fbbe1174c444692f5cee989c4f92d0eb07c63b",
+      "source_sha256": "4abb0413d17a35a0a11df6abdd54b9f2371b0ed61ba2573af03e138faf7ca761",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    },
+    "EPD_BIAS_INTERFACE": {
+      "status": "PASS",
+      "page": 12,
+      "preview": "preview/EPD_BIAS_INTERFACE.png",
+      "preview_sha256": "10fed6dbda088cae917b3044f0ff814c082247014be66629c3990cd84fb1da5e",
+      "source_sha256": "2bf5ea2e54854f1a3c4b9a9359731f764b2aec0fdf0a18a67d7332b595234132",
+      "notes": [],
+      "final_pixel_comparison": "0 (0)"
+    }
+  },
+  "scope": "Readability only; not PCB/CAM/manufacturing certification"
+}

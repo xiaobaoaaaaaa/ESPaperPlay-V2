@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "instances_checked": 234,
+  "errors": [],
+  "method": "Saved CircuitLabel geometry matches approved text positions; canonical Name hidden and CircuitLabel visible.",
+  "final_spacing_adjustments": {
+    "TOUCH_ISOLATION/C417": [
+      435,
+      405
+    ],
+    "TOUCH_ISOLATION/R418": [
+      860,
+      405
+    ]
+  }
+}

@@ -1,0 +1,2452 @@
+{
+  "scope": "Read-only investigation of saved native schematic and installed official client; no live API calls, no mutations to schematic, plans, preferences, or supplier fields.",
+  "rule": "ATTRMATCHCODE",
+  "meaning": "Component attributes need to match the Supplier Part; checked through the Device Standardization comparison. Supplier-metadata consistency, not net-connectivity.",
+  "counts": {
+    "drc_batches": 8,
+    "unique_primitive_instances": 230,
+    "warning_physical_designators": 229,
+    "total_physical_components": 236,
+    "unwarned_physical_components": 7,
+    "warning_extra_instance": "U901 has two symbol units",
+    "supplier_coded_components": 233,
+    "canonical_name_sources_available": 232,
+    "canonical_name_changes_available": 232,
+    "requires_review": [],
+    "phase": "initial investigation before normalization",
+    "initially_required_review": [
+      "J302"
+    ]
+  },
+  "official_sources": [
+    {
+      "url": "https://prodocs.lceda.cn/cn/release-note/v2.0.x/",
+      "finding": "Introduces supplier-number/component-attribute matching rule."
+    },
+    {
+      "url": "https://prodocs.lceda.cn/cn/schematic/side-panel-left-device-standardization/",
+      "finding": "Review supplier data before applying replacement; per-device check switch exists."
+    },
+    {
+      "url": "https://prodocs.lceda.cn/cn/faq/update-record/",
+      "finding": "v2.1.52 fix explicitly refers to detecting supplier-number/value mismatches in semi-offline mode."
+    }
+  ],
+  "installed_source_evidence": [
+    {
+      "file": "/opt/apps/lceda-pro/resources/app/assets/pro-sch/4.1.82.c3d0f642/js/sch-main.js",
+      "character_offset": 4009167,
+      "symbol": "ATTRMATCHCODE",
+      "finding": "Rule description is Component attributes need to match the Supplier Part; default severity 2 (warn)."
+    },
+    {
+      "file": "/opt/apps/lceda-pro/resources/app/assets/pro-sch/4.1.82.c3d0f642/js/sch-main.js",
+      "character_offset": 4095691,
+      "symbol": "wht",
+      "finding": "DRC resolves the Device Standardization comparison and reports its mismatches."
+    },
+    {
+      "file": "/opt/apps/lceda-pro/resources/app/assets/pro-ui/4.1.90.c30a74af/js/ui.js",
+      "character_offset": 19131013,
+      "symbol": "dLn",
+      "finding": "Skips Check=false and empty Supplier Part. Missing catalogue result or compared-field mismatch warns."
+    },
+    {
+      "file": "/opt/apps/lceda-pro/resources/app/assets/pro-ui/4.1.90.c30a74af/js/ui.js",
+      "character_offset": 9959486,
+      "symbol": "get lcEdaCompareTableColKeyArr",
+      "finding": "Ordinary-mode compared columns are Supplier Part, Supplier, Comment, Footprint, Manufacturer Part, Manufacturer."
+    },
+    {
+      "file": "/opt/apps/lceda-pro/resources/app/assets/pro-ui/4.1.90.c30a74af/js/ui.js",
+      "character_offset": 9955162,
+      "symbol": "isDeviceAttrsMatch",
+      "finding": "Strict equality for each compared field. Comment resolves catalogue Name/Value formula."
+    },
+    {
+      "file": "/opt/apps/lceda-pro/resources/app/assets/pro-sch/4.1.82.c3d0f642/js/sch-main.js",
+      "character_offset": 5814018,
+      "symbol": "$gt, nested A",
+      "finding": "Current Comment prioritizes explicit Comment/comment, evaluated Name, Value, Manufacturer Part. Footprint is displayFootPrint, not UUID."
+    },
+    {
+      "file": "/opt/apps/lceda-pro/resources/app/assets/pro-ui/4.1.90.c30a74af/js/ui.js",
+      "character_offset": 12853647,
+      "symbol": "k6",
+      "finding": "Target Comment preference: attributes.Comment, comment, Name, Value, Manufacturer Part. No top-level device title fallback."
+    },
+    {
+      "file": "/opt/apps/lceda-pro/resources/app/assets/pro-ui/4.1.90.c30a74af/js/ui.js",
+      "character_offset": 9964162,
+      "symbol": "getDeviceCompareAttrs",
+      "finding": "Comparison record spreads returned attributes then injects Device/DeviceUuid/Footprint; it does not inject Name from display_title."
+    }
+  ],
+  "compared_columns": [
+    "Supplier Part",
+    "Supplier",
+    "Comment",
+    "Footprint",
+    "Manufacturer Part",
+    "Manufacturer"
+  ],
+  "comment_mismatch_reproduction": {
+    "verified_supplier_components": 232,
+    "verified_mismatches": 228,
+    "verified_warning_set_matches_comment_mismatch_set": true,
+    "supplier_manufacturer_columns_all_match_local_catalogue": true,
+    "limitation": "Historical offline comparison lacked J302 explicit source Name and server catalogue footprint comparison. Resolved by public native catalogue lookup with identical geometry and final official DRC=[]; see resolution."
+  },
+  "parent_reported_live_control_test": {
+    "ref": "C101",
+    "mutation": "Name only -> ={Value}",
+    "result": "ATTRMATCHCODE instance count 230 -> 229; C101 warning disappears and others unchanged. Parent performed test; this agent performed no live action."
+  },
+  "examples": {
+    "C101": {
+      "currentName": "4.7u / 25V",
+      "canonicalName": "={Value}",
+      "expectedComment": "4.7uF",
+      "currentComment": "4.7u / 25V",
+      "sourceDeviceUUID": "575c958b17734ca2a890cbeeaee33242",
+      "sourceLibraryUUID": "0819f05c4eef4c71ace90d822a990e87",
+      "supplierPart": "C2167521",
+      "sourceFile": "build/easyeda-native99/library-plan/device-details/575c958b17734ca2a890cbeeaee33242.json",
+      "sourceField": "device.property.otherProperty.Name",
+      "warningInReviewedSnapshot": true,
+      "nameChangeRequired": true,
+      "requiresReview": false
+    },
+    "U101": {
+      "currentName": "BQ24074RGT",
+      "canonicalName": "={Manufacturer Part}",
+      "expectedComment": "BQ24074RGTR",
+      "currentComment": "BQ24074RGT",
+      "sourceDeviceUUID": "545dcdc0f45c4d469fd830849b0edb06",
+      "sourceLibraryUUID": "0819f05c4eef4c71ace90d822a990e87",
+      "supplierPart": "C54313",
+      "sourceFile": "build/easyeda-native99/library-plan/device-details/545dcdc0f45c4d469fd830849b0edb06.json",
+      "sourceField": "device.property.otherProperty.Name",
+      "warningInReviewedSnapshot": true,
+      "nameChangeRequired": true,
+      "requiresReview": false
+    },
+    "U301": {
+      "currentName": "ESP32-S3-WROOM-1-N16R8",
+      "canonicalName": "={Value}",
+      "expectedComment": "2.4GHz",
+      "currentComment": "ESP32-S3-WROOM-1-N16R8",
+      "sourceDeviceUUID": "701a1177d7184d1bbf7f86d69d9385c2",
+      "sourceLibraryUUID": "0819f05c4eef4c71ace90d822a990e87",
+      "supplierPart": "C2913202",
+      "sourceFile": "build/easyeda-native99/library-plan/device-details/701a1177d7184d1bbf7f86d69d9385c2.json",
+      "sourceField": "device.property.otherProperty.Name",
+      "warningInReviewedSnapshot": true,
+      "nameChangeRequired": true,
+      "requiresReview": false
+    },
+    "Q101": {
+      "currentName": "AO3400A",
+      "canonicalName": "={Manufacturer Part}",
+      "expectedComment": "AO3400A",
+      "currentComment": "AO3400A",
+      "sourceDeviceUUID": "ce3bf8afe66241198c3f6478c6919622",
+      "sourceLibraryUUID": "0819f05c4eef4c71ace90d822a990e87",
+      "supplierPart": "C700953",
+      "sourceFile": "build/easyeda-native99/library-plan/device-details/ce3bf8afe66241198c3f6478c6919622.json",
+      "sourceField": "device.property.otherProperty.Name",
+      "warningInReviewedSnapshot": false,
+      "nameChangeRequired": true,
+      "requiresReview": false
+    },
+    "Q201": {
+      "currentName": "AO3400A",
+      "canonicalName": "={Manufacturer Part}",
+      "expectedComment": "AO3400A",
+      "currentComment": "AO3400A",
+      "sourceDeviceUUID": "ce3bf8afe66241198c3f6478c6919622",
+      "sourceLibraryUUID": "0819f05c4eef4c71ace90d822a990e87",
+      "supplierPart": "C700953",
+      "sourceFile": "build/easyeda-native99/library-plan/device-details/ce3bf8afe66241198c3f6478c6919622.json",
+      "sourceField": "device.property.otherProperty.Name",
+      "warningInReviewedSnapshot": false,
+      "nameChangeRequired": true,
+      "requiresReview": false
+    },
+    "U802": {
+      "currentName": "MAX98357AETE+T",
+      "canonicalName": "={Manufacturer Part}",
+      "expectedComment": "MAX98357AETE+T",
+      "currentComment": "MAX98357AETE+T",
+      "sourceDeviceUUID": "cd7363eaedd94bee8c1772e3f4515a6e",
+      "sourceLibraryUUID": "0819f05c4eef4c71ace90d822a990e87",
+      "supplierPart": "C910544",
+      "sourceFile": "build/easyeda-native99/library-plan/device-details/cd7363eaedd94bee8c1772e3f4515a6e.json",
+      "sourceField": "device.property.otherProperty.Name",
+      "warningInReviewedSnapshot": false,
+      "nameChangeRequired": true,
+      "requiresReview": false
+    },
+    "U803": {
+      "currentName": "DMM-4026-B-I2S-R",
+      "canonicalName": "={Manufacturer Part}",
+      "expectedComment": "DMM-4026-B-I2S-R",
+      "currentComment": "DMM-4026-B-I2S-R",
+      "sourceDeviceUUID": "6738983dbec441258b92d8ae1725d158",
+      "sourceLibraryUUID": "0819f05c4eef4c71ace90d822a990e87",
+      "supplierPart": "C3171792",
+      "sourceFile": "build/easyeda-native99/library-plan/device-details/6738983dbec441258b92d8ae1725d158.json",
+      "sourceField": "device.property.otherProperty.Name",
+      "warningInReviewedSnapshot": false,
+      "nameChangeRequired": true,
+      "requiresReview": false
+    },
+    "J302": {
+      "currentName": "SD_DEBUG",
+      "canonicalName": null,
+      "expectedComment": null,
+      "currentComment": "SD_DEBUG",
+      "sourceDeviceUUID": "e79e45a4d1984c3c84e9869a113c23cb",
+      "sourceLibraryUUID": "0819f05c4eef4c71ace90d822a990e87",
+      "supplierPart": "C492408",
+      "sourceFile": "build/easyeda-native99/library-plan/device-details/e79e45a4d1984c3c84e9869a113c23cb.json",
+      "sourceField": null,
+      "warningInReviewedSnapshot": true,
+      "nameChangeRequired": false,
+      "requiresReview": true,
+      "reviewReason": "Source legacy generic device has no Name/Value/Manufacturer/Supplier attrs; property.name is HDR-M_2.54-1x9P but cannot establish current supplier-code Comment. Do not normalize blindly.",
+      "sourceDeviceTitle": "HDR-M_2.54-1x9P"
+    }
+  },
+  "preserve_exclusions": [
+    {
+      "ref": "C501",
+      "reason": "Supplier Part empty; preserve deliberate custom specification",
+      "Name": "TUNE / DNP",
+      "Value": "TUNE / DNP",
+      "Manufacturer Part": "",
+      "Supplier Part": ""
+    },
+    {
+      "ref": "C502",
+      "reason": "Supplier Part empty; preserve deliberate custom specification",
+      "Name": "TUNE / DNP",
+      "Value": "TUNE / DNP",
+      "Manufacturer Part": "",
+      "Supplier Part": ""
+    },
+    {
+      "ref": "R602",
+      "reason": "Supplier Part empty; preserve deliberate custom specification",
+      "Name": "0.47R / 1%",
+      "Value": "470mΩ",
+      "Manufacturer Part": "WFMB2010R4700FEA",
+      "Supplier Part": ""
+    }
+  ],
+  "safe_repair": {
+    "recommended": "Restore only native Name expression for verified supplier-coded instances; hide canonical Name where needed; retain design annotation as independent visible custom CircuitLabel at checked coordinates. Preserve Value, MPN, Supplier, Supplier Part, Device/Footprint bindings, DNP and assembly flags.",
+    "J302": "Resolved using native formal device 3db956a88f1144e18cfd8716c5b42b6a: same symbol/footprint UUID as legacy generic. Corrected only formal Name/Manufacturer/Manufacturer Part/Supplier and recorded NativeCatalogDeviceUUID; retained C492408, DNP and original geometry provenance.",
+    "after_application": "Run official DRC and electrical netlist equivalence; inspect visible CircuitLabel layout.",
+    "avoid": [
+      "Do not disable the rule globally to claim DRC clear.",
+      "Do not blank real supplier codes to suppress warnings.",
+      "Do not bulk replace/catalogue-sync custom R602/C501/C502."
+    ],
+    "custom_refs": [
+      "R602",
+      "C501",
+      "C502"
+    ],
+    "status": "implemented_and_verified"
+  },
+  "comparisons": [
+    {
+      "ref": "U101",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C101",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C102",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C103",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J101",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J102",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J103",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J104",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J105",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "Q101",
+      "warning": false,
+      "commentMismatch": false,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "Q201",
+      "warning": false,
+      "commentMismatch": false,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R103",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R105",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R106",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R107",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R108",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R109",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R110",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R111",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R112",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R220",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R221",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R222",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R101",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R102",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R104",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R113",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C201",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C202",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J201",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J202",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J203",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J204",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "L201",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R202",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R204",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R205",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R206",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R207",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R217",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R218",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R219",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U201",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U203",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C204",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R201",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R203",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C301",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C303",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J301",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J303",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R301",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R302",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R303",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R304",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R305",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R306",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U301",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C302",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J302",
+      "warning": true,
+      "commentMismatch": null,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "SW301",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "SW302",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "SW303",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "SW304",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "SW305",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C401",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C402",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C403",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C404",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C405",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C406",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C407",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C408",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C409",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C410",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C411",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C412",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C413",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C414",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C415",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J401",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J402",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J403",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J404",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J405",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R401",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R404",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R407",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R410",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R413",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R416",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U401",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U402",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U403",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U404",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U405",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R402",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R405",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R408",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R411",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R414",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J406",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R417",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R418",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R419",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R420",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U406",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C416",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C417",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "D501",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J501",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J502",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R501",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R502",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R503",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R504",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U501",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U502",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C503",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "F501",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R603",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R604",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R605",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R606",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R607",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R608",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R609",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R610",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R611",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R612",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R613",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R614",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U601",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U602",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C611",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C612",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C702",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C704",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J701",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R701",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R702",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R703",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R704",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R705",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R706",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R708",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R710",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R711",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R712",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R713",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R714",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R715",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U701",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U702",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U703",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U704",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U705",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U706",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C701",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C703",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C705",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C803",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C805",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J801",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R802",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R803",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R804",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R805",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R806",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R808",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R809",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R810",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R811",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R812",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R813",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U801",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U802",
+      "warning": false,
+      "commentMismatch": false,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U803",
+      "warning": false,
+      "commentMismatch": false,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U804",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U805",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C801",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C802",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C804",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C806",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C808",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C902",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C903",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C904",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R901",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R902",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R903",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R904",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R905",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R906",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R907",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R908",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C901",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U901",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J205",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J206",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R208",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R209",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R210",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R211",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R212",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R213",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R214",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R215",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R216",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R223",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R224",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R225",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R226",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R227",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "U202",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C203",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C601",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C602",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C603",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C604",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C605",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C606",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C607",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C608",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C609",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "C610",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "D601",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "D602",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "D603",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "J601",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "L601",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "Q601",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    },
+    {
+      "ref": "R601",
+      "warning": true,
+      "commentMismatch": true,
+      "manufacturerPartMatch": true,
+      "manufacturerMatch": true,
+      "supplierMatch": true,
+      "supplierPartMatch": true
+    }
+  ],
+  "generated_map": "build/easyeda-native99/manual-review/canonical-name-map.json",
+  "generated_map_entries": 232,
+  "J302_additional_findings": {
+    "official_product_url": "https://www.lcsc.com/product-detail/C492408.html",
+    "manufacturer": "XFCN",
+    "manufacturerPart": "PZ254V-11-09P",
+    "supplierPart": "C492408",
+    "package": "Through Hole, P=2.54mm",
+    "pinStructure": "1x9P",
+    "source_library_snapshot": "build/easyeda-native99/library-plan/fallback-search/HDR-M-2.54_1x9.json",
+    "source_generic_title": "HDR-M_2.54-1x9P",
+    "source_symbol_name": "PZ254V-11-09P",
+    "target_comment_fallback": "Installed target-side k6 reads attributes.Comment, attributes.comment, attributes.Name, attributes.Value, attributes[Manufacturer Part], then empty. It does not read top-level device.name or property.name. getDeviceCompareAttrs spreads attributes and supplies footprint/display UUID only.",
+    "recommended_next_read": "Completed; see resolution evidence.",
+    "confidence": "Formal canonical catalogue attributes now observed via public library lookup; same symbol/footprint verified. Final official DRC has no findings.",
+    "status": "resolved"
+  },
+  "input_sha256": {
+    "drc.json": "8eda750a72639b16c97acdb959ec2f721518f0b10ae4f08cd0affe355fcef851",
+    "native.enet": "9df125feeff0b24cf145f39a35ba63701b0c3e44fa6426a91ca7a630008eefaf"
+  },
+  "status": "resolved",
+  "resolution": {
+    "status": "resolved",
+    "date": "2026-11-16",
+    "performed_by": "root agent through official public EasyEDA API; this subagent updated reports only",
+    "canonical_name_restore": {
+      "component_count": 232,
+      "verified_all_names_match_map": true,
+      "verified_CircuitLabel_preserves_original_Name": true
+    },
+    "drc_after_bulk_name_restore": {
+      "drc": [
+        {
+          "type": "warn",
+          "rule": "ATTRMATCHCODE",
+          "primitives": [
+            {
+              "primitiveId": "b45e42e7ff395dbc",
+              "sheet": "74a236aa2aa5b896",
+              "name": "J302($3I14)"
+            }
+          ]
+        }
+      ],
+      "passed": false
+    },
+    "final_drc": {
+      "drc": [],
+      "passed": true
+    },
+    "final_physical_components": 236,
+    "all_pinInfoMap_records_unchanged_from_reviewed_native_netlist": true,
+    "custom_R602_C501_C502_electrical_and_assembly_attributes_unchanged": true,
+    "J302": {
+      "canonicalDeviceUUID": "3db956a88f1144e18cfd8716c5b42b6a",
+      "nativeGeometrySourceDeviceUUID": "e79e45a4d1984c3c84e9869a113c23cb",
+      "nativeCatalogDeviceUUID": "3db956a88f1144e18cfd8716c5b42b6a",
+      "symbolUUID_unchanged": true,
+      "footprintUUID_unchanged": true,
+      "official_attributes": {
+        "Name": "={Manufacturer Part}",
+        "Manufacturer": "XFCN(兴飞)",
+        "Manufacturer Part": "PZ254V-11-09P",
+        "Supplier": "LCSC",
+        "Supplier Part": "C492408"
+      },
+      "DNP": "true",
+      "AssemblyStatus": "DNP",
+      "CircuitLabel": "SD_DEBUG"
+    },
+    "evidence": {
+      "catalog-name-drc-result.json": {
+        "path": "build/easyeda-native99/api/catalog-name-drc-result.json",
+        "sha256": "c19c8ed6c94abdeecdd43fefb812ab8fa5dbcf578b5a9049cdb5a20778926f99"
+      },
+      "j302-normalize-metadata.json": {
+        "path": "build/easyeda-native99/api/j302-normalize-metadata.json",
+        "sha256": "d33a68531f09f236cd55efd44c433832fec56e8a9fb79c6e52498aa8ce3a51fe"
+      },
+      "j302-normalize-drc.json": {
+        "path": "build/easyeda-native99/api/j302-normalize-drc.json",
+        "sha256": "cbb96bc393ab3cc352f029ac016c7d3472c9b28181893f6bdd9dd758da9a4c03"
+      },
+      "catalog-final-netlist.json": {
+        "path": "build/easyeda-native99/api/catalog-final-netlist.json",
+        "sha256": "d8afa0f144f0796e45d1c488d579f3ba7b22fc375aecb51b5266ad29150794bd"
+      }
+    }
+  }
+}

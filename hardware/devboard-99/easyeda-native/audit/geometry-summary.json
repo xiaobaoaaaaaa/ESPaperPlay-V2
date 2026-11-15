@@ -1,0 +1,194 @@
+{
+  "POWER_INPUT_CHARGER": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 98,
+    "components": 27,
+    "counts": {
+      "same_net_junctions": 62
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "MCU_CORE": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 151,
+    "components": 18,
+    "counts": {
+      "same_net_junctions": 91
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "POWER_DOMAINS": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 124,
+    "components": 36,
+    "counts": {
+      "same_net_junctions": 82
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "TOUCH_ISOLATION": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 47,
+    "components": 8,
+    "counts": {
+      "same_net_junctions": 22
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "USB_INPUT": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 70,
+    "components": 13,
+    "counts": {
+      "same_net_junctions": 50
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "STORAGE_SD": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 116,
+    "components": 25,
+    "counts": {
+      "same_net_junctions": 66
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "AUDIO": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 103,
+    "components": 24,
+    "counts": {
+      "same_net_junctions": 52
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "CHARGE_TEMP": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 50,
+    "components": 14,
+    "counts": {
+      "same_net_junctions": 49
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "POWER_REGULATOR_GAUGE": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 70,
+    "components": 20,
+    "counts": {
+      "same_net_junctions": 37
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "IO_CONTROL_NATIVE": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 76,
+    "components": 18,
+    "counts": {
+      "same_net_junctions": 32
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "EPD_LOGIC": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 73,
+    "components": 16,
+    "counts": {
+      "same_net_junctions": 45
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "EPD_BIAS_INTERFACE": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "segments",
+    "segments": 83,
+    "components": 18,
+    "counts": {
+      "same_net_junctions": 65
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "currentName": "SD_DEBUG",
+  "canonicalName": "={Manufacturer Part}",
+  "expectedComment": "PZ254V-11-09P",
+  "currentComment": "SD_DEBUG",
+  "sourceDeviceUUID": "e79e45a4d1984c3c84e9869a113c23cb",
+  "sourceLibraryUUID": "0819f05c4eef4c71ace90d822a990e87",
+  "supplierPart": "C492408",
+  "sourceFile": "build/easyeda-native99/library-plan/device-details/e79e45a4d1984c3c84e9869a113c23cb.json",
+  "sourceField": "result.canonical.otherProperty.Name",
+  "warningInReviewedSnapshot": true,
+  "nameChangeRequired": false,
+  "requiresReview": false,
+  "reviewReason": "Resolved through public native formal-device catalogue lookup. Same symbol and footprint UUID; see resolution evidence.",
+  "sourceDeviceTitle": "HDR-M_2.54-1x9P",
+  "official_identity": {
+    "official_product_url": "https://www.lcsc.com/product-detail/C492408.html",
+    "manufacturer": "XFCN",
+    "manufacturerPart": "PZ254V-11-09P",
+    "supplierPart": "C492408",
+    "package": "Through Hole, P=2.54mm",
+    "pinStructure": "1x9P",
+    "source_library_snapshot": "build/easyeda-native99/library-plan/fallback-search/HDR-M-2.54_1x9.json",
+    "source_generic_title": "HDR-M_2.54-1x9P",
+    "source_symbol_name": "PZ254V-11-09P",
+    "target_comment_fallback": "Installed target-side k6 reads attributes.Comment, attributes.comment, attributes.Name, attributes.Value, attributes[Manufacturer Part], then empty. It does not read top-level device.name or property.name. getDeviceCompareAttrs spreads attributes and supplies footprint/display UUID only.",
+    "recommended_next_read": "Completed.",
+    "confidence": "Observed formal native catalogue identity and verified identical symbol/footprint UUID; final official DRC passes.",
+    "status": "resolved"
+  },
+  "status": "resolved",
+  "canonicalSourceDeviceUUID": "3db956a88f1144e18cfd8716c5b42b6a",
+  "canonicalSourceFile": "build/easyeda-native99/api/j302-normalize-metadata.json",
+  "nameChangeApplied": true,
+  "resolution": {
+    "canonicalDeviceUUID": "3db956a88f1144e18cfd8716c5b42b6a",
+    "nativeGeometrySourceDeviceUUID": "e79e45a4d1984c3c84e9869a113c23cb",
+    "nativeCatalogDeviceUUID": "3db956a88f1144e18cfd8716c5b42b6a",
+    "symbolUUID_unchanged": true,
+    "footprintUUID_unchanged": true,
+    "official_attributes": {
+      "Name": "={Manufacturer Part}",
+      "Manufacturer": "XFCN(兴飞)",
+      "Manufacturer Part": "PZ254V-11-09P",
+      "Supplier": "LCSC",
+      "Supplier Part": "C492408"
+    },
+    "DNP": "true",
+    "AssemblyStatus": "DNP",
+    "CircuitLabel": "SD_DEBUG"
+  },
+  "finalDRC": {
+    "drc": [],
+    "passed": true
+  },
+  "evidence": {
+    "catalog-name-drc-result.json": {
+      "path": "build/easyeda-native99/api/catalog-name-drc-result.json",
+      "sha256": "c19c8ed6c94abdeecdd43fefb812ab8fa5dbcf578b5a9049cdb5a20778926f99"
+    },
+    "j302-normalize-metadata.json": {
+      "path": "build/easyeda-native99/api/j302-normalize-metadata.json",
+      "sha256": "d33a68531f09f236cd55efd44c433832fec56e8a9fb79c6e52498aa8ce3a51fe"
+    },
+    "j302-normalize-drc.json": {
+      "path": "build/easyeda-native99/api/j302-normalize-drc.json",
+      "sha256": "cbb96bc393ab3cc352f029ac016c7d3472c9b28181893f6bdd9dd758da9a4c03"
+    },
+    "catalog-final-netlist.json": {
+      "path": "build/easyeda-native99/api/catalog-final-netlist.json",
+      "sha256": "d8afa0f144f0796e45d1c488d579f3ba7b22fc375aecb51b5266ad29150794bd"
+    }
+  }
+}

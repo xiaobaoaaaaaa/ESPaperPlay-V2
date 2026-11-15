@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+  "line_format": "segments",
+  "segments": 73,
+  "components": 16,
+  "counts": {
+    "same_net_junctions": 45
+  },
+  "findings": [],
+  "limitations": [
+    "Native crossing semantics require exported netlist verification.",
+    "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+    "Labels, titles and part text are not checked. Visual review remains required."
+  ]
+}

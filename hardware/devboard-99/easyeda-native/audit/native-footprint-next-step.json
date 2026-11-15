@@ -1,0 +1,2765 @@
+{
+  "status": "NATIVE_PCB_MANUFACTURING_ACTIONS_REQUIRED",
+  "date": "2026-11-16",
+  "scope": "Read-only comparison of downloaded native system-library footprints and current routed KiCad r14; no API, PCB/library modification or KiCad-library import. Native schematic pin-map PASS does not certify footprint geometry or PCB manufacturing.",
+  "baseline_board": {
+    "path": "hardware/devboard-99/ESPaperPlay_99.kicad_pcb",
+    "sha256": "2136b6520e0b6b788d457d15a675d74b80620af0b9293a27ef5916936eb90d1d",
+    "matches_reported_r14_sha256": true
+  },
+  "units": "Native v1.8 efoo lengths are interpreted as mil (0.0254mm), verified against known3mm/18mm footprint outlines. CANVAS mm is display only. Target PCB API coordinates must use its documented units, not raw efoo units. KiCad local coordinates are y-down; native source orientation/origin varies.",
+  "native_library_evidence": {
+    "U101": {
+      "path": "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/2acf4ae43e1643c9bcfc4472e2176fc0.efoo",
+      "sha256": "b7d6bc5d756dbf4e4d0582a16288fb4d2d32a7db63d37dfb65c8c543fd3a5706",
+      "footprint_uuid": "2acf4ae43e1643c9bcfc4472e2176fc0",
+      "title": "QFN-16_L3.0-W3.0-P0.50-TL-EP1.7",
+      "primitive_counts": {
+        "DOCTYPE": 1,
+        "HEAD": 1,
+        "CANVAS": 1,
+        "LAYER": 90,
+        "ACTIVE_LAYER": 1,
+        "LAYER_PHYS": 8,
+        "PREFERENCE": 1,
+        "ATTR": 1,
+        "FILL": 35,
+        "POLY": 11,
+        "PAD": 17
+      },
+      "pad_layer_counts": {
+        "TOP": 17
+      },
+      "actual_multilayer_pad_count": 0,
+      "region_count": 0,
+      "sample_pad_records": [
+        {
+          "id": "e48",
+          "number": "1",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -1.499997,
+            0.750189
+          ],
+          "angle_degrees": 0,
+          "shape": "OVAL",
+          "rect_size_mm": [
+            0.850011,
+            0.28001
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.05,
+          "top_paste_expansion_mm": -99.9998
+        },
+        {
+          "id": "e64",
+          "number": "17",
+          "layer": "TOP",
+          "origin_source_mm": [
+            0.000127,
+            0.000127
+          ],
+          "angle_degrees": 0,
+          "shape": "POLY",
+          "rect_size_mm": null,
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.05,
+          "top_paste_expansion_mm": -99.9998
+        }
+      ],
+      "source_locations": {
+        "e3": 106,
+        "e13": 116,
+        "e27": 130,
+        "e36": 139,
+        "e64": 167
+      },
+      "ep_copper_area_mm2": 2.7996951925338998,
+      "central_paste_area_mm2": 2.19388255335515,
+      "central_paste_coverage_percent": 78.36147874974735
+    },
+    "U802": {
+      "path": "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/6ccf392f5a0d435dad03396810446e53.efoo",
+      "sha256": "90abad104ee5b9c445c0767bf039b7394ca89c93d363717ff0c426e03402d551",
+      "footprint_uuid": "6ccf392f5a0d435dad03396810446e53",
+      "title": "TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5",
+      "primitive_counts": {
+        "DOCTYPE": 1,
+        "HEAD": 1,
+        "CANVAS": 1,
+        "LAYER": 90,
+        "ACTIVE_LAYER": 1,
+        "LAYER_PHYS": 8,
+        "PREFERENCE": 1,
+        "ATTR": 1,
+        "FILL": 35,
+        "POLY": 11,
+        "PAD": 17
+      },
+      "pad_layer_counts": {
+        "TOP": 17
+      },
+      "actual_multilayer_pad_count": 0,
+      "region_count": 0,
+      "sample_pad_records": [
+        {
+          "id": "e48",
+          "number": "1",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -0.748411,
+            -1.499997
+          ],
+          "angle_degrees": 180,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.250012,
+            0.599999
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.0508,
+          "top_paste_expansion_mm": -99.9998
+        },
+        {
+          "id": "e64",
+          "number": "17",
+          "layer": "TOP",
+          "origin_source_mm": [
+            0.000127,
+            -0.000127
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            1.499997,
+            1.499997
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.0508,
+          "top_paste_expansion_mm": -99.9998
+        }
+      ],
+      "source_locations": {
+        "e3": 106,
+        "e13": 116,
+        "e27": 130,
+        "e36": 139,
+        "e64": 167
+      }
+    },
+    "U803": {
+      "path": "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/29fc52aac206409391a7822d498d078b.efoo",
+      "sha256": "4ac266ae5060938fb35634314e07f18c6cff0f7a685023bd014022a82542ca50",
+      "footprint_uuid": "29fc52aac206409391a7822d498d078b",
+      "title": "MIC-SMD_7P-L4.0-W3.0-P2.15-TL",
+      "primitive_counts": {
+        "DOCTYPE": 1,
+        "HEAD": 1,
+        "CANVAS": 1,
+        "LAYER": 90,
+        "ACTIVE_LAYER": 1,
+        "LAYER_PHYS": 8,
+        "PREFERENCE": 1,
+        "ATTR": 1,
+        "FILL": 12,
+        "POLY": 13,
+        "PAD": 10
+      },
+      "pad_layer_counts": {
+        "TOP": 10
+      },
+      "actual_multilayer_pad_count": 0,
+      "region_count": 0,
+      "sample_pad_records": [
+        {
+          "id": "e27",
+          "number": "1",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -1.074928,
+            1.530731
+          ],
+          "angle_degrees": 0,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.599999,
+            0.399999
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.05,
+          "top_paste_expansion_mm": 0.0
+        },
+        {
+          "id": "e33",
+          "number": "4",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -0.462534,
+            -0.568325
+          ],
+          "angle_degrees": 0,
+          "shape": "POLY",
+          "rect_size_mm": null,
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.05,
+          "top_paste_expansion_mm": 0.0
+        },
+        {
+          "id": "e34",
+          "number": "4",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -0.481076,
+            -1.511935
+          ],
+          "angle_degrees": 0,
+          "shape": "POLY",
+          "rect_size_mm": null,
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.05,
+          "top_paste_expansion_mm": 0.0
+        },
+        {
+          "id": "e35",
+          "number": "4",
+          "layer": "TOP",
+          "origin_source_mm": [
+            0.462534,
+            -1.530731
+          ],
+          "angle_degrees": 0,
+          "shape": "POLY",
+          "rect_size_mm": null,
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.05,
+          "top_paste_expansion_mm": 0.0
+        },
+        {
+          "id": "e36",
+          "number": "4",
+          "layer": "TOP",
+          "origin_source_mm": [
+            0.48133,
+            -0.586867
+          ],
+          "angle_degrees": 0,
+          "shape": "POLY",
+          "rect_size_mm": null,
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.05,
+          "top_paste_expansion_mm": 0.0
+        }
+      ],
+      "source_locations": {
+        "e3": 106,
+        "e13": 116,
+        "e27": 130,
+        "e36": 139
+      },
+      "acoustic_circle_record": [
+        "FILL",
+        "e13",
+        0,
+        "",
+        12,
+        0.1,
+        0,
+        [
+          [
+            "CIRCLE",
+            0,
+            -41.315,
+            5.906
+          ]
+        ],
+        0
+      ]
+    },
+    "U301": {
+      "path": "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/bacdc9b3530d4b9ca5f35adac008b474.efoo",
+      "sha256": "b288d2bcc8820bdfd20ef98cd42ddc9fa315fe2c150450570eca0e6041118897",
+      "footprint_uuid": "bacdc9b3530d4b9ca5f35adac008b474",
+      "title": "WIRELM-SMD_ESP32-S3-WROOM-1",
+      "primitive_counts": {
+        "DOCTYPE": 1,
+        "HEAD": 1,
+        "CANVAS": 1,
+        "LAYER": 90,
+        "ACTIVE_LAYER": 1,
+        "LAYER_PHYS": 8,
+        "PREFERENCE": 1,
+        "ATTR": 1,
+        "FILL": 52,
+        "POLY": 23,
+        "PAD": 49
+      },
+      "pad_layer_counts": {
+        "TOP": 49
+      },
+      "actual_multilayer_pad_count": 0,
+      "region_count": 0,
+      "sample_pad_records": [
+        {
+          "id": "e77",
+          "number": "1",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -8.750046,
+            8.894953
+          ],
+          "angle_degrees": 0,
+          "shape": "RECT",
+          "rect_size_mm": [
+            1.499997,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": 0.050013,
+          "top_paste_expansion_mm": 0.0
+        },
+        {
+          "id": "e117",
+          "number": "41",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -0.100076,
+            -0.225171
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.899998,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        },
+        {
+          "id": "e118",
+          "number": "41",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -1.500124,
+            -0.225171
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.899998,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        },
+        {
+          "id": "e119",
+          "number": "41",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -2.900172,
+            -0.225171
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.899998,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        },
+        {
+          "id": "e120",
+          "number": "41",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -2.900172,
+            2.574925
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.899998,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        },
+        {
+          "id": "e121",
+          "number": "41",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -1.500124,
+            2.574925
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.899998,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        },
+        {
+          "id": "e122",
+          "number": "41",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -0.100076,
+            2.574925
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.899998,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        },
+        {
+          "id": "e123",
+          "number": "41",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -0.100076,
+            1.174877
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.899998,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        },
+        {
+          "id": "e124",
+          "number": "41",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -2.900172,
+            1.174877
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.899998,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        },
+        {
+          "id": "e125",
+          "number": "41",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -1.500124,
+            1.174877
+          ],
+          "angle_degrees": 90,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.899998,
+            0.899998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        }
+      ],
+      "source_locations": {
+        "e3": 106,
+        "e13": 116,
+        "e27": 130,
+        "e36": 139,
+        "e117": 220,
+        "e125": 228
+      }
+    },
+    "U203": {
+      "path": "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/2c6125140a7f4f7e895de1075aa2914e.efoo",
+      "sha256": "fbaaa2b23edb1adf876efee0c74b88e94b5aa7b370a4a41eff3d259ee28b0b83",
+      "footprint_uuid": "2c6125140a7f4f7e895de1075aa2914e",
+      "title": "TDFN-8_L2.0-W2.0-P0.50-BL-EP1.2",
+      "primitive_counts": {
+        "DOCTYPE": 1,
+        "HEAD": 1,
+        "CANVAS": 1,
+        "LAYER": 90,
+        "ACTIVE_LAYER": 1,
+        "LAYER_PHYS": 8,
+        "PREFERENCE": 1,
+        "ATTR": 1,
+        "FILL": 10,
+        "POLY": 7,
+        "PAD": 9
+      },
+      "pad_layer_counts": {
+        "TOP": 9
+      },
+      "actual_multilayer_pad_count": 0,
+      "region_count": 0,
+      "sample_pad_records": [
+        {
+          "id": "e19",
+          "number": "1",
+          "layer": "TOP",
+          "origin_source_mm": [
+            -0.750062,
+            -0.937514
+          ],
+          "angle_degrees": 0,
+          "shape": "RECT",
+          "rect_size_mm": [
+            0.28001,
+            0.424993
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        },
+        {
+          "id": "e27",
+          "number": "9",
+          "layer": "TOP",
+          "origin_source_mm": [
+            0.0,
+            0.0
+          ],
+          "angle_degrees": 0,
+          "shape": "RECT",
+          "rect_size_mm": [
+            1.199998,
+            0.799998
+          ],
+          "raw_hole_field_mm": [
+            0.001,
+            0.001
+          ],
+          "top_mask_expansion_mm": null,
+          "top_paste_expansion_mm": null
+        }
+      ],
+      "source_locations": {
+        "e3": 106,
+        "e27": 130
+      }
+    }
+  },
+  "r14_actual_footprints": {
+    "U301": {
+      "footprint": "ESPaperPlay:ESP32-S3-WROOM-1_030mm_PTH",
+      "board_position_mm": [
+        49.5,
+        6.75
+      ],
+      "board_rotation_deg": 0.0,
+      "relevant_pads": [
+        {
+          "number": "",
+          "local_xy_mm": [
+            -2.9,
+            1.06
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -2.9,
+            2.46
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -2.9,
+            3.86
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -1.5,
+            1.06
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -1.5,
+            2.46
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -1.5,
+            3.86
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -0.1,
+            1.06
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -0.1,
+            2.46
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -0.1,
+            3.86
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "1",
+          "local_xy_mm": [
+            -8.75,
+            -5.26
+          ],
+          "size_mm": [
+            1.5,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "9",
+          "local_xy_mm": [
+            -8.75,
+            4.9
+          ],
+          "size_mm": [
+            1.5,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "17",
+          "local_xy_mm": [
+            -4.445,
+            12.5
+          ],
+          "size_mm": [
+            1.5,
+            0.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -2.9,
+            1.76
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -2.9,
+            3.16
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -2.2,
+            1.06
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -2.2,
+            2.46
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -2.2,
+            3.86
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -1.5,
+            1.76
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -1.5,
+            2.46
+          ],
+          "size_mm": [
+            3.9,
+            3.9
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -1.5,
+            3.16
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -0.8,
+            1.06
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -0.8,
+            2.46
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -0.8,
+            3.86
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -0.1,
+            1.76
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "41",
+          "local_xy_mm": [
+            -0.1,
+            3.16
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        }
+      ],
+      "keepouts": [
+        {
+          "layers": [
+            "F.Cu",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu"
+          ],
+          "vertices_local_mm": [
+            [
+              -24.0,
+              -6.75
+            ],
+            [
+              24.0,
+              -6.75
+            ],
+            [
+              24.0,
+              -27.75
+            ],
+            [
+              -24.0,
+              -27.75
+            ]
+          ]
+        }
+      ]
+    },
+    "U803": {
+      "footprint": "ESPaperPlay:PUI_DMM_4026_B_I2S_R_7Pad_NPTH0.60",
+      "board_position_mm": [
+        7.0,
+        67.0
+      ],
+      "board_rotation_deg": 0.0,
+      "relevant_pads": [
+        {
+          "number": "",
+          "local_xy_mm": [
+            -1.075,
+            -1.58
+          ],
+          "size_mm": [
+            0.51,
+            0.34
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -1.075,
+            -0.93
+          ],
+          "size_mm": [
+            0.51,
+            0.34
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -1.075,
+            -0.28
+          ],
+          "size_mm": [
+            0.51,
+            0.34
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            0.0,
+            0.325
+          ],
+          "size_mm": [
+            0.15,
+            0.15
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            0.0,
+            1.0
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.6,
+            0.6
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "B.Mask",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 3
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            1.075,
+            -1.58
+          ],
+          "size_mm": [
+            0.51,
+            0.34
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            1.075,
+            -0.93
+          ],
+          "size_mm": [
+            0.51,
+            0.34
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            1.075,
+            -0.28
+          ],
+          "size_mm": [
+            0.51,
+            0.34
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "1",
+          "local_xy_mm": [
+            -1.075,
+            -1.58
+          ],
+          "size_mm": [
+            0.6,
+            0.4
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "attribute": 1
+        }
+      ],
+      "keepouts": [
+        {
+          "layers": [
+            "F.Cu",
+            "B.Cu",
+            "In1.Cu",
+            "In2.Cu"
+          ],
+          "vertices_local_mm": [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.490393,
+              1.097545
+            ],
+            [
+              0.46194,
+              1.191342
+            ],
+            [
+              0.415735,
+              1.277785
+            ],
+            [
+              0.353553,
+              1.353553
+            ],
+            [
+              0.277785,
+              1.415735
+            ],
+            [
+              0.191342,
+              1.46194
+            ],
+            [
+              0.097545,
+              1.490393
+            ],
+            [
+              0.0,
+              1.5
+            ],
+            [
+              -0.097545,
+              1.490393
+            ],
+            [
+              -0.191342,
+              1.46194
+            ],
+            [
+              -0.277785,
+              1.415735
+            ],
+            [
+              -0.353553,
+              1.353553
+            ],
+            [
+              -0.415735,
+              1.277785
+            ],
+            [
+              -0.46194,
+              1.191342
+            ],
+            [
+              -0.490393,
+              1.097545
+            ],
+            [
+              -0.5,
+              1.0
+            ],
+            [
+              -0.490393,
+              0.902455
+            ],
+            [
+              -0.46194,
+              0.808658
+            ],
+            [
+              -0.415735,
+              0.722215
+            ],
+            [
+              -0.353553,
+              0.646447
+            ],
+            [
+              -0.277785,
+              0.584265
+            ],
+            [
+              -0.191342,
+              0.53806
+            ],
+            [
+              -0.097545,
+              0.509607
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.097545,
+              0.509607
+            ],
+            [
+              0.191342,
+              0.53806
+            ],
+            [
+              0.277785,
+              0.584265
+            ],
+            [
+              0.353553,
+              0.646447
+            ],
+            [
+              0.415735,
+              0.722215
+            ],
+            [
+              0.46194,
+              0.808658
+            ],
+            [
+              0.490393,
+              0.902455
+            ]
+          ]
+        }
+      ]
+    },
+    "U203": {
+      "footprint": "Package_DFN_QFN:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm",
+      "board_position_mm": [
+        14.0,
+        48.0
+      ],
+      "board_rotation_deg": 0.0,
+      "relevant_pads": [
+        {
+          "number": "",
+          "local_xy_mm": [
+            -0.2,
+            -0.3
+          ],
+          "size_mm": [
+            0.32,
+            0.48
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -0.2,
+            0.3
+          ],
+          "size_mm": [
+            0.32,
+            0.48
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            0.2,
+            -0.3
+          ],
+          "size_mm": [
+            0.32,
+            0.48
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            0.2,
+            0.3
+          ],
+          "size_mm": [
+            0.32,
+            0.48
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "1",
+          "local_xy_mm": [
+            -0.9875,
+            -0.75
+          ],
+          "size_mm": [
+            0.775,
+            0.25
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "9",
+          "local_xy_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            0.8,
+            1.2
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "attribute": 1
+        }
+      ],
+      "keepouts": []
+    },
+    "U802": {
+      "footprint": "ESPaperPlay:Analog_MAX98357A_T1633-4_3x3mm_P0.5mm_EP1.23mm",
+      "board_position_mm": [
+        34.0,
+        71.0
+      ],
+      "board_rotation_deg": 90.0,
+      "relevant_pads": [
+        {
+          "number": "",
+          "local_xy_mm": [
+            -0.31,
+            -0.31
+          ],
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            -0.31,
+            0.31
+          ],
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            0.31,
+            -0.31
+          ],
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "",
+          "local_xy_mm": [
+            0.31,
+            0.31
+          ],
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "1",
+          "local_xy_mm": [
+            -1.425,
+            -0.75
+          ],
+          "size_mm": [
+            0.8,
+            0.3
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "9",
+          "local_xy_mm": [
+            1.425,
+            0.75
+          ],
+          "size_mm": [
+            0.8,
+            0.3
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "17",
+          "local_xy_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.23,
+            1.23
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "attribute": 1
+        }
+      ],
+      "keepouts": []
+    },
+    "U101": {
+      "footprint": "ESPaperPlay:TI_RGT0016C_VQFN_3x3mm_P0.5mm_EP1.68mm",
+      "board_position_mm": [
+        13.0,
+        32.0
+      ],
+      "board_rotation_deg": 0.0,
+      "relevant_pads": [
+        {
+          "number": "",
+          "local_xy_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            0.05,
+            0.05
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "1",
+          "local_xy_mm": [
+            -1.4,
+            -0.75
+          ],
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "9",
+          "local_xy_mm": [
+            1.4,
+            0.75
+          ],
+          "size_mm": [
+            0.6,
+            0.24
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "F.Paste"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "17",
+          "local_xy_mm": [
+            -0.63,
+            -0.63
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "B.Mask",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "17",
+          "local_xy_mm": [
+            -0.63,
+            0.63
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "B.Mask",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "17",
+          "local_xy_mm": [
+            0.0,
+            0.0
+          ],
+          "size_mm": [
+            1.68,
+            1.68
+          ],
+          "drill_mm": [
+            0.0,
+            0.0
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask"
+          ],
+          "attribute": 1
+        },
+        {
+          "number": "17",
+          "local_xy_mm": [
+            0.63,
+            -0.63
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "B.Mask",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        },
+        {
+          "number": "17",
+          "local_xy_mm": [
+            0.63,
+            0.63
+          ],
+          "size_mm": [
+            0.6,
+            0.6
+          ],
+          "drill_mm": [
+            0.3,
+            0.3
+          ],
+          "layers": [
+            "F.Cu",
+            "F.Mask",
+            "B.Cu",
+            "B.Mask",
+            "In1.Cu",
+            "In2.Cu",
+            "In3.Cu",
+            "In4.Cu",
+            "In5.Cu",
+            "In6.Cu",
+            "In7.Cu",
+            "In8.Cu",
+            "In9.Cu",
+            "In10.Cu",
+            "In11.Cu",
+            "In12.Cu",
+            "In13.Cu",
+            "In14.Cu",
+            "In15.Cu",
+            "In16.Cu",
+            "In17.Cu",
+            "In18.Cu",
+            "In19.Cu",
+            "In20.Cu",
+            "In21.Cu",
+            "In22.Cu",
+            "In23.Cu",
+            "In24.Cu",
+            "In25.Cu",
+            "In26.Cu",
+            "In27.Cu",
+            "In28.Cu",
+            "In29.Cu",
+            "In30.Cu"
+          ],
+          "attribute": 0
+        }
+      ],
+      "keepouts": []
+    }
+  },
+  "required_implementation": [
+    {
+      "ref": "U101",
+      "priority": "BLOCK_BEFORE_ROUTING_RELEASE",
+      "difference": "Native EP17 is an approximately 1.70mm chamfered polygon; native perimeter lands are approximately 0.85x0.28mm at 1.50mm radial centres. r14 uses square EP1.68mm and 0.60x0.24mm lands at1.40mm. Native has no four real thermal PTHs and has one large chamfered central paste opening, not the relieved r14 aperture.",
+      "implement": [
+        "Resolve land-pattern geometry against TI RGT0016C before applying r14 tolerance targets: select a matching existing native footprint or make explicit native instance geometry adjustments; never import the KiCad library. Generic native footprint title alone is insufficient.",
+        "Create four actual plated GND through vias/pads at local (±0.63,±0.63)mm after aligning EP centre. Drill0.30/land0.60mm, top and bottom openings Ø0.64mm (+0.020), no paste on holes, no resin fill/cap requirement.",
+        "Replace the central paste artwork with a single connected relieved aperture within1.55mm square; use the exact numerical construction and acceptance bounds in u101-process.json, independently recreated in native CAD. Disable the old central fill e36 so it cannot add back paste.",
+        "Connect EP and four holes solidly to GND; actual inner planes should cover each land plus0.10mm radial halo and reach outside local2.2mm review area.",
+        "Recompute native copper/mask/paste/hole union. The old0.102399mm mask bridge,0.172419mm foreign-copper gap,50.9685%coverage and0.020mm continuous tolerance clearance are not inherited."
+      ],
+      "target_parameters": {
+        "scope": "Recommended prototype candidate; acceptance conditions, not measured manufacturing result",
+        "center_local_mm": [
+          [
+            -0.63,
+            -0.63
+          ],
+          [
+            -0.63,
+            0.63
+          ],
+          [
+            0.63,
+            -0.63
+          ],
+          [
+            0.63,
+            0.63
+          ]
+        ],
+        "hole_nominal_mm": 0.3,
+        "via_land_mm": 0.6,
+        "via_local_mask_expansion_mm": 0.02,
+        "via_mask_diameter_mm": 0.64,
+        "unchanged_outer_pad_mask_expansion_mm": 0.05,
+        "nominal_via_to_peripheral_mask_bridge_mm": 0.10239235101626475,
+        "mask_registration_tolerance": "not publicly specified; not declared verified",
+        "hole_sweep_within_nominal_EP_plus_via_mask": true,
+        "paste_outer_square_mm": 1.55,
+        "stencil_thickness_mm": 0.1,
+        "manual_registration_limit_each_axis_mm": 0.03,
+        "hole_position_limit_each_axis_mm": 0.075,
+        "maximum_hole_mm": 0.43,
+        "aperture_edge_outward_error_limit_mm": 0.02,
+        "remaining_geometric_gap_mm": 0.02,
+        "minkowski_square_halfwidth_mm": 0.105,
+        "keepout_rounding_radius_nominal_mm": 0.255,
+        "conservative_polygon_radius_mm": 0.25500680039330276,
+        "area_mm2": 1.4385354820881864,
+        "EP_area_mm2": 2.8224,
+        "coverage_percent": 50.968519064915895,
+        "perimeter_mm": 5.788793894030478,
+        "area_ratio": 2.485034894007253,
+        "full_registration_and_edge_inset_from_EP_mm": 0.014999999999999902,
+        "vertex_count": 628,
+        "limits": [
+          "All quoted supplier figures must be accepted/checked for actual board/stencil; no country/order equivalence assumed",
+          "Microscope availability is not a measurement of 30um registration",
+          "No paste-slump, solder-wicking, voiding or thermal qualification",
+          "Local mask design check only; final exact Gerber and board DRC still required"
+        ],
+        "paste_nominal_coverage_is_not_minimum_finished_coverage": true,
+        "paste_area_edge_shrink_020_mm2": 1.324937093283091,
+        "paste_coverage_edge_shrink_020_percent": 46.94363284024558,
+        "paste_area_edge_growth_020_mm2": 1.5555634702232788,
+        "paste_coverage_edge_growth_020_percent": 55.11491887128964,
+        "via_nominal_annular_width_mm": 0.15,
+        "annular_independent_per_axis_stress_min_mm": -0.021066017177982135,
+        "annular_if_075_radial_stress_min_mm": 0.009999999999999995,
+        "annular_stress_caveat": "Supplier hole-position tolerance is not defined as independent drill-to-same-layer-copper offset; scope/correlation not established. Stress result is not proof of actual breakout or a closed annular-ring guarantee."
+      },
+      "parameter_sources": [
+        "hardware/devboard-99/review-r13/u101-process.json",
+        "hardware/devboard-99/review-r13/README.md: implemented modifications and tolerance table",
+        "hardware/devboard-99/tools/check_u101_r14_cam.py: four_standard_open_PTH_and_solid_connection; continuous_actual_paste_tolerance_envelope; actual_solid_GND_planes checks",
+        "https://www.ti.com/lit/ds/symlink/bq24074.pdf pp40/42/53; hardware/reference/power/bq24074.pdf",
+        "https://www.ti.com/lit/an/slua271c/slua271c.pdf §3.4/3.4.1"
+      ]
+    },
+    {
+      "ref": "U802",
+      "priority": "BLOCK_BEFORE_ROUTING_RELEASE",
+      "difference": "Native EP is1.50x1.50mm with single1.20x1.20mm paste window. Native peripheral copper is0.25x0.60mm at1.50mm radial centres. r14/ADI90-0031 RevC target EP1.23mm and0.30x0.80mm lands at1.425mm; four0.50mm paste windows. These are material land-pattern differences, not only a90degree symbol orientation.",
+      "implement": [
+        "Check actual MAX98357AETE+T/T1633+4 package versus native library. Resolve perimeter/EP mismatch before final routing, by a suitable existing native footprint or explicit native-instance edits.",
+        "Recreate four0.30/0.60mm external GND thermal vias and EP-to-GND3/11/15 copper connections. r14 local candidates are listed; apply pin-based rotation/translation and new-neighbour DRC, not absolute old coordinates.",
+        "Use covered0.30mm copper links to the first3 vias and0.60mm last-branch link; directly connect each via to continuous GND planes. Do not place these holes inside paste or request filled/capped vias.",
+        "If matching the1.23mm EP, use four0.50x0.50mm paste windows at(±0.31,±0.31)mm:1.00mm² total,66.10%nominal area. This is a project assembly candidate, not a forced ADI stencil specification.",
+        "First-board continuous playback and U802 temperature/limit testing remain required for the external-via low-power approach; no inherited JEDEC thermal resistance or filled-via equivalence."
+      ],
+      "r14_external_via_local_mm": [
+        [
+          -2.3,
+          0.25
+        ],
+        [
+          2.3,
+          -0.25
+        ],
+        [
+          -0.25,
+          -2.3
+        ],
+        [
+          2.4,
+          -1.05
+        ]
+      ],
+      "r14_external_via_board_mm": [
+        [
+          34.25,
+          73.3
+        ],
+        [
+          33.75,
+          68.7
+        ],
+        [
+          31.7,
+          71.25
+        ],
+        [
+          32.95,
+          68.6
+        ]
+      ],
+      "orientation_note": "For nominal library orientation, a Kicad local(x,y) maps approximately to native source(y,x); dimensions differ, so rerun geometry after actual instantiated pin alignment.",
+      "parameter_sources": [
+        "hardware/devboard-99/ESPaperPlay.pretty/Analog_MAX98357A_T1633-4_3x3mm_P0.5mm_EP1.23mm.kicad_mod",
+        "hardware/devboard-r0/review-r3/audio_epd/max-footprint-dimensions.json",
+        "hardware/devboard-99/review-r12/thermal-review.md: U802 candidate row and thermal limits",
+        "hardware/devboard-99/tools/check_r14_structure.py: external thermal via table",
+        "https://mds.analog.com/api/public/content/90-0031.pdf RevC",
+        "hardware/reference/power/max98357a.pdf p15 EP/GND"
+      ]
+    },
+    {
+      "ref": "U803",
+      "priority": "BLOCK_BEFORE_CAM_RELEASE",
+      "difference": "Native library has ten top-layer PAD primitives for seven numbers, including four polygon parts for GND4; no multilayer PAD or VIA. Its acoustic marker is e13 FILL on MULTI with CIRCLE centre(0,-41.315)mil and radius5.906mil, approximatelyØ0.300025mm. This is not proof of the required drilled0.60mm NPTH; require actual CAM/Excellon evidence. No REGION keepout exists.",
+      "implement": [
+        "Provide exactly one actualØ0.60mm NPTH at the port centre, finished tolerance±0.05mm. In this native source orientation its acoustic circle centre is(0,-1.049401)mm; obtain final board location from the instantiated geometry. Keep it non-plated and clear on all copper layers. Avoid duplicating a smaller hole if native conversion interprets the marker as a drill.",
+        "Create all-four-copper-layer circular keepout radius0.50mm at the same centre for tracks/vias/pours; intentional GND annulus is outside its interior.",
+        "Verify native four-part GND4 produces the continuous acoustic sealing annulus required by the chosen assembly: r14 target OD1.65/ID1.05mm. Do not assume same pad number means a continuous copper or solder seal.",
+        "Recreate controlled paste/mask: six signal windows0.51x0.34mm (85%of0.60x0.40mm copper), annular paste width0.255mm around mean radius0.675mm, solder-mask expansion0.025mm. Native current signal paste uses0 expansion/full copper, and mask0.050mm.",
+        "Verify actual NPTH drill file, paste clear of sound opening and no filled copper in the acoustic region; preserve no-clean/no-wash assembly and unobstructed bottom acoustic passage."
+      ],
+      "parameter_sources": [
+        "hardware/devboard-99/ESPaperPlay.pretty/PUI_DMM_4026_B_I2S_R_7Pad_NPTH0.60.kicad_mod",
+        "hardware/devboard-r0/review-r4/audio_boost/review.json: U803 closed/mechanical_interpretation",
+        "hardware/reference/peripherals/DMM-4026-B-I2S-R.pdf p6 dimensions",
+        "https://api.puiaudio.com/filename/DMM-4026-B-I2S-R.pdf"
+      ],
+      "scope_note": "Ø0.60±0.05 NPTH and paste/mask values are project engineering targets, not the microphone device port specification; device portØ0.25±0.05mm is a different quantity."
+    },
+    {
+      "ref": "U301",
+      "priority": "BLOCK_BEFORE_ROUTING_RELEASE",
+      "difference": "Native library has40 perimeter pads plus9 separate0.90x0.90mm SMD pads numbered41, no twelve real thermal holes and no native REGION antenna keepout. r14 PCB has solid3.90x3.90mm EP41 and12Ø0.30/0.60 plated holes.",
+      "implement": [
+        "Add functional all-four-layer antenna keepout and preserve antenna-over-board-edge orientation. r14 local rectangle is x[-24,+24],y[-27.75,-6.75]mm: excludes tracks, vias, pads, pours and other components. This corresponds to 15mm side/front clearance around the antenna, with lower edge at antenna start.",
+        "Map native placement using actual numbered pads: native and KiCad footprint origins differ. Approximate native source conversion is(x,-y+3.635mm), not direct coordinate copy. Keepout therefore roughly x±24mm,y[10.385,31.385]mm before component rotation/translation; align against antenna geometry and pads before use.",
+        "Create12 real through GND vias0.30/0.60mm in the EP region, connected solidly to continuous GND planes. Recreate any necessary solid3.90mm GND copper within the body rather than leaving9 unconnected SMD islands.",
+        "Explicitly resolve the centre-paste policy before stencil release: actual r14 contains9 independent0.90x0.90mm F.Paste windows (7.29mm²,47.93%of3.90²), whereas r12/14 narrative says EP no paste. Preserve intended no-centre-paste approach by suppressing all9 native automatic paste windows if that is the chosen assembly policy; alternatively qualify the9-window/open-via process. Do not claim existing r14 CAM is blank at EP.",
+        "No case metal, battery, speaker or cables may enter the antenna clearance even where the PCB board edge lies outside it; actual board outline remains99x99mm."
+      ],
+      "r14_thermal_local_mm": [
+        [
+          -2.9,
+          1.76
+        ],
+        [
+          -2.9,
+          3.16
+        ],
+        [
+          -2.2,
+          1.06
+        ],
+        [
+          -2.2,
+          2.46
+        ],
+        [
+          -2.2,
+          3.86
+        ],
+        [
+          -1.5,
+          1.76
+        ],
+        [
+          -1.5,
+          3.16
+        ],
+        [
+          -0.8,
+          1.06
+        ],
+        [
+          -0.8,
+          2.46
+        ],
+        [
+          -0.8,
+          3.86
+        ],
+        [
+          -0.1,
+          1.76
+        ],
+        [
+          -0.1,
+          3.16
+        ]
+      ],
+      "parameter_sources": [
+        "hardware/devboard-99/ESPaperPlay_99.kicad_pcb: actual U301 pads and keepout",
+        "hardware/devboard-99/ESPaperPlay.pretty/ESP32-S3-WROOM-1_030mm_PTH.kicad_mod: pads41 and zone",
+        "hardware/devboard-99/review-r12/thermal-review.md: U301 recommendation (no-paste prose conflicts with actual current footprint)",
+        "hardware/reference/mcu-usb/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf: recommended land pattern and EPAD soldering is optional; correct paste amount required",
+        "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+      ]
+    },
+    {
+      "ref": "U203",
+      "priority": "IMPLEMENT_AND_RECHECK",
+      "difference": "Native EP1.20x0.80mm is rotationally equivalent to r14 EP0.80x1.20mm, but native signal lands0.28x0.425mm differ from r14 0.25x0.775mm. Native EP paste follows the board rule (null override), with no explicit four-window relief; actual generated paste remains unverified. No external thermal vias are part of native library.",
+      "implement": [
+        "Verify smaller native signal lands against MAX17048 package/land guidance; do not infer complete geometry equivalence from EP dimensions.",
+        "Add two actual0.30/0.60mm GND vias beyond EP/paste, r14 local(0,±1.30)mm with0.60mm copper necks. For current native orientation these are approximately(±1.30,0)mm, and keep the necks away from signal pads.",
+        "Use solid plane connection and preserve paste-free holes. Match the four-window EP paste candidate: r14 local centres(±0.20,±0.30)mm, windows0.32x0.48mm,64%nominal coverage; rotate into actual native pad orientation.",
+        "Check native mask/paste openings and foreign-net clearance after native placement."
+      ],
+      "parameter_sources": [
+        "hardware/devboard-99/ESPaperPlay_99.kicad_pcb: U203 EP9 and4 paste-only pads",
+        "hardware/devboard-99/review-r12/thermal-review.md: U203 external-via row",
+        "hardware/reference/power/max17048.pdf p6: EP to GND",
+        "hardware/reference/bom-r3/files/max17048-pin2571d.pdf"
+      ]
+    }
+  ],
+  "free_process_target": {
+    "board_mm": [
+      99,
+      99
+    ],
+    "layers": 4,
+    "quantity": 5,
+    "soldermask": "green",
+    "surface_finish_target": "OSP, subject to actual coupon",
+    "thickness_target_mm": 1.6,
+    "minimum_hole_mm": 0.3,
+    "normal_via_drill_land_mm": [
+      0.3,
+      0.6
+    ],
+    "minimum_nominal_annulus_mm": 0.15,
+    "minimum_track_clearance_mm": [
+      0.15,
+      0.15
+    ],
+    "copper_edge_mm": 0.3,
+    "hole_to_hole_edge_mm": 0.25,
+    "special_processes_to_avoid": [
+      "laser microvias",
+      "blind/buried vias",
+      "resin fill/copper cap",
+      "castellated board edge",
+      "unapproved special via processing"
+    ],
+    "eligibility_status": "Target only; coupon/order acceptance not established by this audit.",
+    "sources": [
+      "hardware/devboard-99/review-r12/manufacturing-constraints.md (U101 paragraphs superseded by r13)",
+      "https://www.jlc.com/portal/q7i37595.html (reviewed2026-11-16: <=10x10cm,5pcs,single-board,regular process,4Lgreen,EDA-specific coupon)",
+      "https://www.jlc.com/portal/q33i62511.html (reviewed2026-11-16: OSP replaces solder-finish coupons; ENIG coupon separate)"
+    ]
+  },
+  "native_release_checks": [
+    "Native four-layer99x99 outline and design-rule settings; explicitly check all footprint drill primitives as well as via objects.",
+    "Native DRC and connectivity after real routing and copper refill: no unrelated shorts/unconnected pins, and each GND thermal path reaches actual solid inner/back copper.",
+    "Independent native Gerber and plated/nonplated Excellon readback: exact U1014/U30112 thermal holes, U803one0.60 NPTH, minimum drills/rings, true layer keepouts, soldermask openings and stencil artwork.",
+    "Recalculate U101 continuous shifted-paste/hole envelope against native exported geometry, including chamfered EP if retained; no reuse of r14 pass flag.",
+    "Check library automatic paste plus explicit paste unions; avoid overlapping default/added stencil openings. Resolve U301 paste discrepancy explicitly.",
+    "Verify U802 actual MPN land pattern, external thermal paths, acoustic seal/hole, and antenna clearance using native placed footprint orientation.",
+    "Retain factory tolerances and first-board print/reflow/thermal/acoustic checks as unmeasured conditions; no fabrication or assembly release from this report."
+  ],
+  "primary_source_checks": {
+    "reviewed_online": [
+      "https://www.jlc.com/portal/q7i37595.html",
+      "https://www.jlc.com/portal/q33i62511.html",
+      "https://mds.analog.com/api/public/content/90-0031.pdf"
+    ],
+    "local_archived_sources_used": [
+      "hardware/reference/peripherals/DMM-4026-B-I2S-R.pdf",
+      "hardware/reference/mcu-usb/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+    ],
+    "unavailable_online": [
+      "https://www.jlc.com/portal/q7i37578.html/ timeout",
+      "PUI PDF tool reported unsupported octet-stream; local archived source available"
+    ]
+  },
+  "native_pcb_status": "Parent confirms the native PCB currently contains only its board outline. No completed native PCB manufacturing checks are claimed."
+}
