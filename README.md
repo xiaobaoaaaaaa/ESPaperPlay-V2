@@ -6,7 +6,7 @@
 
 ## 当前状态
 
-- **当前硬件开发：r13，99 × 99 mm。** [独立 KiCad 工程](hardware/devboard-99/README.md)已完成布局基线及 U101 普通热通孔 / 圆弧钢网修改，保留全部器件、接口与按键。已取消 U101 填平盖帽要求；公差分析附有印刷、钢网和工厂验收条件，尚未布线或制造放行。先在 KiCad 完成，再于嘉立创EDA新建原生工程重新设计。
+- **当前硬件开发：r14，99 × 99 mm。** [独立 KiCad 工程](hardware/devboard-99/README.md)已完成布线、双内层GND及CAD复核，原生DRC 0违规、0未连接、0原理图一致性问题；电源与SD路径、孔间距及U101实际CAM检查通过，USB两方向差分长度差已量化。保留全部器件、接口与按键；回流/参考面及制造装配条件见[r14记录](hardware/devboard-99/review-r14/README.md)，尚未制造或实板验证。后续于嘉立创EDA新建原生工程重新设计。
 - **固件：M0 骨架。** 应用宿主、活动租约、休眠准备契约、板级配置检查、双槽分区和串口演示已经实现；外设驱动、图形界面和网络应用尚待接入。
 - **保留基线：r10 PCB 制造整改完成。** 已移动64个近焊盘过孔，538个普通孔的双面阻焊间距达到≥0.20mm，11个IC热孔指定填平盖帽；官方USB/SD名义阻抗窗口检查通过。原理图r6/r5保持，DRC为0错误、0未连接；已更新独立制板、DIY钢网及203位回流/27位手焊文件，尚未下单或上电。见 [r10记录](docs/v2/hardware/pcb-dfm-r10.md)和[文件包](hardware/devboard-r0/output/manufacturing/r10-review/README.md)。这些制造文件不适用于当前 99 mm 板。
 - **首批准备r11：** 已按5块PCB、先焊2块及无框钢片整理[工厂审核规格、64种备料表与首板工作单](hardware/devboard-r0/output/manufacturing/r10-first-batch/README.md)。PCB保持r10，工厂回复、来料容量和实测仍待完成；现有M0不具备分域维护功能。
@@ -20,7 +20,7 @@
 | [v2/](v2/README.md) | 独立 ESP-IDF 固件、主机测试及板级元数据 |
 | [docs/v2/](docs/v2/README.md) | 架构、路线和软硬件设计记录 |
 | [hardware/devboard-r0/](hardware/devboard-r0/README.md) | KiCad r10基线、嘉立创迁移工程、项目库、检查器和评审记录 |
-| [hardware/devboard-99/](hardware/devboard-99/README.md) | 当前 r13：99 mm KiCad 布局、U101 普通热孔/钢网、公差与独立检查 |
+| [hardware/devboard-99/](hardware/devboard-99/README.md) | 当前 r14：99 mm KiCad 完整布线、接地平面、热孔/钢网及独立复核 |
 | [hardware/reference/](hardware/reference/) | 原厂来源、版本与 SHA-256；原始下载文件仅本地保存 |
 | [outputs/](outputs/) | 已审查的 BOM 工作簿 |
 

@@ -1,6 +1,6 @@
 # ESPaperPlay v2 设计与开发记录
 
-> 当前硬件（2026-11-15）：[r13 / 99 × 99 mm 独立 KiCad 工程](../../hardware/devboard-99/README.md)已完成布局基线及 U101 普通热孔 / 圆弧钢网修改，取消填平盖帽要求；公差与装配仍附验收条件，尚未布线。后续完成 KiCad，再于嘉立创EDA新建原生工程重新设计。
+> 当前硬件（2026-11-15）：[r14 / 99 × 99 mm 独立 KiCad 工程](../../hardware/devboard-99/README.md)已完成布线及CAD复核，原生DRC 0违规、0未连接；制造装配、回流/参考面与实板验证条件见[r14记录](../../hardware/devboard-99/review-r14/README.md)。后续于嘉立创EDA新建原生工程重新设计。
 
 > 保留基线：[r10制造整改](hardware/pcb-dfm-r10.md)已移动64孔并完成实际CAM/钢网复核，明确11个热孔填平盖帽，USB/SD官方名义窗口通过。原理图仍为r6绘图/r5电气；尚未下单或上电。
 
@@ -26,7 +26,7 @@
 | 软件总体设计与接口约束 | [architecture.md](architecture.md) |
 | 阶段目标与验收 | [roadmap.md](roadmap.md) |
 | 硬件方案与开发验证板 | [hardware/README.md](hardware/README.md) |
-| 当前 99 mm KiCad 布局与制造规则 | [hardware/devboard-99/README.md](../../hardware/devboard-99/README.md) |
+| 当前 99 mm KiCad 布线与制造复核 | [hardware/devboard-99/README.md](../../hardware/devboard-99/README.md) |
 | 开发板电源规格与关断要求 | [hardware/power-design-spec.md](hardware/power-design-spec.md) |
 | KiCad原理图r6、PCB r10与检查结果 | [hardware/devboard-r0/README.md](../../hardware/devboard-r0/README.md) |
 | 首批工厂审核、备料与上电准备 | [hardware/first-batch-preparation-r11.md](hardware/first-batch-preparation-r11.md) |

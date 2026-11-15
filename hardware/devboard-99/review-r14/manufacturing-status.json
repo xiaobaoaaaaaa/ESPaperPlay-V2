@@ -1,0 +1,279 @@
+{
+  "revision": "r14",
+  "status": "ROUTED_CAD_REVIEW_COMPLETE_WITH_DOCUMENTED_ENGINEERING_CONDITIONS",
+  "manufacturing_release": false,
+  "board_sha256": "2136b6520e0b6b788d457d15a675d74b80620af0b9293a27ef5916936eb90d1d",
+  "project_sha256": "5d0bb4cbdf0debfde3b0bbaa46beb881384e01f041e8320a8b961a606fbfbe6e",
+  "baseline_revision": "83b7d6b",
+  "native_DRC_violations": 0,
+  "native_ERC_violations": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "tracks": 2591,
+  "ordinary_vias": 665,
+  "critical_actual_F_B_transitions": 75,
+  "critical_return_target_2mm_exceptions": [
+    {
+      "uuid": "bdf38b10-43ee-4e79-af8b-4497ba21e1fb",
+      "net": "/USB_INPUT/USB_DP_PORT",
+      "position_mm": [
+        17.695,
+        7.91
+      ],
+      "kind": "F_B_transition_return_access_too_far",
+      "antipad_envelopes": {
+        "In1.Cu": {
+          "native_clearance_margin_mm": 0.1505,
+          "native_polygon_max_error_mm": 0.005,
+          "rounding_padding_mm": 2e-05,
+          "method": "Circumscribed128-quadrant polygon around circumcircle of nativeERROR_OUTSIDE clearance vertices",
+          "native_outer_vertex_radius_mm": 0.4543872879835015,
+          "circle_radius_mm": 0.4544072879835015,
+          "covers_native_clearance_polygon": true
+        },
+        "In2.Cu": {
+          "native_clearance_margin_mm": 0.1505,
+          "native_polygon_max_error_mm": 0.005,
+          "rounding_padding_mm": 2e-05,
+          "method": "Circumscribed128-quadrant polygon around circumcircle of nativeERROR_OUTSIDE clearance vertices",
+          "native_outer_vertex_radius_mm": 0.4543872879835015,
+          "circle_radius_mm": 0.4544072879835015,
+          "covers_native_clearance_polygon": true
+        }
+      },
+      "touches_same_net_tracks_on_outer_layers": {
+        "F.Cu": true,
+        "B.Cu": true
+      },
+      "actual_F_B_track_transition": true,
+      "nearest_GND_through_UUID": "7b74a88e-7960-4a4e-97af-73f84f224d1c",
+      "nearest_GND_through_position_mm": [
+        17.5,
+        10.175
+      ],
+      "nearest_GND_through_center_distance_mm": 2.2733785430499696,
+      "within_return_target": false,
+      "nearest_GND_actual_annular_plane_contact_mm2": {
+        "In1.Cu": 0.2120394319160594,
+        "In2.Cu": 0.2120394319160594
+      },
+      "through_object_kind": "via"
+    }
+  ],
+  "reference_edge_projection_conditions": [
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "3d0fffd8-7de2-4484-900a-b5d1e8b0daf9",
+      "net": "MIC_DATA",
+      "reference_layer": "In1.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.06131230664722115
+    },
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "b99be55f-2991-4587-be43-b75d8a148a46",
+      "net": "MIC_DATA",
+      "reference_layer": "In1.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.01741877045872448
+    },
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "3b4019cf-3261-4ffb-91d2-2bccabc2d36e",
+      "net": "MIC_DATA",
+      "reference_layer": "In2.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.0004869445546387323
+    },
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "4c61392e-b087-4685-9f36-efc7fb68b540",
+      "net": "I2S_WS",
+      "reference_layer": "In2.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.02862185149919578
+    },
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "e2e161af-ba0c-4796-8101-43fd1b83f0fc",
+      "net": "EPD_SCLK",
+      "reference_layer": "In2.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.0012060974595980666
+    },
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "ac80f31d-9ea8-4148-a32f-f4963d1e2d81",
+      "net": "I2S_BCLK",
+      "reference_layer": "In2.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.021968666484855875
+    },
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "c7c6692f-c0e9-4c77-b837-d3f9d2f879fb",
+      "net": "SD_D0",
+      "reference_layer": "In2.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.0004412033089267676
+    },
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "71a14b9a-e0f5-471d-8ab6-03e12640c1c9",
+      "net": "SD_D1",
+      "reference_layer": "In2.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.00089908508632708
+    },
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "72565a38-2dc8-4d87-b24c-3b7f8bbed20f",
+      "net": "SD_CARD_CMD",
+      "reference_layer": "In1.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.0015355654808466717
+    },
+    {
+      "kind": "reference_copper_gap_outside_own_antipad",
+      "track_uuid": "8927edfa-007a-4a57-88a9-7739f85f9573",
+      "net": "SD_CARD_CMD",
+      "reference_layer": "In1.Cu",
+      "centerline_gap_mm": 0.0,
+      "max_contiguous_gap_mm": 0,
+      "nominal_projection_void_mm2": 0.0016997537638003602
+    }
+  ],
+  "other_noncritical_return_geometry_reviews": [
+    {
+      "uuid": "07d2021a-fa4a-4d0a-af8f-72b55847ebc4",
+      "net": "3V3_AON",
+      "position_mm": [
+        50.7625,
+        35.925
+      ],
+      "nearest_GND_uuid": "099df62c-63de-4004-804f-0b6cac42c628",
+      "distance_mm": 2.003346804724533
+    },
+    {
+      "uuid": "a28c49aa-f65e-424b-8336-3874af13b351",
+      "net": "3V3_AON",
+      "position_mm": [
+        31.974999,
+        42.6
+      ],
+      "nearest_GND_uuid": "2bee92e7-c999-4dd0-a137-0b99307e2b45",
+      "distance_mm": 3.036547817835409
+    },
+    {
+      "uuid": "224d1e5a-32fb-42fb-bf3e-73f182ab3515",
+      "net": "/MCU_CORE/MCU_EN",
+      "position_mm": [
+        38.3951,
+        4.375
+      ],
+      "nearest_GND_uuid": "4df898f1-8fa0-4d17-98b9-a3180ee68d01",
+      "distance_mm": 2.5345688015913055
+    },
+    {
+      "uuid": "fa128f13-8bbb-4b4c-8a87-605913ef1130",
+      "net": "AUDIO_EN",
+      "position_mm": [
+        26.7625,
+        11.85
+      ],
+      "nearest_GND_uuid": "d032cf1e-aa1e-484d-861d-8823b7cd97cb",
+      "distance_mm": 3.7326165755405403
+    },
+    {
+      "uuid": "41453cbd-a250-4862-9e86-823de3b6bbf7",
+      "net": "I2C_AON_SDA",
+      "position_mm": [
+        56.7952,
+        34.4079
+      ],
+      "nearest_GND_uuid": "e8b30363-a81a-440a-b60d-2ffa98fbbbe3",
+      "distance_mm": 2.519989176564061
+    },
+    {
+      "uuid": "6af54f99-a3d6-4f79-9265-1c3c05909231",
+      "net": "SD_EN",
+      "position_mm": [
+        66.1001,
+        33.4517
+      ],
+      "nearest_GND_uuid": "3b04316c-fa89-40d7-9b73-37544a8b4fe6",
+      "distance_mm": 3.0570922295540908
+    },
+    {
+      "uuid": "37f1c61b-b871-4361-bc0e-c70d90edb7a6",
+      "net": "/POWER_INPUT_CHARGER/CHG_CE_N",
+      "position_mm": [
+        10.849999,
+        34.0
+      ],
+      "nearest_GND_uuid": "99e1130c-5cac-5f90-9f9d-0cf43ee70d8d",
+      "distance_mm": 2.046290067414928
+    },
+    {
+      "uuid": "25e266f2-18fd-45bd-9aa9-83bcfcc46b09",
+      "net": "PGOOD_N",
+      "position_mm": [
+        18.9445,
+        36.9512
+      ],
+      "nearest_GND_uuid": "59d7a2c1-349a-4833-9df9-0ebdae5d08e7",
+      "distance_mm": 3.2035712135053287
+    },
+    {
+      "uuid": "6178da2d-6003-4265-a67f-786a9376f52f",
+      "net": "TOUCH_IO_EN",
+      "position_mm": [
+        53.8775,
+        32.7491
+      ],
+      "nearest_GND_uuid": "44d8c98f-b3d8-566e-b6a3-55cbce9c36ac",
+      "distance_mm": 2.754824324707474
+    },
+    {
+      "uuid": "760b972b-fa95-4cec-bf7d-0089457d760b",
+      "net": "TOUCH_IO_EN",
+      "position_mm": [
+        85.5375,
+        46.75
+      ],
+      "nearest_GND_uuid": "aada99bd-560f-47e8-a44e-9c576eec37e1",
+      "distance_mm": 2.4680065336218227
+    }
+  ],
+  "unchanged_circuit": "240 footprints / 236 electrical components / 774 logical pins /181 nets; placement, pad geometry, pin assignment and DNP retained",
+  "charging": "R108 DNP, J105 open; configured current approximately0.701A",
+  "conditions": [
+    "Actual stackup/copper, factory annulus/mask/production-CAM acceptance and coupon eligibility unconfirmed.",
+    "U101 print registration each axis<=0.030mm and stencil edge error<=0.020mm require measurement; open-hole reflow/wicking and U101/U802 thermal tests pending.",
+    "Reference projection and path lengths are geometry checks, not impedance, eye/timing, EMI or real-board SI qualification.",
+    "Board not manufactured, assembled, powered or tested. No external upload/order; EasyEDA native recreation remains separate."
+  ],
+  "critical_return_exception_disposition": {
+    "uuid": "bdf38b10-43ee-4e79-af8b-4497ba21e1fb",
+    "measured_distance_mm": 2.2733785430499696,
+    "audit_target_mm": 2.0,
+    "threshold_not_relaxed": true,
+    "new_GND_via_search_land_edge_to_USB_trace_edge_min_mm": 0.5,
+    "nearest_existing_GND_via_position_mm": [
+      17.5,
+      10.175
+    ],
+    "nearest_existing_GND_land_edge_to_USB_trace_edge_mm_approx": 0.35002,
+    "nearest_existing_GND_hole_edge_to_USB_trace_edge_mm_approx": 0.50002,
+    "decision": "Preserve existing USB traces and GND via. Do not pull a new GND via to about0.25mm from one differential-leg trace merely to meet the2mm review target. The0.5mm search condition applies to newly added returns, not all existing vias. First-board USB behavior in both orientations remains unverified."
+  }
+}

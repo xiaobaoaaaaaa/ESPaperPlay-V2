@@ -1,0 +1,288 @@
+{
+  "status": "PASS_U101_ROUTED_CAM_SCOPE",
+  "scope": "Routed r14, U101 actual independent Gerber/Excellon local geometry and conditional continuous tolerance; not production qualification",
+  "checks": {
+    "U101_geometry_and_placement_retained_r13": {
+      "pass": true
+    },
+    "four_standard_open_PTH_and_solid_connection": {
+      "pass": true,
+      "positions_mm": [
+        [
+          -0.63,
+          -0.63
+        ],
+        [
+          -0.63,
+          0.63
+        ],
+        [
+          0.63,
+          -0.63
+        ],
+        [
+          0.63,
+          0.63
+        ]
+      ]
+    },
+    "EP17_solid_zone_override": {
+      "pass": true
+    },
+    "actual_F_Mask_matches_r13": {
+      "pass": true,
+      "symmetric_difference_mm2": 0.0
+    },
+    "actual_B_Mask_matches_r13": {
+      "pass": true,
+      "symmetric_difference_mm2": 0.0
+    },
+    "actual_F_Paste_matches_r13": {
+      "pass": true,
+      "symmetric_difference_mm2": 0.0
+    },
+    "actual_B_Paste_matches_r13": {
+      "pass": true,
+      "symmetric_difference_mm2": 0.0
+    },
+    "actual_paste_matches_native": {
+      "pass": true,
+      "area_mm2": 1.4385351128079977,
+      "EP_coverage_percent": 50.968505981008995
+    },
+    "no_bottom_paste_in_U101_region": {
+      "pass": true
+    },
+    "four_actual_Excellon_PTH_030": {
+      "pass": true,
+      "drills": [
+        {
+          "file": "r14-PTH.drl",
+          "center_mm": [
+            12.37,
+            31.37
+          ],
+          "diameter_mm": 0.3
+        },
+        {
+          "file": "r14-PTH.drl",
+          "center_mm": [
+            12.37,
+            32.63
+          ],
+          "diameter_mm": 0.3
+        },
+        {
+          "file": "r14-PTH.drl",
+          "center_mm": [
+            13.63,
+            31.37
+          ],
+          "diameter_mm": 0.3
+        },
+        {
+          "file": "r14-PTH.drl",
+          "center_mm": [
+            13.63,
+            32.63
+          ],
+          "diameter_mm": 0.3
+        }
+      ]
+    },
+    "nominal_paste_avoids_drills": {
+      "pass": true,
+      "gap_mm": 0.21000700000000094
+    },
+    "continuous_actual_paste_tolerance_envelope": {
+      "pass": true,
+      "minimum_gap_mm": 0.020001290352853116,
+      "overlap_mm2": 0.0,
+      "manual_print_alignment_each_axis_mm": 0.03,
+      "hole_position_each_axis_mm": 0.075,
+      "max_hole_diameter_mm": 0.43,
+      "stencil_edge_outward_mm": 0.02,
+      "target_gap_mm": 0.02,
+      "method": "Continuous square-plus-circumscribed-disk Minkowski envelope; no discrete translation sampling",
+      "circle_quad_segs": 512,
+      "secant_inflation": 1.0000011765496823
+    },
+    "open_holes_F_Mask": {
+      "pass": true,
+      "uncovered_hole_area_mm2": 0.0
+    },
+    "open_holes_B_Mask": {
+      "pass": true,
+      "uncovered_hole_area_mm2": 0.0
+    },
+    "actual_mask_bridge_min010": {
+      "pass": true,
+      "minimum_mm": 0.10239909855539642,
+      "per_pin": [
+        {
+          "pin": "1",
+          "gap_mm": 0.1024040981164237
+        },
+        {
+          "pin": "2",
+          "gap_mm": 0.16000000000000192
+        },
+        {
+          "pin": "3",
+          "gap_mm": 0.16000000000000192
+        },
+        {
+          "pin": "4",
+          "gap_mm": 0.10240409811642268
+        },
+        {
+          "pin": "5",
+          "gap_mm": 0.10239909855539642
+        },
+        {
+          "pin": "6",
+          "gap_mm": 0.15999999999999656
+        },
+        {
+          "pin": "7",
+          "gap_mm": 0.15999999999999656
+        },
+        {
+          "pin": "8",
+          "gap_mm": 0.10239909855539642
+        },
+        {
+          "pin": "9",
+          "gap_mm": 0.10240409811642269
+        },
+        {
+          "pin": "10",
+          "gap_mm": 0.16000000000000192
+        },
+        {
+          "pin": "11",
+          "gap_mm": 0.16000000000000192
+        },
+        {
+          "pin": "12",
+          "gap_mm": 0.1024040981164237
+        },
+        {
+          "pin": "13",
+          "gap_mm": 0.10239909855540703
+        },
+        {
+          "pin": "14",
+          "gap_mm": 0.15999999999999656
+        },
+        {
+          "pin": "15",
+          "gap_mm": 0.15999999999999656
+        },
+        {
+          "pin": "16",
+          "gap_mm": 0.10239909855540703
+        }
+      ]
+    },
+    "FCu_EP_four_PTH_lands_and_VSS8_same_copper_component": {
+      "pass": true,
+      "component_area_within_ROI_mm2": 3.265865211583665
+    },
+    "source_inner_GND_only_In1_Cu": {
+      "pass": true,
+      "zone_count": 1,
+      "alien_tracks": []
+    },
+    "actual_solid_GND_planes_around_all_four_PTH_In1_Cu": {
+      "pass": true,
+      "land_radius_mm": 0.3,
+      "required_solid_extension_mm": 0.1,
+      "uncovered_halo_mm2": 0.0,
+      "all_four_in_single_component": true,
+      "component_reaches_ROI_boundary": true
+    },
+    "source_inner_GND_only_In2_Cu": {
+      "pass": true,
+      "zone_count": 1,
+      "alien_tracks": []
+    },
+    "actual_solid_GND_planes_around_all_four_PTH_In2_Cu": {
+      "pass": true,
+      "land_radius_mm": 0.3,
+      "required_solid_extension_mm": 0.1,
+      "uncovered_halo_mm2": 0.0,
+      "all_four_in_single_component": true,
+      "component_reaches_ROI_boundary": true
+    },
+    "source_inputs_byte_unchanged": {
+      "pass": true
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "The ±0.03 mm local manual print registration limit requires inspection/acceptance; magnification availability is not a measurement of achieved alignment.",
+    "The conservative .43 mm hole /.075 mm each-axis position envelope is not a manufacturer certification of this via process.",
+    "Nominal annulus .15 mm; independently combining max hole and diagonal position offset gives .30-.215-sqrt(2)*.075 = -0.021066 mm, so this is not a guaranteed annular-ring proof.",
+    "Published solder-mask registration hard limit is not established; .1024 mm nominal bridge is only artwork geometry.",
+    "Open PTH solder wicking, paste transfer at roughly 51% nominal EP area, actual joint quality and thermal rise require first-board validation.",
+    "This script checks U101 CAM locally and inner reference intent only; full board DRC, power/SI review, order parameters and final CAM review remain separate."
+  ],
+  "input_hashes": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/final-project/ESPaperPlay_99.kicad_pcb": "2136b6520e0b6b788d457d15a675d74b80620af0b9293a27ef5916936eb90d1d",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/r13-baseline.kicad_pcb": "20e66b62a73244bf95a6b00d41ae58cbaeaa75fc03ff2fb05c80d0b6228b49d8",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/final-project/ESPaperPlay_99.kicad_pro": "5d0bb4cbdf0debfde3b0bbaa46beb881384e01f041e8320a8b961a606fbfbe6e",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/final-project/ESPaperPlay_99.kicad_dru": "aaea1251e5e15e9069559865eeee70d63c436d2e7a19be8cbaea4e3e4f9cac13"
+  },
+  "script_sha256": "3f54db2eced7505bafd62ccea7e1d53ffba505aec59ca06286e0f0e2ea7034d1",
+  "actual_cam": "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/final-cam/r14/cam",
+  "baseline_cam": "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/final-cam/r13/cam",
+  "actual_cam_hashes": {
+    "r14-F_Cu.gbr": "8447dfd407b0a30763018a1bb98c67839ded337d068bd67cbf4c1abd3b84a07a",
+    "r14-In1_Cu.gbr": "0741eb9718390dcac1bb3cdb44966105f705da62b18440a372075deacf06d587",
+    "r14-In2_Cu.gbr": "6348045036c85cfe1ebfd155787c9c7f6db37a9cd53f8641ee06b7534adfd0f1",
+    "r14-B_Cu.gbr": "1712f034949d062cb99e635746a920ba60ecb7df26e130b1096c636cda0e4cbf",
+    "r14-F_Paste.gbr": "c6acb92e309000f9da64813bd72e22f4ae5aa6c007ccdef3a4621ed0df139e58",
+    "r14-B_Paste.gbr": "106c4cdf85ccf3223af8ad7f3c04c2f6a10be02e396b6a57bf1ac40711066a87",
+    "r14-F_Mask.gbr": "25eda5cc4bc7b90e98a9b638f9dfb5d0711a17dbf30ecd32a6e25e98834bd880",
+    "r14-B_Mask.gbr": "144aed5c6b0d1b8361dc1f72339cbb19fcbbf7a90c5a1b9994d864b82ca8e886",
+    "r14-job.gbrjob": "933dd0a020078ec5cdba64bd31f32363344c33253ea693d70e55a5c64ca7f06a",
+    "r14-PTH.drl": "34738276f10b31de2e69d70893bd4339430e75e0423bf607826aba00d9a7f097",
+    "r14-NPTH.drl": "4d2cad4a60c515ec43ef83b5ce85534bc8fa7a2e94e9e28e27a4837c3239b240",
+    "r14-drill.rpt": "33e923f441b840ce5ab7410f9480bf3ab4e6f764ceeadee16b7a5a054f36583e"
+  },
+  "gerber_ROI_object_stats": {
+    "F.Cu": {
+      "objects_in_file": 3391,
+      "objects_intersecting_ROI": 65
+    },
+    "In1.Cu": {
+      "objects_in_file": 777,
+      "objects_intersecting_ROI": 9
+    },
+    "In2.Cu": {
+      "objects_in_file": 777,
+      "objects_intersecting_ROI": 9
+    },
+    "B.Cu": {
+      "objects_in_file": 1449,
+      "objects_intersecting_ROI": 20
+    },
+    "F.Mask": {
+      "objects_in_file": 815,
+      "objects_intersecting_ROI": 21
+    },
+    "B.Mask": {
+      "objects_in_file": 106,
+      "objects_intersecting_ROI": 4
+    },
+    "F.Paste": {
+      "objects_in_file": 716,
+      "objects_intersecting_ROI": 17
+    },
+    "B.Paste": {
+      "objects_in_file": 0,
+      "objects_intersecting_ROI": 0
+    }
+  }
+}

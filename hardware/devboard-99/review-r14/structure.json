@@ -1,0 +1,3444 @@
+{
+  "status": "PASS_STRUCTURE_REVIEW_PENDING",
+  "scope": "Native structure/connectivity/filled planes only; power-path, critical signal/reference paths, actual CAM/drill/mask and U101 continuous paste tolerance audits remain separate.",
+  "errors": [],
+  "reviews": [
+    {
+      "kind": "return_geometry_target_2mm",
+      "items": [
+        {
+          "uuid": "07d2021a-fa4a-4d0a-af8f-72b55847ebc4",
+          "net": "3V3_AON",
+          "position_mm": [
+            50.7625,
+            35.925
+          ],
+          "nearest_GND_uuid": "099df62c-63de-4004-804f-0b6cac42c628",
+          "distance_mm": 2.003346804724533
+        },
+        {
+          "uuid": "a28c49aa-f65e-424b-8336-3874af13b351",
+          "net": "3V3_AON",
+          "position_mm": [
+            31.974999,
+            42.6
+          ],
+          "nearest_GND_uuid": "2bee92e7-c999-4dd0-a137-0b99307e2b45",
+          "distance_mm": 3.036547817835409
+        },
+        {
+          "uuid": "224d1e5a-32fb-42fb-bf3e-73f182ab3515",
+          "net": "/MCU_CORE/MCU_EN",
+          "position_mm": [
+            38.3951,
+            4.375
+          ],
+          "nearest_GND_uuid": "4df898f1-8fa0-4d17-98b9-a3180ee68d01",
+          "distance_mm": 2.5345688015913055
+        },
+        {
+          "uuid": "fa128f13-8bbb-4b4c-8a87-605913ef1130",
+          "net": "AUDIO_EN",
+          "position_mm": [
+            26.7625,
+            11.85
+          ],
+          "nearest_GND_uuid": "d032cf1e-aa1e-484d-861d-8823b7cd97cb",
+          "distance_mm": 3.7326165755405403
+        },
+        {
+          "uuid": "41453cbd-a250-4862-9e86-823de3b6bbf7",
+          "net": "I2C_AON_SDA",
+          "position_mm": [
+            56.7952,
+            34.4079
+          ],
+          "nearest_GND_uuid": "e8b30363-a81a-440a-b60d-2ffa98fbbbe3",
+          "distance_mm": 2.519989176564061
+        },
+        {
+          "uuid": "6af54f99-a3d6-4f79-9265-1c3c05909231",
+          "net": "SD_EN",
+          "position_mm": [
+            66.1001,
+            33.4517
+          ],
+          "nearest_GND_uuid": "3b04316c-fa89-40d7-9b73-37544a8b4fe6",
+          "distance_mm": 3.0570922295540908
+        },
+        {
+          "uuid": "37f1c61b-b871-4361-bc0e-c70d90edb7a6",
+          "net": "/POWER_INPUT_CHARGER/CHG_CE_N",
+          "position_mm": [
+            10.849999,
+            34.0
+          ],
+          "nearest_GND_uuid": "99e1130c-5cac-5f90-9f9d-0cf43ee70d8d",
+          "distance_mm": 2.046290067414928
+        },
+        {
+          "uuid": "25e266f2-18fd-45bd-9aa9-83bcfcc46b09",
+          "net": "PGOOD_N",
+          "position_mm": [
+            18.9445,
+            36.9512
+          ],
+          "nearest_GND_uuid": "59d7a2c1-349a-4833-9df9-0ebdae5d08e7",
+          "distance_mm": 3.2035712135053287
+        },
+        {
+          "uuid": "6178da2d-6003-4265-a67f-786a9376f52f",
+          "net": "TOUCH_IO_EN",
+          "position_mm": [
+            53.8775,
+            32.7491
+          ],
+          "nearest_GND_uuid": "44d8c98f-b3d8-566e-b6a3-55cbce9c36ac",
+          "distance_mm": 2.754824324707474
+        },
+        {
+          "uuid": "760b972b-fa95-4cec-bf7d-0089457d760b",
+          "net": "TOUCH_IO_EN",
+          "position_mm": [
+            85.5375,
+            46.75
+          ],
+          "nearest_GND_uuid": "aada99bd-560f-47e8-a44e-9c576eec37e1",
+          "distance_mm": 2.4680065336218227
+        },
+        {
+          "uuid": "bdf38b10-43ee-4e79-af8b-4497ba21e1fb",
+          "net": "/USB_INPUT/USB_DP_PORT",
+          "position_mm": [
+            17.695,
+            7.91
+          ],
+          "nearest_GND_uuid": "7b74a88e-7960-4a4e-97af-73f84f224d1c",
+          "distance_mm": 2.2733785430499696
+        }
+      ],
+      "scope": "Review target; not a return-inductance or SI certificate"
+    }
+  ],
+  "checks": {
+    "physical_inventory": {
+      "pass": true,
+      "count": 240
+    },
+    "r13_footprints_placement_metadata_pad_geometry_and_UUIDs_preserved": {
+      "pass": true,
+      "changed": []
+    },
+    "all_footprint_keepouts_unchanged": {
+      "pass": true,
+      "changed": []
+    },
+    "U101_entire_footprint_semantics_retained_r13": {
+      "pass": true,
+      "normalization": "Only top-level/pad property ordering and explicit remove_unused_layers=no default; all geometry vertex order and other fields preserved"
+    },
+    "electrical_inventory_and_assignments": {
+      "pass": true,
+      "logical_pins": 774,
+      "nets": 181
+    },
+    "four_layers_front_assembly": {
+      "pass": true
+    },
+    "outline99mm": {
+      "pass": true,
+      "bounds_mm": [
+        0.0,
+        0.0,
+        99.0,
+        99.0
+      ]
+    },
+    "real_routing_present": {
+      "pass": true,
+      "tracks": 2591,
+      "vias": 665
+    },
+    "outer_only_signal_power_tracks": {
+      "pass": true,
+      "inner": []
+    },
+    "standard_through_vias_min030_060": {
+      "pass": true,
+      "violations": []
+    },
+    "minimum_track_width": {
+      "pass": true,
+      "minimum_mm": 0.15
+    },
+    "physical_pad_drills_min030": {
+      "pass": true,
+      "count": 118
+    },
+    "manufacturing_rules_not_relaxed": {
+      "pass": true,
+      "actual": {
+        "min_clearance": 0.15,
+        "min_track_width": 0.15,
+        "min_through_hole_diameter": 0.3,
+        "min_via_diameter": 0.6,
+        "min_via_annular_width": 0.15,
+        "min_hole_to_hole": 0.25,
+        "min_copper_edge_clearance": 0.3
+      }
+    },
+    "no_DRC_exclusions": {
+      "pass": true
+    },
+    "critical_DRC_checks_enabled": {
+      "pass": true
+    },
+    "filled_continuous_GND_In1.Cu": {
+      "pass": true,
+      "layer": "In1.Cu",
+      "zones": 1,
+      "all_GND": true,
+      "fresh": true,
+      "connected_regions": 1,
+      "coverage_fraction": 0.9261563423082485
+    },
+    "filled_continuous_GND_In2.Cu": {
+      "pass": true,
+      "layer": "In2.Cu",
+      "zones": 1,
+      "all_GND": true,
+      "fresh": true,
+      "connected_regions": 1,
+      "coverage_fraction": 0.9261563423082485
+    },
+    "eight_real_external_thermal_GND_vias": {
+      "pass": true,
+      "items": [
+        {
+          "name": "U201-TH1",
+          "position_mm": [
+            33.7,
+            29.0
+          ],
+          "matching_vias": [
+            "e254b8dd-6760-4b47-86fc-d2e133979d74"
+          ],
+          "both_planes_cover_030mm_land_radius": true,
+          "both_planes_cover_additional_0_05mm_halo": true
+        },
+        {
+          "name": "U201-TH2",
+          "position_mm": [
+            34.5,
+            29.0
+          ],
+          "matching_vias": [
+            "48582b0b-443c-4d85-8dcf-8d89ac7b5482"
+          ],
+          "both_planes_cover_030mm_land_radius": true,
+          "both_planes_cover_additional_0_05mm_halo": true
+        },
+        {
+          "name": "U203-TH1",
+          "position_mm": [
+            14.0,
+            46.7
+          ],
+          "matching_vias": [
+            "cf1c72e8-728f-4947-acb4-627cf89d0875"
+          ],
+          "both_planes_cover_030mm_land_radius": true,
+          "both_planes_cover_additional_0_05mm_halo": false
+        },
+        {
+          "name": "U203-TH2",
+          "position_mm": [
+            14.0,
+            49.3
+          ],
+          "matching_vias": [
+            "8bdf046e-1aed-4e9f-b5fa-7e0bd963df46"
+          ],
+          "both_planes_cover_030mm_land_radius": true,
+          "both_planes_cover_additional_0_05mm_halo": true
+        },
+        {
+          "name": "U802-TH1",
+          "position_mm": [
+            34.25,
+            73.3
+          ],
+          "matching_vias": [
+            "ebac8bed-1c42-459d-8b7e-e6ad0606990b"
+          ],
+          "both_planes_cover_030mm_land_radius": true,
+          "both_planes_cover_additional_0_05mm_halo": true
+        },
+        {
+          "name": "U802-TH2",
+          "position_mm": [
+            33.75,
+            68.7
+          ],
+          "matching_vias": [
+            "4b52bd70-2845-42f8-a3c4-c011d69694e4"
+          ],
+          "both_planes_cover_030mm_land_radius": true,
+          "both_planes_cover_additional_0_05mm_halo": true
+        },
+        {
+          "name": "U802-TH3",
+          "position_mm": [
+            31.7,
+            71.25
+          ],
+          "matching_vias": [
+            "f8ca0e2c-9dbf-46b6-8a3e-d68ac51d4a33"
+          ],
+          "both_planes_cover_030mm_land_radius": true,
+          "both_planes_cover_additional_0_05mm_halo": true
+        },
+        {
+          "name": "U802-TH4",
+          "position_mm": [
+            32.95,
+            68.6
+          ],
+          "matching_vias": [
+            "58fb0e0b-4c95-46ad-a8c8-29576f14ad91"
+          ],
+          "both_planes_cover_030mm_land_radius": true,
+          "both_planes_cover_additional_0_05mm_halo": true
+        }
+      ],
+      "scope": "Electrical copper geometry only; external thermal-via performance still requires first-board temperature tests"
+    },
+    "obsolete_thermal_reservations_removed": {
+      "pass": true
+    },
+    "operation_envelope_inventory_preserved": {
+      "pass": true
+    },
+    "all_ground_pads_in_EP17_native_connected_component": {
+      "pass": true,
+      "ground_pad_count": 220,
+      "unreached": []
+    },
+    "native_DRC_all_closed": {
+      "pass": true,
+      "violations": 0,
+      "unconnected": 0,
+      "schematic_parity": 0
+    },
+    "source_inputs_unchanged": {
+      "pass": true
+    }
+  },
+  "inner_planes": [
+    {
+      "layer": "In1.Cu",
+      "zones": 1,
+      "all_GND": true,
+      "fresh": true,
+      "connected_regions": 1,
+      "coverage_fraction": 0.9261563423082485
+    },
+    {
+      "layer": "In2.Cu",
+      "zones": 1,
+      "all_GND": true,
+      "fresh": true,
+      "connected_regions": 1,
+      "coverage_fraction": 0.9261563423082485
+    }
+  ],
+  "ground_return_transitions": [
+    {
+      "uuid": "949cd183-f410-40f0-9489-8220d80c00f8",
+      "net": "VIN_5V",
+      "position_mm": [
+        16.3108,
+        30.4279
+      ],
+      "nearest_GND_uuid": "f4ed7215-b3e9-4bfb-a476-2f6109068d3e",
+      "distance_mm": 1.2499868039303461
+    },
+    {
+      "uuid": "f5fa3522-3863-4ec4-b0c2-741563f9ce58",
+      "net": "VIN_5V",
+      "position_mm": [
+        15.599999,
+        28.099999
+      ],
+      "nearest_GND_uuid": "819f9ffd-a13f-40bf-b04b-38a1f57951a9",
+      "distance_mm": 0.9486845629617877
+    },
+    {
+      "uuid": "203db590-4bb8-44e8-97ba-38321616e611",
+      "net": "SD_CARD_CLK",
+      "position_mm": [
+        79.6,
+        23.625
+      ],
+      "nearest_GND_uuid": "27d9c03a-6018-408d-9d2f-4c6d217e7a56",
+      "distance_mm": 1.920936646534969
+    },
+    {
+      "uuid": "a0d98027-f313-43ce-846e-8abae62ee122",
+      "net": "SD_CARD_CLK",
+      "position_mm": [
+        76.3,
+        21.325
+      ],
+      "nearest_GND_uuid": "4130e6e0-ed46-4c6d-9166-dbe3c5f9f476",
+      "distance_mm": 1.3288410326295583
+    },
+    {
+      "uuid": "638717f7-9d1f-4c55-adcf-ed66289008a4",
+      "net": "MIC_DATA",
+      "position_mm": [
+        12.2334,
+        66.5484
+      ],
+      "nearest_GND_uuid": "412ef81c-9386-404f-ab96-b219f3220f72",
+      "distance_mm": 1.996392388785333
+    },
+    {
+      "uuid": "82743ae4-6b97-493b-93e9-735d39e0b6ff",
+      "net": "MIC_DATA",
+      "position_mm": [
+        36.8672,
+        48.4446
+      ],
+      "nearest_GND_uuid": "452e3572-bb51-4fe8-888e-b2b62d85d27d",
+      "distance_mm": 0.9999904099540212
+    },
+    {
+      "uuid": "89e3e6ae-825d-480b-b2fc-77fefb6124b3",
+      "net": "MIC_DATA",
+      "position_mm": [
+        46.8004,
+        22.7714
+      ],
+      "nearest_GND_uuid": "83344a50-16d4-4c21-b507-9177cdb6e751",
+      "distance_mm": 0.8000000000000007
+    },
+    {
+      "uuid": "be695642-ba4c-4ad8-9e8b-5759cf310464",
+      "net": "MIC_DATA",
+      "position_mm": [
+        39.7739,
+        22.3828
+      ],
+      "nearest_GND_uuid": "04229955-09fc-4d51-ac91-efd33638d8f1",
+      "distance_mm": 1.322838633394111
+    },
+    {
+      "uuid": "0652f02d-4833-426c-b091-99ad6f1d6afe",
+      "net": "3V3_AON",
+      "position_mm": [
+        49.4,
+        83.224999
+      ],
+      "nearest_GND_uuid": "90cd8391-1907-4216-950c-bc2edf054724",
+      "distance_mm": 0.7999818997958597
+    },
+    {
+      "uuid": "07d2021a-fa4a-4d0a-af8f-72b55847ebc4",
+      "net": "3V3_AON",
+      "position_mm": [
+        50.7625,
+        35.925
+      ],
+      "nearest_GND_uuid": "099df62c-63de-4004-804f-0b6cac42c628",
+      "distance_mm": 2.003346804724533
+    },
+    {
+      "uuid": "195d8082-b198-4ed0-ac4b-7b9acdcefdf8",
+      "net": "3V3_AON",
+      "position_mm": [
+        39.0,
+        47.8
+      ],
+      "nearest_GND_uuid": "452e3572-bb51-4fe8-888e-b2b62d85d27d",
+      "distance_mm": 1.4270692835318113
+    },
+    {
+      "uuid": "1ab96a87-880a-49ff-b613-2d7257a9ae7d",
+      "net": "3V3_AON",
+      "position_mm": [
+        32.52,
+        38.08
+      ],
+      "nearest_GND_uuid": "c52c6be8-b062-4d25-a077-074cb3890a41",
+      "distance_mm": 1.9499570995280942
+    },
+    {
+      "uuid": "1c83f111-c692-4472-9a86-3b4d222c6512",
+      "net": "3V3_AON",
+      "position_mm": [
+        36.0,
+        36.4
+      ],
+      "nearest_GND_uuid": "1ae7c73b-7604-489b-bfe8-9a9352912e5f",
+      "distance_mm": 0.7999723120208595
+    },
+    {
+      "uuid": "1e676de1-c447-48c9-aef8-7e2a64e10165",
+      "net": "3V3_AON",
+      "position_mm": [
+        38.4,
+        7.96
+      ],
+      "nearest_GND_uuid": "543973ba-22ae-4f63-8b31-df2c5b4e8f5a",
+      "distance_mm": 1.7500201627409866
+    },
+    {
+      "uuid": "25784b81-8bad-4ab7-b1dc-cdfcb96a3222",
+      "net": "3V3_AON",
+      "position_mm": [
+        42.3,
+        24.379999
+      ],
+      "nearest_GND_uuid": "00654b66-cf05-591b-be37-b1ddf94492bb",
+      "distance_mm": 1.3863625932637547
+    },
+    {
+      "uuid": "2c620772-5948-48a7-9038-e4c8395deb47",
+      "net": "3V3_AON",
+      "position_mm": [
+        21.874999,
+        42.9
+      ],
+      "nearest_GND_uuid": "509e1be2-7e44-4520-abe1-e079265ca01d",
+      "distance_mm": 0.7999815337874963
+    },
+    {
+      "uuid": "3557787c-766e-4190-8b39-7181107e9aa7",
+      "net": "3V3_AON",
+      "position_mm": [
+        13.740899,
+        67.875
+      ],
+      "nearest_GND_uuid": "63173cde-e187-4ed7-9c23-1529342316ef",
+      "distance_mm": 1.4999664996262478
+    },
+    {
+      "uuid": "46031e67-53b4-43e4-a083-376401ad7f49",
+      "net": "3V3_AON",
+      "position_mm": [
+        34.6,
+        37.7
+      ],
+      "nearest_GND_uuid": "ee1e85b9-54d5-4236-8ac1-a05d71b0c739",
+      "distance_mm": 1.9811612756158927
+    },
+    {
+      "uuid": "4f1323db-8a3e-43c2-a15a-11d88225603c",
+      "net": "3V3_AON",
+      "position_mm": [
+        38.3,
+        36.4
+      ],
+      "nearest_GND_uuid": "c442ec6e-e701-45ff-bda0-eb5e2b0ab817",
+      "distance_mm": 1.6000000000000014
+    },
+    {
+      "uuid": "5940979f-3fea-4177-b46e-ce482bb4efc1",
+      "net": "3V3_AON",
+      "position_mm": [
+        14.774999,
+        46.6
+      ],
+      "nearest_GND_uuid": "cf1c72e8-728f-4947-acb4-627cf89d0875",
+      "distance_mm": 0.7814239886265325
+    },
+    {
+      "uuid": "5f5146e6-5006-4f43-8f9d-d66ca11b4100",
+      "net": "3V3_AON",
+      "position_mm": [
+        21.174999,
+        48.4
+      ],
+      "nearest_GND_uuid": "150a174f-3a6c-4c72-b785-a38f0e6d67db",
+      "distance_mm": 0.7999732779293343
+    },
+    {
+      "uuid": "6e77096d-ece8-44a6-9aed-b7f0bca0ba22",
+      "net": "3V3_AON",
+      "position_mm": [
+        36.7,
+        37.3
+      ],
+      "nearest_GND_uuid": "1ae7c73b-7604-489b-bfe8-9a9352912e5f",
+      "distance_mm": 1.743810683531903
+    },
+    {
+      "uuid": "77e44c6f-5ab1-4116-8205-ecb99e3e185f",
+      "net": "3V3_AON",
+      "position_mm": [
+        52.5625,
+        35.725
+      ],
+      "nearest_GND_uuid": "099df62c-63de-4004-804f-0b6cac42c628",
+      "distance_mm": 1.9177586970210823
+    },
+    {
+      "uuid": "80fb6070-b161-4393-a8cb-5d7da44ea07b",
+      "net": "3V3_AON",
+      "position_mm": [
+        10.240899,
+        80.975
+      ],
+      "nearest_GND_uuid": "ab7a313b-4156-4fe5-b047-718d921a828d",
+      "distance_mm": 0.7999713461124757
+    },
+    {
+      "uuid": "96594d42-6b74-4d5c-840d-bba32ff5a09d",
+      "net": "3V3_AON",
+      "position_mm": [
+        40.0,
+        47.1
+      ],
+      "nearest_GND_uuid": "4d7122e8-afcd-413f-baa7-abd75d67dc68",
+      "distance_mm": 0.8000206122344594
+    },
+    {
+      "uuid": "9921c96f-4fa2-4e27-aeb9-deea9a8664d0",
+      "net": "3V3_AON",
+      "position_mm": [
+        48.825,
+        72.475
+      ],
+      "nearest_GND_uuid": "79f4142a-39fb-4c60-b6ac-e9ff5c46f500",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "a28c49aa-f65e-424b-8336-3874af13b351",
+      "net": "3V3_AON",
+      "position_mm": [
+        31.974999,
+        42.6
+      ],
+      "nearest_GND_uuid": "2bee92e7-c999-4dd0-a137-0b99307e2b45",
+      "distance_mm": 3.036547817835409
+    },
+    {
+      "uuid": "a695c2f3-3727-42c5-8861-da87242cbddb",
+      "net": "3V3_AON",
+      "position_mm": [
+        40.5,
+        22.179999
+      ],
+      "nearest_GND_uuid": "af6c0caa-0520-4b70-9d68-2c2368d35ab1",
+      "distance_mm": 0.7916525767033191
+    },
+    {
+      "uuid": "ab3ae1e6-aa9b-4390-8971-725fd146d976",
+      "net": "3V3_AON",
+      "position_mm": [
+        16.374999,
+        34.999999
+      ],
+      "nearest_GND_uuid": "2e4393df-d35a-4add-bdc1-3e38d958456a",
+      "distance_mm": 1.2499990000003989
+    },
+    {
+      "uuid": "afd49ca6-1462-4ef8-a954-25f0023f328b",
+      "net": "3V3_AON",
+      "position_mm": [
+        14.774999,
+        49.7
+      ],
+      "nearest_GND_uuid": "8bdf046e-1aed-4e9f-b5fa-7e0bd963df46",
+      "distance_mm": 0.872137288505086
+    },
+    {
+      "uuid": "b5f6e094-c385-43e2-8266-57beb642222c",
+      "net": "3V3_AON",
+      "position_mm": [
+        50.1,
+        82.224999
+      ],
+      "nearest_GND_uuid": "90cd8391-1907-4216-950c-bc2edf054724",
+      "distance_mm": 1.516539824732938
+    },
+    {
+      "uuid": "b86102fc-da95-4dae-bb99-9603472f26ce",
+      "net": "3V3_AON",
+      "position_mm": [
+        45.825,
+        65.875
+      ],
+      "nearest_GND_uuid": "9d178b3a-b887-431c-a2c5-89baa78c09f0",
+      "distance_mm": 1.12527774349269
+    },
+    {
+      "uuid": "bebc01fa-98cc-4bbb-8f7d-ebbc4b7b2a5c",
+      "net": "3V3_AON",
+      "position_mm": [
+        36.4,
+        65.8
+      ],
+      "nearest_GND_uuid": "4649e7cb-929b-453e-9fbe-d3f6aa2320e0",
+      "distance_mm": 0.7999823998063997
+    },
+    {
+      "uuid": "c7cb1a34-2d18-4e8b-b000-4d7dac616a13",
+      "net": "3V3_AON",
+      "position_mm": [
+        11.974999,
+        24.799999
+      ],
+      "nearest_GND_uuid": "a39af27e-b927-4bcc-80f1-85994a70ee53",
+      "distance_mm": 1.589222781740182
+    },
+    {
+      "uuid": "c9b945d0-852b-4b2d-b31e-318cc5cbd2b6",
+      "net": "3V3_AON",
+      "position_mm": [
+        45.3,
+        66.1
+      ],
+      "nearest_GND_uuid": "9d178b3a-b887-431c-a2c5-89baa78c09f0",
+      "distance_mm": 1.029563014098705
+    },
+    {
+      "uuid": "ccf1e308-465e-4753-87c5-9c38a69da291",
+      "net": "3V3_AON",
+      "position_mm": [
+        31.6,
+        45.4
+      ],
+      "nearest_GND_uuid": "2bee92e7-c999-4dd0-a137-0b99307e2b45",
+      "distance_mm": 0.8000000000000007
+    },
+    {
+      "uuid": "ceb25b35-da03-42df-9b20-ec64b768321e",
+      "net": "3V3_AON",
+      "position_mm": [
+        17.774999,
+        50.4
+      ],
+      "nearest_GND_uuid": "d4b5eaef-bfc2-4fa4-affb-a560e20c0992",
+      "distance_mm": 0.7999725709054029
+    },
+    {
+      "uuid": "f45d465f-e332-473a-a3d8-9ce9a9181ff3",
+      "net": "3V3_AON",
+      "position_mm": [
+        36.7,
+        37.9
+      ],
+      "nearest_GND_uuid": "ee1e85b9-54d5-4236-8ac1-a05d71b0c739",
+      "distance_mm": 1.4577379737113252
+    },
+    {
+      "uuid": "fadf2290-b200-4373-bec9-092bd205b79b",
+      "net": "3V3_AON",
+      "position_mm": [
+        69.6,
+        39.0
+      ],
+      "nearest_GND_uuid": "cfc30777-c6b9-4bde-baf1-f3d7a1a66ad8",
+      "distance_mm": 1.513274595042156
+    },
+    {
+      "uuid": "fefb316f-2bb7-40bf-b3e7-f430a6c6b522",
+      "net": "3V3_AON",
+      "position_mm": [
+        32.2,
+        44.2
+      ],
+      "nearest_GND_uuid": "2bee92e7-c999-4dd0-a137-0b99307e2b45",
+      "distance_mm": 1.8439088914585764
+    },
+    {
+      "uuid": "1cbcab2b-2bdb-4244-8c69-6ba9eed89785",
+      "net": "SYS",
+      "position_mm": [
+        22.699999,
+        34.4
+      ],
+      "nearest_GND_uuid": "c9ca0512-c5f6-4502-8d1a-7371997e27d6",
+      "distance_mm": 0.7999713461124721
+    },
+    {
+      "uuid": "302b0fe6-426a-4c85-8ea2-d5c14172f59f",
+      "net": "SYS",
+      "position_mm": [
+        18.999999,
+        65.8
+      ],
+      "nearest_GND_uuid": "d6d719fb-54b4-46c1-a603-165c253581a8",
+      "distance_mm": 0.9999788657771729
+    },
+    {
+      "uuid": "39f6ccda-3a30-44fe-a2e0-4828118add7a",
+      "net": "SYS",
+      "position_mm": [
+        22.699999,
+        48.4
+      ],
+      "nearest_GND_uuid": "150a174f-3a6c-4c72-b785-a38f0e6d67db",
+      "distance_mm": 0.7802846886880438
+    },
+    {
+      "uuid": "c01b802c-7637-4fdc-a408-e62c3046dc17",
+      "net": "SYS",
+      "position_mm": [
+        23.899999,
+        33.2
+      ],
+      "nearest_GND_uuid": "5e355cca-8384-40aa-b4c5-75cd31be47ef",
+      "distance_mm": 0.8000213193415513
+    },
+    {
+      "uuid": "d86c5f18-4bcb-497a-83dc-cd08a5f88675",
+      "net": "SYS",
+      "position_mm": [
+        20.999999,
+        58.8
+      ],
+      "nearest_GND_uuid": "bd46c157-2a7f-435c-9b47-a55268f4ad82",
+      "distance_mm": 0.7999815337874963
+    },
+    {
+      "uuid": "f00261b8-bdf3-4022-bc74-2efd6f90bc12",
+      "net": "SYS",
+      "position_mm": [
+        22.199999,
+        75.8
+      ],
+      "nearest_GND_uuid": "f575f945-58be-4e24-9ee5-975d4a9dec81",
+      "distance_mm": 1.5392606208179946
+    },
+    {
+      "uuid": "11663934-f23f-4f6c-bc38-2c2c3d5620c4",
+      "net": "I2C_AON_SCL",
+      "position_mm": [
+        19.4284,
+        46.172
+      ],
+      "nearest_GND_uuid": "3dd318fb-bec4-4d5a-811f-1e54f7b88067",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "1a5ab3b9-c480-4570-9a9d-58fcbfad54fa",
+      "net": "I2C_AON_SCL",
+      "position_mm": [
+        52.8845,
+        26.9
+      ],
+      "nearest_GND_uuid": "1c2c3e0c-9135-40fb-9843-0b4185d701af",
+      "distance_mm": 1.7499478620804692
+    },
+    {
+      "uuid": "3eabdb7b-7d4c-485d-a7ad-083656fed5fb",
+      "net": "I2C_AON_SCL",
+      "position_mm": [
+        52.5625,
+        39.825
+      ],
+      "nearest_GND_uuid": "32b2fdef-e574-46df-ac9c-606443e9d904",
+      "distance_mm": 1.2658988901172168
+    },
+    {
+      "uuid": "4fcc4444-7eaf-4f4a-97a7-eba5d762e0ad",
+      "net": "I2C_AON_SCL",
+      "position_mm": [
+        49.7845,
+        25.5
+      ],
+      "nearest_GND_uuid": "e329348c-35ce-4cfc-bbbf-75ba0d2635d5",
+      "distance_mm": 1.4562972121102205
+    },
+    {
+      "uuid": "771f4278-f6ec-44c1-a23c-2cdf5eafac4a",
+      "net": "I2C_AON_SCL",
+      "position_mm": [
+        74.3014,
+        47.4999
+      ],
+      "nearest_GND_uuid": "ec025b35-8a65-4c97-a311-bd7edb360ee2",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "829d82b2-af7d-48f2-b409-eb4a75ac872d",
+      "net": "I2C_AON_SCL",
+      "position_mm": [
+        48.5316,
+        44.7825
+      ],
+      "nearest_GND_uuid": "9a001733-d336-46e5-9a2f-c73df3ec78fd",
+      "distance_mm": 0.8000000000000043
+    },
+    {
+      "uuid": "9b15b195-ab6d-4155-87f6-3f261542d36f",
+      "net": "I2C_AON_SCL",
+      "position_mm": [
+        51.0625,
+        38.425
+      ],
+      "nearest_GND_uuid": "099df62c-63de-4004-804f-0b6cac42c628",
+      "distance_mm": 1.2500233677815744
+    },
+    {
+      "uuid": "340bc571-e12b-4432-a902-3d864f58918e",
+      "net": "/CHARGE_TEMP/NTC_COLD_REF",
+      "position_mm": [
+        32.25,
+        49.3
+      ],
+      "nearest_GND_uuid": "e8431a38-bbdb-4ab7-800d-e2d8ae8deb8f",
+      "distance_mm": 0.7999823998063971
+    },
+    {
+      "uuid": "885f1cb7-6918-4adb-ae0a-95d29b3067d3",
+      "net": "/CHARGE_TEMP/NTC_COLD_REF",
+      "position_mm": [
+        32.25,
+        54.65
+      ],
+      "nearest_GND_uuid": "fc20ff36-d5a0-4916-823d-58ed8a7c139f",
+      "distance_mm": 0.8000000000000007
+    },
+    {
+      "uuid": "522a3267-7f33-4bf7-bbb7-a14f9ddbcfc3",
+      "net": "SD_CD_N",
+      "position_mm": [
+        72.8738,
+        34.0358
+      ],
+      "nearest_GND_uuid": "78203b57-1973-4b64-98ce-5faf5487d169",
+      "distance_mm": 1.205640112139602
+    },
+    {
+      "uuid": "4c9e5425-6f9e-4f73-8640-b34c1b3bfa37",
+      "net": "SD_CARD_D0",
+      "position_mm": [
+        71.4254,
+        27.5187
+      ],
+      "nearest_GND_uuid": "f58a9563-e906-4025-b51c-23ffa309638d",
+      "distance_mm": 0.8000206122344644
+    },
+    {
+      "uuid": "5f3d9d0e-116b-43f0-b998-09f31d461550",
+      "net": "SD_CARD_D0",
+      "position_mm": [
+        73.6961,
+        26.6808
+      ],
+      "nearest_GND_uuid": "916658cd-dae8-422f-9883-d0e0bc4e8483",
+      "distance_mm": 1.833712082089221
+    },
+    {
+      "uuid": "d9709c31-ddc2-4c6f-9bf0-3ac2a05270b3",
+      "net": "SD_CARD_D0",
+      "position_mm": [
+        77.476604,
+        26.414279
+      ],
+      "nearest_GND_uuid": "67e7b80c-3048-4a56-8b60-c9a812376031",
+      "distance_mm": 0.7999790000100007
+    },
+    {
+      "uuid": "224d1e5a-32fb-42fb-bf3e-73f182ab3515",
+      "net": "/MCU_CORE/MCU_EN",
+      "position_mm": [
+        38.3951,
+        4.375
+      ],
+      "nearest_GND_uuid": "4df898f1-8fa0-4d17-98b9-a3180ee68d01",
+      "distance_mm": 2.5345688015913055
+    },
+    {
+      "uuid": "845d28ba-f270-4b78-9f37-3991f9263704",
+      "net": "/MCU_CORE/MCU_EN",
+      "position_mm": [
+        10.112,
+        4.2747
+      ],
+      "nearest_GND_uuid": "c76f7a3c-75b9-4982-b5fa-bd6220f0ceaf",
+      "distance_mm": 0.7999723120208595
+    },
+    {
+      "uuid": "fef353ba-da17-41d8-a46f-1f3332b8701e",
+      "net": "/MCU_CORE/MCU_EN",
+      "position_mm": [
+        42.5828,
+        4.3296
+      ],
+      "nearest_GND_uuid": "30da32c7-7ffa-4783-8b71-6e602e68f9d5",
+      "distance_mm": 0.8000000000000043
+    },
+    {
+      "uuid": "18748630-b6ac-4e9f-8cc7-67a41c547efa",
+      "net": "AUDIO_EN",
+      "position_mm": [
+        10.5625,
+        55.85
+      ],
+      "nearest_GND_uuid": "431ef416-eeec-4cc6-9b26-2075debaadc3",
+      "distance_mm": 0.8000000000000007
+    },
+    {
+      "uuid": "21824cb7-c56c-4c1f-b973-51f4854336a6",
+      "net": "AUDIO_EN",
+      "position_mm": [
+        11.8625,
+        73.75
+      ],
+      "nearest_GND_uuid": "6cd20eb4-bb4d-4c89-811c-e3b545242af9",
+      "distance_mm": 0.7999999999999989
+    },
+    {
+      "uuid": "40171b8a-468d-4e1d-ba72-340da15c97f3",
+      "net": "AUDIO_EN",
+      "position_mm": [
+        24.6708,
+        85.9703
+      ],
+      "nearest_GND_uuid": "7b4c8dd6-65f1-42f3-940d-aa015045cf50",
+      "distance_mm": 0.7999723120208604
+    },
+    {
+      "uuid": "58c76cea-67e3-4f55-911e-ed2e3dfa5d8c",
+      "net": "AUDIO_EN",
+      "position_mm": [
+        41.9625,
+        6.05
+      ],
+      "nearest_GND_uuid": "82e8b247-cbea-490a-a972-a6b0c7f4f512",
+      "distance_mm": 0.7999823998063951
+    },
+    {
+      "uuid": "7007a85d-593a-418e-b107-d5cc79fd4427",
+      "net": "AUDIO_EN",
+      "position_mm": [
+        15.4501,
+        84.7182
+      ],
+      "nearest_GND_uuid": "0569ffe0-a751-48d5-aeb2-73b6064867ad",
+      "distance_mm": 1.6465239901076398
+    },
+    {
+      "uuid": "9924d105-4e50-4ad9-83df-29aa2dde91f7",
+      "net": "AUDIO_EN",
+      "position_mm": [
+        10.5625,
+        63.65
+      ],
+      "nearest_GND_uuid": "70e857da-9b0c-404f-885a-bc736252a0f9",
+      "distance_mm": 1.4914702075469009
+    },
+    {
+      "uuid": "9afa72b1-a18e-408a-94f8-a7f05d064b26",
+      "net": "AUDIO_EN",
+      "position_mm": [
+        37.1625,
+        6.75
+      ],
+      "nearest_GND_uuid": "543973ba-22ae-4f63-8b31-df2c5b4e8f5a",
+      "distance_mm": 0.8822237924699153
+    },
+    {
+      "uuid": "fa128f13-8bbb-4b4c-8a87-605913ef1130",
+      "net": "AUDIO_EN",
+      "position_mm": [
+        26.7625,
+        11.85
+      ],
+      "nearest_GND_uuid": "d032cf1e-aa1e-484d-861d-8823b7cd97cb",
+      "distance_mm": 3.7326165755405403
+    },
+    {
+      "uuid": "43cff063-e529-4420-b396-24170aa4d1fc",
+      "net": "KEY_MINUS_N",
+      "position_mm": [
+        59.8683,
+        74.1185
+      ],
+      "nearest_GND_uuid": "4bfe59b9-0635-4094-b39d-3bf60afcd7c9",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "5abea8cb-c6cb-412e-a602-2f1edf58bc00",
+      "net": "KEY_MINUS_N",
+      "position_mm": [
+        46.449999,
+        17.949999
+      ],
+      "nearest_GND_uuid": "36ab8e0b-2c1c-46c1-a0b1-621291601d2d",
+      "distance_mm": 0.7999990000006247
+    },
+    {
+      "uuid": "6dc8b6db-6075-4390-814f-600a67cd8976",
+      "net": "KEY_MINUS_N",
+      "position_mm": [
+        60.349999,
+        54.649999
+      ],
+      "nearest_GND_uuid": "32c2e8d0-61aa-4311-8293-bfcf3a286c33",
+      "distance_mm": 1.2500219535680157
+    },
+    {
+      "uuid": "71798f5b-a71f-4110-b010-65dcd3c076e2",
+      "net": "KEY_MINUS_N",
+      "position_mm": [
+        43.9308,
+        17.6283
+      ],
+      "nearest_GND_uuid": "5b6638a9-bd18-4d76-99dc-6e14a241000b",
+      "distance_mm": 1.6370666693815483
+    },
+    {
+      "uuid": "e1f4f1fb-1809-4f5f-b387-103e9d27b359",
+      "net": "KEY_MINUS_N",
+      "position_mm": [
+        58.7804,
+        91.1431
+      ],
+      "nearest_GND_uuid": "783a1f37-9e48-4089-b96c-bd69cbf5891a",
+      "distance_mm": 0.79998239980639
+    },
+    {
+      "uuid": "f7738d9b-81fa-427a-a875-421d8515f42d",
+      "net": "KEY_MINUS_N",
+      "position_mm": [
+        53.949999,
+        13.549999
+      ],
+      "nearest_GND_uuid": "a08486dd-4cd4-410c-872a-2d7932a58712",
+      "distance_mm": 0.7999837658365347
+    },
+    {
+      "uuid": "1949ab23-3a3c-4e92-b0cf-5e6a9200b9a8",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        45.45,
+        22.05
+      ],
+      "nearest_GND_uuid": "5e0a1d14-518d-4191-9896-ddab959e3a0d",
+      "distance_mm": 1.25
+    },
+    {
+      "uuid": "373b54d1-ee4d-4ac3-9f8f-83c2856c1364",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        41.9,
+        8.0
+      ],
+      "nearest_GND_uuid": "ac9d2a27-67d3-436d-b9ab-8e42d0cc4e9b",
+      "distance_mm": 0.7999823998063944
+    },
+    {
+      "uuid": "3a7edf24-f9b5-43d4-bb0a-4d3a622d410a",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        58.55,
+        31.55
+      ],
+      "nearest_GND_uuid": "06a10fcf-1fb5-4ed8-aa27-c202bfa02e25",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "458f6c2c-988e-4212-8708-8e3376060674",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        39.85,
+        23.25
+      ],
+      "nearest_GND_uuid": "af6c0caa-0520-4b70-9d68-2c2368d35ab1",
+      "distance_mm": 1.950059081156263
+    },
+    {
+      "uuid": "493e797b-cbbb-4104-9f12-25a4190dd716",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        45.45,
+        23.35
+      ],
+      "nearest_GND_uuid": "83344a50-16d4-4c21-b507-9177cdb6e751",
+      "distance_mm": 1.3684290701384565
+    },
+    {
+      "uuid": "5828d456-4f6f-4817-9c03-c71cb38281be",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        51.75,
+        26.25
+      ],
+      "nearest_GND_uuid": "e329348c-35ce-4cfc-bbbf-75ba0d2635d5",
+      "distance_mm": 1.696324237874353
+    },
+    {
+      "uuid": "8656a15a-1833-4864-8935-12f1083e844b",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        44.25,
+        26.35
+      ],
+      "nearest_GND_uuid": "bdd2128e-85cb-4e73-9cae-db5acd891993",
+      "distance_mm": 0.8000206122344594
+    },
+    {
+      "uuid": "a7ebbc58-f7fc-4518-8009-b832448de960",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        58.85,
+        46.85
+      ],
+      "nearest_GND_uuid": "3a615f8e-12f4-42f8-8c44-53924fc9f936",
+      "distance_mm": 1.2499868039303441
+    },
+    {
+      "uuid": "b550723b-cd19-4e96-88bd-8fb51ed251f6",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        49.05,
+        27.95
+      ],
+      "nearest_GND_uuid": "b8e79809-f2b4-4d3e-860f-91a4d2665636",
+      "distance_mm": 1.4421320951979417
+    },
+    {
+      "uuid": "b82531d5-1cff-46ad-9e4c-9307106956ab",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        62.35,
+        32.65
+      ],
+      "nearest_GND_uuid": "3b04316c-fa89-40d7-9b73-37544a8b4fe6",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "ca19730b-608b-4773-b4f4-bea235a0696a",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        63.25,
+        43.85
+      ],
+      "nearest_GND_uuid": "c8c33983-f9f8-4ad9-8106-85d8140f2085",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "f6a335f8-9ab5-4e05-8dab-f50e3b4c3357",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        53.55,
+        26.55
+      ],
+      "nearest_GND_uuid": "536c86c8-0c39-43d0-9c20-ac12075f4d8b",
+      "distance_mm": 1.950043858481138
+    },
+    {
+      "uuid": "fd9abbf9-47f6-4502-ad28-2c23cd79e371",
+      "net": "AMP_SHUTDOWN",
+      "position_mm": [
+        22.2154,
+        70.4123
+      ],
+      "nearest_GND_uuid": "c103a974-6737-49ff-8072-d5d65090af80",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "2a5a1c7c-889f-49b2-aa5e-7768af427781",
+      "net": "I2S_WS",
+      "position_mm": [
+        36.533,
+        15.21
+      ],
+      "nearest_GND_uuid": "06e6f18f-b8a8-4d2b-8c2e-14a73ae11065",
+      "distance_mm": 0.8000000000000043
+    },
+    {
+      "uuid": "5524d02a-7467-4499-8f0d-8fd8fee63ebe",
+      "net": "I2S_WS",
+      "position_mm": [
+        15.533,
+        52.71
+      ],
+      "nearest_GND_uuid": "a9aa4c3b-25cc-4477-97ca-066969f3afb1",
+      "distance_mm": 0.7999999999999989
+    },
+    {
+      "uuid": "6217b68a-c5e5-46bd-8eba-ffd902d6b096",
+      "net": "I2S_WS",
+      "position_mm": [
+        26.333,
+        41.41
+      ],
+      "nearest_GND_uuid": "7b2d4aa1-8bb8-4b13-8798-c0fd7fe20bdb",
+      "distance_mm": 0.7999723120208613
+    },
+    {
+      "uuid": "91b40c42-3052-4649-8fad-0d7c5596af6f",
+      "net": "I2S_WS",
+      "position_mm": [
+        27.833,
+        37.41
+      ],
+      "nearest_GND_uuid": "c2bd6d3d-f4e1-4a04-bb84-0e1de08685ba",
+      "distance_mm": 0.7999723120208578
+    },
+    {
+      "uuid": "b10de33d-5551-47b2-9ef6-d6f35c4fe3f4",
+      "net": "I2S_WS",
+      "position_mm": [
+        15.033,
+        70.91
+      ],
+      "nearest_GND_uuid": "4dae9623-4906-4794-b21b-daf15ffd942f",
+      "distance_mm": 1.9499999999999993
+    },
+    {
+      "uuid": "edea00df-8cf5-44e2-b385-c76bba667a14",
+      "net": "I2S_WS",
+      "position_mm": [
+        15.133,
+        67.91
+      ],
+      "nearest_GND_uuid": "3655cb55-2dfe-476e-9c56-f458008384bb",
+      "distance_mm": 1.140295575717103
+    },
+    {
+      "uuid": "eff12184-8b91-4193-87dc-94759011fea7",
+      "net": "I2S_WS",
+      "position_mm": [
+        19.25,
+        71.45
+      ],
+      "nearest_GND_uuid": "a67d9cbf-e694-4472-b3a2-db0a70f50733",
+      "distance_mm": 0.7648529270389175
+    },
+    {
+      "uuid": "30d2689d-3f54-4fea-8dad-70ec271a7604",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        53.32,
+        56.3
+      ],
+      "nearest_GND_uuid": "8f514f8b-4032-45e1-be97-21bce5ab8bb0",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "41e9cb5c-bc1f-41d2-8dc5-df9e369db2a4",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        51.82,
+        79.3
+      ],
+      "nearest_GND_uuid": "ca849204-f598-44e6-ae0f-418a08325a21",
+      "distance_mm": 1.5256637899615937
+    },
+    {
+      "uuid": "6f66d97d-f91a-4559-b61d-34b3832ae1c8",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        49.22,
+        56.1
+      ],
+      "nearest_GND_uuid": "0df4a438-8b03-424b-b72e-ce87f29a748a",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "7a4434cf-6a09-415c-817d-cd1e041694cd",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        63.9,
+        40.5
+      ],
+      "nearest_GND_uuid": "4d926156-2980-46e5-8492-7786a19dc7ba",
+      "distance_mm": 0.7999823998063935
+    },
+    {
+      "uuid": "ad0283bc-ae5e-4beb-9684-25baa5b7510e",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        43.3,
+        11.8
+      ],
+      "nearest_GND_uuid": "94d200ad-b85d-4c86-9d91-35d99a9546e2",
+      "distance_mm": 1.0
+    },
+    {
+      "uuid": "baf6ea50-0349-4023-a37c-3f4310f251c1",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        53.02,
+        67.0
+      ],
+      "nearest_GND_uuid": "6a269a88-1bb4-4d56-beec-3c8f4076834e",
+      "distance_mm": 1.6207714212682844
+    },
+    {
+      "uuid": "c85e0cd0-2657-42e0-8b1f-e031302e5943",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        52.0,
+        20.5
+      ],
+      "nearest_GND_uuid": "6149fb49-113f-4cd8-907e-e873c0286f25",
+      "distance_mm": 1.9499999999999993
+    },
+    {
+      "uuid": "d599ae34-c0f8-4b3e-8329-35acbd2b115e",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        54.0,
+        45.9
+      ],
+      "nearest_GND_uuid": "554f3824-b767-44da-b978-eb2d9807cbfa",
+      "distance_mm": 1.4866068747318493
+    },
+    {
+      "uuid": "dbf5b5b2-8fff-4f7f-8ecc-3a6292fbb2b3",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        61.8,
+        30.4
+      ],
+      "nearest_GND_uuid": "4363987b-e0c5-44db-805d-fe9503726314",
+      "distance_mm": 1.75
+    },
+    {
+      "uuid": "efc9a6e7-9524-4912-b9f1-c5a8406957c6",
+      "net": "EPD_MOSI",
+      "position_mm": [
+        60.0,
+        28.8
+      ],
+      "nearest_GND_uuid": "4363987b-e0c5-44db-805d-fe9503726314",
+      "distance_mm": 1.60078105935821
+    },
+    {
+      "uuid": "03556e57-a58c-4973-9195-95f258abe020",
+      "net": "EPD_SCLK",
+      "position_mm": [
+        42.4,
+        11.65
+      ],
+      "nearest_GND_uuid": "94d200ad-b85d-4c86-9d91-35d99a9546e2",
+      "distance_mm": 1.2379418403139935
+    },
+    {
+      "uuid": "2a76b790-65fc-45ae-8a8f-d1d7cbad210a",
+      "net": "EPD_SCLK",
+      "position_mm": [
+        40.4582,
+        60.4765
+      ],
+      "nearest_GND_uuid": "d344f287-6650-4c05-9b85-b9bb9fea2344",
+      "distance_mm": 1.0
+    },
+    {
+      "uuid": "43e518cb-cd91-4e0b-a662-2c171e44f99c",
+      "net": "EPD_SCLK",
+      "position_mm": [
+        48.1582,
+        73.3765
+      ],
+      "nearest_GND_uuid": "81453953-7c1e-5b8f-b39a-cae33cb9d07e",
+      "distance_mm": 1.5089478089052593
+    },
+    {
+      "uuid": "79ebf1ec-dad5-476f-847e-7c3f6f4e1fd3",
+      "net": "EPD_SCLK",
+      "position_mm": [
+        59.5,
+        46.1
+      ],
+      "nearest_GND_uuid": "3a615f8e-12f4-42f8-8c44-53924fc9f936",
+      "distance_mm": 1.9844437532971302
+    },
+    {
+      "uuid": "b483d007-5266-493f-a2dd-a4b36ecf480b",
+      "net": "EPD_SCLK",
+      "position_mm": [
+        57.1,
+        46.9
+      ],
+      "nearest_GND_uuid": "2e09c048-ec8d-41b6-94a4-961de8ca26ad",
+      "distance_mm": 0.7999723120208613
+    },
+    {
+      "uuid": "b57d9086-4db7-431c-a4d6-6e5fac6697bf",
+      "net": "EPD_SCLK",
+      "position_mm": [
+        53.8,
+        48.7
+      ],
+      "nearest_GND_uuid": "c45915a5-df12-4010-a1c1-e44dd92632a9",
+      "distance_mm": 1.0
+    },
+    {
+      "uuid": "e5053a34-c2e9-46ca-8a4c-082f370ef911",
+      "net": "EPD_SCLK",
+      "position_mm": [
+        51.6,
+        21.2
+      ],
+      "nearest_GND_uuid": "6149fb49-113f-4cd8-907e-e873c0286f25",
+      "distance_mm": 1.3124404748406684
+    },
+    {
+      "uuid": "f58d78f4-716e-45ae-8a38-05030f688fe3",
+      "net": "EPD_SCLK",
+      "position_mm": [
+        49.4582,
+        74.6765
+      ],
+      "nearest_GND_uuid": "65a3322e-40cf-43d5-8f1e-20ab5b7c55cd",
+      "distance_mm": 1.7993441833068022
+    },
+    {
+      "uuid": "10f0441d-3462-4be8-b3a0-f74ce38d654c",
+      "net": "EPD_CS",
+      "position_mm": [
+        54.7997,
+        67.96
+      ],
+      "nearest_GND_uuid": "e40d1b6a-712d-4c6d-8cb9-a281c42e285a",
+      "distance_mm": 0.7999823998063874
+    },
+    {
+      "uuid": "76a01d75-70d7-4352-bb6c-459be9fbbd5d",
+      "net": "EPD_CS",
+      "position_mm": [
+        51.9172,
+        66.3804
+      ],
+      "nearest_GND_uuid": "6a269a88-1bb4-4d56-beec-3c8f4076834e",
+      "distance_mm": 0.7693763708355047
+    },
+    {
+      "uuid": "bfdb82c6-23be-4533-837d-cb107a8c0eca",
+      "net": "EPD_CS",
+      "position_mm": [
+        42.3509,
+        18.0356
+      ],
+      "nearest_GND_uuid": "ba295414-02ed-41e0-b910-a6a172a3f6c0",
+      "distance_mm": 1.250023367781582
+    },
+    {
+      "uuid": "e710cd26-cadb-4086-a3b8-d67cc93cb74a",
+      "net": "EPD_CS",
+      "position_mm": [
+        55.0393,
+        25.8605
+      ],
+      "nearest_GND_uuid": "536c86c8-0c39-43d0-9c20-ac12075f4d8b",
+      "distance_mm": 1.2576112793705398
+    },
+    {
+      "uuid": "1d90f7fa-7276-4ba1-b2da-5ae5907f6886",
+      "net": "EPD_DC",
+      "position_mm": [
+        42.1012,
+        14.8647
+      ],
+      "nearest_GND_uuid": "5b6638a9-bd18-4d76-99dc-6e14a241000b",
+      "distance_mm": 1.7499478620804692
+    },
+    {
+      "uuid": "72ee36d8-c63d-4614-a3f3-11ba086973ae",
+      "net": "EPD_DC",
+      "position_mm": [
+        56.0647,
+        65.5746
+      ],
+      "nearest_GND_uuid": "e40d1b6a-712d-4c6d-8cb9-a281c42e285a",
+      "distance_mm": 1.900820812175624
+    },
+    {
+      "uuid": "75275a1e-09b9-4928-a084-36a8ff2884c4",
+      "net": "EPD_DC",
+      "position_mm": [
+        48.249999,
+        12.249999
+      ],
+      "nearest_GND_uuid": "b9cea8ef-341e-4ff4-adf2-a88bc9d0a763",
+      "distance_mm": 1.3268269643031814
+    },
+    {
+      "uuid": "8ea993e3-d721-47ca-a8e0-9bc7d1539e21",
+      "net": "EPD_DC",
+      "position_mm": [
+        58.649999,
+        59.549999
+      ],
+      "nearest_GND_uuid": "227c25c7-21fd-4950-ac55-71c413b3f757",
+      "distance_mm": 0.8000010000006267
+    },
+    {
+      "uuid": "a779d38d-9084-427f-bedb-f14e69c030d4",
+      "net": "EPD_DC",
+      "position_mm": [
+        44.849999,
+        14.849999
+      ],
+      "nearest_GND_uuid": "5b6638a9-bd18-4d76-99dc-6e14a241000b",
+      "distance_mm": 1.9626726297072548
+    },
+    {
+      "uuid": "ada1bff3-0e50-4991-91e7-bedd35cb02bc",
+      "net": "EPD_DC",
+      "position_mm": [
+        56.2184,
+        67.0781
+      ],
+      "nearest_GND_uuid": "e40d1b6a-712d-4c6d-8cb9-a281c42e285a",
+      "distance_mm": 1.0361025528392467
+    },
+    {
+      "uuid": "feccdeeb-a98f-4f74-aae9-1f099c1a3d31",
+      "net": "EPD_DC",
+      "position_mm": [
+        54.849999,
+        55.549999
+      ],
+      "nearest_GND_uuid": "8f514f8b-4032-45e1-be97-21bce5ab8bb0",
+      "distance_mm": 1.0466136058746778
+    },
+    {
+      "uuid": "4e945dcf-806e-4098-94d9-b2a3f71db521",
+      "net": "EPD_RST_N",
+      "position_mm": [
+        41.2773,
+        62.4333
+      ],
+      "nearest_GND_uuid": "d344f287-6650-4c05-9b85-b9bb9fea2344",
+      "distance_mm": 1.9651440278005083
+    },
+    {
+      "uuid": "967b8748-cb95-4ebc-bcac-27ec4318ad5e",
+      "net": "EPD_RST_N",
+      "position_mm": [
+        50.7,
+        22.199999
+      ],
+      "nearest_GND_uuid": "99ee591c-835c-41a7-b34b-ce15639a0667",
+      "distance_mm": 1.000001000000001
+    },
+    {
+      "uuid": "c58a0a76-9de0-4f45-b7f0-b9e0bb239f25",
+      "net": "EPD_RST_N",
+      "position_mm": [
+        42.101,
+        15.8
+      ],
+      "nearest_GND_uuid": "5b6638a9-bd18-4d76-99dc-6e14a241000b",
+      "distance_mm": 1.273938055793923
+    },
+    {
+      "uuid": "f36b61ac-64a9-43b9-8881-530b8fcd2012",
+      "net": "EPD_RST_N",
+      "position_mm": [
+        45.3,
+        45.399999
+      ],
+      "nearest_GND_uuid": "f7cde836-c5fc-43b1-8297-b1e22c147420",
+      "distance_mm": 0.8000213193415513
+    },
+    {
+      "uuid": "83ea0047-e47a-460a-be4a-4f1f5ce2babb",
+      "net": "EPD_BUSY",
+      "position_mm": [
+        45.1097,
+        26.9708
+      ],
+      "nearest_GND_uuid": "bdd2128e-85cb-4e73-9cae-db5acd891993",
+      "distance_mm": 1.426464570187423
+    },
+    {
+      "uuid": "94de080f-46ff-4190-8ed6-65ebf0e36488",
+      "net": "EPD_BUSY",
+      "position_mm": [
+        60.0932,
+        32.3981
+      ],
+      "nearest_GND_uuid": "4363987b-e0c5-44db-805d-fe9503726314",
+      "distance_mm": 1.9985669490912743
+    },
+    {
+      "uuid": "ba6d8bb0-f80a-4ff0-ac87-d3ee1f51db35",
+      "net": "EPD_BUSY",
+      "position_mm": [
+        58.8913,
+        73.4882
+      ],
+      "nearest_GND_uuid": "4bfe59b9-0635-4094-b39d-3bf60afcd7c9",
+      "distance_mm": 0.9916285040275898
+    },
+    {
+      "uuid": "e8142116-1940-4603-bccf-9f6ca211c4a8",
+      "net": "EPD_BUSY",
+      "position_mm": [
+        56.5182,
+        74.2995
+      ],
+      "nearest_GND_uuid": "15dde59b-082d-491b-bb2a-65fdf3b43c2d",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "1d540704-3c43-45a9-81e3-67c81beb7f6d",
+      "net": "I2C_AON_SDA",
+      "position_mm": [
+        17.8593,
+        38.8653
+      ],
+      "nearest_GND_uuid": "59d7a2c1-349a-4833-9df9-0ebdae5d08e7",
+      "distance_mm": 1.2499868039303461
+    },
+    {
+      "uuid": "41453cbd-a250-4862-9e86-823de3b6bbf7",
+      "net": "I2C_AON_SDA",
+      "position_mm": [
+        56.7952,
+        34.4079
+      ],
+      "nearest_GND_uuid": "e8b30363-a81a-440a-b60d-2ffa98fbbbe3",
+      "distance_mm": 2.519989176564061
+    },
+    {
+      "uuid": "cb2c6c07-81c8-40d1-93c0-940028c6ff1b",
+      "net": "I2C_AON_SDA",
+      "position_mm": [
+        77.8844,
+        39.9636
+      ],
+      "nearest_GND_uuid": "ac810a03-9ff0-4de3-8b7c-e9e71138075f",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "870ce315-574e-4145-82f8-181a1e994288",
+      "net": "I2S_BCLK",
+      "position_mm": [
+        16.8127,
+        69.2301
+      ],
+      "nearest_GND_uuid": "3655cb55-2dfe-476e-9c56-f458008384bb",
+      "distance_mm": 1.9733021309470005
+    },
+    {
+      "uuid": "b95ebdc6-cb11-49da-b830-025ff0a4af62",
+      "net": "TOUCH_RESET_N",
+      "position_mm": [
+        86.105,
+        47.25
+      ],
+      "nearest_GND_uuid": "aada99bd-560f-47e8-a44e-9c576eec37e1",
+      "distance_mm": 1.9780040444852394
+    },
+    {
+      "uuid": "c17aa2ea-d9b3-409f-8e26-bbcd4c467312",
+      "net": "TOUCH_RESET_N",
+      "position_mm": [
+        53.305,
+        20.45
+      ],
+      "nearest_GND_uuid": "2342408b-3134-4318-ad54-b9d81db16408",
+      "distance_mm": 1.7499614995764932
+    },
+    {
+      "uuid": "c22d29f7-2c40-4131-ae81-140739a28edf",
+      "net": "TOUCH_RESET_N",
+      "position_mm": [
+        57.005,
+        24.15
+      ],
+      "nearest_GND_uuid": "2f6d4f85-f095-4861-a504-7110bbe29479",
+      "distance_mm": 1.5757847886053458
+    },
+    {
+      "uuid": "ea4c951d-9e36-4766-a387-e7e53dbbe332",
+      "net": "TOUCH_RESET_N",
+      "position_mm": [
+        51.43,
+        21.95
+      ],
+      "nearest_GND_uuid": "6149fb49-113f-4cd8-907e-e873c0286f25",
+      "distance_mm": 0.7582216034906948
+    },
+    {
+      "uuid": "5f7661b4-499d-4caf-a58c-3e3161bc58af",
+      "net": "POWER_KEY_N",
+      "position_mm": [
+        58.663,
+        74.7488
+      ],
+      "nearest_GND_uuid": "4bfe59b9-0635-4094-b39d-3bf60afcd7c9",
+      "distance_mm": 1.8704294105899881
+    },
+    {
+      "uuid": "807ff1e0-d671-47a1-8cad-2203244f98f0",
+      "net": "POWER_KEY_N",
+      "position_mm": [
+        39.289,
+        89.3559
+      ],
+      "nearest_GND_uuid": "f4695a4c-1092-4d11-88e1-372a3dab8377",
+      "distance_mm": 0.7999823998063874
+    },
+    {
+      "uuid": "c3876acf-cdbb-4544-a845-711d9968740a",
+      "net": "SD_D0",
+      "position_mm": [
+        54.5,
+        18.1
+      ],
+      "nearest_GND_uuid": "89bbc2c6-4b6b-4729-8ce4-a0eefcc4aa94",
+      "distance_mm": 1.50000348332929
+    },
+    {
+      "uuid": "078e4ddb-f4b3-4bea-a663-86d9a31f0356",
+      "net": "SD_D1",
+      "position_mm": [
+        56.2,
+        17.3
+      ],
+      "nearest_GND_uuid": "8e7ab994-541e-48c4-a023-43d9b5d6190b",
+      "distance_mm": 1.950059081156263
+    },
+    {
+      "uuid": "a8f313cc-91ac-4882-a1f9-e6403dcfdd2b",
+      "net": "SD_D1",
+      "position_mm": [
+        60.9,
+        19.4
+      ],
+      "nearest_GND_uuid": "8680d609-2fcc-4595-9713-539b3ee0f8c2",
+      "distance_mm": 1.4999669996369915
+    },
+    {
+      "uuid": "6b18adc6-86c4-4024-aa25-d6d7aec36f7c",
+      "net": "/MCU_CORE/BOOT_N",
+      "position_mm": [
+        62.9,
+        27.8
+      ],
+      "nearest_GND_uuid": "527cbfb5-7b17-45d9-aac7-a6408f0eda82",
+      "distance_mm": 0.8000000000000043
+    },
+    {
+      "uuid": "6dcdf475-f495-43c9-91c1-d2ba91b2705c",
+      "net": "/MCU_CORE/BOOT_N",
+      "position_mm": [
+        76.1,
+        35.6
+      ],
+      "nearest_GND_uuid": "e50df486-0192-4e2a-bf45-0fd9abd0d851",
+      "distance_mm": 0.8000000000000114
+    },
+    {
+      "uuid": "9d84807f-ffb4-40aa-99ad-bf177fff64a9",
+      "net": "/MCU_CORE/BOOT_N",
+      "position_mm": [
+        62.3,
+        65.6
+      ],
+      "nearest_GND_uuid": "0f940d18-6bd7-4768-b38e-d0cd88fccd35",
+      "distance_mm": 0.8000000000000043
+    },
+    {
+      "uuid": "b37d4698-37f6-4119-ace9-b23776870d54",
+      "net": "/MCU_CORE/BOOT_N",
+      "position_mm": [
+        74.45,
+        37.25
+      ],
+      "nearest_GND_uuid": "bf3b2cba-5feb-4f9f-b85b-f4dc139f53c9",
+      "distance_mm": 1.9147419773953918
+    },
+    {
+      "uuid": "f3c84f20-71fd-4bf5-aacc-97db82c7e00a",
+      "net": "/MCU_CORE/BOOT_N",
+      "position_mm": [
+        69.2,
+        42.5
+      ],
+      "nearest_GND_uuid": "6759b57d-23fe-48fe-81e1-524e71e0e711",
+      "distance_mm": 0.7999723120208595
+    },
+    {
+      "uuid": "18490c57-db03-491e-aaaa-1ecc85904516",
+      "net": "SD_CMD",
+      "position_mm": [
+        61.4,
+        13.799999
+      ],
+      "nearest_GND_uuid": "1d07000a-f6ac-46e6-8eee-215e3ac87a79",
+      "distance_mm": 1.36542254192649
+    },
+    {
+      "uuid": "ec0ef911-50cb-454e-8baa-be4b4b2bca7a",
+      "net": "SD_CMD",
+      "position_mm": [
+        59.1,
+        23.499999
+      ],
+      "nearest_GND_uuid": "2f6d4f85-f095-4861-a504-7110bbe29479",
+      "distance_mm": 0.7999720531374833
+    },
+    {
+      "uuid": "646cb97b-519d-4f93-92eb-3c6c3b777aa2",
+      "net": "SD_D3",
+      "position_mm": [
+        61.4,
+        11.36
+      ],
+      "nearest_GND_uuid": "1d07000a-f6ac-46e6-8eee-215e3ac87a79",
+      "distance_mm": 1.499966999636993
+    },
+    {
+      "uuid": "7cdbfd49-5f3d-469f-be03-4cb0b7c72b86",
+      "net": "SD_D3",
+      "position_mm": [
+        61.3,
+        7.025
+      ],
+      "nearest_GND_uuid": "874ca37f-74ef-4f1b-bd5d-559b2c45ae46",
+      "distance_mm": 0.8355387483534242
+    },
+    {
+      "uuid": "532d9f9c-e894-4c02-9416-1203f8459989",
+      "net": "IOX_RESET_N",
+      "position_mm": [
+        50.06,
+        24.35
+      ],
+      "nearest_GND_uuid": "99ee591c-835c-41a7-b34b-ce15639a0667",
+      "distance_mm": 1.3160927019021136
+    },
+    {
+      "uuid": "9dcc3961-f67b-4f94-8238-f1dc24e072e0",
+      "net": "IOX_RESET_N",
+      "position_mm": [
+        44.56,
+        16.05
+      ],
+      "nearest_GND_uuid": "5b6638a9-bd18-4d76-99dc-6e14a241000b",
+      "distance_mm": 1.2225106829799102
+    },
+    {
+      "uuid": "abe298d8-2bd0-4c5c-8255-05469b80be9e",
+      "net": "IOX_RESET_N",
+      "position_mm": [
+        59.46,
+        6.35
+      ],
+      "nearest_GND_uuid": "11b95449-b74a-43e2-a369-ca602874f919",
+      "distance_mm": 1.75
+    },
+    {
+      "uuid": "cab34289-5a0e-4354-9b52-cff13dcceb1a",
+      "net": "IOX_RESET_N",
+      "position_mm": [
+        53.96,
+        9.75
+      ],
+      "nearest_GND_uuid": "426ca166-869e-4979-88b9-f35b87de164a",
+      "distance_mm": 0.7999823998063944
+    },
+    {
+      "uuid": "4fa792d0-b087-4d61-aa3e-d980fee007c6",
+      "net": "KEY_PLUS_N",
+      "position_mm": [
+        45.8593,
+        89.6161
+      ],
+      "nearest_GND_uuid": "3d02524a-08bf-4f96-bd34-a8c5408acd67",
+      "distance_mm": 0.7999823998063874
+    },
+    {
+      "uuid": "5b001e3f-c519-49ea-a2f5-b4d841c5ded9",
+      "net": "KEY_PLUS_N",
+      "position_mm": [
+        48.487,
+        93.4117
+      ],
+      "nearest_GND_uuid": "ce923c41-d9b6-4146-bbb7-2d7b3fe450bd",
+      "distance_mm": 0.9117926792862471
+    },
+    {
+      "uuid": "94d1e671-f720-4ef2-b835-8d8d4eba391f",
+      "net": "KEY_PLUS_N",
+      "position_mm": [
+        57.5688,
+        21.5079
+      ],
+      "nearest_GND_uuid": "2f6d4f85-f095-4861-a504-7110bbe29479",
+      "distance_mm": 1.9394708685618347
+    },
+    {
+      "uuid": "c415f49d-1537-4534-809c-851cb6932a18",
+      "net": "KEY_PLUS_N",
+      "position_mm": [
+        56.7853,
+        17.8356
+      ],
+      "nearest_GND_uuid": "83c49287-307f-4097-84ca-07547fd9d384",
+      "distance_mm": 1.249972499697493
+    },
+    {
+      "uuid": "fe965ee5-3c24-44a4-9a2a-7f95e6dc1cbe",
+      "net": "KEY_PLUS_N",
+      "position_mm": [
+        61.3109,
+        76.6373
+      ],
+      "nearest_GND_uuid": "1f6c2a4a-edbe-4278-9f09-423f61f041f5",
+      "distance_mm": 0.8526195517345341
+    },
+    {
+      "uuid": "24175dc6-1c44-4e1d-8914-955a2c91e77e",
+      "net": "SPEAKER_DATA",
+      "position_mm": [
+        61.7,
+        3.2
+      ],
+      "nearest_GND_uuid": "645ca8de-e48d-4f7e-927b-6f78a2a20360",
+      "distance_mm": 0.7999723120208608
+    },
+    {
+      "uuid": "2528aea6-44af-4384-8714-f7020d20eb1d",
+      "net": "SPEAKER_DATA",
+      "position_mm": [
+        25.2629,
+        72.9577
+      ],
+      "nearest_GND_uuid": "4f493480-4d65-4a92-8f32-7b227602c01c",
+      "distance_mm": 0.8000206122344569
+    },
+    {
+      "uuid": "83156096-c1b0-4880-b5aa-4a07280d4c2c",
+      "net": "SPEAKER_DATA",
+      "position_mm": [
+        52.1,
+        52.25
+      ],
+      "nearest_GND_uuid": "828e9854-d0ee-4e9a-8fec-5f8034ee71ce",
+      "distance_mm": 1.926282546772405
+    },
+    {
+      "uuid": "913d569b-a6c7-4b86-a536-4b5174bc09b2",
+      "net": "SPEAKER_DATA",
+      "position_mm": [
+        52.55,
+        59.6
+      ],
+      "nearest_GND_uuid": "da255038-f920-4daa-b1af-58571a18db35",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "a6de5543-dbf0-4fdf-b0ac-0bdb1c0114e6",
+      "net": "SPEAKER_DATA",
+      "position_mm": [
+        84.8,
+        20.6
+      ],
+      "nearest_GND_uuid": "27a9a953-d7b0-4629-a7bf-e1cf31cc62a5",
+      "distance_mm": 0.8000206122344644
+    },
+    {
+      "uuid": "cb6a7977-2e37-4b5d-84b4-2ab7f1ead3f5",
+      "net": "SPEAKER_DATA",
+      "position_mm": [
+        57.0,
+        5.3
+      ],
+      "nearest_GND_uuid": "1cdef1e7-5c6d-43b3-8ddd-d4d5363b7d7f",
+      "distance_mm": 0.7999723120208595
+    },
+    {
+      "uuid": "f1db9745-83a4-437e-a0fe-959f52e05d18",
+      "net": "SPEAKER_DATA",
+      "position_mm": [
+        48.0,
+        67.2125
+      ],
+      "nearest_GND_uuid": "89cbe1f8-528e-4c5d-b296-6e7dff6b2c4e",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "87ac4830-e09c-49e4-9fcb-6417f2d55ab0",
+      "net": "VBUS_SENSE_N",
+      "position_mm": [
+        47.9897,
+        12.9755
+      ],
+      "nearest_GND_uuid": "b9cea8ef-341e-4ff4-adf2-a88bc9d0a763",
+      "distance_mm": 0.8000206122344594
+    },
+    {
+      "uuid": "d1b34dcf-2090-4d12-a085-64078f103f8b",
+      "net": "VBUS_SENSE_N",
+      "position_mm": [
+        10.7307,
+        17.7296
+      ],
+      "nearest_GND_uuid": "1931cb57-a2a0-46c5-a6fd-d896d4e0dda2",
+      "distance_mm": 0.7999823998063935
+    },
+    {
+      "uuid": "88e3cdc5-d2be-4559-9706-2d8344d27a2d",
+      "net": "TOUCH_INT",
+      "position_mm": [
+        88.25,
+        29.6
+      ],
+      "nearest_GND_uuid": "1ad47c3f-06a8-49fe-8fba-4457bf8ed701",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "ef067c58-042c-4512-9d10-adea43ff965b",
+      "net": "TOUCH_INT",
+      "position_mm": [
+        56.6,
+        2.76
+      ],
+      "nearest_GND_uuid": "4ece40c5-4d39-4c5a-b8f4-6074b92db27a",
+      "distance_mm": 0.7999823998063951
+    },
+    {
+      "uuid": "0e508c40-5371-43bc-b1e9-6f920174b3d6",
+      "net": "USB_5V_PROTECTED",
+      "position_mm": [
+        22.799999,
+        13.199999
+      ],
+      "nearest_GND_uuid": "a8cadf64-bf82-49bc-a99e-e27345f9e678",
+      "distance_mm": 1.0000010000004993
+    },
+    {
+      "uuid": "78820ec0-b359-4a71-b449-12a9f3487f81",
+      "net": "USB_5V_PROTECTED",
+      "position_mm": [
+        18.099999,
+        14.009999
+      ],
+      "nearest_GND_uuid": "1b1eeda1-d4d4-40bc-855c-e9ca0f781ed2",
+      "distance_mm": 1.2499728657062905
+    },
+    {
+      "uuid": "b0d21d32-7deb-4492-953f-6fbfd5355a47",
+      "net": "USB_5V_PROTECTED",
+      "position_mm": [
+        6.299999,
+        14.609999
+      ],
+      "nearest_GND_uuid": "adef30d2-0af2-4f52-9461-7f21c33889dd",
+      "distance_mm": 0.8000010000006249
+    },
+    {
+      "uuid": "19073d45-f390-445e-9f6e-ffbe718e83af",
+      "net": "MIC_3V3",
+      "position_mm": [
+        14.8656,
+        50.6079
+      ],
+      "nearest_GND_uuid": "8bdf046e-1aed-4e9f-b5fa-7e0bd963df46",
+      "distance_mm": 1.5683959225909798
+    },
+    {
+      "uuid": "4d5d9496-720a-4797-92a0-58ca308ab306",
+      "net": "MIC_3V3",
+      "position_mm": [
+        35.476,
+        52.2215
+      ],
+      "nearest_GND_uuid": "d7fde6e5-c3da-409f-a234-c159e63a2aec",
+      "distance_mm": 1.5095821441710284
+    },
+    {
+      "uuid": "99cb0c37-0101-4630-b582-ab5bd6dd94da",
+      "net": "MIC_3V3",
+      "position_mm": [
+        33.576,
+        50.3215
+      ],
+      "nearest_GND_uuid": "e8431a38-bbdb-4ab7-800d-e2d8ae8deb8f",
+      "distance_mm": 0.8872454508195574
+    },
+    {
+      "uuid": "a9c5419c-d833-49fc-b60e-6579ba130e9e",
+      "net": "MIC_3V3",
+      "position_mm": [
+        36.676,
+        51.0215
+      ],
+      "nearest_GND_uuid": "03d17e22-cf37-4644-a41a-cfb3f7bbfd69",
+      "distance_mm": 0.8000206122344594
+    },
+    {
+      "uuid": "e2fc119b-b14b-414c-8269-3376e88bc3d4",
+      "net": "MIC_3V3",
+      "position_mm": [
+        34.976,
+        48.9215
+      ],
+      "nearest_GND_uuid": "c72071b7-bfec-4391-9baf-8339caf3b506",
+      "distance_mm": 0.7999723120208613
+    },
+    {
+      "uuid": "edbe91f9-0b3a-46bb-84c6-61c9f85a34d7",
+      "net": "MIC_3V3",
+      "position_mm": [
+        35.776,
+        47.7215
+      ],
+      "nearest_GND_uuid": "981e54cc-78b0-5832-ba97-03111dfcfc01",
+      "distance_mm": 1.7376012920114896
+    },
+    {
+      "uuid": "1661e194-9a86-4f51-827d-5a9043afdaa4",
+      "net": "CHG_N",
+      "position_mm": [
+        18.7976,
+        40.3064
+      ],
+      "nearest_GND_uuid": "70dc50f7-9a2f-404f-a216-2b992c45befd",
+      "distance_mm": 0.8000206122344644
+    },
+    {
+      "uuid": "18654c0a-0921-4537-aa51-7aff88a819d4",
+      "net": "CHG_N",
+      "position_mm": [
+        42.8224,
+        41.0824
+      ],
+      "nearest_GND_uuid": "6a823401-3d6a-4218-aefc-b668feec3a80",
+      "distance_mm": 1.2499724996974961
+    },
+    {
+      "uuid": "3a34463c-52b5-4a21-93e1-8f0dd415c687",
+      "net": "AMP_SYS",
+      "position_mm": [
+        30.5359,
+        89.2234
+      ],
+      "nearest_GND_uuid": "4e3cc6cf-4011-4b11-87d9-dfd18f051854",
+      "distance_mm": 0.7999823998063971
+    },
+    {
+      "uuid": "480a5d3c-4cf8-4d0f-8690-4a27e77d643e",
+      "net": "/USB_INPUT/USB_DM_PORT",
+      "position_mm": [
+        19.0,
+        10.1
+      ],
+      "nearest_GND_uuid": "7b74a88e-7960-4a4e-97af-73f84f224d1c",
+      "distance_mm": 1.5018738295875589
+    },
+    {
+      "uuid": "9c367b14-6798-4221-b494-7f5a1dbb0351",
+      "net": "/USB_INPUT/USB_DM_PORT",
+      "position_mm": [
+        17.25,
+        5.7
+      ],
+      "nearest_GND_uuid": "396daaa0-3c07-488a-9c16-50fa1be9a873",
+      "distance_mm": 1.0
+    },
+    {
+      "uuid": "b2a5c0fa-1fb4-4220-a960-2aa09829238b",
+      "net": "/AUDIO/I2S_WS_AUDIO",
+      "position_mm": [
+        30.7065,
+        70.1865
+      ],
+      "nearest_GND_uuid": "f8ca0e2c-9dbf-46b6-8a3e-d68ac51d4a33",
+      "distance_mm": 1.4553606082342658
+    },
+    {
+      "uuid": "fcd10884-93fb-4409-8c97-5c7bec9cdfda",
+      "net": "/AUDIO/I2S_WS_AUDIO",
+      "position_mm": [
+        21.2802,
+        68.1382
+      ],
+      "nearest_GND_uuid": "899bf463-fcb0-4f9a-9996-b45c1247177f",
+      "distance_mm": 0.8000206122344543
+    },
+    {
+      "uuid": "2bcd39a2-083a-4aba-8c57-983de88a49af",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        71.975,
+        37.549999
+      ],
+      "nearest_GND_uuid": "bf3b2cba-5feb-4f9f-b85b-f4dc139f53c9",
+      "distance_mm": 0.7999828998178711
+    },
+    {
+      "uuid": "3051df53-ba34-490c-bc8b-1bd9cf645420",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        67.9439,
+        22.0104
+      ],
+      "nearest_GND_uuid": "64c3c268-28a5-450d-81cf-52d736727248",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "345c8630-6c88-40d4-8c0a-98082d0b1540",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        70.4625,
+        13.7
+      ],
+      "nearest_GND_uuid": "61e07e56-90ca-420d-a4cb-1d5222f65044",
+      "distance_mm": 0.8000206122344644
+    },
+    {
+      "uuid": "38c3b20b-1efb-472b-a1ab-dd083277735d",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        70.4625,
+        15.5
+      ],
+      "nearest_GND_uuid": "3a06d582-8591-4a20-9f8f-0aee27f049db",
+      "distance_mm": 0.7999823998064006
+    },
+    {
+      "uuid": "553ca834-313a-4614-971c-a916e19d6d4f",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        52.775,
+        42.849999
+      ],
+      "nearest_GND_uuid": "915e79d1-8fc3-452c-8d6e-04819c2ecad3",
+      "distance_mm": 1.621186816934123
+    },
+    {
+      "uuid": "77946995-1a6c-4892-8500-be84ddfb9438",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        69.675,
+        30.949999
+      ],
+      "nearest_GND_uuid": "19c06721-45ae-48d9-ae13-e83f074160b2",
+      "distance_mm": 1.000001000000001
+    },
+    {
+      "uuid": "822d959c-8dc3-42fc-877f-2dc4cfcfc2ea",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        67.0375,
+        25.15
+      ],
+      "nearest_GND_uuid": "bd5e77b1-f84e-4025-a8ab-a73f1e10ab8d",
+      "distance_mm": 1.685205699610585
+    },
+    {
+      "uuid": "8f8dfb4c-4d2f-499d-a751-5f196656522b",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        67.0375,
+        23.15
+      ],
+      "nearest_GND_uuid": "be84d7ef-bb67-4347-8341-e16d84e0d0e8",
+      "distance_mm": 0.8000000000000114
+    },
+    {
+      "uuid": "a14665b5-e347-44ec-b09f-8529680ad043",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        68.475,
+        29.749999
+      ],
+      "nearest_GND_uuid": "7fb8880a-b180-4afc-a356-6c144db7bbdf",
+      "distance_mm": 0.7999832658255998
+    },
+    {
+      "uuid": "b4ed4cd9-5927-4af3-ab92-58438c190786",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        66.5832,
+        20.0811
+      ],
+      "nearest_GND_uuid": "c1ad31f9-d3a8-452d-9496-5a815c4b0708",
+      "distance_mm": 1.656283143064617
+    },
+    {
+      "uuid": "e48c59d5-ae74-4b1b-abd5-806a84d1f917",
+      "net": "SD_IO_EN",
+      "position_mm": [
+        70.3545,
+        25.0786
+      ],
+      "nearest_GND_uuid": "8bcf9310-5e51-4c59-b671-2a0e0b3d1e15",
+      "distance_mm": 0.7999723120208595
+    },
+    {
+      "uuid": "44780ada-aba8-4a7e-b187-2f36ce2c46af",
+      "net": "SD_CARD_D2",
+      "position_mm": [
+        71.5735,
+        17.8632
+      ],
+      "nearest_GND_uuid": "391dfce2-25b7-407f-b678-dcfea4d3ec7e",
+      "distance_mm": 0.7999823998063874
+    },
+    {
+      "uuid": "ab745ada-e424-4d23-9e62-dfa635bd17ad",
+      "net": "SD_CARD_D2",
+      "position_mm": [
+        69.7276,
+        11.0424
+      ],
+      "nearest_GND_uuid": "bbc7148a-a96e-415b-8d45-195c688f06ed",
+      "distance_mm": 0.7999823998063915
+    },
+    {
+      "uuid": "f4300c63-d036-4c84-8a2d-e93aba868cfa",
+      "net": "SD_CARD_D2",
+      "position_mm": [
+        76.6037,
+        17.5883
+      ],
+      "nearest_GND_uuid": "d456bcb7-46e5-40c9-b9e4-ba64c4f5766d",
+      "distance_mm": 1.8151613096361483
+    },
+    {
+      "uuid": "593d8272-f7fd-4aa9-b70e-702a0a7b0415",
+      "net": "SD_CARD_D3",
+      "position_mm": [
+        76.1589,
+        14.2132
+      ],
+      "nearest_GND_uuid": "895be08b-6f75-4958-8ef0-fe30402fa7a5",
+      "distance_mm": 1.6238323959079048
+    },
+    {
+      "uuid": "6854064b-a425-41f7-b997-cd85a435a242",
+      "net": "SD_CARD_D3",
+      "position_mm": [
+        74.9047,
+        13.0895
+      ],
+      "nearest_GND_uuid": "895be08b-6f75-4958-8ef0-fe30402fa7a5",
+      "distance_mm": 0.7999823998063874
+    },
+    {
+      "uuid": "96fa0642-8963-442d-8ef4-c924641d2e03",
+      "net": "SD_CARD_D3",
+      "position_mm": [
+        73.5055,
+        14.4343
+      ],
+      "nearest_GND_uuid": "bd390a89-cbbb-43fb-b8b3-397d3d34c8e4",
+      "distance_mm": 0.9999904099540137
+    },
+    {
+      "uuid": "a627cd63-f115-427d-b202-a04ccf8e5ad1",
+      "net": "SD_CARD_D3",
+      "position_mm": [
+        80.6978,
+        19.4458
+      ],
+      "nearest_GND_uuid": "5203121a-088f-4c9a-8f8b-7bcb01f464de",
+      "distance_mm": 1.2008382405636526
+    },
+    {
+      "uuid": "13fe240b-0a7f-44bc-a1b7-523cb050675a",
+      "net": "SD_3V3",
+      "position_mm": [
+        83.6942,
+        26.5775
+      ],
+      "nearest_GND_uuid": "9e4c47ed-6a96-4011-add8-1a9589f948bd",
+      "distance_mm": 1.25
+    },
+    {
+      "uuid": "224bcae4-701a-41f5-b25b-f1be4997f9e1",
+      "net": "SD_3V3",
+      "position_mm": [
+        65.9628,
+        21.3358
+      ],
+      "nearest_GND_uuid": "c1ad31f9-d3a8-452d-9496-5a815c4b0708",
+      "distance_mm": 0.7999823998064015
+    },
+    {
+      "uuid": "6e1e2f03-8e7e-4961-9c29-e08593ba2017",
+      "net": "SD_3V3",
+      "position_mm": [
+        77.8745,
+        28.4501
+      ],
+      "nearest_GND_uuid": "a12e0109-08c9-4af5-86eb-e0181340f28a",
+      "distance_mm": 1.25
+    },
+    {
+      "uuid": "8c050c6c-32cb-4a65-ad20-f02d91202c45",
+      "net": "SD_3V3",
+      "position_mm": [
+        67.8068,
+        24.825
+      ],
+      "nearest_GND_uuid": "be84d7ef-bb67-4347-8341-e16d84e0d0e8",
+      "distance_mm": 1.675281316674905
+    },
+    {
+      "uuid": "2bb23626-df70-4435-a73f-d52f1daf3d21",
+      "net": "/AUDIO/SPK_P",
+      "position_mm": [
+        38.9044,
+        64.6293
+      ],
+      "nearest_GND_uuid": "7ee0a83b-04ae-44f3-8ad5-c89f6f2197bc",
+      "distance_mm": 1.2499724996974961
+    },
+    {
+      "uuid": "ebeafacb-96db-4f0d-b05a-8211dd7601b3",
+      "net": "TOUCH_3V3",
+      "position_mm": [
+        82.3599,
+        53.5694
+      ],
+      "nearest_GND_uuid": "9702977d-b949-4cf4-9820-dbe0f8bca646",
+      "distance_mm": 1.4999669996369915
+    },
+    {
+      "uuid": "a31c20ee-a3b2-4754-b53b-7923964b83ac",
+      "net": "/POWER_DOMAINS/MIC_QOD",
+      "position_mm": [
+        13.4,
+        83.5
+      ],
+      "nearest_GND_uuid": "0569ffe0-a751-48d5-aeb2-73b6064867ad",
+      "distance_mm": 1.001249219725039
+    },
+    {
+      "uuid": "b8945a18-b9ad-4bd3-a6f5-772f125a95bc",
+      "net": "/POWER_DOMAINS/MIC_QOD",
+      "position_mm": [
+        16.5,
+        87.3
+      ],
+      "nearest_GND_uuid": "2a78c4be-93e8-4b85-9756-fdd0af09400e",
+      "distance_mm": 0.8000000000000007
+    },
+    {
+      "uuid": "1ad6382f-8d2a-4602-9058-06b197f25ba5",
+      "net": "TP_SCL",
+      "position_mm": [
+        80.9094,
+        54.7871
+      ],
+      "nearest_GND_uuid": "b95eabf4-9e54-4ae2-96b1-1df7540a0380",
+      "distance_mm": 0.7999823998063971
+    },
+    {
+      "uuid": "bee77963-ccb7-4b02-81a5-5e7c81738eb7",
+      "net": "TP_SCL",
+      "position_mm": [
+        83.7367,
+        54.263
+      ],
+      "nearest_GND_uuid": "9702977d-b949-4cf4-9820-dbe0f8bca646",
+      "distance_mm": 0.8714283676814792
+    },
+    {
+      "uuid": "21fcabca-979b-485e-9ef5-66bb4a1d828d",
+      "net": "SYS_RAW",
+      "position_mm": [
+        8.475,
+        36.35
+      ],
+      "nearest_GND_uuid": "4eff0f00-0e97-49a4-80f6-927d560a5119",
+      "distance_mm": 1.4999669996369915
+    },
+    {
+      "uuid": "3d2456e6-6b88-4401-a321-d1782dfc4e37",
+      "net": "SYS_RAW",
+      "position_mm": [
+        16.6069,
+        33.7001
+      ],
+      "nearest_GND_uuid": "2e4393df-d35a-4add-bdc1-3e38d958456a",
+      "distance_mm": 1.9712350494043072
+    },
+    {
+      "uuid": "55f761c2-92d1-4a98-9e8a-8875d5ec7077",
+      "net": "SYS_RAW",
+      "position_mm": [
+        13.275,
+        35.65
+      ],
+      "nearest_GND_uuid": "9d4cab23-0b3f-4d72-8d2d-d3dcdf17085a",
+      "distance_mm": 0.7846177413237585
+    },
+    {
+      "uuid": "942c824d-1933-47d2-8761-1e873adec394",
+      "net": "SYS_RAW",
+      "position_mm": [
+        15.975,
+        33.45
+      ],
+      "nearest_GND_uuid": "2e4393df-d35a-4add-bdc1-3e38d958456a",
+      "distance_mm": 1.7677669529663662
+    },
+    {
+      "uuid": "d95682d2-4390-4ae0-9701-c3e567eb1f90",
+      "net": "SYS_RAW",
+      "position_mm": [
+        15.975,
+        35.65
+      ],
+      "nearest_GND_uuid": "2e4393df-d35a-4add-bdc1-3e38d958456a",
+      "distance_mm": 1.0700467279516337
+    },
+    {
+      "uuid": "f1ca5f16-1523-466f-92cb-6e64e9a21b40",
+      "net": "SYS_RAW",
+      "position_mm": [
+        19.3848,
+        33.6896
+      ],
+      "nearest_GND_uuid": "8ee3284c-3a90-45e9-9dc1-1774db4685f2",
+      "distance_mm": 1.8347368203641632
+    },
+    {
+      "uuid": "310f3a24-169e-4bea-9cdd-f9e2edc08147",
+      "net": "/POWER_3V3_CONTROL/REG_MODE",
+      "position_mm": [
+        31.4172,
+        27.2668
+      ],
+      "nearest_GND_uuid": "0625ddab-5414-4f13-9ee6-dab6a89a9014",
+      "distance_mm": 1.4385958709797566
+    },
+    {
+      "uuid": "de647803-c39a-4583-9a56-d20f56a3f990",
+      "net": "/POWER_3V3_CONTROL/REG_MODE",
+      "position_mm": [
+        28.3681,
+        33.2776
+      ],
+      "nearest_GND_uuid": "b80d86af-84d4-499e-b4d7-d559a7b5fe93",
+      "distance_mm": 1.9691925680339148
+    },
+    {
+      "uuid": "6af54f99-a3d6-4f79-9265-1c3c05909231",
+      "net": "SD_EN",
+      "position_mm": [
+        66.1001,
+        33.4517
+      ],
+      "nearest_GND_uuid": "3b04316c-fa89-40d7-9b73-37544a8b4fe6",
+      "distance_mm": 3.0570922295540908
+    },
+    {
+      "uuid": "0450d44e-5d76-47e6-b22d-a86eb98c5d02",
+      "net": "/POWER_DOMAINS/SD_QOD",
+      "position_mm": [
+        74.4,
+        40.5
+      ],
+      "nearest_GND_uuid": "7ad13450-802c-459a-8156-1222d25532b7",
+      "distance_mm": 1.001249219725039
+    },
+    {
+      "uuid": "57882a36-997c-40af-bcaa-9e98fa134166",
+      "net": "/POWER_DOMAINS/SD_QOD",
+      "position_mm": [
+        77.5,
+        44.3
+      ],
+      "nearest_GND_uuid": "005bbca0-7c1e-42cb-be37-eabf6c37a590",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "1dec4e2b-bdbf-45e2-bec2-3f381057dabc",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        30.225,
+        56.675
+      ],
+      "nearest_GND_uuid": "eb3b7bbf-60e4-4e2f-b184-d0dbb2946f65",
+      "distance_mm": 0.7999723120208595
+    },
+    {
+      "uuid": "307bd24a-5ed7-4d3d-879f-f5025b04af72",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        43.025,
+        51.375
+      ],
+      "nearest_GND_uuid": "b19e322f-859a-4ce8-ba31-bdced7a6e304",
+      "distance_mm": 0.7999723120208613
+    },
+    {
+      "uuid": "4e489ede-8221-41f2-ab95-c644559a7441",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        43.625,
+        47.875
+      ],
+      "nearest_GND_uuid": "89d5674f-853d-47de-8d83-f948da09964c",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "7798ac9a-603a-4362-b795-6eb53e0a081c",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        47.125,
+        44.175
+      ],
+      "nearest_GND_uuid": "60497856-153a-407a-9b37-5f1375b6a0af",
+      "distance_mm": 1.2499724996974961
+    },
+    {
+      "uuid": "813c1c96-6fb5-4e9d-ba1f-3c60aa930134",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        24.425,
+        57.175
+      ],
+      "nearest_GND_uuid": "105d1978-0e38-4606-b7d0-6ab3e58bf832",
+      "distance_mm": 0.8313103782583227
+    },
+    {
+      "uuid": "bea5b5a9-9cae-4231-b80d-44210c407132",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        21.225,
+        55.675
+      ],
+      "nearest_GND_uuid": "845bf1b8-cecd-45aa-a52c-3ac7eac67080",
+      "distance_mm": 0.8426973003398104
+    },
+    {
+      "uuid": "d8ab85cd-5785-4ac1-acf8-7f2a590c8eb2",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        26.825,
+        56.675
+      ],
+      "nearest_GND_uuid": "105d1978-0e38-4606-b7d0-6ab3e58bf832",
+      "distance_mm": 1.6952424443129077
+    },
+    {
+      "uuid": "f914fb4e-6c5c-47fb-a78c-3d4fab274bf1",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        51.025,
+        42.575
+      ],
+      "nearest_GND_uuid": "915e79d1-8fc3-452c-8d6e-04819c2ecad3",
+      "distance_mm": 0.7999723120208613
+    },
+    {
+      "uuid": "f9f05803-0874-43a3-9c44-9c9fd947c206",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        18.925,
+        51.075
+      ],
+      "nearest_GND_uuid": "d4b5eaef-bfc2-4fa4-affb-a560e20c0992",
+      "distance_mm": 0.9479481525906374
+    },
+    {
+      "uuid": "fb08f07c-d63b-4992-b64e-11d75322c090",
+      "net": "FUEL_ALERT_N",
+      "position_mm": [
+        44.525,
+        46.975
+      ],
+      "nearest_GND_uuid": "f7cde836-c5fc-43b1-8297-b1e22c147420",
+      "distance_mm": 1.030773001198618
+    },
+    {
+      "uuid": "07ba301a-2362-4ba2-a3f0-081a51d204ad",
+      "net": "BAT_NTC",
+      "position_mm": [
+        21.908,
+        56.4193
+      ],
+      "nearest_GND_uuid": "845bf1b8-cecd-45aa-a52c-3ac7eac67080",
+      "distance_mm": 1.7499614995764932
+    },
+    {
+      "uuid": "1d230c5f-db2b-46f1-bd99-a56972e373aa",
+      "net": "/POWER_DOMAINS/AMP_QOD",
+      "position_mm": [
+        34.5,
+        87.3
+      ],
+      "nearest_GND_uuid": "2012d4aa-1c30-4f3c-9dff-4b3dbec3a191",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "9a94f480-0f4b-485d-a058-a95733fc008b",
+      "net": "/POWER_DOMAINS/AMP_QOD",
+      "position_mm": [
+        31.4,
+        83.5
+      ],
+      "nearest_GND_uuid": "41ffda43-604f-4b81-b093-819afc6129ce",
+      "distance_mm": 1.001249219725039
+    },
+    {
+      "uuid": "044aa94b-ca01-4522-ab56-f92a896b7551",
+      "net": "/POWER_DOMAINS/EPD_QOD",
+      "position_mm": [
+        53.5,
+        70.8
+      ],
+      "nearest_GND_uuid": "1d743b67-7692-45f6-ae3c-c8bfd9854955",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "d0b524f3-d740-42cd-a8ee-df86d379adbf",
+      "net": "/POWER_DOMAINS/EPD_QOD",
+      "position_mm": [
+        50.4,
+        67.0
+      ],
+      "nearest_GND_uuid": "6a269a88-1bb4-4d56-beec-3c8f4076834e",
+      "distance_mm": 1.001249219725039
+    },
+    {
+      "uuid": "6a32d9ab-98b3-4925-ab28-e9742e430bac",
+      "net": "/AUDIO/AMP_SD_MODE",
+      "position_mm": [
+        35.5031,
+        73.3898
+      ],
+      "nearest_GND_uuid": "ebac8bed-1c42-459d-8b7e-e6ad0606990b",
+      "distance_mm": 1.2563135158072638
+    },
+    {
+      "uuid": "896fa3fc-f8a3-49c8-ba55-4061c83294ff",
+      "net": "/AUDIO/AMP_SD_MODE",
+      "position_mm": [
+        31.0828,
+        74.2647
+      ],
+      "nearest_GND_uuid": "9c50c3d4-7bb9-44fa-b73c-aaacfefb5d29",
+      "distance_mm": 0.7999823998063997
+    },
+    {
+      "uuid": "4adda294-1e49-4ac5-97c2-ee894129aadc",
+      "net": "/POWER_3V3_CONTROL/MAIN_EN_PULL",
+      "position_mm": [
+        29.4041,
+        25.5
+      ],
+      "nearest_GND_uuid": "0625ddab-5414-4f13-9ee6-dab6a89a9014",
+      "distance_mm": 1.2780676077578992
+    },
+    {
+      "uuid": "052f2ff0-e7bd-4db3-a10c-153d34146635",
+      "net": "EPD_EN",
+      "position_mm": [
+        39.6327,
+        28.4156
+      ],
+      "nearest_GND_uuid": "264bcb87-bdea-4306-b859-8e3308e5dfdc",
+      "distance_mm": 0.7999723120208595
+    },
+    {
+      "uuid": "9e508336-3b1f-4a53-baf0-54e93a9de879",
+      "net": "USB_VBUS",
+      "position_mm": [
+        21.174,
+        10.7062
+      ],
+      "nearest_GND_uuid": "85fefe24-8a9f-4b96-a233-18201f5fd2ac",
+      "distance_mm": 1.950043858481138
+    },
+    {
+      "uuid": "ca872db3-5a3f-46b7-89de-ebaee4e396e6",
+      "net": "USB_VBUS",
+      "position_mm": [
+        15.1198,
+        12.136
+      ],
+      "nearest_GND_uuid": "f77b82b9-e961-4034-8d59-d2eb14e3ce05",
+      "distance_mm": 0.9999779997579944
+    },
+    {
+      "uuid": "17e010e4-1036-4bb6-a088-2b846d28df86",
+      "net": "EPD_PAD_DC",
+      "position_mm": [
+        77.9637,
+        93.4987
+      ],
+      "nearest_GND_uuid": "b2019b97-dace-4826-a6aa-421f4eefd7d9",
+      "distance_mm": 0.799982399806391
+    },
+    {
+      "uuid": "632ed507-db08-4894-b685-c93714d80047",
+      "net": "EPD_PAD_DC",
+      "position_mm": [
+        63.2949,
+        89.1693
+      ],
+      "nearest_GND_uuid": "5f65b6af-bf85-48d0-bfba-d02793c5fff8",
+      "distance_mm": 0.7999723120208595
+    },
+    {
+      "uuid": "1751dd74-3190-4f45-9ab5-b9541db78c7c",
+      "net": "IOX_SP15",
+      "position_mm": [
+        57.2233,
+        39.4905
+      ],
+      "nearest_GND_uuid": "0c071082-8f8e-4392-8da7-d266acee71de",
+      "distance_mm": 1.3910546862003652
+    },
+    {
+      "uuid": "66e51b11-9315-4368-ba2a-9ed702087802",
+      "net": "IOX_SP15",
+      "position_mm": [
+        48.6062,
+        40.4928
+      ],
+      "nearest_GND_uuid": "a57be223-e141-480f-b8ce-ff057f6c94b5",
+      "distance_mm": 0.8000000000000043
+    },
+    {
+      "uuid": "3f06f69b-b8bf-4471-a399-83df866795df",
+      "net": "SD_CARD_CMD",
+      "position_mm": [
+        67.1888,
+        26.0284
+      ],
+      "nearest_GND_uuid": "bd5e77b1-f84e-4025-a8ab-a73f1e10ab8d",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "d87dcd1e-84f1-4f98-a5ee-dbf35ffda7a4",
+      "net": "SD_CARD_CMD",
+      "position_mm": [
+        78.3871,
+        20.5254
+      ],
+      "nearest_GND_uuid": "5203121a-088f-4c9a-8f8b-7bcb01f464de",
+      "distance_mm": 1.3643850519556364
+    },
+    {
+      "uuid": "e96a8a63-a925-456b-877d-ef1c03131f3d",
+      "net": "SD_CARD_CMD",
+      "position_mm": [
+        74.17,
+        22.3207
+      ],
+      "nearest_GND_uuid": "4130e6e0-ed46-4c6d-9166-dbe3c5f9f476",
+      "distance_mm": 1.25
+    },
+    {
+      "uuid": "37f1c61b-b871-4361-bc0e-c70d90edb7a6",
+      "net": "/POWER_INPUT_CHARGER/CHG_CE_N",
+      "position_mm": [
+        10.849999,
+        34.0
+      ],
+      "nearest_GND_uuid": "99e1130c-5cac-5f90-9f9d-0cf43ee70d8d",
+      "distance_mm": 2.046290067414928
+    },
+    {
+      "uuid": "91a55992-3e3c-4264-aff0-146efce198ff",
+      "net": "/POWER_INPUT_CHARGER/CHG_CE_N",
+      "position_mm": [
+        13.849999,
+        40.849999
+      ],
+      "nearest_GND_uuid": "8bfb1367-2059-457c-becf-f9f348f94ce4",
+      "distance_mm": 1.75002138746988
+    },
+    {
+      "uuid": "a0cf4fff-26eb-467c-b0d1-d64fcfa00edc",
+      "net": "/POWER_INPUT_CHARGER/CHG_CE_N",
+      "position_mm": [
+        8.65,
+        37.1
+      ],
+      "nearest_GND_uuid": "4eff0f00-0e97-49a4-80f6-927d560a5119",
+      "distance_mm": 1.4740000000000002
+    },
+    {
+      "uuid": "2686a97d-8f47-4097-ad47-b8366ddb577f",
+      "net": "TOUCH_EN",
+      "position_mm": [
+        62.6306,
+        33.8551
+      ],
+      "nearest_GND_uuid": "3b04316c-fa89-40d7-9b73-37544a8b4fe6",
+      "distance_mm": 1.312266120114362
+    },
+    {
+      "uuid": "12b5a14a-448e-41c5-9688-755d9a1ac149",
+      "net": "/POWER_DOMAINS/TOUCH_QOD",
+      "position_mm": [
+        72.5,
+        54.8
+      ],
+      "nearest_GND_uuid": "016356c5-f1d0-4b2c-bc29-5cf615760673",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "54e00786-0891-4968-be26-5018dbfb7cdf",
+      "net": "/POWER_DOMAINS/TOUCH_QOD",
+      "position_mm": [
+        69.4,
+        51.0
+      ],
+      "nearest_GND_uuid": "d44c9b40-c50f-47f7-82b6-1f035d550aa3",
+      "distance_mm": 1.001249219725039
+    },
+    {
+      "uuid": "10ad5dee-8b9b-4547-a053-888ad2141a63",
+      "net": "USB_EN2",
+      "position_mm": [
+        14.5297,
+        38.8588
+      ],
+      "nearest_GND_uuid": "95e642c2-33bf-4f70-90a4-8ebfdf1b8387",
+      "distance_mm": 0.7999723120208613
+    },
+    {
+      "uuid": "7833759c-c8d9-4663-88df-c1ae483f7fa5",
+      "net": "USB_EN2",
+      "position_mm": [
+        11.4424,
+        33.5085
+      ],
+      "nearest_GND_uuid": "99e1130c-5cac-5f90-9f9d-0cf43ee70d8d",
+      "distance_mm": 1.2775773988295158
+    },
+    {
+      "uuid": "f40d93eb-a509-488c-8591-3a7d4b8c3474",
+      "net": "USB_EN2",
+      "position_mm": [
+        48.6217,
+        41.5004
+      ],
+      "nearest_GND_uuid": "a57be223-e141-480f-b8ce-ff057f6c94b5",
+      "distance_mm": 1.8076664542995764
+    },
+    {
+      "uuid": "16e8bc1e-844b-4f30-9953-e7d146866a5a",
+      "net": "USB_EN1",
+      "position_mm": [
+        45.7293,
+        42.5792
+      ],
+      "nearest_GND_uuid": "60497856-153a-407a-9b37-5f1375b6a0af",
+      "distance_mm": 1.0200719974589985
+    },
+    {
+      "uuid": "c0a8a165-593d-4bd2-b1d7-674b2206a56e",
+      "net": "USB_EN1",
+      "position_mm": [
+        13.7068,
+        41.6351
+      ],
+      "nearest_GND_uuid": "8bfb1367-2059-457c-becf-f9f348f94ce4",
+      "distance_mm": 1.08392956413228
+    },
+    {
+      "uuid": "25e266f2-18fd-45bd-9aa9-83bcfcc46b09",
+      "net": "PGOOD_N",
+      "position_mm": [
+        18.9445,
+        36.9512
+      ],
+      "nearest_GND_uuid": "59d7a2c1-349a-4833-9df9-0ebdae5d08e7",
+      "distance_mm": 3.2035712135053287
+    },
+    {
+      "uuid": "6fb79ab9-ccbd-4b72-953f-ac238563ef62",
+      "net": "PGOOD_N",
+      "position_mm": [
+        46.4293,
+        38.5542
+      ],
+      "nearest_GND_uuid": "8aecec3c-f67b-4627-a19c-41b247b3fa84",
+      "distance_mm": 1.8762838617863755
+    },
+    {
+      "uuid": "98818e51-91f3-461c-a646-9236221945bc",
+      "net": "PGOOD_N",
+      "position_mm": [
+        13.1408,
+        34.1766
+      ],
+      "nearest_GND_uuid": "9d4cab23-0b3f-4d72-8d2d-d3dcdf17085a",
+      "distance_mm": 0.8414821447897761
+    },
+    {
+      "uuid": "ef9621ff-feb6-4a31-afb4-aedc538ceef7",
+      "net": "/AUDIO/SPK_N",
+      "position_mm": [
+        35.2807,
+        65.036
+      ],
+      "nearest_GND_uuid": "4649e7cb-929b-453e-9fbe-d3f6aa2320e0",
+      "distance_mm": 1.624702658950246
+    },
+    {
+      "uuid": "b135e6ae-1968-4128-a540-3107a4e1bd4a",
+      "net": "/POWER_3V3_CONTROL/3V3_REG",
+      "position_mm": [
+        30.7099,
+        43.9143
+      ],
+      "nearest_GND_uuid": "2bee92e7-c999-4dd0-a137-0b99307e2b45",
+      "distance_mm": 1.4884295414966755
+    },
+    {
+      "uuid": "434a0806-743d-4992-a1c3-a25c558dcf4f",
+      "net": "EPD_PAD_RST_N",
+      "position_mm": [
+        77.092,
+        89.5076
+      ],
+      "nearest_GND_uuid": "0cb6ab81-8b64-4b02-a59f-6278a9e03eae",
+      "distance_mm": 1.2396296866403322
+    },
+    {
+      "uuid": "e23f3a53-2c1a-4978-b4fb-60f847d85e08",
+      "net": "EPD_PAD_RST_N",
+      "position_mm": [
+        63.4061,
+        88.0767
+      ],
+      "nearest_GND_uuid": "5f65b6af-bf85-48d0-bfba-d02793c5fff8",
+      "distance_mm": 1.571782205014426
+    },
+    {
+      "uuid": "1097784a-ed3c-408b-82a9-36d35d1a9f58",
+      "net": "TOUCH_IO_EN",
+      "position_mm": [
+        79.0375,
+        45.45
+      ],
+      "nearest_GND_uuid": "005bbca0-7c1e-42cb-be37-eabf6c37a590",
+      "distance_mm": 1.366164796062323
+    },
+    {
+      "uuid": "6178da2d-6003-4265-a67f-786a9376f52f",
+      "net": "TOUCH_IO_EN",
+      "position_mm": [
+        53.8775,
+        32.7491
+      ],
+      "nearest_GND_uuid": "44d8c98f-b3d8-566e-b6a3-55cbce9c36ac",
+      "distance_mm": 2.754824324707474
+    },
+    {
+      "uuid": "6fb3ae29-7973-4a68-bd37-da503e2adf22",
+      "net": "TOUCH_IO_EN",
+      "position_mm": [
+        75.3878,
+        45.2998
+      ],
+      "nearest_GND_uuid": "83d72efe-1267-4fa3-9a0b-ae3b0e6b2cde",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "760b972b-fa95-4cec-bf7d-0089457d760b",
+      "net": "TOUCH_IO_EN",
+      "position_mm": [
+        85.5375,
+        46.75
+      ],
+      "nearest_GND_uuid": "aada99bd-560f-47e8-a44e-9c576eec37e1",
+      "distance_mm": 2.4680065336218227
+    },
+    {
+      "uuid": "e2d431da-ac63-47eb-9f91-3bbcbb088040",
+      "net": "TOUCH_IO_EN",
+      "position_mm": [
+        58.5878,
+        43.1998
+      ],
+      "nearest_GND_uuid": "5de08528-8d1c-4417-8713-e8ec12781e0e",
+      "distance_mm": 0.8000680471059968
+    },
+    {
+      "uuid": "4db343bb-d5eb-48a2-ac68-5eaab259af04",
+      "net": "/AUDIO/AUDIO_SD_BUF",
+      "position_mm": [
+        28.7254,
+        74.3458
+      ],
+      "nearest_GND_uuid": "abc8690d-7c58-4087-8d75-19f82eb16760",
+      "distance_mm": 0.7999823998063997
+    },
+    {
+      "uuid": "5b2024ad-3e02-4b33-bdbc-582fd89564b5",
+      "net": "/AUDIO/AUDIO_SD_BUF",
+      "position_mm": [
+        23.2623,
+        74.1567
+      ],
+      "nearest_GND_uuid": "f575f945-58be-4e24-9ee5-975d4a9dec81",
+      "distance_mm": 0.7999723120208604
+    },
+    {
+      "uuid": "685dbcad-89ac-430c-b60f-5cb3cefbb29e",
+      "net": "IOX_SP16",
+      "position_mm": [
+        55.8897,
+        37.5213
+      ],
+      "nearest_GND_uuid": "d04088bb-7e1e-40e3-9e02-5551af183a13",
+      "distance_mm": 1.9500000000000028
+    },
+    {
+      "uuid": "b4f0e1ac-e879-4115-85bd-2cbdbeb3f3a1",
+      "net": "IOX_SP16",
+      "position_mm": [
+        51.0873,
+        40.4799
+      ],
+      "nearest_GND_uuid": "32b2fdef-e574-46df-ac9c-606443e9d904",
+      "distance_mm": 1.7777623716346387
+    },
+    {
+      "uuid": "a000bfca-5f39-4b2c-8284-ed503e4a9607",
+      "net": "/POWER_3V3_CONTROL/MAIN_EN",
+      "position_mm": [
+        28.1993,
+        25.5413
+      ],
+      "nearest_GND_uuid": "45b6161b-fe26-4a4a-8a1d-e45def138192",
+      "distance_mm": 1.9499999999999993
+    },
+    {
+      "uuid": "b758e5a5-1383-4273-bdc5-52303076cb10",
+      "net": "EPD_PAD_CS",
+      "position_mm": [
+        68.1145,
+        90.1299
+      ],
+      "nearest_GND_uuid": "2c171223-ef86-446d-a31e-14e4c4df1af2",
+      "distance_mm": 1.2500233677815744
+    },
+    {
+      "uuid": "f0b43a5f-d40e-4a96-9e90-e379e63109d8",
+      "net": "EPD_PAD_CS",
+      "position_mm": [
+        79.6387,
+        92.8978
+      ],
+      "nearest_GND_uuid": "b2019b97-dace-4826-a6aa-421f4eefd7d9",
+      "distance_mm": 1.4023258002333177
+    },
+    {
+      "uuid": "ae906f87-5f93-41a4-9c53-fbaf04589b79",
+      "net": "EPD_PAD_SCLK",
+      "position_mm": [
+        72.5125,
+        82.5558
+      ],
+      "nearest_GND_uuid": "cd5b5a04-da5f-46e3-9875-67f9355cda2a",
+      "distance_mm": 0.7999823998064033
+    },
+    {
+      "uuid": "f25e2ec6-4d19-4f97-a733-7929277dd3ce",
+      "net": "EPD_PAD_SCLK",
+      "position_mm": [
+        64.5245,
+        80.4278
+      ],
+      "nearest_GND_uuid": "82a533a8-8774-4f23-9f11-07594bc1e440",
+      "distance_mm": 1.0
+    },
+    {
+      "uuid": "2d2156bc-5663-42fc-81dd-19aa2f02ca45",
+      "net": "EPD_PAD_MOSI",
+      "position_mm": [
+        64.2123,
+        81.8811
+      ],
+      "nearest_GND_uuid": "fac0b80a-6385-4426-b686-15347f212857",
+      "distance_mm": 0.7999999999999972
+    },
+    {
+      "uuid": "d2e7deb3-9c19-4113-81c2-200a7003e7c6",
+      "net": "EPD_PAD_MOSI",
+      "position_mm": [
+        81.075,
+        92.299
+      ],
+      "nearest_GND_uuid": "a1555d15-6823-40d4-81a4-b143bc1dbdd7",
+      "distance_mm": 1.6934066257104332
+    },
+    {
+      "uuid": "1a789f34-1bce-4015-a498-ce3b90897acf",
+      "net": "EPD_PREVGH",
+      "position_mm": [
+        73.8534,
+        79.542
+      ],
+      "nearest_GND_uuid": "ce9457d8-7288-46b4-9846-64e259aa56c2",
+      "distance_mm": 0.8000000000000114
+    },
+    {
+      "uuid": "bda1a32c-89a0-40ed-82bf-97f4acea3eb1",
+      "net": "EPD_PREVGH",
+      "position_mm": [
+        83.5375,
+        92.1143
+      ],
+      "nearest_GND_uuid": "a1555d15-6823-40d4-81a4-b143bc1dbdd7",
+      "distance_mm": 0.7901207122965398
+    },
+    {
+      "uuid": "d0ed4f94-0da5-4c5b-89b7-4fd50a2c7750",
+      "net": "EPD_PREVGH",
+      "position_mm": [
+        79.1839,
+        89.3192
+      ],
+      "nearest_GND_uuid": "0cb6ab81-8b64-4b02-a59f-6278a9e03eae",
+      "distance_mm": 1.1269773067812852
+    },
+    {
+      "uuid": "a09335f9-41cf-41b3-b2be-f3c482ca9a78",
+      "net": "BENCH_5V",
+      "position_mm": [
+        29.7,
+        13.0
+      ],
+      "nearest_GND_uuid": "a8f35c26-e6fa-4b2a-b181-3ee52d94bdcd",
+      "distance_mm": 0.994259870456413
+    },
+    {
+      "uuid": "d9e7f81b-004e-4737-95a3-847d1556ae99",
+      "net": "BENCH_5V",
+      "position_mm": [
+        23.5,
+        10.6
+      ],
+      "nearest_GND_uuid": "d032cf1e-aa1e-484d-861d-8823b7cd97cb",
+      "distance_mm": 0.9999701245537286
+    },
+    {
+      "uuid": "16b3aa92-bf86-4874-a671-437766643b8e",
+      "net": "/USB_INPUT/USB_DP_PORT",
+      "position_mm": [
+        16.75,
+        10.1
+      ],
+      "nearest_GND_uuid": "7b74a88e-7960-4a4e-97af-73f84f224d1c",
+      "distance_mm": 0.7537406715840669
+    },
+    {
+      "uuid": "bdf38b10-43ee-4e79-af8b-4497ba21e1fb",
+      "net": "/USB_INPUT/USB_DP_PORT",
+      "position_mm": [
+        17.695,
+        7.91
+      ],
+      "nearest_GND_uuid": "7b74a88e-7960-4a4e-97af-73f84f224d1c",
+      "distance_mm": 2.2733785430499696
+    },
+    {
+      "uuid": "569f89e3-bbf2-4719-a06a-42b5d0bdf00d",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "position_mm": [
+        69.3886,
+        27.2952
+      ],
+      "nearest_GND_uuid": "3358f0ab-48eb-41c5-907a-41b97c15b69e",
+      "distance_mm": 0.7999823998063997
+    },
+    {
+      "uuid": "74d321d7-b0b4-49af-812c-b11999ba8dcd",
+      "net": "/STORAGE_SD/SD_D0_BUS",
+      "position_mm": [
+        61.0754,
+        21.2528
+      ],
+      "nearest_GND_uuid": "8680d609-2fcc-4595-9713-539b3ee0f8c2",
+      "distance_mm": 1.5743712395747058
+    },
+    {
+      "uuid": "21d95e08-1a8c-40a5-a3a7-3329adfe6e73",
+      "net": "/STORAGE_SD/SD_D1_BUS",
+      "position_mm": [
+        61.164,
+        17.4835
+      ],
+      "nearest_GND_uuid": "4645051a-3ea4-4c7a-b910-f8abbe45bd81",
+      "distance_mm": 1.7576342765205717
+    },
+    {
+      "uuid": "acd616b6-248f-40a9-bb95-fcd4d5cf552a",
+      "net": "/STORAGE_SD/SD_D1_BUS",
+      "position_mm": [
+        73.0763,
+        22.5731
+      ],
+      "nearest_GND_uuid": "4a599b1d-9bfe-4bec-8796-8648aa545d58",
+      "distance_mm": 1.9661666511259925
+    },
+    {
+      "uuid": "241e51c4-9382-41e5-81fb-492f30b5e56d",
+      "net": "/AUDIO/AUDIO_OE_N",
+      "position_mm": [
+        18.9063,
+        74.8063
+      ],
+      "nearest_GND_uuid": "84e4438b-96db-433e-a7d1-934b46ab3b5a",
+      "distance_mm": 1.0525698370179501
+    },
+    {
+      "uuid": "4d78ed4d-8281-4c30-ac01-13c1cf1c49b6",
+      "net": "/AUDIO/AUDIO_OE_N",
+      "position_mm": [
+        23.3361,
+        76.4518
+      ],
+      "nearest_GND_uuid": "f575f945-58be-4e24-9ee5-975d4a9dec81",
+      "distance_mm": 1.5282246726185305
+    },
+    {
+      "uuid": "9c7c55a7-7c7d-4a14-8f2d-2d83a999f75e",
+      "net": "/AUDIO/AUDIO_OE_N",
+      "position_mm": [
+        14.0,
+        79.7506
+      ],
+      "nearest_GND_uuid": "9092c75c-d51d-4be4-b78b-842c4ad129da",
+      "distance_mm": 1.026148590604692
+    },
+    {
+      "uuid": "541f51f2-a6d1-41ae-b9f9-3231bebfa66b",
+      "net": "CHARGE_ALLOW",
+      "position_mm": [
+        12.4854,
+        46.0286
+      ],
+      "nearest_GND_uuid": "4af745c1-ad53-4143-a981-192537578d00",
+      "distance_mm": 1.2488499189254114
+    },
+    {
+      "uuid": "6a05f540-bdd7-4333-a15e-9d8eb83ebfd6",
+      "net": "CHARGE_ALLOW",
+      "position_mm": [
+        42.8186,
+        43.4959
+      ],
+      "nearest_GND_uuid": "f7de6622-9036-4eee-8672-dbc219e34eee",
+      "distance_mm": 1.0223653211059178
+    }
+  ],
+  "input_hashes": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/final-project/ESPaperPlay_99.kicad_pcb": "2136b6520e0b6b788d457d15a675d74b80620af0b9293a27ef5916936eb90d1d",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/r13-baseline.kicad_pcb": "20e66b62a73244bf95a6b00d41ae58cbaeaa75fc03ff2fb05c80d0b6228b49d8",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/review-r14/netlist.xml": "cc97beac65185d19cc3cf57016ef7c984d6e23c01e33c2de7c7a12a9ebf23ca7",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/pcb-99/r14/final-project/ESPaperPlay_99.kicad_pro": "5d0bb4cbdf0debfde3b0bbaa46beb881384e01f041e8320a8b961a606fbfbe6e"
+  },
+  "script_sha256": "e0d8a1c1522c35edd12217b36d9ac66f37ef5852be72f415cff170fe3c3b1fe2"
+}
