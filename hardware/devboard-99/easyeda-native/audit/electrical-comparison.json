@@ -1,0 +1,2502 @@
+{
+  "status": "FAIL",
+  "scope": "Native schematic electrical mapping and selected BOM metadata only; PCB/CAM not certified",
+  "components": 236,
+  "native_logical_pins": 792,
+  "connected_pins": 767,
+  "intentional_nc_pins": 25,
+  "named_nets": 156,
+  "dnp": [
+    "C501",
+    "C502",
+    "J301",
+    "J302",
+    "J303",
+    "R108"
+  ],
+  "inputs_sha256": {
+    "hardware/devboard-99/easyeda-native/audit/native-schematic.enet": "64325e01e6ec0eece02c4414e456f918435b5f99aecf887d3523fd959249a553",
+    "hardware/devboard-99/easyeda-native/audit/native-pin-map.json": "506f6b4f16e664d10c3511c1dd832ca277ce1ec170479095827e69cde01c8bb8",
+    "hardware/devboard-99/easyeda-native/audit/reference-components.json": "25ccb78916d1c75966f3e493f24df03c2b907425b33392b99e62c7d693c8e281"
+  },
+  "errors": [
+    {
+      "kind": "net_mismatch",
+      "reference": "J801",
+      "pin": "1",
+      "expected": "/AUDIO/SPK_P",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J801",
+      "pin": "2",
+      "expected": "/AUDIO/SPK_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J502",
+      "pin": "1",
+      "expected": "USB_5V_PROTECTED",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J502",
+      "pin": "2",
+      "expected": "VIN_5V",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J502",
+      "pin": "3",
+      "expected": "BENCH_5V",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "1",
+      "expected": "/AUDIO/AUDIO_OE_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "2",
+      "expected": "I2S_BCLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "3",
+      "expected": "/AUDIO/AUDIO_BCLK_BUF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "4",
+      "expected": "/AUDIO/AUDIO_OE_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "5",
+      "expected": "I2S_WS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "6",
+      "expected": "/AUDIO/AUDIO_WS_BUF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "7",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "8",
+      "expected": "/AUDIO/AUDIO_DIN_BUF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "9",
+      "expected": "SPEAKER_DATA",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "10",
+      "expected": "/AUDIO/AUDIO_OE_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "11",
+      "expected": "/AUDIO/AUDIO_SD_BUF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "12",
+      "expected": "AMP_SHUTDOWN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "13",
+      "expected": "/AUDIO/AUDIO_OE_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U801",
+      "pin": "14",
+      "expected": "MIC_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "1",
+      "expected": "SD_CARD_D2",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "2",
+      "expected": "SD_CARD_D3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "3",
+      "expected": "SD_CARD_CMD",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "4",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "5",
+      "expected": "SD_CARD_CLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "6",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "7",
+      "expected": "SD_CARD_D0",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "8",
+      "expected": "SD_CARD_D1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "9",
+      "expected": "SD_DETECT_CONTACT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "10",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "11",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "12",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "13",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J701",
+      "pin": "14",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U803",
+      "pin": "1",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U803",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U803",
+      "pin": "3",
+      "expected": "MIC_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U803",
+      "pin": "4",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U803",
+      "pin": "5",
+      "expected": "/AUDIO/I2S_WS_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U803",
+      "pin": "6",
+      "expected": "/AUDIO/I2S_BCLK_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U803",
+      "pin": "7",
+      "expected": "/AUDIO/MIC_SD_RAW",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "2",
+      "expected": "EPD_GDR",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "3",
+      "expected": "EPD_RESE",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "5",
+      "expected": "EPD_VSHR",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "8",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "9",
+      "expected": "EPD_PAD_BUSY",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "10",
+      "expected": "EPD_PAD_RST_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "11",
+      "expected": "EPD_PAD_DC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "12",
+      "expected": "EPD_PAD_CS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "13",
+      "expected": "EPD_PAD_SCLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "14",
+      "expected": "EPD_PAD_MOSI",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "15",
+      "expected": "EPD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "16",
+      "expected": "EPD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "17",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "18",
+      "expected": "EPD_VDD_INT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "20",
+      "expected": "EPD_VSH1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "21",
+      "expected": "EPD_PREVGH",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "22",
+      "expected": "EPD_VSL",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "23",
+      "expected": "EPD_PREVGL",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "24",
+      "expected": "EPD_VCOM",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "25",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J601",
+      "pin": "26",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "1",
+      "expected": "/AUDIO/I2S_DIN_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "2",
+      "expected": "AMP_SYS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "4",
+      "expected": "/AUDIO/AMP_SD_MODE",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "7",
+      "expected": "AMP_SYS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "8",
+      "expected": "AMP_SYS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "9",
+      "expected": "/AUDIO/AMP_OUTP",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "10",
+      "expected": "/AUDIO/AMP_OUTN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "11",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "14",
+      "expected": "/AUDIO/I2S_WS_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "15",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "16",
+      "expected": "/AUDIO/I2S_BCLK_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U802",
+      "pin": "17",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "D601",
+      "pin": "1",
+      "expected": "EPD_FLY",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "D601",
+      "pin": "2",
+      "expected": "EPD_PREVGL",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "D602",
+      "pin": "1",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "D602",
+      "pin": "2",
+      "expected": "EPD_FLY",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "D603",
+      "pin": "1",
+      "expected": "EPD_PREVGH",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "D603",
+      "pin": "2",
+      "expected": "/EPD_DISPLAY/EPD_SW",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "D501",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "D501",
+      "pin": "1",
+      "expected": "USB_5V_PROTECTED",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U602",
+      "pin": "1",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U602",
+      "pin": "2",
+      "expected": "EPD_PAD_BUSY",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U602",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U602",
+      "pin": "4",
+      "expected": "EPD_BUSY",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U602",
+      "pin": "5",
+      "expected": "3V3_AON",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U804",
+      "pin": "1",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U804",
+      "pin": "2",
+      "expected": "/AUDIO/MIC_SD_RAW",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U804",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U804",
+      "pin": "4",
+      "expected": "MIC_DATA",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U804",
+      "pin": "5",
+      "expected": "3V3_AON",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U805",
+      "pin": "2",
+      "expected": "AUDIO_EN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U805",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U805",
+      "pin": "4",
+      "expected": "/AUDIO/AUDIO_OE_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U805",
+      "pin": "5",
+      "expected": "MIC_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "1",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "2",
+      "expected": "EPD_SCLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "3",
+      "expected": "EPD_MOSI",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "4",
+      "expected": "EPD_CS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "5",
+      "expected": "EPD_DC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "6",
+      "expected": "EPD_RST_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "7",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "8",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "9",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "10",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "14",
+      "expected": "EPD_BUF_RST_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "15",
+      "expected": "EPD_BUF_DC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "16",
+      "expected": "EPD_BUF_CS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "17",
+      "expected": "EPD_BUF_MOSI",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "18",
+      "expected": "EPD_BUF_SCLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "19",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U601",
+      "pin": "20",
+      "expected": "EPD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "L601",
+      "pin": "2",
+      "expected": "/EPD_DISPLAY/EPD_SW",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "L601",
+      "pin": "1",
+      "expected": "EPD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "Q601",
+      "pin": "3",
+      "expected": "/EPD_DISPLAY/EPD_SW",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "Q601",
+      "pin": "1",
+      "expected": "EPD_GDR",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "Q601",
+      "pin": "2",
+      "expected": "EPD_RESE",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "1",
+      "expected": "SD_IO_EN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "2",
+      "expected": "/STORAGE_SD/SD_CLK_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "3",
+      "expected": "SD_CARD_CLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "4",
+      "expected": "SD_IO_EN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "5",
+      "expected": "/STORAGE_SD/SD_CMD_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "6",
+      "expected": "SD_CARD_CMD",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "7",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "8",
+      "expected": "SD_CARD_D0",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "9",
+      "expected": "/STORAGE_SD/SD_D0_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "10",
+      "expected": "SD_IO_EN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "11",
+      "expected": "SD_CARD_D1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "12",
+      "expected": "/STORAGE_SD/SD_D1_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "13",
+      "expected": "SD_IO_EN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U701",
+      "pin": "14",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "1",
+      "expected": "SD_IO_EN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "2",
+      "expected": "/STORAGE_SD/SD_D2_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "3",
+      "expected": "SD_CARD_D2",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "4",
+      "expected": "SD_IO_EN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "5",
+      "expected": "/STORAGE_SD/SD_D3_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "6",
+      "expected": "SD_CARD_D3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "7",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "10",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "13",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U706",
+      "pin": "14",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U501",
+      "pin": "1",
+      "expected": "/USB_INPUT/USB_DP_PORT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U501",
+      "pin": "2",
+      "expected": "/USB_INPUT/USB_DM_PORT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U501",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U502",
+      "pin": "1",
+      "expected": "/USB_INPUT/USB_CC1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U502",
+      "pin": "2",
+      "expected": "/USB_INPUT/USB_CC2",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U502",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U702",
+      "pin": "1",
+      "expected": "SD_CARD_CLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U702",
+      "pin": "2",
+      "expected": "SD_CARD_CMD",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U702",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U703",
+      "pin": "1",
+      "expected": "SD_CARD_D0",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U703",
+      "pin": "2",
+      "expected": "SD_CARD_D1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U703",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U704",
+      "pin": "1",
+      "expected": "SD_CARD_D2",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U704",
+      "pin": "2",
+      "expected": "SD_CARD_D3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U704",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U705",
+      "pin": "1",
+      "expected": "SD_DETECT_CONTACT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U705",
+      "pin": "2",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U705",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U401",
+      "pin": "1",
+      "expected": "3V3_AON",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U401",
+      "pin": "6",
+      "expected": "/POWER_DOMAINS/EPD_SW",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "B1",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "B4",
+      "expected": "USB_VBUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "B5",
+      "expected": "/USB_INPUT/USB_CC2",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "B6",
+      "expected": "/USB_INPUT/USB_DP_PORT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "B7",
+      "expected": "/USB_INPUT/USB_DM_PORT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "B9",
+      "expected": "USB_VBUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "B12",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "1",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "A1",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "A4",
+      "expected": "USB_VBUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "A5",
+      "expected": "/USB_INPUT/USB_CC1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "A6",
+      "expected": "/USB_INPUT/USB_DP_PORT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "A7",
+      "expected": "/USB_INPUT/USB_DM_PORT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "A9",
+      "expected": "USB_VBUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "A12",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "4",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "3",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "J501",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C501",
+      "pin": "1",
+      "expected": "USB_DP_MCU",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C501",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C502",
+      "pin": "1",
+      "expected": "USB_DM_MCU",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C502",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C503",
+      "pin": "1",
+      "expected": "USB_VBUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C503",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C601",
+      "pin": "1",
+      "expected": "EPD_VSHR",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C601",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C602",
+      "pin": "1",
+      "expected": "EPD_FLY",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C602",
+      "pin": "2",
+      "expected": "/EPD_DISPLAY/EPD_SW",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C603",
+      "pin": "1",
+      "expected": "EPD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C603",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C604",
+      "pin": "1",
+      "expected": "EPD_PREVGH",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C604",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C605",
+      "pin": "1",
+      "expected": "EPD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C605",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C606",
+      "pin": "1",
+      "expected": "EPD_VDD_INT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C606",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C607",
+      "pin": "1",
+      "expected": "EPD_VSH1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C607",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C608",
+      "pin": "1",
+      "expected": "EPD_VSL",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C608",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C609",
+      "pin": "1",
+      "expected": "EPD_PREVGL",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C609",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C610",
+      "pin": "1",
+      "expected": "EPD_VCOM",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C610",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C611",
+      "pin": "1",
+      "expected": "EPD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C611",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C612",
+      "pin": "1",
+      "expected": "3V3_AON",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C612",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C701",
+      "pin": "1",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C701",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C702",
+      "pin": "1",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C702",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C703",
+      "pin": "1",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C703",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C704",
+      "pin": "1",
+      "expected": "SD_CD_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C704",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C705",
+      "pin": "1",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C705",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C801",
+      "pin": "1",
+      "expected": "MIC_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C801",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C802",
+      "pin": "1",
+      "expected": "AMP_SYS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C802",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C803",
+      "pin": "1",
+      "expected": "AMP_SYS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C803",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C804",
+      "pin": "1",
+      "expected": "MIC_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C804",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C805",
+      "pin": "1",
+      "expected": "MIC_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C805",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C806",
+      "pin": "1",
+      "expected": "MIC_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C806",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C808",
+      "pin": "1",
+      "expected": "3V3_AON",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C808",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C901",
+      "pin": "1",
+      "expected": "VIN_5V",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C901",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C902",
+      "pin": "1",
+      "expected": "BAT_NTC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C902",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C903",
+      "pin": "1",
+      "expected": "/CHARGE_TEMP/NTC_HOT_REF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C903",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C904",
+      "pin": "1",
+      "expected": "/CHARGE_TEMP/NTC_COLD_REF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "C904",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "F501",
+      "pin": "1",
+      "expected": "USB_VBUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "F501",
+      "pin": "2",
+      "expected": "USB_5V_PROTECTED",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R402",
+      "pin": "1",
+      "expected": "/POWER_DOMAINS/EPD_SW",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R416",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R501",
+      "pin": "1",
+      "expected": "/USB_INPUT/USB_CC1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R501",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R502",
+      "pin": "1",
+      "expected": "/USB_INPUT/USB_CC2",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R502",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R503",
+      "pin": "1",
+      "expected": "/USB_INPUT/USB_DP_PORT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R503",
+      "pin": "2",
+      "expected": "USB_DP_MCU",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R504",
+      "pin": "1",
+      "expected": "/USB_INPUT/USB_DM_PORT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R504",
+      "pin": "2",
+      "expected": "USB_DM_MCU",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R601",
+      "pin": "1",
+      "expected": "EPD_GDR",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R601",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R602",
+      "pin": "1",
+      "expected": "EPD_RESE",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R602",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R603",
+      "pin": "1",
+      "expected": "EPD_BUF_SCLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R603",
+      "pin": "2",
+      "expected": "EPD_PAD_SCLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R604",
+      "pin": "1",
+      "expected": "EPD_BUF_MOSI",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R604",
+      "pin": "2",
+      "expected": "EPD_PAD_MOSI",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R605",
+      "pin": "1",
+      "expected": "EPD_BUF_CS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R605",
+      "pin": "2",
+      "expected": "EPD_PAD_CS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R606",
+      "pin": "1",
+      "expected": "EPD_BUF_DC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R606",
+      "pin": "2",
+      "expected": "EPD_PAD_DC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R607",
+      "pin": "1",
+      "expected": "EPD_BUF_RST_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R607",
+      "pin": "2",
+      "expected": "EPD_PAD_RST_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R608",
+      "pin": "1",
+      "expected": "EPD_SCLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R608",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R609",
+      "pin": "1",
+      "expected": "EPD_MOSI",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R609",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R610",
+      "pin": "1",
+      "expected": "3V3_AON",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R610",
+      "pin": "2",
+      "expected": "EPD_CS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R611",
+      "pin": "1",
+      "expected": "EPD_DC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R611",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R612",
+      "pin": "1",
+      "expected": "EPD_RST_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R612",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R613",
+      "pin": "1",
+      "expected": "EPD_PAD_RST_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R613",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R614",
+      "pin": "1",
+      "expected": "EPD_PAD_BUSY",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R614",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R701",
+      "pin": "1",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R701",
+      "pin": "2",
+      "expected": "SD_CARD_CMD",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R702",
+      "pin": "1",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R702",
+      "pin": "2",
+      "expected": "SD_CARD_D0",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R703",
+      "pin": "1",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R703",
+      "pin": "2",
+      "expected": "SD_CARD_D1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R704",
+      "pin": "1",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R704",
+      "pin": "2",
+      "expected": "SD_CARD_D2",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R705",
+      "pin": "1",
+      "expected": "SD_3V3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R705",
+      "pin": "2",
+      "expected": "SD_CARD_D3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R706",
+      "pin": "1",
+      "expected": "SD_CARD_CLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R706",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R708",
+      "pin": "1",
+      "expected": "SD_CD_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R708",
+      "pin": "2",
+      "expected": "SD_DETECT_CONTACT",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R710",
+      "pin": "1",
+      "expected": "SD_CLK",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R710",
+      "pin": "2",
+      "expected": "/STORAGE_SD/SD_CLK_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R711",
+      "pin": "1",
+      "expected": "SD_CMD",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R711",
+      "pin": "2",
+      "expected": "/STORAGE_SD/SD_CMD_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R712",
+      "pin": "1",
+      "expected": "SD_D0",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R712",
+      "pin": "2",
+      "expected": "/STORAGE_SD/SD_D0_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R713",
+      "pin": "1",
+      "expected": "SD_D1",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R713",
+      "pin": "2",
+      "expected": "/STORAGE_SD/SD_D1_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R714",
+      "pin": "1",
+      "expected": "SD_D2",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R714",
+      "pin": "2",
+      "expected": "/STORAGE_SD/SD_D2_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R715",
+      "pin": "1",
+      "expected": "SD_D3",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R715",
+      "pin": "2",
+      "expected": "/STORAGE_SD/SD_D3_BUS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R802",
+      "pin": "1",
+      "expected": "/AUDIO/I2S_BCLK_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R802",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R803",
+      "pin": "1",
+      "expected": "/AUDIO/I2S_WS_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R803",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R804",
+      "pin": "1",
+      "expected": "/AUDIO/I2S_DIN_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R804",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R805",
+      "pin": "1",
+      "expected": "/AUDIO/AMP_SD_MODE",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R805",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R806",
+      "pin": "1",
+      "expected": "/AUDIO/AUDIO_SD_BUF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R806",
+      "pin": "2",
+      "expected": "/AUDIO/AMP_SD_MODE",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R808",
+      "pin": "1",
+      "expected": "/AUDIO/AUDIO_BCLK_BUF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R808",
+      "pin": "2",
+      "expected": "/AUDIO/I2S_BCLK_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R809",
+      "pin": "1",
+      "expected": "/AUDIO/AUDIO_WS_BUF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R809",
+      "pin": "2",
+      "expected": "/AUDIO/I2S_WS_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R810",
+      "pin": "1",
+      "expected": "/AUDIO/AUDIO_DIN_BUF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R810",
+      "pin": "2",
+      "expected": "/AUDIO/I2S_DIN_AUDIO",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R811",
+      "pin": "1",
+      "expected": "/AUDIO/AMP_OUTP",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R811",
+      "pin": "2",
+      "expected": "/AUDIO/SPK_P",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R812",
+      "pin": "1",
+      "expected": "/AUDIO/AMP_OUTN",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R812",
+      "pin": "2",
+      "expected": "/AUDIO/SPK_N",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R813",
+      "pin": "1",
+      "expected": "/AUDIO/MIC_SD_RAW",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R813",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R901",
+      "pin": "1",
+      "expected": "VIN_5V",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R901",
+      "pin": "2",
+      "expected": "BAT_NTC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R902",
+      "pin": "1",
+      "expected": "VIN_5V",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R902",
+      "pin": "2",
+      "expected": "/CHARGE_TEMP/NTC_HOT_REF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R903",
+      "pin": "1",
+      "expected": "/CHARGE_TEMP/NTC_HOT_REF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R903",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R904",
+      "pin": "1",
+      "expected": "VIN_5V",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R904",
+      "pin": "2",
+      "expected": "/CHARGE_TEMP/NTC_COLD_REF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R905",
+      "pin": "1",
+      "expected": "/CHARGE_TEMP/NTC_COLD_REF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R905",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R906",
+      "pin": "1",
+      "expected": "CHG_TS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R906",
+      "pin": "2",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R907",
+      "pin": "1",
+      "expected": "CHG_TS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R907",
+      "pin": "2",
+      "expected": "BAT_NTC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R908",
+      "pin": "1",
+      "expected": "CHG_TS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "R908",
+      "pin": "2",
+      "expected": "/CHARGE_TEMP/NTC_COLD_REF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U901",
+      "pin": "2",
+      "expected": "/CHARGE_TEMP/NTC_HOT_REF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U901",
+      "pin": "3",
+      "expected": "BAT_NTC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U901",
+      "pin": "5",
+      "expected": "/CHARGE_TEMP/NTC_COLD_REF",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U901",
+      "pin": "6",
+      "expected": "BAT_NTC",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U901",
+      "pin": "8",
+      "expected": "VIN_5V",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U901",
+      "pin": "4",
+      "expected": "GND",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U901",
+      "pin": "1",
+      "expected": "CHG_TS",
+      "actual": ""
+    },
+    {
+      "kind": "net_mismatch",
+      "reference": "U901",
+      "pin": "7",
+      "expected": "CHG_TS",
+      "actual": ""
+    }
+  ]
+}

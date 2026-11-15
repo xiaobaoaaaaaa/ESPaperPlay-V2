@@ -1,0 +1,446 @@
+{
+  "status": "READ_ONLY_FUNCTIONAL_PARTITION_FROM_REFERENCE_NETLIST",
+  "sheets": {
+    "AUDIO": [
+      {
+        "id": "A1",
+        "title": "I2S isolation buffer",
+        "references": [
+          "U801",
+          "C801"
+        ],
+        "internal_net_members": {
+          "I2S_BCLK": [
+            "U801.2"
+          ],
+          "I2S_WS": [
+            "U801.5"
+          ],
+          "SPEAKER_DATA": [
+            "U801.9"
+          ],
+          "AMP_SHUTDOWN": [
+            "U801.12"
+          ],
+          "/AUDIO/AUDIO_OE_N": [
+            "U801.1",
+            "U801.4",
+            "U801.10",
+            "U801.13"
+          ],
+          "MIC_3V3": [
+            "U801.14",
+            "C801.1"
+          ],
+          "/AUDIO/AUDIO_BCLK_BUF": [
+            "U801.3"
+          ],
+          "/AUDIO/AUDIO_WS_BUF": [
+            "U801.6"
+          ],
+          "/AUDIO/AUDIO_DIN_BUF": [
+            "U801.8"
+          ],
+          "/AUDIO/AUDIO_SD_BUF": [
+            "U801.11"
+          ],
+          "GND": [
+            "U801.7",
+            "C801.2"
+          ]
+        },
+        "wiring_notes": [
+          "Place U801 upright and use short named stubs for the physical-order logic pins.",
+          "Connect C801 directly between a local MIC_3V3 rail and local GND rail; no across-page supply bus.",
+          "Tie OE pins by named AUDIO_OE_N stubs if a local bus would cross signal pins."
+        ]
+      },
+      {
+        "id": "A2",
+        "title": "Audio-enable inversion",
+        "references": [
+          "U805",
+          "C806"
+        ],
+        "internal_net_members": {
+          "AUDIO_EN": [
+            "U805.2"
+          ],
+          "MIC_3V3": [
+            "U805.5",
+            "C806.1"
+          ],
+          "GND": [
+            "U805.3",
+            "C806.2"
+          ],
+          "/AUDIO/AUDIO_OE_N": [
+            "U805.4"
+          ]
+        },
+        "wiring_notes": [
+          "AUDIO_EN input left, AUDIO_OE_N output right, local MIC_3V3 / GND and C806.",
+          "U805 pin 1 is intentionally NC."
+        ]
+      },
+      {
+        "id": "A3a",
+        "title": "Bit clock series and pull-down",
+        "references": [
+          "R808",
+          "R802"
+        ],
+        "internal_net_members": {
+          "/AUDIO/AUDIO_BCLK_BUF": [
+            "R808.1"
+          ],
+          "/AUDIO/I2S_BCLK_AUDIO": [
+            "R808.2",
+            "R802.1"
+          ],
+          "GND": [
+            "R802.2"
+          ]
+        },
+        "wiring_notes": [
+          "AUDIO_BCLK_BUF -> R808 22R -> I2S_BCLK_AUDIO. R802 100k branches from output node down to GND."
+        ]
+      },
+      {
+        "id": "A3b",
+        "title": "Word select series and pull-down",
+        "references": [
+          "R809",
+          "R803"
+        ],
+        "internal_net_members": {
+          "/AUDIO/AUDIO_WS_BUF": [
+            "R809.1"
+          ],
+          "/AUDIO/I2S_WS_AUDIO": [
+            "R809.2",
+            "R803.1"
+          ],
+          "GND": [
+            "R803.2"
+          ]
+        },
+        "wiring_notes": [
+          "AUDIO_WS_BUF -> R809 22R -> I2S_WS_AUDIO. R803 100k branches from output node down to GND."
+        ]
+      },
+      {
+        "id": "A3c",
+        "title": "Speaker data series and pull-down",
+        "references": [
+          "R810",
+          "R804"
+        ],
+        "internal_net_members": {
+          "/AUDIO/AUDIO_DIN_BUF": [
+            "R810.1"
+          ],
+          "/AUDIO/I2S_DIN_AUDIO": [
+            "R810.2",
+            "R804.1"
+          ],
+          "GND": [
+            "R804.2"
+          ]
+        },
+        "wiring_notes": [
+          "AUDIO_DIN_BUF -> R810 22R -> I2S_DIN_AUDIO. R804 100k branches from output node down to GND."
+        ]
+      },
+      {
+        "id": "A3d",
+        "title": "Amplifier enable mode bias",
+        "references": [
+          "R806",
+          "R805"
+        ],
+        "internal_net_members": {
+          "/AUDIO/AUDIO_SD_BUF": [
+            "R806.1"
+          ],
+          "/AUDIO/AMP_SD_MODE": [
+            "R806.2",
+            "R805.1"
+          ],
+          "GND": [
+            "R805.2"
+          ]
+        },
+        "wiring_notes": [
+          "AUDIO_SD_BUF -> R806 2.00k -> AMP_SD_MODE. R805 100k branches down from AMP_SD_MODE to GND."
+        ]
+      },
+      {
+        "id": "A4",
+        "title": "Class D amplifier and speaker",
+        "references": [
+          "U802",
+          "C802",
+          "C803",
+          "R811",
+          "R812",
+          "J801"
+        ],
+        "internal_net_members": {
+          "/AUDIO/I2S_DIN_AUDIO": [
+            "U802.1"
+          ],
+          "/AUDIO/I2S_BCLK_AUDIO": [
+            "U802.16"
+          ],
+          "/AUDIO/I2S_WS_AUDIO": [
+            "U802.14"
+          ],
+          "/AUDIO/AMP_SD_MODE": [
+            "U802.4"
+          ],
+          "AMP_SYS": [
+            "U802.2",
+            "U802.7",
+            "U802.8",
+            "C802.1",
+            "C803.1"
+          ],
+          "GND": [
+            "U802.3",
+            "U802.15",
+            "U802.11",
+            "U802.17",
+            "C802.2",
+            "C803.2"
+          ],
+          "/AUDIO/AMP_OUTP": [
+            "U802.9",
+            "R811.1"
+          ],
+          "/AUDIO/AMP_OUTN": [
+            "U802.10",
+            "R812.1"
+          ],
+          "/AUDIO/SPK_P": [
+            "R811.2",
+            "J801.1"
+          ],
+          "/AUDIO/SPK_N": [
+            "R812.2",
+            "J801.2"
+          ]
+        },
+        "wiring_notes": [
+          "U802 OUTP and OUTN pass through separate R811/R812 0R links directly to J801 pins 1/2. Keep these as two parallel paths, not GND referenced.",
+          "C802 and C803 share short local AMP_SYS / GND rails.",
+          "I2S_BCLK_AUDIO, I2S_WS_AUDIO, I2S_DIN_AUDIO and AMP_SD_MODE are labelled block inputs.",
+          "U802 pins 5,6,12,13 are intentionally NC; exposed pad 17 belongs to GND."
+        ]
+      },
+      {
+        "id": "A5",
+        "title": "I2S microphone",
+        "references": [
+          "U803",
+          "C804",
+          "C805",
+          "R813"
+        ],
+        "internal_net_members": {
+          "/AUDIO/I2S_WS_AUDIO": [
+            "U803.5"
+          ],
+          "/AUDIO/I2S_BCLK_AUDIO": [
+            "U803.6"
+          ],
+          "MIC_3V3": [
+            "U803.3",
+            "C804.1",
+            "C805.1"
+          ],
+          "GND": [
+            "U803.4",
+            "U803.1",
+            "U803.2",
+            "C804.2",
+            "C805.2",
+            "R813.2"
+          ],
+          "/AUDIO/MIC_SD_RAW": [
+            "U803.7",
+            "R813.1"
+          ]
+        },
+        "wiring_notes": [
+          "Connect MIC_SD_RAW output directly to R813 pull-down; label its continuation to A6.",
+          "C804/C805 connect in parallel across local MIC_3V3 and GND rails.",
+          "I2S_WS_AUDIO and I2S_BCLK_AUDIO are labelled block inputs; U803 pins 1,2,4 are GND."
+        ]
+      },
+      {
+        "id": "A6",
+        "title": "Microphone always-on-domain return",
+        "references": [
+          "U804",
+          "C808"
+        ],
+        "internal_net_members": {
+          "/AUDIO/MIC_SD_RAW": [
+            "U804.2"
+          ],
+          "GND": [
+            "U804.1",
+            "U804.3",
+            "C808.2"
+          ],
+          "3V3_AON": [
+            "U804.5",
+            "C808.1"
+          ],
+          "MIC_DATA": [
+            "U804.4"
+          ]
+        },
+        "wiring_notes": [
+          "MIC_SD_RAW -> U804 -> MIC_DATA, with OE pin 1 and pin 3 to local GND.",
+          "C808 decouples 3V3_AON, not MIC_3V3."
+        ]
+      }
+    ],
+    "CHARGE_TEMP": [
+      {
+        "id": "T1",
+        "title": "NTC bias and filtering",
+        "references": [
+          "R901",
+          "C902"
+        ],
+        "internal_net_members": {
+          "VIN_5V": [
+            "R901.1"
+          ],
+          "BAT_NTC": [
+            "R901.2",
+            "C902.1"
+          ],
+          "GND": [
+            "C902.2"
+          ]
+        },
+        "wiring_notes": [
+          "VIN_5V -> R901 47k -> BAT_NTC node, C902 10n from BAT_NTC to GND.",
+          "BAT_NTC comes from external battery connector; no temperature substitution or fixed thermistor added."
+        ]
+      },
+      {
+        "id": "T2",
+        "title": "Hot threshold divider",
+        "references": [
+          "R902",
+          "R903",
+          "C903"
+        ],
+        "internal_net_members": {
+          "VIN_5V": [
+            "R902.1"
+          ],
+          "/CHARGE_TEMP/NTC_HOT_REF": [
+            "R902.2",
+            "R903.1",
+            "C903.1"
+          ],
+          "GND": [
+            "R903.2",
+            "C903.2"
+          ]
+        },
+        "wiring_notes": [
+          "VIN_5V -> R902 100k -> NTC_HOT_REF -> R903 12k -> GND.",
+          "C903 10n parallel to R903; use one visible branch junction."
+        ]
+      },
+      {
+        "id": "T3",
+        "title": "Cold threshold divider",
+        "references": [
+          "R904",
+          "R905",
+          "C904"
+        ],
+        "internal_net_members": {
+          "VIN_5V": [
+            "R904.1"
+          ],
+          "/CHARGE_TEMP/NTC_COLD_REF": [
+            "R904.2",
+            "R905.1",
+            "C904.1"
+          ],
+          "GND": [
+            "R905.2",
+            "C904.2"
+          ]
+        },
+        "wiring_notes": [
+          "VIN_5V -> R904 100k -> NTC_COLD_REF -> R905 33k -> GND.",
+          "C904 10n parallel to R905; use one visible branch junction."
+        ]
+      },
+      {
+        "id": "T4",
+        "title": "Window comparators and charger TS output",
+        "references": [
+          "U901",
+          "C901",
+          "R906",
+          "R907",
+          "R908"
+        ],
+        "internal_net_members": {
+          "/CHARGE_TEMP/NTC_HOT_REF": [
+            "U901.2"
+          ],
+          "BAT_NTC": [
+            "U901.3",
+            "U901.6",
+            "R907.2"
+          ],
+          "/CHARGE_TEMP/NTC_COLD_REF": [
+            "U901.5",
+            "R908.2"
+          ],
+          "VIN_5V": [
+            "U901.8",
+            "C901.1"
+          ],
+          "GND": [
+            "U901.4",
+            "C901.2",
+            "R906.2"
+          ],
+          "CHG_TS": [
+            "U901.1",
+            "U901.7",
+            "R906.1",
+            "R907.1",
+            "R908.1"
+          ]
+        },
+        "wiring_notes": [
+          "Keep U901.1 and U901.2 vertically aligned as two logical units of one physical U901.",
+          "Unit 1: pin 2 NTC_HOT_REF, pin 3 BAT_NTC, output pin 1 CHG_TS. Unit 2: pin 5 NTC_COLD_REF, pin 6 BAT_NTC, output pin 7 CHG_TS.",
+          "Directly join the two open-drain outputs on a single right-side CHG_TS bus.",
+          "R906 10k goes from CHG_TS to GND. R907 330k goes CHG_TS to BAT_NTC. R908 330k goes CHG_TS to NTC_COLD_REF. These are not GND pull-downs; label the remote ends distinctly.",
+          "C901 decouples U901 pins 8 VIN_5V / 4 GND. Keep this supply local to the comparator block."
+        ]
+      }
+    ]
+  },
+  "general": [
+    "Do not use a page-wide GND or power rail.",
+    "Within each small block use direct orthogonal wires; cross-block signals use labels.",
+    "Do not infer pin positions or rotate parts from KiCad geometry; read actual native pin positions first.",
+    "Preserve all values and nets; this plan is presentation only."
+  ]
+}
