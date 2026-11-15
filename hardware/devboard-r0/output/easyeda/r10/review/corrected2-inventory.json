@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "result": {
+    "pages": [
+      {
+        "name": "AUDIO",
+        "uuid": "30968987fbc1647d"
+      },
+      {
+        "name": "CHARGE_TEMP",
+        "uuid": "8fa31840ba825b92"
+      },
+      {
+        "name": "EPD_DISPLAY",
+        "uuid": "bbbca101b360e299"
+      },
+      {
+        "name": "ESPaperPlay_Devboard",
+        "uuid": "9e364700c984f124"
+      },
+      {
+        "name": "MCU_CORE",
+        "uuid": "07dc7dde94c1bf76"
+      },
+      {
+        "name": "POWER_3V3_CONTROL",
+        "uuid": "e98944c2045546cf"
+      },
+      {
+        "name": "POWER_DOMAINS",
+        "uuid": "2ef9ed7773e0c42f"
+      },
+      {
+        "name": "POWER_INPUT_CHARGER",
+        "uuid": "3fdc6001a068d82e"
+      },
+      {
+        "name": "STORAGE_SD",
+        "uuid": "e99e682aca69cae1"
+      },
+      {
+        "name": "TOUCH_ISOLATION",
+        "uuid": "35d0bca337813128"
+      },
+      {
+        "name": "USB_INPUT",
+        "uuid": "3e7683d1ed324ce9"
+      }
+    ],
+    "pcbs": [
+      {
+        "itemType": "PCB",
+        "uuid": "52caa9452ee66dee",
+        "name": "ESPaperPlay_Devboard",
+        "parentProjectUuid": "5f78098564b143419750286dad7b1c42",
+        "parentBoardName": "ESPaperPlay_Devboard"
+      }
+    ]
+  },
+  "windowId": "dd5cc7d2-3c12-49f0-8893-3c2a2fae6d3a"
+}

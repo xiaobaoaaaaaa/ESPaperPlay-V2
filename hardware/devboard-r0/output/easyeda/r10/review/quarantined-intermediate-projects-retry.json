@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "result": {
+    "results": [
+      {
+        "id": "2835302011594dc8bd8f93f2c6f26dcd",
+        "moved": true,
+        "info": {
+          "itemType": "Project",
+          "uuid": "2835302011594dc8bd8f93f2c6f26dcd",
+          "friendlyName": "ESPaperPlay-V2-r10-import",
+          "teamUuid": "175d2d18d70648ef8166cb54164640c2"
+        }
+      },
+      {
+        "id": "1facc073c0e643f6b61adfd72fc9e923",
+        "moved": true,
+        "info": {
+          "itemType": "Project",
+          "uuid": "1facc073c0e643f6b61adfd72fc9e923",
+          "friendlyName": "ESPaperPlay-V2-r10-compat-check",
+          "teamUuid": "175d2d18d70648ef8166cb54164640c2"
+        }
+      },
+      {
+        "id": "5a096d5de75343e39c43ec59025b70fa",
+        "moved": true,
+        "info": {
+          "itemType": "Project",
+          "uuid": "5a096d5de75343e39c43ec59025b70fa",
+          "friendlyName": "ESPaperPlay-V2-r10",
+          "teamUuid": "175d2d18d70648ef8166cb54164640c2"
+        }
+      }
+    ]
+  },
+  "windowId": "dd5cc7d2-3c12-49f0-8893-3c2a2fae6d3a"
+}

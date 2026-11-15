@@ -1,0 +1,29 @@
+{
+  "status": "MIGRATION_CHECKED_DRC_ZERO_NOT_NEW_MANUFACTURING_RELEASE",
+  "date": "2026-11-14",
+  "client": "EasyEDA 4.1.93",
+  "project_name": "ESPaperPlay-V2-r10-migrated",
+  "project_uuid": "5f78098564b143419750286dad7b1c42",
+  "pcb_uuid": "52caa9452ee66dee",
+  "strict_drc_error_count": 0,
+  "electrical_components": 236,
+  "physical_components": 240,
+  "logical_pins": 774,
+  "network_partitions": 181,
+  "physical_netted_pad_records": 807,
+  "vias": 549,
+  "duplicate_vias": 0,
+  "npth_holes": 7,
+  "copper_layers": 4,
+  "source_pcb_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "DNP_refs": [
+    "C501",
+    "C502",
+    "J301",
+    "J302",
+    "J303",
+    "R108"
+  ],
+  "charging_assembly_policy": "R108 DNP; J105 normally open, unchanged",
+  "scope": "Corrected migrated project, logical connectivity, strict DRC, selected custom-footprint/paste manufacturing output, archive readback. No new fabrication order or payment."
+}

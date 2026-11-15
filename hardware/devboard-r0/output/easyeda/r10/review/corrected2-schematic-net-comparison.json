@@ -1,0 +1,17 @@
+{
+  "source": "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-import-r10/source-current.net.xml",
+  "imported": "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-import-r10/corrected2-schematic-netlist.json",
+  "source_components": 236,
+  "imported_components": 236,
+  "source_pins": 774,
+  "imported_pins": 774,
+  "source_net_groups": 181,
+  "imported_net_groups": 181,
+  "missing_refs": [],
+  "extra_refs": [],
+  "missing_pins": [],
+  "extra_pins": [],
+  "merged_nets": [],
+  "split_nets": [],
+  "connectivity_equivalent": true
+}

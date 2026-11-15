@@ -1,0 +1,397 @@
+{
+  "before_zip": "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-import-r10/check-r2/gerber-clean.zip",
+  "after_zip": "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-import-r10/check-r2/gerber-final.zip",
+  "before_zip_sha256": "d8dcd504e942da6d9a958baab9eca0b56b03cbc1249702183e3d599551d83afc",
+  "after_zip_sha256": "6ad277dd34df45020d15f5d1c33f583f04601b070965e808bcae3c1764fca2e2",
+  "copper_drawing_operations_unchanged": true,
+  "drill_geometry_unchanged": true,
+  "all_nonpaste_fabrication_geometry_unchanged": true,
+  "files": [
+    {
+      "file": "Gerber_TopLayer.GTL",
+      "before_raw_sha256": "4f84f55366d340f3fdb9f7a58d9036e6ecc253a9c5cdaafbd9462b3e794cf27a",
+      "after_raw_sha256": "f96a200c140d705ea8ac6bf9e7301b358b573054d4e6f31d904caa1d498e62f3",
+      "raw_equal": false,
+      "before_geometry_sha256": "697dd46d56c1b0708ae80ab00aafb35bbdd5382e35a49833b9e5fa5f73f7462e",
+      "after_geometry_sha256": "697dd46d56c1b0708ae80ab00aafb35bbdd5382e35a49833b9e5fa5f73f7462e",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 3052,
+      "after_operation_count": 3052,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_BottomLayer.GBL",
+      "before_raw_sha256": "56afd02676801996cbf20736f785c3168e900d5fcc9788fb4ac8c4b8e4ca0101",
+      "after_raw_sha256": "ca2a749975d5b6139a9fb96b6b648aca41a23e88e8169cca4c777adc9c96312d",
+      "raw_equal": false,
+      "before_geometry_sha256": "83b3addb41430b6d3c0fcaf875bbd76762ad55530323f2225dd9985036b4d3fc",
+      "after_geometry_sha256": "83b3addb41430b6d3c0fcaf875bbd76762ad55530323f2225dd9985036b4d3fc",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 1226,
+      "after_operation_count": 1226,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_TopSilkscreenLayer.GTO",
+      "before_raw_sha256": "3ab0be7203137b71e9424405ca0e71c90bebb8924ae924c84a7c9bce81777acc",
+      "after_raw_sha256": "4159b5938cb57e410f4480ba4a6d433e50b5db09c901f79d3f9e743bec7a2a77",
+      "raw_equal": false,
+      "before_geometry_sha256": "34d70db7fd5b5f49246cc2f78c89bf5a71dd8e86068a8f265d706bd3a26d228d",
+      "after_geometry_sha256": "34d70db7fd5b5f49246cc2f78c89bf5a71dd8e86068a8f265d706bd3a26d228d",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 15307,
+      "after_operation_count": 15307,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_BottomSilkscreenLayer.GBO",
+      "before_raw_sha256": "fd1d921c129ab4b176742107ea9188f45af444f4154d68ce118a951440312d69",
+      "after_raw_sha256": "c7dd0d476f6180d7e71c34c3d3b1846b2ad20be380070d91dce776189b4a623f",
+      "raw_equal": false,
+      "before_geometry_sha256": "0609a63cd213338ec3e8c22957e6f327eb86aa335c086752ec33df74ea691f30",
+      "after_geometry_sha256": "0609a63cd213338ec3e8c22957e6f327eb86aa335c086752ec33df74ea691f30",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 0,
+      "after_operation_count": 0,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_TopSolderMaskLayer.GTS",
+      "before_raw_sha256": "d849b88c73a2039dd3ceb970f0efe742198cd4a62c5f5124bb332c3200fff6f5",
+      "after_raw_sha256": "ad40b75d9d6c6447cc88fc9aa56b5f9e08624d9d1ccb614c07f5378a68a58a6e",
+      "raw_equal": false,
+      "before_geometry_sha256": "0de37c0ca30fed4f05d3f05442b95db442228551d78ddddb100a690bf0dbb080",
+      "after_geometry_sha256": "0de37c0ca30fed4f05d3f05442b95db442228551d78ddddb100a690bf0dbb080",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 810,
+      "after_operation_count": 810,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_BottomSolderMaskLayer.GBS",
+      "before_raw_sha256": "8b8926a71ee65b79d40309817cbb4d53c79497cf39f2638634d333bcf10797c8",
+      "after_raw_sha256": "2147dc02d7d4c024b2ee52438c544e51d3844e99e5a4f5092c06cb9552020b2d",
+      "raw_equal": false,
+      "before_geometry_sha256": "de0c445a8c963b25a69ea542898682dd0214d1cdcbaae190ec9e9c647012e6a3",
+      "after_geometry_sha256": "de0c445a8c963b25a69ea542898682dd0214d1cdcbaae190ec9e9c647012e6a3",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 114,
+      "after_operation_count": 114,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_TopPasteMaskLayer.GTP",
+      "before_raw_sha256": "0c4db2436106635efb68e9287ba3ecd363bbe6195b7f3ae74de10d673dc27aa2",
+      "after_raw_sha256": "57a8e90b2f7778f467c2cda352f6bbc4fa4c806a13227eb863ffec69be82d38b",
+      "raw_equal": false,
+      "before_geometry_sha256": "5e24e1d33337d9449fcbf6597c851c3e7c42a821b2f433ffc60bdfab954a7260",
+      "after_geometry_sha256": "c84e8d878aa49d85afbd9f770469bdd4743123e7aa427da49d4e27c51b92a248",
+      "geometry_equal": false,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 690,
+      "after_operation_count": 679,
+      "removed_operations": [
+        {
+          "aperture": [
+            "R",
+            "3.9X3.9"
+          ],
+          "end": [
+            15850000,
+            -5921000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "R",
+            "0.8X0.3"
+          ],
+          "end": [
+            20460000,
+            -10375000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "R",
+            "0.8X0.3"
+          ],
+          "end": [
+            20460000,
+            -10425000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "R",
+            "0.8X0.3"
+          ],
+          "end": [
+            20460000,
+            -10475000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "R",
+            "0.8X0.3"
+          ],
+          "end": [
+            20460000,
+            -10525000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "R",
+            "0.8X0.3"
+          ],
+          "end": [
+            20460000,
+            -10575000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "R",
+            "0.8X0.3"
+          ],
+          "end": [
+            20460000,
+            -10625000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "R",
+            "0.8X1.2"
+          ],
+          "end": [
+            7000000,
+            -13800000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "R",
+            "1.23X1.23"
+          ],
+          "end": [
+            8800000,
+            -6500000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "RoundRect",
+            "0.1X-0.79X0.79X0.79X0.79"
+          ],
+          "end": [
+            7500000,
+            -11500000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        },
+        {
+          "aperture": [
+            "RoundRect",
+            "0.1X-0.6X0.075X0.6X0.075"
+          ],
+          "end": [
+            10155000,
+            -11300000
+          ],
+          "kind": "flash",
+          "polarity": "D"
+        }
+      ],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_TopAssemblyLayer.GTA",
+      "before_raw_sha256": "2c1ebdf12e4ca730fcdef277a6fa9ea179fa08366aa6bf4391d3cb438cc964e8",
+      "after_raw_sha256": "4a2a3bd3f532859d908677b963c61c441c72a8fb0b8a857efddf16abe6159640",
+      "raw_equal": false,
+      "before_geometry_sha256": "a26bff64069357cb5aabca901f4ba07f9d79dbb7b653c83f5bcb71bc2f93b405",
+      "after_geometry_sha256": "a26bff64069357cb5aabca901f4ba07f9d79dbb7b653c83f5bcb71bc2f93b405",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 11040,
+      "after_operation_count": 11040,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_BoardOutlineLayer.GKO",
+      "before_raw_sha256": "526ce1a1287a96c7ccba6a79384417581b1f35d5e74e6baae97a4b9c7c013b69",
+      "after_raw_sha256": "d35c8da317cc32d0e854da4a563edab541f734d0b3a7aefa38f8c907f834b812",
+      "raw_equal": false,
+      "before_geometry_sha256": "bae615bfd730ba589c1aab7fbd7f2c99efc5cd482d7c46a8391d05f4c6334835",
+      "after_geometry_sha256": "bae615bfd730ba589c1aab7fbd7f2c99efc5cd482d7c46a8391d05f4c6334835",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 4,
+      "after_operation_count": 4,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_InnerLayer1.G1",
+      "before_raw_sha256": "ba7407e66f3b7a75b8960aa590811d757eed5568b51b352ece19a8b5f1385cd6",
+      "after_raw_sha256": "ad43e5600de6f933bf893b3d740cc1666f8f9a62966ae2cd677eab23f83d993a",
+      "raw_equal": false,
+      "before_geometry_sha256": "6a13e6bf9252c50153b6e6d1efb42b6bf5dd0bbcf180751762a96fd6abead7b8",
+      "after_geometry_sha256": "6a13e6bf9252c50153b6e6d1efb42b6bf5dd0bbcf180751762a96fd6abead7b8",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 839,
+      "after_operation_count": 839,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_InnerLayer2.G2",
+      "before_raw_sha256": "3182091e61735e08fe6fb00b0ca1917955fda4774921c457bb3bdf693b5e606b",
+      "after_raw_sha256": "8264bd5cd6b8ceac0cc421dba3cd8581ebe82cef13a8ea3bb5654b3fd04f79cb",
+      "raw_equal": false,
+      "before_geometry_sha256": "6a13e6bf9252c50153b6e6d1efb42b6bf5dd0bbcf180751762a96fd6abead7b8",
+      "after_geometry_sha256": "6a13e6bf9252c50153b6e6d1efb42b6bf5dd0bbcf180751762a96fd6abead7b8",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 839,
+      "after_operation_count": 839,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_DrillDrawingLayer.GDD",
+      "before_raw_sha256": "9b5934373ad6cc150f4f8ee48db695bf92d16c4ed569efd4c7a3aec31e0098b9",
+      "after_raw_sha256": "784dfc419aaa749f2dda41277b57a8ee5a9c48f3f1e669518bd73c2d4057f8a7",
+      "raw_equal": false,
+      "before_geometry_sha256": "0eb47c0296da2aaae5da8718a3096b8d15a8588fdfa89d773a30fb1351a0f81d",
+      "after_geometry_sha256": "0eb47c0296da2aaae5da8718a3096b8d15a8588fdfa89d773a30fb1351a0f81d",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 6658,
+      "after_operation_count": 6658,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_CustomLayer1.GCL",
+      "before_raw_sha256": "961e974c216eef95cb7838f621b04f7a658a38bac4177ea11fd4977bf3e209c1",
+      "after_raw_sha256": "670ab1f2ebb03f2c7ac05a4a9e845b6b6c8fbd0ea7277e03a31649713231f764",
+      "raw_equal": false,
+      "before_geometry_sha256": "233856d8df4a9328e751ea5dba30daa65100537f27eba2f31eb2557b6c8e121a",
+      "after_geometry_sha256": "233856d8df4a9328e751ea5dba30daa65100537f27eba2f31eb2557b6c8e121a",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 1232,
+      "after_operation_count": 1232,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_CustomLayer2.GCL",
+      "before_raw_sha256": "2d470f207cedeb166dcee629bd107a9c8ee2852ed5cf508c2aa5e72160c76ecf",
+      "after_raw_sha256": "af90866bdf819b88cd7062fe82e59365939d45de7f6c6f81209c2f8acc231c48",
+      "raw_equal": false,
+      "before_geometry_sha256": "f8d0b0e43a5aec4e90748e15789c62e5777c14adf2ac8c14af6ec06e2a0f5431",
+      "after_geometry_sha256": "f8d0b0e43a5aec4e90748e15789c62e5777c14adf2ac8c14af6ec06e2a0f5431",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 358,
+      "after_operation_count": 358,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Gerber_CustomLayer6.GCL",
+      "before_raw_sha256": "d33f3ddfedaf93c8c923b19603a9a82b3398b1df7b9501424a485b1298f2f9fe",
+      "after_raw_sha256": "d788863a80fa4f8eab170c0caaa11d4d47796530346d5b92a3636fc50b18d65c",
+      "raw_equal": false,
+      "before_geometry_sha256": "bd31993f2203c50e386dce4fedbb8e29b7ee9566ac2c52ab0ed500689dd9735e",
+      "after_geometry_sha256": "bd31993f2203c50e386dce4fedbb8e29b7ee9566ac2c52ab0ed500689dd9735e",
+      "geometry_equal": true,
+      "regions_equal": true,
+      "macro_definitions_equal": true,
+      "before_operation_count": 1136,
+      "after_operation_count": 1136,
+      "removed_operations": [],
+      "added_operations": []
+    },
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "before_raw_sha256": "530f9f0ba52fe39d6e99f6ec3539d0f84ba1326abfe9cc493cc103ba533d82f4",
+      "after_raw_sha256": "8b2833aa36371edfb22296a2f6a70b3135c3e1d926440ce01da5de918624ec9c",
+      "raw_equal": false,
+      "before_geometry_sha256": "4551edfc1ee0d5227f7a11bfa65c39bc9483c7c72a4171b360f3b5f38f8bf062",
+      "after_geometry_sha256": "4551edfc1ee0d5227f7a11bfa65c39bc9483c7c72a4171b360f3b5f38f8bf062",
+      "geometry_equal": true
+    },
+    {
+      "file": "Drill_NPTH_Through.DRL",
+      "before_raw_sha256": "03ea2b7faeda9db25fb80a1c05a02039e14495a2dc1537987a788d42cbb52550",
+      "after_raw_sha256": "325f1fa182a63c34dd4e8e2639b6e911230e3ab4a833e3f8a16b8eb3ec8fe3df",
+      "raw_equal": false,
+      "before_geometry_sha256": "967772e18f1c2a1266b1532fbcb0b234e69fcf8de6dc095292f2224af1198273",
+      "after_geometry_sha256": "967772e18f1c2a1266b1532fbcb0b234e69fcf8de6dc095292f2224af1198273",
+      "geometry_equal": true
+    },
+    {
+      "file": "Drill_PTH_Through_Via.DRL",
+      "before_raw_sha256": "2d849ac3534f959c1f947a7f39460fc629c844eda055901681acabfc6a9c6c41",
+      "after_raw_sha256": "6417bec43f1eb791d2b3c92c09fc605dee3d8a8c6e678387396c4868e8b38c00",
+      "raw_equal": false,
+      "before_geometry_sha256": "affb19cb3f92102684f461a2c34e9da342dea7bb30baf33ee3b08eef82263a06",
+      "after_geometry_sha256": "affb19cb3f92102684f461a2c34e9da342dea7bb30baf33ee3b08eef82263a06",
+      "geometry_equal": true
+    }
+  ],
+  "limitations": "Compares emitted drawing operations in the observed absolute-coordinate MM RS274X subset, resolves aperture IDs and omits unused aperture definitions; ordered region paths and aperture macro definitions must match exactly. Drill comparison ignores only the generation timestamp. This is not arbitrary RS274X geometric rendering or fabrication approval."
+}

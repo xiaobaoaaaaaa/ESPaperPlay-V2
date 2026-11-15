@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "numeric_roundtrip_tolerance_mm": 2e-06,
+  "max_delta_mm": 1.6399999999694437e-06,
+  "changed_numeric_fields": 104,
+  "other_field_changes": 0,
+  "reason": "mm-to-mil source serialization rounds to finite decimal precision; critical settings match within 2 nm",
+  "nominal_rules": {
+    "copper_clearance_mm": 0.15,
+    "hole_copper_clearance_mm": 0.15,
+    "hole_hole_clearance_mm": 0.25,
+    "copper_board_edge_mm": 0.3,
+    "track_min_mm": 0.15,
+    "via_min_outer_drill_mm": [
+      0.45,
+      0.2
+    ],
+    "via_default_outer_drill_mm": [
+      0.6,
+      0.3
+    ],
+    "differential_default_width_gap_mm": [
+      0.26,
+      0.15
+    ],
+    "thermal_gap_spoke_mm": [
+      0.25,
+      0.3
+    ]
+  }
+}

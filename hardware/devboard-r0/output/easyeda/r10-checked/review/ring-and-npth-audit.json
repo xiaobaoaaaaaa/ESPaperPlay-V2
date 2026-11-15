@@ -1,0 +1,98 @@
+{
+  "zip": "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-import-r10/check-r2/gerber-final.zip",
+  "zip_sha256": "6ad277dd34df45020d15f5d1c33f583f04601b070965e808bcae3c1764fca2e2",
+  "copper_ring": {
+    "sectors": 4,
+    "outer_radius_mm": 0.825,
+    "inner_radius_mm": 0.525,
+    "sector_area_sum_mm2": 1.27234502470359,
+    "expected_area_mm2": 1.272345024703866,
+    "area_error_mm2": -2.760014439218139e-13,
+    "center_containing_regions": [],
+    "out_of_board_flashes": [],
+    "pass": true
+  },
+  "paste_ring": {
+    "sectors": 4,
+    "outer_radius_mm": 0.8025,
+    "inner_radius_mm": 0.5475,
+    "sector_area_sum_mm2": 1.0814932709980383,
+    "expected_area_mm2": 1.0814932709982863,
+    "area_error_mm2": -2.4802382370125997e-13,
+    "center_containing_regions": [],
+    "out_of_board_flashes": [],
+    "pass": true
+  },
+  "npth": {
+    "holes": [
+      {
+        "center_mm": [
+          61.0,
+          -62.0
+        ],
+        "diameter_mm": 0.6
+      },
+      {
+        "center_mm": [
+          110.89,
+          -55.605
+        ],
+        "diameter_mm": 0.65
+      },
+      {
+        "center_mm": [
+          105.11,
+          -55.605
+        ],
+        "diameter_mm": 0.65
+      },
+      {
+        "center_mm": [
+          205.0,
+          -155.0
+        ],
+        "diameter_mm": 3.2
+      },
+      {
+        "center_mm": [
+          55.0,
+          -55.0
+        ],
+        "diameter_mm": 3.2
+      },
+      {
+        "center_mm": [
+          205.0,
+          -55.0
+        ],
+        "diameter_mm": 3.2
+      },
+      {
+        "center_mm": [
+          55.0,
+          -155.0
+        ],
+        "diameter_mm": 3.2
+      }
+    ],
+    "pass": true
+  },
+  "inner_layers": [
+    {
+      "file": "Gerber_InnerLayer1.G1",
+      "declared_copper_areas": 182,
+      "region_blocks": 6,
+      "present": true,
+      "sha256": "ad43e5600de6f933bf893b3d740cc1666f8f9a62966ae2cd677eab23f83d993a"
+    },
+    {
+      "file": "Gerber_InnerLayer2.G2",
+      "declared_copper_areas": 182,
+      "region_blocks": 6,
+      "present": true,
+      "sha256": "8264bd5cd6b8ceac0cc421dba3cd8581ebe82cef13a8ea3bb5654b3fd04f79cb"
+    }
+  ],
+  "pass": true,
+  "limitations": "Checks U803 annular sectors/center void/NPTH and presence of inner copper. Does not prove whole-board Gerber equality or DRC."
+}

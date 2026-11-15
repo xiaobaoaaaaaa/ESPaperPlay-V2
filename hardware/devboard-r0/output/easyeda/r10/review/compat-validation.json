@@ -1,0 +1,22 @@
+{
+  "source_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "compat_sha256": "bdfef89d7465d1920da73358caf1383ec2ef00dcab6378e6a88c277c18224717",
+  "pcbnew_semantic_equality": true,
+  "version_and_layers_unchanged": true,
+  "footprints": 240,
+  "pads": 838,
+  "tracks": {
+    "PCB_TRACK": 2335,
+    "PCB_VIA": 549
+  },
+  "zones": 2,
+  "copper_layers": 4,
+  "other_files_identical": 36,
+  "nonempty_nets": 181,
+  "rewritten_nodes": {
+    "pad": 804,
+    "segment": 2335,
+    "via": 549,
+    "zone": 2
+  }
+}

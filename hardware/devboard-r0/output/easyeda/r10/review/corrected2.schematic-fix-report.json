@@ -1,0 +1,94 @@
+{
+  "input": "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-import-r10/compat.epro2",
+  "input_sha256": "5b2a01576f299d8446f64cbb2c1bee550d196a4b95dc2530120b3f4e81eb0d7e",
+  "pages": [
+    {
+      "name": "AUDIO",
+      "global_labels_matched": 23,
+      "removed_erc_flags": [
+        "#FLG801",
+        "#FLG802"
+      ],
+      "removed_false_wire_net_attributes": 2
+    },
+    {
+      "name": "CHARGE_TEMP",
+      "global_labels_matched": 6,
+      "removed_erc_flags": [],
+      "removed_false_wire_net_attributes": 0
+    },
+    {
+      "name": "EPD_DISPLAY",
+      "global_labels_matched": 56,
+      "removed_erc_flags": [
+        "#FLG601"
+      ],
+      "removed_false_wire_net_attributes": 1
+    },
+    {
+      "name": "ESPaperPlay_Devboard",
+      "global_labels_matched": 0,
+      "removed_erc_flags": [],
+      "removed_false_wire_net_attributes": 0
+    },
+    {
+      "name": "MCU_CORE",
+      "global_labels_matched": 67,
+      "removed_erc_flags": [],
+      "removed_false_wire_net_attributes": 0
+    },
+    {
+      "name": "POWER_3V3_CONTROL",
+      "global_labels_matched": 55,
+      "removed_erc_flags": [],
+      "removed_false_wire_net_attributes": 0
+    },
+    {
+      "name": "POWER_DOMAINS",
+      "global_labels_matched": 20,
+      "removed_erc_flags": [],
+      "removed_false_wire_net_attributes": 0
+    },
+    {
+      "name": "POWER_INPUT_CHARGER",
+      "global_labels_matched": 30,
+      "removed_erc_flags": [
+        "#FLG101",
+        "#FLG102",
+        "#FLG201",
+        "#FLG202"
+      ],
+      "removed_false_wire_net_attributes": 4
+    },
+    {
+      "name": "STORAGE_SD",
+      "global_labels_matched": 46,
+      "removed_erc_flags": [
+        "#FLG701"
+      ],
+      "removed_false_wire_net_attributes": 1
+    },
+    {
+      "name": "TOUCH_ISOLATION",
+      "global_labels_matched": 17,
+      "removed_erc_flags": [
+        "#FLG406"
+      ],
+      "removed_false_wire_net_attributes": 1
+    },
+    {
+      "name": "USB_INPUT",
+      "global_labels_matched": 14,
+      "removed_erc_flags": [],
+      "removed_false_wire_net_attributes": 0
+    }
+  ],
+  "patched_symbol_uuids": [
+    "2d02f84a2d0c4ffa"
+  ],
+  "pcb_unchanged": true,
+  "output": "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-import-r10/corrected2.epro2",
+  "output_sha256": "8aed81d1f13d1c21dde20e0efb04aaa25e1991c492bd1eb58fa3e52d59a46f5e",
+  "total_global_labels": 334,
+  "total_removed_erc_flags": 9
+}

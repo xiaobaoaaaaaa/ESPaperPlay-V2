@@ -12,6 +12,8 @@
 
 ## 打开与查看
 
+嘉立创工程使用[已检查的epro2备份](output/easyeda/r10-checked/ESPaperPlay-V2-r10-migration-final.epro2)，客户端工程名为`ESPaperPlay-V2-r10-migrated`。连接、规则及特殊焊盘迁移记录见[检查报告](output/easyeda/r10-checked/CHECK_REPORT.txt)。相邻`output/easyeda/r10/`仅为早期待审历史，不能作为最新工程导入。当前KiCad文件仍为r10对照基线；两套CAD文件没有自动双向同步。
+
 打开 [ESPaperPlay_Devboard.kicad_pro](ESPaperPlay_Devboard.kicad_pro)，进入PCB编辑器查看当前布局；原理图编辑器中双击根页功能框。也可直接打开[PCB](ESPaperPlay_Devboard.kicad_pcb)或[根原理图](ESPaperPlay_Devboard.kicad_sch)。
 
 | 页 | 内容 |

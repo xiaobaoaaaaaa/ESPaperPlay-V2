@@ -1,0 +1,473 @@
+{
+  "zip": "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-import-r10/check-r2/gerber-final.zip",
+  "zip_sha256": "6ad277dd34df45020d15f5d1c33f583f04601b070965e808bcae3c1764fca2e2",
+  "source_board_sha256": "e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24",
+  "gtp_sha256": "57a8e90b2f7778f467c2cda352f6bbc4fa4c806a13227eb863ffec69be82d38b",
+  "checks": [
+    {
+      "ref": "U301",
+      "expected_manual_windows": 9,
+      "manual_windows": [
+        {
+          "center_mm": [
+            157.10000000000002,
+            -57.81
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.8099999999994907,
+          "expected_area_mm2": 0.81,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            157.10000000000002,
+            -59.209999999999994
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.8100000000013097,
+          "expected_area_mm2": 0.81,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            157.10000000000002,
+            -60.61
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.8099999999994907,
+          "expected_area_mm2": 0.81,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            158.5,
+            -57.81
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.8100000000013097,
+          "expected_area_mm2": 0.81,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            158.5,
+            -59.209999999999994
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.8099999999994907,
+          "expected_area_mm2": 0.81,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            158.5,
+            -60.61
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.8099999999994907,
+          "expected_area_mm2": 0.81,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            159.89999999999998,
+            -57.81
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.8100000000013097,
+          "expected_area_mm2": 0.81,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            159.89999999999998,
+            -59.209999999999994
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.8100000000013097,
+          "expected_area_mm2": 0.81,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            159.89999999999998,
+            -60.61
+          ],
+          "size_mm": [
+            0.9,
+            0.9
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.8099999999994907,
+          "expected_area_mm2": 0.81,
+          "pass": true
+        }
+      ],
+      "unexpected_automatic_pad_flashes": [],
+      "retained_shell_paste": [],
+      "pass": true
+    },
+    {
+      "ref": "U203",
+      "expected_manual_windows": 4,
+      "manual_windows": [
+        {
+          "center_mm": [
+            69.8,
+            -137.7
+          ],
+          "size_mm": [
+            0.32,
+            0.48
+          ],
+          "corner_radius_mm": 0.08,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.14810619298400798,
+          "expected_area_mm2": 0.14810619298297467,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            69.8,
+            -138.3
+          ],
+          "size_mm": [
+            0.32,
+            0.48
+          ],
+          "corner_radius_mm": 0.08,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.14810619298400798,
+          "expected_area_mm2": 0.14810619298297467,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            70.2,
+            -137.7
+          ],
+          "size_mm": [
+            0.32,
+            0.48
+          ],
+          "corner_radius_mm": 0.08,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.1481061929830985,
+          "expected_area_mm2": 0.14810619298297467,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            70.2,
+            -138.3
+          ],
+          "size_mm": [
+            0.32,
+            0.48
+          ],
+          "corner_radius_mm": 0.08,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.1481061929830985,
+          "expected_area_mm2": 0.14810619298297467,
+          "pass": true
+        }
+      ],
+      "unexpected_automatic_pad_flashes": [],
+      "retained_shell_paste": [],
+      "pass": true
+    },
+    {
+      "ref": "U802",
+      "expected_manual_windows": 4,
+      "manual_windows": [
+        {
+          "center_mm": [
+            87.69,
+            -65.31
+          ],
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.2500000000009095,
+          "expected_area_mm2": 0.25,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            88.31,
+            -65.31
+          ],
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.2500000000009095,
+          "expected_area_mm2": 0.25,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            87.69,
+            -64.69
+          ],
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.25,
+          "expected_area_mm2": 0.25,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            88.31,
+            -64.69
+          ],
+          "size_mm": [
+            0.5,
+            0.5
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.25,
+          "expected_area_mm2": 0.25,
+          "pass": true
+        }
+      ],
+      "unexpected_automatic_pad_flashes": [],
+      "retained_shell_paste": [],
+      "pass": true
+    },
+    {
+      "ref": "U101",
+      "expected_manual_windows": 1,
+      "manual_windows": [
+        {
+          "center_mm": [
+            75.0,
+            -115.0
+          ],
+          "size_mm": [
+            1.55,
+            1.55
+          ],
+          "corner_radius_mm": 0.05,
+          "matching_regions": 1,
+          "actual_area_mm2": 2.4003539816340016,
+          "expected_area_mm2": 2.400353981633975,
+          "pass": true
+        }
+      ],
+      "unexpected_automatic_pad_flashes": [],
+      "retained_shell_paste": [],
+      "pass": true
+    },
+    {
+      "ref": "U201",
+      "expected_manual_windows": 2,
+      "manual_windows": [
+        {
+          "center_mm": [
+            101.17500000000001,
+            -113.0
+          ],
+          "size_mm": [
+            0.55,
+            0.25
+          ],
+          "corner_radius_mm": 0.05,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.13535398163459392,
+          "expected_area_mm2": 0.1353539816339745,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            101.92500000000001,
+            -113.0
+          ],
+          "size_mm": [
+            0.55,
+            0.25
+          ],
+          "corner_radius_mm": 0.05,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.13535398163368442,
+          "expected_area_mm2": 0.1353539816339745,
+          "pass": true
+        }
+      ],
+      "unexpected_automatic_pad_flashes": [],
+      "retained_shell_paste": [],
+      "pass": true
+    },
+    {
+      "ref": "J406",
+      "expected_manual_windows": 6,
+      "manual_windows": [
+        {
+          "center_mm": [
+            204.60000000000002,
+            -103.75
+          ],
+          "size_mm": [
+            0.6500000000000057,
+            0.25
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.1625000000021828,
+          "expected_area_mm2": 0.16250000000000142,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            204.60000000000002,
+            -104.25
+          ],
+          "size_mm": [
+            0.6500000000000057,
+            0.25
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.1624999999985448,
+          "expected_area_mm2": 0.16250000000000142,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            204.60000000000002,
+            -104.75
+          ],
+          "size_mm": [
+            0.6500000000000057,
+            0.25
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.1625000000021828,
+          "expected_area_mm2": 0.16250000000000142,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            204.60000000000002,
+            -105.25
+          ],
+          "size_mm": [
+            0.6500000000000057,
+            0.25
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.1624999999985448,
+          "expected_area_mm2": 0.16250000000000142,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            204.60000000000002,
+            -105.75
+          ],
+          "size_mm": [
+            0.6500000000000057,
+            0.25
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.1624999999985448,
+          "expected_area_mm2": 0.16250000000000142,
+          "pass": true
+        },
+        {
+          "center_mm": [
+            204.60000000000002,
+            -106.25
+          ],
+          "size_mm": [
+            0.6500000000000057,
+            0.25
+          ],
+          "corner_radius_mm": 0,
+          "matching_regions": 1,
+          "actual_area_mm2": 0.1625000000021828,
+          "expected_area_mm2": 0.16250000000000142,
+          "pass": true
+        }
+      ],
+      "unexpected_automatic_pad_flashes": [],
+      "retained_shell_paste": [
+        {
+          "pin": "SH",
+          "center_mm": [
+            207.1,
+            -107.3
+          ],
+          "flashes": 1,
+          "pass": true
+        },
+        {
+          "pin": "SH",
+          "center_mm": [
+            207.1,
+            -102.7
+          ],
+          "flashes": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "limitations": "Audits source-independent rectangular/rounded-rectangle paste windows against emitted G36 line/arc regions and duplicate D03 pad flashes at the listed no-paste copper-pad centers. Tests J406 signal-window geometry separately from its two intended shell-pad flashes. Does not prove full-board Gerber equivalence, arbitrary aperture macros, or manufacturing acceptability."
+}

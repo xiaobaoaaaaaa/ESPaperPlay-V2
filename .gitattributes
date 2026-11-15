@@ -8,3 +8,7 @@ hardware/devboard-r0/review-*/** linguist-generated=true
 *.kicad_mod -whitespace
 hardware/devboard-r0/output/** -whitespace
 *.csv -whitespace
+# Native EasyEDA archives and audit snapshots must not be text-merged.
+*.epro2 binary
+*.epro binary
+*.zip binary

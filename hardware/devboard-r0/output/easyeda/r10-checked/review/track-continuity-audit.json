@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "line_count": 2256,
+  "geometry_width_layer_and_lock_identical_to_gap_audited_source": true,
+  "net_names_only_changed_by_audited_alias_map": true,
+  "original_KiCad_segments": 2335,
+  "EasyEDA_normalized_segments": 2256,
+  "gap_coverage": {
+    "missing_source_segments": 47,
+    "gap_intervals": 47,
+    "all_entire_gap_centerlines_covered": true,
+    "minimum_interior_margin_mm": 0.09787852208054072,
+    "total_gap_length_mm": 0.039399134937022504
+  },
+  "inputs_sha256": {
+    "final-pcb-source.txt": "86020a214c7f25effdf019b50bac0cc542d6b5055b7526c8fb92cd2310aab1d5",
+    "synced-final-pcb-source.txt": "f6bac9d21e1ae2e9984414d85e554da9d041caabe943703a9ab95ca38982d810",
+    "pcb-to-schematic-net-map.json": "0c92c22119efc05cf16d80d6e988a21154c1a857bcbfaec29105b14577a736fa",
+    "connectivity-analysis.json": "fa096ac91806bcfd27f96e0256db069ba04b166cf29ab5b0ec96b052fd92b76a"
+  },
+  "limits": "Proves preserved trace geometry and coverage of previously identified short centerline differences; does not claim entire KiCad/EasyEDA copper polygons identical."
+}

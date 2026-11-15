@@ -1,0 +1,65 @@
+ESPaperPlay V2 嘉立创EDA迁移检查记录
+2026-11-14；嘉立创EDA 4.1.93；官方 easyeda-api / Run API Gateway。
+
+结果
+严格 DRC 返回空列表，画面显示“全部 (0)”。工程已经保存。
+原理图和PCB：236 个电气器件、774 个逻辑引脚、181 组连接分区与原 KiCad 网表一致。
+PCB保留240个物理组件，其中4个是机械安装孔。807条带网络物理焊盘映射已核验。
+549个过孔与原板一一对应，0个重复；四铜层各保留549个对应铜盘。
+最终 Gerber 保留全部7个非金属化孔，包括4个3.2mm安装孔、2个USB定位孔和麦克风声孔。
+
+此次修正
+1. 重新构建两个 GND 内层铺铜，清除迁移后的464项GND连通性报错。
+2. 按原KiCad工程恢复规则语义，包括铜间距0.15mm、孔到铜0.15mm、孔到孔0.25mm、
+   铜到板边0.30mm、最小线宽0.15mm、最小过孔外径/钻孔0.45/0.20mm。
+   默认过孔0.60/0.30mm，差分默认线宽/间距0.26/0.15mm，热焊间距/辐条0.25/0.30mm。
+   源格式毫米/密尔往返量化的最大偏差为0.00000164mm，没有其他规则字段变化。
+3. 对齐63个局部网名称，25个独立未连接引脚按NC处理；没有合并不同电气网络。
+4. 修复115个导入后继承错误的PCB Value，最终236个实际参数与原设计一致。
+5. 对齐隐藏Name及资料字段，消除“导入变更”网表提示。Value及可见文字保持不变。
+   H1—H4仍在PCB中，Convert to PCB=no排除其电气网表同步；未删除机械孔。
+6. 恢复6个DNP：J301、J302、J303、C501、C502、R108。
+   嘉立创工程用DNP=yes及Add into BOM=no表达首批不装，Convert to PCB=yes保留实体。
+   原KiCad的in_bom=yes/dnp=yes与此表达方式不同，首批装配意图一致。
+   R108仍不装、J105保持常开，未改变既定的首批禁充装配策略。
+7. 修复U803环形焊盘被转换为实心的问题。铜环和锡膏环分别用4个简单圆弧扇区表示；
+   铜扇区均为同一个4脚GND，因此物理网络记录从804变为807，逻辑引脚数不变。
+   铜环外/内半径0.825/0.525mm；锡膏环0.8025/0.5475mm；中心0.60mm声孔保留。
+8. 恢复独立锡膏窗，清除U301、U203、U802、U101、U201及J406上叠加的11个自动开口。
+   26个独立开窗的尺寸、位置和圆角面积核对通过；J406两个外壳焊盘开口保留。
+   最终修正使用高精度封装源；与修正前Gerber比较，四铜层、阻焊、钻孔和其他制造
+   几何均一致，唯一变化是删除这11个多余的锡膏flash。
+
+走线差异的结论
+原KiCad有2335条线段，嘉立创保存后自动整理为2256条。
+47处极短中心线差异合计0.0393991mm，最大单处0.0069mm；逐处验证其整段均处于
+同网络、同铜层的现有走线铜形之内，最小内部裕量0.0978785mm，未形成断路。
+最终2256条走线的几何、线宽、层和锁定状态与该审查基线一致，仅网络命名按映射对齐。
+
+证据索引
+review/drc-final.json：官方严格DRC结果。
+review/netlist-audit.json：KiCad、嘉立创原理图、PCB的连接与装配属性比较。
+review/via-audit.json：过孔坐标、孔径、铜盘和钻孔输出核验。
+review/track-continuity-audit.json、short-track-coverage.json：线段整理与铜形覆盖证明。
+review/critical-paste-audit.json、ring-and-npth-audit.json：关键开窗、铜环和孔的实输出核验。
+review/paste-only-geometry-comparison.json：最后一次锡膏修正的制造几何差异。
+review/archive-readback-audit.json：epro2压缩完整性及保存的图元、规则、封装修正回读。
+review/import-change-classification.json：同步后的器件/引脚变更项为0。
+
+复核边界
+检查证明此次迁移的逻辑连接、严格DRC及所列特殊封装输出通过；没有声称两个软件的
+整板铺铜轮廓逐多边形完全相同，也没有替代工厂叠层、阻抗、钢网工艺和实板验证。
+本地epro2已回读验证，但没有再新建工程执行一次独立重新导入。
+Gerber-migration-review-only.zip供审查留档。原r10制造包和加工要求仍保留，未下单。
+
+原PCB SHA256
+e7be650716b6b75f3b8d33ccc13a1d7717db9a022a3d4e6a25f0df748bae1a24
+
+只读复核
+将snapshots.zip解压到临时目录。reproduce中的脚本都支持--help。
+audit_final_netlists.py使用synced-pcb-netlist.json、final-sch-netlist.json，并指定：
+--source-xml source-current.net.xml --footprints final-footprint-sources.json
+--pcb-source synced-final-pcb-source.txt --metadata-synced
+--baseline-pcb-source before-metadata-sync.txt --report 新报告路径。
+audit_vias.py和check_critical_paste.py使用本机/usr/bin/python3及KiCad的pcbnew。
+其他只读核验脚本使用Python标准库；输入路径通过命令行传入。
