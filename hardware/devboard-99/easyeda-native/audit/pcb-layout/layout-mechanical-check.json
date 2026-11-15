@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "scope": "Actual native pad/via/local-track overlap against all24 antenna/acoustic/M3 copper keepouts; full signal routing is pending",
+  "native_via_rule_limitation": "Client4.1.93 rejects NO_VIA(3) API and drops VIA source flag; explicit independent overlap check is required for every future routing revision. Current existing vias all checked.",
+  "counts": {
+    "components": 236,
+    "component_pads": 803,
+    "prohibit_regions": 24,
+    "thermal_vias": 22,
+    "local_thermal_track_segments": 11,
+    "mounting_holes": 4
+  },
+  "mounting_holes": [
+    {
+      "id": "e8a46ed3ed67d401",
+      "center_mm": [
+        5.00000016,
+        -5.00000016
+      ],
+      "hole": {
+        "holeType": "ROUND",
+        "width": 125.9843,
+        "height": 125.9843,
+        "cornerRadius": 11.811
+      }
+    },
+    {
+      "id": "38e4cabe9641a30e",
+      "center_mm": [
+        93.99999996,
+        -5.00000016
+      ],
+      "hole": {
+        "holeType": "ROUND",
+        "width": 125.9843,
+        "height": 125.9843,
+        "cornerRadius": 11.811
+      }
+    },
+    {
+      "id": "de6852e9c5ed3bae",
+      "center_mm": [
+        5.00000016,
+        -93.99999996
+      ],
+      "hole": {
+        "holeType": "ROUND",
+        "width": 125.9843,
+        "height": 125.9843,
+        "cornerRadius": 11.811
+      }
+    },
+    {
+      "id": "b6077ba10c8250d2",
+      "center_mm": [
+        93.99999996,
+        -93.99999996
+      ],
+      "hole": {
+        "holeType": "ROUND",
+        "width": 125.9843,
+        "height": 125.9843,
+        "cornerRadius": 11.811
+      }
+    }
+  ],
+  "stack": [
+    {
+      "layer": 3,
+      "z": 1,
+      "thickness_mm": 0.0,
+      "material": null
+    },
+    {
+      "layer": 7,
+      "z": 2,
+      "thickness_mm": 0.0,
+      "material": null
+    },
+    {
+      "layer": 5,
+      "z": 3,
+      "thickness_mm": 0.0100076,
+      "material": ""
+    },
+    {
+      "layer": 1,
+      "z": 1000,
+      "thickness_mm": 0.0350266,
+      "material": null
+    },
+    {
+      "layer": 361,
+      "z": 1001,
+      "thickness_mm": 1.5100045999999998,
+      "material": "FR4"
+    },
+    {
+      "layer": 15,
+      "z": 1001,
+      "thickness_mm": 0.035001199999999996,
+      "material": null
+    },
+    {
+      "layer": 362,
+      "z": 1002,
+      "thickness_mm": 0.011811,
+      "material": "PP"
+    },
+    {
+      "layer": 16,
+      "z": 1003,
+      "thickness_mm": 0.035001199999999996,
+      "material": null
+    },
+    {
+      "layer": 363,
+      "z": 1004,
+      "thickness_mm": 0.011811,
+      "material": "PP"
+    },
+    {
+      "layer": 2,
+      "z": 9000,
+      "thickness_mm": 0.035001199999999996,
+      "material": null
+    },
+    {
+      "layer": 6,
+      "z": 10000,
+      "thickness_mm": 0.0100076,
+      "material": ""
+    },
+    {
+      "layer": 8,
+      "z": 10001,
+      "thickness_mm": 0.0,
+      "material": null
+    },
+    {
+      "layer": 4,
+      "z": 10002,
+      "thickness_mm": 0.0,
+      "material": null
+    }
+  ],
+  "total_stack_including_masks_mm": 1.6936719999999998,
+  "stack_status": "PENDING: proposed1.6mm reference did not persist across native close/reopen; current native default is not manufacturing-qualified",
+  "stack_1p6_persisted": false,
+  "errors": []
+}

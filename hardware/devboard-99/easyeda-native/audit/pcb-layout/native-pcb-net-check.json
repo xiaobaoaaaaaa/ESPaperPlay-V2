@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "components": 236,
+  "physical_pads": 803,
+  "logical_pins": 792,
+  "errors": [],
+  "source": "Current corrected schematic, PCB exported enet and actual PCB pad readback",
+  "hashes": {
+    "native-schematic.enet": "0bef6beb60f6087548c332656a0ed8603e01957b5e91c863f017c1691377d7a2",
+    "native-pcb.enet": "54f150d8bf8435386ac8d98a7eabc275e800544b8154512dda013e65a711b088"
+  }
+}

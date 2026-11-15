@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Official archive baseline",
+      "status": "PASS",
+      "result": "GEOMETRY_RULES_PASS_STACK_PENDING",
+      "footprints": {
+        "U101": "PASS",
+        "U802": "PASS",
+        "U203": "PASS",
+        "U301": "PASS",
+        "U803": "PASS",
+        "J501": "PASS",
+        "SW301": "PASS",
+        "F501": "PASS"
+      },
+      "enabled_copper_layers": [
+        1,
+        2,
+        15,
+        16
+      ],
+      "runtime_only_physical_layer_ids": [
+        15,
+        16,
+        362,
+        363
+      ]
+    },
+    {
+      "name": "PCB component coordinate",
+      "status": "PASS",
+      "mutation": {
+        "type": "COMPONENT",
+        "id": "b987cd01ec935ab3",
+        "field": "x",
+        "before": 590.559,
+        "after": 590.56,
+        "delta_mil": 0.001
+      },
+      "checker_result": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "U802 footprint pad coordinate",
+      "status": "PASS",
+      "mutation": {
+        "type": "PAD",
+        "id": "e30",
+        "field": "centerX",
+        "before": -29.5276,
+        "after": -29.5266,
+        "delta_mil": 0.001
+      },
+      "checker_result": "FAIL",
+      "error_scopes": [
+        "footprint_geometry"
+      ]
+    }
+  ],
+  "checker_sha256": "7faa02968b1694293fd618390bdce1dbbada461fb07944a6dee59d1631147023",
+  "archive_sha256": "87dec9097ccc8ed4504f0a9ea351595a5fabddcf5c4f17573e0df96b828511ff",
+  "mutations_only_in_temporary_directory": true,
+  "production_source_modified": false
+}

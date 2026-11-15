@@ -1502,33 +1502,9 @@
       "net": "/MCU_CORE/MCU_EN",
       "line": [
         600.0,
-        465.0,
-        600.0,
-        445.0,
-        620.0,
-        445.0
-      ]
-    },
-    {
-      "net": "/MCU_CORE/MCU_EN",
-      "line": [
-        600.0,
         495.0,
         555.0,
         495.0
-      ]
-    },
-    {
-      "net": "GND",
-      "line": [
-        680.0,
-        465.0,
-        700.0,
-        465.0,
-        700.0,
-        445.0,
-        680.0,
-        445.0
       ]
     },
     {
@@ -1568,33 +1544,9 @@
       "net": "/MCU_CORE/BOOT_N",
       "line": [
         800.0,
-        465.0,
-        800.0,
-        445.0,
-        820.0,
-        445.0
-      ]
-    },
-    {
-      "net": "/MCU_CORE/BOOT_N",
-      "line": [
-        800.0,
         495.0,
         755.0,
         495.0
-      ]
-    },
-    {
-      "net": "GND",
-      "line": [
-        880.0,
-        465.0,
-        900.0,
-        465.0,
-        900.0,
-        445.0,
-        880.0,
-        445.0
       ]
     },
     {
@@ -1634,33 +1586,9 @@
       "net": "POWER_KEY_N",
       "line": [
         980.0,
-        465.0,
-        980.0,
-        445.0,
-        1000.0,
-        445.0
-      ]
-    },
-    {
-      "net": "POWER_KEY_N",
-      "line": [
-        980.0,
         495.0,
         935.0,
         495.0
-      ]
-    },
-    {
-      "net": "GND",
-      "line": [
-        1060.0,
-        465.0,
-        1080.0,
-        465.0,
-        1080.0,
-        445.0,
-        1060.0,
-        445.0
       ]
     },
     {
@@ -1700,33 +1628,9 @@
       "net": "KEY_PLUS_N",
       "line": [
         600.0,
-        285.0,
-        600.0,
-        265.0,
-        620.0,
-        265.0
-      ]
-    },
-    {
-      "net": "KEY_PLUS_N",
-      "line": [
-        600.0,
         315.0,
         555.0,
         315.0
-      ]
-    },
-    {
-      "net": "GND",
-      "line": [
-        680.0,
-        285.0,
-        700.0,
-        285.0,
-        700.0,
-        265.0,
-        680.0,
-        265.0
       ]
     },
     {
@@ -1766,33 +1670,9 @@
       "net": "KEY_MINUS_N",
       "line": [
         800.0,
-        285.0,
-        800.0,
-        265.0,
-        820.0,
-        265.0
-      ]
-    },
-    {
-      "net": "KEY_MINUS_N",
-      "line": [
-        800.0,
         315.0,
         755.0,
         315.0
-      ]
-    },
-    {
-      "net": "GND",
-      "line": [
-        880.0,
-        285.0,
-        900.0,
-        285.0,
-        900.0,
-        265.0,
-        880.0,
-        265.0
       ]
     },
     {
@@ -1848,6 +1728,179 @@
         250,
         990,
         250
+      ]
+    },
+    {
+      "net": "/MCU_CORE/MCU_EN",
+      "line": [
+        600.0,
+        480.0,
+        700.0,
+        480.0,
+        700.0,
+        465.0,
+        680.0,
+        465.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        620.0,
+        445.0,
+        600.0,
+        445.0,
+        600.0,
+        410.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        680.0,
+        445.0,
+        700.0,
+        445.0
+      ]
+    },
+    {
+      "net": "/MCU_CORE/BOOT_N",
+      "line": [
+        800.0,
+        480.0,
+        900.0,
+        480.0,
+        900.0,
+        465.0,
+        880.0,
+        465.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        820.0,
+        445.0,
+        800.0,
+        445.0,
+        800.0,
+        410.0,
+        870.0,
+        410.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        880.0,
+        445.0,
+        900.0,
+        445.0
+      ]
+    },
+    {
+      "net": "POWER_KEY_N",
+      "line": [
+        980.0,
+        480.0,
+        1080.0,
+        480.0,
+        1080.0,
+        465.0,
+        1060.0,
+        465.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        1000.0,
+        445.0,
+        980.0,
+        445.0,
+        980.0,
+        410.0,
+        1050.0,
+        410.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        1060.0,
+        445.0,
+        1080.0,
+        445.0
+      ]
+    },
+    {
+      "net": "KEY_PLUS_N",
+      "line": [
+        600.0,
+        300.0,
+        700.0,
+        300.0,
+        700.0,
+        285.0,
+        680.0,
+        285.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        620.0,
+        265.0,
+        600.0,
+        265.0,
+        600.0,
+        230.0,
+        670.0,
+        230.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        680.0,
+        265.0,
+        700.0,
+        265.0
+      ]
+    },
+    {
+      "net": "KEY_MINUS_N",
+      "line": [
+        800.0,
+        300.0,
+        900.0,
+        300.0,
+        900.0,
+        285.0,
+        880.0,
+        285.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        820.0,
+        265.0,
+        800.0,
+        265.0,
+        800.0,
+        230.0,
+        870.0,
+        230.0
+      ]
+    },
+    {
+      "net": "GND",
+      "line": [
+        880.0,
+        265.0,
+        900.0,
+        265.0
       ]
     }
   ],
@@ -2263,9 +2316,10 @@
   "notes": [
     "Existing native symbol pin order is retained. Nine lower-edge MCU pins use a monotonic non-crossing fan-out.",
     "U301 pins 15,16,26,28,29,30 remain intentional NC.",
-    "J301/J302/J303 remain DNP. All five pushbuttons explicitly join 1/3 and 2/4 legs.",
+    "J301/J302/J303 remain DNP. All five pushbuttons explicitly join 1/2 as signal and3/4 as GND, per native symbol and Omron B3F internal connections.",
     "Each named-wire label should be rendered at 6-7 schematic units, with local page-net names shortened by root mapping; label placement requires native export visual review.",
     "Two decoupling capacitors share local supply/ground rails at x110..230, left of U301 actual body. U301 bodyBounds uses native esym RECT [-75,+145,+75,-130], not a pin-envelope estimate.",
-    "R301,C303,SW301 form the visible reset RC branch. No electrical specification or logical mapping changes."
+    "R301,C303,SW301 form the visible reset RC branch. No electrical specification or logical mapping changes.",
+    "2026-11-16: correct initial electrical assumption: native B3F always-connected pin groups are1/2 and3/4. Requires approved native pin-map/netlist reference update and live re-export, not PCB-only net edits."
   ]
 }

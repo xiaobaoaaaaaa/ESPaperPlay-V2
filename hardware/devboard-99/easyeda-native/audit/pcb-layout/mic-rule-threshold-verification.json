@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "scope": "Live native DRC local NPTH rule, no ignore or disabled check",
+  "negative_control": {
+    "minimum_mm": 0.24,
+    "errors": [
+      {
+        "visible": true,
+        "errorType": "Clearance Error in the same footprint",
+        "errorObjType": "SMD Pad to Slot Region",
+        "ruleName": "MIC_NPTH_0_20",
+        "ruleTypeName": "Safe Spacing",
+        "obj1": {
+          "typeName": "SMD Pad",
+          "suffix": "(GND): e-1e32"
+        },
+        "obj2": {
+          "typeName": "Slot Region",
+          "suffix": ": e-1e35"
+        },
+        "layer": "Top Layer",
+        "explanation": {
+          "str": "{obj1} to {obj2} in the same footprint distance is {minDistance}, should be {shouldBe}",
+          "param": {
+            "minDistance": "8.9mil",
+            "shouldBe": ">= 9.4mil",
+            "obj1": "Object 1",
+            "obj2": "object 2",
+            "type": "ClearanceError"
+          },
+          "errData": {
+            "globalIndex": "err3112",
+            "position": {
+              "x": 27.55707,
+              "y": -269.344105
+            },
+            "name": "MIC_NPTH_0_20",
+            "obj1": "0733e2265846157de32",
+            "obj1Type": "SMD Pad",
+            "obj2": "0733e2265846157de35",
+            "obj2Type": "Slot Region",
+            "minDistance": 0.8858299999999417,
+            "clearance": 0.94488,
+            "errorType": "Safe Spacing",
+            "isInSameComponent": true,
+            "layerIds": [
+              1,
+              12
+            ],
+            "obj1Suffix": "(GND): e-1e32",
+            "obj2Suffix": ": e-1e35"
+          }
+        },
+        "objs": [
+          "0733e2265846157de32",
+          "0733e2265846157de35"
+        ],
+        "globalIndex": "err3112",
+        "pos": {
+          "x": 27.55707,
+          "y": -269.344105
+        },
+        "parentId": "DRCTab|_|Errors|_|Clearance Error in the same footprint|_|SMD Pad to Slot Region"
+      },
+      {
+        "visible": true,
+        "errorType": "Clearance Error in the same footprint",
+        "errorObjType": "SMD Pad to Slot Region",
+        "ruleName": "MIC_NPTH_0_20",
+        "ruleTypeName": "Safe Spacing",
+        "obj1": {
+          "typeName": "SMD Pad",
+          "suffix": "(GND): e-1e31"
+        },
+        "obj2": {
+          "typeName": "Slot Region",
+          "suffix": ": e-1e35"
+        },
+        "layer": "Top Layer",
+        "explanation": {
+          "str": "{obj1} to {obj2} in the same footprint distance is {minDistance}, should be {shouldBe}",
+          "param": {
+            "minDistance": "8.9mil",
+            "shouldBe": ">= 9.4mil",
+            "obj1": "Object 1",
+            "obj2": "object 2",
+            "type": "ClearanceError"
+          },
+          "errData": {
+            "globalIndex": "err3113",
+            "position": {
+              "x": 25.933055,
+              "y": -267.72009
+            },
+            "name": "MIC_NPTH_0_20",
+            "obj1": "0733e2265846157de31",
+            "obj1Type": "SMD Pad",
+            "obj2": "0733e2265846157de35",
+            "obj2Type": "Slot Region",
+            "minDistance": 0.8858299999999986,
+            "clearance": 0.94488,
+            "errorType": "Safe Spacing",
+            "isInSameComponent": true,
+            "layerIds": [
+              1,
+              12
+            ],
+            "obj1Suffix": "(GND): e-1e31",
+            "obj2Suffix": ": e-1e35"
+          }
+        },
+        "objs": [
+          "0733e2265846157de31",
+          "0733e2265846157de35"
+        ],
+        "globalIndex": "err3113",
+        "pos": {
+          "x": 25.933055,
+          "y": -267.72009
+        },
+        "parentId": "DRCTab|_|Errors|_|Clearance Error in the same footprint|_|SMD Pad to Slot Region"
+      },
+      {
+        "visible": true,
+        "errorType": "Clearance Error in the same footprint",
+        "errorObjType": "SMD Pad to Slot Region",
+        "ruleName": "MIC_NPTH_0_20",
+        "ruleTypeName": "Safe Spacing",
+        "obj1": {
+          "typeName": "SMD Pad",
+          "suffix": "(GND): e-1e33"
+        },
+        "obj2": {
+          "typeName": "Slot Region",
+          "suffix": ": e-1e35"
+        },
+        "layer": "Top Layer",
+        "explanation": {
+          "str": "{obj1} to {obj2} in the same footprint distance is {minDistance}, should be {shouldBe}",
+          "param": {
+            "minDistance": "8.9mil",
+            "shouldBe": ">= 9.4mil",
+            "obj1": "Object 1",
+            "obj2": "object 2",
+            "type": "ClearanceError"
+          },
+          "errData": {
+            "globalIndex": "err3114",
+            "position": {
+              "x": 29.181085,
+              "y": -267.72009
+            },
+            "name": "MIC_NPTH_0_20",
+            "obj1": "0733e2265846157de33",
+            "obj1Type": "SMD Pad",
+            "obj2": "0733e2265846157de35",
+            "obj2Type": "Slot Region",
+            "minDistance": 0.8858299999999986,
+            "clearance": 0.94488,
+            "errorType": "Safe Spacing",
+            "isInSameComponent": true,
+            "layerIds": [
+              1,
+              12
+            ],
+            "obj1Suffix": "(GND): e-1e33",
+            "obj2Suffix": ": e-1e35"
+          }
+        },
+        "objs": [
+          "0733e2265846157de33",
+          "0733e2265846157de35"
+        ],
+        "globalIndex": "err3114",
+        "pos": {
+          "x": 29.181085,
+          "y": -267.72009
+        },
+        "parentId": "DRCTab|_|Errors|_|Clearance Error in the same footprint|_|SMD Pad to Slot Region"
+      },
+      {
+        "visible": true,
+        "errorType": "Clearance Error in the same footprint",
+        "errorObjType": "SMD Pad to Slot Region",
+        "ruleName": "MIC_NPTH_0_20",
+        "ruleTypeName": "Safe Spacing",
+        "obj1": {
+          "typeName": "SMD Pad",
+          "suffix": "(GND): e-1e30"
+        },
+        "obj2": {
+          "typeName": "Slot Region",
+          "suffix": ": e-1e35"
+        },
+        "layer": "Top Layer",
+        "explanation": {
+          "str": "{obj1} to {obj2} in the same footprint distance is {minDistance}, should be {shouldBe}",
+          "param": {
+            "minDistance": "8.9mil",
+            "shouldBe": ">= 9.4mil",
+            "obj1": "Object 1",
+            "obj2": "object 2",
+            "type": "ClearanceError"
+          },
+          "errData": {
+            "globalIndex": "err3115",
+            "position": {
+              "x": 27.55707,
+              "y": -266.09607500000004
+            },
+            "name": "MIC_NPTH_0_20",
+            "obj1": "0733e2265846157de30",
+            "obj1Type": "SMD Pad",
+            "obj2": "0733e2265846157de35",
+            "obj2Type": "Slot Region",
+            "minDistance": 0.8858299999999986,
+            "clearance": 0.94488,
+            "errorType": "Safe Spacing",
+            "isInSameComponent": true,
+            "layerIds": [
+              1,
+              12
+            ],
+            "obj1Suffix": "(GND): e-1e30",
+            "obj2Suffix": ": e-1e35"
+          }
+        },
+        "objs": [
+          "0733e2265846157de30",
+          "0733e2265846157de35"
+        ],
+        "globalIndex": "err3115",
+        "pos": {
+          "x": 27.55707,
+          "y": -266.09607500000004
+        },
+        "parentId": "DRCTab|_|Errors|_|Clearance Error in the same footprint|_|SMD Pad to Slot Region"
+      }
+    ]
+  },
+  "restored_positive": {
+    "minimum_mm": 0.2,
+    "non_connection_errors": []
+  },
+  "connection_errors": 771
+}

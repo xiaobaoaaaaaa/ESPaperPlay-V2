@@ -1,0 +1,543 @@
+{
+  "status": "REFERENCE_CANDIDATE_ONLY_STACK_WRITE_DID_NOT_PERSIST",
+  "input": {
+    "path": "build/easyeda-native99/pcb-work/final-layout.epcb",
+    "sha256": "c7d53f3f3269177385854ed430480a6ac3265cfe9f4f578662b923e05bad2e5f"
+  },
+  "stack": {
+    "status": "SYMMETRIC_CAD_REFERENCE_NOT_MANUFACTURER_SELECTED_STACK",
+    "patch_file": "build/easyeda-native99/pcb-work/stack-1p6-cad-reference.patch.epcb",
+    "sha256": "6bb6509a922c21ee818df720a9eefc5e25f5b3b5ea531403b209266eae8cbab4",
+    "raw_source_unit": "mil",
+    "patch_record_count": 13,
+    "records": [
+      {
+        "layer_id": 3,
+        "thickness_mm": 0,
+        "before": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1
+        },
+        "after": {
+          "material": null,
+          "thickness": 0.0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1
+        },
+        "changed_keys": []
+      },
+      {
+        "layer_id": 7,
+        "thickness_mm": 0,
+        "before": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 2
+        },
+        "after": {
+          "material": null,
+          "thickness": 0.0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 2
+        },
+        "changed_keys": []
+      },
+      {
+        "layer_id": 5,
+        "thickness_mm": 0.01524,
+        "before": {
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 3
+        },
+        "after": {
+          "material": "",
+          "thickness": 0.6,
+          "permittivity": 3.8,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 3
+        },
+        "changed_keys": [
+          "thickness",
+          "permittivity"
+        ]
+      },
+      {
+        "layer_id": 1,
+        "thickness_mm": 0.04064,
+        "before": {
+          "material": null,
+          "thickness": 1.379,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1000
+        },
+        "after": {
+          "material": null,
+          "thickness": 1.6,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1000
+        },
+        "changed_keys": [
+          "thickness"
+        ]
+      },
+      {
+        "layer_id": 361,
+        "thickness_mm": 0.2,
+        "before": {
+          "material": "FR4",
+          "thickness": 59.449,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001
+        },
+        "after": {
+          "material": "PP",
+          "thickness": 7.874015748031,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001
+        },
+        "changed_keys": [
+          "material",
+          "thickness"
+        ]
+      },
+      {
+        "layer_id": 15,
+        "thickness_mm": 0.01524,
+        "before": {
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001
+        },
+        "after": {
+          "material": null,
+          "thickness": 0.6,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1002
+        },
+        "changed_keys": [
+          "thickness",
+          "zIndex"
+        ]
+      },
+      {
+        "layer_id": 362,
+        "thickness_mm": 1.05776,
+        "before": {
+          "material": "PP",
+          "thickness": 0.465,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1002
+        },
+        "after": {
+          "material": "FR4",
+          "thickness": 41.644094488189,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1003
+        },
+        "changed_keys": [
+          "material",
+          "thickness",
+          "zIndex"
+        ]
+      },
+      {
+        "layer_id": 16,
+        "thickness_mm": 0.01524,
+        "before": {
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1003
+        },
+        "after": {
+          "material": null,
+          "thickness": 0.6,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1004
+        },
+        "changed_keys": [
+          "thickness",
+          "zIndex"
+        ]
+      },
+      {
+        "layer_id": 363,
+        "thickness_mm": 0.2,
+        "before": {
+          "material": "PP",
+          "thickness": 0.465,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1004
+        },
+        "after": {
+          "material": "PP",
+          "thickness": 7.874015748031,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1005
+        },
+        "changed_keys": [
+          "thickness",
+          "zIndex"
+        ]
+      },
+      {
+        "layer_id": 2,
+        "thickness_mm": 0.04064,
+        "before": {
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 9000
+        },
+        "after": {
+          "material": null,
+          "thickness": 1.6,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 9000
+        },
+        "changed_keys": [
+          "thickness"
+        ]
+      },
+      {
+        "layer_id": 6,
+        "thickness_mm": 0.01524,
+        "before": {
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 10000
+        },
+        "after": {
+          "material": "",
+          "thickness": 0.6,
+          "permittivity": 3.8,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 10000
+        },
+        "changed_keys": [
+          "thickness",
+          "permittivity"
+        ]
+      },
+      {
+        "layer_id": 8,
+        "thickness_mm": 0,
+        "before": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10001
+        },
+        "after": {
+          "material": null,
+          "thickness": 0.0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10001
+        },
+        "changed_keys": []
+      },
+      {
+        "layer_id": 4,
+        "thickness_mm": 0,
+        "before": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10002
+        },
+        "after": {
+          "material": null,
+          "thickness": 0.0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10002
+        },
+        "changed_keys": []
+      }
+    ],
+    "finished_thickness_including_mask_mm": 1.6,
+    "copper_and_dielectric_thickness_mm": 1.56952,
+    "strictly_ordered_zindex": true,
+    "symmetric": true,
+    "official_parameters": {
+      "outer_1oz_finished_copper_mil": 1.6,
+      "inner_0p5oz_finished_copper_mil": 0.6,
+      "soldermask_on_copper_mil": 0.6,
+      "soldermask_er": 3.8,
+      "finished_thickness_includes_soldermask": true
+    },
+    "assumptions": [
+      "PP thickness0.20000mm each is a symmetric CAD reference, not the current order's verified pressed stack.",
+      "Core1.05776mm is the arithmetic remainder to reach1.60000mm including mask, not a claimed stocked manufacturer core.",
+      "Dielectric Er4.5 and loss tangent0 were retained from the source as unverified CAD placeholders; not suitable for impedance qualification.",
+      "Uniform mask0.01524mm models copper-face coating only; actual mask thickness varies over substrate/copper/traces.",
+      "No paid precision impedance, special material, blind/buried via, or coupon eligibility is requested or promised by this CAD patch."
+    ],
+    "references": [
+      {
+        "url": "https://www.jlc.com/portal/server_guide_36372.html",
+        "updated": "2026-09-28",
+        "supports": "Finished Cu1.6/.6mil; mask on copper.6mil andEr3.8; PP values are pressed values; conventional free impedance versus paid precision control."
+      },
+      {
+        "url": "https://www.jlc.com/portal/server_guide_37381.html",
+        "updated": "2026-09-15",
+        "supports": "Finished thickness includes soldermask; preferred recommended stack; calculation values may be adjusted by manufacturer."
+      },
+      {
+        "url": "https://tools.jlc.com/jlcTools/#/impedanceDefaultTemplate",
+        "status": "Exact current1.6mm default row not retrieved/confirmed; do not represent this CAD reference as its output."
+      }
+    ],
+    "merge_requirements": [
+      "Merge LAYER_PHYS bodies by exact id into the latest board source; do not replace a current board with the older input snapshot.",
+      "Assign fresh monotonically increasing tickets when merging if the current board has newer tickets.",
+      "Preserve all LAYER use/type settings, all copper artwork, rules, pads, holes, source UUIDs and D3_ATTRIBUTE.",
+      "Read back all13 physical layers after application; verify unique zIndex and1.6mm sum. Manufacturer stack/USB impedance remains unvalidated."
+    ]
+  },
+  "microphone_rule": {
+    "status": "SAFE_STRING_BINDING_OBSERVED_COMPONENT_EFFECT_REQUIRES_NATIVE_DRC_TEST",
+    "patch_file": "build/easyeda-native99/pcb-work/mic-npth-component-candidate.patch.epcb",
+    "sha256": "b1a91527a3bf2644c708a7418c4ccb8c2497505487d4b0397a997eda51325d53",
+    "component_id": "0733e2265846157d",
+    "rule_record": {
+      "head": {
+        "type": "RULE",
+        "ticket": 2299,
+        "id": "[\"RULE\",\"SAFE\",\"MIC_NPTH_0_20\"]"
+      },
+      "body": {
+        "ruleState": "NORMAL",
+        "ruleContext": {
+          "unit": "mm",
+          "isForAll": "ALL",
+          "safeSpacing": [
+            {
+              "layerId": 1,
+              "isOpen": true,
+              "content": [
+                [
+                  5.9055
+                ],
+                [
+                  5.9055,
+                  5.9055
+                ],
+                [
+                  5.9055,
+                  5.9055,
+                  5.9055
+                ],
+                [
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055
+                ],
+                [
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055
+                ],
+                [
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055
+                ],
+                [
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055
+                ],
+                [
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055
+                ],
+                [
+                  11.811,
+                  7.874015748031,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811
+                ],
+                [
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  11.811,
+                  5.9055
+                ],
+                [
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  11.811,
+                  5.9055,
+                  5.9055
+                ],
+                [
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811,
+                  11.811
+                ],
+                [
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  5.9055,
+                  11.811,
+                  5.9055,
+                  5.9055,
+                  11.811
+                ]
+              ],
+              "columnNames": []
+            }
+          ]
+        }
+      }
+    },
+    "selector_record": {
+      "head": {
+        "type": "RULE_SELECTOR",
+        "ticket": 2300,
+        "id": "[\"RULE_SELECTOR\",[\"COMPONENT\",\"0733e2265846157d\"]]"
+      },
+      "body": {
+        "ruleOrder": 0,
+        "ruleKeyValue": {
+          "SAFE": "MIC_NPTH_0_20"
+        },
+        "copperValue": {},
+        "innerPlaneValue": {},
+        "parent": null
+      }
+    },
+    "only_changed_clearance_cell": [
+      8,
+      1
+    ],
+    "pair": [
+      "Slot Region",
+      "SMD Pad"
+    ],
+    "minimum_mm": 0.2,
+    "raw_value_mil": 7.874015748031,
+    "nominal_actual_clearance_mm": 0.225,
+    "global_default_modified": false,
+    "ignore_or_disable_added": false,
+    "binding_basis": "Official format/pcb/rule.md documents COMPONENT selector, priority0 and class-to-rule-name string. Current v4 source encodes selector into id. Root captured a temporary GND rule assignment in mic-binding-observed.json and confirmed SAFE uses a string, then restored GND default. Component-scope application still requires DRC verification.",
+    "binding_observation_file": "build/easyeda-native99/pcb-work/mic-binding-observed.json",
+    "scope_limit": "This binds the SMD-pad/slot pair throughout U803, which presently contains only the acoustic NPTH. It is not a global NPTH relaxation; other object-pairs and other components retain copied/default values.",
+    "manufacturer_source": "https://www.jlc.com/portal/1/serviceGuide",
+    "manufacturer_basis": "FR4 section2 requires copper cleared0.2mm outside nonplated holes; CNC edges/internal milled slots require0.3mm.",
+    "native_test_acceptance": [
+      "Read back MIC_NPTH_0_20 as a nondefault active rule plus COMPONENT selector for exactU803id.",
+      "Four U803 acoustic-hole/ring-pad violations should disappear; any remaining/new violations require investigation.",
+      "J501 sub0.2mm NPTH clearances must still fail until geometry is corrected; board-edge and actual milled-slot clearances remain0.3mm.",
+      "Confirm all copper layers clear the round acoustic hole in finalCAM. No mask/paste/copper hole geometry is modified by this rule.",
+      "If component binding is ignored, investigate component selector targeting without changing global GND/default rules or suppressing errors."
+    ]
+  },
+  "live_api_used": false,
+  "kicad_modified_or_imported": false,
+  "current_result": "Latest native source and archive persistence discrepancy recorded separately; MIC implemented asREGION selector, not candidateCOMPONENT selector."
+}

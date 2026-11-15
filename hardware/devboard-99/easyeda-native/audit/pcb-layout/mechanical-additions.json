@@ -1,0 +1,102 @@
+{
+  "regions": [
+    {
+      "name": "U803_SOUND_PORT_L1",
+      "id": "ab61fd1f45b0536b"
+    },
+    {
+      "name": "U301_ANTENNA_L15",
+      "id": "1689f6a38693463c"
+    },
+    {
+      "name": "U803_SOUND_PORT_L15",
+      "id": "19a03acd6558a781"
+    },
+    {
+      "name": "U301_ANTENNA_L16",
+      "id": "bf886bf3719ce484"
+    },
+    {
+      "name": "U803_SOUND_PORT_L16",
+      "id": "396cc2f32635ec71"
+    },
+    {
+      "name": "U301_ANTENNA_L2",
+      "id": "5e4d71be4bee6712"
+    },
+    {
+      "name": "U803_SOUND_PORT_L2",
+      "id": "4cac2d665f098806"
+    },
+    {
+      "name": "H1_M3_HEAD_L1",
+      "id": "ee399bae84f4c898"
+    },
+    {
+      "name": "H1_M3_HEAD_L15",
+      "id": "552c850aa7e89736"
+    },
+    {
+      "name": "H1_M3_HEAD_L16",
+      "id": "aacfabf359fc7873"
+    },
+    {
+      "name": "H1_M3_HEAD_L2",
+      "id": "b66f46ea42c1a1ff"
+    },
+    {
+      "name": "H2_M3_HEAD_L1",
+      "id": "43138131a0c5c309"
+    },
+    {
+      "name": "H2_M3_HEAD_L15",
+      "id": "668974b3cca6d052"
+    },
+    {
+      "name": "H2_M3_HEAD_L16",
+      "id": "00020c492d7f2f41"
+    },
+    {
+      "name": "H2_M3_HEAD_L2",
+      "id": "f9970a1f44754cd5"
+    },
+    {
+      "name": "H3_M3_HEAD_L1",
+      "id": "815d4aca60ce8939"
+    },
+    {
+      "name": "H3_M3_HEAD_L15",
+      "id": "b1f9951ba9d753f1"
+    },
+    {
+      "name": "H3_M3_HEAD_L16",
+      "id": "ad70f63a2c054e33"
+    },
+    {
+      "name": "H3_M3_HEAD_L2",
+      "id": "4f6b3fb461bedb02"
+    },
+    {
+      "name": "H4_M3_HEAD_L1",
+      "id": "b3541abe61a23ab5"
+    },
+    {
+      "name": "H4_M3_HEAD_L15",
+      "id": "5dabbd4c88d6fbc8"
+    },
+    {
+      "name": "H4_M3_HEAD_L16",
+      "id": "ac56af2d19097e35"
+    },
+    {
+      "name": "H4_M3_HEAD_L2",
+      "id": "1a8e4b7b017fea4d"
+    }
+  ],
+  "holes": [
+    "e8a46ed3ed67d401",
+    "38e4cabe9641a30e",
+    "de6852e9c5ed3bae",
+    "b6077ba10c8250d2"
+  ]
+}

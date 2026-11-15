@@ -1,0 +1,317 @@
+{
+  "status": "PASS",
+  "scope": "J501 native local CAM: copper, mask, paste, mechanical drills, all-layer NPTH clearance and board-edge datum",
+  "archive_sha256": "d2a0718f98287672cc042c459002d81844311ecfb2145a59a3c4b2b5754c301a",
+  "state_sha256": "fc6cfe88fc763b07a218f48324cf1aeba7cf7fa171125d7b64a635b4fab7c5de",
+  "fixed_source_sha256": "6630a880401fa419cbeadbe5310046786728cc26cdc98d1172f1b9338a00f9b6",
+  "pose": {
+    "origin_world_mm": [
+      17.499807519999997,
+      -4.973121879999999
+    ],
+    "rotation_deg": 180,
+    "source": "Actual native component snapshot; no Y flip"
+  },
+  "F_Cu": {
+    "pass": true,
+    "actual_area_mm2": 12.367706453720428,
+    "expected_area_mm2": 12.367726899472126,
+    "components": 16,
+    "symmetric_difference_mm2": 0.00011405031400865314,
+    "hausdorff_mm": 4.979739570535063e-06
+  },
+  "F_Mask": {
+    "pass": true,
+    "actual_area_mm2": 13.824066679587167,
+    "expected_area_mm2": 13.824146330886446,
+    "components": 16,
+    "symmetric_difference_mm2": 0.00018235907932102422,
+    "hausdorff_mm": 0.0013649169105439012,
+    "ideal_offset_exact_match": false,
+    "acceptance": "Actual copper covered; opening offset in [0.020,0.030] mm (target .025 +/- .005)",
+    "minimum_actual_copper_to_mask_boundary_mm": 0.023636116953258204,
+    "minimum_20um_envelope_missing_area_mm2": 0.0,
+    "maximum_30um_envelope_excess_area_mm2": 0.0
+  },
+  "F_Paste": {
+    "pass": true,
+    "actual_area_mm2": 5.426135443337761,
+    "expected_area_mm2": 5.4261345648059764,
+    "components": 12,
+    "symmetric_difference_mm2": 6.976077853413142e-05,
+    "hausdorff_mm": 4.107392118442013e-06,
+    "expected_physical_apertures": 12
+  },
+  "drill_counts": {
+    "total": 6,
+    "NPTH": 2,
+    "PTH": 4
+  },
+  "drill_checks": [
+    {
+      "pass": true,
+      "actual_area_mm2": 0.33182732954168437,
+      "expected_area_mm2": 0.3318306915008438,
+      "components": 1,
+      "symmetric_difference_mm2": 4.162361275848764e-06,
+      "hausdorff_mm": 4.97604025823815e-06,
+      "kind": "NPTH",
+      "diameter_mm": 0.6499999999999986,
+      "center_local_mm": [
+        -2.890002480000001,
+        1.3068781200000015
+      ]
+    },
+    {
+      "pass": true,
+      "actual_area_mm2": 0.33182732954168415,
+      "expected_area_mm2": 0.3318306915008438,
+      "components": 1,
+      "symmetric_difference_mm2": 4.162361275490937e-06,
+      "hausdorff_mm": 4.97604025823815e-06,
+      "kind": "NPTH",
+      "diameter_mm": 0.6499999999999986,
+      "center_local_mm": [
+        2.8899975199999917,
+        1.3068781199999995
+      ]
+    },
+    {
+      "pass": true,
+      "actual_area_mm2": 0.9427402010757275,
+      "expected_area_mm2": 0.9427433111013135,
+      "components": 1,
+      "symmetric_difference_mm2": 9.302216742234652e-06,
+      "hausdorff_mm": 4.9783561097826605e-06,
+      "kind": "PTH slot",
+      "size_mm": [
+        0.6000000000000014,
+        1.699995006110285
+      ],
+      "center_local_mm": [
+        -4.320002480000002,
+        1.8068781199999988
+      ],
+      "minimum_measured_copper_annulus_mm": 0.1999975032188641
+    },
+    {
+      "pass": true,
+      "actual_area_mm2": 0.9427402010757279,
+      "expected_area_mm2": 0.9427433111013135,
+      "components": 1,
+      "symmetric_difference_mm2": 9.302216742063164e-06,
+      "hausdorff_mm": 4.978356108879954e-06,
+      "kind": "PTH slot",
+      "size_mm": [
+        0.6000000000000014,
+        1.699995006110285
+      ],
+      "center_local_mm": [
+        4.319997519999991,
+        1.8068781200000001
+      ],
+      "minimum_measured_copper_annulus_mm": 0.19999750321886492
+    },
+    {
+      "pass": true,
+      "actual_area_mm2": 0.762740201075728,
+      "expected_area_mm2": 0.7627433111013104,
+      "components": 1,
+      "symmetric_difference_mm2": 7.814216740497188e-06,
+      "hausdorff_mm": 4.978356108879954e-06,
+      "kind": "PTH slot",
+      "size_mm": [
+        0.6000000000000014,
+        1.3999950061102844
+      ],
+      "center_local_mm": [
+        4.319997519999999,
+        -2.373121879999998
+      ],
+      "minimum_measured_copper_annulus_mm": 0.19999750321886517
+    },
+    {
+      "pass": true,
+      "actual_area_mm2": 0.7627402010757277,
+      "expected_area_mm2": 0.7627433111013104,
+      "components": 1,
+      "symmetric_difference_mm2": 7.814216740450133e-06,
+      "hausdorff_mm": 4.978356109765465e-06,
+      "kind": "PTH slot",
+      "size_mm": [
+        0.6000000000000014,
+        1.3999950061102844
+      ],
+      "center_local_mm": [
+        -4.320002480000005,
+        -2.373121879999996
+      ],
+      "minimum_measured_copper_annulus_mm": 0.1999975032188641
+    }
+  ],
+  "drills": [
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "index": 22,
+      "plated": true,
+      "center_world_mm": [
+        21.819809999999972,
+        -6.780000000000001
+      ],
+      "diameter_mm": 0.6,
+      "class": "Line",
+      "center_local_mm": [
+        -4.320002480000002,
+        1.8068781199999988
+      ],
+      "diameter_measured_mm": 1.699995006110285
+    },
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "index": 23,
+      "plated": true,
+      "center_world_mm": [
+        13.179809999999987,
+        -6.779999999999991
+      ],
+      "diameter_mm": 0.6,
+      "class": "Line",
+      "center_local_mm": [
+        4.319997519999991,
+        1.8068781200000001
+      ],
+      "diameter_measured_mm": 1.699995006110285
+    },
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "index": 24,
+      "plated": true,
+      "center_world_mm": [
+        13.179810000000007,
+        -2.5999999999999983
+      ],
+      "diameter_mm": 0.6,
+      "class": "Line",
+      "center_local_mm": [
+        4.319997519999999,
+        -2.373121879999998
+      ],
+      "diameter_measured_mm": 1.3999950061102844
+    },
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "index": 25,
+      "plated": true,
+      "center_world_mm": [
+        21.81980999999997,
+        -2.5999999999999948
+      ],
+      "diameter_mm": 0.6,
+      "class": "Line",
+      "center_local_mm": [
+        -4.320002480000005,
+        -2.373121879999996
+      ],
+      "diameter_measured_mm": 1.3999950061102844
+    },
+    {
+      "file": "Drill_NPTH_Through.DRL",
+      "index": 1,
+      "plated": false,
+      "center_world_mm": [
+        14.609809999999982,
+        -6.280000000000002
+      ],
+      "diameter_mm": 0.65,
+      "class": "Flash",
+      "center_local_mm": [
+        2.8899975199999917,
+        1.3068781199999995
+      ],
+      "diameter_measured_mm": 0.6499999999999986
+    },
+    {
+      "file": "Drill_NPTH_Through.DRL",
+      "index": 2,
+      "plated": false,
+      "center_world_mm": [
+        20.38981000000001,
+        -6.280000000000004
+      ],
+      "diameter_mm": 0.65,
+      "class": "Flash",
+      "center_local_mm": [
+        -2.890002480000001,
+        1.3068781200000015
+      ],
+      "diameter_measured_mm": 0.6499999999999986
+    }
+  ],
+  "drill_pass": true,
+  "all_layer_NPTH_clearance": [
+    {
+      "layer": "F.Cu",
+      "minimum_NPTH_to_copper_mm": 0.3099962027200125,
+      "pass": true
+    },
+    {
+      "layer": "In1.Cu",
+      "minimum_NPTH_to_copper_mm": 0.6050000000000003,
+      "pass": true
+    },
+    {
+      "layer": "In2.Cu",
+      "minimum_NPTH_to_copper_mm": 0.6050000000000003,
+      "pass": true
+    },
+    {
+      "layer": "B.Cu",
+      "minimum_NPTH_to_copper_mm": 0.6050000000000003,
+      "pass": true
+    }
+  ],
+  "board_edge": {
+    "native_board_segments_mm": [
+      [
+        0.0,
+        0.0,
+        99.0,
+        0.0
+      ],
+      [
+        99.0,
+        0.0,
+        99.0,
+        -99.0
+      ],
+      [
+        99.0,
+        -99.0,
+        0.0,
+        -99.0
+      ],
+      [
+        0.0,
+        -99.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "manufacturer_front_edge_world_mm": [
+      [
+        21.969807519999996,
+        1.2000000104706032e-07
+      ],
+      [
+        13.029807519999999,
+        1.2000000104706032e-07
+      ]
+    ],
+    "maximum_edge_y_error_mm": 1.2000000104706032e-07,
+    "pass": true
+  },
+  "limits": [
+    "No claim of completed PCB routing or fabrication approval.",
+    "NPTH relief is a documented DFM adaptation of GCT nominal lands; real sample fit and soldering remain validation tasks."
+  ]
+}

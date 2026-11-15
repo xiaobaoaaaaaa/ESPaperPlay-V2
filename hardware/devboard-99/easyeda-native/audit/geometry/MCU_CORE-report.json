@@ -2,10 +2,10 @@
   "status": "PASS",
   "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
   "line_format": "segments",
-  "segments": 151,
+  "segments": 162,
   "components": 18,
   "counts": {
-    "same_net_junctions": 91
+    "same_net_junctions": 98
   },
   "findings": [],
   "limitations": [

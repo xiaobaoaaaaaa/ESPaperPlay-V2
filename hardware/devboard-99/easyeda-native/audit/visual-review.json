@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "method": "Full official native SVG export rendered at 3000 pixels; page-by-page visual review and final label position verification.",
+  "method": "10 unchanged pages retain previous native SVG review. MCU_CORE/USB_INPUT were rechecked using native rendered canvas after switch/F501 changes; whole-project SVG export timed out.",
   "pages": {
     "POWER_INPUT_CHARGER": {
       "status": "PASS",
@@ -24,10 +24,12 @@
       "status": "PASS",
       "page": 3,
       "preview": "preview/MCU_CORE.png",
-      "preview_sha256": "dc5c18fba7b0881e0fa8afa53be8f439e3290d822cd0111a97cdf3269c22147b",
-      "source_sha256": "6eb65037f3894fb6809e5b4912da4d2cae83c77250a0858c87c789e2b6fcb5d5",
-      "notes": [],
-      "final_pixel_comparison": "0 (0)"
+      "preview_sha256": "2d75c2766db049c65dba5db0660bd37466deeb53a9039e8f0d5a66d22be1e063",
+      "source_sha256": "cc9790fca9d697b668a4483654c073f957d6d206f51ce0c005af563ebc940f5d",
+      "notes": [
+        "SW301..305 groups1/2 signal,3/4 GND; no foreign wire crossing"
+      ],
+      "method": "Native rendered canvas visual review; source and netlist also verified"
     },
     "POWER_DOMAINS": {
       "status": "PASS",
@@ -53,10 +55,12 @@
       "status": "PASS",
       "page": 6,
       "preview": "preview/USB_INPUT.png",
-      "preview_sha256": "4165d42e9a6f451e23f5bb086d52f729b65d53867a7a203fdd41760e0ae205d5",
-      "source_sha256": "d0e0fa708598f60aecfdf5c3d7d9b2bb878d41a2b5b84c1483bedf81ca00f54e",
-      "notes": [],
-      "final_pixel_comparison": "0 (0)"
+      "preview_sha256": "5dcb882ec18b901a54552ff77fc9b08407659bb67da78c345b10b4389ff55e1c",
+      "source_sha256": "e22b5ec24e962c6587163d171d7f38650d8483fb19be61bdc133b05a0e08c242",
+      "notes": [
+        "F501 visible label now1812L200/16DR; circuit unchanged. Canvas preview crops bottom title block, electrical content reviewed."
+      ],
+      "method": "Native rendered canvas visual review; source and netlist also verified"
     },
     "EPD_LOGIC": {
       "status": "PASS",

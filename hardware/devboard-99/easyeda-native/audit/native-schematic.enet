@@ -5209,7 +5209,7 @@
                 "2": {
                     "name": "2",
                     "number": "2",
-                    "net": "GND",
+                    "net": "MCU_EN",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -5219,7 +5219,7 @@
                 "3": {
                     "name": "3",
                     "number": "3",
-                    "net": "MCU_EN",
+                    "net": "GND",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -5303,7 +5303,7 @@
                 "2": {
                     "name": "2",
                     "number": "2",
-                    "net": "GND",
+                    "net": "BOOT_N",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -5313,7 +5313,7 @@
                 "3": {
                     "name": "3",
                     "number": "3",
-                    "net": "BOOT_N",
+                    "net": "GND",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -5397,7 +5397,7 @@
                 "2": {
                     "name": "2",
                     "number": "2",
-                    "net": "GND",
+                    "net": "POWER_KEY_N",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -5407,7 +5407,7 @@
                 "3": {
                     "name": "3",
                     "number": "3",
-                    "net": "POWER_KEY_N",
+                    "net": "GND",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -5491,7 +5491,7 @@
                 "2": {
                     "name": "2",
                     "number": "2",
-                    "net": "GND",
+                    "net": "KEY_PLUS_N",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -5501,7 +5501,7 @@
                 "3": {
                     "name": "3",
                     "number": "3",
-                    "net": "KEY_PLUS_N",
+                    "net": "GND",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -5585,7 +5585,7 @@
                 "2": {
                     "name": "2",
                     "number": "2",
-                    "net": "GND",
+                    "net": "KEY_MINUS_N",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -5595,7 +5595,7 @@
                 "3": {
                     "name": "3",
                     "number": "3",
-                    "net": "KEY_MINUS_N",
+                    "net": "GND",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -10125,7 +10125,7 @@
                 "3D Model": "bca21e458c564d38b781621ca22e660b|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "F1812_L4.5-W3.2-H1.0",
                 "3D Model Transform": "177.165,125.984,0,0,0,0,0.0005,0,0",
-                "CircuitLabel": "MF-MSMF200/16X-2",
+                "CircuitLabel": "1812L200/16DR",
                 "DeviceName": "1812L200/16DR",
                 "FootprintName": "F1812"
             },

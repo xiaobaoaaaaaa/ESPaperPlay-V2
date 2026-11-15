@@ -1,0 +1,718 @@
+{
+  "status": "OFFLINE_SOURCE_READY_NATIVE_CAM_PENDING",
+  "source_sha256": "984104770e1bd9be2b8c2a8b1dd04d5c0187b39775f00045ced57983df58ba04",
+  "fixed_sha256": "6630a880401fa419cbeadbe5310046786728cc26cdc98d1172f1b9338a00f9b6",
+  "manufacturer": "GCT",
+  "MPN": "USB4105-GF-A",
+  "supplier": "C3020560",
+  "native_footprint_uuid": "01ee3b6ca8bc4e04ae8b5b011ea32728",
+  "native_footprint_title": "TYPE-C-SMD_SBC-160S1A-20-S412",
+  "drawing": {
+    "revision": "B4 18/12/2023",
+    "file": "hardware/reference/bom-r3/files/gct-usb4105.pdf",
+    "sha256": "fb331fbabee8392ed2937ed757c1610cb0f174b84625147c0b580a18eea8c0e5",
+    "url": "https://gct.co/download?name=USB4105.pdf&type=PDFDrawing"
+  },
+  "fabricator_sources": [
+    {
+      "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+      "section": "Rigid PCB: NPTH to Track; NPTH pad annular ring",
+      "finding": "NPTH to Track minimum .20 mm; fabrication removes .20 mm copper around NPTH for sealing film."
+    },
+    {
+      "url": "https://jlcpcb.com/blog/npth-design-guide",
+      "section": "Interaction with Copper, Solder Mask, and Board Edge",
+      "finding": "General official NPTH guidance specifies .2-.3 mm copper distance."
+    },
+    {
+      "url": "https://www.jlc.com/portal/vtechnology.html",
+      "section": "PCB drilling and NPTH annular-ring; later FPC table distinguished",
+      "finding": "FR4 NPTH diameter tolerance +/- .1 mm. The explicit NPTH-to-all-copper .20 mm row later on this page is FPC, not direct FR4 evidence."
+    }
+  ],
+  "changes": [
+    {
+      "id": "e41",
+      "type": "PAD"
+    },
+    {
+      "id": "e42",
+      "type": "PAD"
+    },
+    {
+      "id": "e43",
+      "type": "PAD"
+    },
+    {
+      "id": "e44",
+      "type": "PAD"
+    },
+    {
+      "id": "e45",
+      "type": "PAD"
+    },
+    {
+      "id": "e46",
+      "type": "PAD"
+    },
+    {
+      "id": "e47",
+      "type": "PAD"
+    },
+    {
+      "id": "e48",
+      "type": "PAD"
+    },
+    {
+      "id": "e49",
+      "type": "PAD"
+    },
+    {
+      "id": "e50",
+      "type": "PAD"
+    },
+    {
+      "id": "e51",
+      "type": "PAD"
+    },
+    {
+      "id": "e52",
+      "type": "PAD"
+    },
+    {
+      "id": "e53",
+      "type": "PAD"
+    },
+    {
+      "id": "e54",
+      "type": "PAD"
+    },
+    {
+      "id": "e55",
+      "type": "PAD"
+    },
+    {
+      "id": "e56",
+      "type": "PAD"
+    },
+    {
+      "id": "e64",
+      "type": "PAD"
+    },
+    {
+      "id": "e65",
+      "type": "PAD"
+    },
+    {
+      "id": "e66",
+      "type": "PAD"
+    },
+    {
+      "id": "e67",
+      "type": "PAD"
+    },
+    {
+      "id": "e2",
+      "type": "POLY"
+    },
+    {
+      "id": "e3",
+      "type": "POLY"
+    },
+    {
+      "id": "e62",
+      "type": "FILL"
+    },
+    {
+      "id": "e63",
+      "type": "FILL"
+    },
+    {
+      "id": "e24",
+      "type": "POLY"
+    },
+    {
+      "id": "e57",
+      "type": "POLY"
+    },
+    {
+      "id": "e58",
+      "type": "POLY"
+    },
+    {
+      "id": "e59",
+      "type": "POLY"
+    },
+    {
+      "id": "e60",
+      "type": "POLY"
+    },
+    {
+      "id": "e61",
+      "type": "POLY"
+    },
+    {
+      "id": "e25",
+      "type": "FILL"
+    },
+    {
+      "id": "e26",
+      "type": "FILL"
+    },
+    {
+      "id": "e27",
+      "type": "FILL"
+    },
+    {
+      "id": "e28",
+      "type": "FILL"
+    },
+    {
+      "id": "e29",
+      "type": "FILL"
+    },
+    {
+      "id": "e30",
+      "type": "FILL"
+    },
+    {
+      "id": "e31",
+      "type": "FILL"
+    },
+    {
+      "id": "e32",
+      "type": "FILL"
+    },
+    {
+      "id": "e33",
+      "type": "FILL"
+    },
+    {
+      "id": "e34",
+      "type": "FILL"
+    },
+    {
+      "id": "e35",
+      "type": "FILL"
+    },
+    {
+      "id": "e40",
+      "type": "FILL"
+    }
+  ],
+  "deleted_shell_paste_ids": [
+    "e36",
+    "e37",
+    "e38",
+    "e39"
+  ],
+  "added_count": 0,
+  "pads": [
+    {
+      "id": "e41",
+      "num": "A12",
+      "x_mm": 3.35,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": true,
+      "npth_clearance_mm": 0.3099985437081329,
+      "retained_area_percent": 99.32477901502088,
+      "defaultPad": {
+        "padType": "POLYGON",
+        "path": [
+          125.984251968504,
+          116.412519685039,
+          "L",
+          137.795275590551,
+          116.412519685039,
+          137.795275590551,
+          71.136929133858,
+          129.190537422087,
+          71.136929133858,
+          "ARC",
+          8.835039035446,
+          125.984251968504,
+          73.270338427454,
+          "L",
+          125.984251968504,
+          116.412519685039
+        ]
+      }
+    },
+    {
+      "id": "e42",
+      "num": "B1",
+      "x_mm": 3.05,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": true,
+      "npth_clearance_mm": 0.3099985079164141,
+      "retained_area_percent": 90.61615440511567,
+      "defaultPad": {
+        "padType": "POLYGON",
+        "path": [
+          114.173228346457,
+          116.412519685039,
+          "L",
+          125.984251968504,
+          116.412519685039,
+          125.984251968504,
+          73.270338427454,
+          "ARC",
+          28.319284557803,
+          114.173228346457,
+          76.448789565355,
+          "L",
+          114.173228346457,
+          116.412519685039
+        ]
+      }
+    },
+    {
+      "id": "e43",
+      "num": "A9",
+      "x_mm": 2.55,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": true,
+      "npth_clearance_mm": 0.3099985038739947,
+      "retained_area_percent": 96.45537873957268,
+      "defaultPad": {
+        "padType": "POLYGON",
+        "path": [
+          94.488188976378,
+          116.412519685039,
+          "L",
+          106.299212598425,
+          116.412519685039,
+          106.299212598425,
+          75.306551532285,
+          "ARC",
+          20.646340524875,
+          98.368517696024,
+          71.136929133858,
+          "L",
+          94.488188976378,
+          71.136929133858,
+          "L",
+          94.488188976378,
+          116.412519685039
+        ]
+      }
+    },
+    {
+      "id": "e44",
+      "num": "B4",
+      "x_mm": 2.25,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 0.37507143003692817,
+      "retained_area_percent": 99.99999999999783,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e45",
+      "num": "B5",
+      "x_mm": 1.75,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 0.7840987410133146,
+      "retained_area_percent": 99.99999999999777,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e46",
+      "num": "A8",
+      "x_mm": 1.25,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 1.2466551802259391,
+      "retained_area_percent": 99.99999999999768,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e47",
+      "num": "B6",
+      "x_mm": 0.75,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 1.7268528215932342,
+      "retained_area_percent": 100.00000000000615,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e48",
+      "num": "A7",
+      "x_mm": 0.25,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 2.21470472229976,
+      "retained_area_percent": 99.99999999999768,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e49",
+      "num": "A6",
+      "x_mm": -0.25,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 2.21470472229976,
+      "retained_area_percent": 99.99999999999768,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e50",
+      "num": "B7",
+      "x_mm": -0.75,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 1.7268528215932342,
+      "retained_area_percent": 100.00000000000615,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e51",
+      "num": "A5",
+      "x_mm": -1.25,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 1.2466551802259394,
+      "retained_area_percent": 99.99999999999768,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e52",
+      "num": "B8",
+      "x_mm": -1.75,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 0.7840987410133148,
+      "retained_area_percent": 99.99999999999777,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e53",
+      "num": "B9",
+      "x_mm": -2.25,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": false,
+      "npth_clearance_mm": 0.37507143003692817,
+      "retained_area_percent": 99.99999999999783,
+      "defaultPad": {
+        "padType": "RECT",
+        "width": 11.811023622047,
+        "height": 45.275590551181,
+        "radius": 0
+      }
+    },
+    {
+      "id": "e54",
+      "num": "A4",
+      "x_mm": -2.55,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": true,
+      "npth_clearance_mm": 0.30999850387399475,
+      "retained_area_percent": 96.4553787395727,
+      "defaultPad": {
+        "padType": "POLYGON",
+        "path": [
+          -106.299212598425,
+          116.412519685039,
+          "L",
+          -94.488188976378,
+          116.412519685039,
+          -94.488188976378,
+          71.136929133858,
+          -98.368517696024,
+          71.136929133858,
+          "ARC",
+          20.646340524875,
+          -106.299212598425,
+          75.306551532285,
+          "L",
+          -106.299212598425,
+          116.412519685039
+        ]
+      }
+    },
+    {
+      "id": "e55",
+      "num": "B12",
+      "x_mm": -3.05,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": true,
+      "npth_clearance_mm": 0.3099985079164142,
+      "retained_area_percent": 90.61615440511561,
+      "defaultPad": {
+        "padType": "POLYGON",
+        "path": [
+          -125.984251968504,
+          116.412519685039,
+          "L",
+          -114.173228346457,
+          116.412519685039,
+          -114.173228346457,
+          76.448789565355,
+          "ARC",
+          28.319284557803,
+          -125.984251968504,
+          73.270338427454,
+          "L",
+          -125.984251968504,
+          116.412519685039
+        ]
+      }
+    },
+    {
+      "id": "e56",
+      "num": "A1",
+      "x_mm": -3.35,
+      "y_mm": 2.3818779999999995,
+      "nominal_size_mm": [
+        0.3,
+        1.15
+      ],
+      "relieved": true,
+      "npth_clearance_mm": 0.3099985437081332,
+      "retained_area_percent": 99.32477901502092,
+      "defaultPad": {
+        "padType": "POLYGON",
+        "path": [
+          -137.795275590551,
+          116.412519685039,
+          "L",
+          -125.984251968504,
+          116.412519685039,
+          -125.984251968504,
+          73.270338427454,
+          "ARC",
+          8.835039035446,
+          -129.190537422087,
+          71.136929133858,
+          "L",
+          -137.795275590551,
+          71.136929133858,
+          "L",
+          -137.795275590551,
+          116.412519685039
+        ]
+      }
+    },
+    {
+      "id": "e64",
+      "num": "1",
+      "x_mm": -4.32,
+      "y_mm": 1.8068779999999998,
+      "copper_size_mm": [
+        1.0,
+        2.1
+      ],
+      "PTH_slot_mm": [
+        0.6,
+        1.7
+      ],
+      "radial_annulus_mm": 0.2,
+      "paste": "none; hand solder"
+    },
+    {
+      "id": "e65",
+      "num": "2",
+      "x_mm": 4.32,
+      "y_mm": 1.8068779999999998,
+      "copper_size_mm": [
+        1.0,
+        2.1
+      ],
+      "PTH_slot_mm": [
+        0.6,
+        1.7
+      ],
+      "radial_annulus_mm": 0.2,
+      "paste": "none; hand solder"
+    },
+    {
+      "id": "e66",
+      "num": "3",
+      "x_mm": 4.32,
+      "y_mm": -2.373122,
+      "copper_size_mm": [
+        1.0,
+        1.7999999999999998
+      ],
+      "PTH_slot_mm": [
+        0.6,
+        1.4
+      ],
+      "radial_annulus_mm": 0.2,
+      "paste": "none; hand solder"
+    },
+    {
+      "id": "e67",
+      "num": "4",
+      "x_mm": -4.32,
+      "y_mm": -2.373122,
+      "copper_size_mm": [
+        1.0,
+        1.7999999999999998
+      ],
+      "PTH_slot_mm": [
+        0.6,
+        1.4
+      ],
+      "radial_annulus_mm": 0.2,
+      "paste": "none; hand solder"
+    }
+  ],
+  "npth": {
+    "centres_mm": [
+      [
+        -2.89,
+        1.3068780000000002
+      ],
+      [
+        2.89,
+        1.3068780000000002
+      ]
+    ],
+    "diameter_mm": 0.65
+  },
+  "body_mm": {
+    "width": 8.94,
+    "length": 7.35,
+    "front_edge_y": -4.973122
+  },
+  "required_board_pose": {
+    "x_mm": 17.499807519999997,
+    "y_mm": -4.973122,
+    "rotation_deg": 180,
+    "x_mil": 688.9688,
+    "y_mil": -195.792204724409,
+    "delta_y_mm": -0.36529800000000634,
+    "delta_reference": "placed-state.json before J501 correction"
+  },
+  "default_NPTH_rule_mm": 0.3,
+  "J501_relief_design_minimum_mm": 0.31,
+  "U803_rule_recommendation": {
+    "only_component": "U803",
+    "only_pair": "SMD pad 4 vs acoustic NPTH FILL",
+    "minimum_mm": 0.2,
+    "actual_nominal_mm": 0.225,
+    "basis": "GCT not applicable; PUI recommended ring and JLCPCB NPTH clearance; retain global .30"
+  },
+  "counts": {
+    "pads": 20,
+    "smd_pads": 16,
+    "logical_pads_cut": 6,
+    "physical_SMT_paste_apertures": 12,
+    "PTH_paste_apertures": 0,
+    "NPTH": 2
+  },
+  "limits": [
+    "Manufacturing adaptation: circular copper/paste heel relief differs from the unmodified GCT recommended rectangle.",
+    "Remaining native DRC, readback net identity, final Gerber/Excellon and sample fit/solder inspection required after root applies.",
+    "NPTH .65 mm retained per factory; do not shrink to force clearance. Source/CAM drill sizes govern, not buggy hole getter.",
+    "Existing nonfabricated pin-contact/model metadata retained; exact purchased part and 3D model physical fidelity still need sample confirmation."
+  ]
+}

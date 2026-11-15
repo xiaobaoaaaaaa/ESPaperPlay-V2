@@ -1,0 +1,7 @@
+{
+  "scope": "Conservative read-only native pad geometry (RECT corners square; POLYGON ARC sampled at <=0.25 degrees); no trace/pour check; API pad coordinates rounded by client",
+  "status": "PASS",
+  "pad_count": 803,
+  "clearance_findings": [],
+  "edge_findings": []
+}

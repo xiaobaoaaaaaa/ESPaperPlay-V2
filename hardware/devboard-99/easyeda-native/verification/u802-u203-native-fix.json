@@ -1,0 +1,1497 @@
+{
+  "status": "READY_FOR_NATIVE_INSTANCE_FIX_THEN_GLOBAL_RECHECK",
+  "date": "2026-11-16",
+  "scope": "Offline plan only; no liveAPI, nativePCB/library or KiCad edits. Existing native component provenance/net/reference retained; no KiCad graphics/library import.",
+  "coordinate_contract": {
+    "units": "mm",
+    "view": "top,rotation0,+Xright,+Yup",
+    "origin": "actual component origin; target body/EP centre normalized to(0,0)",
+    "api_units": "mil",
+    "local_to_global": "global_mil=current_component_origin_mil+R(current_component_angle)*(local_mm/0.0254); use current pose after placement, not stale snapshot coordinates.",
+    "pad_rotation": "Each target pad normalized toangle0 in local component frame; width/height already express nativeX/Y, then component rotation transforms the complete instance.",
+    "snapshot_pose": {
+      "U802": {
+        "component_id": "21848786aabdad88",
+        "origin_mil": [
+          13259.695639153468,
+          -5552.964849999982
+        ],
+        "rotation_deg": 0
+      },
+      "U203": {
+        "component_id": "fcdfea8fb6eb5dfa",
+        "origin_mil": [
+          325.4482502050132,
+          -6779.722849999982
+        ],
+        "rotation_deg": 0
+      }
+    }
+  },
+  "parts": {
+    "U802": {
+      "component_id": "21848786aabdad88",
+      "library_footprint_uuid": "6ccf392f5a0d435dad03396810446e53",
+      "package": "MAX98357AETE+T / T1633+4",
+      "pin1_orientation": "Top view, existing native rotation0: pin1 is lower-left, at(-0.75,-1.425).1..4 run left-to-right along bottom;5..8 upward on right;9..12 right-to-left along top;13..16 downward on left. Do not mirror.",
+      "body_mm": [
+        3,
+        3
+      ],
+      "pad_corrections": [
+        {
+          "number": "1",
+          "actual_pad_id": "21848786aabdad88e30",
+          "net": "I2S_DIN_AUDIO",
+          "pin_function": "DIN",
+          "before": {
+            "local_mm": [
+              -0.749189234,
+              -1.49949281
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 180
+          },
+          "target": {
+            "center_mm": [
+              -0.75,
+              -1.425
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.8,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "2",
+          "actual_pad_id": "21848786aabdad88e31",
+          "net": "AMP_SYS",
+          "pin_function": "GAIN_SLOT",
+          "before": {
+            "local_mm": [
+              -0.248809234,
+              -1.49949281
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 180
+          },
+          "target": {
+            "center_mm": [
+              -0.25,
+              -1.425
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.8,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "3",
+          "actual_pad_id": "21848786aabdad88e32",
+          "net": "GND",
+          "pin_function": "GND",
+          "before": {
+            "local_mm": [
+              0.251570766,
+              -1.49949281
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 180
+          },
+          "target": {
+            "center_mm": [
+              0.25,
+              -1.425
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.8,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "4",
+          "actual_pad_id": "21848786aabdad88e33",
+          "net": "AMP_SD_MODE",
+          "pin_function": "SD_MODE#",
+          "before": {
+            "local_mm": [
+              0.751950766,
+              -1.49949281
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 180
+          },
+          "target": {
+            "center_mm": [
+              0.75,
+              -1.425
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.8,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "5",
+          "actual_pad_id": "21848786aabdad88e34",
+          "net": "",
+          "pin_function": "N.C.",
+          "before": {
+            "local_mm": [
+              1.501250766,
+              -0.74765281
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": -90.00000000000001
+          },
+          "target": {
+            "center_mm": [
+              1.425,
+              -0.75
+            ],
+            "width_mm": 0.8,
+            "height_mm": 0.3,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "6",
+          "actual_pad_id": "21848786aabdad88e35",
+          "net": "",
+          "pin_function": "N.C.",
+          "before": {
+            "local_mm": [
+              1.501250766,
+              -0.24727281
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": -90.00000000000001
+          },
+          "target": {
+            "center_mm": [
+              1.425,
+              -0.25
+            ],
+            "width_mm": 0.8,
+            "height_mm": 0.3,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "7",
+          "actual_pad_id": "21848786aabdad88e36",
+          "net": "AMP_SYS",
+          "pin_function": "VDD",
+          "before": {
+            "local_mm": [
+              1.501250766,
+              0.25310719
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": -90.00000000000001
+          },
+          "target": {
+            "center_mm": [
+              1.425,
+              0.25
+            ],
+            "width_mm": 0.8,
+            "height_mm": 0.3,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "8",
+          "actual_pad_id": "21848786aabdad88e37",
+          "net": "AMP_SYS",
+          "pin_function": "VDD",
+          "before": {
+            "local_mm": [
+              1.501250766,
+              0.75094719
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": -90.00000000000001
+          },
+          "target": {
+            "center_mm": [
+              1.425,
+              0.75
+            ],
+            "width_mm": 0.8,
+            "height_mm": 0.3,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "9",
+          "actual_pad_id": "21848786aabdad88e38",
+          "net": "AMP_OUTP",
+          "pin_function": "OUTP",
+          "before": {
+            "local_mm": [
+              0.749410766,
+              1.50024719
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              0.75,
+              1.425
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.8,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "10",
+          "actual_pad_id": "21848786aabdad88e39",
+          "net": "AMP_OUTN",
+          "pin_function": "OUTN",
+          "before": {
+            "local_mm": [
+              0.249030766,
+              1.50024719
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              0.25,
+              1.425
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.8,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "11",
+          "actual_pad_id": "21848786aabdad88e40",
+          "net": "GND",
+          "pin_function": "GND",
+          "before": {
+            "local_mm": [
+              -0.248809234,
+              1.50024719
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              -0.25,
+              1.425
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.8,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "12",
+          "actual_pad_id": "21848786aabdad88e41",
+          "net": "",
+          "pin_function": "N.C.",
+          "before": {
+            "local_mm": [
+              -0.749189234,
+              1.50024719
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              -0.75,
+              1.425
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.8,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "13",
+          "actual_pad_id": "21848786aabdad88e42",
+          "net": "",
+          "pin_function": "N.C.",
+          "before": {
+            "local_mm": [
+              -1.501029234,
+              0.75094719
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 90
+          },
+          "target": {
+            "center_mm": [
+              -1.425,
+              0.75
+            ],
+            "width_mm": 0.8,
+            "height_mm": 0.3,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "14",
+          "actual_pad_id": "21848786aabdad88e43",
+          "net": "I2S_WS_AUDIO",
+          "pin_function": "LRCLK",
+          "before": {
+            "local_mm": [
+              -1.501029234,
+              0.25310719
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 90
+          },
+          "target": {
+            "center_mm": [
+              -1.425,
+              0.25
+            ],
+            "width_mm": 0.8,
+            "height_mm": 0.3,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "15",
+          "actual_pad_id": "21848786aabdad88e44",
+          "net": "GND",
+          "pin_function": "GND",
+          "before": {
+            "local_mm": [
+              -1.501029234,
+              -0.24727281
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 90
+          },
+          "target": {
+            "center_mm": [
+              -1.425,
+              -0.25
+            ],
+            "width_mm": 0.8,
+            "height_mm": 0.3,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "16",
+          "actual_pad_id": "21848786aabdad88e45",
+          "net": "I2S_BCLK_AUDIO",
+          "pin_function": "BCLK",
+          "before": {
+            "local_mm": [
+              -1.501029234,
+              -0.74765281
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              9.8,
+              23.6,
+              0
+            ],
+            "pad_angle_deg": 90
+          },
+          "target": {
+            "center_mm": [
+              -1.425,
+              -0.75
+            ],
+            "width_mm": 0.8,
+            "height_mm": 0.3,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "17",
+          "actual_pad_id": "21848786aabdad88e46",
+          "net": "GND",
+          "pin_function": "EP",
+          "before": {
+            "local_mm": [
+              0.000110766,
+              -0.00089281
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              59.1,
+              59.1,
+              0
+            ],
+            "pad_angle_deg": 90
+          },
+          "target": {
+            "center_mm": [
+              0,
+              0
+            ],
+            "width_mm": 1.23,
+            "height_mm": 1.23,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "disabled",
+              "expansion_mm": null
+            },
+            "bottom_paste": "none"
+          }
+        }
+      ],
+      "ep_paste_windows": [
+        {
+          "id": "EP_PASTE_1",
+          "center_mm": [
+            -0.31,
+            -0.31
+          ],
+          "width_mm": 0.5,
+          "height_mm": 0.5,
+          "angle_deg": 0,
+          "layer": "TOP_PASTE_MASK"
+        },
+        {
+          "id": "EP_PASTE_2",
+          "center_mm": [
+            -0.31,
+            0.31
+          ],
+          "width_mm": 0.5,
+          "height_mm": 0.5,
+          "angle_deg": 0,
+          "layer": "TOP_PASTE_MASK"
+        },
+        {
+          "id": "EP_PASTE_3",
+          "center_mm": [
+            0.31,
+            -0.31
+          ],
+          "width_mm": 0.5,
+          "height_mm": 0.5,
+          "angle_deg": 0,
+          "layer": "TOP_PASTE_MASK"
+        },
+        {
+          "id": "EP_PASTE_4",
+          "center_mm": [
+            0.31,
+            0.31
+          ],
+          "width_mm": 0.5,
+          "height_mm": 0.5,
+          "angle_deg": 0,
+          "layer": "TOP_PASTE_MASK"
+        }
+      ],
+      "thermal_vias": [
+        {
+          "id": "U802_TH1",
+          "center_mm": [
+            0.25,
+            -2.3
+          ],
+          "net": "GND",
+          "type": "plated_through",
+          "drill_mm": 0.3,
+          "land_diameter_mm": 0.6,
+          "top_mask_opening_diameter_mm": 0.64,
+          "bottom_mask_opening_diameter_mm": 0.64,
+          "paste": "none_on_both_sides",
+          "plane_connection": "solid",
+          "special_hole_process": "none"
+        },
+        {
+          "id": "U802_TH2",
+          "center_mm": [
+            -0.25,
+            2.3
+          ],
+          "net": "GND",
+          "type": "plated_through",
+          "drill_mm": 0.3,
+          "land_diameter_mm": 0.6,
+          "top_mask_opening_diameter_mm": 0.64,
+          "bottom_mask_opening_diameter_mm": 0.64,
+          "paste": "none_on_both_sides",
+          "plane_connection": "solid",
+          "special_hole_process": "none"
+        },
+        {
+          "id": "U802_TH3",
+          "center_mm": [
+            -2.3,
+            -0.25
+          ],
+          "net": "GND",
+          "type": "plated_through",
+          "drill_mm": 0.3,
+          "land_diameter_mm": 0.6,
+          "top_mask_opening_diameter_mm": 0.64,
+          "bottom_mask_opening_diameter_mm": 0.64,
+          "paste": "none_on_both_sides",
+          "plane_connection": "solid",
+          "special_hole_process": "none"
+        },
+        {
+          "id": "U802_TH4",
+          "center_mm": [
+            -1.05,
+            2.4
+          ],
+          "net": "GND",
+          "type": "plated_through",
+          "drill_mm": 0.3,
+          "land_diameter_mm": 0.6,
+          "top_mask_opening_diameter_mm": 0.64,
+          "bottom_mask_opening_diameter_mm": 0.64,
+          "paste": "none_on_both_sides",
+          "plane_connection": "solid",
+          "special_hole_process": "none"
+        }
+      ],
+      "copper_necks": [
+        {
+          "id": "EP_GND3_TH1",
+          "net": "GND",
+          "layer": "TOP",
+          "polyline_mm": [
+            [
+              0.25,
+              -0.5
+            ],
+            [
+              0.25,
+              -2.3
+            ]
+          ],
+          "width_mm": 0.3,
+          "cap": "round",
+          "mask": "covered except intended pad/via openings",
+          "paste": "none"
+        },
+        {
+          "id": "EP_GND11_TH2",
+          "net": "GND",
+          "layer": "TOP",
+          "polyline_mm": [
+            [
+              -0.25,
+              0.5
+            ],
+            [
+              -0.25,
+              2.3
+            ]
+          ],
+          "width_mm": 0.3,
+          "cap": "round",
+          "mask": "covered except intended pad/via openings",
+          "paste": "none"
+        },
+        {
+          "id": "EP_GND15_TH3",
+          "net": "GND",
+          "layer": "TOP",
+          "polyline_mm": [
+            [
+              -0.5,
+              -0.25
+            ],
+            [
+              -2.3,
+              -0.25
+            ]
+          ],
+          "width_mm": 0.3,
+          "cap": "round",
+          "mask": "covered except intended pad/via openings",
+          "paste": "none"
+        },
+        {
+          "id": "TH2_TH4",
+          "net": "GND",
+          "layer": "TOP",
+          "polyline_mm": [
+            [
+              -0.25,
+              2.3
+            ],
+            [
+              -0.25,
+              2.4
+            ],
+            [
+              -1.05,
+              2.4
+            ]
+          ],
+          "width_mm": 0.6,
+          "cap": "round",
+          "mask": "covered except intended pad/via openings",
+          "paste": "none"
+        }
+      ],
+      "old_paste_cleanup": "Remove/suppress ALL old TOP_PASTE_MASK fills belonging to U802 (17 in original library,e3..e19; actual instance IDs differ). Set pads1..16 auto-paste0, disable EP17 auto-paste, then add only the4 specified EP windows. Otherwise old1.20mm central square or0.60x0.25mm external windows remain.",
+      "source_status": "Exact land dimensions directly visually verified from local ADI90-0031 RevC. Paste/mask/thermal layout are project engineering choices, not compulsory dimensions from that drawing.",
+      "local_geometry_check": {
+        "foreign_pad_copper": {
+          "objects": [
+            "1",
+            "16"
+          ],
+          "clearance_mm": 0.17677669529663673
+        },
+        "foreign_mask_bridge": {
+          "objects": [
+            "1",
+            "16"
+          ],
+          "clearance_mm": 0.1060660171779819
+        },
+        "via_land_to_foreign_pad": {
+          "objects": [
+            "U802_TH1",
+            "2"
+          ],
+          "clearance_mm": 0.2900211855568373
+        },
+        "neck_to_foreign_pad": {
+          "objects": [
+            "EP_GND3_TH1",
+            "4"
+          ],
+          "clearance_mm": 0.19999929406811418
+        },
+        "EP_paste_window_web_mm": 0.12,
+        "EP_paste_to_hole_nominal_mm": 1.589999294068114,
+        "EP_paste_inset_from_EP_mm": 0.05499999999999994,
+        "hole_to_hole_edge_mm": 0.5062257748298551,
+        "nominal_via_annulus_mm": 0.15,
+        "stencil_thickness_mm": 0.1,
+        "EP_paste_area_mm2": 1.0,
+        "EP_copper_area_mm2": 1.5129,
+        "EP_paste_coverage_percent": 66.09822195782934,
+        "minimum_aperture_area_ratio": 1.25,
+        "EP_to_all_vias_in_one_TOP_copper_component": true,
+        "status": "PASS_LOCAL_NOMINAL_GEOMETRY",
+        "method": "Shapely rectangles; via/round-neck polygons conservatively circumscribed at256segments/quadrant with secant inflation. Intended same-net contacts excluded. Independent of old KiCad pass status; does not include other components/global routing/CAM/factory tolerances.",
+        "all_paste_to_hole_nominal": {
+          "paste": "3",
+          "hole": "U802_TH1",
+          "gap_mm": 0.32499929406811395
+        },
+        "all_stencil_aperture_min_web_mm": 0.12
+      },
+      "manufacturing_targets": {
+        "copper_clearance_min_mm": 0.15,
+        "hole_min_mm": 0.3,
+        "normal_via_land_mm": 0.6,
+        "nominal_annulus_min_mm": 0.15,
+        "hole_to_hole_edge_min_mm": 0.25,
+        "nominal_mask_bridge_min_mm": 0.1,
+        "explicit_SMD_mask_expansion_mm": 0.025,
+        "EP_stencil_web_min_mm": 0.12,
+        "stencil_thickness_mm": 0.1,
+        "EP_aperture_area_ratio_min": 0.66,
+        "thermal_plane_connection": "solid actual GND on both inner planes, verify after fill; no thermal spokes or floating islands",
+        "hole_process": "standard mechanical through,unfilled/uncapped,not in paste; no HDI or via-in-pad special treatment"
+      }
+    },
+    "U203": {
+      "component_id": "fcdfea8fb6eb5dfa",
+      "library_footprint_uuid": "2c6125140a7f4f7e895de1075aa2914e",
+      "package": "MAX17048G+ /MAX17048G+T10 /T822+3",
+      "pin1_orientation": "Top view, existing native rotation0: pin1 is lower-left, at(-0.75,-0.99).1..4 run left-to-right at y=-0.99;5..8 right-to-left at y=+0.99. EP9 is GND. Do not mirror.",
+      "body_mm": [
+        2,
+        2
+      ],
+      "pad_corrections": [
+        {
+          "number": "1",
+          "actual_pad_id": "fcdfea8fb6eb5dfaie12",
+          "net": "GND",
+          "pin_function": "CTG",
+          "before": {
+            "local_mm": [
+              -0.750525555,
+              -0.93667961
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              11,
+              16.7,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              -0.75,
+              -0.99
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.7,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "2",
+          "actual_pad_id": "fcdfea8fb6eb5dfaie13",
+          "net": "BAT_PROT",
+          "pin_function": "CELL",
+          "before": {
+            "local_mm": [
+              -0.250145555,
+              -0.93667961
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              11,
+              16.7,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              -0.25,
+              -0.99
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.7,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "3",
+          "actual_pad_id": "fcdfea8fb6eb5dfaie14",
+          "net": "BAT_PROT",
+          "pin_function": "VDD",
+          "before": {
+            "local_mm": [
+              0.250234445,
+              -0.93667961
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              11,
+              16.7,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              0.25,
+              -0.99
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.7,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "4",
+          "actual_pad_id": "fcdfea8fb6eb5dfaie15",
+          "net": "GND",
+          "pin_function": "GND",
+          "before": {
+            "local_mm": [
+              0.750614445,
+              -0.93667961
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              11,
+              16.7,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              0.75,
+              -0.99
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.7,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "5",
+          "actual_pad_id": "fcdfea8fb6eb5dfaie16",
+          "net": "FUEL_ALERT_N",
+          "pin_function": "ALRT#",
+          "before": {
+            "local_mm": [
+              0.750614445,
+              0.93784039
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              11,
+              16.7,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              0.75,
+              0.99
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.7,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "6",
+          "actual_pad_id": "fcdfea8fb6eb5dfaie17",
+          "net": "GND",
+          "pin_function": "QSTRT",
+          "before": {
+            "local_mm": [
+              0.250234445,
+              0.93784039
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              11,
+              16.7,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              0.25,
+              0.99
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.7,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "7",
+          "actual_pad_id": "fcdfea8fb6eb5dfaie18",
+          "net": "GAUGE_SCL",
+          "pin_function": "SCL",
+          "before": {
+            "local_mm": [
+              -0.250145555,
+              0.93784039
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              11,
+              16.7,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              -0.25,
+              0.99
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.7,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "8",
+          "actual_pad_id": "fcdfea8fb6eb5dfaie19",
+          "net": "GAUGE_SDA",
+          "pin_function": "SDA",
+          "before": {
+            "local_mm": [
+              -0.750525555,
+              0.93784039
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              11,
+              16.7,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              -0.75,
+              0.99
+            ],
+            "width_mm": 0.3,
+            "height_mm": 0.7,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "pad_shape",
+              "expansion_mm": 0
+            },
+            "bottom_paste": "none"
+          }
+        },
+        {
+          "number": "9",
+          "actual_pad_id": "fcdfea8fb6eb5dfaie20",
+          "net": "GND",
+          "pin_function": "EP",
+          "before": {
+            "local_mm": [
+              -0.001225555,
+              0.00058039
+            ],
+            "pad_shape_mil": [
+              "RECT",
+              47.2,
+              31.5,
+              0
+            ],
+            "pad_angle_deg": 0
+          },
+          "target": {
+            "center_mm": [
+              0,
+              0
+            ],
+            "width_mm": 1.38,
+            "height_mm": 0.8,
+            "shape": "RECT",
+            "pad_angle_deg": 0,
+            "layer": "TOP",
+            "top_mask_expansion_mm": 0.025,
+            "top_paste": {
+              "mode": "disabled",
+              "expansion_mm": null
+            },
+            "bottom_paste": "none"
+          }
+        }
+      ],
+      "ep_paste_windows": [
+        {
+          "id": "EP_LEFT",
+          "center_mm": [
+            -0.345,
+            0
+          ],
+          "width_mm": 0.56,
+          "height_mm": 0.64,
+          "angle_deg": 0,
+          "layer": "TOP_PASTE_MASK"
+        },
+        {
+          "id": "EP_RIGHT",
+          "center_mm": [
+            0.345,
+            0
+          ],
+          "width_mm": 0.56,
+          "height_mm": 0.64,
+          "angle_deg": 0,
+          "layer": "TOP_PASTE_MASK"
+        }
+      ],
+      "thermal_vias": [
+        {
+          "id": "U203_TH1",
+          "center_mm": [
+            -1.3,
+            0
+          ],
+          "net": "GND",
+          "type": "plated_through",
+          "drill_mm": 0.3,
+          "land_diameter_mm": 0.6,
+          "top_mask_opening_diameter_mm": 0.64,
+          "bottom_mask_opening_diameter_mm": 0.64,
+          "paste": "none_on_both_sides",
+          "plane_connection": "solid",
+          "special_hole_process": "none"
+        },
+        {
+          "id": "U203_TH2",
+          "center_mm": [
+            1.3,
+            0
+          ],
+          "net": "GND",
+          "type": "plated_through",
+          "drill_mm": 0.3,
+          "land_diameter_mm": 0.6,
+          "top_mask_opening_diameter_mm": 0.64,
+          "bottom_mask_opening_diameter_mm": 0.64,
+          "paste": "none_on_both_sides",
+          "plane_connection": "solid",
+          "special_hole_process": "none"
+        }
+      ],
+      "copper_necks": [
+        {
+          "id": "EP_TH1",
+          "net": "GND",
+          "layer": "TOP",
+          "polyline_mm": [
+            [
+              -0.5,
+              0
+            ],
+            [
+              -1.3,
+              0
+            ]
+          ],
+          "width_mm": 0.6,
+          "cap": "round",
+          "mask": "covered except intended pad/via openings",
+          "paste": "none"
+        },
+        {
+          "id": "EP_TH2",
+          "net": "GND",
+          "layer": "TOP",
+          "polyline_mm": [
+            [
+              0.5,
+              0
+            ],
+            [
+              1.3,
+              0
+            ]
+          ],
+          "width_mm": 0.6,
+          "cap": "round",
+          "mask": "covered except intended pad/via openings",
+          "paste": "none"
+        }
+      ],
+      "old_paste_cleanup": "No explicit layer7 fill in cached library, but re-read instance. Disable EP9 automatic paste; enable full paste0 on1..8; add only these2 EP windows. Do not leave a full EP window underneath.",
+      "source_status": "Official ADI package index maps T822+3 to tdfn_90-0065.pdf, now downloaded and visually verified, RevE.0.70x0.30mm outer lands,1.98mm opposed centre distance,EP0.80x1.38mm. The package-code panel omits literalT822-3, but the official T822+3 index and MAX17048 datasheet both explicitly identify90-0065.",
+      "change_from_old_candidate": "The old r140.775x0.25mm outer pads/0.8x1.2mm EP were an IPC-style candidate, not exact vendor land. This plan uses newly retrieved vendor land; two0.56x0.64mm windows replace the old four windows whose narrow web was0.08mm. PIN2571D concerns shipping boxes and is NOT geometry evidence.",
+      "local_geometry_check": {
+        "foreign_pad_copper": {
+          "objects": [
+            "1",
+            "2"
+          ],
+          "clearance_mm": 0.19999999999999996
+        },
+        "foreign_mask_bridge": {
+          "objects": [
+            "1",
+            "2"
+          ],
+          "clearance_mm": 0.1499999999999999
+        },
+        "via_land_to_foreign_pad": {
+          "objects": [
+            "U203_TH1",
+            "8"
+          ],
+          "clearance_mm": 0.4547170919063267
+        },
+        "neck_to_foreign_pad": {
+          "objects": [
+            "EP_TH1",
+            "8"
+          ],
+          "clearance_mm": 0.3399985881362284
+        },
+        "EP_paste_window_web_mm": 0.1299999999999999,
+        "EP_paste_to_hole_nominal_mm": 0.5249992940681143,
+        "EP_paste_inset_from_EP_mm": 0.06499999999999993,
+        "hole_to_hole_edge_mm": 2.3000000000000003,
+        "nominal_via_annulus_mm": 0.15,
+        "stencil_thickness_mm": 0.1,
+        "EP_paste_area_mm2": 0.7168000000000001,
+        "EP_copper_area_mm2": 1.1039999999999999,
+        "EP_paste_coverage_percent": 64.92753623188408,
+        "minimum_aperture_area_ratio": 1.4933333333333332,
+        "EP_to_all_vias_in_one_TOP_copper_component": true,
+        "status": "PASS_LOCAL_NOMINAL_GEOMETRY",
+        "method": "Shapely rectangles; via/round-neck polygons conservatively circumscribed at256segments/quadrant with secant inflation. Intended same-net contacts excluded. Independent of old KiCad pass status; does not include other components/global routing/CAM/factory tolerances.",
+        "all_paste_to_hole_nominal": {
+          "paste": "EP_LEFT",
+          "hole": "U203_TH1",
+          "gap_mm": 0.5249992940681143
+        },
+        "all_stencil_aperture_min_web_mm": 0.1299999999999999
+      },
+      "manufacturing_targets": {
+        "copper_clearance_min_mm": 0.15,
+        "hole_min_mm": 0.3,
+        "normal_via_land_mm": 0.6,
+        "nominal_annulus_min_mm": 0.15,
+        "hole_to_hole_edge_min_mm": 0.25,
+        "nominal_mask_bridge_min_mm": 0.1,
+        "explicit_SMD_mask_expansion_mm": 0.025,
+        "EP_stencil_web_min_mm": 0.12,
+        "stencil_thickness_mm": 0.1,
+        "EP_aperture_area_ratio_min": 0.66,
+        "thermal_plane_connection": "solid actual GND on both inner planes, verify after fill; no thermal spokes or floating islands",
+        "hole_process": "standard mechanical through,unfilled/uncapped,not in paste; no HDI or via-in-pad special treatment"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "U802_LAND",
+      "path": "hardware/reference/bom-r3/files/90-0031.pdf",
+      "sha256": "5661318725986f79e664adb5fd24d80c2b444c1d48d3aa4c1b0d51ebfa53f4c8",
+      "url": "https://mds.analog.com/api/public/content/90-0031.pdf",
+      "page": 1,
+      "revision": "C",
+      "read_visually": true,
+      "dimension_evidence_mm": {
+        "peripheral_length": 0.8,
+        "peripheral_width": 0.3,
+        "pitch": 0.5,
+        "opposing_centre_distance": 2.85,
+        "EP_square": 1.23
+      },
+      "drawing_tolerance_note_mm": 0.02
+    },
+    {
+      "id": "U203_LAND",
+      "path": "build/easyeda-native99/pcb-plan/sources/tdfn_90-0065.pdf",
+      "sha256": "3448c4e9d300c7b5c2b86d6c67f19fc59c28a91c4b41dfd39fb8cc5a9d4b72eb",
+      "url": "https://mds.analog.com/api/public/content/tdfn_90-0065.pdf",
+      "page": 1,
+      "revision": "E",
+      "read_visually": true,
+      "dimension_evidence_mm": {
+        "peripheral_length": 0.7,
+        "peripheral_width": 0.3,
+        "pitch": 0.5,
+        "opposing_centre_distance": 1.98,
+        "EP_native_XY": [
+          1.38,
+          0.8
+        ]
+      },
+      "drawing_tolerance_note_mm": 0.02,
+      "official_index": "https://www.analog.com/cdp/packages/en/packages.json",
+      "official_index_entry": {
+        "packageType": "TDFN (Legacy Maxim)",
+        "packageDrawingNumber": "T822+3",
+        "outlineDrawing": "https://mds.analog.com/api/public/content/tdfn_21-0168.pdf",
+        "landPattern": "https://mds.analog.com/api/public/content/tdfn_90-0065.pdf"
+      }
+    },
+    {
+      "id": "U802_DATASHEET",
+      "path": "hardware/reference/power/max98357a.pdf",
+      "sha256": "dea228ad619901d34c2f5f106243bdb9b9e95e38989d4d66fd6c6c489bfa6f1c",
+      "evidence": "p15 GND3/11/15; EP is internally unconnected and must connect to solid ground plane for heat. Package table mapsT1633+4→90-0031."
+    },
+    {
+      "id": "U203_DATASHEET",
+      "path": "hardware/reference/power/max17048.pdf",
+      "sha256": "70dc8eef0e012276dcdc58b6dce64af08258304bcf865ceace64e856b8029330",
+      "evidence": "p6 EP toGND; p18 T822+3→21-0168/90-0065."
+    },
+    {
+      "id": "NATIVE_ACTUAL",
+      "path": "build/easyeda-native99/pcb-work/initial-state.json",
+      "sha256": "386b8a68644f88f322197b628a5eda863b6a63a2044bd440f3b983193d343501",
+      "evidence": "Actual component origins and instantiated pad IDs; no original cached primitive ID assumptions."
+    }
+  ],
+  "required_sequence": [
+    "Check current pad inventories17/9 and IDs against snapshot.",
+    "Modify exact pads on existing native instances, preserving every net and pin number.",
+    "Suppress old auto/explicit paste; recreate only specified EP windows, keep full perimeter paste.",
+    "Create standard throughGND vias and coveredTOP copper necks from local coordinates, using actual pose.",
+    "Read back all pads/fills/vias and compare against plan; then full native PCB DRC at0.15 copper clearance/min0.30drill/0.60land/0.15annulus.",
+    "Refill realGND planes and verify EP→vias→both inner planes; rerun DRC.",
+    "Export native Gerber/mask/paste/PTH drill; independently inspect exact stencil union,0.106mm U802 corner bridge, no paste-over-hole and no legacy fill remnants."
+  ],
+  "remaining_conditions": [
+    "All gap results are nominal geometry, not fabrication-tolerance guarantees. Vendor±0.02mm land-drawing note is not factory mask/drill registration.",
+    "U802+0.050mm mask expansion would leave diagonal bridge0.035355mm; explicit+0.025mm yields0.106066mm nominal. Factory must not auto-enlarge these mask openings; actualCAM verification required.",
+    "U8024EP windows66.10% and U2032EP windows64.93% are assembly engineering candidates, not mandatory manufacturer stencil shapes or measured paste transfer.",
+    "Ordinary external thermal vias avoid paste-filled in-pad holes but do not prove thermal equivalence to filled/capped vias. Validate U802 intended continuous playback/temperature on first boards.",
+    "Native whole-board neighbouring footprints/routing/plane connectivity remain to be checked. Local pass is not native DRC release and does not reuse KiCadDRC.",
+    "U203 official land file was missing from old local review; now archived from official package-index path. No dimensions inferred from device outline alone."
+  ]
+}

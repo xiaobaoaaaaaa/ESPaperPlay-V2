@@ -1,0 +1,3311 @@
+{
+  "status": "OFFLINE_NATIVE_INSTANCE_GEOMETRY_PLAN_CONDITIONALLY_CHECKED",
+  "date": "2026-11-16",
+  "ref": "U101",
+  "MPN": "BQ24074RGTR",
+  "package": "TI RGT0016C",
+  "scope": "Modify the already selected native footprint instance only. Preserve 17 electrical pin numbers/nets, symbol/device identity and electrical specs. No KiCad/library import, no live mutation performed by this plan generator.",
+  "coordinate_frame": {
+    "units": "mm",
+    "view": "PCB top view",
+    "x_positive": "right",
+    "y_positive": "up",
+    "origin": "Existing native U101 component placement origin at rotation=0; corrected EP17 center is exactly (0,0).",
+    "pin1": [
+      -1.4,
+      0.75
+    ],
+    "numbering": "1-4 left, top to bottom; 5-8 bottom, left to right; 9-12 right, bottom to top; 13-16 top, right to left.",
+    "initial_native_component_id": "05017d0e4046185a",
+    "initial_native_component_origin_mil": [
+      6026.944338128386,
+      -5922.870849999983
+    ],
+    "initial_rotation_degrees": 0,
+    "instance_mapping": "At rotation 0: board_API_x = component_x + local_x_mm/0.0254; board_API_y = component_y + local_y_mm/0.0254. Re-read actual component transform after placement; preserve pin-1 orientation. Do not negate Y or use KiCad coordinates.",
+    "readback_precision": "getAllPins rounds about 0.1 mil (2.54 um). Do not reconstruct exact targets by rounding observed offsets, or certify a 2.40 um mask-web surplus from this readback; use native source and actual CAM."
+  },
+  "primary_evidence": [
+    {
+      "file": "hardware/reference/power/bq24074.pdf",
+      "sha256": "4fe4e4f9855501f83b400c6932e3098439e51c50539e40dc45b44a8d509e8db1",
+      "pages_1based": [
+        40,
+        42,
+        52,
+        53,
+        54
+      ],
+      "drawing": "RGT0016C 4222419/E 07/2025",
+      "url": "https://www.ti.com/lit/ds/symlink/bq24074.pdf",
+      "checked": "Package, board land pattern and stencil pages rendered and visually inspected. Board pattern is square rounded EP, not optional package-bottom pin-1 chamfer."
+    },
+    {
+      "url": "https://www.ti.com/lit/an/slua271c/slua271c.pdf",
+      "sections": [
+        "3.4.1",
+        "4.3",
+        "4.4"
+      ],
+      "checked": "0.3 mm drill is an example starting point; OSP untented trials are discussed, with profile/voiding qualifications. Generic EP coverage guidance and stencil release ratios are not a qualification of this assembly."
+    },
+    {
+      "file": "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/2acf4ae43e1643c9bcfc4472e2176fc0.efoo",
+      "sha256": "b7d6bc5d756dbf4e4d0582a16288fb4d2d32a7db63d37dfb65c8c543fd3a5706",
+      "checked": "Native source has 17 TOP pads, no real through thermal vias, long oval perimeter lands, chamfered EP and 17 independent top-paste fills."
+    },
+    {
+      "file": "build/easyeda-native99/pcb-work/initial-state.json",
+      "sha256": "386b8a68644f88f322197b628a5eda863b6a63a2044bd440f3b983193d343501",
+      "checked": "Actual imported U101 instance, numbered pads, GND8/GND17, +Y-up rotation0 orientation and API units checked."
+    }
+  ],
+  "peripheral_pads": [
+    {
+      "number": "1",
+      "existing_native_pin_id": "05017d0e4046185ae30",
+      "net": "CHG_TS",
+      "center_local_mm": [
+        -1.4,
+        0.75
+      ],
+      "size_xy_mm": [
+        0.6,
+        0.24
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        23.62204724409449,
+        9.448818897637794,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        -1.4997262,
+        0.7510996
+      ]
+    },
+    {
+      "number": "2",
+      "existing_native_pin_id": "05017d0e4046185ae31",
+      "net": "BAT_PROT",
+      "center_local_mm": [
+        -1.4,
+        0.25
+      ],
+      "size_xy_mm": [
+        0.6,
+        0.24
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        23.62204724409449,
+        9.448818897637794,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        -1.4997262,
+        0.2507196
+      ]
+    },
+    {
+      "number": "3",
+      "existing_native_pin_id": "05017d0e4046185ae32",
+      "net": "BAT_PROT",
+      "center_local_mm": [
+        -1.4,
+        -0.25
+      ],
+      "size_xy_mm": [
+        0.6,
+        0.24
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        23.62204724409449,
+        9.448818897637794,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        -1.4997262,
+        -0.2496604
+      ]
+    },
+    {
+      "number": "4",
+      "existing_native_pin_id": "05017d0e4046185ae33",
+      "net": "CHG_CE_N",
+      "center_local_mm": [
+        -1.4,
+        -0.75
+      ],
+      "size_xy_mm": [
+        0.6,
+        0.24
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        23.62204724409449,
+        9.448818897637794,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        -1.4997262,
+        -0.7500404
+      ]
+    },
+    {
+      "number": "5",
+      "existing_native_pin_id": "05017d0e4046185ae34",
+      "net": "USB_EN2",
+      "center_local_mm": [
+        -0.75,
+        -1.4
+      ],
+      "size_xy_mm": [
+        0.24,
+        0.6
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        9.448818897637794,
+        23.62204724409449,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        -0.7504262,
+        -1.4993404
+      ]
+    },
+    {
+      "number": "6",
+      "existing_native_pin_id": "05017d0e4046185ae35",
+      "net": "USB_EN1",
+      "center_local_mm": [
+        -0.25,
+        -1.4
+      ],
+      "size_xy_mm": [
+        0.24,
+        0.6
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        9.448818897637794,
+        23.62204724409449,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        -0.2500462,
+        -1.4993404
+      ]
+    },
+    {
+      "number": "7",
+      "existing_native_pin_id": "05017d0e4046185ae36",
+      "net": "PGOOD_N",
+      "center_local_mm": [
+        0.25,
+        -1.4
+      ],
+      "size_xy_mm": [
+        0.24,
+        0.6
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        9.448818897637794,
+        23.62204724409449,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        0.2503338,
+        -1.4993404
+      ]
+    },
+    {
+      "number": "8",
+      "existing_native_pin_id": "05017d0e4046185ae37",
+      "net": "GND",
+      "center_local_mm": [
+        0.75,
+        -1.4
+      ],
+      "size_xy_mm": [
+        0.24,
+        0.6
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        9.448818897637794,
+        23.62204724409449,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        0.7507138,
+        -1.4993404
+      ]
+    },
+    {
+      "number": "9",
+      "existing_native_pin_id": "05017d0e4046185ae38",
+      "net": "CHG_N",
+      "center_local_mm": [
+        1.4,
+        -0.75
+      ],
+      "size_xy_mm": [
+        0.6,
+        0.24
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        23.62204724409449,
+        9.448818897637794,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        1.5000138,
+        -0.7500404
+      ]
+    },
+    {
+      "number": "10",
+      "existing_native_pin_id": "05017d0e4046185ae39",
+      "net": "SYS_RAW",
+      "center_local_mm": [
+        1.4,
+        -0.25
+      ],
+      "size_xy_mm": [
+        0.6,
+        0.24
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        23.62204724409449,
+        9.448818897637794,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        1.5000138,
+        -0.2496604
+      ]
+    },
+    {
+      "number": "11",
+      "existing_native_pin_id": "05017d0e4046185ae40",
+      "net": "SYS_RAW",
+      "center_local_mm": [
+        1.4,
+        0.25
+      ],
+      "size_xy_mm": [
+        0.6,
+        0.24
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        23.62204724409449,
+        9.448818897637794,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        1.5000138,
+        0.2507196
+      ]
+    },
+    {
+      "number": "12",
+      "existing_native_pin_id": "05017d0e4046185ae41",
+      "net": "CHG_ILIM",
+      "center_local_mm": [
+        1.4,
+        0.75
+      ],
+      "size_xy_mm": [
+        0.6,
+        0.24
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        23.62204724409449,
+        9.448818897637794,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        1.5000138,
+        0.7510996
+      ]
+    },
+    {
+      "number": "13",
+      "existing_native_pin_id": "05017d0e4046185ae42",
+      "net": "VIN_5V",
+      "center_local_mm": [
+        0.75,
+        1.4
+      ],
+      "size_xy_mm": [
+        0.24,
+        0.6
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        9.448818897637794,
+        23.62204724409449,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        0.7507138,
+        1.5003996
+      ]
+    },
+    {
+      "number": "14",
+      "existing_native_pin_id": "05017d0e4046185ae43",
+      "net": "CHG_TMR",
+      "center_local_mm": [
+        0.25,
+        1.4
+      ],
+      "size_xy_mm": [
+        0.24,
+        0.6
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        9.448818897637794,
+        23.62204724409449,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        0.2503338,
+        1.5003996
+      ]
+    },
+    {
+      "number": "15",
+      "existing_native_pin_id": "05017d0e4046185ae44",
+      "net": "CHG_ITERM",
+      "center_local_mm": [
+        -0.25,
+        1.4
+      ],
+      "size_xy_mm": [
+        0.24,
+        0.6
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        9.448818897637794,
+        23.62204724409449,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        -0.2500462,
+        1.5003996
+      ]
+    },
+    {
+      "number": "16",
+      "existing_native_pin_id": "05017d0e4046185ae45",
+      "net": "CHG_ISET",
+      "center_local_mm": [
+        -0.75,
+        1.4
+      ],
+      "size_xy_mm": [
+        0.24,
+        0.6
+      ],
+      "shape": "rounded_rectangle",
+      "corner_radius_mm": 0.05,
+      "rotation_degrees": 0,
+      "layer": "TOP",
+      "hole": null,
+      "top_solder_mask_expansion_mm": 0.05,
+      "top_paste_mask_expansion_mm": 0.0,
+      "native_api_pad_shape_mil": [
+        "RECT",
+        9.448818897637794,
+        23.62204724409449,
+        1.9685039370078743
+      ],
+      "observed_initial_center_local_mm": [
+        -0.7504262,
+        1.5003996
+      ]
+    }
+  ],
+  "exposed_pad": {
+    "number": "17",
+    "existing_native_pin_id": "05017d0e4046185ae46",
+    "net": "GND",
+    "center_local_mm": [
+      0,
+      0
+    ],
+    "shape": "rounded_rectangle",
+    "size_xy_mm": [
+      1.68,
+      1.68
+    ],
+    "corner_radius_mm": 0.05,
+    "layer": "TOP",
+    "hole": null,
+    "top_solder_mask_expansion_mm": 0.05,
+    "automatic_paste": "disabled",
+    "explicit_central_paste_only": true,
+    "native_api_pad_shape_mil": [
+      "RECT",
+      66.14173228346456,
+      66.14173228346456,
+      1.9685039370078743
+    ],
+    "note": "Replace the whole original chamfered polygon. The native source's tiny SMD hole metadata is not a drill; no hole on this SMD pad. Actual holes are four separate through VIA objects."
+  },
+  "thermal_vias": [
+    {
+      "name": "U101_THERMAL_1",
+      "native_primitive": "VIA",
+      "net": "GND",
+      "center_local_mm": [
+        -0.63,
+        -0.63
+      ],
+      "nominal_drill_diameter_mm": 0.3,
+      "copper_diameter_mm": 0.6,
+      "type": "through",
+      "plated": true,
+      "layers": "All four copper layers, TOP to BOTTOM",
+      "top_solder_mask_expansion_mm": 0.02,
+      "bottom_solder_mask_expansion_mm": 0.05,
+      "top_mask_opening_diameter_mm": 0.64,
+      "bottom_mask_opening_diameter_mm": 0.7,
+      "paste": "none",
+      "plane_connection": "solid/direct, no thermal spokes",
+      "special_processing": "None; open ordinary plated via, no resin fill, copper cap, microvia, blind/buried via or soldermask plugging."
+    },
+    {
+      "name": "U101_THERMAL_2",
+      "native_primitive": "VIA",
+      "net": "GND",
+      "center_local_mm": [
+        -0.63,
+        0.63
+      ],
+      "nominal_drill_diameter_mm": 0.3,
+      "copper_diameter_mm": 0.6,
+      "type": "through",
+      "plated": true,
+      "layers": "All four copper layers, TOP to BOTTOM",
+      "top_solder_mask_expansion_mm": 0.02,
+      "bottom_solder_mask_expansion_mm": 0.05,
+      "top_mask_opening_diameter_mm": 0.64,
+      "bottom_mask_opening_diameter_mm": 0.7,
+      "paste": "none",
+      "plane_connection": "solid/direct, no thermal spokes",
+      "special_processing": "None; open ordinary plated via, no resin fill, copper cap, microvia, blind/buried via or soldermask plugging."
+    },
+    {
+      "name": "U101_THERMAL_3",
+      "native_primitive": "VIA",
+      "net": "GND",
+      "center_local_mm": [
+        0.63,
+        -0.63
+      ],
+      "nominal_drill_diameter_mm": 0.3,
+      "copper_diameter_mm": 0.6,
+      "type": "through",
+      "plated": true,
+      "layers": "All four copper layers, TOP to BOTTOM",
+      "top_solder_mask_expansion_mm": 0.02,
+      "bottom_solder_mask_expansion_mm": 0.05,
+      "top_mask_opening_diameter_mm": 0.64,
+      "bottom_mask_opening_diameter_mm": 0.7,
+      "paste": "none",
+      "plane_connection": "solid/direct, no thermal spokes",
+      "special_processing": "None; open ordinary plated via, no resin fill, copper cap, microvia, blind/buried via or soldermask plugging."
+    },
+    {
+      "name": "U101_THERMAL_4",
+      "native_primitive": "VIA",
+      "net": "GND",
+      "center_local_mm": [
+        0.63,
+        0.63
+      ],
+      "nominal_drill_diameter_mm": 0.3,
+      "copper_diameter_mm": 0.6,
+      "type": "through",
+      "plated": true,
+      "layers": "All four copper layers, TOP to BOTTOM",
+      "top_solder_mask_expansion_mm": 0.02,
+      "bottom_solder_mask_expansion_mm": 0.05,
+      "top_mask_opening_diameter_mm": 0.64,
+      "bottom_mask_opening_diameter_mm": 0.7,
+      "paste": "none",
+      "plane_connection": "solid/direct, no thermal spokes",
+      "special_processing": "None; open ordinary plated via, no resin fill, copper cap, microvia, blind/buried via or soldermask plugging."
+    }
+  ],
+  "ground_connections": {
+    "EP_and_via_lands": "Union on TOP; all four via lands overlap the EP.",
+    "VSS8_TOP_trace": {
+      "net": "GND",
+      "line_local_mm": [
+        [
+          0.75,
+          -0.63
+        ],
+        [
+          0.75,
+          -1.4
+        ]
+      ],
+      "width_mm": 0.24,
+      "paste": "none",
+      "reason": "Direct EP-to-VSS8 connection per TI, ending at actual pad8 center. Native DRC to neighboring pads required after application."
+    },
+    "INNER1_INNER2_BOTTOM": "Each actual filled GND plane must solidly cover all four via lands plus a 0.10 mm radial halo and form one GND-connected copper region reaching beyond the local +/-2.2 mm review box. Do not use isolated islands or thermal spokes. Keep other-net copper/antipads away; verify filled CAM, not zone outline alone."
+  },
+  "mask": {
+    "top_EP": "1.68 x1.68 R0.05 EP expanded .05 mm and unioned with four .64 mm via openings; no internal mask islands.",
+    "top_peripheral": "Each corrected .60 x.24 R0.05 pad expanded .05 mm.",
+    "bottom": "Four independent .70 mm openings at via centers. Larger than top because there are no bottom signal-pad mask webs to protect.",
+    "bottom_change_reason": "Symmetric .64 mm openings miss the conservative independent .075 mm/axis and .43 mm hole envelope by 1.066 um radially; .70 mm bottom openings retain 28.934 um before unknown mask-registration error.",
+    "manufacturing_instruction": "Retain explicit local TOP .64 mm openings; automatic CAM expansion to .70 mm at TOP would destroy the intended >=.10 mm mask bridge. Confirm production artwork. A nominal bridge is not a registration guarantee."
+  },
+  "paste": {
+    "stencil_thickness_mm": 0.1,
+    "peripheral": "Use automatic TOP paste at zero expansion on the 16 corrected rounded-rectangle pads, giving 1:1 .60 x.24 R0.05 openings.",
+    "remove_existing_top_paste": {
+      "source_library_fill_ids": [
+        "e20",
+        "e21",
+        "e22",
+        "e23",
+        "e24",
+        "e25",
+        "e26",
+        "e27",
+        "e28",
+        "e29",
+        "e30",
+        "e31",
+        "e32",
+        "e33",
+        "e34",
+        "e35",
+        "e36"
+      ],
+      "count": 17,
+      "instruction": "Resolve actual instance artwork IDs by layer/local geometry; delete all old U101 TOP_PASTE_MASK fills before enabling peripheral automatic paste and adding the new central polygon. Do not assume source e20..e36 IDs survive import."
+    },
+    "EP_auto_paste": "Disable explicitly using supported native expansion/shape controls (existing footprint uses approximately -100 mm suppression); do not leave an automatic EP opening under this polygon. Verify actual export is exactly the intended union.",
+    "central_layer": "TOP_PASTE_MASK",
+    "central_connected_regions": 1,
+    "central_holes": 0,
+    "outer_square_size_mm": 1.55,
+    "construction": "[-.775,.775]^2 minus four (centered .210 x.210 squares Minkowski-summed with a radius-.255010 mm disk). Circumscribe disk arcs using radius/cos(pi/(4*128)); round final vertices to9 decimals. Cutout squares combine .03 print and .075 drill per-axis translation. Radius combines .43/2 max hole, .02 outward aperture error, .02 residual clearance and .000010 computational reserve.",
+    "forbidden_square_halfwidth_mm": 0.105,
+    "forbidden_exact_radius_with_reserve_mm": 0.25501,
+    "forbidden_polygon_arc_radius_mm": 0.2550148005815535,
+    "forbidden_arc_quadrant_segments": 128,
+    "central_vertices_local_mm": [
+      [
+        0.775,
+        -0.273144491
+      ],
+      [
+        0.772418443,
+        -0.27274535
+      ],
+      [
+        0.769320073,
+        -0.272305162
+      ],
+      [
+        0.766216534,
+        -0.271903029
+      ],
+      [
+        0.763108294,
+        -0.271539012
+      ],
+      [
+        0.759995821,
+        -0.271213165
+      ],
+      [
+        0.756879584,
+        -0.270925538
+      ],
+      [
+        0.753760053,
+        -0.270676173
+      ],
+      [
+        0.750637695,
+        -0.270465108
+      ],
+      [
+        0.747512983,
+        -0.270292376
+      ],
+      [
+        0.744386387,
+        -0.270158001
+      ],
+      [
+        0.741258376,
+        -0.270062005
+      ],
+      [
+        0.738129424,
+        -0.270004402
+      ],
+      [
+        0.735,
+        -0.269985199
+      ],
+      [
+        0.525,
+        -0.269985199
+      ],
+      [
+        0.521870576,
+        -0.270004402
+      ],
+      [
+        0.518741624,
+        -0.270062005
+      ],
+      [
+        0.515613613,
+        -0.270158001
+      ],
+      [
+        0.512487017,
+        -0.270292376
+      ],
+      [
+        0.509362305,
+        -0.270465108
+      ],
+      [
+        0.506239947,
+        -0.270676173
+      ],
+      [
+        0.503120416,
+        -0.270925538
+      ],
+      [
+        0.500004179,
+        -0.271213165
+      ],
+      [
+        0.496891706,
+        -0.271539012
+      ],
+      [
+        0.493783466,
+        -0.271903029
+      ],
+      [
+        0.490679927,
+        -0.272305162
+      ],
+      [
+        0.487581557,
+        -0.27274535
+      ],
+      [
+        0.484488822,
+        -0.273223526
+      ],
+      [
+        0.481402188,
+        -0.273739619
+      ],
+      [
+        0.478322119,
+        -0.27429355
+      ],
+      [
+        0.47524908,
+        -0.274885237
+      ],
+      [
+        0.472183534,
+        -0.275514591
+      ],
+      [
+        0.469125941,
+        -0.276181516
+      ],
+      [
+        0.466076763,
+        -0.276885912
+      ],
+      [
+        0.463036458,
+        -0.277627673
+      ],
+      [
+        0.460005485,
+        -0.278406688
+      ],
+      [
+        0.456984299,
+        -0.279222839
+      ],
+      [
+        0.453973357,
+        -0.280076003
+      ],
+      [
+        0.450973111,
+        -0.280966051
+      ],
+      [
+        0.447984013,
+        -0.28189285
+      ],
+      [
+        0.445006514,
+        -0.28285626
+      ],
+      [
+        0.442041061,
+        -0.283856136
+      ],
+      [
+        0.439088101,
+        -0.284892328
+      ],
+      [
+        0.43614808,
+        -0.285964679
+      ],
+      [
+        0.433221439,
+        -0.287073027
+      ],
+      [
+        0.43030862,
+        -0.288217207
+      ],
+      [
+        0.427410061,
+        -0.289397045
+      ],
+      [
+        0.424526198,
+        -0.290612364
+      ],
+      [
+        0.421657467,
+        -0.291862981
+      ],
+      [
+        0.418804299,
+        -0.293148708
+      ],
+      [
+        0.415967123,
+        -0.294469351
+      ],
+      [
+        0.413146367,
+        -0.29582471
+      ],
+      [
+        0.410342456,
+        -0.297214583
+      ],
+      [
+        0.407555812,
+        -0.298638759
+      ],
+      [
+        0.404786855,
+        -0.300097025
+      ],
+      [
+        0.402036002,
+        -0.30158916
+      ],
+      [
+        0.399303666,
+        -0.303114939
+      ],
+      [
+        0.396590259,
+        -0.304674134
+      ],
+      [
+        0.393896191,
+        -0.30626651
+      ],
+      [
+        0.391221867,
+        -0.307891825
+      ],
+      [
+        0.388567689,
+        -0.309549837
+      ],
+      [
+        0.385934057,
+        -0.311240294
+      ],
+      [
+        0.383321368,
+        -0.312962943
+      ],
+      [
+        0.380730015,
+        -0.314717523
+      ],
+      [
+        0.378160389,
+        -0.316503772
+      ],
+      [
+        0.375612876,
+        -0.318321419
+      ],
+      [
+        0.373087861,
+        -0.320170192
+      ],
+      [
+        0.370585723,
+        -0.32204981
+      ],
+      [
+        0.368106839,
+        -0.323959993
+      ],
+      [
+        0.365651582,
+        -0.325900451
+      ],
+      [
+        0.363220323,
+        -0.327870893
+      ],
+      [
+        0.360813427,
+        -0.329871022
+      ],
+      [
+        0.358431258,
+        -0.331900537
+      ],
+      [
+        0.356074173,
+        -0.333959132
+      ],
+      [
+        0.353742527,
+        -0.336046497
+      ],
+      [
+        0.351436672,
+        -0.338162317
+      ],
+      [
+        0.349156955,
+        -0.340306275
+      ],
+      [
+        0.34690372,
+        -0.342478046
+      ],
+      [
+        0.344677305,
+        -0.344677305
+      ],
+      [
+        0.342478046,
+        -0.34690372
+      ],
+      [
+        0.340306275,
+        -0.349156955
+      ],
+      [
+        0.338162317,
+        -0.351436672
+      ],
+      [
+        0.336046497,
+        -0.353742527
+      ],
+      [
+        0.333959132,
+        -0.356074173
+      ],
+      [
+        0.331900537,
+        -0.358431258
+      ],
+      [
+        0.329871022,
+        -0.360813427
+      ],
+      [
+        0.327870893,
+        -0.363220323
+      ],
+      [
+        0.325900451,
+        -0.365651582
+      ],
+      [
+        0.323959993,
+        -0.368106839
+      ],
+      [
+        0.32204981,
+        -0.370585723
+      ],
+      [
+        0.320170192,
+        -0.373087861
+      ],
+      [
+        0.318321419,
+        -0.375612876
+      ],
+      [
+        0.316503772,
+        -0.378160389
+      ],
+      [
+        0.314717523,
+        -0.380730015
+      ],
+      [
+        0.312962943,
+        -0.383321368
+      ],
+      [
+        0.311240294,
+        -0.385934057
+      ],
+      [
+        0.309549837,
+        -0.388567689
+      ],
+      [
+        0.307891825,
+        -0.391221867
+      ],
+      [
+        0.30626651,
+        -0.393896191
+      ],
+      [
+        0.304674134,
+        -0.396590259
+      ],
+      [
+        0.303114939,
+        -0.399303666
+      ],
+      [
+        0.30158916,
+        -0.402036002
+      ],
+      [
+        0.300097025,
+        -0.404786855
+      ],
+      [
+        0.298638759,
+        -0.407555812
+      ],
+      [
+        0.297214583,
+        -0.410342456
+      ],
+      [
+        0.29582471,
+        -0.413146367
+      ],
+      [
+        0.294469351,
+        -0.415967123
+      ],
+      [
+        0.293148708,
+        -0.418804299
+      ],
+      [
+        0.291862981,
+        -0.421657467
+      ],
+      [
+        0.290612364,
+        -0.424526198
+      ],
+      [
+        0.289397045,
+        -0.427410061
+      ],
+      [
+        0.288217207,
+        -0.43030862
+      ],
+      [
+        0.287073027,
+        -0.433221439
+      ],
+      [
+        0.285964679,
+        -0.43614808
+      ],
+      [
+        0.284892328,
+        -0.439088101
+      ],
+      [
+        0.283856136,
+        -0.442041061
+      ],
+      [
+        0.28285626,
+        -0.445006514
+      ],
+      [
+        0.28189285,
+        -0.447984013
+      ],
+      [
+        0.280966051,
+        -0.450973111
+      ],
+      [
+        0.280076003,
+        -0.453973357
+      ],
+      [
+        0.279222839,
+        -0.456984299
+      ],
+      [
+        0.278406688,
+        -0.460005485
+      ],
+      [
+        0.277627673,
+        -0.463036458
+      ],
+      [
+        0.276885912,
+        -0.466076763
+      ],
+      [
+        0.276181516,
+        -0.469125941
+      ],
+      [
+        0.275514591,
+        -0.472183534
+      ],
+      [
+        0.274885237,
+        -0.47524908
+      ],
+      [
+        0.27429355,
+        -0.478322119
+      ],
+      [
+        0.273739619,
+        -0.481402188
+      ],
+      [
+        0.273223526,
+        -0.484488822
+      ],
+      [
+        0.27274535,
+        -0.487581557
+      ],
+      [
+        0.272305162,
+        -0.490679927
+      ],
+      [
+        0.271903029,
+        -0.493783466
+      ],
+      [
+        0.271539012,
+        -0.496891706
+      ],
+      [
+        0.271213165,
+        -0.500004179
+      ],
+      [
+        0.270925538,
+        -0.503120416
+      ],
+      [
+        0.270676173,
+        -0.506239947
+      ],
+      [
+        0.270465108,
+        -0.509362305
+      ],
+      [
+        0.270292376,
+        -0.512487017
+      ],
+      [
+        0.270158001,
+        -0.515613613
+      ],
+      [
+        0.270062005,
+        -0.518741624
+      ],
+      [
+        0.270004402,
+        -0.521870576
+      ],
+      [
+        0.269985199,
+        -0.525
+      ],
+      [
+        0.269985199,
+        -0.735
+      ],
+      [
+        0.270004402,
+        -0.738129424
+      ],
+      [
+        0.270062005,
+        -0.741258376
+      ],
+      [
+        0.270158001,
+        -0.744386387
+      ],
+      [
+        0.270292376,
+        -0.747512983
+      ],
+      [
+        0.270465108,
+        -0.750637695
+      ],
+      [
+        0.270676173,
+        -0.753760053
+      ],
+      [
+        0.270925538,
+        -0.756879584
+      ],
+      [
+        0.271213165,
+        -0.759995821
+      ],
+      [
+        0.271539012,
+        -0.763108294
+      ],
+      [
+        0.271903029,
+        -0.766216534
+      ],
+      [
+        0.272305162,
+        -0.769320073
+      ],
+      [
+        0.27274535,
+        -0.772418443
+      ],
+      [
+        0.273144491,
+        -0.775
+      ],
+      [
+        -0.273144491,
+        -0.775
+      ],
+      [
+        -0.27274535,
+        -0.772418443
+      ],
+      [
+        -0.272305162,
+        -0.769320073
+      ],
+      [
+        -0.271903029,
+        -0.766216534
+      ],
+      [
+        -0.271539012,
+        -0.763108294
+      ],
+      [
+        -0.271213165,
+        -0.759995821
+      ],
+      [
+        -0.270925538,
+        -0.756879584
+      ],
+      [
+        -0.270676173,
+        -0.753760053
+      ],
+      [
+        -0.270465108,
+        -0.750637695
+      ],
+      [
+        -0.270292376,
+        -0.747512983
+      ],
+      [
+        -0.270158001,
+        -0.744386387
+      ],
+      [
+        -0.270062005,
+        -0.741258376
+      ],
+      [
+        -0.270004402,
+        -0.738129424
+      ],
+      [
+        -0.269985199,
+        -0.735
+      ],
+      [
+        -0.269985199,
+        -0.525
+      ],
+      [
+        -0.270004402,
+        -0.521870576
+      ],
+      [
+        -0.270062005,
+        -0.518741624
+      ],
+      [
+        -0.270158001,
+        -0.515613613
+      ],
+      [
+        -0.270292376,
+        -0.512487017
+      ],
+      [
+        -0.270465108,
+        -0.509362305
+      ],
+      [
+        -0.270676173,
+        -0.506239947
+      ],
+      [
+        -0.270925538,
+        -0.503120416
+      ],
+      [
+        -0.271213165,
+        -0.500004179
+      ],
+      [
+        -0.271539012,
+        -0.496891706
+      ],
+      [
+        -0.271903029,
+        -0.493783466
+      ],
+      [
+        -0.272305162,
+        -0.490679927
+      ],
+      [
+        -0.27274535,
+        -0.487581557
+      ],
+      [
+        -0.273223526,
+        -0.484488822
+      ],
+      [
+        -0.273739619,
+        -0.481402188
+      ],
+      [
+        -0.27429355,
+        -0.478322119
+      ],
+      [
+        -0.274885237,
+        -0.47524908
+      ],
+      [
+        -0.275514591,
+        -0.472183534
+      ],
+      [
+        -0.276181516,
+        -0.469125941
+      ],
+      [
+        -0.276885912,
+        -0.466076763
+      ],
+      [
+        -0.277627673,
+        -0.463036458
+      ],
+      [
+        -0.278406688,
+        -0.460005485
+      ],
+      [
+        -0.279222839,
+        -0.456984299
+      ],
+      [
+        -0.280076003,
+        -0.453973357
+      ],
+      [
+        -0.280966051,
+        -0.450973111
+      ],
+      [
+        -0.28189285,
+        -0.447984013
+      ],
+      [
+        -0.28285626,
+        -0.445006514
+      ],
+      [
+        -0.283856136,
+        -0.442041061
+      ],
+      [
+        -0.284892328,
+        -0.439088101
+      ],
+      [
+        -0.285964679,
+        -0.43614808
+      ],
+      [
+        -0.287073027,
+        -0.433221439
+      ],
+      [
+        -0.288217207,
+        -0.43030862
+      ],
+      [
+        -0.289397045,
+        -0.427410061
+      ],
+      [
+        -0.290612364,
+        -0.424526198
+      ],
+      [
+        -0.291862981,
+        -0.421657467
+      ],
+      [
+        -0.293148708,
+        -0.418804299
+      ],
+      [
+        -0.294469351,
+        -0.415967123
+      ],
+      [
+        -0.29582471,
+        -0.413146367
+      ],
+      [
+        -0.297214583,
+        -0.410342456
+      ],
+      [
+        -0.298638759,
+        -0.407555812
+      ],
+      [
+        -0.300097025,
+        -0.404786855
+      ],
+      [
+        -0.30158916,
+        -0.402036002
+      ],
+      [
+        -0.303114939,
+        -0.399303666
+      ],
+      [
+        -0.304674134,
+        -0.396590259
+      ],
+      [
+        -0.30626651,
+        -0.393896191
+      ],
+      [
+        -0.307891825,
+        -0.391221867
+      ],
+      [
+        -0.309549837,
+        -0.388567689
+      ],
+      [
+        -0.311240294,
+        -0.385934057
+      ],
+      [
+        -0.312962943,
+        -0.383321368
+      ],
+      [
+        -0.314717523,
+        -0.380730015
+      ],
+      [
+        -0.316503772,
+        -0.378160389
+      ],
+      [
+        -0.318321419,
+        -0.375612876
+      ],
+      [
+        -0.320170192,
+        -0.373087861
+      ],
+      [
+        -0.32204981,
+        -0.370585723
+      ],
+      [
+        -0.323959993,
+        -0.368106839
+      ],
+      [
+        -0.325900451,
+        -0.365651582
+      ],
+      [
+        -0.327870893,
+        -0.363220323
+      ],
+      [
+        -0.329871022,
+        -0.360813427
+      ],
+      [
+        -0.331900537,
+        -0.358431258
+      ],
+      [
+        -0.333959132,
+        -0.356074173
+      ],
+      [
+        -0.336046497,
+        -0.353742527
+      ],
+      [
+        -0.338162317,
+        -0.351436672
+      ],
+      [
+        -0.340306275,
+        -0.349156955
+      ],
+      [
+        -0.342478046,
+        -0.34690372
+      ],
+      [
+        -0.344677305,
+        -0.344677305
+      ],
+      [
+        -0.34690372,
+        -0.342478046
+      ],
+      [
+        -0.349156955,
+        -0.340306275
+      ],
+      [
+        -0.351436672,
+        -0.338162317
+      ],
+      [
+        -0.353742527,
+        -0.336046497
+      ],
+      [
+        -0.356074173,
+        -0.333959132
+      ],
+      [
+        -0.358431258,
+        -0.331900537
+      ],
+      [
+        -0.360813427,
+        -0.329871022
+      ],
+      [
+        -0.363220323,
+        -0.327870893
+      ],
+      [
+        -0.365651582,
+        -0.325900451
+      ],
+      [
+        -0.368106839,
+        -0.323959993
+      ],
+      [
+        -0.370585723,
+        -0.32204981
+      ],
+      [
+        -0.373087861,
+        -0.320170192
+      ],
+      [
+        -0.375612876,
+        -0.318321419
+      ],
+      [
+        -0.378160389,
+        -0.316503772
+      ],
+      [
+        -0.380730015,
+        -0.314717523
+      ],
+      [
+        -0.383321368,
+        -0.312962943
+      ],
+      [
+        -0.385934057,
+        -0.311240294
+      ],
+      [
+        -0.388567689,
+        -0.309549837
+      ],
+      [
+        -0.391221867,
+        -0.307891825
+      ],
+      [
+        -0.393896191,
+        -0.30626651
+      ],
+      [
+        -0.396590259,
+        -0.304674134
+      ],
+      [
+        -0.399303666,
+        -0.303114939
+      ],
+      [
+        -0.402036002,
+        -0.30158916
+      ],
+      [
+        -0.404786855,
+        -0.300097025
+      ],
+      [
+        -0.407555812,
+        -0.298638759
+      ],
+      [
+        -0.410342456,
+        -0.297214583
+      ],
+      [
+        -0.413146367,
+        -0.29582471
+      ],
+      [
+        -0.415967123,
+        -0.294469351
+      ],
+      [
+        -0.418804299,
+        -0.293148708
+      ],
+      [
+        -0.421657467,
+        -0.291862981
+      ],
+      [
+        -0.424526198,
+        -0.290612364
+      ],
+      [
+        -0.427410061,
+        -0.289397045
+      ],
+      [
+        -0.43030862,
+        -0.288217207
+      ],
+      [
+        -0.433221439,
+        -0.287073027
+      ],
+      [
+        -0.43614808,
+        -0.285964679
+      ],
+      [
+        -0.439088101,
+        -0.284892328
+      ],
+      [
+        -0.442041061,
+        -0.283856136
+      ],
+      [
+        -0.445006514,
+        -0.28285626
+      ],
+      [
+        -0.447984013,
+        -0.28189285
+      ],
+      [
+        -0.450973111,
+        -0.280966051
+      ],
+      [
+        -0.453973357,
+        -0.280076003
+      ],
+      [
+        -0.456984299,
+        -0.279222839
+      ],
+      [
+        -0.460005485,
+        -0.278406688
+      ],
+      [
+        -0.463036458,
+        -0.277627673
+      ],
+      [
+        -0.466076763,
+        -0.276885912
+      ],
+      [
+        -0.469125941,
+        -0.276181516
+      ],
+      [
+        -0.472183534,
+        -0.275514591
+      ],
+      [
+        -0.47524908,
+        -0.274885237
+      ],
+      [
+        -0.478322119,
+        -0.27429355
+      ],
+      [
+        -0.481402188,
+        -0.273739619
+      ],
+      [
+        -0.484488822,
+        -0.273223526
+      ],
+      [
+        -0.487581557,
+        -0.27274535
+      ],
+      [
+        -0.490679927,
+        -0.272305162
+      ],
+      [
+        -0.493783466,
+        -0.271903029
+      ],
+      [
+        -0.496891706,
+        -0.271539012
+      ],
+      [
+        -0.500004179,
+        -0.271213165
+      ],
+      [
+        -0.503120416,
+        -0.270925538
+      ],
+      [
+        -0.506239947,
+        -0.270676173
+      ],
+      [
+        -0.509362305,
+        -0.270465108
+      ],
+      [
+        -0.512487017,
+        -0.270292376
+      ],
+      [
+        -0.515613613,
+        -0.270158001
+      ],
+      [
+        -0.518741624,
+        -0.270062005
+      ],
+      [
+        -0.521870576,
+        -0.270004402
+      ],
+      [
+        -0.525,
+        -0.269985199
+      ],
+      [
+        -0.735,
+        -0.269985199
+      ],
+      [
+        -0.738129424,
+        -0.270004402
+      ],
+      [
+        -0.741258376,
+        -0.270062005
+      ],
+      [
+        -0.744386387,
+        -0.270158001
+      ],
+      [
+        -0.747512983,
+        -0.270292376
+      ],
+      [
+        -0.750637695,
+        -0.270465108
+      ],
+      [
+        -0.753760053,
+        -0.270676173
+      ],
+      [
+        -0.756879584,
+        -0.270925538
+      ],
+      [
+        -0.759995821,
+        -0.271213165
+      ],
+      [
+        -0.763108294,
+        -0.271539012
+      ],
+      [
+        -0.766216534,
+        -0.271903029
+      ],
+      [
+        -0.769320073,
+        -0.272305162
+      ],
+      [
+        -0.772418443,
+        -0.27274535
+      ],
+      [
+        -0.775,
+        -0.273144491
+      ],
+      [
+        -0.775,
+        0.273144491
+      ],
+      [
+        -0.772418443,
+        0.27274535
+      ],
+      [
+        -0.769320073,
+        0.272305162
+      ],
+      [
+        -0.766216534,
+        0.271903029
+      ],
+      [
+        -0.763108294,
+        0.271539012
+      ],
+      [
+        -0.759995821,
+        0.271213165
+      ],
+      [
+        -0.756879584,
+        0.270925538
+      ],
+      [
+        -0.753760053,
+        0.270676173
+      ],
+      [
+        -0.750637695,
+        0.270465108
+      ],
+      [
+        -0.747512983,
+        0.270292376
+      ],
+      [
+        -0.744386387,
+        0.270158001
+      ],
+      [
+        -0.741258376,
+        0.270062005
+      ],
+      [
+        -0.738129424,
+        0.270004402
+      ],
+      [
+        -0.735,
+        0.269985199
+      ],
+      [
+        -0.525,
+        0.269985199
+      ],
+      [
+        -0.521870576,
+        0.270004402
+      ],
+      [
+        -0.518741624,
+        0.270062005
+      ],
+      [
+        -0.515613613,
+        0.270158001
+      ],
+      [
+        -0.512487017,
+        0.270292376
+      ],
+      [
+        -0.509362305,
+        0.270465108
+      ],
+      [
+        -0.506239947,
+        0.270676173
+      ],
+      [
+        -0.503120416,
+        0.270925538
+      ],
+      [
+        -0.500004179,
+        0.271213165
+      ],
+      [
+        -0.496891706,
+        0.271539012
+      ],
+      [
+        -0.493783466,
+        0.271903029
+      ],
+      [
+        -0.490679927,
+        0.272305162
+      ],
+      [
+        -0.487581557,
+        0.27274535
+      ],
+      [
+        -0.484488822,
+        0.273223526
+      ],
+      [
+        -0.481402188,
+        0.273739619
+      ],
+      [
+        -0.478322119,
+        0.27429355
+      ],
+      [
+        -0.47524908,
+        0.274885237
+      ],
+      [
+        -0.472183534,
+        0.275514591
+      ],
+      [
+        -0.469125941,
+        0.276181516
+      ],
+      [
+        -0.466076763,
+        0.276885912
+      ],
+      [
+        -0.463036458,
+        0.277627673
+      ],
+      [
+        -0.460005485,
+        0.278406688
+      ],
+      [
+        -0.456984299,
+        0.279222839
+      ],
+      [
+        -0.453973357,
+        0.280076003
+      ],
+      [
+        -0.450973111,
+        0.280966051
+      ],
+      [
+        -0.447984013,
+        0.28189285
+      ],
+      [
+        -0.445006514,
+        0.28285626
+      ],
+      [
+        -0.442041061,
+        0.283856136
+      ],
+      [
+        -0.439088101,
+        0.284892328
+      ],
+      [
+        -0.43614808,
+        0.285964679
+      ],
+      [
+        -0.433221439,
+        0.287073027
+      ],
+      [
+        -0.43030862,
+        0.288217207
+      ],
+      [
+        -0.427410061,
+        0.289397045
+      ],
+      [
+        -0.424526198,
+        0.290612364
+      ],
+      [
+        -0.421657467,
+        0.291862981
+      ],
+      [
+        -0.418804299,
+        0.293148708
+      ],
+      [
+        -0.415967123,
+        0.294469351
+      ],
+      [
+        -0.413146367,
+        0.29582471
+      ],
+      [
+        -0.410342456,
+        0.297214583
+      ],
+      [
+        -0.407555812,
+        0.298638759
+      ],
+      [
+        -0.404786855,
+        0.300097025
+      ],
+      [
+        -0.402036002,
+        0.30158916
+      ],
+      [
+        -0.399303666,
+        0.303114939
+      ],
+      [
+        -0.396590259,
+        0.304674134
+      ],
+      [
+        -0.393896191,
+        0.30626651
+      ],
+      [
+        -0.391221867,
+        0.307891825
+      ],
+      [
+        -0.388567689,
+        0.309549837
+      ],
+      [
+        -0.385934057,
+        0.311240294
+      ],
+      [
+        -0.383321368,
+        0.312962943
+      ],
+      [
+        -0.380730015,
+        0.314717523
+      ],
+      [
+        -0.378160389,
+        0.316503772
+      ],
+      [
+        -0.375612876,
+        0.318321419
+      ],
+      [
+        -0.373087861,
+        0.320170192
+      ],
+      [
+        -0.370585723,
+        0.32204981
+      ],
+      [
+        -0.368106839,
+        0.323959993
+      ],
+      [
+        -0.365651582,
+        0.325900451
+      ],
+      [
+        -0.363220323,
+        0.327870893
+      ],
+      [
+        -0.360813427,
+        0.329871022
+      ],
+      [
+        -0.358431258,
+        0.331900537
+      ],
+      [
+        -0.356074173,
+        0.333959132
+      ],
+      [
+        -0.353742527,
+        0.336046497
+      ],
+      [
+        -0.351436672,
+        0.338162317
+      ],
+      [
+        -0.349156955,
+        0.340306275
+      ],
+      [
+        -0.34690372,
+        0.342478046
+      ],
+      [
+        -0.344677305,
+        0.344677305
+      ],
+      [
+        -0.342478046,
+        0.34690372
+      ],
+      [
+        -0.340306275,
+        0.349156955
+      ],
+      [
+        -0.338162317,
+        0.351436672
+      ],
+      [
+        -0.336046497,
+        0.353742527
+      ],
+      [
+        -0.333959132,
+        0.356074173
+      ],
+      [
+        -0.331900537,
+        0.358431258
+      ],
+      [
+        -0.329871022,
+        0.360813427
+      ],
+      [
+        -0.327870893,
+        0.363220323
+      ],
+      [
+        -0.325900451,
+        0.365651582
+      ],
+      [
+        -0.323959993,
+        0.368106839
+      ],
+      [
+        -0.32204981,
+        0.370585723
+      ],
+      [
+        -0.320170192,
+        0.373087861
+      ],
+      [
+        -0.318321419,
+        0.375612876
+      ],
+      [
+        -0.316503772,
+        0.378160389
+      ],
+      [
+        -0.314717523,
+        0.380730015
+      ],
+      [
+        -0.312962943,
+        0.383321368
+      ],
+      [
+        -0.311240294,
+        0.385934057
+      ],
+      [
+        -0.309549837,
+        0.388567689
+      ],
+      [
+        -0.307891825,
+        0.391221867
+      ],
+      [
+        -0.30626651,
+        0.393896191
+      ],
+      [
+        -0.304674134,
+        0.396590259
+      ],
+      [
+        -0.303114939,
+        0.399303666
+      ],
+      [
+        -0.30158916,
+        0.402036002
+      ],
+      [
+        -0.300097025,
+        0.404786855
+      ],
+      [
+        -0.298638759,
+        0.407555812
+      ],
+      [
+        -0.297214583,
+        0.410342456
+      ],
+      [
+        -0.29582471,
+        0.413146367
+      ],
+      [
+        -0.294469351,
+        0.415967123
+      ],
+      [
+        -0.293148708,
+        0.418804299
+      ],
+      [
+        -0.291862981,
+        0.421657467
+      ],
+      [
+        -0.290612364,
+        0.424526198
+      ],
+      [
+        -0.289397045,
+        0.427410061
+      ],
+      [
+        -0.288217207,
+        0.43030862
+      ],
+      [
+        -0.287073027,
+        0.433221439
+      ],
+      [
+        -0.285964679,
+        0.43614808
+      ],
+      [
+        -0.284892328,
+        0.439088101
+      ],
+      [
+        -0.283856136,
+        0.442041061
+      ],
+      [
+        -0.28285626,
+        0.445006514
+      ],
+      [
+        -0.28189285,
+        0.447984013
+      ],
+      [
+        -0.280966051,
+        0.450973111
+      ],
+      [
+        -0.280076003,
+        0.453973357
+      ],
+      [
+        -0.279222839,
+        0.456984299
+      ],
+      [
+        -0.278406688,
+        0.460005485
+      ],
+      [
+        -0.277627673,
+        0.463036458
+      ],
+      [
+        -0.276885912,
+        0.466076763
+      ],
+      [
+        -0.276181516,
+        0.469125941
+      ],
+      [
+        -0.275514591,
+        0.472183534
+      ],
+      [
+        -0.274885237,
+        0.47524908
+      ],
+      [
+        -0.27429355,
+        0.478322119
+      ],
+      [
+        -0.273739619,
+        0.481402188
+      ],
+      [
+        -0.273223526,
+        0.484488822
+      ],
+      [
+        -0.27274535,
+        0.487581557
+      ],
+      [
+        -0.272305162,
+        0.490679927
+      ],
+      [
+        -0.271903029,
+        0.493783466
+      ],
+      [
+        -0.271539012,
+        0.496891706
+      ],
+      [
+        -0.271213165,
+        0.500004179
+      ],
+      [
+        -0.270925538,
+        0.503120416
+      ],
+      [
+        -0.270676173,
+        0.506239947
+      ],
+      [
+        -0.270465108,
+        0.509362305
+      ],
+      [
+        -0.270292376,
+        0.512487017
+      ],
+      [
+        -0.270158001,
+        0.515613613
+      ],
+      [
+        -0.270062005,
+        0.518741624
+      ],
+      [
+        -0.270004402,
+        0.521870576
+      ],
+      [
+        -0.269985199,
+        0.525
+      ],
+      [
+        -0.269985199,
+        0.735
+      ],
+      [
+        -0.270004402,
+        0.738129424
+      ],
+      [
+        -0.270062005,
+        0.741258376
+      ],
+      [
+        -0.270158001,
+        0.744386387
+      ],
+      [
+        -0.270292376,
+        0.747512983
+      ],
+      [
+        -0.270465108,
+        0.750637695
+      ],
+      [
+        -0.270676173,
+        0.753760053
+      ],
+      [
+        -0.270925538,
+        0.756879584
+      ],
+      [
+        -0.271213165,
+        0.759995821
+      ],
+      [
+        -0.271539012,
+        0.763108294
+      ],
+      [
+        -0.271903029,
+        0.766216534
+      ],
+      [
+        -0.272305162,
+        0.769320073
+      ],
+      [
+        -0.27274535,
+        0.772418443
+      ],
+      [
+        -0.273144491,
+        0.775
+      ],
+      [
+        0.273144491,
+        0.775
+      ],
+      [
+        0.27274535,
+        0.772418443
+      ],
+      [
+        0.272305162,
+        0.769320073
+      ],
+      [
+        0.271903029,
+        0.766216534
+      ],
+      [
+        0.271539012,
+        0.763108294
+      ],
+      [
+        0.271213165,
+        0.759995821
+      ],
+      [
+        0.270925538,
+        0.756879584
+      ],
+      [
+        0.270676173,
+        0.753760053
+      ],
+      [
+        0.270465108,
+        0.750637695
+      ],
+      [
+        0.270292376,
+        0.747512983
+      ],
+      [
+        0.270158001,
+        0.744386387
+      ],
+      [
+        0.270062005,
+        0.741258376
+      ],
+      [
+        0.270004402,
+        0.738129424
+      ],
+      [
+        0.269985199,
+        0.735
+      ],
+      [
+        0.269985199,
+        0.525
+      ],
+      [
+        0.270004402,
+        0.521870576
+      ],
+      [
+        0.270062005,
+        0.518741624
+      ],
+      [
+        0.270158001,
+        0.515613613
+      ],
+      [
+        0.270292376,
+        0.512487017
+      ],
+      [
+        0.270465108,
+        0.509362305
+      ],
+      [
+        0.270676173,
+        0.506239947
+      ],
+      [
+        0.270925538,
+        0.503120416
+      ],
+      [
+        0.271213165,
+        0.500004179
+      ],
+      [
+        0.271539012,
+        0.496891706
+      ],
+      [
+        0.271903029,
+        0.493783466
+      ],
+      [
+        0.272305162,
+        0.490679927
+      ],
+      [
+        0.27274535,
+        0.487581557
+      ],
+      [
+        0.273223526,
+        0.484488822
+      ],
+      [
+        0.273739619,
+        0.481402188
+      ],
+      [
+        0.27429355,
+        0.478322119
+      ],
+      [
+        0.274885237,
+        0.47524908
+      ],
+      [
+        0.275514591,
+        0.472183534
+      ],
+      [
+        0.276181516,
+        0.469125941
+      ],
+      [
+        0.276885912,
+        0.466076763
+      ],
+      [
+        0.277627673,
+        0.463036458
+      ],
+      [
+        0.278406688,
+        0.460005485
+      ],
+      [
+        0.279222839,
+        0.456984299
+      ],
+      [
+        0.280076003,
+        0.453973357
+      ],
+      [
+        0.280966051,
+        0.450973111
+      ],
+      [
+        0.28189285,
+        0.447984013
+      ],
+      [
+        0.28285626,
+        0.445006514
+      ],
+      [
+        0.283856136,
+        0.442041061
+      ],
+      [
+        0.284892328,
+        0.439088101
+      ],
+      [
+        0.285964679,
+        0.43614808
+      ],
+      [
+        0.287073027,
+        0.433221439
+      ],
+      [
+        0.288217207,
+        0.43030862
+      ],
+      [
+        0.289397045,
+        0.427410061
+      ],
+      [
+        0.290612364,
+        0.424526198
+      ],
+      [
+        0.291862981,
+        0.421657467
+      ],
+      [
+        0.293148708,
+        0.418804299
+      ],
+      [
+        0.294469351,
+        0.415967123
+      ],
+      [
+        0.29582471,
+        0.413146367
+      ],
+      [
+        0.297214583,
+        0.410342456
+      ],
+      [
+        0.298638759,
+        0.407555812
+      ],
+      [
+        0.300097025,
+        0.404786855
+      ],
+      [
+        0.30158916,
+        0.402036002
+      ],
+      [
+        0.303114939,
+        0.399303666
+      ],
+      [
+        0.304674134,
+        0.396590259
+      ],
+      [
+        0.30626651,
+        0.393896191
+      ],
+      [
+        0.307891825,
+        0.391221867
+      ],
+      [
+        0.309549837,
+        0.388567689
+      ],
+      [
+        0.311240294,
+        0.385934057
+      ],
+      [
+        0.312962943,
+        0.383321368
+      ],
+      [
+        0.314717523,
+        0.380730015
+      ],
+      [
+        0.316503772,
+        0.378160389
+      ],
+      [
+        0.318321419,
+        0.375612876
+      ],
+      [
+        0.320170192,
+        0.373087861
+      ],
+      [
+        0.32204981,
+        0.370585723
+      ],
+      [
+        0.323959993,
+        0.368106839
+      ],
+      [
+        0.325900451,
+        0.365651582
+      ],
+      [
+        0.327870893,
+        0.363220323
+      ],
+      [
+        0.329871022,
+        0.360813427
+      ],
+      [
+        0.331900537,
+        0.358431258
+      ],
+      [
+        0.333959132,
+        0.356074173
+      ],
+      [
+        0.336046497,
+        0.353742527
+      ],
+      [
+        0.338162317,
+        0.351436672
+      ],
+      [
+        0.340306275,
+        0.349156955
+      ],
+      [
+        0.342478046,
+        0.34690372
+      ],
+      [
+        0.344677305,
+        0.344677305
+      ],
+      [
+        0.34690372,
+        0.342478046
+      ],
+      [
+        0.349156955,
+        0.340306275
+      ],
+      [
+        0.351436672,
+        0.338162317
+      ],
+      [
+        0.353742527,
+        0.336046497
+      ],
+      [
+        0.356074173,
+        0.333959132
+      ],
+      [
+        0.358431258,
+        0.331900537
+      ],
+      [
+        0.360813427,
+        0.329871022
+      ],
+      [
+        0.363220323,
+        0.327870893
+      ],
+      [
+        0.365651582,
+        0.325900451
+      ],
+      [
+        0.368106839,
+        0.323959993
+      ],
+      [
+        0.370585723,
+        0.32204981
+      ],
+      [
+        0.373087861,
+        0.320170192
+      ],
+      [
+        0.375612876,
+        0.318321419
+      ],
+      [
+        0.378160389,
+        0.316503772
+      ],
+      [
+        0.380730015,
+        0.314717523
+      ],
+      [
+        0.383321368,
+        0.312962943
+      ],
+      [
+        0.385934057,
+        0.311240294
+      ],
+      [
+        0.388567689,
+        0.309549837
+      ],
+      [
+        0.391221867,
+        0.307891825
+      ],
+      [
+        0.393896191,
+        0.30626651
+      ],
+      [
+        0.396590259,
+        0.304674134
+      ],
+      [
+        0.399303666,
+        0.303114939
+      ],
+      [
+        0.402036002,
+        0.30158916
+      ],
+      [
+        0.404786855,
+        0.300097025
+      ],
+      [
+        0.407555812,
+        0.298638759
+      ],
+      [
+        0.410342456,
+        0.297214583
+      ],
+      [
+        0.413146367,
+        0.29582471
+      ],
+      [
+        0.415967123,
+        0.294469351
+      ],
+      [
+        0.418804299,
+        0.293148708
+      ],
+      [
+        0.421657467,
+        0.291862981
+      ],
+      [
+        0.424526198,
+        0.290612364
+      ],
+      [
+        0.427410061,
+        0.289397045
+      ],
+      [
+        0.43030862,
+        0.288217207
+      ],
+      [
+        0.433221439,
+        0.287073027
+      ],
+      [
+        0.43614808,
+        0.285964679
+      ],
+      [
+        0.439088101,
+        0.284892328
+      ],
+      [
+        0.442041061,
+        0.283856136
+      ],
+      [
+        0.445006514,
+        0.28285626
+      ],
+      [
+        0.447984013,
+        0.28189285
+      ],
+      [
+        0.450973111,
+        0.280966051
+      ],
+      [
+        0.453973357,
+        0.280076003
+      ],
+      [
+        0.456984299,
+        0.279222839
+      ],
+      [
+        0.460005485,
+        0.278406688
+      ],
+      [
+        0.463036458,
+        0.277627673
+      ],
+      [
+        0.466076763,
+        0.276885912
+      ],
+      [
+        0.469125941,
+        0.276181516
+      ],
+      [
+        0.472183534,
+        0.275514591
+      ],
+      [
+        0.47524908,
+        0.274885237
+      ],
+      [
+        0.478322119,
+        0.27429355
+      ],
+      [
+        0.481402188,
+        0.273739619
+      ],
+      [
+        0.484488822,
+        0.273223526
+      ],
+      [
+        0.487581557,
+        0.27274535
+      ],
+      [
+        0.490679927,
+        0.272305162
+      ],
+      [
+        0.493783466,
+        0.271903029
+      ],
+      [
+        0.496891706,
+        0.271539012
+      ],
+      [
+        0.500004179,
+        0.271213165
+      ],
+      [
+        0.503120416,
+        0.270925538
+      ],
+      [
+        0.506239947,
+        0.270676173
+      ],
+      [
+        0.509362305,
+        0.270465108
+      ],
+      [
+        0.512487017,
+        0.270292376
+      ],
+      [
+        0.515613613,
+        0.270158001
+      ],
+      [
+        0.518741624,
+        0.270062005
+      ],
+      [
+        0.521870576,
+        0.270004402
+      ],
+      [
+        0.525,
+        0.269985199
+      ],
+      [
+        0.735,
+        0.269985199
+      ],
+      [
+        0.738129424,
+        0.270004402
+      ],
+      [
+        0.741258376,
+        0.270062005
+      ],
+      [
+        0.744386387,
+        0.270158001
+      ],
+      [
+        0.747512983,
+        0.270292376
+      ],
+      [
+        0.750637695,
+        0.270465108
+      ],
+      [
+        0.753760053,
+        0.270676173
+      ],
+      [
+        0.756879584,
+        0.270925538
+      ],
+      [
+        0.759995821,
+        0.271213165
+      ],
+      [
+        0.763108294,
+        0.271539012
+      ],
+      [
+        0.766216534,
+        0.271903029
+      ],
+      [
+        0.769320073,
+        0.272305162
+      ],
+      [
+        0.772418443,
+        0.27274535
+      ],
+      [
+        0.775,
+        0.273144491
+      ]
+    ],
+    "polygon_closure": "Implicit last-to-first; coordinate list has no repeated endpoint.",
+    "bottom_paste": "None in U101 region.",
+    "difference_from_TI_stencil_example": "TI page54 shows an unrelieved 1.55 mm square with 0.125 mm stencil and about85% area. This project uses a .10 mm stencil and hole-avoidance relief, about51% nominal; it is a prototype assembly candidate, not that TI example or certified minimum solder coverage."
+  },
+  "tolerance_assumptions": {
+    "local_print_translation_each_axis_mm": 0.03,
+    "hole_position_analysis_each_axis_mm": 0.075,
+    "maximum_finished_hole_analysis_mm": 0.43,
+    "aperture_edge_outward_deviation_mm": 0.02,
+    "target_residual_geometric_paste_hole_gap_mm": 0.02,
+    "stencil_020_status": "Project acceptance bound, not a supplier guarantee. Current public stencil process page did not expose a contractual edge-tolerance number. Confirm actual aperture/print geometry.",
+    "hole_source": "https://jlcpcb.com/capabilities/pcb-capabilities publishes +/-0.075 hole position and +.13/-.08 PTH size; exact axis interpretation and drill/copper correlation are unspecified. Domestic https://www.jlc.com/portal/1/serviceGuide distinguishes insertion PAD compensation from conducting VIA processing. The .43/max and per-axis envelope is a conservative scenario, not a demonstrated domestic VIA guarantee.",
+    "solder_mask_registration_mm": null,
+    "copper_etch_tolerance_model": "Not established as a same-layer pad/via acceptance bound here; artwork spacing checks only.",
+    "manual_registration": "User has magnification, but availability does not measure achievement of +/-30um local registration. Inspect after each tape-hinge print; no geometric model of paste slump, transfer loss, molten solder wicking or board/stencil distortion."
+  },
+  "recalculated_geometry": {
+    "method": "Fresh Shapely construction from manufacturer dimensions and this plan's coordinate list; no KiCad geometry/results imported. Continuous Minkowski translation envelopes, not corner-only samples.",
+    "circle_check_quadrant_segments": 512,
+    "EP_rounded_area_mm2": 2.8202539816339742,
+    "central_paste_area_mm2": 1.4385066520954763,
+    "central_paste_nominal_coverage_percent": 51.006280337278234,
+    "central_paste_perimeter_mm": 5.788779321017172,
+    "central_paste_area_ratio_at_010mm": 2.484991346746847,
+    "central_paste_volume_nominal_mm3": 0.14385066520954765,
+    "central_paste_vertex_count": 628,
+    "peripheral_paste_area_ratio_at_010mm": 0.8898356855500561,
+    "peripheral_paste_min_width_over_thickness": 2.4,
+    "peripheral_pad_nominal_edge_spacing_mm": 0.26,
+    "peripheral_mask_nominal_web_mm": 0.16,
+    "EP_to_peripheral_copper_mm": 0.25999999999999984,
+    "via_land_to_foreign_copper_mm": 0.17239856767271763,
+    "EP_via_VSS_union_to_foreign_copper_mm": 0.17239856767271763,
+    "top_central_to_peripheral_mask_min_web_mm": 0.10239859120368346,
+    "top_mask_web_above_010mm_mm": 0.0023985912036834506,
+    "nominal_paste_to_drilled_hole_clearance_mm": 0.21001480099999995,
+    "continuous_worst_case_paste_to_hole_gap_mm": 0.020009723114063536,
+    "continuous_worst_case_paste_hole_overlap_mm2": 0.0,
+    "continuous_print_envelope_outside_nominal_EP_mm2": 0.0,
+    "continuous_print_envelope_min_EP_edge_inset_mm": 0.014999976469006302,
+    "max_hole_position_envelope_outside_top_mask_mm2": 0.0,
+    "max_hole_position_envelope_outside_bottom_mask_mm2": 0.0,
+    "bottom_mask_min_envelope_radial_clearance_mm": 0.028933982822017854,
+    "rejected_symmetric_064mm_bottom_mask_radial_clearance_mm": -0.0010660171779821176,
+    "hole_to_hole_nominal_edge_spacing_mm": 0.96,
+    "hole_to_hole_conservative_edge_spacing_mm": 0.6800000000000002,
+    "nominal_annular_ring_mm": 0.15,
+    "independent_same_layer_annular_stress_mm": -0.021066017177982135,
+    "edge_shrink_020mm_paste_coverage_percent": 46.97835382207592,
+    "edge_growth_020mm_paste_coverage_percent": 55.155984628097656
+  },
+  "known_limits": [
+    "Nominal .15 mm annulus is not a guaranteed manufactured minimum. Combining .43 mm hole and independent diagonal .075 mm offset against fixed same-layer .60 mm copper gives -.021066 mm stress margin. Manufacturer scope/correlation and actual ring/electrical inspection remain unclosed; no false breakout proof or annulus pass is claimed.",
+    "Top mask bridge has only about2.40um over the .10mm nominal target. Exact native/CAM curves and factory mask treatment must be checked; missing mask registration limit remains open.",
+    "TI generic guidance describes .20 mm EP-to-lead clearance as satisfactory for most designs. Main rounded EP clearance is .26 mm; corner via lands reduce local GND-to-foreign copper to about.1724 mm. This exceeds the project's .15 mm minimum but is a deliberate thermal-via/process tradeoff, not unchanged TI artwork.",
+    "51% is nominal aperture coverage; .02 mm boundary contraction gives about47%, before transfer loss. Geometric avoidance does not prevent reflow wicking into open vias or certify thermal/joint performance.",
+    "No charge-current/electrical specification changes are authorized or introduced by this footprint plan. First-board staged charge/load thermal measurements remain required."
+  ],
+  "implementation_sequence": [
+    "Read/save native instance snapshot. Verify actual pad numbers and rotation against this coordinate frame.",
+    "Edit native perimeter pads1-16 to target positions and rounded RECT shapes, preserving IDs/nets. Edit EP17 to target rounded RECT with no drill.",
+    "Remove all17 old TOP paste fills by instance ownership/local geometry. Set outer auto-paste=0; suppress EP auto-paste. Add the one central native paste polygon from this plan.",
+    "Create exactly four real ordinary GND through VIA objects at listed centers, copper .60/drill .30, TOP mask+.020/BOTTOM+.050, no paste, no plugging. Add explicit direct EP-to-VSS8 copper.",
+    "At final placement/refill, connect solid GND on inner/back planes with the required halo and continuation. Preserve footprint/symbol/device provenance; record instance-only custom geometry revision.",
+    "Export actual native Gerber/Excellon and re-read: four .30 PTH holes, no unintended fifth hole, correct 16 peripheral+central paste union, empty bottom paste, correct mask union and copper distances. Rerun continuous tolerance on exported artwork, full native DRC and pin/net equivalence. This plan's offline checks are not a CAM pass."
+  ],
+  "reference_only": [
+    "hardware/devboard-99/easyeda-native/audit/native-footprint-next-step.json",
+    "hardware/devboard-99/review-r13/tolerance-source-review.md",
+    "hardware/devboard-99/tools/check_u101_r14_cam.py"
+  ],
+  "supplier_sources_reviewed": [
+    "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "https://www.jlc.com/portal/1/serviceGuide",
+    "https://www.jlc-gw.com/process-parameters"
+  ]
+}

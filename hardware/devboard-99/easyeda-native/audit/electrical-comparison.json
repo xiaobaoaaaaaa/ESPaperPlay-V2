@@ -15,10 +15,10 @@
     "R108"
   ],
   "inputs_sha256": {
-    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/native-schematic.enet": "8970d6c25f414c9126c6750ec85e5d4bb2e796f3d7296df2e78ddf15d11ecb8b",
-    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/native-pin-map.json": "506f6b4f16e664d10c3511c1dd832ca277ce1ec170479095827e69cde01c8bb8",
-    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/reference-components.json": "25ccb78916d1c75966f3e493f24df03c2b907425b33392b99e62c7d693c8e281",
-    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/native-net-aliases.json": "afbdae62d0ab451ec3a56f2bdc05bba7125f23765e482dcf43f24ac2afae83b9"
+    "hardware/devboard-99/easyeda-native/audit/native-schematic.enet": "0bef6beb60f6087548c332656a0ed8603e01957b5e91c863f017c1691377d7a2",
+    "hardware/devboard-99/easyeda-native/audit/native-pin-map.json": "2b2ad548967d8a5e66c3b7918d5a1a40027aee8a3692adba0475fef5ec467928",
+    "hardware/devboard-99/easyeda-native/audit/reference-components.json": "25ccb78916d1c75966f3e493f24df03c2b907425b33392b99e62c7d693c8e281",
+    "hardware/devboard-99/easyeda-native/audit/native-net-aliases.json": "afbdae62d0ab451ec3a56f2bdc05bba7125f23765e482dcf43f24ac2afae83b9"
   },
   "errors": []
 }

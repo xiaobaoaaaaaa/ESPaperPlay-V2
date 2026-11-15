@@ -1,0 +1,71 @@
+{
+  "ref": "F501",
+  "status": "native_instance_pad_correction_recommended",
+  "actual_mpn": "1812L200/16DR",
+  "supplier_part": "C439873",
+  "selection_mode": "SUBSTITUTION",
+  "stale_circuit_label": "MF-MSMF200/16X-2",
+  "coordinate_system": "local mm around native component origin; +Y up; rotation 0; preserve numbered net assignment",
+  "existing_native": {
+    "pad_size_mm": [
+      1.40716,
+      3.50012
+    ],
+    "pad_center_distance_mm": 3.70586,
+    "inner_gap_mm": 2.2987
+  },
+  "manufacturer_pattern": {
+    "pad_size_mm": [
+      1.78,
+      3.15
+    ],
+    "inner_gap_mm": 3.45,
+    "pad_center_distance_mm": 5.23,
+    "pads": [
+      {
+        "n": "1",
+        "net": "USB_VBUS",
+        "x_mm": -2.615,
+        "y_mm": 0,
+        "w_mm": 1.78,
+        "h_mm": 3.15,
+        "rotation": 0
+      },
+      {
+        "n": "2",
+        "net": "USB_5V_PROTECTED",
+        "x_mm": 2.615,
+        "y_mm": 0,
+        "w_mm": 1.78,
+        "h_mm": 3.15,
+        "rotation": 0
+      }
+    ]
+  },
+  "actions": [
+    "Edit native instance two copper pads to actual Littelfuse manufacturer pattern; keep component origin, pad IDs, pin numbers and nets.",
+    "Regenerate mask/paste from approved project rules; verify openings follow relocated pads and no stale explicit fills remain.",
+    "Update stale CircuitLabel to actual MPN, preserving existing selected part.",
+    "Repeat native PCB DRC/CAM and neighbouring clearance checks after larger 7.01 mm total land extent."
+  ],
+  "not_claimed": [
+    "Manufacturer drawing does not establish every alternative footprint as forbidden; existing native footprint simply is not manufacturer recommended pattern.",
+    "Do not inherit KiCad r14 Bourns land pattern or its DRC result.",
+    "No live edit or assembly qualification performed."
+  ],
+  "sources": [
+    {
+      "url": "https://www.littelfuse.com/assetdocs/resettable-ptcs-1812l-datasheet?assetguid=ca5c80cb-504e-4a8a-8e74-0107520a1717",
+      "revision": "GD 06/10/24",
+      "pdf_page": 6,
+      "evidence": "Official source extracted text provides 1.78 mm, 3.15 mm, 3.45 mm Pad Layout and exact 1812L200/16 physical row; page7 maps to 1812L200/16DR ordering number. Direct local download returned403; not archived."
+    },
+    {
+      "url": "https://atta.szlcsc.com/upload/public/pdf/source/20191212/C468891_5E1C532596C5D0D4841927A2671BA018.pdf",
+      "local_file": "build/easyeda-native99/pcb-plan/sources/littelfuse-1812l-lcsc-mirror.pdf",
+      "sha256": "313be6a3d322bdba4eccaa537f71364ea545ce98b5e982f0342d26dbb732bce2",
+      "pdf_page": 5,
+      "evidence": "Littelfuse authored document via native selected-device Datasheet link; rendered and visually verified 3.45 mm dimension arrows end at inner pad edges; pad width1.78 and height3.15."
+    }
+  ]
+}

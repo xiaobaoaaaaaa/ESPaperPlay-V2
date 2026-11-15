@@ -1,0 +1,690 @@
+{
+  "status": "OFFLINE_IMPLEMENTATION_PLAN_NOT_CAM_RELEASE",
+  "date": "2026-11-15T16:55:34.646619+00:00",
+  "scope": "U301/U803 only. Existing native library geometry is the starting point. No live API, KiCad mutation, or KiCad library import.",
+  "coordinates": {
+    "unit": "mm",
+    "frame": "Native footprint local, top-side, rotation 0, +x right and +y up. Coordinates match source/API signs.",
+    "pcb_unit_mm": 0.0254,
+    "apply_transform": "world_mm = component_origin_mil * 0.0254 + R(component_rotation) * local_mm; verify numbered pad anchors before any mutation.",
+    "anchor_check_tolerance_mm": 0.003,
+    "anchor_check_reason": "Initial getAllPins coordinates are rounded to 0.1mil; exact library coordinates retained here.",
+    "never_use_as_placement": "initial-state components are unplaced outside the 99mm outline; their current absolute positions are evidence only."
+  },
+  "sources": [
+    {
+      "path": "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/bacdc9b3530d4b9ca5f35adac008b474.efoo",
+      "sha256": "b288d2bcc8820bdfd20ef98cd42ddc9fa315fe2c150450570eca0e6041118897"
+    },
+    {
+      "path": "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/29fc52aac206409391a7822d498d078b.efoo",
+      "sha256": "4ac266ae5060938fb35634314e07f18c6cff0f7a685023bd014022a82542ca50"
+    },
+    {
+      "path": "build/easyeda-native99/pcb-work/initial-state.json",
+      "sha256": "386b8a68644f88f322197b628a5eda863b6a63a2044bd440f3b983193d343501"
+    },
+    {
+      "path": "build/easyeda-native99/pcb-work/after-sync.epcb",
+      "sha256": "56617ba117094d2e291a53036c337947241d3091b490d579875cd17bf39aed36"
+    },
+    {
+      "path": "hardware/devboard-99/ESPaperPlay_99.kicad_pcb",
+      "sha256": "2136b6520e0b6b788d457d15a675d74b80620af0b9293a27ef5916936eb90d1d"
+    },
+    {
+      "path": "hardware/devboard-99/ESPaperPlay.pretty/ESP32-S3-WROOM-1_030mm_PTH.kicad_mod",
+      "sha256": "fca64cea04f1bbcf911a0e80155e95866f196fb93ee0c2adfbc0ea164e648a8f"
+    },
+    {
+      "path": "hardware/devboard-99/ESPaperPlay.pretty/PUI_DMM_4026_B_I2S_R_7Pad_NPTH0.60.kicad_mod",
+      "sha256": "83084fdc706d6cedd267bea33fc26b0b9646540b12146df859a437788f180d73"
+    },
+    {
+      "path": "hardware/reference/mcu-usb/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "sha256": "27d71971da07c280c6068d08c74720d1a25b8f20cf8494dc1765bdd28d40d435"
+    },
+    {
+      "path": "hardware/reference/peripherals/DMM-4026-B-I2S-R.pdf",
+      "sha256": "ce42c9bf03b671cd6e7e95a4bfc414a9ffbd61747dbe4c76220ce650535f1a19"
+    },
+    {
+      "path": "hardware/devboard-r0/review-r9/stencil-review.md",
+      "sha256": "075844769ae05f1c36245ede408f2e6dc14f9167a2d00d83cad94da065261c24"
+    },
+    {
+      "path": "tools/prepare_stencil_r9.py",
+      "sha256": "09ef91139d5cf87a771382acbdfa327762b49ea95512ce6b6d9353ae6a56f987"
+    },
+    {
+      "path": "build/easyeda-native99/pcb-work/baseline-gerber/Drill_NPTH_Through.DRL",
+      "sha256": "68bce183524c54c35b1b9fe04fe8afa89469b6c4ac915646eb7f940b2f02a8a2"
+    },
+    {
+      "path": "build/easyeda-native99/pcb-work/baseline-gerber/Drill_PTH_Through.DRL",
+      "sha256": "c585b3928332f426193ab219dba3e040a5ff7fdb6c439118db1c7697365d97d4"
+    }
+  ],
+  "primary_sources": [
+    {
+      "id": "ESP_DS",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+      "revision": "v1.8",
+      "pdf_pages": [
+        41,
+        45
+      ],
+      "evidence": "EPAD soldering is optional; amount must be controlled if soldered. Recommended 0.9mm islands on 1.4mm pitch and thermal-via pattern."
+    },
+    {
+      "id": "ESP_LAYOUT",
+      "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/pcb-layout-design.html",
+      "checked": "2026-11-16",
+      "evidence": "Module antenna outside board edge; antenna clearance and housing clearance."
+    },
+    {
+      "id": "PUI_DS",
+      "url": "https://api.puiaudio.com/filename/DMM-4026-B-I2S-R.pdf",
+      "local_read": true,
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "evidence": "Device port 0.25±0.05mm is distinct from PCB drill; signal pads 0.60x0.40, GND ring OD1.65/ID1.05."
+    },
+    {
+      "id": "PUI_APP",
+      "url": "https://puiaudio.com/generic-press-releases/wide-band-mems-microphones-application-guide/",
+      "checked": "2026-11-16",
+      "evidence": "PCB acoustic hole at least0.50mm and unplated; sealing solder joint; 0.10–0.12mm stencil and 0.8–0.9 linear aperture ratio."
+    }
+  ],
+  "native_initial_instances": [
+    {
+      "id": "ff8ffbdbac2e358a",
+      "ref": "U301",
+      "uniqueId": "gge68",
+      "x": 3941.5321514761217,
+      "y": -8357.348249999963,
+      "rotation": 0,
+      "layer": 1
+    },
+    {
+      "id": "0733e2265846157d",
+      "ref": "U803",
+      "uniqueId": "gge184",
+      "x": 13098.680139153468,
+      "y": -6916.504849999965,
+      "rotation": 0,
+      "layer": 1
+    }
+  ],
+  "U301": {
+    "native_library_uuid": "bacdc9b3530d4b9ca5f35adac008b474",
+    "existing": {
+      "perimeter_pad_count": 40,
+      "central_islands": [
+        {
+          "library_primitive_id": "e117",
+          "number": "41",
+          "center_mm": [
+            -0.100076,
+            -0.225171
+          ],
+          "layer": "TOP",
+          "rotation_deg": 90
+        },
+        {
+          "library_primitive_id": "e118",
+          "number": "41",
+          "center_mm": [
+            -1.500124,
+            -0.225171
+          ],
+          "layer": "TOP",
+          "rotation_deg": 90
+        },
+        {
+          "library_primitive_id": "e119",
+          "number": "41",
+          "center_mm": [
+            -2.900172,
+            -0.225171
+          ],
+          "layer": "TOP",
+          "rotation_deg": 90
+        },
+        {
+          "library_primitive_id": "e120",
+          "number": "41",
+          "center_mm": [
+            -2.900172,
+            2.574925
+          ],
+          "layer": "TOP",
+          "rotation_deg": 90
+        },
+        {
+          "library_primitive_id": "e121",
+          "number": "41",
+          "center_mm": [
+            -1.500124,
+            2.574925
+          ],
+          "layer": "TOP",
+          "rotation_deg": 90
+        },
+        {
+          "library_primitive_id": "e122",
+          "number": "41",
+          "center_mm": [
+            -0.100076,
+            2.574925
+          ],
+          "layer": "TOP",
+          "rotation_deg": 90
+        },
+        {
+          "library_primitive_id": "e123",
+          "number": "41",
+          "center_mm": [
+            -0.100076,
+            1.174877
+          ],
+          "layer": "TOP",
+          "rotation_deg": 90
+        },
+        {
+          "library_primitive_id": "e124",
+          "number": "41",
+          "center_mm": [
+            -2.900172,
+            1.174877
+          ],
+          "layer": "TOP",
+          "rotation_deg": 90
+        },
+        {
+          "library_primitive_id": "e125",
+          "number": "41",
+          "center_mm": [
+            -1.500124,
+            1.174877
+          ],
+          "layer": "TOP",
+          "rotation_deg": 90
+        }
+      ],
+      "real_thermal_holes_in_library": 0,
+      "functional_antenna_regions_in_library": 0
+    },
+    "datum": {
+      "EP41_centroid_mm": [
+        -1.500124,
+        1.174877
+      ],
+      "orientation_anchor_pads": [
+        {
+          "library_primitive_id": "e77",
+          "number": "1",
+          "center_mm": [
+            -8.750046,
+            8.894953
+          ],
+          "layer": "TOP",
+          "rotation_deg": 0
+        },
+        {
+          "library_primitive_id": "e90",
+          "number": "14",
+          "center_mm": [
+            -8.750046,
+            -7.615047
+          ],
+          "layer": "TOP",
+          "rotation_deg": 0
+        },
+        {
+          "library_primitive_id": "e103",
+          "number": "27",
+          "center_mm": [
+            8.750046,
+            -7.615047
+          ],
+          "layer": "TOP",
+          "rotation_deg": 180
+        },
+        {
+          "library_primitive_id": "e116",
+          "number": "40",
+          "center_mm": [
+            8.750046,
+            8.894953
+          ],
+          "layer": "TOP",
+          "rotation_deg": 180
+        }
+      ],
+      "kicad_to_native_ep_mapping": "x_native=x_kicad-0.000124; y_native=-y_kicad+3.634877. For thermal pattern only, anchored on EP center; do not apply blindly to all perimeter pads.",
+      "perimeter_difference_note": "The native bottom row differs from a rigid KiCad mapping by about0.03mm; native pad26 has its own approx0.03mm y offset. Do not silently move numbered perimeter lands in this EP/keepout task."
+    },
+    "central_copper": {
+      "net": "GND",
+      "logical_pad": "41",
+      "shape": "RECT",
+      "center_mm": [
+        -1.500124,
+        1.174877
+      ],
+      "size_mm": [
+        3.9,
+        3.9
+      ],
+      "layer": "TOP",
+      "connect_mode": "solid",
+      "implementation": "Keep nine native SMD41 anchors as electrical anchors; union with a native project-instance GND copper rectangle. Disable all central automatic paste; do not import any KiCad footprint.",
+      "mask": "One TOP mask opening following3.9x3.9mm copper, zero expansion. Explicit no-paste; continuous copper does not imply an EP solder joint."
+    },
+    "thermal_vias": {
+      "count": 12,
+      "net": "GND",
+      "centers_mm": [
+        [
+          -2.900124,
+          1.874877
+        ],
+        [
+          -2.900124,
+          0.474877
+        ],
+        [
+          -2.200124,
+          2.574877
+        ],
+        [
+          -2.200124,
+          1.174877
+        ],
+        [
+          -2.200124,
+          -0.225123
+        ],
+        [
+          -1.500124,
+          1.874877
+        ],
+        [
+          -1.500124,
+          0.474877
+        ],
+        [
+          -0.800124,
+          2.574877
+        ],
+        [
+          -0.800124,
+          1.174877
+        ],
+        [
+          -0.800124,
+          -0.225123
+        ],
+        [
+          -0.100124,
+          1.874877
+        ],
+        [
+          -0.100124,
+          0.474877
+        ]
+      ],
+      "finished_drill_mm": 0.3,
+      "copper_diameter_mm": 0.6,
+      "layers": [
+        "TOP",
+        "INNER_1",
+        "INNER_2",
+        "BOTTOM"
+      ],
+      "plated": true,
+      "connect_mode": "solid",
+      "mask_opening_diameter_mm": 0.64,
+      "mask_sides": [
+        "TOP",
+        "BOTTOM"
+      ],
+      "paste": false,
+      "fill_or_cap_required": false,
+      "implementation": "Twelve native through VIAs or plated MULTI pads; do not duplicate after a repeated application. No resin fill, copper cap or guaranteed tenting required. TOP EP opening merges with via mask.",
+      "ground_plane_contract": "Every hole must connect solidly to local EP copper and the continuous INNER_1 GND plane, then available INNER_2/BOTTOM GND. Do not rely on only a serial via chain or thermal spokes. Keep peripheral GND1/40 independently connected to planes because EP is not soldered."
+    },
+    "paste_policy": {
+      "choice": "NO_CENTRAL_PASTE",
+      "central_apertures": 0,
+      "central_area_mm2": 0,
+      "perimeter_apertures": 40,
+      "r14_conflict_resolution": "r14 source has nine0.90x0.90 central apertures (7.29mm²). r9/r10 DIY stencil deliberately removed them. This native implementation adopts the existing DIY manufacturing choice, not the raw r14 F.Paste.",
+      "reason": "EP solder is optional per ESP_DS p41. No paste over open PTH eliminates this designed solder-wicking path and avoids module lift from excessive center paste; it is compatible with hand-aligned stencil reflow without paid hole filling.",
+      "limits": "Twelve PCB holes still improve PCB ground connectivity but no claim of soldered EP thermal equivalence. Verify module temperature and RF behavior under representative Wi-Fi/CPU load."
+    },
+    "antenna": {
+      "native_antenna_start_y_mm": 10.355351,
+      "native_module_front_y_mm": 16.395,
+      "keepout_rectangle_mm": [
+        -24.0,
+        10.35,
+        24.0,
+        31.4
+      ],
+      "layers": [
+        "TOP",
+        "INNER_1",
+        "INNER_2",
+        "BOTTOM"
+      ],
+      "prohibit": [
+        "tracks",
+        "vias",
+        "fills",
+        "pours",
+        "internal_planes",
+        "unrelated_pads"
+      ],
+      "placement": "Antenna projects beyond the PCB edge. In native0deg orientation antenna points +Y. Keepout start rounds conservatively below actual antenna boundary; front/side bounds provide15mm around nominal18mm antenna.",
+      "region_implementation": "Native REGION on each copper layer; use documented prohibit types. Component prohibition needs exception for U301 itself, so enforce other component/cable/battery/speaker/enclosure exclusion separately if native REGION flags collide with owner body.",
+      "mechanical_keepout": "Preserve this exclusion outside the board too; do not clip the record to99x99mm and lose the enclosure/cable requirement.",
+      "cam_requirement": "All four copper Gerbers intersected with in-board antenna exclusion must be empty. REGION existence alone is insufficient."
+    }
+  },
+  "U803": {
+    "native_library_uuid": "29fc52aac206409391a7822d498d078b",
+    "port_center_mm": [
+      0,
+      -1.049401
+    ],
+    "existing": {
+      "signals": [
+        {
+          "library_primitive_id": "e27",
+          "number": "1",
+          "center_mm": [
+            -1.074928,
+            1.530731
+          ],
+          "layer": "TOP",
+          "rotation_deg": 0
+        },
+        {
+          "library_primitive_id": "e28",
+          "number": "2",
+          "center_mm": [
+            -1.074928,
+            0.880491
+          ],
+          "layer": "TOP",
+          "rotation_deg": 0
+        },
+        {
+          "library_primitive_id": "e29",
+          "number": "3",
+          "center_mm": [
+            -1.074928,
+            0.230505
+          ],
+          "layer": "TOP",
+          "rotation_deg": 0
+        },
+        {
+          "library_primitive_id": "e30",
+          "number": "5",
+          "center_mm": [
+            1.074928,
+            0.230505
+          ],
+          "layer": "TOP",
+          "rotation_deg": 0
+        },
+        {
+          "library_primitive_id": "e31",
+          "number": "6",
+          "center_mm": [
+            1.074928,
+            0.880491
+          ],
+          "layer": "TOP",
+          "rotation_deg": 0
+        },
+        {
+          "library_primitive_id": "e32",
+          "number": "7",
+          "center_mm": [
+            1.074928,
+            1.530731
+          ],
+          "layer": "TOP",
+          "rotation_deg": 0
+        }
+      ],
+      "GND4_geometry_components": 4,
+      "GND4_geometry_area_mm2": 1.0352745617047996,
+      "GND4_min_sector_gap_mm": 0.19999959999999997,
+      "MULTI_FILL_e13": {
+        "layer": "MULTI",
+        "raw_record": [
+          "FILL",
+          "e13",
+          0,
+          "",
+          12,
+          0.1,
+          0,
+          [
+            [
+              "CIRCLE",
+              0,
+              -41.315,
+              5.906
+            ]
+          ],
+          0
+        ],
+        "circle_radius_mm": 0.1500124,
+        "nominal_circle_diameter_mm": 0.3000248
+      },
+      "api_hole_fields_note": "Initial-state exposes small non-null hole fields on TOP polygon pads4. TOP-layer virtual pad fields are not evidence of physical drill hits."
+    },
+    "correction_to_previous_report": "No MULTI PAD/VIA does NOT prove absence of holes. Official PCB_PrimitivePad.getAll remarks explicitly mention embedded FOOTPRINT FILL layer12 as positioning-hole geometry. e13 can be an actual native hole and must be checked in baseline Excellon before replacement.",
+    "MULTI_FILL_handling": {
+      "primary": "Resize existing native MULTI FILL e13 to exact0.30mm radius (0.60mm diameter), preserving center and NPTH interpretation. Baseline Excellon has proved this entity is a real hole. Do not add another coincident hole.",
+      "alternative": "If source/API mutation cannot preserve native FILL hole semantics, remove e13 and replace with exactly one explicit nonmetallized mechanical hole; then repeat CAM. Never retain both.",
+      "baseline_gate": "CLOSED: baseline Excellon proves one0.30002mm NPTH at(6.9995,-68.0009). Final0.60mm CAM gate remains open.",
+      "do_not_do": "Do not retain e13 plus add a coincident0.60mm drill; do not change to plated via; do not assume FILL is decorative."
+    },
+    "acoustic_hole": {
+      "count": 1,
+      "center_mm": [
+        0,
+        -1.049401
+      ],
+      "finished_diameter_mm": 0.6,
+      "finished_diameter_tolerance_mm": 0.05,
+      "plated": false,
+      "net": "",
+      "pad_number": "",
+      "paste": false,
+      "copper_on_hole_wall": false,
+      "mask_opening_diameter_mm": 0.7,
+      "mask_sides": [
+        "TOP",
+        "BOTTOM"
+      ],
+      "implementation": "Use resized existing native MULTI FILL e13, confirmed baseline NPTH. Verify final0.60mm unplated Excellon hit and no duplicate. Explicit PAD replacement is fallback only."
+    },
+    "acoustic_keepout": {
+      "center_mm": [
+        0,
+        -1.049401
+      ],
+      "radius_mm": 0.5,
+      "layers": [
+        "TOP",
+        "INNER_1",
+        "INNER_2",
+        "BOTTOM"
+      ],
+      "prohibit": [
+        "tracks",
+        "vias",
+        "fills",
+        "pours",
+        "internal_planes"
+      ],
+      "pad_rule": "Also geometrically audit all pads; intentional annulus begins at r0.525mm, outside the keepout. The NPTH owner is exempt from copper-pad prohibition.",
+      "bottom_mechanical": "Keep board underside sound passage open; no tape, cable, gasket occlusion or direct mounting on a solid surface."
+    },
+    "GND4_ring": {
+      "net": "GND",
+      "logical_number": "4",
+      "center_mm": [
+        0,
+        -1.049401
+      ],
+      "outer_radius_mm": 0.825,
+      "inner_radius_mm": 0.525,
+      "width_mm": 0.3,
+      "replace_library_primitives": [
+        "e33",
+        "e34",
+        "e35",
+        "e36"
+      ],
+      "shape": "Four exact contiguous90deg annular-sector TOP pads; each carries number4/GND. No0.20mm slots in copper or mask; union must be one annulus.",
+      "sectors_deg": [
+        [
+          0,
+          90
+        ],
+        [
+          90,
+          180
+        ],
+        [
+          180,
+          270
+        ],
+        [
+          270,
+          360
+        ]
+      ],
+      "sector_boundary_tolerance_mm": 0.001,
+      "pad_hole": null,
+      "mask_outer_radius_mm": 0.85,
+      "mask_inner_radius_mm": 0.5,
+      "connection": "Connect outer rim to GND outside acoustic keepout; stitch with a0.30/0.60 GND via outside the microphone solder/mask/body envelope after placement. Never pierce the sealing annulus with a via.",
+      "current_gap_correction": "Existing4 disconnected native polygons are not an acceptable continuous sealing land even though they share number4."
+    },
+    "signal_land_and_mask": {
+      "retain_centers": true,
+      "copper_size_mm": [
+        0.6,
+        0.4
+      ],
+      "mask_expansion_each_side_mm": 0.025,
+      "mask_size_mm": [
+        0.65,
+        0.45
+      ]
+    },
+    "paste": {
+      "steel_thickness_mm": 0.1,
+      "signal_window_mm": [
+        0.51,
+        0.34
+      ],
+      "signal_count": 6,
+      "disable_auto_paste_for_all_pads": true,
+      "ring_base_outer_radius_mm": 0.8025,
+      "ring_base_inner_radius_mm": 0.5475,
+      "ring_base_width_mm": 0.255,
+      "ring_segments": 4,
+      "steel_bridges": {
+        "count": 4,
+        "width_mm": 0.15,
+        "definition": "Subtract |x-cx|<.075 OR |y-cy|<.075 from ring paste; copper and mask remain continuous."
+      },
+      "total_apertures": 10,
+      "ring_paste_area_mm2": 0.928164423808752,
+      "ring_coverage_of_copper_percent": 72.94914270875822,
+      "ring_min_area_ratio_at_0_10mm": 0.9945269573314267,
+      "signal_area_ratio_at_0_10mm": 1.02,
+      "nominal_paste_to_drill_edge_mm": 0.2475,
+      "max_diameter_paste_to_drill_edge_mm_without_registration": 0.22249999999999998,
+      "raw_vs_manufacturing": "Raw r14 footprint is a continuous paste ring, but its proper DIY stencil was four segments. Encode actual manufacture-ready segments natively to avoid an unsupported steel island.",
+      "qualification": "0.15mm bridges and85% reductions are existing project assembly choices, not PUI part-specific stencil approval. Four deposited arcs must coalesce into a sealed solder ring during reflow; inspect/measure on first boards."
+    },
+    "baseline_CAM": {
+      "path": "build/easyeda-native99/pcb-work/baseline-gerber/Drill_NPTH_Through.DRL",
+      "sha256": "68bce183524c54c35b1b9fe04fe8afa89469b6c4ac915646eb7f940b2f02a8a2",
+      "plated": false,
+      "tool": "T01",
+      "diameter_mm": 0.30002,
+      "placed_hit_mm": [
+        6.9995,
+        -68.0009
+      ],
+      "conclusion": "Native MULTI FILL e13 is an actual undersized NPTH; confirmed in exported Excellon, not inferred from its name."
+    }
+  },
+  "local_checks": {
+    "U301_via_count": 12,
+    "U301_min_via_center_spacing_mm": 0.9899494936611664,
+    "U301_nominal_annular_ring_mm": 0.15,
+    "U301_min_via_copper_to_EP_boundary_mm": 0.25000000000000006,
+    "U803_copper_ring_components": 1,
+    "U803_native_prior_components": 4,
+    "U803_ring_area_mm2": 1.2723445257120443,
+    "U803_paste_components": 4,
+    "U803_paste_over_acoustic_keepout_mm2": 0.0,
+    "U803_copper_to_nominal_drill_edge_mm": 0.22500000000000003,
+    "U803_copper_to_max_drill_edge_mm_without_registration": 0.2,
+    "limits": "Analytic/local artwork checks only; not native DRC, drill registration capability, CAM union verification or physical assembly validation."
+  },
+  "release_checks": [
+    "Preserve all numbered native pins and networks; inspect library-derived-instance assignment after project save/reopen.",
+    "U301 exactly12 unique0.30mm plated holes,0.60mm pads with solid GND paths; zero central paste and exactly40 peripheral paste windows.",
+    "U301 all4 copper layers empty in in-board antenna keepout; no unrelated component, battery, speaker or cable occupying the3D exclusion.",
+    "U803 exactly1 unique0.60mm NPTH at correct port, no0.30mm duplicate or plated hit, no tiny extra drill hits from TOP polygon anchor fields.",
+    "U803 final copper/mask unions match continuous annuli (r.525..825 and.500..850), no inward copper;6 signal pads remain correctly mapped.",
+    "U803 exact6 rectangular plus4 ring-sector paste windows, center steel connected through4 bridges; no automatic paste added on top of explicit windows.",
+    "All-layer copper and final drill/paste intersection checks, full native DRC, saved-source and exported Gerber/Excellon hashes before release.",
+    "First2 assemblies: microscope inspection of U301 outer leads and module level; verify sound passage and microphone noise/acoustic response; check U301 thermal/RF under sustained load."
+  ],
+  "pending_information": [
+    {
+      "item": "Final native footprint instance origins/rotations and library-source regeneration behavior",
+      "owner": "layout step",
+      "blocking": "Before applying coordinates or replacing derived native footprint; validate anchor pads, not names."
+    },
+    {
+      "item": "Fabricator actual finished NPTH tolerance and drill positional tolerance / copper clearance policy",
+      "owner": "manufacturer CAM review",
+      "blocking": "Before manufacturing release; ±0.05mm is requested target, not proven capability. Nominal0.225mm drill-edge-to-ring clearance is not a tolerance guarantee."
+    },
+    {
+      "item": "Stencil aperture/bridge tolerance and transfer behavior",
+      "owner": "stencil CAM and first-board trial",
+      "blocking": "Before assuming reliable transfer/sealing;0.10mm steel and0.15mm bridges are planned."
+    },
+    {
+      "item": "Final enclosure acoustic and antenna clearances",
+      "owner": "future mechanical design",
+      "blocking": "No blocker to open development-board CAD; required before enclosed-product validation."
+    }
+  ],
+  "API_hole_getter_warning": {
+    "client_version": "4.1.93",
+    "observed": "getState_Hole returns4.724mil for SW301 raw47.24mil/CAM1.19990mm hole: a10x scale discrepancy. Source and Excellon supersede getter for hole sizing.",
+    "application": "Do not multiply/divide or recreate U301/U803 holes solely from getter dimensions; validate source and final drill file."
+  }
+}

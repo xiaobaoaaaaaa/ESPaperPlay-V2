@@ -7326,29 +7326,25 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "MCU_EN",
-          "no_connect": false,
-          "reference_net": "/MCU_CORE/MCU_EN"
+          "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "MCU_EN",
-          "no_connect": false,
-          "reference_net": "/MCU_CORE/MCU_EN"
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
+          "no_connect": false
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
+          "no_connect": false
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",
@@ -7360,29 +7356,25 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "BOOT_N",
-          "no_connect": false,
-          "reference_net": "/MCU_CORE/BOOT_N"
+          "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "BOOT_N",
-          "no_connect": false,
-          "reference_net": "/MCU_CORE/BOOT_N"
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
+          "no_connect": false
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
+          "no_connect": false
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",
@@ -7394,29 +7386,25 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "POWER_KEY_N",
-          "no_connect": false,
-          "reference_net": "POWER_KEY_N"
+          "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "POWER_KEY_N",
-          "no_connect": false,
-          "reference_net": "POWER_KEY_N"
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
+          "no_connect": false
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
+          "no_connect": false
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",
@@ -7428,29 +7416,25 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_PLUS_N",
-          "no_connect": false,
-          "reference_net": "KEY_PLUS_N"
+          "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_PLUS_N",
-          "no_connect": false,
-          "reference_net": "KEY_PLUS_N"
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
+          "no_connect": false
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
+          "no_connect": false
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",
@@ -7462,29 +7446,25 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_MINUS_N",
-          "no_connect": false,
-          "reference_net": "KEY_MINUS_N"
+          "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_MINUS_N",
-          "no_connect": false,
-          "reference_net": "KEY_MINUS_N"
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
+          "no_connect": false
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false,
-          "reference_net": "GND"
+          "no_connect": false
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",

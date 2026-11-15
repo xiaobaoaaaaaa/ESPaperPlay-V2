@@ -6567,15 +6567,15 @@
           "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "/MCU_CORE/MCU_EN",
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
           "no_connect": false
         },
         "4": {
@@ -6597,15 +6597,15 @@
           "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "/MCU_CORE/BOOT_N",
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
           "no_connect": false
         },
         "4": {
@@ -6627,15 +6627,15 @@
           "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "POWER_KEY_N",
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
           "no_connect": false
         },
         "4": {
@@ -6657,15 +6657,15 @@
           "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_PLUS_N",
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
           "no_connect": false
         },
         "4": {
@@ -6687,15 +6687,15 @@
           "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "2_2",
-          "net": "GND",
-          "no_connect": false
-        },
-        "3": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_MINUS_N",
+          "no_connect": false
+        },
+        "3": {
+          "reference_pin": "2",
+          "reference_function": "2_2",
+          "net": "GND",
           "no_connect": false
         },
         "4": {

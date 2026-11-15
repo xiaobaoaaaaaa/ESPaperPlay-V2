@@ -1,0 +1,67 @@
+{
+  "scope": "U803 local native CAM only; does not assert whole-board routing completion",
+  "archive_sha256": "d2a0718f98287672cc042c459002d81844311ecfb2145a59a3c4b2b5754c301a",
+  "state_sha256": "fc6cfe88fc763b07a218f48324cf1aeba7cf7fa171125d7b64a635b4fab7c5de",
+  "pose": {
+    "origin_world_mm": [
+      6.999495779999999,
+      -66.95150186000001
+    ],
+    "rotation_deg": 0,
+    "source": "Actual native component snapshot; no Y flip"
+  },
+  "acoustic_center_local_mm": [
+    0.0,
+    -1.049401
+  ],
+  "top_copper_ring": {
+    "pass": true,
+    "actual_area_mm2": 1.2723419137740763,
+    "expected_area_mm2": 1.2723448999558897,
+    "components": 1,
+    "symmetric_difference_mm2": 2.924160935966534e-05,
+    "hausdorff_mm": 7.5878891522918234e-06,
+    "holes": 1,
+    "bounds_local_mm": [
+      -0.8249957799999992,
+      -1.8743981399999967,
+      0.8250042200000003,
+      -0.22439813999999103
+    ]
+  },
+  "top_solder_mask": {
+    "pass": true,
+    "actual_area_mm2": 1.4844123826720519,
+    "expected_area_mm2": 1.484402383281883,
+    "components": 1,
+    "symmetric_difference_mm2": 3.136066608823534e-05,
+    "hausdorff_mm": 8.256286374121855e-06,
+    "holes": 1
+  },
+  "top_paste_ring": {
+    "components": 4,
+    "area_mm2": 0.9281565045005078,
+    "minimum_distance_from_acoustic_center_mm": 0.5474934926292513,
+    "pass": true
+  },
+  "drills": [
+    {
+      "file": "Drill_NPTH_Through.DRL",
+      "index": 0,
+      "plated": false,
+      "center_world_mm": [
+        6.99950000000001,
+        -68.00090000000012
+      ],
+      "diameter_mm": 0.6,
+      "class": "Flash",
+      "center_local_mm": [
+        4.220000001017078e-06,
+        -1.0493981399999954
+      ],
+      "diameter_measured_mm": 0.5999999999999996
+    }
+  ],
+  "drill_pass": true,
+  "status": "PASS"
+}

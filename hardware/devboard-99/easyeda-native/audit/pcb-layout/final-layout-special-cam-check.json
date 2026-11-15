@@ -1,0 +1,2580 @@
+{
+  "status": "PASS_NATIVE_SPECIAL_FOOTPRINT_LAYOUT_CAM",
+  "scope": "Actual native Gerber/Excellon geometry for five corrected footprint regions; not routed connectivity or manufacture/assembly qualification.",
+  "input_hashes": {
+    "hardware/devboard-99/easyeda-native/audit/pcb-layout/NOT-FOR-MANUFACTURE-layout-cam.zip": "d2a0718f98287672cc042c459002d81844311ecfb2145a59a3c4b2b5754c301a",
+    "hardware/devboard-99/easyeda-native/audit/pcb-layout/final-layout-state.json": "fc6cfe88fc763b07a218f48324cf1aeba7cf7fa171125d7b64a635b4fab7c5de"
+  },
+  "script_sha256": "860a0f4432292fbf009c453bbc22045a546d255a19628a119fac2e9215ccce42",
+  "helper_sha256": "f0018701839675a73ed8db697298757de7156fad0a8e74b0103babf88fba9ddb",
+  "coordinate_frame": "Native/Gerber +X right, +Y up, mm; inverse actual component rotation/translation. No KiCad geometry or Y inversion.",
+  "poses": {
+    "U101": {
+      "origin_world_mm": [
+        12.99993082,
+        -32.00045416
+      ],
+      "rotation_deg": 0,
+      "source": "Actual native component snapshot; no Y flip"
+    },
+    "U203": {
+      "origin_world_mm": [
+        13.999420820000001,
+        -48.00009703999999
+      ],
+      "rotation_deg": -90,
+      "source": "Actual native component snapshot; no Y flip"
+    },
+    "U802": {
+      "origin_world_mm": [
+        33.999589099999994,
+        -71.00119912
+      ],
+      "rotation_deg": 0,
+      "source": "Actual native component snapshot; no Y flip"
+    },
+    "U301": {
+      "origin_world_mm": [
+        49.500782380000004,
+        -10.376385139999998
+      ],
+      "rotation_deg": 0,
+      "source": "Actual native component snapshot; no Y flip"
+    },
+    "U803": {
+      "origin_world_mm": [
+        6.999495779999999,
+        -66.95150186000001
+      ],
+      "rotation_deg": 0,
+      "source": "Actual native component snapshot; no Y flip"
+    }
+  },
+  "curve_error_mm": 1e-05,
+  "comparison_tolerance_mm": 6e-05,
+  "checks": {
+    "U101_pad_1": {
+      "pass": true,
+      "CAM_object": 524,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770428,
+      "bounds_local_mm": [
+        -1.7000008199999996,
+        0.630004159999995,
+        -1.1000008199999982,
+        0.870004159999997
+      ],
+      "symmetric_difference_mm2": 5.313079975606955e-06,
+      "hausdorff_mm": 6.709957980709941e-06
+    },
+    "U101_pad_2": {
+      "pass": true,
+      "CAM_object": 525,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770428,
+      "bounds_local_mm": [
+        -1.7000008199999996,
+        0.13000415999999504,
+        -1.1000008199999982,
+        0.37000415999999703
+      ],
+      "symmetric_difference_mm2": 5.313079975629241e-06,
+      "hausdorff_mm": 6.709957980818553e-06
+    },
+    "U101_pad_3": {
+      "pass": true,
+      "CAM_object": 526,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770092,
+      "bounds_local_mm": [
+        -1.7000008199999996,
+        -0.3699958400000085,
+        -1.1000008199999982,
+        -0.12999583999999942
+      ],
+      "symmetric_difference_mm2": 5.313079975673047e-06,
+      "hausdorff_mm": 6.709957982548052e-06
+    },
+    "U101_pad_4": {
+      "pass": true,
+      "CAM_object": 527,
+      "class": "Flash",
+      "area_mm2": 0.1418534641277009,
+      "bounds_local_mm": [
+        -1.7000008199999996,
+        -0.8700058399999975,
+        -1.1000008199999982,
+        -0.6300058400000026
+      ],
+      "symmetric_difference_mm2": 7.302693673855264e-06,
+      "hausdorff_mm": 8.364145886583617e-06
+    },
+    "U101_pad_5": {
+      "pass": true,
+      "CAM_object": 528,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770333,
+      "bounds_local_mm": [
+        -0.8700008199999996,
+        -1.6999958400000068,
+        -0.6300008199999976,
+        -1.0999958399999983
+      ],
+      "symmetric_difference_mm2": 2.908279978008441e-06,
+      "hausdorff_mm": 6.709957983974728e-06
+    },
+    "U101_pad_6": {
+      "pass": true,
+      "CAM_object": 529,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770333,
+      "bounds_local_mm": [
+        -0.37000081999999956,
+        -1.6999958400000068,
+        -0.13000081999999757,
+        -1.0999958399999983
+      ],
+      "symmetric_difference_mm2": 2.9082799780379972e-06,
+      "hausdorff_mm": 6.709957983980481e-06
+    },
+    "U101_pad_7": {
+      "pass": true,
+      "CAM_object": 530,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770333,
+      "bounds_local_mm": [
+        0.12999918000000044,
+        -1.6999958400000068,
+        0.3699991800000024,
+        -1.0999958399999983
+      ],
+      "symmetric_difference_mm2": 2.908279978038076e-06,
+      "hausdorff_mm": 6.709957983986233e-06
+    },
+    "U101_pad_8": {
+      "pass": true,
+      "CAM_object": 531,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770333,
+      "bounds_local_mm": [
+        0.6299991800000004,
+        -1.6999958400000068,
+        0.8699991800000024,
+        -1.0999958399999983
+      ],
+      "symmetric_difference_mm2": 2.908279978008441e-06,
+      "hausdorff_mm": 6.709957983974728e-06
+    },
+    "U101_pad_9": {
+      "pass": true,
+      "CAM_object": 532,
+      "class": "Flash",
+      "area_mm2": 0.1418534641277009,
+      "bounds_local_mm": [
+        1.0999991799999993,
+        -0.8700058399999975,
+        1.6999991800000007,
+        -0.6300058400000026
+      ],
+      "symmetric_difference_mm2": 7.3026936741317925e-06,
+      "hausdorff_mm": 8.364145886693713e-06
+    },
+    "U101_pad_10": {
+      "pass": true,
+      "CAM_object": 533,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770092,
+      "bounds_local_mm": [
+        1.0999991799999993,
+        -0.3699958400000085,
+        1.6999991800000007,
+        -0.12999583999999942
+      ],
+      "symmetric_difference_mm2": 5.313079975940572e-06,
+      "hausdorff_mm": 6.709957982756991e-06
+    },
+    "U101_pad_11": {
+      "pass": true,
+      "CAM_object": 534,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770428,
+      "bounds_local_mm": [
+        1.0999991799999993,
+        0.13000415999999504,
+        1.6999991800000007,
+        0.37000415999999703
+      ],
+      "symmetric_difference_mm2": 5.313079975911553e-06,
+      "hausdorff_mm": 6.7099579809814695e-06
+    },
+    "U101_pad_12": {
+      "pass": true,
+      "CAM_object": 535,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770428,
+      "bounds_local_mm": [
+        1.0999991799999993,
+        0.630004159999995,
+        1.6999991800000007,
+        0.870004159999997
+      ],
+      "symmetric_difference_mm2": 5.3130799758903755e-06,
+      "hausdorff_mm": 6.709957980927164e-06
+    },
+    "U101_pad_13": {
+      "pass": true,
+      "CAM_object": 536,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770428,
+      "bounds_local_mm": [
+        0.6299991800000004,
+        1.1000041599999975,
+        0.8699991800000024,
+        1.7000041599999989
+      ],
+      "symmetric_difference_mm2": 2.9082799784370014e-06,
+      "hausdorff_mm": 6.709957983082826e-06
+    },
+    "U101_pad_14": {
+      "pass": true,
+      "CAM_object": 537,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770428,
+      "bounds_local_mm": [
+        0.12999918000000044,
+        1.1000041599999975,
+        0.3699991800000024,
+        1.7000041599999989
+      ],
+      "symmetric_difference_mm2": 2.908279978465935e-06,
+      "hausdorff_mm": 6.709957983082826e-06
+    },
+    "U101_pad_15": {
+      "pass": true,
+      "CAM_object": 538,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770428,
+      "bounds_local_mm": [
+        -0.37000081999999956,
+        1.1000041599999975,
+        -0.13000081999999757,
+        1.7000041599999989
+      ],
+      "symmetric_difference_mm2": 2.908279978466201e-06,
+      "hausdorff_mm": 6.709957983077073e-06
+    },
+    "U101_pad_16": {
+      "pass": true,
+      "CAM_object": 539,
+      "class": "Flash",
+      "area_mm2": 0.14185346412770428,
+      "bounds_local_mm": [
+        -0.8700008199999996,
+        1.1000041599999975,
+        -0.6300008199999976,
+        1.7000041599999989
+      ],
+      "symmetric_difference_mm2": 2.9082799784370014e-06,
+      "hausdorff_mm": 6.709957983082826e-06
+    },
+    "U101_pad_17": {
+      "pass": true,
+      "CAM_object": 540,
+      "class": "Flash",
+      "area_mm2": 2.820253464127702,
+      "bounds_local_mm": [
+        -0.8400008200000002,
+        -0.8399958400000074,
+        0.8399991800000031,
+        0.8400041599999959
+      ],
+      "symmetric_difference_mm2": 1.6660279968984275e-05,
+      "hausdorff_mm": 6.709957983300049e-06
+    },
+    "U101_central_paste_exact": {
+      "pass": true,
+      "actual_area_mm2": 1.4385064719000002,
+      "expected_area_mm2": 1.4385066520954763,
+      "components": 1,
+      "symmetric_difference_mm2": 1.3303619845889628e-05,
+      "hausdorff_mm": 7.4476953377142624e-06
+    },
+    "U101_central_paste_one_region_no_island": {
+      "pass": true
+    },
+    "U101_bottom_paste_empty": {
+      "pass": true,
+      "area_mm2": 0.0
+    },
+    "U101_peripheral_paste_1": {
+      "pass": true,
+      "CAM_object": 281,
+      "class": "Region",
+      "area_mm2": 0.1418583170000008,
+      "bounds_local_mm": [
+        -1.7000008199999996,
+        0.6299941599999954,
+        -1.10000082,
+        0.870004159999997
+      ],
+      "symmetric_difference_mm2": 6.105315748072684e-06,
+      "hausdorff_mm": 7.795617253513324e-06
+    },
+    "U101_peripheral_paste_2": {
+      "pass": true,
+      "CAM_object": 282,
+      "class": "Region",
+      "area_mm2": 0.14185319340000105,
+      "bounds_local_mm": [
+        -1.7000008199999996,
+        0.13000415999999504,
+        -1.10000082,
+        0.37000415999999703
+      ],
+      "symmetric_difference_mm2": 5.361773049775685e-06,
+      "hausdorff_mm": 9.25187923141821e-06
+    },
+    "U101_peripheral_paste_3": {
+      "pass": true,
+      "CAM_object": 283,
+      "class": "Region",
+      "area_mm2": 0.14185323719999746,
+      "bounds_local_mm": [
+        -1.7000008199999996,
+        -0.3699958400000014,
+        -1.10000082,
+        -0.12999584000000652
+      ],
+      "symmetric_difference_mm2": 5.332336329952094e-06,
+      "hausdorff_mm": 9.251879230308107e-06
+    },
+    "U101_peripheral_paste_4": {
+      "pass": true,
+      "CAM_object": 284,
+      "class": "Region",
+      "area_mm2": 0.14185319059999746,
+      "bounds_local_mm": [
+        -1.7000008199999996,
+        -0.8699958400000014,
+        -1.10000082,
+        -0.6299958400000065
+      ],
+      "symmetric_difference_mm2": 5.355123632289953e-06,
+      "hausdorff_mm": 9.251879230218318e-06
+    },
+    "U101_peripheral_paste_5": {
+      "pass": true,
+      "CAM_object": 285,
+      "class": "Region",
+      "area_mm2": 0.1418530376499993,
+      "bounds_local_mm": [
+        -0.8700008199999996,
+        -1.6999958399999997,
+        -0.6300008199999994,
+        -1.0999958400000054
+      ],
+      "symmetric_difference_mm2": 3.056833923272408e-06,
+      "hausdorff_mm": 8.863759118413554e-06
+    },
+    "U101_peripheral_paste_6": {
+      "pass": true,
+      "CAM_object": 286,
+      "class": "Region",
+      "area_mm2": 0.14185313249999934,
+      "bounds_local_mm": [
+        -0.37000081999999956,
+        -1.6999958399999997,
+        -0.13000081999999935,
+        -1.0999958400000054
+      ],
+      "symmetric_difference_mm2": 2.9894750032063787e-06,
+      "hausdorff_mm": 8.863759118460086e-06
+    },
+    "U101_peripheral_paste_7": {
+      "pass": true,
+      "CAM_object": 287,
+      "class": "Region",
+      "area_mm2": 0.1418530335499993,
+      "bounds_local_mm": [
+        0.12999918000000044,
+        -1.6999958399999997,
+        0.36999918000000065,
+        -1.0999958400000054
+      ],
+      "symmetric_difference_mm2": 3.062819585379766e-06,
+      "hausdorff_mm": 8.863759118460086e-06
+    },
+    "U101_peripheral_paste_8": {
+      "pass": true,
+      "CAM_object": 288,
+      "class": "Region",
+      "area_mm2": 0.14185306429999928,
+      "bounds_local_mm": [
+        0.6299991800000004,
+        -1.6999958399999997,
+        0.8699991800000006,
+        -1.0999958400000054
+      ],
+      "symmetric_difference_mm2": 3.043653436616768e-06,
+      "hausdorff_mm": 8.863759118413554e-06
+    },
+    "U101_peripheral_paste_9": {
+      "pass": true,
+      "CAM_object": 289,
+      "class": "Region",
+      "area_mm2": 0.1418531658999975,
+      "bounds_local_mm": [
+        1.099999180000001,
+        -0.8699958400000014,
+        1.6999991800000007,
+        -0.6299958400000065
+      ],
+      "symmetric_difference_mm2": 5.383211910135866e-06,
+      "hausdorff_mm": 9.149587930731948e-06
+    },
+    "U101_peripheral_paste_10": {
+      "pass": true,
+      "CAM_object": 290,
+      "class": "Region",
+      "area_mm2": 0.1418532124999975,
+      "bounds_local_mm": [
+        1.099999180000001,
+        -0.3699958400000014,
+        1.6999991800000007,
+        -0.12999584000000652
+      ],
+      "symmetric_difference_mm2": 5.354759034505445e-06,
+      "hausdorff_mm": 9.779820077219102e-06
+    },
+    "U101_peripheral_paste_11": {
+      "pass": true,
+      "CAM_object": 291,
+      "class": "Region",
+      "area_mm2": 0.14185316860000102,
+      "bounds_local_mm": [
+        1.099999180000001,
+        0.13000415999999504,
+        1.6999991800000007,
+        0.37000415999999703
+      ],
+      "symmetric_difference_mm2": 5.3781156481475474e-06,
+      "hausdorff_mm": 9.149587931719405e-06
+    },
+    "U101_peripheral_paste_12": {
+      "pass": true,
+      "CAM_object": 292,
+      "class": "Region",
+      "area_mm2": 0.14185829235000078,
+      "bounds_local_mm": [
+        1.099999180000001,
+        0.6299941599999954,
+        1.6999991800000007,
+        0.870004159999997
+      ],
+      "symmetric_difference_mm2": 6.132399071170281e-06,
+      "hausdorff_mm": 8.863759117519946e-06
+    },
+    "U101_peripheral_paste_13": {
+      "pass": true,
+      "CAM_object": 293,
+      "class": "Region",
+      "area_mm2": 0.1418517260499998,
+      "bounds_local_mm": [
+        0.6299991800000004,
+        1.1000041599999975,
+        0.8699991800000006,
+        1.6999941599999957
+      ],
+      "symmetric_difference_mm2": 3.2353375342521975e-06,
+      "hausdorff_mm": 9.149587931186793e-06
+    },
+    "U101_peripheral_paste_14": {
+      "pass": true,
+      "CAM_object": 294,
+      "class": "Region",
+      "area_mm2": 0.14185169519999988,
+      "bounds_local_mm": [
+        0.12999918000000044,
+        1.1000041599999975,
+        0.36999918000000065,
+        1.6999941599999957
+      ],
+      "symmetric_difference_mm2": 3.2639039896760536e-06,
+      "hausdorff_mm": 9.149587931196513e-06
+    },
+    "U101_peripheral_paste_15": {
+      "pass": true,
+      "CAM_object": 295,
+      "class": "Region",
+      "area_mm2": 0.14185179419999983,
+      "bounds_local_mm": [
+        -0.37000081999999956,
+        1.1000041599999975,
+        -0.13000081999999935,
+        1.6999941599999957
+      ],
+      "symmetric_difference_mm2": 3.197304961381919e-06,
+      "hausdorff_mm": 9.149587931206234e-06
+    },
+    "U101_peripheral_paste_16": {
+      "pass": true,
+      "CAM_object": 296,
+      "class": "Region",
+      "area_mm2": 0.1418516993999998,
+      "bounds_local_mm": [
+        -0.8700008199999996,
+        1.1000041599999975,
+        -0.6300008199999994,
+        1.6999941599999957
+      ],
+      "symmetric_difference_mm2": 3.2464565768042266e-06,
+      "hausdorff_mm": 9.149587931186793e-06
+    },
+    "U101_via_land_1": {
+      "pass": true,
+      "CAM_object": 807,
+      "class": "Flash",
+      "area_mm2": 0.2827402010757274,
+      "bounds_local_mm": [
+        -0.9300008200000001,
+        -0.9299933430551519,
+        -0.33000081999999864,
+        -0.32999833694486114
+      ],
+      "symmetric_difference_mm2": 5.464507752136414e-06,
+      "hausdorff_mm": 6.710698997142427e-06
+    },
+    "U101_via_land_2": {
+      "pass": true,
+      "CAM_object": 808,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572745,
+      "bounds_local_mm": [
+        -0.9300008200000001,
+        0.3299966569448536,
+        -0.33000081999999864,
+        0.9299916630551373
+      ],
+      "symmetric_difference_mm2": 7.344724681413068e-06,
+      "hausdorff_mm": 8.379381700171598e-06
+    },
+    "U101_via_land_3": {
+      "pass": true,
+      "CAM_object": 809,
+      "class": "Flash",
+      "area_mm2": 0.2827402010757274,
+      "bounds_local_mm": [
+        0.3299991799999997,
+        -0.9299933430551519,
+        0.9299991800000011,
+        -0.32999833694486114
+      ],
+      "symmetric_difference_mm2": 5.4645077521538586e-06,
+      "hausdorff_mm": 6.710698997142427e-06
+    },
+    "U101_via_land_4": {
+      "pass": true,
+      "CAM_object": 810,
+      "class": "Flash",
+      "area_mm2": 0.2827402010757275,
+      "bounds_local_mm": [
+        0.3299991799999997,
+        0.3299966569448536,
+        0.9299991800000011,
+        0.9299916630551373
+      ],
+      "symmetric_difference_mm2": 7.344724681419375e-06,
+      "hausdorff_mm": 8.379381700171598e-06
+    },
+    "U101_drills": {
+      "pass": true,
+      "actual": [
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 0,
+          "plated": true,
+          "center_world_mm": [
+            12.369929999999995,
+            -32.63044999999997
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -0.6300008199999982,
+            -0.6299958400000063
+          ],
+          "diameter_measured_mm": 0.3000000000000007
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 1,
+          "plated": true,
+          "center_world_mm": [
+            12.369929999999988,
+            -31.370459999999987
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -0.6300008199999992,
+            0.6299941599999946
+          ],
+          "diameter_measured_mm": 0.3000000000000007
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 2,
+          "plated": true,
+          "center_world_mm": [
+            13.629930000000003,
+            -32.63044999999999
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            0.62999918,
+            -0.6299958400000065
+          ],
+          "diameter_measured_mm": 0.3000000000000007
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 3,
+          "plated": true,
+          "center_world_mm": [
+            13.629929999999993,
+            -31.370459999999973
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            0.6299991800000004,
+            0.6299941599999946
+          ],
+          "diameter_measured_mm": 0.3000000000000007
+        }
+      ],
+      "expected_count": 4,
+      "unmatched": 0,
+      "errors": []
+    },
+    "U101_continuous_paste_hole_tolerance": {
+      "pass": true,
+      "gap_mm": 0.02000434898213827,
+      "overlap_mm2": 0.0,
+      "analysis_target_mm": 0.02,
+      "numeric_comparison_allowance_mm": 0.0001
+    },
+    "U101_continuous_print_within_EP": {
+      "pass": true,
+      "outside_mm2": 0.0
+    },
+    "U101_top_mask_bridge": {
+      "pass": true,
+      "min_mm": 0.10239990677575174,
+      "all_gaps_mm": [
+        0.10239990677575209,
+        0.16000000000000011,
+        0.16000000000000011,
+        0.10239990677575174,
+        0.10240123819678769,
+        0.1599999999999966,
+        0.1599999999999966,
+        0.10240123819678786,
+        0.10239990677575174,
+        0.15999999999999834,
+        0.15999999999999834,
+        0.10239990677575209,
+        0.10241118961157944,
+        0.16000000000000014,
+        0.16000000000000014,
+        0.10241118961157927
+      ]
+    },
+    "U101_top_central_mask_exact": {
+      "pass": true,
+      "actual_area_mm2": 3.2820003288919675,
+      "expected_area_mm2": 3.2820132525277708,
+      "components": 1,
+      "symmetric_difference_mm2": 2.321054783004367e-05,
+      "hausdorff_mm": 8.388589484471683e-06
+    },
+    "U101_bottom_via_mask_exact": {
+      "pass": true,
+      "actual_area_mm2": 1.5393657681627853,
+      "expected_area_mm2": 1.5393779853858107,
+      "components": 4,
+      "symmetric_difference_mm2": 2.9823737844251086e-05,
+      "hausdorff_mm": 8.392225146846345e-06
+    },
+    "U101_open_holes_F.Mask": {
+      "pass": true,
+      "uncovered_mm2": 0.0
+    },
+    "U101_open_holes_B.Mask": {
+      "pass": true,
+      "uncovered_mm2": 0.0
+    },
+    "U101_central_copper_to_foreign_pad_min015": {
+      "pass": true,
+      "min_mm": 0.17239975939231303
+    },
+    "U101_EP_four_via_lands_connected": {
+      "pass": true
+    },
+    "U802_pad_1": {
+      "pass": true,
+      "CAM_object": 762,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000113,
+      "bounds_local_mm": [
+        -0.8999990999999952,
+        -1.8250008800000046,
+        -0.599999099999998,
+        -1.0250008799999932
+      ],
+      "symmetric_difference_mm2": 1.967998420781704e-06,
+      "hausdorff_mm": 1.258729522703799e-06
+    },
+    "U802_peripheral_paste_1": {
+      "pass": true,
+      "CAM_object": 311,
+      "class": "Region",
+      "area_mm2": 0.24000000000000254,
+      "bounds_local_mm": [
+        -0.8999990999999952,
+        -1.8250008800000046,
+        -0.5999990999999909,
+        -1.0250008800000074
+      ],
+      "symmetric_difference_mm2": 1.9679984307292772e-06,
+      "hausdorff_mm": 1.258729527784227e-06
+    },
+    "U802_pad_2": {
+      "pass": true,
+      "CAM_object": 763,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000113,
+      "bounds_local_mm": [
+        -0.39999909999999517,
+        -1.8250008800000046,
+        -0.09999909999999801,
+        -1.0250008799999932
+      ],
+      "symmetric_difference_mm2": 1.9679984208039086e-06,
+      "hausdorff_mm": 1.2587295227236444e-06
+    },
+    "U802_peripheral_paste_2": {
+      "pass": true,
+      "CAM_object": 312,
+      "class": "Region",
+      "area_mm2": 0.24000000000000254,
+      "bounds_local_mm": [
+        -0.39999909999999517,
+        -1.8250008800000046,
+        -0.0999990999999909,
+        -1.0250008800000074
+      ],
+      "symmetric_difference_mm2": 1.9679984307514818e-06,
+      "hausdorff_mm": 1.2587295278040725e-06
+    },
+    "U802_pad_3": {
+      "pass": true,
+      "CAM_object": 764,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000113,
+      "bounds_local_mm": [
+        0.10000090000000483,
+        -1.8250008800000046,
+        0.400000900000002,
+        -1.0250008799999932
+      ],
+      "symmetric_difference_mm2": 1.9679984207595e-06,
+      "hausdorff_mm": 1.258729522703799e-06
+    },
+    "U802_peripheral_paste_3": {
+      "pass": true,
+      "CAM_object": 313,
+      "class": "Region",
+      "area_mm2": 0.24000000000000254,
+      "bounds_local_mm": [
+        0.10000090000000483,
+        -1.8250008800000046,
+        0.4000009000000091,
+        -1.0250008800000074
+      ],
+      "symmetric_difference_mm2": 1.9679984307070727e-06,
+      "hausdorff_mm": 1.258729527784227e-06
+    },
+    "U802_pad_4": {
+      "pass": true,
+      "CAM_object": 765,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000113,
+      "bounds_local_mm": [
+        0.6000009000000048,
+        -1.8250008800000046,
+        0.900000900000002,
+        -1.0250008799999932
+      ],
+      "symmetric_difference_mm2": 1.967998420781704e-06,
+      "hausdorff_mm": 1.258729522703799e-06
+    },
+    "U802_peripheral_paste_4": {
+      "pass": true,
+      "CAM_object": 314,
+      "class": "Region",
+      "area_mm2": 0.24000000000000254,
+      "bounds_local_mm": [
+        0.6000009000000048,
+        -1.8250008800000046,
+        0.9000009000000091,
+        -1.0250008800000074
+      ],
+      "symmetric_difference_mm2": 1.9679984307292772e-06,
+      "hausdorff_mm": 1.258729527784227e-06
+    },
+    "U802_pad_5": {
+      "pass": true,
+      "CAM_object": 766,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000823,
+      "bounds_local_mm": [
+        1.025000900000009,
+        -0.9000008800000074,
+        1.8250009000000063,
+        -0.6000008799999961
+      ],
+      "symmetric_difference_mm2": 1.9479984233901405e-06,
+      "hausdorff_mm": 1.258729527736598e-06
+    },
+    "U802_peripheral_paste_5": {
+      "pass": true,
+      "CAM_object": 315,
+      "class": "Region",
+      "area_mm2": 0.23999999999999688,
+      "bounds_local_mm": [
+        1.025000900000009,
+        -0.9000008800000074,
+        1.8250009000000063,
+        -0.6000008800000103
+      ],
+      "symmetric_difference_mm2": 1.947998434758799e-06,
+      "hausdorff_mm": 1.258729531977344e-06
+    },
+    "U802_pad_6": {
+      "pass": true,
+      "CAM_object": 767,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000823,
+      "bounds_local_mm": [
+        1.025000900000009,
+        -0.40000088000000744,
+        1.8250009000000063,
+        -0.10000087999999607
+      ],
+      "symmetric_difference_mm2": 1.9479984233679364e-06,
+      "hausdorff_mm": 1.258729527736598e-06
+    },
+    "U802_peripheral_paste_6": {
+      "pass": true,
+      "CAM_object": 316,
+      "class": "Region",
+      "area_mm2": 0.23999999999999688,
+      "bounds_local_mm": [
+        1.025000900000009,
+        -0.40000088000000744,
+        1.8250009000000063,
+        -0.10000088000001028
+      ],
+      "symmetric_difference_mm2": 1.9479984347365945e-06,
+      "hausdorff_mm": 1.2587295319579398e-06
+    },
+    "U802_pad_7": {
+      "pass": true,
+      "CAM_object": 768,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000823,
+      "bounds_local_mm": [
+        1.025000900000009,
+        0.09999911999999256,
+        1.8250009000000063,
+        0.3999991200000039
+      ],
+      "symmetric_difference_mm2": 1.947998423412345e-06,
+      "hausdorff_mm": 1.2587295277560025e-06
+    },
+    "U802_peripheral_paste_7": {
+      "pass": true,
+      "CAM_object": 317,
+      "class": "Region",
+      "area_mm2": 0.23999999999999688,
+      "bounds_local_mm": [
+        1.025000900000009,
+        0.09999911999999256,
+        1.8250009000000063,
+        0.3999991199999897
+      ],
+      "symmetric_difference_mm2": 1.947998434781003e-06,
+      "hausdorff_mm": 1.258729531977344e-06
+    },
+    "U802_pad_8": {
+      "pass": true,
+      "CAM_object": 769,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000823,
+      "bounds_local_mm": [
+        1.025000900000009,
+        0.5999991199999926,
+        1.8250009000000063,
+        0.8999991200000039
+      ],
+      "symmetric_difference_mm2": 1.9479984233901405e-06,
+      "hausdorff_mm": 1.258729527736598e-06
+    },
+    "U802_peripheral_paste_8": {
+      "pass": true,
+      "CAM_object": 318,
+      "class": "Region",
+      "area_mm2": 0.23999999999999688,
+      "bounds_local_mm": [
+        1.025000900000009,
+        0.5999991199999926,
+        1.8250009000000063,
+        0.8999991199999897
+      ],
+      "symmetric_difference_mm2": 1.947998434758799e-06,
+      "hausdorff_mm": 1.258729531977344e-06
+    },
+    "U802_pad_9": {
+      "pass": true,
+      "CAM_object": 770,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000113,
+      "bounds_local_mm": [
+        0.6000009000000048,
+        1.0249991199999897,
+        0.900000900000002,
+        1.824999120000001
+      ],
+      "symmetric_difference_mm2": 1.96799842424559e-06,
+      "hausdorff_mm": 1.2587295267399168e-06
+    },
+    "U802_peripheral_paste_9": {
+      "pass": true,
+      "CAM_object": 319,
+      "class": "Region",
+      "area_mm2": 0.24000000000000682,
+      "bounds_local_mm": [
+        0.6000009000000048,
+        1.0249991199999897,
+        0.9000009000000091,
+        1.824999120000001
+      ],
+      "symmetric_difference_mm2": 1.967998429929932e-06,
+      "hausdorff_mm": 1.2587295318203448e-06
+    },
+    "U802_pad_10": {
+      "pass": true,
+      "CAM_object": 771,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000113,
+      "bounds_local_mm": [
+        0.10000090000000483,
+        1.0249991199999897,
+        0.400000900000002,
+        1.824999120000001
+      ],
+      "symmetric_difference_mm2": 1.9679984242233853e-06,
+      "hausdorff_mm": 1.2587295267399168e-06
+    },
+    "U802_peripheral_paste_10": {
+      "pass": true,
+      "CAM_object": 320,
+      "class": "Region",
+      "area_mm2": 0.24000000000000682,
+      "bounds_local_mm": [
+        0.10000090000000483,
+        1.0249991199999897,
+        0.4000009000000091,
+        1.824999120000001
+      ],
+      "symmetric_difference_mm2": 1.967998429907727e-06,
+      "hausdorff_mm": 1.2587295318203448e-06
+    },
+    "U802_pad_11": {
+      "pass": true,
+      "CAM_object": 772,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000113,
+      "bounds_local_mm": [
+        -0.39999909999999517,
+        1.0249991199999897,
+        -0.09999909999999801,
+        1.824999120000001
+      ],
+      "symmetric_difference_mm2": 1.9679984242677944e-06,
+      "hausdorff_mm": 1.2587295267597624e-06
+    },
+    "U802_peripheral_paste_11": {
+      "pass": true,
+      "CAM_object": 321,
+      "class": "Region",
+      "area_mm2": 0.24000000000000682,
+      "bounds_local_mm": [
+        -0.39999909999999517,
+        1.0249991199999897,
+        -0.0999990999999909,
+        1.824999120000001
+      ],
+      "symmetric_difference_mm2": 1.967998429952136e-06,
+      "hausdorff_mm": 1.2587295318401902e-06
+    },
+    "U802_pad_12": {
+      "pass": true,
+      "CAM_object": 773,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000113,
+      "bounds_local_mm": [
+        -0.8999990999999952,
+        1.0249991199999897,
+        -0.599999099999998,
+        1.824999120000001
+      ],
+      "symmetric_difference_mm2": 1.96799842424559e-06,
+      "hausdorff_mm": 1.2587295267399168e-06
+    },
+    "U802_peripheral_paste_12": {
+      "pass": true,
+      "CAM_object": 322,
+      "class": "Region",
+      "area_mm2": 0.24000000000000682,
+      "bounds_local_mm": [
+        -0.8999990999999952,
+        1.0249991199999897,
+        -0.5999990999999909,
+        1.824999120000001
+      ],
+      "symmetric_difference_mm2": 1.967998429929932e-06,
+      "hausdorff_mm": 1.2587295318203448e-06
+    },
+    "U802_pad_13": {
+      "pass": true,
+      "CAM_object": 774,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000823,
+      "bounds_local_mm": [
+        -1.8249990999999923,
+        0.5999991199999926,
+        -1.0249990999999952,
+        0.8999991200000039
+      ],
+      "symmetric_difference_mm2": 1.9479984225907824e-06,
+      "hausdorff_mm": 1.2587295267840178e-06
+    },
+    "U802_peripheral_paste_13": {
+      "pass": true,
+      "CAM_object": 323,
+      "class": "Region",
+      "area_mm2": 0.23999999999999688,
+      "bounds_local_mm": [
+        -1.8249990999999923,
+        0.5999991199999926,
+        -1.0249990999999952,
+        0.8999991199999897
+      ],
+      "symmetric_difference_mm2": 1.947998433959441e-06,
+      "hausdorff_mm": 1.2587295310247638e-06
+    },
+    "U802_pad_14": {
+      "pass": true,
+      "CAM_object": 775,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000823,
+      "bounds_local_mm": [
+        -1.8249990999999923,
+        0.09999911999999256,
+        -1.0249990999999952,
+        0.3999991200000039
+      ],
+      "symmetric_difference_mm2": 1.947998422612987e-06,
+      "hausdorff_mm": 1.2587295268034223e-06
+    },
+    "U802_peripheral_paste_14": {
+      "pass": true,
+      "CAM_object": 324,
+      "class": "Region",
+      "area_mm2": 0.23999999999999688,
+      "bounds_local_mm": [
+        -1.8249990999999923,
+        0.09999911999999256,
+        -1.0249990999999952,
+        0.3999991199999897
+      ],
+      "symmetric_difference_mm2": 1.9479984339816455e-06,
+      "hausdorff_mm": 1.2587295310247638e-06
+    },
+    "U802_pad_15": {
+      "pass": true,
+      "CAM_object": 776,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000823,
+      "bounds_local_mm": [
+        -1.8249990999999923,
+        -0.40000088000000744,
+        -1.0249990999999952,
+        -0.10000087999999607
+      ],
+      "symmetric_difference_mm2": 1.9479984225685783e-06,
+      "hausdorff_mm": 1.2587295267840178e-06
+    },
+    "U802_peripheral_paste_15": {
+      "pass": true,
+      "CAM_object": 325,
+      "class": "Region",
+      "area_mm2": 0.23999999999999688,
+      "bounds_local_mm": [
+        -1.8249990999999923,
+        -0.40000088000000744,
+        -1.0249990999999952,
+        -0.10000088000001028
+      ],
+      "symmetric_difference_mm2": 1.9479984339372364e-06,
+      "hausdorff_mm": 1.2587295310053596e-06
+    },
+    "U802_pad_16": {
+      "pass": true,
+      "CAM_object": 777,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000823,
+      "bounds_local_mm": [
+        -1.8249990999999923,
+        -0.9000008800000074,
+        -1.0249990999999952,
+        -0.6000008799999961
+      ],
+      "symmetric_difference_mm2": 1.9479984225907824e-06,
+      "hausdorff_mm": 1.2587295267840178e-06
+    },
+    "U802_peripheral_paste_16": {
+      "pass": true,
+      "CAM_object": 326,
+      "class": "Region",
+      "area_mm2": 0.23999999999999688,
+      "bounds_local_mm": [
+        -1.8249990999999923,
+        -0.9000008800000074,
+        -1.0249990999999952,
+        -0.6000008800000103
+      ],
+      "symmetric_difference_mm2": 1.947998433959441e-06,
+      "hausdorff_mm": 1.2587295310247638e-06
+    },
+    "U802_pad_17": {
+      "pass": true,
+      "CAM_object": 778,
+      "class": "Flash",
+      "area_mm2": 1.5128999999999924,
+      "bounds_local_mm": [
+        -0.6149990999999986,
+        -0.6150008799999966,
+        0.6150009000000054,
+        0.6149991199999931
+      ],
+      "symmetric_difference_mm2": 4.378798428716496e-06,
+      "hausdorff_mm": 1.258729524014479e-06
+    },
+    "U802_EP_paste_windows_exact": {
+      "pass": true,
+      "actual_area_mm2": 1.0,
+      "expected_area_mm2": 1.0,
+      "components": 4,
+      "symmetric_difference_mm2": 7.119993698877359e-06,
+      "hausdorff_mm": 1.2587295269568934e-06
+    },
+    "U802_EP_window_count": {
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    "U802_via_land_1": {
+      "pass": true,
+      "CAM_object": 811,
+      "class": "Flash",
+      "area_mm2": 0.2827402010757204,
+      "bounds_local_mm": [
+        -0.049999099999993746,
+        -2.599998383055137,
+        0.5500009000000006,
+        -2.0000033769448606
+      ],
+      "symmetric_difference_mm2": 2.953796175879986e-06,
+      "hausdorff_mm": 3.7556198128770213e-06
+    },
+    "U802_via_land_2": {
+      "pass": true,
+      "CAM_object": 812,
+      "class": "Flash",
+      "area_mm2": 0.2827402010757204,
+      "bounds_local_mm": [
+        -0.5499990999999937,
+        2.000001616944857,
+        0.05000090000000057,
+        2.5999966230551337
+      ],
+      "symmetric_difference_mm2": 2.953796177187923e-06,
+      "hausdorff_mm": 3.7556198166649187e-06
+    },
+    "U802_via_land_3": {
+      "pass": true,
+      "CAM_object": 813,
+      "class": "Flash",
+      "area_mm2": 0.2827402010757274,
+      "bounds_local_mm": [
+        -2.5999990999999945,
+        -0.54999838305514,
+        -1.999999099999993,
+        0.049996623055136524
+      ],
+      "symmetric_difference_mm2": 2.953796171804692e-06,
+      "hausdorff_mm": 3.7556198104178402e-06
+    },
+    "U802_via_land_4": {
+      "pass": true,
+      "CAM_object": 814,
+      "class": "Flash",
+      "area_mm2": 0.2827402010757204,
+      "bounds_local_mm": [
+        -1.349999099999991,
+        2.1000016169448514,
+        -0.7499990999999966,
+        2.699996623055128
+      ],
+      "symmetric_difference_mm2": 2.953796179368379e-06,
+      "hausdorff_mm": 3.755619822866187e-06
+    },
+    "U802_drills": {
+      "pass": true,
+      "actual": [
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 4,
+          "plated": true,
+          "center_world_mm": [
+            34.24959000000001,
+            -73.30119999999997
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            0.2500009000000032,
+            -2.30000088
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 5,
+          "plated": true,
+          "center_world_mm": [
+            33.749590000000026,
+            -68.70120000000001
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -0.2499990999999965,
+            2.2999991199999954
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 6,
+          "plated": true,
+          "center_world_mm": [
+            31.69959000000002,
+            -71.25120000000003
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -2.2999990999999924,
+            -0.25000088000000176
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 7,
+          "plated": true,
+          "center_world_mm": [
+            32.94959000000001,
+            -68.60120000000002
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -1.0499990999999933,
+            2.3999991199999884
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        }
+      ],
+      "expected_count": 4,
+      "unmatched": 0,
+      "errors": []
+    },
+    "U802_paste_avoids_vias": {
+      "pass": true
+    },
+    "U203_pad_1": {
+      "pass": true,
+      "CAM_object": 575,
+      "class": "Flash",
+      "area_mm2": 0.2099999999999978,
+      "bounds_local_mm": [
+        -0.8999970399999881,
+        -1.3400008200000002,
+        -0.599997039999991,
+        -0.6400008200000009
+      ],
+      "symmetric_difference_mm2": 4.635995160579189e-06,
+      "hausdorff_mm": 3.0714817387998797e-06
+    },
+    "U203_peripheral_paste_1": {
+      "pass": true,
+      "CAM_object": 299,
+      "class": "Region",
+      "area_mm2": 0.21000000000000277,
+      "bounds_local_mm": [
+        -0.8999970399999953,
+        -1.3400008200000002,
+        -0.599997039999991,
+        -0.6400008200000009
+      ],
+      "symmetric_difference_mm2": 4.635995155605401e-06,
+      "hausdorff_mm": 3.071481735869871e-06
+    },
+    "U203_pad_2": {
+      "pass": true,
+      "CAM_object": 576,
+      "class": "Flash",
+      "area_mm2": 0.2099999999999978,
+      "bounds_local_mm": [
+        -0.39999703999998815,
+        -1.3400008200000002,
+        -0.09999703999999099,
+        -0.6400008200000009
+      ],
+      "symmetric_difference_mm2": 4.635995160598617e-06,
+      "hausdorff_mm": 3.0714817387998797e-06
+    },
+    "U203_peripheral_paste_2": {
+      "pass": true,
+      "CAM_object": 300,
+      "class": "Region",
+      "area_mm2": 0.21000000000000277,
+      "bounds_local_mm": [
+        -0.39999703999999525,
+        -1.3400008200000002,
+        -0.09999703999999099,
+        -0.6400008200000009
+      ],
+      "symmetric_difference_mm2": 4.6359951556248304e-06,
+      "hausdorff_mm": 3.071481735896619e-06
+    },
+    "U203_pad_3": {
+      "pass": true,
+      "CAM_object": 577,
+      "class": "Flash",
+      "area_mm2": 0.2099999999999978,
+      "bounds_local_mm": [
+        0.10000296000001185,
+        -1.3400008200000002,
+        0.400002960000009,
+        -0.6400008200000009
+      ],
+      "symmetric_difference_mm2": 4.63599516055976e-06,
+      "hausdorff_mm": 3.0714817387731316e-06
+    },
+    "U203_peripheral_paste_3": {
+      "pass": true,
+      "CAM_object": 301,
+      "class": "Region",
+      "area_mm2": 0.21000000000000277,
+      "bounds_local_mm": [
+        0.10000296000000475,
+        -1.3400008200000002,
+        0.400002960000009,
+        -0.6400008200000009
+      ],
+      "symmetric_difference_mm2": 4.635995155585972e-06,
+      "hausdorff_mm": 3.071481735869871e-06
+    },
+    "U203_pad_4": {
+      "pass": true,
+      "CAM_object": 578,
+      "class": "Flash",
+      "area_mm2": 0.2099999999999978,
+      "bounds_local_mm": [
+        0.6000029600000119,
+        -1.3400008200000002,
+        0.900002960000009,
+        -0.6400008200000009
+      ],
+      "symmetric_difference_mm2": 4.635995160579189e-06,
+      "hausdorff_mm": 3.0714817387998797e-06
+    },
+    "U203_peripheral_paste_4": {
+      "pass": true,
+      "CAM_object": 302,
+      "class": "Region",
+      "area_mm2": 0.21000000000000277,
+      "bounds_local_mm": [
+        0.6000029600000047,
+        -1.3400008200000002,
+        0.900002960000009,
+        -0.6400008200000009
+      ],
+      "symmetric_difference_mm2": 4.635995155605401e-06,
+      "hausdorff_mm": 3.071481735869871e-06
+    },
+    "U203_pad_5": {
+      "pass": true,
+      "CAM_object": 579,
+      "class": "Flash",
+      "area_mm2": 0.2099999999999978,
+      "bounds_local_mm": [
+        0.6000029600000119,
+        0.6399991800000002,
+        0.900002960000009,
+        1.3399991799999995
+      ],
+      "symmetric_difference_mm2": 4.6359951602461245e-06,
+      "hausdorff_mm": 3.0714817386516802e-06
+    },
+    "U203_peripheral_paste_5": {
+      "pass": true,
+      "CAM_object": 303,
+      "class": "Region",
+      "area_mm2": 0.2100000000000033,
+      "bounds_local_mm": [
+        0.6000029600000047,
+        0.6399991799999984,
+        0.900002960000009,
+        1.3399991799999995
+      ],
+      "symmetric_difference_mm2": 4.635995155805244e-06,
+      "hausdorff_mm": 3.07148173619591e-06
+    },
+    "U203_pad_6": {
+      "pass": true,
+      "CAM_object": 580,
+      "class": "Flash",
+      "area_mm2": 0.2099999999999978,
+      "bounds_local_mm": [
+        0.10000296000001185,
+        0.6399991800000002,
+        0.400002960000009,
+        1.3399991799999995
+      ],
+      "symmetric_difference_mm2": 4.635995160226696e-06,
+      "hausdorff_mm": 3.0714817386249326e-06
+    },
+    "U203_peripheral_paste_6": {
+      "pass": true,
+      "CAM_object": 304,
+      "class": "Region",
+      "area_mm2": 0.2100000000000033,
+      "bounds_local_mm": [
+        0.10000296000000475,
+        0.6399991799999984,
+        0.400002960000009,
+        1.3399991799999995
+      ],
+      "symmetric_difference_mm2": 4.635995155785815e-06,
+      "hausdorff_mm": 3.07148173619591e-06
+    },
+    "U203_pad_7": {
+      "pass": true,
+      "CAM_object": 581,
+      "class": "Flash",
+      "area_mm2": 0.2099999999999978,
+      "bounds_local_mm": [
+        -0.39999703999998815,
+        0.6399991800000002,
+        -0.09999703999999099,
+        1.3399991799999995
+      ],
+      "symmetric_difference_mm2": 4.635995160265554e-06,
+      "hausdorff_mm": 3.0714817386516802e-06
+    },
+    "U203_peripheral_paste_7": {
+      "pass": true,
+      "CAM_object": 305,
+      "class": "Region",
+      "area_mm2": 0.2100000000000033,
+      "bounds_local_mm": [
+        -0.39999703999999525,
+        0.6399991799999984,
+        -0.09999703999999099,
+        1.3399991799999995
+      ],
+      "symmetric_difference_mm2": 4.6359951558246735e-06,
+      "hausdorff_mm": 3.071481736222658e-06
+    },
+    "U203_pad_8": {
+      "pass": true,
+      "CAM_object": 582,
+      "class": "Flash",
+      "area_mm2": 0.2099999999999978,
+      "bounds_local_mm": [
+        -0.8999970399999881,
+        0.6399991800000002,
+        -0.599997039999991,
+        1.3399991799999995
+      ],
+      "symmetric_difference_mm2": 4.6359951602461245e-06,
+      "hausdorff_mm": 3.0714817386516802e-06
+    },
+    "U203_peripheral_paste_8": {
+      "pass": true,
+      "CAM_object": 306,
+      "class": "Region",
+      "area_mm2": 0.2100000000000033,
+      "bounds_local_mm": [
+        -0.8999970399999953,
+        0.6399991799999984,
+        -0.599997039999991,
+        1.3399991799999995
+      ],
+      "symmetric_difference_mm2": 4.635995155805244e-06,
+      "hausdorff_mm": 3.07148173619591e-06
+    },
+    "U203_pad_9": {
+      "pass": true,
+      "CAM_object": 583,
+      "class": "Flash",
+      "area_mm2": 1.1039999999999974,
+      "bounds_local_mm": [
+        -0.6899970399999873,
+        -0.4000008200000007,
+        0.6900029600000082,
+        0.39999918
+      ],
+      "symmetric_difference_mm2": 6.999195163245514e-06,
+      "hausdorff_mm": 3.0714817393117095e-06
+    },
+    "U203_EP_paste_windows_exact": {
+      "pass": true,
+      "actual_area_mm2": 0.716799999999997,
+      "expected_area_mm2": 0.7168000000000001,
+      "components": 2,
+      "symmetric_difference_mm2": 9.414390316122947e-06,
+      "hausdorff_mm": 3.0714817376609143e-06
+    },
+    "U203_EP_window_count": {
+      "pass": true,
+      "actual": 2,
+      "expected": 2
+    },
+    "U203_via_land_1": {
+      "pass": true,
+      "CAM_object": 815,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572734,
+      "bounds_local_mm": [
+        -1.5999945430551392,
+        -0.30000082000000106,
+        -0.9999995369448484,
+        0.29999918000000036
+      ],
+      "symmetric_difference_mm2": 4.216354626960033e-06,
+      "hausdorff_mm": 5.559046827090161e-06
+    },
+    "U203_via_land_2": {
+      "pass": true,
+      "CAM_object": 816,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572734,
+      "bounds_local_mm": [
+        1.0000054569448622,
+        -0.30000082000000106,
+        1.600000463055153,
+        0.29999918000000036
+      ],
+      "symmetric_difference_mm2": 4.216354628364035e-06,
+      "hausdorff_mm": 5.559046828477461e-06
+    },
+    "U203_drills": {
+      "pass": true,
+      "actual": [
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 8,
+          "plated": true,
+          "center_world_mm": [
+            13.999419999999986,
+            -46.70009999999994
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -1.2999970399999938,
+            -8.200000003369648e-07
+          ],
+          "diameter_measured_mm": 0.3000000000000007
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 9,
+          "plated": true,
+          "center_world_mm": [
+            13.999419999999986,
+            -49.3001
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            1.3000029600000043,
+            -8.200000003369648e-07
+          ],
+          "diameter_measured_mm": 0.3000000000000007
+        }
+      ],
+      "expected_count": 2,
+      "unmatched": 0,
+      "errors": []
+    },
+    "U203_paste_avoids_vias": {
+      "pass": true
+    },
+    "U301_central_zero_paste": {
+      "pass": true,
+      "area_mm2": 0.0
+    },
+    "U301_continuous_central_copper": {
+      "pass": true,
+      "missing_mm2": 1.3571996980522274e-05,
+      "components": 1
+    },
+    "U301_drills": {
+      "pass": true,
+      "actual": [
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 10,
+          "plated": true,
+          "center_world_mm": [
+            46.600660000000026,
+            -8.50151
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -2.900122380000007,
+            1.8748751399999986
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 11,
+          "plated": true,
+          "center_world_mm": [
+            46.60066000000002,
+            -9.901510000000005
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -2.900122380000007,
+            0.47487513999999825
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 12,
+          "plated": true,
+          "center_world_mm": [
+            47.30066000000004,
+            -7.80151
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -2.200122380000003,
+            2.574875139999997
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 13,
+          "plated": true,
+          "center_world_mm": [
+            47.30065999999998,
+            -9.201509999999999
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -2.2001223800000065,
+            1.1748751399999984
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 14,
+          "plated": true,
+          "center_world_mm": [
+            47.30065999999998,
+            -10.60150999999999
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -2.2001223800000065,
+            -0.22512486000000104
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 15,
+          "plated": true,
+          "center_world_mm": [
+            48.000659999999975,
+            -8.50151
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -1.5001223799999996,
+            1.8748751399999986
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 16,
+          "plated": true,
+          "center_world_mm": [
+            48.00065999999997,
+            -9.901510000000005
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -1.5001223800000003,
+            0.47487513999999825
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 17,
+          "plated": true,
+          "center_world_mm": [
+            48.700659999999964,
+            -7.80151
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -0.8001223800000048,
+            2.5748751399999965
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 18,
+          "plated": true,
+          "center_world_mm": [
+            48.700659999999935,
+            -9.201509999999997
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -0.8001223800000048,
+            1.174875139999998
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 19,
+          "plated": true,
+          "center_world_mm": [
+            48.700659999999935,
+            -10.60150999999999
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -0.8001223800000048,
+            -0.22512486000000098
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 20,
+          "plated": true,
+          "center_world_mm": [
+            49.40065999999998,
+            -8.501510000000001
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -0.10012238000000197,
+            1.8748751399999986
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        },
+        {
+          "file": "Drill_PTH_Through.DRL",
+          "index": 21,
+          "plated": true,
+          "center_world_mm": [
+            49.400659999999974,
+            -9.901510000000004
+          ],
+          "diameter_mm": 0.3,
+          "class": "Flash",
+          "center_local_mm": [
+            -0.10012238000000195,
+            0.4748751399999982
+          ],
+          "diameter_measured_mm": 0.29999999999999716
+        }
+      ],
+      "expected_count": 12,
+      "unmatched": 0,
+      "errors": []
+    },
+    "U301_via_land_1": {
+      "pass": true,
+      "CAM_object": 817,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572057,
+      "bounds_local_mm": [
+        -3.2001223800000034,
+        1.5748776369448603,
+        -2.600122380000009,
+        2.174872643055137
+      ],
+      "symmetric_difference_mm2": 3.6411457780142513e-06,
+      "hausdorff_mm": 4.96081979136011e-06
+    },
+    "U301_via_land_2": {
+      "pass": true,
+      "CAM_object": 818,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572073,
+      "bounds_local_mm": [
+        -3.2001223800000034,
+        0.17487763694485992,
+        -2.600122380000009,
+        0.7748726430551365
+      ],
+      "symmetric_difference_mm2": 3.6411457781095167e-06,
+      "hausdorff_mm": 4.960819791605494e-06
+    },
+    "U301_via_land_3": {
+      "pass": true,
+      "CAM_object": 819,
+      "class": "Flash",
+      "area_mm2": 0.2827402010757205,
+      "bounds_local_mm": [
+        -2.5001223800000005,
+        2.2748776369448596,
+        -1.9001223800000062,
+        2.874872643055137
+      ],
+      "symmetric_difference_mm2": 3.6411457800317635e-06,
+      "hausdorff_mm": 4.960819794197132e-06
+    },
+    "U301_via_land_4": {
+      "pass": true,
+      "CAM_object": 820,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572073,
+      "bounds_local_mm": [
+        -2.5001223800000005,
+        0.8748776369448592,
+        -1.9001223800000062,
+        1.4748726430551358
+      ],
+      "symmetric_difference_mm2": 3.6411457802990033e-06,
+      "hausdorff_mm": 4.960819794197132e-06
+    },
+    "U301_via_land_5": {
+      "pass": true,
+      "CAM_object": 821,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572073,
+      "bounds_local_mm": [
+        -2.5001223800000005,
+        -0.5251223630551394,
+        -1.9001223800000062,
+        0.07487264305513719
+      ],
+      "symmetric_difference_mm2": 3.6411457796260026e-06,
+      "hausdorff_mm": 4.960819793390745e-06
+    },
+    "U301_via_land_6": {
+      "pass": true,
+      "CAM_object": 822,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572057,
+      "bounds_local_mm": [
+        -1.8001223799999977,
+        1.5748776369448603,
+        -1.2001223800000034,
+        2.174872643055137
+      ],
+      "symmetric_difference_mm2": 3.6411457809915857e-06,
+      "hausdorff_mm": 4.960819794974734e-06
+    },
+    "U301_via_land_7": {
+      "pass": true,
+      "CAM_object": 823,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572073,
+      "bounds_local_mm": [
+        -1.8001223799999977,
+        0.17487763694485992,
+        -1.2001223800000034,
+        0.7748726430551365
+      ],
+      "symmetric_difference_mm2": 3.6411457814020058e-06,
+      "hausdorff_mm": 4.960819795452053e-06
+    },
+    "U301_via_land_8": {
+      "pass": true,
+      "CAM_object": 824,
+      "class": "Flash",
+      "area_mm2": 0.2827402010757205,
+      "bounds_local_mm": [
+        -1.100122380000002,
+        2.2748776369448596,
+        -0.5001223800000076,
+        2.874872643055137
+      ],
+      "symmetric_difference_mm2": 3.6411457790292784e-06,
+      "hausdorff_mm": 4.960819793092351e-06
+    },
+    "U301_via_land_9": {
+      "pass": true,
+      "CAM_object": 825,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572073,
+      "bounds_local_mm": [
+        -1.100122380000002,
+        0.8748776369448592,
+        -0.5001223800000076,
+        1.4748726430551358
+      ],
+      "symmetric_difference_mm2": 3.6411457793850416e-06,
+      "hausdorff_mm": 4.9608197929422105e-06
+    },
+    "U301_via_land_10": {
+      "pass": true,
+      "CAM_object": 826,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572073,
+      "bounds_local_mm": [
+        -1.100122380000002,
+        -0.5251223630551394,
+        -0.5001223800000076,
+        0.07487264305513719
+      ],
+      "symmetric_difference_mm2": 3.64114577851503e-06,
+      "hausdorff_mm": 4.960819791988239e-06
+    },
+    "U301_via_land_11": {
+      "pass": true,
+      "CAM_object": 827,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572057,
+      "bounds_local_mm": [
+        -0.4001223799999991,
+        1.5748776369448603,
+        0.1998776199999952,
+        2.174872643055137
+      ],
+      "symmetric_difference_mm2": 3.641145780295532e-06,
+      "hausdorff_mm": 4.960819794197132e-06
+    },
+    "U301_via_land_12": {
+      "pass": true,
+      "CAM_object": 828,
+      "class": "Flash",
+      "area_mm2": 0.28274020107572073,
+      "bounds_local_mm": [
+        -0.4001223799999991,
+        0.17487763694485992,
+        0.1998776199999952,
+        0.7748726430551365
+      ],
+      "symmetric_difference_mm2": 3.6411457804803945e-06,
+      "hausdorff_mm": 4.960819794473327e-06
+    },
+    "U803_continuous_ring_dimensions": {
+      "pass": true,
+      "actual_area_mm2": 1.2723419137740763,
+      "expected_area_mm2": 1.2723430287372537,
+      "components": 1,
+      "symmetric_difference_mm2": 2.8515172412535922e-05,
+      "hausdorff_mm": 7.5826290814530745e-06
+    },
+    "U803_copper_ring_single_component_and_hole": {
+      "pass": true,
+      "components": 1,
+      "holes": 1
+    },
+    "U803_four_ring_paste_shapes_exact": {
+      "pass": true,
+      "actual_area_mm2": 0.9281565045005071,
+      "expected_area_mm2": 0.9281632407294641,
+      "components": 4,
+      "symmetric_difference_mm2": 3.203240621171938e-05,
+      "hausdorff_mm": 8.668177384383348e-06
+    },
+    "U803_four_paste_segments": {
+      "pass": true,
+      "components": 4
+    },
+    "U803_ten_total_paste_apertures": {
+      "pass": true,
+      "components": 10
+    },
+    "U803_signal_copper_1": {
+      "pass": true,
+      "CAM_object": 779,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000327,
+      "bounds_local_mm": [
+        -1.374925779999999,
+        1.3307318600000002,
+        -0.7749257799999993,
+        1.730731860000006
+      ],
+      "symmetric_difference_mm2": 2.8079961859395587e-06,
+      "hausdorff_mm": 2.380756185185249e-06
+    },
+    "U803_signal_paste_1": {
+      "pass": true,
+      "CAM_object": 327,
+      "class": "Region",
+      "area_mm2": 0.17340000000000166,
+      "bounds_local_mm": [
+        -1.329925779999999,
+        1.3607318600000013,
+        -0.8199257799999993,
+        1.7007318600000048
+      ],
+      "symmetric_difference_mm2": 2.386796185326367e-06,
+      "hausdorff_mm": 2.380756184887729e-06
+    },
+    "U803_signal_copper_2": {
+      "pass": true,
+      "CAM_object": 780,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000327,
+      "bounds_local_mm": [
+        -1.374925779999999,
+        0.6804918600000036,
+        -0.7749257799999993,
+        1.0804918600000093
+      ],
+      "symmetric_difference_mm2": 2.8079961900695736e-06,
+      "hausdorff_mm": 2.380756186388386e-06
+    },
+    "U803_signal_paste_2": {
+      "pass": true,
+      "CAM_object": 328,
+      "class": "Region",
+      "area_mm2": 0.17340000000000166,
+      "bounds_local_mm": [
+        -1.329925779999999,
+        0.7104918600000047,
+        -0.8199257799999993,
+        1.0504918600000082
+      ],
+      "symmetric_difference_mm2": 2.3867961888368778e-06,
+      "hausdorff_mm": 2.380756186090866e-06
+    },
+    "U803_signal_copper_3": {
+      "pass": true,
+      "CAM_object": 781,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000327,
+      "bounds_local_mm": [
+        -1.374925779999999,
+        0.030501860000001102,
+        -0.7749257799999993,
+        0.4305018600000068
+      ],
+      "symmetric_difference_mm2": 5.543986054421643e-06,
+      "hausdorff_mm": 3.845516869827028e-06
+    },
+    "U803_signal_paste_3": {
+      "pass": true,
+      "CAM_object": 329,
+      "class": "Region",
+      "area_mm2": 0.17340000000000166,
+      "bounds_local_mm": [
+        -1.329925779999999,
+        0.06050186000000224,
+        -0.8199257799999993,
+        0.40050186000000565
+      ],
+      "symmetric_difference_mm2": 4.7123860550386e-06,
+      "hausdorff_mm": 3.845516868961921e-06
+    },
+    "U803_signal_copper_5": {
+      "pass": true,
+      "CAM_object": 782,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000363,
+      "bounds_local_mm": [
+        0.7749242200000008,
+        0.030501860000001102,
+        1.3749242200000014,
+        0.4305018600000068
+      ],
+      "symmetric_difference_mm2": 6.791976256104268e-06,
+      "hausdorff_mm": 4.914061455366989e-06
+    },
+    "U803_signal_paste_5": {
+      "pass": true,
+      "CAM_object": 330,
+      "class": "Region",
+      "area_mm2": 0.17340000000000197,
+      "bounds_local_mm": [
+        0.8199242200000008,
+        0.06050186000000224,
+        1.3299242200000014,
+        0.40050186000000565
+      ],
+      "symmetric_difference_mm2": 5.773176256928711e-06,
+      "hausdorff_mm": 4.914061454725241e-06
+    },
+    "U803_signal_copper_6": {
+      "pass": true,
+      "CAM_object": 783,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000363,
+      "bounds_local_mm": [
+        0.7749242200000008,
+        0.6804918600000036,
+        1.3749242200000014,
+        1.0804918600000093
+      ],
+      "symmetric_difference_mm2": 4.055993505324879e-06,
+      "hausdorff_mm": 3.876596446630193e-06
+    },
+    "U803_signal_paste_6": {
+      "pass": true,
+      "CAM_object": 331,
+      "class": "Region",
+      "area_mm2": 0.17340000000000197,
+      "bounds_local_mm": [
+        0.8199242200000008,
+        0.7104918600000047,
+        1.3299242200000014,
+        1.0504918600000082
+      ],
+      "symmetric_difference_mm2": 3.4475935043235572e-06,
+      "hausdorff_mm": 3.876596446492153e-06
+    },
+    "U803_signal_copper_7": {
+      "pass": true,
+      "CAM_object": 784,
+      "class": "Flash",
+      "area_mm2": 0.24000000000000363,
+      "bounds_local_mm": [
+        0.7749242200000008,
+        1.3307318600000002,
+        1.3749242200000014,
+        1.730731860000006
+      ],
+      "symmetric_difference_mm2": 4.055993501194862e-06,
+      "hausdorff_mm": 3.876596445891304e-06
+    },
+    "U803_signal_paste_7": {
+      "pass": true,
+      "CAM_object": 332,
+      "class": "Region",
+      "area_mm2": 0.17340000000000197,
+      "bounds_local_mm": [
+        0.8199242200000008,
+        1.3607318600000013,
+        1.3299242200000014,
+        1.7007318600000048
+      ],
+      "symmetric_difference_mm2": 3.4475935008130567e-06,
+      "hausdorff_mm": 3.876596445753263e-06
+    },
+    "U803_drills": {
+      "pass": true,
+      "actual": [
+        {
+          "file": "Drill_NPTH_Through.DRL",
+          "index": 0,
+          "plated": false,
+          "center_world_mm": [
+            6.99950000000001,
+            -68.00090000000012
+          ],
+          "diameter_mm": 0.6,
+          "class": "Flash",
+          "center_local_mm": [
+            4.220000001017078e-06,
+            -1.0493981399999954
+          ],
+          "diameter_measured_mm": 0.5999999999999996
+        }
+      ],
+      "expected_count": 1,
+      "unmatched": 0,
+      "errors": []
+    },
+    "U803_paste_clear_sound_hole": {
+      "pass": true
+    },
+    "U803_sound_channel_clear_F.Cu": {
+      "pass": true,
+      "intersection_mm2": 0.0
+    },
+    "U803_sound_channel_clear_In1.Cu": {
+      "pass": true,
+      "intersection_mm2": 0.0
+    },
+    "U803_sound_channel_clear_In2.Cu": {
+      "pass": true,
+      "intersection_mm2": 0.0
+    },
+    "U803_sound_channel_clear_B.Cu": {
+      "pass": true,
+      "intersection_mm2": 0.0
+    },
+    "inputs_byte_unchanged": {
+      "pass": true
+    }
+  },
+  "errors": [],
+  "measurements": {
+    "U101": {
+      "central_paste_area_mm2": 1.4385064719000002,
+      "EP_coverage_percent": 51.006274170773125,
+      "nominal_paste_hole_gap_mm": 0.21000999999999867,
+      "central_paste_area_ratio_at_010mm": 2.484998411396162
+    },
+    "U802": {
+      "EP_paste_area_mm2": 1.0,
+      "coverage_percent": 66.09822195782934
+    },
+    "U203": {
+      "EP_paste_area_mm2": 0.716799999999997,
+      "coverage_percent": 64.92753623188379
+    },
+    "U803": {
+      "ring_paste_area_mm2": 0.9281565045005071,
+      "ring_coverage_percent": 72.94860611777494
+    }
+  },
+  "routing_observations_not_layout_release_checks": {
+    "U101_VSS8_connected_in_current_CAM": true
+  },
+  "CAM_files": {
+    "Gerber_TopLayer.GTL": "b38aad0249dee699d2e0b123045f243e644730f0db5cf5ed50b5b30b4de45357",
+    "Gerber_BottomLayer.GBL": "19b70d1db3296d3ea44f40273bac8fc354aa239ec8e3ab14725675e5c13f5298",
+    "Gerber_TopSilkscreenLayer.GTO": "c4738718449f446b6ceb684b9b20bee107570df002a5053b802a63332fcd933c",
+    "Gerber_BottomSilkscreenLayer.GBO": "16f8a441d1fd589a025afbed6c240824dcbc157092700a2d6f9064f797a45f41",
+    "Gerber_TopSolderMaskLayer.GTS": "60aca20ce37b55878a569b57b27827fa8abcff99551d94c5dc9ccb4505b1f8a7",
+    "Gerber_BottomSolderMaskLayer.GBS": "84eed5814283162ef819572c1d731ba3c31d0585fa6ceaa2a8f4a65f37366e6e",
+    "Gerber_TopPasteMaskLayer.GTP": "ef2b38ba6c346c9e6ec81384057211886dbe6b5aaa5e9319c4794fcea286561d",
+    "Gerber_BoardOutlineLayer.GKO": "5c0e145804c0b02fb42f7500e18904999683d9e8d4e001faa81b73426bbe6ab1",
+    "Gerber_DocumentLayer.GDL": "729d57f964ae2cec19c14376587abd8e44ccde1b5d38b495708f70d1e78e5900",
+    "Gerber_InnerLayer1.G1": "a4aa0aa830acba2a581e9610546b532bfdc4299be27b19720757a93215b99572",
+    "Gerber_InnerLayer2.G2": "58b9749bef8f7e2c0fa587702d18b6617dda0311d120c2b0f81b6116881ca5cc",
+    "Gerber_DrillDrawingLayer.GDD": "e286861fc23bf0db15ba1e80ae84ef89542be571068cf8a7fca72a3c0250c379",
+    "Drill_PTH_Through.DRL": "205fa78b7e274479e32010dc3958f3cb8365a501c0a6dd9852542b2a6f451f9d",
+    "Drill_NPTH_Through.DRL": "fa505027c6326f6d3fc8a2a2e5ef64fc027c3ffd069684198e33d0ab60ec0738",
+    "Drill_PTH_Through_Via.DRL": "ce4bb6739fee131c7b21ea435fe2a7c3c602f522419916a442ca39e6d11e6ed9",
+    "FlyingProbeTesting.json": "fa0576b0fd599442200e08f283cd737c16b2ac98e059aead2e20368acb0b7473",
+    "PCB下单必读.txt": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+  },
+  "CAM_layer_stats": {
+    "F.Cu": {
+      "file": "Gerber_TopLayer.GTL",
+      "objects": 840
+    },
+    "B.Cu": {
+      "file": "Gerber_BottomLayer.GBL",
+      "objects": 121
+    },
+    "F.Mask": {
+      "file": "Gerber_TopSolderMaskLayer.GTS",
+      "objects": 829
+    },
+    "B.Mask": {
+      "file": "Gerber_BottomSolderMaskLayer.GBS",
+      "objects": 121
+    },
+    "F.Paste": {
+      "file": "Gerber_TopPasteMaskLayer.GTP",
+      "objects": 699
+    },
+    "In1.Cu": {
+      "file": "Gerber_InnerLayer1.G1",
+      "objects": 121
+    },
+    "In2.Cu": {
+      "file": "Gerber_InnerLayer2.G2",
+      "objects": 121
+    }
+  },
+  "Excellon_in_memory_normalization": [
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "explicit_G85_slots_expanded_in_memory": 4
+    }
+  ],
+  "duplicate_Excellon_subsidiary_views": [
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 0,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 0,
+      "center_world_mm": [
+        12.369929999999995,
+        -32.63044999999997
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 1,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 1,
+      "center_world_mm": [
+        12.369929999999988,
+        -31.370459999999987
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 2,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 2,
+      "center_world_mm": [
+        13.629930000000003,
+        -32.63044999999999
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 3,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 3,
+      "center_world_mm": [
+        13.629929999999993,
+        -31.370459999999973
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 4,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 4,
+      "center_world_mm": [
+        34.24959000000001,
+        -73.30119999999997
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 5,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 5,
+      "center_world_mm": [
+        33.749590000000026,
+        -68.70120000000001
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 6,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 6,
+      "center_world_mm": [
+        31.69959000000002,
+        -71.25120000000003
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 7,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 7,
+      "center_world_mm": [
+        32.94959000000001,
+        -68.60120000000002
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 8,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 8,
+      "center_world_mm": [
+        13.999419999999986,
+        -46.70009999999994
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 9,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 9,
+      "center_world_mm": [
+        13.999419999999986,
+        -49.3001
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 10,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 10,
+      "center_world_mm": [
+        46.600660000000026,
+        -8.50151
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 11,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 11,
+      "center_world_mm": [
+        46.60066000000002,
+        -9.901510000000005
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 12,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 12,
+      "center_world_mm": [
+        47.30066000000004,
+        -7.80151
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 13,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 13,
+      "center_world_mm": [
+        47.30065999999998,
+        -9.201509999999999
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 14,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 14,
+      "center_world_mm": [
+        47.30065999999998,
+        -10.60150999999999
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 15,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 15,
+      "center_world_mm": [
+        48.000659999999975,
+        -8.50151
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 16,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 16,
+      "center_world_mm": [
+        48.00065999999997,
+        -9.901510000000005
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 17,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 17,
+      "center_world_mm": [
+        48.700659999999964,
+        -7.80151
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 18,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 18,
+      "center_world_mm": [
+        48.700659999999935,
+        -9.201509999999997
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 19,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 19,
+      "center_world_mm": [
+        48.700659999999935,
+        -10.60150999999999
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 20,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 20,
+      "center_world_mm": [
+        49.40065999999998,
+        -8.501510000000001
+      ]
+    },
+    {
+      "view_file": "Drill_PTH_Through_Via.DRL",
+      "view_index": 21,
+      "authoritative_file": "Drill_PTH_Through.DRL",
+      "authoritative_index": 21,
+      "center_world_mm": [
+        49.400659999999974,
+        -9.901510000000004
+      ]
+    }
+  ],
+  "limitations": [
+    "No claim of completed routing, GND plane connectivity, board-wide DRC or complete manufacturing release.",
+    "U101 .03mm manual print registration, .02mm aperture-edge error and conservative .43mm/.075mm-hole scenario remain conditional assumptions; annular-ring and mask registration capability not established.",
+    "Open-via wicking, paste transfer, reflow voids, joint/thermal performance and microphone acoustic seal require first-board validation."
+  ]
+}

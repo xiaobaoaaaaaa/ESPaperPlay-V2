@@ -1,6 +1,6 @@
 {
-  "status": "SCHEMATIC_VERIFIED_PCB_PENDING_NOT_FOR_MANUFACTURING",
-  "date": "2026-11-16T00:24:22.126372+08:00",
+  "status": "NATIVE_PCB_LAYOUT_SAVED_STACK_AND_ROUTING_PENDING_NOT_FOR_MANUFACTURING",
+  "date": "2026-11-16T01:39:20.656944+08:00",
   "project_name": "ESPaperPlay V2 99mm Native",
   "project_uuid": "584d341c900b483c8f51ea584ed7fc13",
   "schematic_uuid": "5bedf48347e90f09",
@@ -18,13 +18,21 @@
   },
   "electrical_mapping": "PASS",
   "wire_geometry": "PASS all 12 pages; U301 actual body bounds used",
-  "visual_review": "PASS all 12 pages",
-  "pcb_status": "99x99mm four-layer outline and initial rules only; 0 native PCB components, no routing",
-  "archive_sha256": "df840a96339356ce5a634b2fa1a4ce864cb1fd7112f942852a35fd26a225e30a",
-  "archive_bytes": 1560931,
-  "next_step": "Resolve native footprint manufacturing differences, synchronize native schematic to PCB, place/route, then native DRC/CAM. No manufacturing release.",
+  "visual_review": "10 unchanged pages retain prior SVG review; MCU andUSB native rendered-canvas review; complete newSVG export timedout",
+  "pcb_status": "236 native components,803 physical pads,22 ordinary thermal vias,11 local GND tracks,4 mounting holes; no main signal routing or full pours",
+  "archive_sha256": "87dec9097ccc8ed4504f0a9ea351595a5fabddcf5c4f17573e0df96b828511ff",
+  "archive_bytes": 1832874,
+  "next_step": "Resolve native physical stack persistence and manufacturer standard stack, then main routing/pours/silkscreen, then fullDRC/CAM",
   "bridge_state": "Running; user resumed after reboot.",
-  "archive_coherence": "PASS",
-  "final_preview_changed_pixels": 0,
-  "blank_legacy_text_records": 9
+  "archive_coherence": "Schematic PASS; PCB/footprints geometry andrules checked separately withstack discrepancy retained",
+  "blank_legacy_text_records": 9,
+  "pcb_native_drc": {
+    "connection_errors": 771,
+    "non_connection_errors": 0,
+    "manufacturing_pass": false
+  },
+  "native_pcb_net_mapping": "PASS 803 physical pads and792 logical pins",
+  "mechanical_check": "PASS current pads/vias/local tracks vs24 copper keepouts",
+  "special_cam": "PASS153 critical footprint checks;677 generalSMD presence screen;J501 separate PASS",
+  "stack_status": "PENDING: proposed1.6mm reference did not persist; runtime default1.693672mm; archive omits4 runtime physical layer defaults"
 }

@@ -1,0 +1,1110 @@
+{
+  "status": "GEOMETRY_RULES_PASS_STACK_PENDING",
+  "scope": "Official archive versus PCB and eight native footprint snapshots; not connectivity, DRC, CAM, assembly, impedance, or manufacturer-stack certification.",
+  "archive": {
+    "path": "hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
+    "sha256": "87dec9097ccc8ed4504f0a9ea351595a5fabddcf5c4f17573e0df96b828511ff",
+    "log_entry": "ESPaperPlay V2 99mm Native.epru",
+    "log_sha256": "3e00284cb1c924e8f0cfba4bb4bd568532388bc708ed94524831440fdac1e809",
+    "merge": {
+      "document_segments": 192,
+      "raw_records": 22101,
+      "accepted_tombstones": 2456
+    },
+    "document_count": 192
+  },
+  "normalization": {
+    "record_identity": "(type,id); no geometry IDs are remapped.",
+    "ticket_client": "Highest ticket; equal ticket chooses lexicographically smaller DOCHEAD.client; equal ticket/client last record wins; tombstones applied.",
+    "numeric": "Exact numeric equality only (1 equals1.0); boolean differs from number; no coordinate tolerance, rounding, or unit conversion in comparison.",
+    "object_order": "JSON object order ignored; list order, null/absent fields, all geometry/attribute bodies retained.",
+    "layer_display_fields_excluded": [
+      "activateTransparency",
+      "activeColor",
+      "inactiveColor",
+      "inactiveTransparency",
+      "locked",
+      "show"
+    ],
+    "exact_default_representation_differences": [
+      {
+        "type": "RULE_SELECTOR",
+        "id": "[\"RULE_SELECTOR\",[\"NET\",\"\"]]",
+        "present_only_in": "snapshot",
+        "exact_body": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {
+            "NET_LENGTH_TOLERANCE": [
+              "default",
+              null
+            ]
+          },
+          "copperValue": {},
+          "innerPlaneValue": {},
+          "parent": null
+        },
+        "reason": "Runtime-added selector of the empty net, containing only the default length-tolerance binding."
+      },
+      {
+        "type": "RULE",
+        "id": "[\"RULE\",\"HEIGHT\",\"height\"]",
+        "present_only_in": "archive",
+        "exact_body": {
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "maxHeight": 0
+          }
+        },
+        "reason": "Archive-only DEFAULT height rule with maxHeight=0; no physical/routing rule is discarded."
+      }
+    ]
+  },
+  "excluded_editor_record_types": {
+    "CANVAS": "Editor viewport, grid and editing origin preferences.",
+    "ACTIVE_LAYER": "Currently selected editor layer.",
+    "PRIMITIVE": "Primitive visibility/picking/color preferences, not geometry.",
+    "PREFERENCE": "Interactive routing/editing preferences, not persisted copper.",
+    "ELE_PLACEHOLDER": "Next-element counters, not physical elements.",
+    "META": "Library/project document metadata; identity checked via DOCHEAD and footprint references.",
+    "D3_ATTRIBUTE": "3D appearance/settings; not a replacement for LAYER_PHYS.",
+    "SILK_OPTS": "Editor silkscreen foreground/background color preferences; actual silk geometry is compared."
+  },
+  "footprint_scope_note": "Footprint PAD/FILL/POLY/etc bodies, mask/paste expansions, pad numbers and ATTR records are compared exactly. Editor-generated footprint layer tables, board stack/rules and editor settings are not footprint geometry; board-owned rules/stack are separately checked on PCB.",
+  "pcb": {
+    "snapshot": {
+      "path": "hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+      "sha256": "34bc9c9ad31389b536ad0503b453630fca0aa7870bc460cb685996751d4c3450",
+      "document_uuid": "4e1671d0644295dd",
+      "merge": {
+        "document_segments": 1,
+        "raw_records": 2288
+      },
+      "headers": [
+        {
+          "docType": "PCB",
+          "client": "8590bce46ebe7821",
+          "uuid": "4e1671d0644295dd",
+          "updateTime": 1794763934306,
+          "version": "1794763934306"
+        }
+      ]
+    },
+    "archive_document_segments": [
+      {
+        "docType": "PCB",
+        "client": "a86e0908cee19239",
+        "uuid": "4e1671d0644295dd",
+        "updateTime": 1794763905988,
+        "version": "1794763905988",
+        "editVersion": "4.1.93",
+        "user": {
+          "uuid": "175d2d18d70648ef8166cb54164640c2",
+          "nickname": "xiaobaoaaaaaa",
+          "username": "xiaobaoaaaaaa",
+          "avatar": "/image/avatar-default.png"
+        }
+      }
+    ],
+    "geometry_network_status": "PASS",
+    "rules_status": "PASS_WITH_EXPLICIT_DEFAULT_REPRESENTATION_DIFFERENCES",
+    "layer_function_status": "PASS",
+    "compared_snapshot_geometry_records": {
+      "ATTR": 721,
+      "COMPONENT": 236,
+      "LINE": 11,
+      "NET": 157,
+      "PAD": 4,
+      "PAD_NET": 803,
+      "PANELIZE": 1,
+      "POLY": 1,
+      "REGION": 25,
+      "VIA": 22
+    },
+    "compared_archive_geometry_records": {
+      "ATTR": 721,
+      "COMPONENT": 236,
+      "LINE": 11,
+      "NET": 157,
+      "PAD": 4,
+      "PAD_NET": 803,
+      "PANELIZE": 1,
+      "POLY": 1,
+      "REGION": 25,
+      "VIA": 22
+    },
+    "compared_rule_records": 175,
+    "component_count": 236
+  },
+  "physical_stack": {
+    "status": "PENDING_NOT_ARCHIVALLY_EQUIVALENT",
+    "snapshot": {
+      "physical_record_count": 13,
+      "records": [
+        {
+          "layer_id": 3,
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 7,
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 2,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 5,
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 3,
+          "thickness_mm": 0.0100076
+        },
+        {
+          "layer_id": 1,
+          "material": null,
+          "thickness": 1.379,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1000,
+          "thickness_mm": 0.0350266
+        },
+        {
+          "layer_id": 361,
+          "material": "FR4",
+          "thickness": 59.449,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001,
+          "thickness_mm": 1.5100045999999998
+        },
+        {
+          "layer_id": 15,
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001,
+          "thickness_mm": 0.035001199999999996
+        },
+        {
+          "layer_id": 362,
+          "material": "PP",
+          "thickness": 0.465,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1002,
+          "thickness_mm": 0.011811
+        },
+        {
+          "layer_id": 16,
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1003,
+          "thickness_mm": 0.035001199999999996
+        },
+        {
+          "layer_id": 363,
+          "material": "PP",
+          "thickness": 0.465,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1004,
+          "thickness_mm": 0.011811
+        },
+        {
+          "layer_id": 2,
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 9000,
+          "thickness_mm": 0.035001199999999996
+        },
+        {
+          "layer_id": 6,
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 10000,
+          "thickness_mm": 0.0100076
+        },
+        {
+          "layer_id": 8,
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10001,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 4,
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10002,
+          "thickness_mm": 0.0
+        }
+      ],
+      "active_copper_layers": [
+        1,
+        2,
+        15,
+        16
+      ],
+      "active_copper_without_physical_record": [],
+      "total_including_mask_mm": 1.693672,
+      "duplicate_zindices": [
+        1001
+      ]
+    },
+    "archive": {
+      "physical_record_count": 9,
+      "records": [
+        {
+          "layer_id": 3,
+          "material": null,
+          "thickness": 0,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 1,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 7,
+          "material": null,
+          "thickness": 0,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 2,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 5,
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 3,
+          "thickness_mm": 0.0100076
+        },
+        {
+          "layer_id": 1,
+          "material": null,
+          "thickness": 1.379,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 1000,
+          "thickness_mm": 0.0350266
+        },
+        {
+          "layer_id": 361,
+          "material": "FR4",
+          "thickness": 59.449,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001,
+          "thickness_mm": 1.5100045999999998
+        },
+        {
+          "layer_id": 2,
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 9000,
+          "thickness_mm": 0.035001199999999996
+        },
+        {
+          "layer_id": 6,
+          "material": "",
+          "thickness": 0.394,
+          "permittivity": 3.3,
+          "lossTangent": 0.02,
+          "isKeepIsland": true,
+          "zIndex": 10000,
+          "thickness_mm": 0.0100076
+        },
+        {
+          "layer_id": 8,
+          "material": null,
+          "thickness": 0,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 10001,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 4,
+          "material": null,
+          "thickness": 0,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 10002,
+          "thickness_mm": 0.0
+        }
+      ],
+      "active_copper_layers": [
+        1,
+        2,
+        15,
+        16
+      ],
+      "active_copper_without_physical_record": [
+        15,
+        16
+      ],
+      "total_including_mask_mm": 1.6000476,
+      "duplicate_zindices": []
+    },
+    "differences": [
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",15]",
+        "snapshot_present": true,
+        "archive_present": false,
+        "snapshot": {
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001
+        },
+        "archive": null
+      },
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",16]",
+        "snapshot_present": true,
+        "archive_present": false,
+        "snapshot": {
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1003
+        },
+        "archive": null
+      },
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",1]",
+        "snapshot_present": true,
+        "archive_present": true,
+        "snapshot": {
+          "material": null,
+          "thickness": 1.379,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1000
+        },
+        "archive": {
+          "material": null,
+          "thickness": 1.379,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 1000
+        }
+      },
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",2]",
+        "snapshot_present": true,
+        "archive_present": true,
+        "snapshot": {
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 9000
+        },
+        "archive": {
+          "material": null,
+          "thickness": 1.378,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 9000
+        }
+      },
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",362]",
+        "snapshot_present": true,
+        "archive_present": false,
+        "snapshot": {
+          "material": "PP",
+          "thickness": 0.465,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1002
+        },
+        "archive": null
+      },
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",363]",
+        "snapshot_present": true,
+        "archive_present": false,
+        "snapshot": {
+          "material": "PP",
+          "thickness": 0.465,
+          "permittivity": 4.5,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1004
+        },
+        "archive": null
+      },
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",3]",
+        "snapshot_present": true,
+        "archive_present": true,
+        "snapshot": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1
+        },
+        "archive": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 1
+        }
+      },
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",4]",
+        "snapshot_present": true,
+        "archive_present": true,
+        "snapshot": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10002
+        },
+        "archive": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 10002
+        }
+      },
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",7]",
+        "snapshot_present": true,
+        "archive_present": true,
+        "snapshot": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 2
+        },
+        "archive": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 2
+        }
+      },
+      {
+        "type": "LAYER_PHYS",
+        "id": "[\"LAYER_PHYS\",8]",
+        "snapshot_present": true,
+        "archive_present": true,
+        "snapshot": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10001
+        },
+        "archive": {
+          "material": null,
+          "thickness": 0,
+          "permittivity": null,
+          "lossTangent": null,
+          "isKeepIsland": true,
+          "zIndex": 10001
+        }
+      }
+    ],
+    "substrate_layer_differences": [
+      {
+        "type": "LAYER",
+        "id": "[\"LAYER\",362]",
+        "snapshot_present": true,
+        "archive_present": false,
+        "snapshot": {
+          "layerId": 362,
+          "layerType": "SUBSTRATE",
+          "layerName": "Dielectric2",
+          "use": false
+        },
+        "archive": null
+      },
+      {
+        "type": "LAYER",
+        "id": "[\"LAYER\",363]",
+        "snapshot_present": true,
+        "archive_present": false,
+        "snapshot": {
+          "layerId": 363,
+          "layerType": "SUBSTRATE",
+          "layerName": "Dielectric3",
+          "use": false
+        },
+        "archive": null
+      }
+    ],
+    "archive_enabled_copper_layer_count": 4,
+    "caution": "Enabled copper layers do not prove a complete physical stack. Runtime-added/missing stack records are displayed, never normalized into PASS. No claim that the summed default thickness is the intended1.6mm manufacturer stack."
+  },
+  "footprints": {
+    "U101": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "hardware/devboard-99/easyeda-native/source/footprints/U101.efoo",
+        "sha256": "f67ad22b1e05160b56747c9443b492a1f37c2f65397d759b7d8c39973f889cca",
+        "document_uuid": "0d1eb426f50706ec",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 207
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "f122ebed8b161be0",
+            "uuid": "0d1eb426f50706ec",
+            "updateTime": 1794762727449,
+            "version": "1794762727449"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "05017d0e4046185a",
+        "footprint_uuid": "0d1eb426f50706ec"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 35,
+        "NET": 1,
+        "PAD": 17,
+        "POLY": 11
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 35,
+        "NET": 1,
+        "PAD": 17,
+        "POLY": 11
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 7,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "U802": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "hardware/devboard-99/easyeda-native/source/footprints/U802.efoo",
+        "sha256": "de2ad1cfc2644b8f17a044dee28e6d5c9aad81d0c5d7c68fdc8af95fd8118271",
+        "document_uuid": "fc86450018386de5",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 210
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "a8a53c89b8953220",
+            "uuid": "fc86450018386de5",
+            "updateTime": 1794762696602,
+            "version": "1794762696602"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "21848786aabdad88",
+        "footprint_uuid": "fc86450018386de5"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 38,
+        "NET": 1,
+        "PAD": 17,
+        "POLY": 11
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 38,
+        "NET": 1,
+        "PAD": 17,
+        "POLY": 11
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 6,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "U203": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "hardware/devboard-99/easyeda-native/source/footprints/U203.efoo",
+        "sha256": "53b679010aced4d0f4c3e0d1b3d6379ee3dad1fa9eef74b66d683f253b95e695",
+        "document_uuid": "ce2d18363338ec62",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 180
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "179c822e9a61cf4d",
+            "uuid": "ce2d18363338ec62",
+            "updateTime": 1794762698415,
+            "version": "1794762698415"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "fcdfea8fb6eb5dfa",
+        "footprint_uuid": "ce2d18363338ec62"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 20,
+        "NET": 1,
+        "PAD": 9,
+        "POLY": 7
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 20,
+        "NET": 1,
+        "PAD": 9,
+        "POLY": 7
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 5,
+        "LAYER": 20,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "U301": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "hardware/devboard-99/easyeda-native/source/footprints/U301.efoo",
+        "sha256": "ba741e446223b7abdc670692962a8ea97176d015dcc1a6763ba1141237daf173",
+        "document_uuid": "a6b09743ec38c8ce",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 268
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "cdeb96ffc2e8673b",
+            "uuid": "a6b09743ec38c8ce",
+            "updateTime": 1794762145629,
+            "version": "1794762145629"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "ff8ffbdbac2e358a",
+        "footprint_uuid": "a6b09743ec38c8ce"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 52,
+        "NET": 1,
+        "PAD": 49,
+        "POLY": 23
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 52,
+        "NET": 1,
+        "PAD": 49,
+        "POLY": 23
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 8,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "U803": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "hardware/devboard-99/easyeda-native/source/footprints/U803.efoo",
+        "sha256": "83b5b4829470bb9f74054c5e6d3b60d875b76cb73de6cacfc528d576ed56773b",
+        "document_uuid": "c0fd95ea5e173cb2",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 189
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "ab8e312395806e18",
+            "uuid": "c0fd95ea5e173cb2",
+            "updateTime": 1794762147568,
+            "version": "1794762147568"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "0733e2265846157d",
+        "footprint_uuid": "c0fd95ea5e173cb2"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 22,
+        "NET": 1,
+        "PAD": 10,
+        "POLY": 13
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 22,
+        "NET": 1,
+        "PAD": 10,
+        "POLY": 13
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 6,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "J501": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "hardware/devboard-99/easyeda-native/source/footprints/J501.efoo",
+        "sha256": "19ca5cbba7bebd719508b3119abf8fba54927d18fca94d07c42fe6c0c036ee2f",
+        "document_uuid": "9112c02fbd7c37d6",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 207
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "2bb4eaee6e971613",
+            "uuid": "9112c02fbd7c37d6",
+            "updateTime": 1794763076504,
+            "version": "1794763076504"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "f251ef93c41d5e56",
+        "footprint_uuid": "9112c02fbd7c37d6"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 35,
+        "NET": 1,
+        "PAD": 20,
+        "POLY": 8
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 35,
+        "NET": 1,
+        "PAD": 20,
+        "POLY": 8
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 11,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "SW301": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "hardware/devboard-99/easyeda-native/source/footprints/SW301.efoo",
+        "sha256": "cbe1ae085cda7f270c6fafda5411544a5879b86c3be5c69ce9a1c26a23f4bf3d",
+        "document_uuid": "631c54e4e289a931",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 164
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "0692c799f5255a04",
+            "uuid": "631c54e4e289a931",
+            "updateTime": 1794762119969,
+            "version": "1794762119969"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "e60967ab0a39ddbd",
+        "footprint_uuid": "631c54e4e289a931"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 9,
+        "NET": 1,
+        "PAD": 4,
+        "POLY": 7
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 9,
+        "NET": 1,
+        "PAD": 4,
+        "POLY": 7
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 5,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "F501": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "hardware/devboard-99/easyeda-native/source/footprints/F501.efoo",
+        "sha256": "2cae8b432d0da61137d1cddcd183eb641efb773b34c1ded59309fcc681068dab",
+        "document_uuid": "1818bd291c356f02",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 160
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "ef493895634f95aa",
+            "uuid": "1818bd291c356f02",
+            "updateTime": 1794762214887,
+            "version": "1794762214887"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "de628933e5ade04e",
+        "footprint_uuid": "1818bd291c356f02"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 5,
+        "NET": 1,
+        "PAD": 2,
+        "POLY": 9
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 5,
+        "NET": 1,
+        "PAD": 2,
+        "POLY": 9
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 6,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    }
+  },
+  "errors": []
+}

@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "Schematic component, wire, attribute and text records only; no PCB/CAM certification",
-  "archive_sha256": "df840a96339356ce5a634b2fa1a4ce864cb1fd7112f942852a35fd26a225e30a",
+  "archive_sha256": "87dec9097ccc8ed4504f0a9ea351595a5fabddcf5c4f17573e0df96b828511ff",
   "document_types": {
     "FOOTPRINT": 38,
     "SYMBOL": 68,
@@ -14,7 +14,7 @@
     "PANEL": 1,
     "BLOB": 1
   },
-  "tombstones_applied": 2303,
+  "tombstones_applied": 2456,
   "normalization": "ATTR zIndex and absent/false strikeout flags only",
   "pages": {
     "POWER_INPUT_CHARGER": {

@@ -1,0 +1,65 @@
+{
+  "reason": "Native importChanges returned true but ten switch pad nets stayed stale; propagate already corrected exported schematic netlist via native PAD_NET records only",
+  "changes": [
+    {
+      "ref": "SW301",
+      "number": "3",
+      "before": "MCU_EN",
+      "after": "GND"
+    },
+    {
+      "ref": "SW301",
+      "number": "2",
+      "before": "GND",
+      "after": "MCU_EN"
+    },
+    {
+      "ref": "SW302",
+      "number": "3",
+      "before": "BOOT_N",
+      "after": "GND"
+    },
+    {
+      "ref": "SW302",
+      "number": "2",
+      "before": "GND",
+      "after": "BOOT_N"
+    },
+    {
+      "ref": "SW303",
+      "number": "3",
+      "before": "POWER_KEY_N",
+      "after": "GND"
+    },
+    {
+      "ref": "SW303",
+      "number": "2",
+      "before": "GND",
+      "after": "POWER_KEY_N"
+    },
+    {
+      "ref": "SW304",
+      "number": "3",
+      "before": "KEY_PLUS_N",
+      "after": "GND"
+    },
+    {
+      "ref": "SW304",
+      "number": "2",
+      "before": "GND",
+      "after": "KEY_PLUS_N"
+    },
+    {
+      "ref": "SW305",
+      "number": "3",
+      "before": "KEY_MINUS_N",
+      "after": "GND"
+    },
+    {
+      "ref": "SW305",
+      "number": "2",
+      "before": "GND",
+      "after": "KEY_MINUS_N"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "scope": "Saved native MIC region rule persistence; no live calls",
+  "source_sha256": "34bc9c9ad31389b536ad0503b453630fca0aa7870bc460cb685996751d4c3450",
+  "source": "build/easyeda-native99/pcb-work/final-capture/PCB-layout.epcb",
+  "rule_name": "MIC_NPTH_0_20",
+  "binding": [
+    {
+      "type": "RULE_SELECTOR",
+      "ticket": 410,
+      "id": "[\"RULE_SELECTOR\",[\"REGION\",\"791dfb3db165dcb0\"]]"
+    },
+    {
+      "ruleOrder": 2,
+      "ruleKeyValue": {
+        "SAFE": "MIC_NPTH_0_20"
+      },
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  ],
+  "region": [
+    {
+      "type": "REGION",
+      "ticket": 528,
+      "id": "791dfb3db165dcb0"
+    },
+    {
+      "partitionId": "",
+      "groupId": 0,
+      "layerId": 1,
+      "width": 0.2,
+      "prohibitType": [],
+      "path": [
+        [
+          240.1376,
+          -2712.634,
+          "L",
+          240.1376,
+          -2641.7678,
+          311.0038,
+          -2641.7678,
+          311.0038,
+          -2712.634,
+          240.1376,
+          -2712.634
+        ]
+      ],
+      "locked": true,
+      "name": "MIC_ROUND_NPTH",
+      "regionType": "CONSTRAINT"
+    }
+  ],
+  "only_matrix_change": [
+    {
+      "row": 8,
+      "column": 1,
+      "default_mm": 0.29999939999999997,
+      "local_mm": 0.19999959999999997
+    }
+  ],
+  "pad_centres_in_constraint_region": [
+    {
+      "ref": "U803",
+      "pin": "4",
+      "id": "0733e2265846157de30"
+    },
+    {
+      "ref": "U803",
+      "pin": "4",
+      "id": "0733e2265846157de31"
+    },
+    {
+      "ref": "U803",
+      "pin": "4",
+      "id": "0733e2265846157de32"
+    },
+    {
+      "ref": "U803",
+      "pin": "4",
+      "id": "0733e2265846157de33"
+    }
+  ],
+  "drc_summary": [
+    {
+      "name": "Connection Error",
+      "count": 771
+    }
+  ],
+  "non_connection_errors": 0,
+  "negative_control": {
+    "minimum_mm": 0.24,
+    "errors": 4
+  },
+  "restored_positive": {
+    "minimum_mm": 0.2,
+    "non_connection_errors": []
+  },
+  "bounds_mm": [
+    6.09949504,
+    -68.90090359999999,
+    7.89949652,
+    -67.10090212
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "status": "CONFIRMED_FUNCTIONAL_SHORT_REQUIRES_SCHEMATIC_CORRECTION",
+  "refs": [
+    "SW301",
+    "SW302",
+    "SW303",
+    "SW304",
+    "SW305"
+  ],
+  "manufacturer_source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf",
+  "pdf_page": 4,
+  "manufacturer_always_connected_groups": [
+    [
+      "1",
+      "2"
+    ],
+    [
+      "3",
+      "4"
+    ]
+  ],
+  "native_symbol": "build/easyeda-native99/pin-audit/libraries/SYMBOL/b8a95b7a79bb45acb3e626c0598dfc0a.esym",
+  "symbol_evidence": "e0 joins local(10,-15)..(-10,-15), pins1 and2; e1 joins(10,5)..(-10,5), pins3 and4. Switch is open between these buses. Symbol is correct.",
+  "native_footprint": "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/b89257d149004319b7f60d8950270364.efoo",
+  "footprint_pin_top_view_native0deg": {
+    "1": [
+      -3.24993,
+      -2.249932
+    ],
+    "2": [
+      3.24993,
+      -2.249932
+    ],
+    "3": [
+      3.24993,
+      2.249932
+    ],
+    "4": [
+      -3.24993,
+      2.249932
+    ]
+  },
+  "footprint_difference": "Omron top-view drawing shows bottom-left2/bottom-right1; native swaps1/2. Because1/2 are permanently the same internal terminal this is functionally equivalent. Top3/4 agree. It does not justify the incorrect diagonal net groups.",
+  "root_cause": "native-pin-map mapped1/3 to reference pin1 and2/4 to reference pin2. This ignores native symbol graphic and physical internal12/34 pairing. Prior netlist PASS only proved agreement with that faulty mapping.",
+  "minimum_safe_fix": "Retain native symbol, footprint and all pin numbers. Correct schematic external wiring to1/2=signal,3/4=GND, and update the logical mapping. Then re-export native netlist, resync PCB, and inspect copper/DRC. Do not renumber pins2/3 or patch PCB nets alone.",
+  "hole_evidence": {
+    "raw_PAD_hole_mil": 47.24,
+    "raw_PAD_hole_mm": 1.199896,
+    "API_getState_Hole_mil": 4.724,
+    "API_error_ratio": 0.1,
+    "baseline_CAM_confirmation": "Parent baseline Excellon has1.19990mm PTH; raw source independently matches. Do not resize from getter.",
+    "manufacturer_PCB_reference_hole_mm": 1.0,
+    "manufacturer_PCB_reference_hole_tolerance_mm": 0.1,
+    "comment": "Native1.20mm is larger than manufacturer reference1.0±0.1mm. Separate mechanical-fit choice; not a0.12mm manufacturing defect. Verify loose fit/fillet or use1.0mm native derived footprint if matching manufacturer target."
+  },
+  "coordinate_units": "schematic10mil units, +Y up; wire.line is continuouspolyline; positions/current rotation unchanged; Designator/text coordinates retained.",
+  "patches": [
+    {
+      "reference": "SW301",
+      "rotation_deg": 180,
+      "position": [
+        650,
+        450
+      ],
+      "pin_target_net": {
+        "1": "/MCU_CORE/MCU_EN",
+        "2": "/MCU_CORE/MCU_EN",
+        "3": "GND",
+        "4": "GND"
+      },
+      "remove_exact_wire_polylines": [
+        {
+          "net": "/MCU_CORE/MCU_EN",
+          "line": [
+            600.0,
+            465.0,
+            600.0,
+            445.0,
+            620.0,
+            445.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            680.0,
+            465.0,
+            700.0,
+            465.0,
+            700.0,
+            445.0,
+            680.0,
+            445.0
+          ]
+        }
+      ],
+      "add_wire_polylines": [
+        {
+          "net": "/MCU_CORE/MCU_EN",
+          "line": [
+            600.0,
+            480.0,
+            700.0,
+            480.0,
+            700.0,
+            465.0,
+            680.0,
+            465.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            620.0,
+            445.0,
+            600.0,
+            445.0,
+            600.0,
+            410.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            680.0,
+            445.0,
+            700.0,
+            445.0
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "SW302",
+      "rotation_deg": 180,
+      "position": [
+        850,
+        450
+      ],
+      "pin_target_net": {
+        "1": "/MCU_CORE/BOOT_N",
+        "2": "/MCU_CORE/BOOT_N",
+        "3": "GND",
+        "4": "GND"
+      },
+      "remove_exact_wire_polylines": [
+        {
+          "net": "/MCU_CORE/BOOT_N",
+          "line": [
+            800.0,
+            465.0,
+            800.0,
+            445.0,
+            820.0,
+            445.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            880.0,
+            465.0,
+            900.0,
+            465.0,
+            900.0,
+            445.0,
+            880.0,
+            445.0
+          ]
+        }
+      ],
+      "add_wire_polylines": [
+        {
+          "net": "/MCU_CORE/BOOT_N",
+          "line": [
+            800.0,
+            480.0,
+            900.0,
+            480.0,
+            900.0,
+            465.0,
+            880.0,
+            465.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            820.0,
+            445.0,
+            800.0,
+            445.0,
+            800.0,
+            410.0,
+            870.0,
+            410.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            880.0,
+            445.0,
+            900.0,
+            445.0
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "SW303",
+      "rotation_deg": 180,
+      "position": [
+        1030,
+        450
+      ],
+      "pin_target_net": {
+        "1": "POWER_KEY_N",
+        "2": "POWER_KEY_N",
+        "3": "GND",
+        "4": "GND"
+      },
+      "remove_exact_wire_polylines": [
+        {
+          "net": "POWER_KEY_N",
+          "line": [
+            980.0,
+            465.0,
+            980.0,
+            445.0,
+            1000.0,
+            445.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            1060.0,
+            465.0,
+            1080.0,
+            465.0,
+            1080.0,
+            445.0,
+            1060.0,
+            445.0
+          ]
+        }
+      ],
+      "add_wire_polylines": [
+        {
+          "net": "POWER_KEY_N",
+          "line": [
+            980.0,
+            480.0,
+            1080.0,
+            480.0,
+            1080.0,
+            465.0,
+            1060.0,
+            465.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            1000.0,
+            445.0,
+            980.0,
+            445.0,
+            980.0,
+            410.0,
+            1050.0,
+            410.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            1060.0,
+            445.0,
+            1080.0,
+            445.0
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "SW304",
+      "rotation_deg": 180,
+      "position": [
+        650,
+        270
+      ],
+      "pin_target_net": {
+        "1": "KEY_PLUS_N",
+        "2": "KEY_PLUS_N",
+        "3": "GND",
+        "4": "GND"
+      },
+      "remove_exact_wire_polylines": [
+        {
+          "net": "KEY_PLUS_N",
+          "line": [
+            600.0,
+            285.0,
+            600.0,
+            265.0,
+            620.0,
+            265.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            680.0,
+            285.0,
+            700.0,
+            285.0,
+            700.0,
+            265.0,
+            680.0,
+            265.0
+          ]
+        }
+      ],
+      "add_wire_polylines": [
+        {
+          "net": "KEY_PLUS_N",
+          "line": [
+            600.0,
+            300.0,
+            700.0,
+            300.0,
+            700.0,
+            285.0,
+            680.0,
+            285.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            620.0,
+            265.0,
+            600.0,
+            265.0,
+            600.0,
+            230.0,
+            670.0,
+            230.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            680.0,
+            265.0,
+            700.0,
+            265.0
+          ]
+        }
+      ]
+    },
+    {
+      "reference": "SW305",
+      "rotation_deg": 180,
+      "position": [
+        850,
+        270
+      ],
+      "pin_target_net": {
+        "1": "KEY_MINUS_N",
+        "2": "KEY_MINUS_N",
+        "3": "GND",
+        "4": "GND"
+      },
+      "remove_exact_wire_polylines": [
+        {
+          "net": "KEY_MINUS_N",
+          "line": [
+            800.0,
+            285.0,
+            800.0,
+            265.0,
+            820.0,
+            265.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            880.0,
+            285.0,
+            900.0,
+            285.0,
+            900.0,
+            265.0,
+            880.0,
+            265.0
+          ]
+        }
+      ],
+      "add_wire_polylines": [
+        {
+          "net": "KEY_MINUS_N",
+          "line": [
+            800.0,
+            300.0,
+            900.0,
+            300.0,
+            900.0,
+            285.0,
+            880.0,
+            285.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            820.0,
+            265.0,
+            800.0,
+            265.0,
+            800.0,
+            230.0,
+            870.0,
+            230.0
+          ]
+        },
+        {
+          "net": "GND",
+          "line": [
+            880.0,
+            265.0,
+            900.0,
+            265.0
+          ]
+        }
+      ]
+    }
+  ],
+  "candidate_plan": "MCU_CORE-switch-fixed.json",
+  "candidate_mapping": "native-pin-map-switch-fixed.json",
+  "scope": "Offline/read-only source audit; only candidate plans/reports written, no live/design source mutation.",
+  "geometry_report": {
+    "status": "PASS",
+    "scope": "Wire geometry readability only; no electrical connectivity or text-layout certification",
+    "line_format": "polyline",
+    "segments": 153,
+    "components": 18,
+    "counts": {
+      "same_net_junctions": 75
+    },
+    "findings": [],
+    "limitations": [
+      "Native crossing semantics require exported netlist verification.",
+      "Body bounds inferred from pins are heuristic unless bodyBounds is provided.",
+      "Labels, titles and part text are not checked. Visual review remains required."
+    ]
+  },
+  "evidence_hashes": {
+    "build/easyeda-native99/pin-audit/libraries/SYMBOL/b8a95b7a79bb45acb3e626c0598dfc0a.esym": "a1e287514106851eb7e3450f445391a5bc3d137759469599c3dffd56ca219044",
+    "build/easyeda-native99/pin-audit/libraries/FOOTPRINT/b89257d149004319b7f60d8950270364.efoo": "68e2301a80982e579b3dfb4e8cc2cb21ff1221644920a77c721da9b60098ca83",
+    "hardware/reference/bom-r3/files/omron-b3f.pdf": "be9cf69e5f43fb7689448a2097c19858e5643c0e2e49cd77d018881543e27a1f",
+    "build/easyeda-native99/pcb-work/baseline-gerber/Drill_PTH_Through.DRL": "c585b3928332f426193ab219dba3e040a5ff7fdb6c439118db1c7697365d97d4"
+  },
+  "internal_group_consistency_after_patch": true
+}
