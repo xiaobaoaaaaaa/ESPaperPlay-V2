@@ -1,5 +1,7 @@
 # 布局阶段证据
 
+本目录为历史布局检查点，数量和叠层结论仅对应当时输入。当前布线结果请读[PCB布线复核](../pcb-routing/pcb-routing-review.md)及[检查点](../checkpoint-status.json)；本目录旧报告不随新源文件换哈希冒充复跑。
+
 先读 [layout-review.md](layout-review.md)。本目录内容不可用于制造放行。
 
 - 两套主 CAM 报告由 verification/ 脚本直接对本目录的 ZIP 和 state 复跑。

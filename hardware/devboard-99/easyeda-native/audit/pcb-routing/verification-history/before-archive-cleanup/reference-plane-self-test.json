@@ -1,0 +1,421 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "Continuous actual GND yields no missing intervals",
+      "pass": true,
+      "events": []
+    },
+    {
+      "case": "Ordinary single antipad retains bounded local GND bypass",
+      "pass": true,
+      "events": [
+        {
+          "classification": "LOCAL_SINGLE_APERTURE_DETOUR",
+          "unreferenced_centerline_length_mm": 0.9,
+          "chain_station_mm": [
+            4.55,
+            5.45
+          ],
+          "gap_path_mm": [
+            [
+              -0.45,
+              0.0
+            ],
+            [
+              0.45,
+              0.0
+            ]
+          ],
+          "void_ids": [
+            0
+          ],
+          "void_bounds_mm": [
+            -0.45,
+            -0.45,
+            0.45,
+            0.45
+          ],
+          "void_area_mm2": 0.636156544731721,
+          "actual_holes_in_connected_void": [
+            {
+              "id": "single",
+              "NPTH": false,
+              "xy_mm": [
+                -4.520879881688565e-19,
+                -8.576669244575099e-19
+              ]
+            }
+          ],
+          "own_net_plated_access_in_void": [],
+          "endpoint_plated_access": [],
+          "local_GND_return_access": [],
+          "both_entry_and_exit_have_positive_area_GND": true,
+          "minimum_tested_connected_GND_window_radius_mm": 0.5,
+          "tested_radii_mm": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            4.0,
+            8.0
+          ],
+          "review_required": false
+        }
+      ]
+    },
+    {
+      "case": "Globally connected GND does not hide a long perpendicular slot",
+      "pass": true,
+      "events": [
+        {
+          "classification": "LONG_SLOT_OR_ANTIPAD_CHAIN_REVIEW",
+          "unreferenced_centerline_length_mm": 0.8,
+          "chain_station_mm": [
+            4.6000000000000005,
+            5.4
+          ],
+          "gap_path_mm": [
+            [
+              -0.4,
+              0.0
+            ],
+            [
+              0.4,
+              0.0
+            ]
+          ],
+          "void_ids": [
+            0
+          ],
+          "void_bounds_mm": [
+            -0.4,
+            -6.0,
+            0.4,
+            6.0
+          ],
+          "void_area_mm2": 9.600000000000001,
+          "actual_holes_in_connected_void": [],
+          "own_net_plated_access_in_void": [],
+          "endpoint_plated_access": [],
+          "local_GND_return_access": [],
+          "both_entry_and_exit_have_positive_area_GND": true,
+          "minimum_tested_connected_GND_window_radius_mm": 8.0,
+          "tested_radii_mm": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            4.0,
+            8.0
+          ],
+          "review_required": true
+        }
+      ]
+    },
+    {
+      "case": "Connected antipad chain requires remote detour despite short crossing",
+      "pass": true,
+      "events": [
+        {
+          "classification": "LONG_SLOT_OR_ANTIPAD_CHAIN_REVIEW",
+          "unreferenced_centerline_length_mm": 0.9,
+          "chain_station_mm": [
+            4.55,
+            5.45
+          ],
+          "gap_path_mm": [
+            [
+              -0.45,
+              0.0
+            ],
+            [
+              0.45,
+              0.0
+            ]
+          ],
+          "void_ids": [
+            0
+          ],
+          "void_bounds_mm": [
+            -0.45,
+            -6.05,
+            0.45,
+            6.05
+          ],
+          "void_area_mm2": 9.578323727670423,
+          "actual_holes_in_connected_void": [
+            {
+              "id": "-8",
+              "NPTH": false,
+              "xy_mm": [
+                -2.5805022333532083e-18,
+                -5.6000000000000005
+              ]
+            },
+            {
+              "id": "-7",
+              "NPTH": false,
+              "xy_mm": [
+                5.61309245487527e-18,
+                -4.899999999999999
+              ]
+            },
+            {
+              "id": "-6",
+              "NPTH": false,
+              "xy_mm": [
+                -2.5805022333532083e-18,
+                -4.1999999999999975
+              ]
+            },
+            {
+              "id": "-5",
+              "NPTH": false,
+              "xy_mm": [
+                2.0183928321344075e-17,
+                -3.5
+              ]
+            },
+            {
+              "id": "-4",
+              "NPTH": false,
+              "xy_mm": [
+                2.0183928321344075e-17,
+                -2.7999999999999994
+              ]
+            },
+            {
+              "id": "-3",
+              "NPTH": false,
+              "xy_mm": [
+                4.180813695897831e-18,
+                -2.1
+              ]
+            },
+            {
+              "id": "-2",
+              "NPTH": false,
+              "xy_mm": [
+                -3.084600344054764e-18,
+                -1.3999999999999995
+              ]
+            },
+            {
+              "id": "-1",
+              "NPTH": false,
+              "xy_mm": [
+                4.8289398382284046e-18,
+                -0.6999999999999998
+              ]
+            },
+            {
+              "id": "0",
+              "NPTH": false,
+              "xy_mm": [
+                -4.520879881688565e-19,
+                -8.576669244575099e-19
+              ]
+            },
+            {
+              "id": "1",
+              "NPTH": false,
+              "xy_mm": [
+                4.8289398382284046e-18,
+                0.7
+              ]
+            },
+            {
+              "id": "2",
+              "NPTH": false,
+              "xy_mm": [
+                -3.084600344054764e-18,
+                1.3999999999999997
+              ]
+            },
+            {
+              "id": "3",
+              "NPTH": false,
+              "xy_mm": [
+                2.632912433751543e-17,
+                2.0999999999999996
+              ]
+            },
+            {
+              "id": "4",
+              "NPTH": false,
+              "xy_mm": [
+                2.0183928321344075e-17,
+                2.7999999999999985
+              ]
+            },
+            {
+              "id": "5",
+              "NPTH": false,
+              "xy_mm": [
+                2.0183928321344075e-17,
+                3.499999999999999
+              ]
+            },
+            {
+              "id": "6",
+              "NPTH": false,
+              "xy_mm": [
+                -2.5805022333532083e-18,
+                4.199999999999998
+              ]
+            },
+            {
+              "id": "7",
+              "NPTH": false,
+              "xy_mm": [
+                5.61309245487527e-18,
+                4.9
+              ]
+            },
+            {
+              "id": "8",
+              "NPTH": false,
+              "xy_mm": [
+                -2.5805022333532083e-18,
+                5.6000000000000005
+              ]
+            }
+          ],
+          "own_net_plated_access_in_void": [],
+          "endpoint_plated_access": [],
+          "local_GND_return_access": [],
+          "both_entry_and_exit_have_positive_area_GND": true,
+          "minimum_tested_connected_GND_window_radius_mm": 8.0,
+          "tested_radii_mm": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            4.0,
+            8.0
+          ],
+          "review_required": true
+        }
+      ]
+    },
+    {
+      "case": "Full split has no finite tested GND detour",
+      "pass": true,
+      "events": [
+        {
+          "classification": "LONG_SLOT_OR_ANTIPAD_CHAIN_REVIEW",
+          "unreferenced_centerline_length_mm": 0.8,
+          "chain_station_mm": [
+            4.6000000000000005,
+            5.4
+          ],
+          "gap_path_mm": [
+            [
+              -0.4,
+              0.0
+            ],
+            [
+              0.4,
+              0.0
+            ]
+          ],
+          "void_ids": [
+            0
+          ],
+          "void_bounds_mm": [
+            -0.4,
+            -10.0,
+            0.4,
+            10.0
+          ],
+          "void_area_mm2": 16.0,
+          "actual_holes_in_connected_void": [],
+          "own_net_plated_access_in_void": [],
+          "endpoint_plated_access": [],
+          "local_GND_return_access": [],
+          "both_entry_and_exit_have_positive_area_GND": true,
+          "minimum_tested_connected_GND_window_radius_mm": null,
+          "tested_radii_mm": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            4.0,
+            8.0
+          ],
+          "review_required": true
+        }
+      ]
+    },
+    {
+      "case": "Unreferenced terminal with no plated return remains flagged",
+      "pass": true,
+      "events": [
+        {
+          "classification": "TERMINAL_EXIT_WITHOUT_LOCAL_VERIFIED_RETURN_REVIEW",
+          "unreferenced_centerline_length_mm": 1.0,
+          "chain_station_mm": [
+            0.0,
+            1.0
+          ],
+          "gap_path_mm": [
+            [
+              -5.0,
+              0.0
+            ],
+            [
+              -4.0,
+              0.0
+            ]
+          ],
+          "void_ids": [
+            0
+          ],
+          "void_bounds_mm": [
+            -6.0,
+            -0.4,
+            -4.0,
+            0.4
+          ],
+          "void_area_mm2": 1.6,
+          "actual_holes_in_connected_void": [],
+          "own_net_plated_access_in_void": [],
+          "endpoint_plated_access": [],
+          "local_GND_return_access": [],
+          "both_entry_and_exit_have_positive_area_GND": false,
+          "minimum_tested_connected_GND_window_radius_mm": null,
+          "tested_radii_mm": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            4.0,
+            8.0
+          ],
+          "review_required": true
+        }
+      ]
+    },
+    {
+      "case": "No buffer or local-window operation bridges a real copper slit",
+      "pass": true
+    },
+    {
+      "case": "Single-layer debug PTH terminal is not falsely treated as a layer transfer",
+      "pass": true
+    },
+    {
+      "case": "True PTH Top-Bottom transfer cannot inherit a single-layer terminal exemption",
+      "pass": true
+    },
+    {
+      "case": "Actual PTH transfer requires the same nearby verified GND access as a signal via",
+      "pass": true
+    },
+    {
+      "case": "Actual corridor width requires distinct voids and an uninterrupted real GND connector",
+      "pass": true
+    }
+  ]
+}

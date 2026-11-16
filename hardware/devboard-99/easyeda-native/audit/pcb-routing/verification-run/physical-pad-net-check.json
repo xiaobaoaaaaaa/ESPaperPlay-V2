@@ -1,0 +1,11 @@
+{
+  "status": "PASS_PHYSICAL_AND_LOGICAL_PIN_NETS",
+  "components": 236,
+  "physical_pads": 803,
+  "logical_pins": 792,
+  "errors": [],
+  "inputs": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/native-schematic.enet": "ca58eacd445caf9504127943b59f43e3e1053290726b39c3ec838985803ebb5c",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json": "29960dc357eca29afd5e763de61bfc5078ce66ff7e5b44f96104f98a6ff74d5a"
+  }
+}

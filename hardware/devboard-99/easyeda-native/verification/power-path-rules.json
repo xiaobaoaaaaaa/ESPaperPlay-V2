@@ -1,0 +1,824 @@
+{
+  "schema": "native-power-path-rules-v1",
+  "scope": "24 project review paths; width/neck and R20 values are engineering review targets, not fabrication or ampacity standards.",
+  "original_plan_sha256": "30b6024628d03467b7b98615e4e5a04223f53c507600a3bfb6c6609b649c6dff",
+  "copper_thickness_um_default": 35,
+  "path_rules": [
+    {
+      "id": "usb_before_ptc",
+      "from": "J501.A4",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30,
+      "native_net": "USB_VBUS",
+      "native_from": {
+        "address": "J501.A4",
+        "component_id": "f251ef93c41d5e56",
+        "net": "USB_VBUS",
+        "physical_pads": [
+          {
+            "id": "f251ef93c41d5e56e54",
+            "x_mm": 20.05076,
+            "y_mm": -7.35584
+          }
+        ]
+      },
+      "native_to": {
+        "address": "F501.1",
+        "component_id": "de628933e5ade04e",
+        "net": "USB_VBUS",
+        "physical_pads": [
+          {
+            "id": "de628933e5ade04ee8",
+            "x_mm": 19.99996,
+            "y_mm": -19.1135
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "usb_protected_to_selector",
+      "from": "F501.2",
+      "to": "J502.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 3,
+      "review_R20_mohm": 40,
+      "native_net": "USB_5V_PROTECTED",
+      "native_from": {
+        "address": "F501.2",
+        "component_id": "de628933e5ade04e",
+        "net": "USB_5V_PROTECTED",
+        "physical_pads": [
+          {
+            "id": "de628933e5ade04ee7",
+            "x_mm": 19.99996,
+            "y_mm": -13.88364
+          }
+        ]
+      },
+      "native_to": {
+        "address": "J502.1",
+        "component_id": "47885ba41ee8b148",
+        "net": "USB_5V_PROTECTED",
+        "physical_pads": [
+          {
+            "id": "47885ba41ee8b148e11",
+            "x_mm": 28.99918,
+            "y_mm": -9.00176
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "bench_to_selector",
+      "from": "J101.1",
+      "to": "J502.3",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 3,
+      "review_R20_mohm": 60,
+      "native_net": "BENCH_5V",
+      "native_from": {
+        "address": "J101.1",
+        "component_id": "30c068529ba2f726",
+        "net": "BENCH_5V",
+        "physical_pads": [
+          {
+            "id": "30c068529ba2f726e10",
+            "x_mm": 2.99974,
+            "y_mm": -10.9982
+          }
+        ]
+      },
+      "native_to": {
+        "address": "J502.3",
+        "component_id": "47885ba41ee8b148",
+        "net": "BENCH_5V",
+        "physical_pads": [
+          {
+            "id": "47885ba41ee8b148e13",
+            "x_mm": 28.99918,
+            "y_mm": -14.08176
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "selected_input_to_charger_cap",
+      "from": "J502.2",
+      "to": "C101.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 3,
+      "review_R20_mohm": 60,
+      "native_net": "VIN_5V",
+      "native_from": {
+        "address": "J502.2",
+        "component_id": "47885ba41ee8b148",
+        "net": "VIN_5V",
+        "physical_pads": [
+          {
+            "id": "47885ba41ee8b148e12",
+            "x_mm": 28.99918,
+            "y_mm": -11.54176
+          }
+        ]
+      },
+      "native_to": {
+        "address": "C101.1",
+        "component_id": "b987cd01ec935ab3",
+        "net": "VIN_5V",
+        "physical_pads": [
+          {
+            "id": "b987cd01ec935ab3e16",
+            "x_mm": 15.00124,
+            "y_mm": -28.99918
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "charger_input_local",
+      "from": "C101.1",
+      "to": "U101.13",
+      "trunk_min_mm": 0.5,
+      "narrow_allowance_mm": 2,
+      "review_R20_mohm": 15,
+      "native_net": "VIN_5V",
+      "native_from": {
+        "address": "C101.1",
+        "component_id": "b987cd01ec935ab3",
+        "net": "VIN_5V",
+        "physical_pads": [
+          {
+            "id": "b987cd01ec935ab3e16",
+            "x_mm": 15.00124,
+            "y_mm": -28.99918
+          }
+        ]
+      },
+      "native_to": {
+        "address": "U101.13",
+        "component_id": "05017d0e4046185a",
+        "net": "VIN_5V",
+        "physical_pads": [
+          {
+            "id": "05017d0e4046185ae42",
+            "x_mm": 13.74902,
+            "y_mm": -30.59938
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "charger_output_local",
+      "from": "U101.10",
+      "to": "R101.1",
+      "trunk_min_mm": 0.6,
+      "narrow_allowance_mm": 2,
+      "review_R20_mohm": 30,
+      "native_net": "SYS_RAW",
+      "native_from": {
+        "address": "U101.10",
+        "component_id": "05017d0e4046185a",
+        "net": "SYS_RAW",
+        "physical_pads": [
+          {
+            "id": "05017d0e4046185ae39",
+            "x_mm": 14.39926,
+            "y_mm": -32.25038
+          }
+        ]
+      },
+      "native_to": {
+        "address": "R101.1",
+        "component_id": "77e71391a223a92a",
+        "net": "SYS_RAW",
+        "physical_pads": [
+          {
+            "id": "77e71391a223a92ae11",
+            "x_mm": 21.99894,
+            "y_mm": -32.00146
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "sys_main_converter_feed",
+      "from": "R101.2",
+      "to": "C201.1",
+      "trunk_min_mm": 1.0,
+      "narrow_allowance_mm": 3,
+      "review_R20_mohm": 40,
+      "native_net": "SYS",
+      "native_from": {
+        "address": "R101.2",
+        "component_id": "77e71391a223a92a",
+        "net": "SYS",
+        "physical_pads": [
+          {
+            "id": "77e71391a223a92ae10",
+            "x_mm": 24.00046,
+            "y_mm": -32.00146
+          }
+        ]
+      },
+      "native_to": {
+        "address": "C201.1",
+        "component_id": "1e41cc55db2cee95",
+        "net": "SYS",
+        "physical_pads": [
+          {
+            "id": "1e41cc55db2cee95e8",
+            "x_mm": 32.4993,
+            "y_mm": -26.29408
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "sys_amplifier_feed",
+      "from": "R101.2",
+      "to": "U405.1",
+      "trunk_min_mm": 0.6,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 80,
+      "native_net": "SYS",
+      "native_from": {
+        "address": "R101.2",
+        "component_id": "77e71391a223a92a",
+        "net": "SYS",
+        "physical_pads": [
+          {
+            "id": "77e71391a223a92ae10",
+            "x_mm": 24.00046,
+            "y_mm": -32.00146
+          }
+        ]
+      },
+      "native_to": {
+        "address": "U405.1",
+        "component_id": "a4a8560eeef86e8d",
+        "net": "SYS",
+        "physical_pads": [
+          {
+            "id": "a4a8560eeef86e8de9",
+            "x_mm": 27.65044,
+            "y_mm": -82.55
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "battery_pack_to_link",
+      "from": "J102.1",
+      "to": "R102.1",
+      "trunk_min_mm": 1.0,
+      "narrow_allowance_mm": 3,
+      "review_R20_mohm": 25,
+      "native_net": "BAT_PACK_P",
+      "native_from": {
+        "address": "J102.1",
+        "component_id": "33d99ea4aefb7592",
+        "net": "BAT_PACK_P",
+        "physical_pads": [
+          {
+            "id": "33d99ea4aefb7592e6",
+            "x_mm": 4.39928,
+            "y_mm": -43.0022
+          }
+        ]
+      },
+      "native_to": {
+        "address": "R102.1",
+        "component_id": "dd4bf176037f788d",
+        "net": "BAT_PACK_P",
+        "physical_pads": [
+          {
+            "id": "dd4bf176037f788de11",
+            "x_mm": 4.99872,
+            "y_mm": -47.00016
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "battery_link_to_charger_cap",
+      "from": "R102.2",
+      "to": "C103.1",
+      "trunk_min_mm": 1.0,
+      "narrow_allowance_mm": 3,
+      "review_R20_mohm": 50,
+      "native_net": "BAT_PROT",
+      "native_from": {
+        "address": "R102.2",
+        "component_id": "dd4bf176037f788d",
+        "net": "BAT_PROT",
+        "physical_pads": [
+          {
+            "id": "dd4bf176037f788de10",
+            "x_mm": 7.00024,
+            "y_mm": -47.00016
+          }
+        ]
+      },
+      "native_to": {
+        "address": "C103.1",
+        "component_id": "9cbfa3bc4bb57076",
+        "net": "BAT_PROT",
+        "physical_pads": [
+          {
+            "id": "9cbfa3bc4bb57076e8",
+            "x_mm": 10.09396,
+            "y_mm": -32.00146
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "charger_battery_local",
+      "from": "C103.1",
+      "to": "U101.2",
+      "trunk_min_mm": 0.6,
+      "narrow_allowance_mm": 2,
+      "review_R20_mohm": 15,
+      "native_net": "BAT_PROT",
+      "native_from": {
+        "address": "C103.1",
+        "component_id": "9cbfa3bc4bb57076",
+        "net": "BAT_PROT",
+        "physical_pads": [
+          {
+            "id": "9cbfa3bc4bb57076e8",
+            "x_mm": 10.09396,
+            "y_mm": -32.00146
+          }
+        ]
+      },
+      "native_to": {
+        "address": "U101.2",
+        "component_id": "05017d0e4046185a",
+        "net": "BAT_PROT",
+        "physical_pads": [
+          {
+            "id": "05017d0e4046185ae31",
+            "x_mm": 11.60018,
+            "y_mm": -31.75
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "main_converter_input_local",
+      "from": "C201.1",
+      "to": "U201.10",
+      "trunk_min_mm": 0.6,
+      "narrow_allowance_mm": 2,
+      "review_R20_mohm": 15,
+      "native_net": "SYS",
+      "native_from": {
+        "address": "C201.1",
+        "component_id": "1e41cc55db2cee95",
+        "net": "SYS",
+        "physical_pads": [
+          {
+            "id": "1e41cc55db2cee95e8",
+            "x_mm": 32.4993,
+            "y_mm": -26.29408
+          }
+        ]
+      },
+      "native_to": {
+        "address": "U201.10",
+        "component_id": "2a3b7e054bb9a59f",
+        "net": "SYS",
+        "physical_pads": [
+          {
+            "id": "2a3b7e054bb9a59fe22",
+            "x_mm": 32.75076,
+            "y_mm": -28.00096
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "main_converter_output_local",
+      "from": "U201.6",
+      "to": "R203.1",
+      "trunk_min_mm": 0.6,
+      "narrow_allowance_mm": 2,
+      "review_R20_mohm": 25,
+      "native_net": "3V3_REG",
+      "native_from": {
+        "address": "U201.6",
+        "component_id": "2a3b7e054bb9a59f",
+        "net": "3V3_REG",
+        "physical_pads": [
+          {
+            "id": "2a3b7e054bb9a59fe19",
+            "x_mm": 32.75076,
+            "y_mm": -29.99994
+          }
+        ]
+      },
+      "native_to": {
+        "address": "R203.1",
+        "component_id": "361d5c523130be7e",
+        "net": "3V3_REG",
+        "physical_pads": [
+          {
+            "id": "361d5c523130be7ee11",
+            "x_mm": 32.50184,
+            "y_mm": -37.00018
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "main_mcu_supply",
+      "from": "R203.2",
+      "to": "U301.2",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 80,
+      "native_net": "3V3_AON",
+      "native_from": {
+        "address": "R203.2",
+        "component_id": "361d5c523130be7e",
+        "net": "3V3_AON",
+        "physical_pads": [
+          {
+            "id": "361d5c523130be7ee10",
+            "x_mm": 32.50184,
+            "y_mm": -39.0017
+          }
+        ]
+      },
+      "native_to": {
+        "address": "U301.2",
+        "component_id": "ff8ffbdbac2e358a",
+        "net": "3V3_AON",
+        "physical_pads": [
+          {
+            "id": "ff8ffbdbac2e358ae55",
+            "x_mm": 40.75176,
+            "y_mm": -2.75082
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "main_epd_switch_feed",
+      "from": "R203.2",
+      "to": "U401.1",
+      "trunk_min_mm": 0.6,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 100,
+      "native_net": "3V3_AON",
+      "native_from": {
+        "address": "R203.2",
+        "component_id": "361d5c523130be7e",
+        "net": "3V3_AON",
+        "physical_pads": [
+          {
+            "id": "361d5c523130be7ee10",
+            "x_mm": 32.50184,
+            "y_mm": -39.0017
+          }
+        ]
+      },
+      "native_to": {
+        "address": "U401.1",
+        "component_id": "4b45686e898ae50a",
+        "net": "3V3_AON",
+        "physical_pads": [
+          {
+            "id": "4b45686e898ae50ae9",
+            "x_mm": 46.64964,
+            "y_mm": -66.05016
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "main_sd_switch_feed",
+      "from": "R203.2",
+      "to": "U402.1",
+      "trunk_min_mm": 0.6,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 100,
+      "native_net": "3V3_AON",
+      "native_from": {
+        "address": "R203.2",
+        "component_id": "361d5c523130be7e",
+        "net": "3V3_AON",
+        "physical_pads": [
+          {
+            "id": "361d5c523130be7ee10",
+            "x_mm": 32.50184,
+            "y_mm": -39.0017
+          }
+        ]
+      },
+      "native_to": {
+        "address": "U402.1",
+        "component_id": "e57e8830963f9742",
+        "net": "3V3_AON",
+        "physical_pads": [
+          {
+            "id": "e57e8830963f9742e9",
+            "x_mm": 70.64756,
+            "y_mm": -39.55034
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "epd_output_to_boost_cap",
+      "from": "R402.2",
+      "to": "C603.1",
+      "trunk_min_mm": 0.6,
+      "narrow_allowance_mm": 3,
+      "review_R20_mohm": 50,
+      "native_net": "EPD_3V3",
+      "native_from": {
+        "address": "R402.2",
+        "component_id": "d7feb17bf5a180ce",
+        "net": "EPD_3V3",
+        "physical_pads": [
+          {
+            "id": "d7feb17bf5a180cee10",
+            "x_mm": 54.39918,
+            "y_mm": -65.1002
+          }
+        ]
+      },
+      "native_to": {
+        "address": "C603.1",
+        "component_id": "bc4d8c4ed7b19ee3",
+        "net": "EPD_3V3",
+        "physical_pads": [
+          {
+            "id": "bc4d8c4ed7b19ee3e16",
+            "x_mm": 65.49898,
+            "y_mm": -80.60182
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "sd_output_to_card",
+      "from": "R405.2",
+      "to": "J701.4",
+      "trunk_min_mm": 0.5,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 60,
+      "native_net": "SD_3V3",
+      "native_from": {
+        "address": "R405.2",
+        "component_id": "0d80aba3269ebdf1",
+        "net": "SD_3V3",
+        "physical_pads": [
+          {
+            "id": "0d80aba3269ebdf1e10",
+            "x_mm": 78.39964,
+            "y_mm": -38.60038
+          }
+        ]
+      },
+      "native_to": {
+        "address": "J701.4",
+        "component_id": "9e22edbe91b4885c",
+        "net": "SD_3V3",
+        "physical_pads": [
+          {
+            "id": "9e22edbe91b4885ce42",
+            "x_mm": 82.27314,
+            "y_mm": -22.52472
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "touch_output_to_fpc",
+      "from": "R408.2",
+      "to": "J406.2",
+      "trunk_min_mm": 0.3,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 150,
+      "native_net": "TOUCH_3V3",
+      "native_from": {
+        "address": "R408.2",
+        "component_id": "e72ae440dc9f5a2c",
+        "net": "TOUCH_3V3",
+        "physical_pads": [
+          {
+            "id": "e72ae440dc9f5a2ce10",
+            "x_mm": 73.40092,
+            "y_mm": -49.10074
+          }
+        ]
+      },
+      "native_to": {
+        "address": "J406.2",
+        "component_id": "bb2f6061412aa7ad",
+        "net": "TOUCH_3V3",
+        "physical_pads": [
+          {
+            "id": "bb2f6061412aa7ade9",
+            "x_mm": 94.59976,
+            "y_mm": -49.2506
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "mic_output_to_device",
+      "from": "R411.2",
+      "to": "U803.3",
+      "trunk_min_mm": 0.3,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 150,
+      "native_net": "MIC_3V3",
+      "native_from": {
+        "address": "R411.2",
+        "component_id": "0e6bb52f211ca5ae",
+        "net": "MIC_3V3",
+        "physical_pads": [
+          {
+            "id": "0e6bb52f211ca5aee10",
+            "x_mm": 17.40154,
+            "y_mm": -81.99882
+          }
+        ]
+      },
+      "native_to": {
+        "address": "U803.3",
+        "component_id": "0733e2265846157d",
+        "net": "MIC_3V3",
+        "physical_pads": [
+          {
+            "id": "0733e2265846157de26",
+            "x_mm": 5.92582,
+            "y_mm": -66.72072
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "amp_output_to_device",
+      "from": "R414.2",
+      "to": "U802.2",
+      "trunk_min_mm": 0.6,
+      "narrow_allowance_mm": 3,
+      "review_R20_mohm": 50,
+      "native_net": "AMP_SYS",
+      "native_from": {
+        "address": "R414.2",
+        "component_id": "0497c902652784ac",
+        "net": "AMP_SYS",
+        "physical_pads": [
+          {
+            "id": "0497c902652784ace10",
+            "x_mm": 35.39998,
+            "y_mm": -81.60004
+          }
+        ]
+      },
+      "native_to": {
+        "address": "U802.2",
+        "component_id": "21848786aabdad88",
+        "net": "AMP_SYS",
+        "physical_pads": [
+          {
+            "id": "21848786aabdad88e31",
+            "x_mm": 33.74898,
+            "y_mm": -72.42556
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "usb_a9_to_ptc",
+      "from": "J501.A9",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30,
+      "native_net": "USB_VBUS",
+      "native_from": {
+        "address": "J501.A9",
+        "component_id": "f251ef93c41d5e56",
+        "net": "USB_VBUS",
+        "physical_pads": [
+          {
+            "id": "f251ef93c41d5e56e43",
+            "x_mm": 14.95044,
+            "y_mm": -7.35584
+          }
+        ]
+      },
+      "native_to": {
+        "address": "F501.1",
+        "component_id": "de628933e5ade04e",
+        "net": "USB_VBUS",
+        "physical_pads": [
+          {
+            "id": "de628933e5ade04ee8",
+            "x_mm": 19.99996,
+            "y_mm": -19.1135
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "usb_b4_to_ptc",
+      "from": "J501.B4",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30,
+      "native_net": "USB_VBUS",
+      "native_from": {
+        "address": "J501.B4",
+        "component_id": "f251ef93c41d5e56",
+        "net": "USB_VBUS",
+        "physical_pads": [
+          {
+            "id": "f251ef93c41d5e56e44",
+            "x_mm": 15.25016,
+            "y_mm": -7.35584
+          }
+        ]
+      },
+      "native_to": {
+        "address": "F501.1",
+        "component_id": "de628933e5ade04e",
+        "net": "USB_VBUS",
+        "physical_pads": [
+          {
+            "id": "de628933e5ade04ee8",
+            "x_mm": 19.99996,
+            "y_mm": -19.1135
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    },
+    {
+      "id": "usb_b9_to_ptc",
+      "from": "J501.B9",
+      "to": "F501.1",
+      "trunk_min_mm": 0.8,
+      "narrow_allowance_mm": 4,
+      "review_R20_mohm": 30,
+      "native_net": "USB_VBUS",
+      "native_from": {
+        "address": "J501.B9",
+        "component_id": "f251ef93c41d5e56",
+        "net": "USB_VBUS",
+        "physical_pads": [
+          {
+            "id": "f251ef93c41d5e56e53",
+            "x_mm": 19.75104,
+            "y_mm": -7.35584
+          }
+        ]
+      },
+      "native_to": {
+        "address": "F501.1",
+        "component_id": "de628933e5ade04e",
+        "net": "USB_VBUS",
+        "physical_pads": [
+          {
+            "id": "de628933e5ade04ee8",
+            "x_mm": 19.99996,
+            "y_mm": -19.1135
+          }
+        ]
+      },
+      "basis": "Existing r14 engineering target only; no KiCad geometry copied"
+    }
+  ]
+}

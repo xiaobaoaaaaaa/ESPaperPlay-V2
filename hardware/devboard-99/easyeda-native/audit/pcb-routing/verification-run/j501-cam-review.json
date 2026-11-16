@@ -1,0 +1,1255 @@
+{
+  "status": "PASS_J501_ROUTED_CAM",
+  "inputs": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/PCB-layout.epcb": "2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json": "29960dc357eca29afd5e763de61bfc5078ce66ff7e5b44f96104f98a6ff74d5a",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/verification/j501-cam-target.json": "5f5672951de7279b1a329f85bf27c8fa7e2ae92dc77545816a4470928054d6e2"
+  },
+  "pose": {
+    "origin_world_mm": [
+      17.499807519999997,
+      -4.973121879999999
+    ],
+    "rotation_deg": 180,
+    "source": "Actual native component snapshot; no Y flip"
+  },
+  "checks": {
+    "J501_20_pin_names_and_correct_nets": {
+      "pass": true,
+      "expected": {
+        "A12": "GND",
+        "B1": "GND",
+        "B12": "GND",
+        "A1": "GND",
+        "1": "GND",
+        "2": "GND",
+        "3": "GND",
+        "4": "GND",
+        "A9": "USB_VBUS",
+        "B4": "USB_VBUS",
+        "B9": "USB_VBUS",
+        "A4": "USB_VBUS",
+        "A6": "USB_DP_PORT",
+        "B6": "USB_DP_PORT",
+        "A7": "USB_DM_PORT",
+        "B7": "USB_DM_PORT",
+        "A5": "USB_CC1",
+        "B5": "USB_CC2",
+        "A8": "",
+        "B8": ""
+      },
+      "actual": {
+        "A12": "GND",
+        "B1": "GND",
+        "A9": "USB_VBUS",
+        "B4": "USB_VBUS",
+        "B5": "USB_CC2",
+        "A8": "",
+        "B6": "USB_DP_PORT",
+        "A7": "USB_DM_PORT",
+        "A6": "USB_DP_PORT",
+        "B7": "USB_DM_PORT",
+        "A5": "USB_CC1",
+        "B8": "",
+        "B9": "USB_VBUS",
+        "A4": "USB_VBUS",
+        "B12": "GND",
+        "A1": "GND",
+        "1": "GND",
+        "2": "GND",
+        "3": "GND",
+        "4": "GND"
+      }
+    },
+    "J501_A12_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 204,
+      "class": "Region",
+      "area_mm2": 0.3426704849283766,
+      "bounds_local_mm": [
+        3.1999975199999966,
+        1.8068781200000013,
+        3.4999975199999973,
+        2.9568781200000007
+      ],
+      "symmetric_difference_mm2": 5.762040681386982e-06,
+      "hausdorff_mm": 3.527200118620613e-06
+    },
+    "J501_A12_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.5269733116049145e-06
+    },
+    "J501_B1_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 205,
+      "class": "Region",
+      "area_mm2": 0.31262555253472774,
+      "bounds_local_mm": [
+        2.8999975199999977,
+        1.8610681200000014,
+        3.1999975199999966,
+        2.9568781200000007
+      ],
+      "symmetric_difference_mm2": 5.505963864380532e-06,
+      "hausdorff_mm": 2.9108076688961808e-06
+    },
+    "J501_B1_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 1.2545315328444664e-07
+    },
+    "J501_A9_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 206,
+      "class": "Region",
+      "area_mm2": 0.332771224300337,
+      "bounds_local_mm": [
+        2.3999975199999977,
+        1.8068781200000013,
+        2.6999975199999966,
+        2.9568781200000007
+      ],
+      "symmetric_difference_mm2": 5.711161943387245e-06,
+      "hausdorff_mm": 3.773255262950092e-06
+    },
+    "J501_A9_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.771756566014466e-06
+    },
+    "J501_B4_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 207,
+      "class": "Flash",
+      "area_mm2": 0.3450000000000009,
+      "bounds_local_mm": [
+        2.099997519999997,
+        1.8068781200000013,
+        2.3999975199999977,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412084835e-06,
+      "hausdorff_mm": 2.4829015316795556e-06
+    },
+    "J501_B4_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 3.600000051395822e-08
+    },
+    "J501_B5_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 208,
+      "class": "Flash",
+      "area_mm2": 0.3450000000000009,
+      "bounds_local_mm": [
+        1.599997519999997,
+        1.8068781200000013,
+        1.8999975199999977,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412084835e-06,
+      "hausdorff_mm": 2.4829015316795556e-06
+    },
+    "J501_B5_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.863981705155512e-06
+    },
+    "J501_A8_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 209,
+      "class": "Flash",
+      "area_mm2": 0.34499999999999686,
+      "bounds_local_mm": [
+        1.0999975199999987,
+        1.8068781200000013,
+        1.3999975199999959,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412084835e-06,
+      "hausdorff_mm": 2.482901532555965e-06
+    },
+    "J501_A8_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.887999707541218e-06
+    },
+    "J501_B6_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 210,
+      "class": "Flash",
+      "area_mm2": 0.34499999999999686,
+      "bounds_local_mm": [
+        0.5999975199999987,
+        1.8068781200000013,
+        0.8999975199999959,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412084835e-06,
+      "hausdorff_mm": 2.482901532666857e-06
+    },
+    "J501_B6_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.8567997072234636e-06
+    },
+    "J501_A7_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 211,
+      "class": "Flash",
+      "area_mm2": 0.34499999999999686,
+      "bounds_local_mm": [
+        0.09999751999999873,
+        1.8068781200000013,
+        0.3999975199999959,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412116753e-06,
+      "hausdorff_mm": 2.482901532666857e-06
+    },
+    "J501_A7_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.8879997076688935e-06
+    },
+    "J501_A6_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 212,
+      "class": "Flash",
+      "area_mm2": 0.34499999999999686,
+      "bounds_local_mm": [
+        -0.40000248000000127,
+        1.8068781200000013,
+        -0.10000248000000411,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412052915e-06,
+      "hausdorff_mm": 2.4829015326391342e-06
+    },
+    "J501_A6_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.8567997071915444e-06
+    },
+    "J501_B7_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 213,
+      "class": "Flash",
+      "area_mm2": 0.34499999999999686,
+      "bounds_local_mm": [
+        -0.9000024800000013,
+        1.8068781200000013,
+        -0.6000024800000041,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412084835e-06,
+      "hausdorff_mm": 2.482901532666857e-06
+    },
+    "J501_B7_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.8879997076688935e-06
+    },
+    "J501_A5_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 214,
+      "class": "Flash",
+      "area_mm2": 0.34499999999999686,
+      "bounds_local_mm": [
+        -1.4000024800000013,
+        1.8068781200000013,
+        -1.1000024800000041,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412084835e-06,
+      "hausdorff_mm": 2.482901532555965e-06
+    },
+    "J501_A5_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.887999707541218e-06
+    },
+    "J501_B8_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 215,
+      "class": "Flash",
+      "area_mm2": 0.34499999999999686,
+      "bounds_local_mm": [
+        -1.9000024800000013,
+        1.8068781200000013,
+        -1.6000024800000041,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412084835e-06,
+      "hausdorff_mm": 2.482901532555965e-06
+    },
+    "J501_B8_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.887999707541218e-06
+    },
+    "J501_B9_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 216,
+      "class": "Flash",
+      "area_mm2": 0.34499999999999686,
+      "bounds_local_mm": [
+        -2.4000024800000013,
+        1.8068781200000013,
+        -2.100002480000004,
+        2.9568781200000016
+      ],
+      "symmetric_difference_mm2": 5.775999412084835e-06,
+      "hausdorff_mm": 2.482901532555965e-06
+    },
+    "J501_B9_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.887999707541218e-06
+    },
+    "J501_A4_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 217,
+      "class": "Region",
+      "area_mm2": 0.3327708031000084,
+      "bounds_local_mm": [
+        -2.700002480000002,
+        1.8068781200000013,
+        -2.4000024800000013,
+        2.9568781200000007
+      ],
+      "symmetric_difference_mm2": 5.756347805956213e-06,
+      "hausdorff_mm": 4.107392118442013e-06
+    },
+    "J501_A4_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 1.5294995913040717e-07
+    },
+    "J501_B12_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 218,
+      "class": "Region",
+      "area_mm2": 0.31262618622175964,
+      "bounds_local_mm": [
+        -3.200002480000002,
+        1.8610681200000014,
+        -2.9000024800000013,
+        2.9568781200000007
+      ],
+      "symmetric_difference_mm2": 5.612277028490678e-06,
+      "hausdorff_mm": 3.4844852269379707e-06
+    },
+    "J501_B12_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 2.579376458705609e-06
+    },
+    "J501_A1_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 219,
+      "class": "Region",
+      "area_mm2": 0.3426704701554276,
+      "bounds_local_mm": [
+        -3.5000024800000027,
+        1.8068781200000013,
+        -3.200002480000002,
+        2.9568781200000007
+      ],
+      "symmetric_difference_mm2": 5.7936838437976425e-06,
+      "hausdorff_mm": 3.935652650438494e-06
+    },
+    "J501_A1_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 1.8795832367085473e-07
+    },
+    "J501_1_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 220,
+      "class": "Flash",
+      "area_mm2": 1.8853929331199524,
+      "bounds_local_mm": [
+        -4.820002480000003,
+        0.7568806172764635,
+        -3.820002480000003,
+        2.856875622723539
+      ],
+      "symmetric_difference_mm2": 1.1850819401503968e-05,
+      "hausdorff_mm": 4.979739569648167e-06
+    },
+    "J501_1_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 8.502045991460476e-06
+    },
+    "J501_1_B.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 70,
+      "class": "Flash",
+      "area_mm2": 1.8853929331199524,
+      "bounds_local_mm": [
+        -4.820002480000003,
+        0.7568806172764635,
+        -3.820002480000003,
+        2.856875622723539
+      ],
+      "symmetric_difference_mm2": 1.1850819401503968e-05,
+      "hausdorff_mm": 4.979739569648167e-06
+    },
+    "J501_1_B.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 8.502045991460476e-06
+    },
+    "J501_1_In1.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 1310,
+      "class": "Flash",
+      "area_mm2": 1.8853929331199524,
+      "bounds_local_mm": [
+        -4.820002480000003,
+        0.7568806172764635,
+        -3.820002480000003,
+        2.856875622723539
+      ],
+      "symmetric_difference_mm2": 1.1850819401503968e-05,
+      "hausdorff_mm": 4.979739569648167e-06
+    },
+    "J501_1_In1.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 6.749717963903987e-06
+    },
+    "J501_1_In2.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 1310,
+      "class": "Flash",
+      "area_mm2": 1.8853929331199524,
+      "bounds_local_mm": [
+        -4.820002480000003,
+        0.7568806172764635,
+        -3.820002480000003,
+        2.856875622723539
+      ],
+      "symmetric_difference_mm2": 1.1850819401503968e-05,
+      "hausdorff_mm": 4.979739569648167e-06
+    },
+    "J501_1_In2.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 6.749717963903987e-06
+    },
+    "J501_2_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 221,
+      "class": "Flash",
+      "area_mm2": 1.885392933119952,
+      "bounds_local_mm": [
+        3.8199975199999976,
+        0.7568806172764635,
+        4.819997519999998,
+        2.856875622723539
+      ],
+      "symmetric_difference_mm2": 1.185081940206351e-05,
+      "hausdorff_mm": 4.979739570535063e-06
+    },
+    "J501_2_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 8.502045991715159e-06
+    },
+    "J501_2_B.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 71,
+      "class": "Flash",
+      "area_mm2": 1.885392933119952,
+      "bounds_local_mm": [
+        3.8199975199999976,
+        0.7568806172764635,
+        4.819997519999998,
+        2.856875622723539
+      ],
+      "symmetric_difference_mm2": 1.185081940206351e-05,
+      "hausdorff_mm": 4.979739570535063e-06
+    },
+    "J501_2_B.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 8.502045991715159e-06
+    },
+    "J501_2_In1.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 1311,
+      "class": "Flash",
+      "area_mm2": 1.885392933119952,
+      "bounds_local_mm": [
+        3.8199975199999976,
+        0.7568806172764635,
+        4.819997519999998,
+        2.856875622723539
+      ],
+      "symmetric_difference_mm2": 1.185081940206351e-05,
+      "hausdorff_mm": 4.979739570535063e-06
+    },
+    "J501_2_In1.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 6.749717963794469e-06
+    },
+    "J501_2_In2.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 1311,
+      "class": "Flash",
+      "area_mm2": 1.885392933119952,
+      "bounds_local_mm": [
+        3.8199975199999976,
+        0.7568806172764635,
+        4.819997519999998,
+        2.856875622723539
+      ],
+      "symmetric_difference_mm2": 1.185081940206351e-05,
+      "hausdorff_mm": 4.979739570535063e-06
+    },
+    "J501_2_In2.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 6.749717963794469e-06
+    },
+    "J501_3_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 222,
+      "class": "Flash",
+      "area_mm2": 1.5853929331199517,
+      "bounds_local_mm": [
+        3.8199975199999976,
+        -3.2731193827235368,
+        4.819997519999998,
+        -1.473124377276461
+      ],
+      "symmetric_difference_mm2": 1.0362819400405297e-05,
+      "hausdorff_mm": 4.979739570535063e-06
+    },
+    "J501_3_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 7.758045989650826e-06
+    },
+    "J501_3_B.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 72,
+      "class": "Flash",
+      "area_mm2": 1.5853929331199517,
+      "bounds_local_mm": [
+        3.8199975199999976,
+        -3.2731193827235368,
+        4.819997519999998,
+        -1.473124377276461
+      ],
+      "symmetric_difference_mm2": 1.0362819400405297e-05,
+      "hausdorff_mm": 4.979739570535063e-06
+    },
+    "J501_3_B.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 7.758045989650826e-06
+    },
+    "J501_3_In1.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 1312,
+      "class": "Flash",
+      "area_mm2": 1.5853929331199517,
+      "bounds_local_mm": [
+        3.8199975199999976,
+        -3.2731193827235368,
+        4.819997519999998,
+        -1.473124377276461
+      ],
+      "symmetric_difference_mm2": 1.0362819400405297e-05,
+      "hausdorff_mm": 4.979739570535063e-06
+    },
+    "J501_3_In1.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 6.005717962530626e-06
+    },
+    "J501_3_In2.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 1312,
+      "class": "Flash",
+      "area_mm2": 1.5853929331199517,
+      "bounds_local_mm": [
+        3.8199975199999976,
+        -3.2731193827235368,
+        4.819997519999998,
+        -1.473124377276461
+      ],
+      "symmetric_difference_mm2": 1.0362819400405297e-05,
+      "hausdorff_mm": 4.979739570535063e-06
+    },
+    "J501_3_In2.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 6.005717962530626e-06
+    },
+    "J501_4_F.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 223,
+      "class": "Flash",
+      "area_mm2": 1.5853929331199514,
+      "bounds_local_mm": [
+        -4.820002480000003,
+        -3.2731193827235368,
+        -3.820002480000003,
+        -1.473124377276461
+      ],
+      "symmetric_difference_mm2": 1.0362819400121084e-05,
+      "hausdorff_mm": 4.979739569648167e-06
+    },
+    "J501_4_F.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 7.758045989692866e-06
+    },
+    "J501_4_B.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 73,
+      "class": "Flash",
+      "area_mm2": 1.5853929331199514,
+      "bounds_local_mm": [
+        -4.820002480000003,
+        -3.2731193827235368,
+        -3.820002480000003,
+        -1.473124377276461
+      ],
+      "symmetric_difference_mm2": 1.0362819400121084e-05,
+      "hausdorff_mm": 4.979739569648167e-06
+    },
+    "J501_4_B.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 7.758045989692866e-06
+    },
+    "J501_4_In1.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 1313,
+      "class": "Flash",
+      "area_mm2": 1.5853929331199514,
+      "bounds_local_mm": [
+        -4.820002480000003,
+        -3.2731193827235368,
+        -3.820002480000003,
+        -1.473124377276461
+      ],
+      "symmetric_difference_mm2": 1.0362819400121084e-05,
+      "hausdorff_mm": 4.979739569648167e-06
+    },
+    "J501_4_In1.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 6.005717962616383e-06
+    },
+    "J501_4_In2.Cu_pad_primitive": {
+      "pass": true,
+      "CAM_object": 1313,
+      "class": "Flash",
+      "area_mm2": 1.5853929331199514,
+      "bounds_local_mm": [
+        -4.820002480000003,
+        -3.2731193827235368,
+        -3.820002480000003,
+        -1.473124377276461
+      ],
+      "symmetric_difference_mm2": 1.0362819400121084e-05,
+      "hausdorff_mm": 4.979739569648167e-06
+    },
+    "J501_4_In2.Cu_final_copper_retained": {
+      "pass": true,
+      "missing_area_mm2": 6.005717962616383e-06
+    },
+    "J501_F_Mask": {
+      "pass": true,
+      "actual_area_mm2": 13.824066679587167,
+      "expected_area_mm2": 13.824146330886457,
+      "components": 16,
+      "symmetric_difference_mm2": 0.0001823590793206461,
+      "hausdorff_mm": 0.0013649169105439012,
+      "ideal_offset_exact_match": false,
+      "acceptance": "20um <= opening margin <=30um, target25um; 16 physical opening components",
+      "minimum_20um_envelope_missing_area_mm2": 0.0,
+      "maximum_30um_envelope_excess_area_mm2": 0.0
+    },
+    "J501_B_Mask_four_shell_openings": {
+      "pass": true,
+      "actual_area_mm2": 7.453583909805764,
+      "expected_area_mm2": 7.453584455626979,
+      "components": 4,
+      "symmetric_difference_mm2": 1.1247542600041645e-05,
+      "hausdorff_mm": 2.49995041280389e-06,
+      "ideal_offset_exact_match": true
+    },
+    "J501_F_Paste_12_exact_windows_no_shell_paste": {
+      "pass": true,
+      "actual_area_mm2": 5.426135443337761,
+      "expected_area_mm2": 5.426135576906095,
+      "components": 12,
+      "symmetric_difference_mm2": 7.45521205661227e-05,
+      "hausdorff_mm": 3.7910420745150093e-06,
+      "expected_physical_apertures": 12
+    },
+    "J501_B_Paste_empty": {
+      "pass": true
+    },
+    "J501_NPTH_1_drill": {
+      "pass": true,
+      "actual_area_mm2": 0.33182732954168437,
+      "expected_area_mm2": 0.3318306915008438,
+      "components": 1,
+      "symmetric_difference_mm2": 4.162361275848764e-06,
+      "hausdorff_mm": 4.97604025823815e-06,
+      "actual_plated": false,
+      "expected_plated": false
+    },
+    "J501_NPTH_2_drill": {
+      "pass": true,
+      "actual_area_mm2": 0.33182732954168415,
+      "expected_area_mm2": 0.3318306915008438,
+      "components": 1,
+      "symmetric_difference_mm2": 4.162361275490937e-06,
+      "hausdorff_mm": 4.97604025823815e-06,
+      "actual_plated": false,
+      "expected_plated": false
+    },
+    "J501_shell_1_drill": {
+      "pass": true,
+      "actual_area_mm2": 0.9427402010757275,
+      "expected_area_mm2": 0.9427433111013104,
+      "components": 1,
+      "symmetric_difference_mm2": 9.302216742169997e-06,
+      "hausdorff_mm": 4.9783561097826605e-06,
+      "actual_plated": true,
+      "expected_plated": true,
+      "nominal_land_minimum_measured_annulus_mm": 0.1999975032188641
+    },
+    "J501_shell_2_drill": {
+      "pass": true,
+      "actual_area_mm2": 0.9427402010757279,
+      "expected_area_mm2": 0.9427433111013104,
+      "components": 1,
+      "symmetric_difference_mm2": 9.302216741996804e-06,
+      "hausdorff_mm": 4.978356108879954e-06,
+      "actual_plated": true,
+      "expected_plated": true,
+      "nominal_land_minimum_measured_annulus_mm": 0.19999750321886492
+    },
+    "J501_shell_3_drill": {
+      "pass": true,
+      "actual_area_mm2": 0.762740201075728,
+      "expected_area_mm2": 0.7627433111013115,
+      "components": 1,
+      "symmetric_difference_mm2": 7.814216740442246e-06,
+      "hausdorff_mm": 4.978356108879954e-06,
+      "actual_plated": true,
+      "expected_plated": true,
+      "nominal_land_minimum_measured_annulus_mm": 0.19999750321886517
+    },
+    "J501_shell_4_drill": {
+      "pass": true,
+      "actual_area_mm2": 0.7627402010757277,
+      "expected_area_mm2": 0.7627433111013115,
+      "components": 1,
+      "symmetric_difference_mm2": 7.814216740396476e-06,
+      "hausdorff_mm": 4.978356109765465e-06,
+      "actual_plated": true,
+      "expected_plated": true,
+      "nominal_land_minimum_measured_annulus_mm": 0.1999975032188641
+    },
+    "J501_F.Cu_NPTH_1_global_clearance": {
+      "pass": true,
+      "actual_gap_mm": 0.3099963029119703,
+      "minimum_mm": 0.3,
+      "rule": "Existing project global NPTH rule; the .31mm target belongs to the footprint heel relief"
+    },
+    "J501_NPTH_1_footprint_land_relief": {
+      "pass": true,
+      "actual_gap_mm": 0.3099963029119703,
+      "minimum_mm": 0.3099,
+      "design_mm": 0.31
+    },
+    "J501_NPTH_1_footprint_paste_relief": {
+      "pass": true,
+      "actual_gap_mm": 0.3099962647481304,
+      "minimum_mm": 0.3099,
+      "design_mm": 0.31
+    },
+    "J501_F.Cu_NPTH_2_global_clearance": {
+      "pass": true,
+      "actual_gap_mm": 0.3099962027200125,
+      "minimum_mm": 0.3,
+      "rule": "Existing project global NPTH rule; the .31mm target belongs to the footprint heel relief"
+    },
+    "J501_NPTH_2_footprint_land_relief": {
+      "pass": true,
+      "actual_gap_mm": 0.3099962027200125,
+      "minimum_mm": 0.3099,
+      "design_mm": 0.31
+    },
+    "J501_NPTH_2_footprint_paste_relief": {
+      "pass": true,
+      "actual_gap_mm": 0.3099962027200125,
+      "minimum_mm": 0.3099,
+      "design_mm": 0.31
+    },
+    "J501_B.Cu_NPTH_1_global_clearance": {
+      "pass": true,
+      "actual_gap_mm": 0.37061266457253855,
+      "minimum_mm": 0.3,
+      "rule": "Existing project global NPTH rule; the .31mm target belongs to the footprint heel relief"
+    },
+    "J501_B.Cu_NPTH_2_global_clearance": {
+      "pass": true,
+      "actual_gap_mm": 0.6050000000000003,
+      "minimum_mm": 0.3,
+      "rule": "Existing project global NPTH rule; the .31mm target belongs to the footprint heel relief"
+    },
+    "J501_In1.Cu_NPTH_1_global_clearance": {
+      "pass": true,
+      "actual_gap_mm": 0.3025371476827223,
+      "minimum_mm": 0.3,
+      "rule": "Existing project global NPTH rule; the .31mm target belongs to the footprint heel relief"
+    },
+    "J501_In1.Cu_NPTH_2_global_clearance": {
+      "pass": true,
+      "actual_gap_mm": 0.3025371476737318,
+      "minimum_mm": 0.3,
+      "rule": "Existing project global NPTH rule; the .31mm target belongs to the footprint heel relief"
+    },
+    "J501_In2.Cu_NPTH_1_global_clearance": {
+      "pass": true,
+      "actual_gap_mm": 0.3025371476827223,
+      "minimum_mm": 0.3,
+      "rule": "Existing project global NPTH rule; the .31mm target belongs to the footprint heel relief"
+    },
+    "J501_In2.Cu_NPTH_2_global_clearance": {
+      "pass": true,
+      "actual_gap_mm": 0.3025371476737318,
+      "minimum_mm": 0.3,
+      "rule": "Existing project global NPTH rule; the .31mm target belongs to the footprint heel relief"
+    },
+    "J501_F.Cu_local_copper_0_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_F.Cu_local_copper_1_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_VBUS"
+      ]
+    },
+    "J501_F.Cu_local_copper_2_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_CC2"
+      ]
+    },
+    "J501_F.Cu_local_copper_3_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "NC_f251ef93c41d5e56e46"
+      ]
+    },
+    "J501_F.Cu_local_copper_4_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_DP_PORT"
+      ]
+    },
+    "J501_F.Cu_local_copper_5_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_DM_PORT"
+      ]
+    },
+    "J501_F.Cu_local_copper_6_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_CC1"
+      ]
+    },
+    "J501_F.Cu_local_copper_7_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "NC_f251ef93c41d5e56e52"
+      ]
+    },
+    "J501_F.Cu_local_copper_8_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_VBUS"
+      ]
+    },
+    "J501_F.Cu_local_copper_9_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_F.Cu_local_copper_10_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_F.Cu_local_copper_11_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_F.Cu_local_copper_12_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_F.Cu_local_copper_13_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_F.Cu_local_copper_14_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_F.Cu_local_copper_15_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "MCU_EN"
+      ]
+    },
+    "J501_F.Cu_local_copper_16_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "FUEL_ALERT_N"
+      ]
+    },
+    "J501_F.Cu_local_copper_17_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "FUEL_ALERT_N"
+      ]
+    },
+    "J501_F.Cu_local_copper_18_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "PGOOD_N"
+      ]
+    },
+    "J501_F.Cu_local_copper_19_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "VBUS_SENSE_N"
+      ]
+    },
+    "J501_B.Cu_local_copper_0_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_B.Cu_local_copper_1_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_B.Cu_local_copper_2_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_B.Cu_local_copper_3_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_B.Cu_local_copper_4_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_DP_PORT"
+      ]
+    },
+    "J501_B.Cu_local_copper_5_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_DM_PORT"
+      ]
+    },
+    "J501_B.Cu_local_copper_6_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_B.Cu_local_copper_7_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_B.Cu_local_copper_8_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "MCU_EN"
+      ]
+    },
+    "J501_B.Cu_local_copper_9_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "FUEL_ALERT_N"
+      ]
+    },
+    "J501_B.Cu_local_copper_10_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "PGOOD_N"
+      ]
+    },
+    "J501_B.Cu_local_copper_11_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "CHG_N"
+      ]
+    },
+    "J501_In1.Cu_local_copper_0_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_In1.Cu_local_copper_1_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_DP_PORT"
+      ]
+    },
+    "J501_In1.Cu_local_copper_2_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_DM_PORT"
+      ]
+    },
+    "J501_In1.Cu_local_copper_3_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "MCU_EN"
+      ]
+    },
+    "J501_In1.Cu_local_copper_4_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "FUEL_ALERT_N"
+      ]
+    },
+    "J501_In1.Cu_local_copper_5_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "FUEL_ALERT_N"
+      ]
+    },
+    "J501_In1.Cu_local_copper_6_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "PGOOD_N"
+      ]
+    },
+    "J501_In2.Cu_local_copper_0_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "GND"
+      ]
+    },
+    "J501_In2.Cu_local_copper_1_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_DP_PORT"
+      ]
+    },
+    "J501_In2.Cu_local_copper_2_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "USB_DM_PORT"
+      ]
+    },
+    "J501_In2.Cu_local_copper_3_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "MCU_EN"
+      ]
+    },
+    "J501_In2.Cu_local_copper_4_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "FUEL_ALERT_N"
+      ]
+    },
+    "J501_In2.Cu_local_copper_5_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "FUEL_ALERT_N"
+      ]
+    },
+    "J501_In2.Cu_local_copper_6_no_mixed_net": {
+      "pass": true,
+      "nets": [
+        "PGOOD_N"
+      ]
+    },
+    "J501_every_ROI_drill_matches_exact_native_source": {
+      "pass": true,
+      "expected_source_count": 12,
+      "actual_count": 12,
+      "matched": [
+        {
+          "source_id": "d7bc55696594d349_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 52,
+          "role": "additional_native_routing_or_component_drill",
+          "net": "USB_DP_PORT",
+          "hausdorff_mm": 1.1881319775021794e-05
+        },
+        {
+          "source_id": "3f8fa121d4e049b1_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 56,
+          "role": "additional_native_routing_or_component_drill",
+          "net": "GND",
+          "hausdorff_mm": 1.2424476424432813e-05
+        },
+        {
+          "source_id": "e5c5a77707b30d59_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 480,
+          "role": "additional_native_routing_or_component_drill",
+          "net": "MCU_EN",
+          "hausdorff_mm": 1.6007701182597483e-05
+        },
+        {
+          "source_id": "8de5613652a5f169_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 540,
+          "role": "additional_native_routing_or_component_drill",
+          "net": "FUEL_ALERT_N",
+          "hausdorff_mm": 1.2597811305126923e-05
+        },
+        {
+          "source_id": "04c20920dd583d05_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 541,
+          "role": "additional_native_routing_or_component_drill",
+          "net": "FUEL_ALERT_N",
+          "hausdorff_mm": 1.2913720884490946e-05
+        },
+        {
+          "source_id": "ac25f21792f7d385_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 554,
+          "role": "additional_native_routing_or_component_drill",
+          "net": "PGOOD_N",
+          "hausdorff_mm": 1.2728575314939063e-05
+        },
+        {
+          "source_id": "f251ef93c41d5e56e64_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 647,
+          "role": "planned_thermal_or_acoustic_hole",
+          "net": null,
+          "hausdorff_mm": 2.554347598066294e-05
+        },
+        {
+          "source_id": "f251ef93c41d5e56e65_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 648,
+          "role": "planned_thermal_or_acoustic_hole",
+          "net": null,
+          "hausdorff_mm": 2.4242458085244114e-05
+        },
+        {
+          "source_id": "f251ef93c41d5e56e66_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 649,
+          "role": "planned_thermal_or_acoustic_hole",
+          "net": null,
+          "hausdorff_mm": 2.33674250863344e-05
+        },
+        {
+          "source_id": "f251ef93c41d5e56e67_hole",
+          "CAM_file": "Drill_PTH_Through.DRL",
+          "CAM_index": 650,
+          "role": "planned_thermal_or_acoustic_hole",
+          "net": null,
+          "hausdorff_mm": 2.4935968534344042e-05
+        },
+        {
+          "source_id": "f251ef93c41d5e56e62",
+          "CAM_file": "Drill_NPTH_Through.DRL",
+          "CAM_index": 1,
+          "role": "planned_thermal_or_acoustic_hole",
+          "net": null,
+          "hausdorff_mm": 2.5625069695814816e-05
+        },
+        {
+          "source_id": "f251ef93c41d5e56e63",
+          "CAM_file": "Drill_NPTH_Through.DRL",
+          "CAM_index": 2,
+          "role": "planned_thermal_or_acoustic_hole",
+          "net": null,
+          "hausdorff_mm": 2.7019907355248133e-05
+        }
+      ],
+      "errors": []
+    },
+    "J501_front_edge_matches_99mm_board_datum": {
+      "pass": true,
+      "maximum_edge_y_error_mm": 1.2000000104706032e-07,
+      "outline_segments_mm": [
+        [
+          0.0,
+          0.0,
+          99.0,
+          0.0
+        ],
+        [
+          99.0,
+          0.0,
+          99.0,
+          -99.0
+        ],
+        [
+          99.0,
+          -99.0,
+          0.0,
+          -99.0
+        ],
+        [
+          0.0,
+          -99.0,
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "failures": [],
+  "negative_tests": [],
+  "CAM_files": {
+    "Gerber_TopLayer.GTL": "e5b0a54014a37b44c0898e7eb4dc3f2656fa93af890259375912a09cb1f572c7",
+    "Gerber_BottomLayer.GBL": "37d27d387c48f8d181701340082cdaa5bf805ab22d0b950edb94ededf0946dad",
+    "Gerber_TopSilkscreenLayer.GTO": "afa482ad3223541d3a5d7d29e3c82ae5e91a7339070794f69a1bdd5b4f2d226b",
+    "Gerber_BottomSilkscreenLayer.GBO": "e5bb46f543e87a4564007d50af8af7f812b937061f0b1af396207b5f1a3d09e0",
+    "Gerber_TopSolderMaskLayer.GTS": "96fe34a6451fb8bf46937ff3d733630a081b0c6ba8490b79e11a23f61eeb1231",
+    "Gerber_BottomSolderMaskLayer.GBS": "880556a80bbc09db1841807eb6a78774b960a0e503988a3a2b5e640f78875810",
+    "Gerber_TopPasteMaskLayer.GTP": "a70c377df8494a4e7b445c9942b2f314edc983e0fd168b751c3e4027bb7f1fae",
+    "Gerber_BoardOutlineLayer.GKO": "ce288ea58af01ea24e53e12b9c35296f550d94a743cc9b9a0dedf7a9e3edf80c",
+    "Gerber_DocumentLayer.GDL": "8e48f4731b23fada1f52437c8dabee90b59e4af8af04297a10a3865e395f3d6b",
+    "Gerber_InnerLayer1.G1": "5f9625523f1140e25d912c6a80bd91ad319e4d546216912c8f9bdc7502dfb6ab",
+    "Gerber_InnerLayer2.G2": "8cc9ae7e3bff2e02f691a89677259b1c480196daf5c941fa368fea413d788a69",
+    "Gerber_DrillDrawingLayer.GDD": "7a7dcc2023948b0de9331faa512449af37d3b6464913cc9034a0d476a7075555",
+    "Drill_PTH_Through.DRL": "8c051626fadee0a8188b583260f6094d05afa967de5d5f6505644fa1274db317",
+    "Drill_NPTH_Through.DRL": "962719c184c4ed0d26922fa56d1269032cd951c3f09ebbdd014088d34de8d58c",
+    "Drill_PTH_Through_Via.DRL": "97a0e75d4dd7d3046e0e4f7f3ea4dae82a348100581b3e9affbd74987cac38e8",
+    "FlyingProbeTesting.json": "b7662454c4fbd8e07212546473a8426e51921ffbfa0e2fabf9115496b152eb0d",
+    "PCB\u4e0b\u5355\u5fc5\u8bfb.txt": "dcb3ee1c645c17a009d70726ad9ab708b68a074556fabcf75a4a059d3b43ec59"
+  },
+  "NPTH_clearance_rule_basis": {
+    "footprint_copper_and_paste_heel_design_mm": 0.31,
+    "footprint_CAM_acceptance_mm": 0.3099,
+    "other_routed_copper_all_layers_mm": 0.3,
+    "basis": "Original j501-gct-fix-report.json distinguishes default_NPTH_rule_mm=.30 from J501_relief_design_minimum_mm=.31. Original fix_j501_gct.py constructs 0.325+.310mm circular heel relief; GCT nominal drawing does not require all-layer .31mm. Historical all-layer .3099 layout check was overbroad once planes are added. Project routing continues to obey the unchanged global .30mm rule, while physical footprint copper/paste retains exact .31mm relief."
+  },
+  "scope": "Frozen GCT/approved-relief targets:20 native pads/16 joined lands,12 paste windows,2 NPTH and4 plated shell slots, all-layer NPTH clearance, source-authoritative additional routed drills, independent pin nets and local actual-copper mixed-net detection. Additional routed copper does not replace required pad primitives.",
+  "limits": [
+    "This local check does not prove global net connectivity, source/SCH equivalence, full-board clearance or continuous high-speed reference planes; run corresponding independent checks.",
+    "Curve/tessellation tolerances unchanged from the historical J501 CAM review. Source hole attribution uses exact library geometry, not known-inaccurate API hole sizes.",
+    "Copper/paste heel relief is the documented manufacturing adaptation; physical sample fit, soldering, plating and circuit operation remain untested. No fabrication release."
+  ]
+}

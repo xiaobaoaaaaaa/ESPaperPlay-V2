@@ -11544,10 +11544,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "10u / 10V",
                 "3D Model": "1ba041120af144c991958decab20d241|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "C0805_L2.0-W1.3-H1.3",
                 "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
-                "CircuitLabel": "10u / 10V",
                 "DeviceName": "C2012X7R1A106K125AC",
                 "FootprintName": "C0805"
             },
@@ -11610,10 +11610,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "10n / 50V",
                 "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "C0603_L1.6-W0.8-H0.8",
                 "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
-                "CircuitLabel": "10n / 50V",
                 "DeviceName": "C1608C0G1H103J080AA",
                 "FootprintName": "C0603"
             },
@@ -11679,10 +11679,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "Hirose DM3AT-SF-PEJM5",
                 "3D Model": "a9fbe581ee4a44d1a9ad76b8cd9196df|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "SD-SMD_DM3AT-SF-PEJM5",
                 "3D Model Transform": "545.275,628.3452,0,0,0,0,2.756,-13.071,0",
-                "CircuitLabel": "Hirose DM3AT-SF-PEJM5",
                 "DeviceName": "DM3AT-SF-PEJM5",
                 "FootprintName": "SD-SMD_DM3AT-SF-PEJM5"
             },
@@ -11868,10 +11868,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "10k / 1%",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "10k / 1%",
                 "DeviceName": "CRCW060310K0FKEA",
                 "FootprintName": "R0603"
             },
@@ -11937,10 +11937,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "10k / 1%",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "10k / 1%",
                 "DeviceName": "CRCW060310K0FKEA",
                 "FootprintName": "R0603"
             },
@@ -12006,10 +12006,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "10k / 1%",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "10k / 1%",
                 "DeviceName": "CRCW060310K0FKEA",
                 "FootprintName": "R0603"
             },
@@ -12075,10 +12075,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "10k / 1%",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "10k / 1%",
                 "DeviceName": "CRCW060310K0FKEA",
                 "FootprintName": "R0603"
             },
@@ -12144,10 +12144,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "10k / 1%",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "10k / 1%",
                 "DeviceName": "CRCW060310K0FKEA",
                 "FootprintName": "R0603"
             },
@@ -12213,10 +12213,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "100k",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "100k",
                 "DeviceName": "CRCW0603100KFKEA",
                 "FootprintName": "R0603"
             },
@@ -12282,10 +12282,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "100R",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "100R",
                 "DeviceName": "CRCW0603100RFKEA",
                 "FootprintName": "R0603"
             },
@@ -12351,10 +12351,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "22R",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "22R",
                 "DeviceName": "CRCW060322R0FKEA",
                 "FootprintName": "R0603"
             },
@@ -12420,10 +12420,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "0R",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "0R",
                 "DeviceName": "CRCW06030000Z0EA",
                 "FootprintName": "R0603"
             },
@@ -12489,10 +12489,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "0R",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "0R",
                 "DeviceName": "CRCW06030000Z0EA",
                 "FootprintName": "R0603"
             },
@@ -12558,10 +12558,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "0R",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "0R",
                 "DeviceName": "CRCW06030000Z0EA",
                 "FootprintName": "R0603"
             },
@@ -12627,10 +12627,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "0R",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "0R",
                 "DeviceName": "CRCW06030000Z0EA",
                 "FootprintName": "R0603"
             },
@@ -12696,10 +12696,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "0R",
                 "3D Model": "fc143cca1e79419f9cd78b61e9279f08|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "R0603",
                 "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
-                "CircuitLabel": "0R",
                 "DeviceName": "CRCW06030000Z0EA",
                 "FootprintName": "R0603"
             },
@@ -12769,10 +12769,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "TI TMUX1511PW",
                 "3D Model": "02f1f60386074b2ca8e111040ac061f2|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65",
                 "3D Model Transform": "237.007,196.85,0,90,0,0,0,0,0",
-                "CircuitLabel": "TI TMUX1511PW",
                 "DeviceName": "TMUX1511PWR",
                 "FootprintName": "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
             },
@@ -12794,7 +12794,7 @@
                 "2": {
                     "name": "S1",
                     "number": "2",
-                    "net": "SD_CLK_BUS",
+                    "net": "SD_D1_BUS",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -12804,7 +12804,7 @@
                 "3": {
                     "name": "D1",
                     "number": "3",
-                    "net": "SD_CARD_CLK",
+                    "net": "SD_CARD_D1",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -12824,7 +12824,7 @@
                 "5": {
                     "name": "S2",
                     "number": "5",
-                    "net": "SD_CMD_BUS",
+                    "net": "SD_D0_BUS",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -12834,7 +12834,7 @@
                 "6": {
                     "name": "D2",
                     "number": "6",
-                    "net": "SD_CARD_CMD",
+                    "net": "SD_CARD_D0",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -12854,7 +12854,7 @@
                 "8": {
                     "name": "D3",
                     "number": "8",
-                    "net": "SD_CARD_D0",
+                    "net": "SD_CARD_CLK",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -12864,7 +12864,7 @@
                 "9": {
                     "name": "S3",
                     "number": "9",
-                    "net": "SD_D0_BUS",
+                    "net": "SD_CLK_BUS",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -12884,7 +12884,7 @@
                 "11": {
                     "name": "D4",
                     "number": "11",
-                    "net": "SD_CARD_D1",
+                    "net": "SD_CARD_CMD",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -12894,7 +12894,7 @@
                 "12": {
                     "name": "S4",
                     "number": "12",
-                    "net": "SD_D1_BUS",
+                    "net": "SD_CMD_BUS",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -12963,10 +12963,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "TI TPD2E2U06DCKR",
                 "3D Model": "8d1433d8dc554753bf94fd9a72dbbb1b|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "SC-70-3_L2.0-W1.3-P0.65-LS2.1-BL",
                 "3D Model Transform": "82.677,78.74,0,90,0,0,0,0,0",
-                "CircuitLabel": "TI TPD2E2U06DCKR",
                 "DeviceName": "TPD2E2U06DCKR",
                 "FootprintName": "SC-70-3_L2.0-W1.3-P0.65-LS2.1-BL"
             },
@@ -13047,10 +13047,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "TI TPD2E2U06DCKR",
                 "3D Model": "8d1433d8dc554753bf94fd9a72dbbb1b|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "SC-70-3_L2.0-W1.3-P0.65-LS2.1-BL",
                 "3D Model Transform": "82.677,78.74,0,90,0,0,0,0,0",
-                "CircuitLabel": "TI TPD2E2U06DCKR",
                 "DeviceName": "TPD2E2U06DCKR",
                 "FootprintName": "SC-70-3_L2.0-W1.3-P0.65-LS2.1-BL"
             },
@@ -13131,10 +13131,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "TI TPD2E2U06DCKR",
                 "3D Model": "8d1433d8dc554753bf94fd9a72dbbb1b|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "SC-70-3_L2.0-W1.3-P0.65-LS2.1-BL",
                 "3D Model Transform": "82.677,78.74,0,90,0,0,0,0,0",
-                "CircuitLabel": "TI TPD2E2U06DCKR",
                 "DeviceName": "TPD2E2U06DCKR",
                 "FootprintName": "SC-70-3_L2.0-W1.3-P0.65-LS2.1-BL"
             },
@@ -13215,10 +13215,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "TI TPD2E2U06DCKR",
                 "3D Model": "8d1433d8dc554753bf94fd9a72dbbb1b|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "SC-70-3_L2.0-W1.3-P0.65-LS2.1-BL",
                 "3D Model Transform": "82.677,78.74,0,90,0,0,0,0,0",
-                "CircuitLabel": "TI TPD2E2U06DCKR",
                 "DeviceName": "TPD2E2U06DCKR",
                 "FootprintName": "SC-70-3_L2.0-W1.3-P0.65-LS2.1-BL"
             },
@@ -13298,10 +13298,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "TI TMUX1511PW",
                 "3D Model": "02f1f60386074b2ca8e111040ac061f2|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65",
                 "3D Model Transform": "237.007,196.85,0,90,0,0,0,0,0",
-                "CircuitLabel": "TI TMUX1511PW",
                 "DeviceName": "TMUX1511PWR",
                 "FootprintName": "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
             },
@@ -13323,7 +13323,7 @@
                 "2": {
                     "name": "S1",
                     "number": "2",
-                    "net": "SD_D2_BUS",
+                    "net": "SD_D3_BUS",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -13333,7 +13333,7 @@
                 "3": {
                     "name": "D1",
                     "number": "3",
-                    "net": "SD_CARD_D2",
+                    "net": "SD_CARD_D3",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -13353,7 +13353,7 @@
                 "5": {
                     "name": "S2",
                     "number": "5",
-                    "net": "SD_D3_BUS",
+                    "net": "SD_D2_BUS",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -13363,7 +13363,7 @@
                 "6": {
                     "name": "D2",
                     "number": "6",
-                    "net": "SD_CARD_D3",
+                    "net": "SD_CARD_D2",
                     "pinClass": "",
                     "pinDifferentialPairClass": "",
                     "props": {
@@ -13486,10 +13486,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "100n / 10V",
                 "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "C0603_L1.6-W0.8-H0.8",
                 "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
-                "CircuitLabel": "100n / 10V",
                 "DeviceName": "C1608X7R1H104K080AE",
                 "FootprintName": "C0603"
             },
@@ -13554,10 +13554,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "100n / 10V",
                 "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "C0603_L1.6-W0.8-H0.8",
                 "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
-                "CircuitLabel": "100n / 10V",
                 "DeviceName": "C1608X7R1H104K080AE",
                 "FootprintName": "C0603"
             },
@@ -13622,10 +13622,10 @@
                 "DNP": "false",
                 "AssemblyStatus": "FIT",
                 "DesignStage": "SCHEMATIC_VERIFIED_PCB_PENDING",
+                "CircuitLabel": "100n / 10V",
                 "3D Model": "ac125912035d415993ca9572d50418b1|0819f05c4eef4c71ace90d822a990e87",
                 "3D Model Title": "C0603_L1.6-W0.8-H0.8",
                 "3D Model Transform": "62.992,31.496,0,0,0,0,0,0,0",
-                "CircuitLabel": "100n / 10V",
                 "DeviceName": "C1608X7R1H104K080AE",
                 "FootprintName": "C0603"
             },
@@ -20468,6 +20468,18 @@
                     "TrackPhysics": ""
                 }
             },
+            "SD_D1_BUS": {
+                "net": "SD_D1_BUS",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "SD_D0_BUS": {
+                "net": "SD_D0_BUS",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
             "SD_CLK_BUS": {
                 "net": "SD_CLK_BUS",
                 "ruleMap": {
@@ -20480,14 +20492,8 @@
                     "TrackPhysics": ""
                 }
             },
-            "SD_D0_BUS": {
-                "net": "SD_D0_BUS",
-                "ruleMap": {
-                    "TrackPhysics": ""
-                }
-            },
-            "SD_D1_BUS": {
-                "net": "SD_D1_BUS",
+            "SD_D3_BUS": {
+                "net": "SD_D3_BUS",
                 "ruleMap": {
                     "TrackPhysics": ""
                 }
@@ -20498,14 +20504,20 @@
                     "TrackPhysics": ""
                 }
             },
-            "SD_D3_BUS": {
-                "net": "SD_D3_BUS",
+            "SD_IO_EN": {
+                "net": "SD_IO_EN",
                 "ruleMap": {
                     "TrackPhysics": ""
                 }
             },
-            "SD_IO_EN": {
-                "net": "SD_IO_EN",
+            "SD_CARD_D1": {
+                "net": "SD_CARD_D1",
+                "ruleMap": {
+                    "TrackPhysics": ""
+                }
+            },
+            "SD_CARD_D0": {
+                "net": "SD_CARD_D0",
                 "ruleMap": {
                     "TrackPhysics": ""
                 }
@@ -20522,26 +20534,14 @@
                     "TrackPhysics": ""
                 }
             },
-            "SD_CARD_D0": {
-                "net": "SD_CARD_D0",
-                "ruleMap": {
-                    "TrackPhysics": ""
-                }
-            },
-            "SD_CARD_D1": {
-                "net": "SD_CARD_D1",
+            "SD_CARD_D3": {
+                "net": "SD_CARD_D3",
                 "ruleMap": {
                     "TrackPhysics": ""
                 }
             },
             "SD_CARD_D2": {
                 "net": "SD_CARD_D2",
-                "ruleMap": {
-                    "TrackPhysics": ""
-                }
-            },
-            "SD_CARD_D3": {
-                "net": "SD_CARD_D3",
                 "ruleMap": {
                     "TrackPhysics": ""
                 }

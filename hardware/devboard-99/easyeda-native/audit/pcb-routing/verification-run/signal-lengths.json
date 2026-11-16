@@ -1,0 +1,2976 @@
+{
+  "status": "ALL_SELECTED_NATIVE_SIGNAL_PATHS_MEASURED",
+  "inputs": {
+    "source": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+      "sha256": "2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e"
+    },
+    "state": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json",
+      "sha256": "29960dc357eca29afd5e763de61bfc5078ce66ff7e5b44f96104f98a6ff74d5a"
+    },
+    "archive": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
+      "sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c"
+    },
+    "rules": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/verification/signal-length-rules.json",
+      "sha256": "13ff9abd33343b38734b91af270b3aa7745b2a3e3631cc67ceccf05d95eb69eb"
+    }
+  },
+  "checker": {
+    "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/verification/check_native_signal_lengths.py",
+    "sha256": "43b42d9ab9fd9a7950c462ae89b0ec70dfe2309d85c6bf59fb4ab0a662901c97"
+  },
+  "path_helper": {
+    "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/verification/native_trace_path_metrics.py",
+    "sha256": "bdb57c26676756d32b4924c8e3adec6c2f810d27b12c4435a8c5e6f40c57af7e"
+  },
+  "method": "Minimum exposed-length path on the current native LINE/copper-contact graph. Finite pad copper has zero length cost; via barrel and component internals are excluded. Actual positive geometry contacts join the graph; runtime POURED is never used. No historical candidate dimensions are substituted.",
+  "errors": [],
+  "chains": [
+    {
+      "id": "USB_A_P",
+      "group": "USB",
+      "description": "A-side USB-C data pad to ESP32",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 29.624217447293297,
+      "distinct_signal_vias": [
+        "8254c93839b917e4",
+        "d7bc55696594d349"
+      ],
+      "component_transitions_not_measured": [
+        "R503.1 -> R503.2"
+      ],
+      "legs": [
+        {
+          "path_id": "USB_A_P:0",
+          "net": "USB_DP_PORT",
+          "from": "J501.A6",
+          "to": "R503.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 27.97678232199432,
+          "selected_path_source_ids": [
+            "f251ef93c41d5e56e49",
+            "fdba00a283852814",
+            "15d8a9d8be7f0ae6",
+            "d7bc55696594d349",
+            "39e635e9734a2842",
+            "f1249d9c3f85c9e6",
+            "8254c93839b917e4",
+            "1a70cb2123a4d30d",
+            "bf6600a442c1d5ab",
+            "9b31f66b2343d7e0",
+            "cae426845cd834d2",
+            "69ed74a47c0219e8",
+            "b9039aeae0607bdc",
+            "bf3a15a50352df84",
+            "4b236fb967c6dd3ee8"
+          ],
+          "via_ids": [
+            "8254c93839b917e4",
+            "d7bc55696594d349"
+          ],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "USB_A_P:1",
+          "net": "USB_DP_MCU",
+          "from": "R503.2",
+          "to": "U301.14",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 1.6474351252989758,
+          "selected_path_source_ids": [
+            "4b236fb967c6dd3ee7",
+            "9b07de27b2bca62d",
+            "64db06dc01a9e84c",
+            "e0e111841f0c5795",
+            "ff8ffbdbac2e358ae67"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "9b07de27b2bca62d",
+              "contact_id": "4b236fb967c6dd3ee7",
+              "center_to_contact_mm": 0.02169667999999092
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "USB_A_N",
+      "group": "USB",
+      "description": "A-side USB-C data pad to ESP32",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 29.6236506334837,
+      "distinct_signal_vias": [
+        "116470ef733be592",
+        "205ff28032e6a28d"
+      ],
+      "component_transitions_not_measured": [
+        "R504.1 -> R504.2"
+      ],
+      "legs": [
+        {
+          "path_id": "USB_A_N:0",
+          "net": "USB_DM_PORT",
+          "from": "J501.A7",
+          "to": "R504.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 27.976215508184723,
+          "selected_path_source_ids": [
+            "f251ef93c41d5e56e48",
+            "c1f61ae6d057550e",
+            "45699ad6c063b378",
+            "116470ef733be592",
+            "f79fd59aa573327f",
+            "38f54f4859fbcd24",
+            "f8aa322579ce12f5",
+            "205ff28032e6a28d",
+            "0d97b63bb0eae7f4",
+            "3dcd16c42fcc9fe9e18",
+            "fddb349bc8f9af6b",
+            "83f3a5b3d46a8a3d",
+            "1b4991968eb3b211",
+            "75a5f65aa9101f72",
+            "da45a8c3af441166",
+            "8fa2c264b486554be8"
+          ],
+          "via_ids": [
+            "116470ef733be592",
+            "205ff28032e6a28d"
+          ],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "USB_A_N:1",
+          "net": "USB_DM_MCU",
+          "from": "R504.2",
+          "to": "U301.13",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 1.6474351252989758,
+          "selected_path_source_ids": [
+            "8fa2c264b486554be7",
+            "bcd2a164cdea80f3",
+            "577a521a0d97dcc9",
+            "8668ea5dc61bcb00",
+            "ff8ffbdbac2e358ae66"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "bcd2a164cdea80f3",
+              "contact_id": "8fa2c264b486554be7",
+              "center_to_contact_mm": 0.02169667999999092
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "USB_B_P",
+      "group": "USB",
+      "description": "B-side USB-C data pad to ESP32",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 29.6242174472933,
+      "distinct_signal_vias": [
+        "8254c93839b917e4",
+        "d7bc55696594d349"
+      ],
+      "component_transitions_not_measured": [
+        "R503.1 -> R503.2"
+      ],
+      "legs": [
+        {
+          "path_id": "USB_B_P:0",
+          "net": "USB_DP_PORT",
+          "from": "J501.B6",
+          "to": "R503.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 27.976782321994325,
+          "selected_path_source_ids": [
+            "f251ef93c41d5e56e47",
+            "535c015c3b4cc778",
+            "668247ebf29fa73a",
+            "d7bc55696594d349",
+            "39e635e9734a2842",
+            "f1249d9c3f85c9e6",
+            "8254c93839b917e4",
+            "1a70cb2123a4d30d",
+            "bf6600a442c1d5ab",
+            "9b31f66b2343d7e0",
+            "cae426845cd834d2",
+            "69ed74a47c0219e8",
+            "b9039aeae0607bdc",
+            "bf3a15a50352df84",
+            "4b236fb967c6dd3ee8"
+          ],
+          "via_ids": [
+            "8254c93839b917e4",
+            "d7bc55696594d349"
+          ],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "USB_B_P:1",
+          "net": "USB_DP_MCU",
+          "from": "R503.2",
+          "to": "U301.14",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 1.6474351252989758,
+          "selected_path_source_ids": [
+            "4b236fb967c6dd3ee7",
+            "9b07de27b2bca62d",
+            "64db06dc01a9e84c",
+            "e0e111841f0c5795",
+            "ff8ffbdbac2e358ae67"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "9b07de27b2bca62d",
+              "contact_id": "4b236fb967c6dd3ee7",
+              "center_to_contact_mm": 0.02169667999999092
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "USB_B_N",
+      "group": "USB",
+      "description": "B-side USB-C data pad to ESP32",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 29.623650633483706,
+      "distinct_signal_vias": [
+        "116470ef733be592",
+        "205ff28032e6a28d"
+      ],
+      "component_transitions_not_measured": [
+        "R504.1 -> R504.2"
+      ],
+      "legs": [
+        {
+          "path_id": "USB_B_N:0",
+          "net": "USB_DM_PORT",
+          "from": "J501.B7",
+          "to": "R504.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 27.97621550818473,
+          "selected_path_source_ids": [
+            "f251ef93c41d5e56e50",
+            "4eb45dfaf112386c",
+            "d2a63a84584cad24",
+            "116470ef733be592",
+            "f79fd59aa573327f",
+            "38f54f4859fbcd24",
+            "f8aa322579ce12f5",
+            "205ff28032e6a28d",
+            "0d97b63bb0eae7f4",
+            "3dcd16c42fcc9fe9e18",
+            "fddb349bc8f9af6b",
+            "83f3a5b3d46a8a3d",
+            "1b4991968eb3b211",
+            "75a5f65aa9101f72",
+            "da45a8c3af441166",
+            "8fa2c264b486554be8"
+          ],
+          "via_ids": [
+            "116470ef733be592",
+            "205ff28032e6a28d"
+          ],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "USB_B_N:1",
+          "net": "USB_DM_MCU",
+          "from": "R504.2",
+          "to": "U301.13",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 1.6474351252989758,
+          "selected_path_source_ids": [
+            "8fa2c264b486554be7",
+            "bcd2a164cdea80f3",
+            "577a521a0d97dcc9",
+            "8668ea5dc61bcb00",
+            "ff8ffbdbac2e358ae66"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "bcd2a164cdea80f3",
+              "contact_id": "8fa2c264b486554be7",
+              "center_to_contact_mm": 0.02169667999999092
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_CLK",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 30.213304772613487,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [
+        "R710.1 -> R710.2",
+        "U701.9 -> U701.8"
+      ],
+      "legs": [
+        {
+          "path_id": "SD_CLK:0",
+          "net": "SD_CLK",
+          "from": "U301.31",
+          "to": "R710.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 0.421112659905208,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae84",
+            "7908228790edb9ba",
+            "3f316821abbc49a0e8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_CLK:1",
+          "net": "SD_CLK_BUS",
+          "from": "R710.2",
+          "to": "U701.9",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 17.8389139390867,
+          "selected_path_source_ids": [
+            "3f316821abbc49a0e7",
+            "79f411e83befa40a",
+            "0e1a80ba3bcb2acf",
+            "2fc262a7e13ade33",
+            "23bd696f2a293204",
+            "eb941822a3d287fb",
+            "6fd7772a4c945eb4",
+            "bb73dfb9300f3654e40"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_CLK:2",
+          "net": "SD_CARD_CLK",
+          "from": "U701.8",
+          "to": "J701.5",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 11.953278173621579,
+          "selected_path_source_ids": [
+            "bb73dfb9300f3654e39",
+            "73302ae8df72879c",
+            "be4db33cfcd1a181",
+            "03e1e422fd864363",
+            "a37c29a94b3606a4e17",
+            "b3c41e99f6e19ed5",
+            "4fde2b384299e087",
+            "dad87902687ebe18",
+            "9e22edbe91b4885ce41"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "03e1e422fd864363",
+              "contact_id": "a37c29a94b3606a4e17",
+              "center_to_contact_mm": 0.09916668000000328
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_CMD",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 31.842596382702204,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [
+        "R711.1 -> R711.2",
+        "U701.12 -> U701.11"
+      ],
+      "legs": [
+        {
+          "path_id": "SD_CMD:0",
+          "net": "SD_CMD",
+          "from": "U301.32",
+          "to": "R711.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 0.4211472579224473,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae85",
+            "2186b2602281d0ec",
+            "56924e46da2c99fde8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_CMD:1",
+          "net": "SD_CMD_BUS",
+          "from": "R711.2",
+          "to": "U701.12",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 16.623897569520725,
+          "selected_path_source_ids": [
+            "56924e46da2c99fde7",
+            "1612962d37746aa0",
+            "3a734eed63351a7b",
+            "683b57790fc458c0",
+            "be73afc2dd6e97df",
+            "be3a1862c8207f30",
+            "bb73dfb9300f3654e43"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_CMD:2",
+          "net": "SD_CARD_CMD",
+          "from": "U701.11",
+          "to": "J701.3",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 14.797551555259034,
+          "selected_path_source_ids": [
+            "bb73dfb9300f3654e42",
+            "1df9d6a84f3da203",
+            "2f40a82c9fd91276",
+            "3767cd980232b3bc",
+            "a07398f6d89dbeaa",
+            "1798b05d74ab2684",
+            "fca60de6c109d9ee",
+            "a37c29a94b3606a4e18",
+            "29b3a41bb6153ad6",
+            "f5461a0d43181b00",
+            "c4c3781ac074e293",
+            "9e22edbe91b4885ce43"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "c4c3781ac074e293",
+                "29b3a41bb6153ad6"
+              ],
+              "center_gap_mm": 0.31969711791005484
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_D0",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 29.788734290239503,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [
+        "R712.1 -> R712.2",
+        "U701.5 -> U701.6"
+      ],
+      "legs": [
+        {
+          "path_id": "SD_D0:0",
+          "net": "SD_D0",
+          "from": "U301.24",
+          "to": "R712.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 7.22400944467143,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae77",
+            "dee9d78f0e34e067",
+            "88854343b982e39f",
+            "db6b255ee6f1c3fa",
+            "b711530aa61bac77e8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_D0:1",
+          "net": "SD_D0_BUS",
+          "from": "R712.2",
+          "to": "U701.5",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 11.868985288836406,
+          "selected_path_source_ids": [
+            "b711530aa61bac77e7",
+            "465b7a5aede13dd0",
+            "fe1a3d09325f6ad0",
+            "0b2aa81ebbfbe4e9",
+            "faacbcf5d0c2d2f1",
+            "3bcae52351d26a89",
+            "27a84d8b640a0eb7",
+            "bb73dfb9300f3654e36"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_D0:2",
+          "net": "SD_CARD_D0",
+          "from": "U701.6",
+          "to": "J701.7",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 10.695739556731667,
+          "selected_path_source_ids": [
+            "bb73dfb9300f3654e37",
+            "ed094892c8980944",
+            "22de50639859a2ff",
+            "11f77e47b95309fb",
+            "96f87b349f12ab3e",
+            "2645b29d0d052f6be17",
+            "113c620ac357117d",
+            "ddbeec00376e9043",
+            "23d90aa5cdc78ab4",
+            "9e22edbe91b4885ce39"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_D1",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 27.717432884139516,
+      "distinct_signal_vias": [
+        "39372cfedd40bda5",
+        "5b0a397c009a0f31"
+      ],
+      "component_transitions_not_measured": [
+        "R713.1 -> R713.2",
+        "U701.2 -> U701.3"
+      ],
+      "legs": [
+        {
+          "path_id": "SD_D1:0",
+          "net": "SD_D1",
+          "from": "U301.25",
+          "to": "R713.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 4.014166901863038,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae78",
+            "06920d8921081ee7",
+            "1f8b92dc1c8564c4",
+            "6a03b2b02d03dadd",
+            "69bf1cedab60712d",
+            "3f833a8855cf991de8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "afba3f002be98a2f",
+                "69bf1cedab60712d"
+              ],
+              "center_gap_mm": 0.20301478649983468
+            }
+          ],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_D1:1",
+          "net": "SD_D1_BUS",
+          "from": "R713.2",
+          "to": "U701.2",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 9.753149038144576,
+          "selected_path_source_ids": [
+            "3f833a8855cf991de7",
+            "96b751548cc086c3",
+            "5b0a397c009a0f31",
+            "1c04720b92f6144f",
+            "c9888935e22df56d",
+            "a2d9367634b535b8",
+            "e79c6a8b44e9ae5c",
+            "39372cfedd40bda5",
+            "8a812017c07f332e",
+            "eefa6576956e288b",
+            "bb73dfb9300f3654e33"
+          ],
+          "via_ids": [
+            "39372cfedd40bda5",
+            "5b0a397c009a0f31"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "1c04720b92f6144f",
+              "contact_id": "5b0a397c009a0f31",
+              "center_to_contact_mm": 0.10746355703249422
+            }
+          ],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_D1:2",
+          "net": "SD_CARD_D1",
+          "from": "U701.3",
+          "to": "J701.8",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 13.950116944131903,
+          "selected_path_source_ids": [
+            "bb73dfb9300f3654e34",
+            "fc455f96b93ec8e0",
+            "5c5c09d99691f54a",
+            "9a22ba0d51391a2d",
+            "2645b29d0d052f6be18",
+            "5dbd7d03f723079d",
+            "8c545503a1765b89",
+            "cd39c347837e855d",
+            "9e22edbe91b4885ce38"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "5dbd7d03f723079d",
+              "contact_id": "2645b29d0d052f6be18",
+              "center_to_contact_mm": 0.00016256000000325344
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "9a22ba0d51391a2d",
+                "e97b82f7768e5c86"
+              ],
+              "center_gap_mm": 0.07040050552262452
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_D2",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 27.28916442695124,
+      "distinct_signal_vias": [
+        "bdce5f80f24f38c0",
+        "d2daad6fef74b8c8"
+      ],
+      "component_transitions_not_measured": [
+        "R714.1 -> R714.2",
+        "U706.5 -> U706.6"
+      ],
+      "legs": [
+        {
+          "path_id": "SD_D2:0",
+          "net": "SD_D2",
+          "from": "U301.34",
+          "to": "R714.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 0.39257235999486895,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae87",
+            "c0133303f2b31738",
+            "8fa88dce41392612e8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_D2:1",
+          "net": "SD_D2_BUS",
+          "from": "R714.2",
+          "to": "U706.5",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 13.275371700686595,
+          "selected_path_source_ids": [
+            "8fa88dce41392612e7",
+            "71764bc997fd9e21",
+            "bdce5f80f24f38c0",
+            "0c27b01816f40f58",
+            "40a39caab22997db",
+            "4a679b5e6d01cc0d",
+            "20ba16ae1bc716b8",
+            "998ba78f76c0a6b1",
+            "a356c4fe3daeafd6",
+            "d2daad6fef74b8c8",
+            "783d388d9c08df32",
+            "2e571ce1c8a3148b",
+            "35d282cb77f5a2f2e36"
+          ],
+          "via_ids": [
+            "bdce5f80f24f38c0",
+            "d2daad6fef74b8c8"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_D2:2",
+          "net": "SD_CARD_D2",
+          "from": "U706.6",
+          "to": "J701.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 13.621220366269773,
+          "selected_path_source_ids": [
+            "35d282cb77f5a2f2e37",
+            "7a4b8c8ace8b2a04",
+            "036cbb0246746f68",
+            "03a7ee2c7d29d7b5",
+            "e679dd3770470a15",
+            "47ef457722365b1d",
+            "a1c568d46d34ac2fe17",
+            "f89b3873e50af20b",
+            "a93087d67004fa4a",
+            "987f0b0e214df890",
+            "e9141581ec8ab9a0",
+            "9e22edbe91b4885ce45"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_D3",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 29.17033928487066,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [
+        "R715.1 -> R715.2",
+        "U706.2 -> U706.3"
+      ],
+      "legs": [
+        {
+          "path_id": "SD_D3:0",
+          "net": "SD_D3",
+          "from": "U301.33",
+          "to": "R715.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 0.39257227682911183,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae86",
+            "5e72d18cadaeeb2e",
+            "860c388e05b9154ae8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_D3:1",
+          "net": "SD_D3_BUS",
+          "from": "R715.2",
+          "to": "U706.2",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 12.149147386788623,
+          "selected_path_source_ids": [
+            "860c388e05b9154ae7",
+            "6df9317487250fbe",
+            "9bfac0d889e51d23",
+            "454d4af528f9d669",
+            "c11e2fa13754688f",
+            "16da6924cb436a11",
+            "50bcec42aa55e1d2",
+            "bb05834d7a3a3db0",
+            "35d282cb77f5a2f2e33"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "SD_D3:2",
+          "net": "SD_CARD_D3",
+          "from": "U706.3",
+          "to": "J701.2",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 16.628619621252927,
+          "selected_path_source_ids": [
+            "35d282cb77f5a2f2e34",
+            "1085bacc2e7e45a8",
+            "2c0a31d38b45277e",
+            "1caf86e9defd8f8be7",
+            "33be603ed75c3143",
+            "a1c568d46d34ac2fe18",
+            "1ceaf440ab6e04b6",
+            "d639bdde97a0b061",
+            "9692d88aaa34cbbe",
+            "9e22edbe91b4885ce44"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.3499993,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "51face28807af0da",
+                "33be603ed75c3143"
+              ],
+              "center_gap_mm": 0.14956027999998867
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "2c0a31d38b45277e",
+                "33be603ed75c3143"
+              ],
+              "center_gap_mm": 0.14956027999998867
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_SCLK",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 97.61537827693219,
+      "distinct_signal_vias": [
+        "243ed6f6787d2f22",
+        "2a77a28423c573d1",
+        "406794f4f14010fd",
+        "4ac490a513b00cf1",
+        "773d5373a5cbe8af",
+        "c9d08113070cd5f9"
+      ],
+      "component_transitions_not_measured": [
+        "U601.2 -> U601.18",
+        "R603.1 -> R603.2"
+      ],
+      "legs": [
+        {
+          "path_id": "EPD_SCLK:0",
+          "net": "EPD_SCLK",
+          "from": "U301.9",
+          "to": "U601.2",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 68.09564839474267,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae62",
+            "c6177ea8aba63a7a",
+            "7b23431319c407bd",
+            "406794f4f14010fd",
+            "f4f89163b4d66c0d",
+            "35c69efe807037d6",
+            "ecf0114c7c3d856c",
+            "4ac490a513b00cf1",
+            "6968e07d479d1d71",
+            "f63a538b66f5303e",
+            "c9d08113070cd5f9",
+            "1a4d9765bf7b0858",
+            "4466cb0861557c6a",
+            "725f62fd1a270cc7",
+            "cf8372c81b94dbfe",
+            "2a77a28423c573d1",
+            "3d38f9f747466124",
+            "d91a11d3dbb7316e",
+            "13a15411f293c9c0",
+            "27762ce7309e4fb6",
+            "c84748316c9985b3e6"
+          ],
+          "via_ids": [
+            "2a77a28423c573d1",
+            "406794f4f14010fd",
+            "4ac490a513b00cf1",
+            "c9d08113070cd5f9"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "9584fae887a28253",
+                "ca881498496a80da"
+              ],
+              "center_gap_mm": 0.14142286945723267
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0ab106af8594e9a1",
+                "9584fae887a28253"
+              ],
+              "center_gap_mm": 0.1414210733945907
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "c1a91145191b00b0",
+                "9584fae887a28253"
+              ],
+              "center_gap_mm": 0.1638830476601881
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "c1a91145191b00b0",
+                "17197bf4bd08b215"
+              ],
+              "center_gap_mm": 0.029837380000003577
+            }
+          ],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_SCLK:1",
+          "net": "EPD_BUF_SCLK",
+          "from": "U601.18",
+          "to": "R603.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 1.9570192211434756,
+          "selected_path_source_ids": [
+            "c84748316c9985b3e17",
+            "2b91c568300164bb",
+            "f55bb48673069ede",
+            "def92a828e6ef11a",
+            "a879a06680a8f93a",
+            "ab5d41c8cb87372de8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_SCLK:2",
+          "net": "EPD_PAD_SCLK",
+          "from": "R603.2",
+          "to": "J601.13",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 27.562710661046054,
+          "selected_path_source_ids": [
+            "ab5d41c8cb87372de7",
+            "249d9fadc4a54a25",
+            "d36a6318cac56ea8",
+            "bdefd1da52dbb071",
+            "57da29f526eba4fc",
+            "243ed6f6787d2f22",
+            "521ded260fc00b8c",
+            "3ff29b7f908bbf02",
+            "0ac9cc6edfb2d7c1",
+            "380dd5f4830141d8",
+            "bd0d507a1acaf626",
+            "773d5373a5cbe8af",
+            "9059d22c8ac69072",
+            "dabcca0a2a0a45cae42"
+          ],
+          "via_ids": [
+            "243ed6f6787d2f22",
+            "773d5373a5cbe8af"
+          ],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "9059d22c8ac69072",
+              "contact_id": "773d5373a5cbe8af",
+              "center_to_contact_mm": 0.00532930811634935
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_MOSI",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 98.38944647930981,
+      "distinct_signal_vias": [
+        "08ae7d0d90934984",
+        "47de7000aeebded5",
+        "6b876fb73def972d",
+        "bce05c98ab2bdb2d",
+        "d1c20e52e3f4132a",
+        "f56cec1e51b89a56"
+      ],
+      "component_transitions_not_measured": [
+        "U601.3 -> U601.17",
+        "R604.1 -> R604.2"
+      ],
+      "legs": [
+        {
+          "path_id": "EPD_MOSI:0",
+          "net": "EPD_MOSI",
+          "from": "U301.8",
+          "to": "U601.3",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 73.45298580787379,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae61",
+            "86937a1d76cebb94",
+            "6b876fb73def972d",
+            "5039c414d88b6ec6",
+            "092909f3bd4092ff",
+            "2b3b57d118687ad8",
+            "08ae7d0d90934984",
+            "ad246cfab05496d7",
+            "f8727707930a1ec5",
+            "f5906734c2217c2a",
+            "47de7000aeebded5",
+            "c3f36e949d29d7e3",
+            "4229265482c2e528",
+            "bdb70ed718e6b1ac",
+            "b5ece6b7bae34463",
+            "bce05c98ab2bdb2d",
+            "5df02b6ad4e04f93",
+            "c84748316c9985b3e7"
+          ],
+          "via_ids": [
+            "08ae7d0d90934984",
+            "47de7000aeebded5",
+            "6b876fb73def972d",
+            "bce05c98ab2bdb2d"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "5df02b6ad4e04f93",
+              "contact_id": "c84748316c9985b3e7",
+              "center_to_contact_mm": 0.020434300000005123
+            }
+          ],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_MOSI:1",
+          "net": "EPD_BUF_MOSI",
+          "from": "U601.17",
+          "to": "R604.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 1.6019840936142131,
+          "selected_path_source_ids": [
+            "c84748316c9985b3e18",
+            "3f8bb2d8a7b54446",
+            "d28f96cf2c3339f8e8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_MOSI:2",
+          "net": "EPD_PAD_MOSI",
+          "from": "R604.2",
+          "to": "J601.14",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 23.334476577821818,
+          "selected_path_source_ids": [
+            "d28f96cf2c3339f8e7",
+            "b0060b37476aa20d",
+            "d1c20e52e3f4132a",
+            "ac5c65b51c37556f",
+            "39f62df9e6918f6d",
+            "213e6266676b7b9d",
+            "23cf29cec8c45ae5",
+            "f4e0154112d3e5e0",
+            "a2e6aa77aa0be246",
+            "f56cec1e51b89a56",
+            "af033beab3e298df",
+            "dabcca0a2a0a45cae41"
+          ],
+          "via_ids": [
+            "d1c20e52e3f4132a",
+            "f56cec1e51b89a56"
+          ],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "af033beab3e298df",
+              "contact_id": "f56cec1e51b89a56",
+              "center_to_contact_mm": 0.032270076479556827
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "39f62df9e6918f6d",
+                "23cf29cec8c45ae5"
+              ],
+              "center_gap_mm": 0.1844040000000149
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_CS",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 105.58398118762948,
+      "distinct_signal_vias": [
+        "24762cd387d534dc",
+        "3acc0cad00acc6fc",
+        "82e941a0c06e16ff",
+        "d484af1d47cecb98",
+        "f0b2341f3b70d47b",
+        "ffb16e860f9319ae"
+      ],
+      "component_transitions_not_measured": [
+        "U601.4 -> U601.16",
+        "R605.1 -> R605.2"
+      ],
+      "legs": [
+        {
+          "path_id": "EPD_CS:0",
+          "net": "EPD_CS",
+          "from": "U301.10",
+          "to": "U601.4",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 75.5003936137397,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae63",
+            "24c4661487bab6f8",
+            "c5a086cd29eb176a",
+            "b31444540293af90",
+            "0fb9cf35cad7e3a2",
+            "d35ba2825c162ba9",
+            "4c70cf6bbe33badd",
+            "982c914f72816d0d",
+            "b6e68705b13228bf",
+            "ccb89be9ee29f4db",
+            "c68aa06ce7d86f1c",
+            "ffb16e860f9319ae",
+            "f09413d6dbc29238",
+            "2d1b89189422c5d2",
+            "f0b2341f3b70d47b",
+            "f4280bc19f0f079d",
+            "c0c5fd206fa6ad2a",
+            "24762cd387d534dc",
+            "b02dff1f9a28cc56",
+            "a8200c2d3e6bb8c7",
+            "03932421db059b36",
+            "07f9cfc195d37dfc",
+            "d484af1d47cecb98",
+            "eb47b617d1014323",
+            "7c807758f5fb4020",
+            "19054a2c2ad60e52",
+            "c84748316c9985b3e8"
+          ],
+          "via_ids": [
+            "24762cd387d534dc",
+            "d484af1d47cecb98",
+            "f0b2341f3b70d47b",
+            "ffb16e860f9319ae"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_CS:1",
+          "net": "EPD_BUF_CS",
+          "from": "U601.16",
+          "to": "R605.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 2.107785502003149,
+          "selected_path_source_ids": [
+            "c84748316c9985b3e19",
+            "ebe8717039c009c5",
+            "c630c309f03e742d",
+            "5a8a5d9096c0f3c9e8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_CS:2",
+          "net": "EPD_PAD_CS",
+          "from": "R605.2",
+          "to": "J601.12",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 27.975802071886623,
+          "selected_path_source_ids": [
+            "5a8a5d9096c0f3c9e7",
+            "7d0abc0e15520238",
+            "3acc0cad00acc6fc",
+            "ab294fdf6ebe0ab7",
+            "82e941a0c06e16ff",
+            "addf9da8b639db3a",
+            "82e79a2e498c4cd1",
+            "b8fcecfa27ea00d2",
+            "15904d134d7f6355",
+            "039380fa32887c67",
+            "3a24bc331758ca19",
+            "9c17a0a536e709f4",
+            "08ba0e4ac4479fab",
+            "23bad1f07d4f2445",
+            "dabcca0a2a0a45cae43"
+          ],
+          "via_ids": [
+            "3acc0cad00acc6fc",
+            "82e941a0c06e16ff"
+          ],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_DC",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 101.46938906030944,
+      "distinct_signal_vias": [
+        "28782809380699c1",
+        "388435b251585ef3",
+        "750388d0106be0f3",
+        "9be22aae7677ea7f",
+        "c854eb010d0b5561",
+        "e8936195c1756197"
+      ],
+      "component_transitions_not_measured": [
+        "U601.5 -> U601.15",
+        "R606.1 -> R606.2"
+      ],
+      "legs": [
+        {
+          "path_id": "EPD_DC:0",
+          "net": "EPD_DC",
+          "from": "U301.11",
+          "to": "U601.5",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 76.68124407856178,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae64",
+            "8d6390d209c06142",
+            "ec1c1d696eea91d8",
+            "b5b132e2d64cc1f7",
+            "9e53c6499c189731",
+            "3f34913281995a9d",
+            "28782809380699c1",
+            "7e8e0c9fc9448293",
+            "d8a115005643feae",
+            "9be22aae7677ea7f",
+            "c83b550c1b039340",
+            "c60eb62786447cb6",
+            "186f6eb89c2acbb6",
+            "f0772ed83f8bd14d",
+            "e8936195c1756197",
+            "8186d46986aa9ee9",
+            "2fc1b673b02c2a1c",
+            "30fa3dc2412fb6cf",
+            "fc457647a71d0326",
+            "750388d0106be0f3",
+            "c234093cc090b14e",
+            "0dc66cd01018ef1d",
+            "c84748316c9985b3e9"
+          ],
+          "via_ids": [
+            "28782809380699c1",
+            "750388d0106be0f3",
+            "9be22aae7677ea7f",
+            "e8936195c1756197"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "0dc66cd01018ef1d",
+              "contact_id": "c84748316c9985b3e9",
+              "center_to_contact_mm": 0.028996639999995466
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0dc66cd01018ef1d",
+                "63eca2cc0b0a294c"
+              ],
+              "center_gap_mm": 0.07568739463959018
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0a5b3c43dcca85de",
+                "0dc66cd01018ef1d"
+              ],
+              "center_gap_mm": 0.10703813999999312
+            }
+          ],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_DC:1",
+          "net": "EPD_BUF_DC",
+          "from": "U601.15",
+          "to": "R606.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 6.779332554616582,
+          "selected_path_source_ids": [
+            "c84748316c9985b3e20",
+            "b89aeea01ca9ec39",
+            "fef83d48e65bc45a",
+            "ffe2bf1738d01553",
+            "2a50a2a64d6d0911",
+            "056944f2e4704924e8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_DC:2",
+          "net": "EPD_PAD_DC",
+          "from": "R606.2",
+          "to": "J601.11",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 18.008812427131087,
+          "selected_path_source_ids": [
+            "056944f2e4704924e7",
+            "579e3e6132b7b2fa",
+            "959232fb0a048a7f",
+            "388435b251585ef3",
+            "31368e42c58d282b",
+            "8f88ad5031c5b17f",
+            "12ef18b408e850b3",
+            "c854eb010d0b5561",
+            "f6f061db37fb8389",
+            "382923cc3015b79b",
+            "dabcca0a2a0a45cae44"
+          ],
+          "via_ids": [
+            "388435b251585ef3",
+            "c854eb010d0b5561"
+          ],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "f6f061db37fb8389",
+              "contact_id": "c854eb010d0b5561",
+              "center_to_contact_mm": 0.013231933502884449
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_RST_N",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 104.01536373077738,
+      "distinct_signal_vias": [
+        "2e77f8a14c507cb1",
+        "3c1d86f49b6a8b65",
+        "a8a690c9a4a75539",
+        "b637879529e918a1",
+        "bce9a8c7dc7ee2fe",
+        "d77f3eebcc84bf9c"
+      ],
+      "component_transitions_not_measured": [
+        "U601.6 -> U601.14",
+        "R607.1 -> R607.2"
+      ],
+      "legs": [
+        {
+          "path_id": "EPD_RST_N:0",
+          "net": "EPD_RST_N",
+          "from": "U301.12",
+          "to": "U601.6",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 77.38272842121941,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae65",
+            "ba3f76eb883b3568",
+            "d77f3eebcc84bf9c",
+            "55cce43ee5f0c2e9",
+            "22db1e6cd0eb1951",
+            "e3e0c35243606f93",
+            "2e77f8a14c507cb1",
+            "ed2b98cc8e15657f",
+            "a9c83f336ee64bb0",
+            "082c5818fb449cc9",
+            "1734aab7d8bd2083",
+            "957a72105a80d628",
+            "b864e7a31041a1a0",
+            "bce9a8c7dc7ee2fe",
+            "ed3a19b61aae7775",
+            "e65b5f703f501b72",
+            "24d57fbb67bcc0a6",
+            "26d01f07773e28ce",
+            "54a448d291274b11",
+            "a8a690c9a4a75539",
+            "80096f0a3574058a",
+            "813826619fce7042",
+            "c84748316c9985b3e10"
+          ],
+          "via_ids": [
+            "2e77f8a14c507cb1",
+            "a8a690c9a4a75539",
+            "bce9a8c7dc7ee2fe",
+            "d77f3eebcc84bf9c"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_RST_N:1",
+          "net": "EPD_BUF_RST_N",
+          "from": "U601.14",
+          "to": "R607.1",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 5.525457904085308,
+          "selected_path_source_ids": [
+            "c84748316c9985b3e21",
+            "686aa68ba1d8acab",
+            "fa4ae47e9e7c4214",
+            "e8c004dfe3366472",
+            "ad4ff946f2409472",
+            "a4f5bfae7521b51d",
+            "f73c3d3c5a2f2450",
+            "a85980ec522103bde8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_RST_N:2",
+          "net": "EPD_PAD_RST_N",
+          "from": "R607.2",
+          "to": "J601.10",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 21.107177405472658,
+          "selected_path_source_ids": [
+            "a85980ec522103bde7",
+            "ef4623f939a41bbc",
+            "01416305be5c1907",
+            "c2e24f5337f34d1e",
+            "2ca99f90161e6900",
+            "cc21fac7c82b73d4",
+            "6d6d4914f551ea4b",
+            "25f22552164dbb2f",
+            "71098a96303d4e98",
+            "5846b0b158aa4e0f",
+            "3c1d86f49b6a8b65",
+            "9111ed3f05f2e2e5",
+            "b637879529e918a1",
+            "39f42d7f16388a96",
+            "9af1f00b9ce4c8cb",
+            "e0bed68379c24cb2",
+            "dabcca0a2a0a45cae45"
+          ],
+          "via_ids": [
+            "3c1d86f49b6a8b65",
+            "b637879529e918a1"
+          ],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_BUSY",
+      "group": "EPD",
+      "description": "Screen BUSY return to ESP32 through U602",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 102.11383836450491,
+      "distinct_signal_vias": [
+        "1e588040865abb81",
+        "552f6d2e388df60f",
+        "af1811c9f855d7f4",
+        "bc93792ec4240b6b",
+        "f92b711c0bf8f8f8",
+        "fd5685cb8184171f"
+      ],
+      "component_transitions_not_measured": [
+        "U602.2 -> U602.4"
+      ],
+      "legs": [
+        {
+          "path_id": "EPD_BUSY:0",
+          "net": "EPD_PAD_BUSY",
+          "from": "J601.9",
+          "to": "U602.2",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 29.85614881687909,
+          "selected_path_source_ids": [
+            "dabcca0a2a0a45cae46",
+            "077e9b81b2616e36",
+            "1314ec2a024e6462",
+            "c38c80db981fa017",
+            "5010f883d1075b9e",
+            "4c675340ef4695c2",
+            "75641a466b192fde",
+            "b1bd753d5fb1fc27",
+            "f20e3b45efa6d1d8",
+            "ea177746f331b6c1",
+            "64ddf3c1a41a5ef5e8",
+            "cf4696d4635f1877",
+            "a533b930aec76e54",
+            "98de29430c601db1",
+            "a1613bde0da0c4d7",
+            "9133a4646a422721",
+            "2137ca9a657529f1",
+            "80204cd4578ecb6c",
+            "b5c5ff29b9d0678ce5"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.200152,
+          "selected_path_width_max_mm": 0.200152,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "ea177746f331b6c1",
+              "contact_id": "64ddf3c1a41a5ef5e8",
+              "center_to_contact_mm": 0.08318706819353228
+            },
+            {
+              "type": "line_contact_edge",
+              "line_id": "6cab19a538e6cd0f",
+              "contact_id": "64ddf3c1a41a5ef5e8",
+              "center_to_contact_mm": 0.02962909999999397
+            },
+            {
+              "type": "line_contact_edge",
+              "line_id": "cf4696d4635f1877",
+              "contact_id": "64ddf3c1a41a5ef5e8",
+              "center_to_contact_mm": 0.02962909999999397
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "2137ca9a657529f1",
+                "a1613bde0da0c4d7"
+              ],
+              "center_gap_mm": 0.08225914606899336
+            }
+          ],
+          "direct_contact_overlaps": []
+        },
+        {
+          "path_id": "EPD_BUSY:1",
+          "net": "EPD_BUSY",
+          "from": "U602.4",
+          "to": "U301.17",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 72.25768954762582,
+          "selected_path_source_ids": [
+            "b5c5ff29b9d0678ce7",
+            "6dcf45e2b20e6816",
+            "193c6d8fc6135c3e",
+            "af1811c9f855d7f4",
+            "0515c4fe3f589816",
+            "803ac13632e2bf09",
+            "ef7c92b40041d5abe23",
+            "0a2172f873c3413a",
+            "bc93792ec4240b6b",
+            "221ed206b75a643c",
+            "c1100c09a339e7d6",
+            "f92b711c0bf8f8f8",
+            "59305b8a1a31c6fc",
+            "5cf5c432210d8618",
+            "1e588040865abb81",
+            "f383d0a78723005f",
+            "98dc7c1f5d092b01",
+            "18e078ea0a431c39",
+            "18245adb70e1c3ff",
+            "a29e0908a692e5ef",
+            "fd5685cb8184171f",
+            "e978588ee7b6124d",
+            "252a0dd475dfe642",
+            "d62cfa8e386ae70f",
+            "552f6d2e388df60f",
+            "a6ff93fcd0debfa5",
+            "ed48e1ba9bf5b7f3",
+            "ff8ffbdbac2e358ae70"
+          ],
+          "via_ids": [
+            "1e588040865abb81",
+            "552f6d2e388df60f",
+            "af1811c9f855d7f4",
+            "bc93792ec4240b6b",
+            "f92b711c0bf8f8f8",
+            "fd5685cb8184171f"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "USB_DNP_C501",
+      "group": "USB",
+      "description": "C501 signal pad to MCU; capacitor remains DNP",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 1.2387542806949456,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "USB_DNP_C501:0",
+          "net": "USB_DP_MCU",
+          "from": "C501.1",
+          "to": "U301.14",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 1.2387542806949456,
+          "selected_path_source_ids": [
+            "4555867a5dfeea4be15",
+            "a1da574c79d57973",
+            "64db06dc01a9e84c",
+            "e0e111841f0c5795",
+            "ff8ffbdbac2e358ae67"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "9b07de27b2bca62d",
+              "contact_id": "4b236fb967c6dd3ee7",
+              "center_to_contact_mm": 0.02169667999999092
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "USB_DNP_C502",
+      "group": "USB",
+      "description": "C502 signal pad to MCU; capacitor remains DNP",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 1.2503954944168267,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "USB_DNP_C502:0",
+          "net": "USB_DM_MCU",
+          "from": "C502.1",
+          "to": "U301.13",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 1.2503954944168267,
+          "selected_path_source_ids": [
+            "0ac04d32e7e94a99e15",
+            "ba7e2dd66945ba55",
+            "577a521a0d97dcc9",
+            "8668ea5dc61bcb00",
+            "ff8ffbdbac2e358ae66"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.25999948,
+          "selected_path_width_max_mm": 0.25999948,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "bcd2a164cdea80f3",
+              "contact_id": "8fa2c264b486554be7",
+              "center_to_contact_mm": 0.02169667999999092
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_CLK_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 6.6548917143668085,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "SD_CLK_HEADER:0",
+          "net": "SD_CLK",
+          "from": "U301.31",
+          "to": "J302.3",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 6.6548917143668085,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae84",
+            "7908228790edb9ba",
+            "19cd65b44263b607",
+            "0e6953e0cd249600",
+            "8b9749846bff9a63",
+            "0fffdecb2a370ec9",
+            "0fe05757f319b584",
+            "8d42d45bf19a45ea",
+            "3ebdfdc2fc8a6c8e",
+            "75f88cb2aace8d85e19"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.14999969999999999,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_CMD_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 12.1729507010009,
+      "distinct_signal_vias": [
+        "f697c99d6dd0a6c9"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "SD_CMD_HEADER:0",
+          "net": "SD_CMD",
+          "from": "U301.32",
+          "to": "J302.4",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 12.1729507010009,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae85",
+            "2186b2602281d0ec",
+            "ca37998d18db3782",
+            "dad3d357d410c971",
+            "f697c99d6dd0a6c9",
+            "6128cd3d863fe61e",
+            "642eec9c830b375c",
+            "d27014156644febb",
+            "02d3be32bfec0bd1",
+            "75f88cb2aace8d85e20"
+          ],
+          "via_ids": [
+            "f697c99d6dd0a6c9"
+          ],
+          "selected_path_width_min_mm": 0.14999969999999999,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_D0_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 15.578440424096101,
+      "distinct_signal_vias": [
+        "467f8b6a587c1a58"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "SD_D0_HEADER:0",
+          "net": "SD_D0",
+          "from": "U301.24",
+          "to": "J302.5",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 15.578440424096101,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae77",
+            "dee9d78f0e34e067",
+            "88854343b982e39f",
+            "db6b255ee6f1c3fa",
+            "69c0813bbf0630e7",
+            "bbc6b7734a991113",
+            "467f8b6a587c1a58",
+            "9a7297c5b3cf0b8d",
+            "0cd5ae996f3e4d8b",
+            "75f88cb2aace8d85e21"
+          ],
+          "via_ids": [
+            "467f8b6a587c1a58"
+          ],
+          "selected_path_width_min_mm": 0.14999969999999999,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_D1_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 12.303080800833806,
+      "distinct_signal_vias": [
+        "8305bbf2e522ed54"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "SD_D1_HEADER:0",
+          "net": "SD_D1",
+          "from": "U301.25",
+          "to": "J302.6",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 12.303080800833806,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae78",
+            "06920d8921081ee7",
+            "1f8b92dc1c8564c4",
+            "6a03b2b02d03dadd",
+            "69bf1cedab60712d",
+            "3f833a8855cf991de8",
+            "afba3f002be98a2f",
+            "838f5f62069ad7fd",
+            "8305bbf2e522ed54",
+            "42513367cc800b87",
+            "58ddb1dcf28e8c21",
+            "68ed561bd6594ea0",
+            "75f88cb2aace8d85e22"
+          ],
+          "via_ids": [
+            "8305bbf2e522ed54"
+          ],
+          "selected_path_width_min_mm": 0.14999969999999999,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "afba3f002be98a2f",
+                "69bf1cedab60712d"
+              ],
+              "center_gap_mm": 0.20301478649983468
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_D2_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 4.481409301664723,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "SD_D2_HEADER:0",
+          "net": "SD_D2",
+          "from": "U301.34",
+          "to": "J302.7",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 4.481409301664723,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae87",
+            "c0133303f2b31738",
+            "59cc766b243adddd",
+            "f4b2fd47bd9a13bc",
+            "990bd3f9ed37a115",
+            "79d0294b3be0193c",
+            "75f88cb2aace8d85e23"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.14999969999999999,
+          "selected_path_width_max_mm": 0.3499993,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "SD_D3_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 12.08718373956395,
+      "distinct_signal_vias": [
+        "fca7ca3acc1aad76"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "SD_D3_HEADER:0",
+          "net": "SD_D3",
+          "from": "U301.33",
+          "to": "J302.8",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 12.08718373956395,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae86",
+            "0bd007e37f10a9c8",
+            "fca7ca3acc1aad76",
+            "ad6cf304b39cf597",
+            "779a224eaad74411",
+            "c38e2042219b47b3",
+            "5b23f9717436b478",
+            "75f88cb2aace8d85e24"
+          ],
+          "via_ids": [
+            "fca7ca3acc1aad76"
+          ],
+          "selected_path_width_min_mm": 0.14999969999999999,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_SCLK_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 42.29008287964975,
+      "distinct_signal_vias": [
+        "406794f4f14010fd",
+        "4ac490a513b00cf1",
+        "c9d08113070cd5f9"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_SCLK_MCU_HEADER:0",
+          "net": "EPD_SCLK",
+          "from": "U301.9",
+          "to": "J301.3",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 42.29008287964975,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae62",
+            "c6177ea8aba63a7a",
+            "7b23431319c407bd",
+            "406794f4f14010fd",
+            "f4f89163b4d66c0d",
+            "35c69efe807037d6",
+            "ecf0114c7c3d856c",
+            "4ac490a513b00cf1",
+            "6968e07d479d1d71",
+            "f63a538b66f5303e",
+            "c9d08113070cd5f9",
+            "1a4d9765bf7b0858",
+            "4466cb0861557c6a",
+            "ef7c92b40041d5abe18"
+          ],
+          "via_ids": [
+            "406794f4f14010fd",
+            "4ac490a513b00cf1",
+            "c9d08113070cd5f9"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "9584fae887a28253",
+                "ca881498496a80da"
+              ],
+              "center_gap_mm": 0.14142286945723267
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0ab106af8594e9a1",
+                "9584fae887a28253"
+              ],
+              "center_gap_mm": 0.1414210733945907
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "c1a91145191b00b0",
+                "9584fae887a28253"
+              ],
+              "center_gap_mm": 0.1638830476601881
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "c1a91145191b00b0",
+                "17197bf4bd08b215"
+              ],
+              "center_gap_mm": 0.029837380000003577
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_SCLK_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 25.805565515092912,
+      "distinct_signal_vias": [
+        "2a77a28423c573d1"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_SCLK_HEADER_BUFFER:0",
+          "net": "EPD_SCLK",
+          "from": "J301.3",
+          "to": "U601.2",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 25.805565515092912,
+          "selected_path_source_ids": [
+            "ef7c92b40041d5abe18",
+            "725f62fd1a270cc7",
+            "cf8372c81b94dbfe",
+            "2a77a28423c573d1",
+            "3d38f9f747466124",
+            "d91a11d3dbb7316e",
+            "13a15411f293c9c0",
+            "27762ce7309e4fb6",
+            "c84748316c9985b3e6"
+          ],
+          "via_ids": [
+            "2a77a28423c573d1"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "9584fae887a28253",
+                "ca881498496a80da"
+              ],
+              "center_gap_mm": 0.14142286945723267
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0ab106af8594e9a1",
+                "9584fae887a28253"
+              ],
+              "center_gap_mm": 0.1414210733945907
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "c1a91145191b00b0",
+                "9584fae887a28253"
+              ],
+              "center_gap_mm": 0.1638830476601881
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "c1a91145191b00b0",
+                "17197bf4bd08b215"
+              ],
+              "center_gap_mm": 0.029837380000003577
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_SCLK_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 4.32205776287066,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_SCLK_PULL_BUFFER:0",
+          "net": "EPD_SCLK",
+          "from": "R608.1",
+          "to": "U601.2",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 4.32205776287066,
+          "selected_path_source_ids": [
+            "c82b7208bd43271fe8",
+            "b879b595eb28f876",
+            "ca881498496a80da",
+            "3390a896534277c4",
+            "9584fae887a28253",
+            "c84748316c9985b3e6"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "9584fae887a28253",
+                "ca881498496a80da"
+              ],
+              "center_gap_mm": 0.14142286945723267
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0ab106af8594e9a1",
+                "9584fae887a28253"
+              ],
+              "center_gap_mm": 0.1414210733945907
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "c1a91145191b00b0",
+                "9584fae887a28253"
+              ],
+              "center_gap_mm": 0.1638830476601881
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "c1a91145191b00b0",
+                "17197bf4bd08b215"
+              ],
+              "center_gap_mm": 0.029837380000003577
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_MOSI_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 47.8386930291545,
+      "distinct_signal_vias": [
+        "08ae7d0d90934984",
+        "47de7000aeebded5",
+        "6b876fb73def972d"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_MOSI_MCU_HEADER:0",
+          "net": "EPD_MOSI",
+          "from": "U301.8",
+          "to": "J301.4",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 47.8386930291545,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae61",
+            "86937a1d76cebb94",
+            "6b876fb73def972d",
+            "5039c414d88b6ec6",
+            "092909f3bd4092ff",
+            "2b3b57d118687ad8",
+            "08ae7d0d90934984",
+            "ad246cfab05496d7",
+            "f8727707930a1ec5",
+            "f5906734c2217c2a",
+            "47de7000aeebded5",
+            "c3f36e949d29d7e3",
+            "4229265482c2e528",
+            "ef7c92b40041d5abe19"
+          ],
+          "via_ids": [
+            "08ae7d0d90934984",
+            "47de7000aeebded5",
+            "6b876fb73def972d"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "5df02b6ad4e04f93",
+              "contact_id": "c84748316c9985b3e7",
+              "center_to_contact_mm": 0.020434300000005123
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_MOSI_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 25.61429277871929,
+      "distinct_signal_vias": [
+        "bce05c98ab2bdb2d"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_MOSI_HEADER_BUFFER:0",
+          "net": "EPD_MOSI",
+          "from": "J301.4",
+          "to": "U601.3",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 25.61429277871929,
+          "selected_path_source_ids": [
+            "ef7c92b40041d5abe19",
+            "bdb70ed718e6b1ac",
+            "b5ece6b7bae34463",
+            "bce05c98ab2bdb2d",
+            "5df02b6ad4e04f93",
+            "c84748316c9985b3e7"
+          ],
+          "via_ids": [
+            "bce05c98ab2bdb2d"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "5df02b6ad4e04f93",
+              "contact_id": "c84748316c9985b3e7",
+              "center_to_contact_mm": 0.020434300000005123
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_MOSI_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 0.9268079000000071,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_MOSI_PULL_BUFFER:0",
+          "net": "EPD_MOSI",
+          "from": "R609.1",
+          "to": "U601.3",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 0.9268079000000071,
+          "selected_path_source_ids": [
+            "8964b56338f16683e8",
+            "72eb267d2215c62f",
+            "c84748316c9985b3e7"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "5df02b6ad4e04f93",
+              "contact_id": "c84748316c9985b3e7",
+              "center_to_contact_mm": 0.020434300000005123
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_CS_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 49.67601580238928,
+      "distinct_signal_vias": [
+        "24762cd387d534dc",
+        "f0b2341f3b70d47b",
+        "ffb16e860f9319ae"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_CS_MCU_HEADER:0",
+          "net": "EPD_CS",
+          "from": "U301.10",
+          "to": "J301.5",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 49.67601580238928,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae63",
+            "24c4661487bab6f8",
+            "c5a086cd29eb176a",
+            "b31444540293af90",
+            "0fb9cf35cad7e3a2",
+            "d35ba2825c162ba9",
+            "4c70cf6bbe33badd",
+            "982c914f72816d0d",
+            "b6e68705b13228bf",
+            "ccb89be9ee29f4db",
+            "c68aa06ce7d86f1c",
+            "ffb16e860f9319ae",
+            "f09413d6dbc29238",
+            "2d1b89189422c5d2",
+            "f0b2341f3b70d47b",
+            "f4280bc19f0f079d",
+            "c0c5fd206fa6ad2a",
+            "24762cd387d534dc",
+            "b02dff1f9a28cc56",
+            "a8200c2d3e6bb8c7",
+            "ef7c92b40041d5abe20"
+          ],
+          "via_ids": [
+            "24762cd387d534dc",
+            "f0b2341f3b70d47b",
+            "ffb16e860f9319ae"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_CS_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 25.82437781135043,
+      "distinct_signal_vias": [
+        "d484af1d47cecb98"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_CS_HEADER_BUFFER:0",
+          "net": "EPD_CS",
+          "from": "J301.5",
+          "to": "U601.4",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 25.82437781135043,
+          "selected_path_source_ids": [
+            "ef7c92b40041d5abe20",
+            "03932421db059b36",
+            "07f9cfc195d37dfc",
+            "d484af1d47cecb98",
+            "eb47b617d1014323",
+            "7c807758f5fb4020",
+            "19054a2c2ad60e52",
+            "c84748316c9985b3e8"
+          ],
+          "via_ids": [
+            "d484af1d47cecb98"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_CS_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 1.2525635355113596,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_CS_PULL_BUFFER:0",
+          "net": "EPD_CS",
+          "from": "R610.2",
+          "to": "U601.4",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 1.2525635355113596,
+          "selected_path_source_ids": [
+            "2c02181a46ada0dde7",
+            "f71005ce5f3dc808",
+            "82f5379674ad9034",
+            "c84748316c9985b3e8"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_DC_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 50.864711413513426,
+      "distinct_signal_vias": [
+        "28782809380699c1",
+        "9be22aae7677ea7f",
+        "e8936195c1756197"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_DC_MCU_HEADER:0",
+          "net": "EPD_DC",
+          "from": "U301.11",
+          "to": "J301.6",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 50.864711413513426,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae64",
+            "8d6390d209c06142",
+            "ec1c1d696eea91d8",
+            "b5b132e2d64cc1f7",
+            "9e53c6499c189731",
+            "3f34913281995a9d",
+            "28782809380699c1",
+            "7e8e0c9fc9448293",
+            "d8a115005643feae",
+            "9be22aae7677ea7f",
+            "c83b550c1b039340",
+            "c60eb62786447cb6",
+            "186f6eb89c2acbb6",
+            "f0772ed83f8bd14d",
+            "e8936195c1756197",
+            "8186d46986aa9ee9",
+            "2fc1b673b02c2a1c",
+            "ef7c92b40041d5abe21"
+          ],
+          "via_ids": [
+            "28782809380699c1",
+            "9be22aae7677ea7f",
+            "e8936195c1756197"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "0dc66cd01018ef1d",
+              "contact_id": "c84748316c9985b3e9",
+              "center_to_contact_mm": 0.028996639999995466
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0dc66cd01018ef1d",
+                "63eca2cc0b0a294c"
+              ],
+              "center_gap_mm": 0.07568739463959018
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0a5b3c43dcca85de",
+                "0dc66cd01018ef1d"
+              ],
+              "center_gap_mm": 0.10703813999999312
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_DC_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 25.816532665048346,
+      "distinct_signal_vias": [
+        "750388d0106be0f3"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_DC_HEADER_BUFFER:0",
+          "net": "EPD_DC",
+          "from": "J301.6",
+          "to": "U601.5",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 25.816532665048346,
+          "selected_path_source_ids": [
+            "ef7c92b40041d5abe21",
+            "30fa3dc2412fb6cf",
+            "fc457647a71d0326",
+            "750388d0106be0f3",
+            "c234093cc090b14e",
+            "0dc66cd01018ef1d",
+            "c84748316c9985b3e9"
+          ],
+          "via_ids": [
+            "750388d0106be0f3"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "0dc66cd01018ef1d",
+              "contact_id": "c84748316c9985b3e9",
+              "center_to_contact_mm": 0.028996639999995466
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0dc66cd01018ef1d",
+                "63eca2cc0b0a294c"
+              ],
+              "center_gap_mm": 0.07568739463959018
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0a5b3c43dcca85de",
+                "0dc66cd01018ef1d"
+              ],
+              "center_gap_mm": 0.10703813999999312
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_DC_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 7.254635183057671,
+      "distinct_signal_vias": [],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_DC_PULL_BUFFER:0",
+          "net": "EPD_DC",
+          "from": "R611.1",
+          "to": "U601.5",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 7.254635183057671,
+          "selected_path_source_ids": [
+            "91ff945bf42a75cee8",
+            "13f42eb122e44a66",
+            "cc8d3bbd8263f732",
+            "84469b448729d76d",
+            "63eca2cc0b0a294c",
+            "c84748316c9985b3e9"
+          ],
+          "via_ids": [],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [
+            {
+              "type": "line_contact_edge",
+              "line_id": "0dc66cd01018ef1d",
+              "contact_id": "c84748316c9985b3e9",
+              "center_to_contact_mm": 0.028996639999995466
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0dc66cd01018ef1d",
+                "63eca2cc0b0a294c"
+              ],
+              "center_gap_mm": 0.07568739463959018
+            },
+            {
+              "type": "line_line_edge",
+              "line_ids": [
+                "0a5b3c43dcca85de",
+                "0dc66cd01018ef1d"
+              ],
+              "center_gap_mm": 0.10703813999999312
+            }
+          ],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_RST_N_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 49.44756645895971,
+      "distinct_signal_vias": [
+        "2e77f8a14c507cb1",
+        "bce9a8c7dc7ee2fe",
+        "d77f3eebcc84bf9c"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_RST_N_MCU_HEADER:0",
+          "net": "EPD_RST_N",
+          "from": "U301.12",
+          "to": "J301.7",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 49.44756645895971,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae65",
+            "ba3f76eb883b3568",
+            "d77f3eebcc84bf9c",
+            "55cce43ee5f0c2e9",
+            "22db1e6cd0eb1951",
+            "e3e0c35243606f93",
+            "2e77f8a14c507cb1",
+            "ed2b98cc8e15657f",
+            "a9c83f336ee64bb0",
+            "082c5818fb449cc9",
+            "1734aab7d8bd2083",
+            "957a72105a80d628",
+            "b864e7a31041a1a0",
+            "bce9a8c7dc7ee2fe",
+            "ed3a19b61aae7775",
+            "e65b5f703f501b72",
+            "ef7c92b40041d5abe22"
+          ],
+          "via_ids": [
+            "2e77f8a14c507cb1",
+            "bce9a8c7dc7ee2fe",
+            "d77f3eebcc84bf9c"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_RST_N_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 27.9351619622597,
+      "distinct_signal_vias": [
+        "a8a690c9a4a75539"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_RST_N_HEADER_BUFFER:0",
+          "net": "EPD_RST_N",
+          "from": "J301.7",
+          "to": "U601.6",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 27.9351619622597,
+          "selected_path_source_ids": [
+            "ef7c92b40041d5abe22",
+            "24d57fbb67bcc0a6",
+            "26d01f07773e28ce",
+            "54a448d291274b11",
+            "a8a690c9a4a75539",
+            "80096f0a3574058a",
+            "813826619fce7042",
+            "c84748316c9985b3e10"
+          ],
+          "via_ids": [
+            "a8a690c9a4a75539"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_RST_N_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 8.385026751575548,
+      "distinct_signal_vias": [
+        "f73eba2bb9783118",
+        "fc64b37cfcc71e1f"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_RST_N_PULL_BUFFER:0",
+          "net": "EPD_RST_N",
+          "from": "R612.1",
+          "to": "U601.6",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 8.385026751575548,
+          "selected_path_source_ids": [
+            "5d62508ce45eb5a1e8",
+            "bccfc577d42ffad7",
+            "fc64b37cfcc71e1f",
+            "7ed28045d559bf71",
+            "c036d4029095abfb",
+            "f73eba2bb9783118",
+            "eb8ac10f40ae3ade",
+            "00cb01c8b3319e60",
+            "e6820844d842f2f3",
+            "c84748316c9985b3e10"
+          ],
+          "via_ids": [
+            "f73eba2bb9783118",
+            "fc64b37cfcc71e1f"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_BUSY_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to BUSY diagnostic header",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 41.67077222266155,
+      "distinct_signal_vias": [
+        "1e588040865abb81",
+        "552f6d2e388df60f",
+        "bc93792ec4240b6b",
+        "f92b711c0bf8f8f8",
+        "fd5685cb8184171f"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_BUSY_MCU_HEADER:0",
+          "net": "EPD_BUSY",
+          "from": "U301.17",
+          "to": "J301.8",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 41.67077222266155,
+          "selected_path_source_ids": [
+            "ff8ffbdbac2e358ae70",
+            "ed48e1ba9bf5b7f3",
+            "a6ff93fcd0debfa5",
+            "552f6d2e388df60f",
+            "d62cfa8e386ae70f",
+            "252a0dd475dfe642",
+            "e978588ee7b6124d",
+            "fd5685cb8184171f",
+            "a29e0908a692e5ef",
+            "18245adb70e1c3ff",
+            "18e078ea0a431c39",
+            "98dc7c1f5d092b01",
+            "f383d0a78723005f",
+            "1e588040865abb81",
+            "5cf5c432210d8618",
+            "59305b8a1a31c6fc",
+            "f92b711c0bf8f8f8",
+            "c1100c09a339e7d6",
+            "221ed206b75a643c",
+            "bc93792ec4240b6b",
+            "0a2172f873c3413a",
+            "ef7c92b40041d5abe23"
+          ],
+          "via_ids": [
+            "1e588040865abb81",
+            "552f6d2e388df60f",
+            "bc93792ec4240b6b",
+            "f92b711c0bf8f8f8",
+            "fd5685cb8184171f"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    },
+    {
+      "id": "EPD_BUSY_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "BUSY diagnostic header to U602 output",
+      "status": "MEASURED",
+      "exposed_trace_length_mm": 30.58691732496427,
+      "distinct_signal_vias": [
+        "af1811c9f855d7f4"
+      ],
+      "component_transitions_not_measured": [],
+      "legs": [
+        {
+          "path_id": "EPD_BUSY_HEADER_BUFFER:0",
+          "net": "EPD_BUSY",
+          "from": "J301.8",
+          "to": "U602.4",
+          "status": "TRACE_ONLY_PATH_MEASURED",
+          "exposed_trace_length_mm": 30.58691732496427,
+          "selected_path_source_ids": [
+            "ef7c92b40041d5abe23",
+            "803ac13632e2bf09",
+            "0515c4fe3f589816",
+            "af1811c9f855d7f4",
+            "193c6d8fc6135c3e",
+            "6dcf45e2b20e6816",
+            "b5c5ff29b9d0678ce7"
+          ],
+          "via_ids": [
+            "af1811c9f855d7f4"
+          ],
+          "selected_path_width_min_mm": 0.19999959999999997,
+          "selected_path_width_max_mm": 0.19999959999999997,
+          "copper_overlap_contacts": [],
+          "direct_contact_overlaps": []
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "USB_A_EXPOSED_SKEW",
+      "members_mm": {
+        "USB_A_P": 29.624217447293297,
+        "USB_A_N": 29.6236506334837
+      },
+      "maximum_difference_mm": 0.0005668138095984432,
+      "interpretation": "Board exposed-trace P/N skew; excludes package/connector/barrel paths and does not prove 90-ohm impedance."
+    },
+    {
+      "id": "USB_B_EXPOSED_SKEW",
+      "members_mm": {
+        "USB_B_P": 29.6242174472933,
+        "USB_B_N": 29.623650633483706
+      },
+      "maximum_difference_mm": 0.0005668138095948905,
+      "interpretation": "Board exposed-trace P/N skew; excludes package/connector/barrel paths and does not prove 90-ohm impedance."
+    },
+    {
+      "id": "SD_EXPOSED_SPREAD",
+      "members_mm": {
+        "SD_CLK": 30.213304772613487,
+        "SD_CMD": 31.842596382702204,
+        "SD_D0": 29.788734290239503,
+        "SD_D1": 27.717432884139516,
+        "SD_D2": 27.28916442695124,
+        "SD_D3": 29.17033928487066
+      },
+      "maximum_difference_mm": 4.553431955750966,
+      "interpretation": "Geometric six-line spread only; clock/data timing also depends on TMUX/package/loading/vias. No added serpentine or delay claim."
+    },
+    {
+      "id": "EPD_FORWARD_EXPOSED_SPREAD",
+      "members_mm": {
+        "EPD_SCLK": 97.61537827693219,
+        "EPD_MOSI": 98.38944647930981,
+        "EPD_CS": 105.58398118762948,
+        "EPD_DC": 101.46938906030944,
+        "EPD_RST_N": 104.01536373077738
+      },
+      "maximum_difference_mm": 7.968602910697285,
+      "interpretation": "Diagnostic geometry only. Control signals do not need blind length matching to SCLK."
+    }
+  ],
+  "leg_count": 68,
+  "selected_net_count": 39,
+  "limitations": [
+    "Exposed trace length is not full pad-centre route length or propagation delay. It is a consistently defined geometric measurement, not a revised version of the earlier centreline-plus-pad-span candidate numbers.",
+    "Separate per-net legs stop at series resistors, buffer/mux inputs and outputs. Their physical package spans, delay, via barrels, connector mating paths and screen extension cables are not added as fictional trace lengths.",
+    "USB comparisons are board-side exposed-length skew only; uncoupled connector fanout and actual impedance/delay require separate SI/hardware validation.",
+    "Branch rows measure specified electrical terminal-to-terminal paths. They do not assert that the whole header distance is a dangling stub, or that a header lies on a main spine.",
+    "This tool verifies selected path existence and source provenance, not every copper island, shorts, return paths or final CAM. Run the dedicated topology, critical-route and adjacent-reference-plane checks.",
+    "No new pass/fail skew threshold is invented. The numerical differences remain evidence for project timing review and first-board tests."
+  ]
+}

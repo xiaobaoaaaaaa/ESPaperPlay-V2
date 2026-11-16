@@ -1,0 +1,3006 @@
+{
+  "status": "GEOMETRY_RULES_STACK_SNAPSHOT_MATCH",
+  "scope": "Official archive versus PCB and eight native footprint snapshots; not connectivity, DRC, CAM, assembly, impedance, or manufacturer-stack certification.",
+  "archive": {
+    "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
+    "sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c",
+    "log_entry": "ESPaperPlay V2 99mm Native.epru",
+    "log_sha256": "12eb279557422dd8233c12ab24e41d56d8c28f54d11603fc50cc3b2d6cbc92c0",
+    "merge": {
+      "document_segments": 192,
+      "raw_records": 25840,
+      "accepted_tombstones": 2456
+    },
+    "document_count": 192
+  },
+  "normalization": {
+    "record_identity": "(type,id); no geometry IDs are remapped.",
+    "ticket_client": "Highest ticket; equal ticket chooses lexicographically smaller DOCHEAD.client; equal ticket/client last record wins; tombstones applied.",
+    "numeric": "Authored geometry/rules/stack: exact numeric equality only (1 equals1.0); boolean differs from number; no coordinate tolerance, rounding, or unit conversion. Derived POURED path representation differences are separately bounded and fully reported.",
+    "object_order": "JSON object order ignored; list order, null/absent fields, all geometry/attribute bodies retained.",
+    "layer_display_fields_excluded": [
+      "activateTransparency",
+      "activeColor",
+      "inactiveColor",
+      "inactiveTransparency",
+      "locked",
+      "show"
+    ],
+    "exact_default_representation_differences": [
+      {
+        "type": "RULE_SELECTOR",
+        "id": "[\"RULE_SELECTOR\",[\"NET\",\"\"]]",
+        "present_only_in": "snapshot",
+        "exact_body": {
+          "ruleOrder": 4,
+          "ruleKeyValue": {
+            "NET_LENGTH_TOLERANCE": [
+              "default",
+              null
+            ]
+          },
+          "copperValue": {},
+          "innerPlaneValue": {},
+          "parent": null
+        },
+        "reason": "Runtime-added selector of the empty net, containing only the default length-tolerance binding."
+      },
+      {
+        "type": "RULE",
+        "id": "[\"RULE\",\"HEIGHT\",\"height\"]",
+        "present_only_in": "archive",
+        "exact_body": {
+          "ruleState": "DEFAULT",
+          "ruleContext": {
+            "unit": "mm",
+            "maxHeight": 0
+          }
+        },
+        "reason": "Archive-only DEFAULT height rule with maxHeight=0; no physical/routing rule is discarded."
+      }
+    ]
+  },
+  "excluded_editor_record_types": {
+    "CANVAS": "Editor viewport, grid and editing origin preferences.",
+    "ACTIVE_LAYER": "Currently selected editor layer.",
+    "PRIMITIVE": "Primitive visibility/picking/color preferences, not geometry.",
+    "PREFERENCE": "Interactive routing/editing preferences, not persisted copper.",
+    "ELE_PLACEHOLDER": "Next-element counters, not physical elements.",
+    "META": "Library/project document metadata; identity checked via DOCHEAD and footprint references.",
+    "D3_ATTRIBUTE": "3D appearance/settings; not a replacement for LAYER_PHYS.",
+    "SILK_OPTS": "Editor silkscreen foreground/background color preferences; actual silk geometry is compared."
+  },
+  "derived_pour_cache": {
+    "status": "PASS_CACHE_WITH_EXPLICIT_NUMERIC_REPRESENTATION_DIFFERENCES",
+    "counts": {
+      "snapshot": 2,
+      "archive": 2
+    },
+    "records": [
+      {
+        "side": "snapshot",
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "parent_POUR_id": "ba72da6155a688cf",
+        "body_sha256": "8a252183a0d0bc944928f99bacf6e3c93af099131af6146ddca3ff510e7c9bd4",
+        "body_keys": [
+          "pourFill"
+        ]
+      },
+      {
+        "side": "snapshot",
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "parent_POUR_id": "d3ff18302dc53c44",
+        "body_sha256": "494adc7de5abe6483ea31a945a41726319e20fbdf5fa4e1e82d510b490228785",
+        "body_keys": [
+          "pourFill"
+        ]
+      },
+      {
+        "side": "archive",
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "parent_POUR_id": "ba72da6155a688cf",
+        "body_sha256": "cbf7ce308634c28119f09bdff169a2a834bcbde4cdad4d0569821f4a9c744ca2",
+        "body_keys": [
+          "pourFill"
+        ]
+      },
+      {
+        "side": "archive",
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "parent_POUR_id": "d3ff18302dc53c44",
+        "body_sha256": "f86db8491109027f6d87d174881ce778d39d67878cda586fc81c0416b2a3e371",
+        "body_keys": [
+          "pourFill"
+        ]
+      }
+    ],
+    "differences": [],
+    "validation_errors": [],
+    "raw_numeric_representation_differences": [
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          2,
+          10
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.99999999999969,
+        "archive": 89.9999999999998,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          2,
+          17
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000016,
+        "archive": 90.0000000000001,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          2,
+          24
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.99999999999983,
+        "archive": 89.99999999999989,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          16,
+          20
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.99999999999955,
+        "archive": 89.99999999999977,
+        "absolute_difference": 2.2737367544323206e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          16,
+          38
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 111.59904657010262,
+        "archive": 111.59904657010267,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          16,
+          42
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 111.59904657010281,
+        "archive": 111.59904657010276,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          22,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000082,
+        "archive": 90.00000000000043,
+        "absolute_difference": 3.979039320256561e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          22,
+          10
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000122,
+        "archive": 90.00000000000081,
+        "absolute_difference": 4.121147867408581e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          22,
+          24
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000125,
+        "archive": 90.0000000000008,
+        "absolute_difference": 4.547473508864641e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 156.1869369003436,
+        "archive": 156.1869369003437,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          16
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -7.810133329275031,
+        "archive": -7.810133329275032,
+        "absolute_difference": 8.881784197001252e-16,
+        "allowed_difference": 8.881784197001252e-16
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          18
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 119.57588046553475,
+        "archive": 119.5758804655347,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          27
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -11.811019999999996,
+        "archive": -11.811019999999997,
+        "absolute_difference": 1.7763568394002505e-15,
+        "allowed_difference": 1.7763568394002505e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          29
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 128.56784430210712,
+        "archive": 128.56784430210715,
+        "absolute_difference": 2.842170943040401e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          31
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -14.44025888203746,
+        "archive": -14.440258882037462,
+        "absolute_difference": 1.7763568394002505e-15,
+        "allowed_difference": 1.7763568394002505e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          33
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 156.18693690034402,
+        "archive": 156.18693690034397,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          39,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 134.77575362839872,
+        "archive": 134.7757536283986,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          61,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 124.05799590284508,
+        "archive": 124.05799590284474,
+        "absolute_difference": 3.410605131648481e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          61,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 124.05799590284357,
+        "archive": 124.05799590284387,
+        "absolute_difference": 2.984279490192421e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          80,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 136.20670882377743,
+        "archive": 136.20670882377811,
+        "absolute_difference": 6.821210263296962e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          85,
+          0
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": 91.54805999999999,
+        "archive": 91.54806,
+        "absolute_difference": 1.4210854715202004e-14,
+        "allowed_difference": 1.4210854715202004e-14
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          90,
+          0
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": 84.72158457159262,
+        "archive": 84.7215845715926,
+        "absolute_difference": 1.4210854715202004e-14,
+        "allowed_difference": 1.4210854715202004e-14
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          90,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.77764334382218,
+        "archive": 122.777643343822,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          103,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 137.10561528578043,
+        "archive": 137.10561528578026,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          107,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 138.07899278299868,
+        "archive": 138.07899278299845,
+        "absolute_difference": 2.2737367544323206e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          107,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 138.07899278299766,
+        "archive": 138.07899278299794,
+        "absolute_difference": 2.8421709430404007e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          113,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 134.5737639025902,
+        "archive": 134.57376390259046,
+        "absolute_difference": 2.5579538487363607e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          113,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 134.57376390259213,
+        "archive": 134.57376390259236,
+        "absolute_difference": 2.2737367544323206e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          113,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 134.57376390259384,
+        "archive": 134.57376390259358,
+        "absolute_difference": 2.5579538487363607e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          118,
+          21
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": 111.23418999999998,
+        "archive": 111.23419,
+        "absolute_difference": 1.4210854715202004e-14,
+        "allowed_difference": 1.4210854715202004e-14
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          119,
+          13
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000163,
+        "archive": 90.00000000000081,
+        "absolute_difference": 8.242295734817162e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          119,
+          34
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 84.32729267493875,
+        "archive": 84.3272926749388,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          119,
+          38
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 84.32729267493858,
+        "archive": 84.32729267493869,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          130,
+          22
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -31.08926,
+        "archive": -31.089259999999996,
+        "absolute_difference": 3.552713678800501e-15,
+        "allowed_difference": 3.552713678800501e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          155,
+          35
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.9999999999967,
+        "archive": 89.99999999999835,
+        "absolute_difference": 1.6484591469634324e-12,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          156,
+          19
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 100.46143401868119,
+        "archive": 100.46143401868133,
+        "absolute_difference": 1.4210854715202004e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          157,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 136.20651908159266,
+        "archive": 136.20651908159294,
+        "absolute_difference": 2.8421709430404007e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          158,
+          10
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.9999999999967,
+        "archive": 89.99999999999835,
+        "absolute_difference": 1.6484591469634324e-12,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          162,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.7763250682035,
+        "archive": 122.77632506820359,
+        "absolute_difference": 8.526512829121202e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          162,
+          5
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -29.498152024553967,
+        "archive": -29.49815202455397,
+        "absolute_difference": 3.552713678800501e-15,
+        "allowed_difference": 3.552713678800501e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          162,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.78060761916228,
+        "archive": 122.78060761916225,
+        "absolute_difference": 2.842170943040401e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          162,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.78060761916242,
+        "archive": 122.78060761916225,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          191,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 123.3501831084721,
+        "archive": 123.35018310847215,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          227,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.56020312446043,
+        "archive": 122.56020312446046,
+        "absolute_difference": 2.842170943040401e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          230,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 136.67358377868692,
+        "archive": 136.6735837786864,
+        "absolute_difference": 5.115907697472721e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          230,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 35.21100955933662,
+        "archive": 35.211009559336844,
+        "absolute_difference": 2.2737367544323206e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          230,
+          31
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 92.35028212567651,
+        "archive": 92.35028212567676,
+        "absolute_difference": 2.4158453015843406e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          230,
+          35
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 92.35028212567664,
+        "archive": 92.35028212567684,
+        "absolute_difference": 1.9895196601282805e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          246,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 132.94710534737516,
+        "archive": 132.9471053473751,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          246,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 132.947105347374,
+        "archive": 132.94710534737405,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          246,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 132.94710534737357,
+        "archive": 132.94710534737368,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          1
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -21.080164131165326,
+        "archive": -21.08016413116533,
+        "absolute_difference": 3.552713678800501e-15,
+        "allowed_difference": 3.552713678800501e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 142.82019764440645,
+        "archive": 142.82019764440648,
+        "absolute_difference": 2.842170943040401e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 142.8201976444063,
+        "archive": 142.82019764440636,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 142.82019764440628,
+        "archive": 142.82019764440636,
+        "absolute_difference": 8.526512829121202e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          15
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 142.8201976444061,
+        "archive": 142.82019764440628,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          1
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -36.231963601534815,
+        "archive": -36.23196360153482,
+        "absolute_difference": 7.105427357601002e-15,
+        "allowed_difference": 7.105427357601002e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 173.63960235032727,
+        "archive": 173.63960235032744,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 167.2477142066346,
+        "archive": 167.24771420663456,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          9
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -31.012214950129163,
+        "archive": -31.01221495012916,
+        "absolute_difference": 3.552713678800501e-15,
+        "allowed_difference": 3.552713678800501e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 167.24771420663396,
+        "archive": 167.24771420663427,
+        "absolute_difference": 3.126388037344441e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          373,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 132.94598656422482,
+        "archive": 132.94598656422426,
+        "absolute_difference": 5.684341886080801e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"d3ff18302dc53c44\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          373,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 60.25727876852625,
+        "archive": 60.2572787685267,
+        "absolute_difference": 4.547473508864641e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          2,
+          10
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.99999999999969,
+        "archive": 89.9999999999998,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          2,
+          17
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000016,
+        "archive": 90.0000000000001,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          2,
+          24
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.99999999999983,
+        "archive": 89.99999999999989,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          16,
+          20
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.99999999999955,
+        "archive": 89.99999999999977,
+        "absolute_difference": 2.2737367544323206e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          16,
+          38
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 111.59904657010262,
+        "archive": 111.59904657010267,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          16,
+          42
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 111.59904657010281,
+        "archive": 111.59904657010276,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          22,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000082,
+        "archive": 90.00000000000043,
+        "absolute_difference": 3.979039320256561e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          22,
+          10
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000122,
+        "archive": 90.00000000000081,
+        "absolute_difference": 4.121147867408581e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          22,
+          24
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000125,
+        "archive": 90.0000000000008,
+        "absolute_difference": 4.547473508864641e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 156.1869369003436,
+        "archive": 156.1869369003437,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          16
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -7.810133329275031,
+        "archive": -7.810133329275032,
+        "absolute_difference": 8.881784197001252e-16,
+        "allowed_difference": 8.881784197001252e-16
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          18
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 119.57588046553475,
+        "archive": 119.5758804655347,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          27
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -11.811019999999996,
+        "archive": -11.811019999999997,
+        "absolute_difference": 1.7763568394002505e-15,
+        "allowed_difference": 1.7763568394002505e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          29
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 128.56784430210712,
+        "archive": 128.56784430210715,
+        "absolute_difference": 2.842170943040401e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          31
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -14.44025888203746,
+        "archive": -14.440258882037462,
+        "absolute_difference": 1.7763568394002505e-15,
+        "allowed_difference": 1.7763568394002505e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          27,
+          33
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 156.18693690034402,
+        "archive": 156.18693690034397,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          39,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 134.77575362839872,
+        "archive": 134.7757536283986,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          61,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 124.05799590284508,
+        "archive": 124.05799590284474,
+        "absolute_difference": 3.410605131648481e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          61,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 124.05799590284357,
+        "archive": 124.05799590284387,
+        "absolute_difference": 2.984279490192421e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          80,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 136.20670882377743,
+        "archive": 136.20670882377811,
+        "absolute_difference": 6.821210263296962e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          85,
+          0
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": 91.54805999999999,
+        "archive": 91.54806,
+        "absolute_difference": 1.4210854715202004e-14,
+        "allowed_difference": 1.4210854715202004e-14
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          90,
+          0
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": 84.72158457159262,
+        "archive": 84.7215845715926,
+        "absolute_difference": 1.4210854715202004e-14,
+        "allowed_difference": 1.4210854715202004e-14
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          90,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.77764334382218,
+        "archive": 122.777643343822,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          103,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 137.10561528578043,
+        "archive": 137.10561528578026,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          107,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 138.07899278299868,
+        "archive": 138.07899278299845,
+        "absolute_difference": 2.2737367544323206e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          107,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 138.07899278299766,
+        "archive": 138.07899278299794,
+        "absolute_difference": 2.8421709430404007e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          113,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 134.5737639025902,
+        "archive": 134.57376390259046,
+        "absolute_difference": 2.5579538487363607e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          113,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 134.57376390259213,
+        "archive": 134.57376390259236,
+        "absolute_difference": 2.2737367544323206e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          113,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 134.57376390259384,
+        "archive": 134.57376390259358,
+        "absolute_difference": 2.5579538487363607e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          118,
+          21
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": 111.23418999999998,
+        "archive": 111.23419,
+        "absolute_difference": 1.4210854715202004e-14,
+        "allowed_difference": 1.4210854715202004e-14
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          119,
+          13
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 90.00000000000163,
+        "archive": 90.00000000000081,
+        "absolute_difference": 8.242295734817162e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          119,
+          34
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 84.32729267493875,
+        "archive": 84.3272926749388,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          119,
+          38
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 84.32729267493858,
+        "archive": 84.32729267493869,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          130,
+          22
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -31.08926,
+        "archive": -31.089259999999996,
+        "absolute_difference": 3.552713678800501e-15,
+        "allowed_difference": 3.552713678800501e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          155,
+          35
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.9999999999967,
+        "archive": 89.99999999999835,
+        "absolute_difference": 1.6484591469634324e-12,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          156,
+          19
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 100.46143401868119,
+        "archive": 100.46143401868133,
+        "absolute_difference": 1.4210854715202004e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          157,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 136.20651908159266,
+        "archive": 136.20651908159294,
+        "absolute_difference": 2.8421709430404007e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          158,
+          10
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 89.9999999999967,
+        "archive": 89.99999999999835,
+        "absolute_difference": 1.6484591469634324e-12,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          162,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.7763250682035,
+        "archive": 122.77632506820359,
+        "absolute_difference": 8.526512829121202e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          162,
+          5
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -29.498152024553967,
+        "archive": -29.49815202455397,
+        "absolute_difference": 3.552713678800501e-15,
+        "allowed_difference": 3.552713678800501e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          162,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.78060761916228,
+        "archive": 122.78060761916225,
+        "absolute_difference": 2.842170943040401e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          162,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.78060761916242,
+        "archive": 122.78060761916225,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          191,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 123.3501831084721,
+        "archive": 123.35018310847215,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          227,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 122.56020312446043,
+        "archive": 122.56020312446046,
+        "absolute_difference": 2.842170943040401e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          230,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 136.67358377868692,
+        "archive": 136.6735837786864,
+        "absolute_difference": 5.115907697472721e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          230,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 35.21100955933662,
+        "archive": 35.211009559336844,
+        "absolute_difference": 2.2737367544323206e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          230,
+          31
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 92.35028212567651,
+        "archive": 92.35028212567676,
+        "absolute_difference": 2.4158453015843406e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          230,
+          35
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 92.35028212567664,
+        "archive": 92.35028212567684,
+        "absolute_difference": 1.9895196601282805e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          246,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 132.94710534737516,
+        "archive": 132.9471053473751,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          246,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 132.947105347374,
+        "archive": 132.94710534737405,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          246,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 132.94710534737357,
+        "archive": 132.94710534737368,
+        "absolute_difference": 1.1368683772161603e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          1
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -21.080164131165326,
+        "archive": -21.08016413116533,
+        "absolute_difference": 3.552713678800501e-15,
+        "allowed_difference": 3.552713678800501e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 142.82019764440645,
+        "archive": 142.82019764440648,
+        "absolute_difference": 2.842170943040401e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 142.8201976444063,
+        "archive": 142.82019764440636,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 142.82019764440628,
+        "archive": 142.82019764440636,
+        "absolute_difference": 8.526512829121202e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          305,
+          15
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 142.8201976444061,
+        "archive": 142.82019764440628,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          1
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -36.231963601534815,
+        "archive": -36.23196360153482,
+        "absolute_difference": 7.105427357601002e-15,
+        "allowed_difference": 7.105427357601002e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 173.63960235032727,
+        "archive": 173.63960235032744,
+        "absolute_difference": 1.7053025658242404e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 167.2477142066346,
+        "archive": 167.24771420663456,
+        "absolute_difference": 5.684341886080802e-14,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          9
+        ],
+        "quantity": "coordinate_mil",
+        "snapshot": -31.012214950129163,
+        "archive": -31.01221495012916,
+        "absolute_difference": 3.552713678800501e-15,
+        "allowed_difference": 3.552713678800501e-15
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          315,
+          11
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 167.24771420663396,
+        "archive": 167.24771420663427,
+        "absolute_difference": 3.126388037344441e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          373,
+          3
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 132.94598656422482,
+        "archive": 132.94598656422426,
+        "absolute_difference": 5.684341886080801e-13,
+        "allowed_difference": 1e-10
+      },
+      {
+        "type": "POURED",
+        "id": "[\"POURED\",\"ba72da6155a688cf\"]",
+        "field": [
+          "pourFill",
+          0,
+          "path",
+          373,
+          7
+        ],
+        "quantity": "arc_angle_degrees",
+        "snapshot": 60.25727876852625,
+        "archive": 60.2572787685267,
+        "absolute_difference": 4.547473508864641e-13,
+        "allowed_difference": 1e-10
+      }
+    ],
+    "numeric_representation_summary": {
+      "count": 126,
+      "coordinate_max_difference_mil": 1.4210854715202004e-14,
+      "arc_angle_max_difference_degrees": 1.6484591469634324e-12
+    },
+    "scope": "Only derived POURED recognized path numeric tokens permit explicitly reported coordinate differences of at most one ULP or ARC-angle differences at most 1e-10 degrees. Fill IDs, fields, topology, command order and stroke widths remain exact. Authored POUR definition/path/net/layer/rules and all physical geometry records remain exact. Cache comparison is not repour, DRC or actual-CAM copper proof."
+  },
+  "footprint_scope_note": "Footprint PAD/FILL/POLY/etc bodies, mask/paste expansions, pad numbers and ATTR records are compared exactly. Editor-generated footprint layer tables, board stack/rules and editor settings are not footprint geometry; board-owned rules/stack are separately checked on PCB.",
+  "pcb": {
+    "snapshot": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+      "sha256": "2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e",
+      "document_uuid": "4e1671d0644295dd",
+      "merge": {
+        "document_segments": 1,
+        "raw_records": 5696
+      },
+      "headers": [
+        {
+          "docType": "PCB",
+          "client": "276fff31462060d0",
+          "uuid": "4e1671d0644295dd",
+          "updateTime": 1794804281105,
+          "version": "1794804281105"
+        }
+      ]
+    },
+    "archive_document_segments": [
+      {
+        "docType": "PCB",
+        "client": "a86e0908cee19239",
+        "uuid": "4e1671d0644295dd",
+        "updateTime": 1794804265770,
+        "version": "1794804265770",
+        "editVersion": "4.1.93",
+        "user": {
+          "uuid": "175d2d18d70648ef8166cb54164640c2",
+          "nickname": "xiaobaoaaaaaa",
+          "username": "xiaobaoaaaaaa",
+          "avatar": "/image/avatar-default.png"
+        }
+      }
+    ],
+    "geometry_network_status": "PASS",
+    "rules_status": "PASS_WITH_EXPLICIT_DEFAULT_REPRESENTATION_DIFFERENCES",
+    "layer_function_status": "PASS",
+    "compared_snapshot_geometry_records": {
+      "ATTR": 721,
+      "COMPONENT": 236,
+      "LINE": 2779,
+      "NET": 157,
+      "PAD": 4,
+      "PAD_NET": 803,
+      "PANELIZE": 1,
+      "POLY": 5,
+      "POUR": 2,
+      "REGION": 25,
+      "VIA": 647
+    },
+    "compared_archive_geometry_records": {
+      "ATTR": 721,
+      "COMPONENT": 236,
+      "LINE": 2779,
+      "NET": 157,
+      "PAD": 4,
+      "PAD_NET": 803,
+      "PANELIZE": 1,
+      "POLY": 5,
+      "POUR": 2,
+      "REGION": 25,
+      "VIA": 647
+    },
+    "compared_rule_records": 182,
+    "component_count": 236
+  },
+  "physical_stack": {
+    "status": "SNAPSHOT_MATCH_ONLY",
+    "raw_thickness_unit": "mil; multiplied by0.0254 only for human-readable summaries, never for comparison",
+    "snapshot": {
+      "physical_record_count": 13,
+      "records": [
+        {
+          "layer_id": 3,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 7,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 2,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 5,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 3,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 1,
+          "material": "Outer layer thickness 1oz",
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1000,
+          "thickness_mm": 0.035001199999999996
+        },
+        {
+          "layer_id": 361,
+          "material": "7628 RC49% 8.6mil",
+          "thickness": 8.283,
+          "permittivity": 4.4,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001,
+          "thickness_mm": 0.21038819999999997
+        },
+        {
+          "layer_id": 15,
+          "material": "Inner layer thickness",
+          "thickness": 0.598,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1002,
+          "thickness_mm": 0.015189199999999998
+        },
+        {
+          "layer_id": 362,
+          "material": "1.1mm H/HOZ Copper",
+          "thickness": 41.929,
+          "permittivity": 4.43,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1003,
+          "thickness_mm": 1.0649966
+        },
+        {
+          "layer_id": 16,
+          "material": "Inner layer thickness",
+          "thickness": 0.598,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1004,
+          "thickness_mm": 0.015189199999999998
+        },
+        {
+          "layer_id": 363,
+          "material": "7628 RC49% 8.6mil",
+          "thickness": 8.283,
+          "permittivity": 4.4,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1005,
+          "thickness_mm": 0.21038819999999997
+        },
+        {
+          "layer_id": 2,
+          "material": "Outer layer thickness 1oz",
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 9000,
+          "thickness_mm": 0.035001199999999996
+        },
+        {
+          "layer_id": 6,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10000,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 8,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10001,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 4,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10002,
+          "thickness_mm": 0.0
+        }
+      ],
+      "active_copper_layers": [
+        1,
+        2,
+        15,
+        16
+      ],
+      "active_copper_without_physical_record": [],
+      "total_including_mask_mm": 1.5861538,
+      "duplicate_zindices": []
+    },
+    "archive": {
+      "physical_record_count": 13,
+      "records": [
+        {
+          "layer_id": 3,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 7,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 2,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 5,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 3,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 1,
+          "material": "Outer layer thickness 1oz",
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1000,
+          "thickness_mm": 0.035001199999999996
+        },
+        {
+          "layer_id": 361,
+          "material": "7628 RC49% 8.6mil",
+          "thickness": 8.283,
+          "permittivity": 4.4,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1001,
+          "thickness_mm": 0.21038819999999997
+        },
+        {
+          "layer_id": 2,
+          "material": "Outer layer thickness 1oz",
+          "thickness": 1.378,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 9000,
+          "thickness_mm": 0.035001199999999996
+        },
+        {
+          "layer_id": 6,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10000,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 8,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10001,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 4,
+          "material": "",
+          "thickness": 0,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 10002,
+          "thickness_mm": 0.0
+        },
+        {
+          "layer_id": 15,
+          "material": "Inner layer thickness",
+          "thickness": 0.598,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1002,
+          "thickness_mm": 0.015189199999999998
+        },
+        {
+          "layer_id": 362,
+          "material": "1.1mm H/HOZ Copper",
+          "thickness": 41.929,
+          "permittivity": 4.43,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1003,
+          "thickness_mm": 1.0649966
+        },
+        {
+          "layer_id": 16,
+          "material": "Inner layer thickness",
+          "thickness": 0.598,
+          "permittivity": 0,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1004,
+          "thickness_mm": 0.015189199999999998
+        },
+        {
+          "layer_id": 363,
+          "material": "7628 RC49% 8.6mil",
+          "thickness": 8.283,
+          "permittivity": 4.4,
+          "lossTangent": 0,
+          "isKeepIsland": true,
+          "zIndex": 1005,
+          "thickness_mm": 0.21038819999999997
+        }
+      ],
+      "active_copper_layers": [
+        1,
+        2,
+        15,
+        16
+      ],
+      "active_copper_without_physical_record": [],
+      "total_including_mask_mm": 1.5861538,
+      "duplicate_zindices": []
+    },
+    "differences": [],
+    "runtime_only_physical_layer_ids": [],
+    "substrate_layer_differences": [],
+    "archive_enabled_copper_layer_count": 4,
+    "caution": "Enabled copper layers do not prove a complete physical stack. Runtime-added/missing stack records are displayed, never normalized into PASS. No claim that the summed default thickness is the intended1.6mm manufacturer stack."
+  },
+  "footprints": {
+    "U101": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/U101.efoo",
+        "sha256": "f67ad22b1e05160b56747c9443b492a1f37c2f65397d759b7d8c39973f889cca",
+        "document_uuid": "0d1eb426f50706ec",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 207
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "f122ebed8b161be0",
+            "uuid": "0d1eb426f50706ec",
+            "updateTime": 1794762727449,
+            "version": "1794762727449"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "05017d0e4046185a",
+        "footprint_uuid": "0d1eb426f50706ec"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 35,
+        "NET": 1,
+        "PAD": 17,
+        "POLY": 11
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 35,
+        "NET": 1,
+        "PAD": 17,
+        "POLY": 11
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 7,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "U802": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/U802.efoo",
+        "sha256": "de2ad1cfc2644b8f17a044dee28e6d5c9aad81d0c5d7c68fdc8af95fd8118271",
+        "document_uuid": "fc86450018386de5",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 210
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "a8a53c89b8953220",
+            "uuid": "fc86450018386de5",
+            "updateTime": 1794762696602,
+            "version": "1794762696602"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "21848786aabdad88",
+        "footprint_uuid": "fc86450018386de5"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 38,
+        "NET": 1,
+        "PAD": 17,
+        "POLY": 11
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 38,
+        "NET": 1,
+        "PAD": 17,
+        "POLY": 11
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 6,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "U203": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/U203.efoo",
+        "sha256": "53b679010aced4d0f4c3e0d1b3d6379ee3dad1fa9eef74b66d683f253b95e695",
+        "document_uuid": "ce2d18363338ec62",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 180
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "179c822e9a61cf4d",
+            "uuid": "ce2d18363338ec62",
+            "updateTime": 1794762698415,
+            "version": "1794762698415"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "fcdfea8fb6eb5dfa",
+        "footprint_uuid": "ce2d18363338ec62"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 20,
+        "NET": 1,
+        "PAD": 9,
+        "POLY": 7
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 20,
+        "NET": 1,
+        "PAD": 9,
+        "POLY": 7
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 5,
+        "LAYER": 20,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "U301": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/U301.efoo",
+        "sha256": "ba741e446223b7abdc670692962a8ea97176d015dcc1a6763ba1141237daf173",
+        "document_uuid": "a6b09743ec38c8ce",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 268
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "cdeb96ffc2e8673b",
+            "uuid": "a6b09743ec38c8ce",
+            "updateTime": 1794762145629,
+            "version": "1794762145629"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "ff8ffbdbac2e358a",
+        "footprint_uuid": "a6b09743ec38c8ce"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 52,
+        "NET": 1,
+        "PAD": 49,
+        "POLY": 23
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 52,
+        "NET": 1,
+        "PAD": 49,
+        "POLY": 23
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 8,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "U803": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/U803.efoo",
+        "sha256": "83b5b4829470bb9f74054c5e6d3b60d875b76cb73de6cacfc528d576ed56773b",
+        "document_uuid": "c0fd95ea5e173cb2",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 189
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "ab8e312395806e18",
+            "uuid": "c0fd95ea5e173cb2",
+            "updateTime": 1794762147568,
+            "version": "1794762147568"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "0733e2265846157d",
+        "footprint_uuid": "c0fd95ea5e173cb2"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 22,
+        "NET": 1,
+        "PAD": 10,
+        "POLY": 13
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 22,
+        "NET": 1,
+        "PAD": 10,
+        "POLY": 13
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 6,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "J501": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/J501.efoo",
+        "sha256": "19ca5cbba7bebd719508b3119abf8fba54927d18fca94d07c42fe6c0c036ee2f",
+        "document_uuid": "9112c02fbd7c37d6",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 207
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "2bb4eaee6e971613",
+            "uuid": "9112c02fbd7c37d6",
+            "updateTime": 1794763076504,
+            "version": "1794763076504"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "f251ef93c41d5e56",
+        "footprint_uuid": "9112c02fbd7c37d6"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 35,
+        "NET": 1,
+        "PAD": 20,
+        "POLY": 8
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 35,
+        "NET": 1,
+        "PAD": 20,
+        "POLY": 8
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 11,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "SW301": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/SW301.efoo",
+        "sha256": "cbe1ae085cda7f270c6fafda5411544a5879b86c3be5c69ce9a1c26a23f4bf3d",
+        "document_uuid": "631c54e4e289a931",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 164
+        },
+        "headers": [
+          {
+            "docType": "PCB",
+            "client": "0692c799f5255a04",
+            "uuid": "631c54e4e289a931",
+            "updateTime": 1794762119969,
+            "version": "1794762119969"
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "e60967ab0a39ddbd",
+        "footprint_uuid": "631c54e4e289a931"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 9,
+        "NET": 1,
+        "PAD": 4,
+        "POLY": 7
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 9,
+        "NET": 1,
+        "PAD": 4,
+        "POLY": 7
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "D3_ATTRIBUTE": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "PREFERENCE": 1,
+        "PRIMITIVE": 50,
+        "RULE": 14,
+        "RULE_SELECTOR": 1,
+        "RULE_TEMPLATE": 1,
+        "SILK_OPTS": 2
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 5,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    },
+    "F501": {
+      "status": "PASS",
+      "snapshot": {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/F501.efoo",
+        "sha256": "bfbe8743328b9f6fd24cea34f6c30555c644d21198bbf30726925a52bc933bd6",
+        "document_uuid": "1818bd291c356f02",
+        "merge": {
+          "document_segments": 1,
+          "raw_records": 58
+        },
+        "headers": [
+          {
+            "docType": "FOOTPRINT",
+            "client": "a86e0908cee19239",
+            "uuid": "1818bd291c356f02",
+            "updateTime": 1794801221767,
+            "version": "1794801221767",
+            "editVersion": "4.1.93",
+            "user": {
+              "uuid": "175d2d18d70648ef8166cb54164640c2",
+              "nickname": "xiaobaoaaaaaa",
+              "username": "xiaobaoaaaaaa",
+              "avatar": "/image/avatar-default.png"
+            }
+          }
+        ]
+      },
+      "pcb_binding": {
+        "component_id": "de628933e5ade04e",
+        "footprint_uuid": "1818bd291c356f02"
+      },
+      "compared_snapshot_records": {
+        "ATTR": 2,
+        "FILL": 5,
+        "NET": 1,
+        "PAD": 2,
+        "POLY": 9
+      },
+      "compared_archive_records": {
+        "ATTR": 2,
+        "FILL": 5,
+        "NET": 1,
+        "PAD": 2,
+        "POLY": 9
+      },
+      "excluded_snapshot_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 6,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "excluded_archive_records": {
+        "ACTIVE_LAYER": 1,
+        "CANVAS": 1,
+        "ELE_PLACEHOLDER": 6,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
+      },
+      "differences": []
+    }
+  },
+  "errors": []
+}

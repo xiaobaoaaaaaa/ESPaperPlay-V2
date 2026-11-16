@@ -1,0 +1,234 @@
+{
+  "status": "PASS_ARCHIVE_COHERENCE_SELF_TESTS",
+  "count": 26,
+  "cases": [
+    {
+      "name": "Exact geometry and associated derived-cache records match",
+      "pass": true,
+      "expected_failure": false,
+      "actual_status": "GEOMETRY_RULES_STACK_SNAPSHOT_MATCH",
+      "error_scopes": []
+    },
+    {
+      "name": "Snapshots before repour may both omit derived-cache records",
+      "pass": true,
+      "expected_failure": false,
+      "actual_status": "GEOMETRY_RULES_STACK_SNAPSHOT_MATCH",
+      "error_scopes": []
+    },
+    {
+      "name": "Changed computed-cache payload remains a reported mismatch",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "An orphan derived cache cannot reference a missing POUR",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "A cache missing from only one side is not silently discarded",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "POUR network definitions remain exact",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "POUR boundary coordinates remain exact",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "No component-angle normalizer is introduced",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "A 0.001-degree component change fails",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "A 0.001-unit component coordinate change fails",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "Component attribute changes fail",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "An extra microscopic LINE is still a real record mismatch",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "A missing microscopic LINE remains a mismatch",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "A 0.001-unit LINE endpoint change fails",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "A LINE network change fails",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    },
+    {
+      "name": "Unknown cache-like record types remain unclassified failures",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb"
+      ]
+    },
+    {
+      "name": "One ULP derived-cache coordinate difference is explicitly reported",
+      "pass": true,
+      "expected_failure": false,
+      "actual_status": "GEOMETRY_RULES_STACK_SNAPSHOT_MATCH",
+      "error_scopes": []
+    },
+    {
+      "name": "Tiny derived-cache ARC angle representation difference is explicitly reported",
+      "pass": true,
+      "expected_failure": false,
+      "actual_status": "GEOMETRY_RULES_STACK_SNAPSHOT_MATCH",
+      "error_scopes": []
+    },
+    {
+      "name": "Two ULP cache coordinate change is rejected",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "A 1e-9 mil cache coordinate change is rejected",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "A 0.001-degree cache ARC change is rejected",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "Cache stroke width remains exact",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "Cache fill IDs remain exact",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "Cache path command changes remain exact",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "Cache fill presence remains exact",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "derived_pour_cache"
+      ]
+    },
+    {
+      "name": "Authored POUR coordinate one ULP change still fails",
+      "pass": true,
+      "expected_failure": true,
+      "actual_status": "FAIL",
+      "error_scopes": [
+        "pcb_geometry_network"
+      ]
+    }
+  ],
+  "checker_sha256": "cd2c7616933b743dcef62bacea1365fa0496271dbf4b749646181af00ed7a096",
+  "scope": "Synthetic native-record and archive comparison only; not PCB geometry, DRC or CAM validation."
+}

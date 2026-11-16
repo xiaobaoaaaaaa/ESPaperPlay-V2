@@ -7,9 +7,11 @@ means a critical mismatch or malformed input. This is not a DRC/CAM certificate.
 """
 import argparse
 import collections
+import copy
 import hashlib
 import io
 import json
+import math
 import zipfile
 from pathlib import Path
 
@@ -22,6 +24,7 @@ GEOMETRY = {
     "CONSTRAINT", "DIFF_PAIR", "EQ_LEN_GRP", "PAD_PAIR", "PANELIZE",
 }
 RULES = {"RULE", "RULE_SELECTOR", "RULE_TEMPLATE"}
+DERIVED_CACHE_TYPES = {"POURED"}
 EDITOR_ONLY = {
     "CANVAS": "Editor viewport, grid and editing origin preferences.",
     "ACTIVE_LAYER": "Currently selected editor layer.",
@@ -145,6 +148,109 @@ def diff_records(expected, actual):
     return result
 
 
+def cache_path_roles(path):
+    """Only the observed native x/y, L x/y, ARC angle/x/y path grammar."""
+    if not isinstance(path, list) or len(path) < 2:
+        return None
+    roles = {0: "coordinate_mil", 1: "coordinate_mil"}
+    i = 2
+    while i < len(path):
+        if path[i] == "L" and i + 2 < len(path):
+            roles.update({i + 1: "coordinate_mil", i + 2: "coordinate_mil"})
+            i += 3
+        elif path[i] == "ARC" and i + 3 < len(path):
+            roles.update({i + 1: "arc_angle_degrees", i + 2: "coordinate_mil",
+                          i + 3: "coordinate_mil"})
+            i += 4
+        else:
+            return None
+    if any(isinstance(path[j], bool) or not isinstance(path[j], (int, float))
+           or not math.isfinite(path[j]) for j in roles):
+        return None
+    return roles
+
+
+def cache_numeric_projection(expected, actual):
+    """Return a comparison-only copy, with every accepted raw delta reported.
+
+    No authored geometry uses this: only numeric tokens in recognized POURED
+    derived-fill paths. Field sets, IDs, topology, command order, stroke widths,
+    and all other values remain exact. No coordinate decimal rounding occurs.
+    """
+    projected, accepted = copy.deepcopy(actual), []
+    for key in expected.keys() & actual.keys():
+        left, right = expected[key], actual[key]
+        if not isinstance(left, dict) or not isinstance(right, dict):
+            continue
+        a, b = left.get("pourFill"), right.get("pourFill")
+        if not isinstance(a, list) or not isinstance(b, list) or len(a) != len(b):
+            continue
+        for fi, (lf, rf) in enumerate(zip(a, b)):
+            if not isinstance(lf, dict) or not isinstance(rf, dict):
+                continue
+            lp, rp = lf.get("path"), rf.get("path")
+            if not isinstance(lp, list) or not isinstance(rp, list) or len(lp) != len(rp):
+                continue
+            for pi, (lpath, rpath) in enumerate(zip(lp, rp)):
+                roles = cache_path_roles(lpath)
+                if roles is None or roles != cache_path_roles(rpath):
+                    continue
+                # Command positions and their exact spelling must also agree.
+                if any(not same(v, rpath[i]) for i, v in enumerate(lpath) if i not in roles):
+                    continue
+                for ti, role in roles.items():
+                    x, y = lpath[ti], rpath[ti]
+                    if same(x, y):
+                        continue
+                    delta = abs(x - y)
+                    # ULP measured at the smaller-magnitude endpoint prevents
+                    # a binade boundary from permitting a two-step change.
+                    bound = 1e-10 if role == "arc_angle_degrees" else min(math.ulp(x), math.ulp(y))
+                    if delta <= bound:
+                        projected[key]["pourFill"][fi]["path"][pi][ti] = x
+                        accepted.append({"type": key[0], "id": key[1],
+                                         "field": ["pourFill", fi, "path", pi, ti],
+                                         "quantity": role, "snapshot": x, "archive": y,
+                                         "absolute_difference": delta, "allowed_difference": bound})
+    return projected, accepted
+
+
+def derived_pour_cache_review(source, actual):
+    """Classify derived caches without relaxing any authored POUR definition."""
+    sources = {"snapshot": selected(source, DERIVED_CACHE_TYPES),
+               "archive": selected(actual, DERIVED_CACHE_TYPES)}
+    problems, rows = [], []
+    for side, records_by_id in sources.items():
+        parent = source if side == "snapshot" else actual
+        for (kind, ident), body in sorted(records_by_id.items(), key=lambda item: sort_key(item[0])):
+            try:
+                key = json.loads(ident)
+            except (ValueError, TypeError):
+                key = None
+            valid = (isinstance(key, list) and len(key) == 2 and key[0] == "POURED"
+                     and isinstance(key[1], str) and ("POUR", key[1]) in parent
+                     and isinstance(body, dict))
+            if not valid:
+                problems.append({"side": side, "type": kind, "id": ident, "error": "INVALID_OR_ORPHAN_DERIVED_POUR_CACHE"})
+            rows.append({"side": side, "type": kind, "id": ident,
+                         "parent_POUR_id": key[1] if valid else None,
+                         "body_sha256": sha256(json.dumps(body, sort_keys=True, separators=(",", ":")).encode()),
+                         "body_keys": sorted(body) if isinstance(body, dict) else None})
+    projected, accepted = cache_numeric_projection(sources["snapshot"], sources["archive"])
+    differences = diff_records(sources["snapshot"], projected)
+    return {"status": "FAIL" if differences or problems else
+                      "PASS_CACHE_WITH_EXPLICIT_NUMERIC_REPRESENTATION_DIFFERENCES" if accepted else
+                      "PASS_EXACT_CACHE_SNAPSHOT_MATCH",
+            "counts": {side: len(records_by_id) for side, records_by_id in sources.items()},
+            "records": rows, "differences": differences, "validation_errors": problems,
+            "raw_numeric_representation_differences": accepted,
+            "numeric_representation_summary": {
+                "count": len(accepted),
+                "coordinate_max_difference_mil": max((r["absolute_difference"] for r in accepted if r["quantity"] == "coordinate_mil"), default=0),
+                "arc_angle_max_difference_degrees": max((r["absolute_difference"] for r in accepted if r["quantity"] == "arc_angle_degrees"), default=0)},
+            "scope": "Only derived POURED recognized path numeric tokens permit explicitly reported coordinate differences of at most one ULP or ARC-angle differences at most 1e-10 degrees. Fill IDs, fields, topology, command order and stroke widths remain exact. Authored POUR definition/path/net/layer/rules and all physical geometry records remain exact. Cache comparison is not repour, DRC or actual-CAM copper proof."}
+
+
 def counts(data):
     return dict(sorted(collections.Counter(k[0] for k in data).items()))
 
@@ -216,11 +322,15 @@ def check(directory, archive=None):
     if actual is None or {h.get("docType") for h in headers[uid]} != {"PCB"}:
         raise ValueError(f"PCB {uid} absent or has unexpected document type in archive")
     errors, defaults = [], []
-    known = GEOMETRY | RULES | set(EDITOR_ONLY) | {"LAYER", "LAYER_PHYS"}
+    known = GEOMETRY | RULES | set(EDITOR_ONLY) | DERIVED_CACHE_TYPES | {"LAYER", "LAYER_PHYS"}
     unknown = sorted({k[0] for k in source.keys() | actual.keys()} - known)
     if unknown:
         errors.append({"scope": "pcb", "unclassified_record_types": unknown})
     geometry_diff = diff_records(selected(source, GEOMETRY), selected(actual, GEOMETRY))
+    cache_review = derived_pour_cache_review(source, actual)
+    if cache_review["status"] == "FAIL":
+        errors.append({"scope": "derived_pour_cache", "differences": cache_review["differences"],
+                       "validation_errors": cache_review["validation_errors"]})
     layer_diff = diff_records(layer_projection(source), layer_projection(actual))
     rule_source, rule_actual = selected(source, RULES), selected(actual, RULES)
     # Two exact, observed runtime/archive defaults. No generic rule dropping.
@@ -285,12 +395,13 @@ def check(directory, archive=None):
         "normalization": {
             "record_identity": "(type,id); no geometry IDs are remapped.",
             "ticket_client": "Highest ticket; equal ticket chooses lexicographically smaller DOCHEAD.client; equal ticket/client last record wins; tombstones applied.",
-            "numeric": "Exact numeric equality only (1 equals1.0); boolean differs from number; no coordinate tolerance, rounding, or unit conversion in comparison.",
+            "numeric": "Authored geometry/rules/stack: exact numeric equality only (1 equals1.0); boolean differs from number; no coordinate tolerance, rounding, or unit conversion. Derived POURED path representation differences are separately bounded and fully reported.",
             "object_order": "JSON object order ignored; list order, null/absent fields, all geometry/attribute bodies retained.",
             "layer_display_fields_excluded": sorted(LAYER_DISPLAY_KEYS),
             "exact_default_representation_differences": defaults,
         },
         "excluded_editor_record_types": EDITOR_ONLY,
+        "derived_pour_cache": cache_review,
         "footprint_scope_note": "Footprint PAD/FILL/POLY/etc bodies, mask/paste expansions, pad numbers and ATTR records are compared exactly. Editor-generated footprint layer tables, board stack/rules and editor settings are not footprint geometry; board-owned rules/stack are separately checked on PCB.",
         "pcb": {"snapshot": snapshot, "archive_document_segments": headers[uid],
                 "geometry_network_status": "FAIL" if geometry_diff else "PASS",

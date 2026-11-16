@@ -1,0 +1,243 @@
+{
+  "type": "same_device_equivalent_channel_permutation",
+  "device": "TMUX1511PW",
+  "direction": "reference_pin_to_native_pin",
+  "permutations": {
+    "U701": {
+      "2": "9",
+      "3": "8",
+      "5": "12",
+      "6": "11",
+      "9": "5",
+      "8": "6",
+      "12": "2",
+      "11": "3"
+    },
+    "U706": {
+      "2": "5",
+      "3": "6",
+      "5": "2",
+      "6": "3"
+    }
+  },
+  "unchanged": "All enables, VDD, GND, NC and all other devices/pins. MCU GPIO, socket assignments and firmware unchanged.",
+  "mapping_changes": [
+    {
+      "ref": "U701",
+      "native_pin": "9",
+      "before": {
+        "reference_pin": "9",
+        "reference_function": "S3_9",
+        "native_pin_name": "S3",
+        "net": "/STORAGE_SD/SD_D0_BUS",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "2",
+        "reference_function": "S1_2",
+        "native_pin_name": "S3",
+        "net": "/STORAGE_SD/SD_CLK_BUS",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U701",
+      "native_pin": "8",
+      "before": {
+        "reference_pin": "8",
+        "reference_function": "D3_8",
+        "native_pin_name": "D3",
+        "net": "SD_CARD_D0",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "3",
+        "reference_function": "D1_3",
+        "native_pin_name": "D3",
+        "net": "SD_CARD_CLK",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U701",
+      "native_pin": "12",
+      "before": {
+        "reference_pin": "12",
+        "reference_function": "S4_12",
+        "native_pin_name": "S4",
+        "net": "/STORAGE_SD/SD_D1_BUS",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "5",
+        "reference_function": "S2_5",
+        "native_pin_name": "S4",
+        "net": "/STORAGE_SD/SD_CMD_BUS",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U701",
+      "native_pin": "11",
+      "before": {
+        "reference_pin": "11",
+        "reference_function": "D4_11",
+        "native_pin_name": "D4",
+        "net": "SD_CARD_D1",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "6",
+        "reference_function": "D2_6",
+        "native_pin_name": "D4",
+        "net": "SD_CARD_CMD",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U701",
+      "native_pin": "5",
+      "before": {
+        "reference_pin": "5",
+        "reference_function": "S2_5",
+        "native_pin_name": "S2",
+        "net": "/STORAGE_SD/SD_CMD_BUS",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "9",
+        "reference_function": "S3_9",
+        "native_pin_name": "S2",
+        "net": "/STORAGE_SD/SD_D0_BUS",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U701",
+      "native_pin": "6",
+      "before": {
+        "reference_pin": "6",
+        "reference_function": "D2_6",
+        "native_pin_name": "D2",
+        "net": "SD_CARD_CMD",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "8",
+        "reference_function": "D3_8",
+        "native_pin_name": "D2",
+        "net": "SD_CARD_D0",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U701",
+      "native_pin": "2",
+      "before": {
+        "reference_pin": "2",
+        "reference_function": "S1_2",
+        "native_pin_name": "S1",
+        "net": "/STORAGE_SD/SD_CLK_BUS",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "12",
+        "reference_function": "S4_12",
+        "native_pin_name": "S1",
+        "net": "/STORAGE_SD/SD_D1_BUS",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U701",
+      "native_pin": "3",
+      "before": {
+        "reference_pin": "3",
+        "reference_function": "D1_3",
+        "native_pin_name": "D1",
+        "net": "SD_CARD_CLK",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "11",
+        "reference_function": "D4_11",
+        "native_pin_name": "D1",
+        "net": "SD_CARD_D1",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U706",
+      "native_pin": "5",
+      "before": {
+        "reference_pin": "5",
+        "reference_function": "S2_5",
+        "native_pin_name": "S2",
+        "net": "/STORAGE_SD/SD_D3_BUS",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "2",
+        "reference_function": "S1_2",
+        "native_pin_name": "S2",
+        "net": "/STORAGE_SD/SD_D2_BUS",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U706",
+      "native_pin": "6",
+      "before": {
+        "reference_pin": "6",
+        "reference_function": "D2_6",
+        "native_pin_name": "D2",
+        "net": "SD_CARD_D3",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "3",
+        "reference_function": "D1_3",
+        "native_pin_name": "D2",
+        "net": "SD_CARD_D2",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U706",
+      "native_pin": "2",
+      "before": {
+        "reference_pin": "2",
+        "reference_function": "S1_2",
+        "native_pin_name": "S1",
+        "net": "/STORAGE_SD/SD_D2_BUS",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "5",
+        "reference_function": "S2_5",
+        "native_pin_name": "S1",
+        "net": "/STORAGE_SD/SD_D3_BUS",
+        "no_connect": false
+      }
+    },
+    {
+      "ref": "U706",
+      "native_pin": "3",
+      "before": {
+        "reference_pin": "3",
+        "reference_function": "D1_3",
+        "native_pin_name": "D1",
+        "net": "SD_CARD_D2",
+        "no_connect": false
+      },
+      "after": {
+        "reference_pin": "6",
+        "reference_function": "D2_6",
+        "native_pin_name": "D1",
+        "net": "SD_CARD_D3",
+        "no_connect": false
+      }
+    }
+  ],
+  "manufacturer_source": "https://www.ti.com/lit/ds/symlink/tmux1511.pdf"
+}

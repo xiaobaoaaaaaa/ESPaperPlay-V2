@@ -1,0 +1,11 @@
+{
+  "status": "PASS_NATIVE_DRC_EXPORTS_EMPTY",
+  "errors": [],
+  "inputs": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/native-board-check.json": "ab5651234e6d6adf542fc246916b0f3c16a22f052197c82268e2eadf1313c253",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/native-schematic-drc.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "limits": [
+    "Read-only export check: a matching same-session native DRC execution and enabled/ignored-check evidence must be retained independently. An empty stale export alone does not prove DRC was rerun."
+  ]
+}

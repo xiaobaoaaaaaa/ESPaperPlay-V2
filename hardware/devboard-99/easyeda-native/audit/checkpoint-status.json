@@ -1,6 +1,6 @@
 {
-  "status": "NATIVE_PCB_LAYOUT_SAVED_STACK_AND_ROUTING_PENDING_NOT_FOR_MANUFACTURING",
-  "date": "2026-11-16T01:39:20.656944+08:00",
+  "status": "NATIVE_ROUTING_VERIFIED_ENGINEERING_REVIEWS_NOT_FOR_MANUFACTURING",
+  "date": "2026-11-16T13:04:24.144354+08:00",
   "project_name": "ESPaperPlay V2 99mm Native",
   "project_uuid": "584d341c900b483c8f51ea584ed7fc13",
   "schematic_uuid": "5bedf48347e90f09",
@@ -14,25 +14,989 @@
   "schematic_native_drc": {
     "passed": true,
     "errors": 0,
-    "warnings": 0
+    "warnings": 0,
+    "evidence": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/native-drc-export-check.json",
+      "sha256": "397d65fafe342266f92951d238f64f0d94c9aecf0fd810c70e450c08bc997f78"
+    }
   },
   "electrical_mapping": "PASS",
   "wire_geometry": "PASS all 12 pages; U301 actual body bounds used",
-  "visual_review": "10 unchanged pages retain prior SVG review; MCU andUSB native rendered-canvas review; complete newSVG export timedout",
-  "pcb_status": "236 native components,803 physical pads,22 ordinary thermal vias,11 local GND tracks,4 mounting holes; no main signal routing or full pours",
-  "archive_sha256": "87dec9097ccc8ed4504f0a9ea351595a5fabddcf5c4f17573e0df96b828511ff",
-  "archive_bytes": 1832874,
-  "next_step": "Resolve native physical stack persistence and manufacturer standard stack, then main routing/pours/silkscreen, then fullDRC/CAM",
-  "bridge_state": "Running; user resumed after reboot.",
-  "archive_coherence": "Schematic PASS; PCB/footprints geometry andrules checked separately withstack discrepancy retained",
+  "visual_review": {
+    "status": "FINAL_LABELS_AND_LEADERS_REVIEWED_LIBRARY_OUTLINE_ITEMS_REMAIN",
+    "evidence": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-visual-review.json",
+      "sha256": "7d2ab3aa5393bf28d39c195ce3c115c7558507dbe2d53e9d1ac21136eefb448c"
+    },
+    "current_cam_sha256": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3",
+    "designators_checked": 236,
+    "designator_findings": 0,
+    "minimum_actual_ink_height_mm": 0.8383395855720011,
+    "library_outline_mask_overlap_refs": [
+      "C501",
+      "C502",
+      "C607",
+      "C609",
+      "C703",
+      "C705",
+      "D501",
+      "J206",
+      "J302",
+      "J701",
+      "R215",
+      "R226",
+      "R503",
+      "R504",
+      "R705",
+      "R706",
+      "R810",
+      "U203",
+      "U301"
+    ],
+    "additional_orientation_review": [
+      "D501 cathode stripe",
+      "U203 pin1 ring/exposed hole",
+      "J601/J406 pin1 identification against assembly/source"
+    ],
+    "manufacturing_release": false
+  },
+  "pcb_status": "Complete native routing and two inner GND planes; same-freeze native DRC has zero connection/other errors, CAM topology has no opens/shorts and one GND component; engineering and silkscreen review items retained.",
+  "archive_sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c",
+  "archive_bytes": 2019015,
+  "next_step": "Resolve retained manufacturing and assembly review items before prototype submission; retain charging disabled. Perform first-board electrical, thermal and timing validation before enabling charging or declaring the hardware qualified.",
+  "bridge_state": "Historical runtime connection state is not part of the archive validation",
+  "archive_coherence": {
+    "schematic": "PASS",
+    "pcb_footprints_stack": "GEOMETRY_RULES_STACK_SNAPSHOT_MATCH"
+  },
   "blank_legacy_text_records": 9,
   "pcb_native_drc": {
-    "connection_errors": 771,
+    "connection_errors": 0,
     "non_connection_errors": 0,
-    "manufacturing_pass": false
+    "manufacturing_pass": false,
+    "same_freeze_execution_observed": true,
+    "evidence": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/native-board-check.json",
+      "sha256": "ab5651234e6d6adf542fc246916b0f3c16a22f052197c82268e2eadf1313c253"
+    },
+    "enabled_rule_evidence": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/native-board-check.json",
+      "sha256": "ab5651234e6d6adf542fc246916b0f3c16a22f052197c82268e2eadf1313c253"
+    }
   },
-  "native_pcb_net_mapping": "PASS 803 physical pads and792 logical pins",
-  "mechanical_check": "PASS current pads/vias/local tracks vs24 copper keepouts",
-  "special_cam": "PASS153 critical footprint checks;677 generalSMD presence screen;J501 separate PASS",
-  "stack_status": "PENDING: proposed1.6mm reference did not persist; runtime default1.693672mm; archive omits4 runtime physical layer defaults"
+  "native_pcb_net_mapping": {
+    "status": "PASS_PHYSICAL_AND_LOGICAL_PIN_NETS",
+    "physical_pads": 803,
+    "logical_pins": 792,
+    "report": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/physical-pad-net-check.json",
+      "sha256": "e4645fc4a5ca0e53a817056af6323e7f6cb9812a9d69610b0ae8aa068807d456"
+    }
+  },
+  "mechanical_check": {
+    "status": "PASS_SCOPED_ROUTING_BOUNDARIES",
+    "report": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/boundaries.json",
+      "sha256": "d41129724a940b3e9b83a343046edc355ae2fe4122d484be6112ed67e6543ef1"
+    }
+  },
+  "special_cam": {
+    "critical_footprints": "PASS_NATIVE_SPECIAL_FOOTPRINT_ROUTED_CAM",
+    "general_smd": "NO_MISSING_PASTE_FOUND_IN_CHECKED_SCOPE_J501_SEPARATE_REVIEW",
+    "J501": "PASS_J501_ROUTED_CAM"
+  },
+  "stack_status": {
+    "status": "STANDARD_GUI_PRESET_SAVED_REOPENED_AND_ARCHIVED",
+    "preset": "JLC04161H-7628",
+    "nominal_board_mm": 1.6,
+    "physical_records": 13,
+    "cad_record_total_mm": 1.5861538,
+    "evidence": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/stack/gui-stack-reopen-verification.json",
+      "sha256": "32fee9220449c15be71d0f12458f984f509c3f26c0a3870b418ae18285a8f9f0"
+    },
+    "limits": "CAD persistence is proven; actual fabrication thickness/material tolerance and controlled impedance are not qualified"
+  },
+  "routing_verification": {
+    "status": "COMPLETE_GEOMETRY_CHECKS_WITH_RECORDED_ENGINEERING_REVIEWS",
+    "scope": "complete_set",
+    "summary": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/verification-summary.json",
+      "sha256": "4f32882e628c2657adccd1350108aa4e1827ae95e419b330d6fbee06b4fdf466"
+    },
+    "engineering_review_items": [
+      {
+        "job": "critical-routes",
+        "kind": "DOCUMENTED_RETURN_DISTANCE_PREFERENCE",
+        "finding": {
+          "id": "ffe9ee8ae2cc196e",
+          "kind": "via",
+          "ref": null,
+          "pin": null,
+          "actual_routed_outer_layers": [
+            1,
+            2
+          ],
+          "net": "TOUCH_IO_EN",
+          "xy_mm": [
+            49.32068114000005,
+            -44.300800399999986
+          ],
+          "GND_vertical_access": "8fe8f0e0cc4c73a1",
+          "distance_center_mm": 2.5044061270367264,
+          "preferred_le_1mm": false,
+          "pass_le_2mm": false
+        },
+        "interpretation": "This exact touch-isolation select via exceeds the2mm project reference-return target by0.504406mm. Native netlist U202.P10 drives U406 SEL1..4 with10k pulldown and debug header; static/low-repetition use is design intent, not a measured edge-rate or SI guarantee. All7terminals are one actual CAM/source component; the identified GND via has0.942472596mm actual plated-wall contact to each inner GND plane. Retain the raw2.504406127mm measurement,2mm threshold and original nonzero child exit. Classification applies only to this exact static-enable ID/net/location/GND ID/distance and does not cover clocks,data,unknown anchors or any physical/CAM error."
+      },
+      {
+        "job": "critical-routes",
+        "kind": "DOCUMENTED_RETURN_DISTANCE_PREFERENCE",
+        "finding": {
+          "id": "773d5373a5cbe8af",
+          "kind": "via",
+          "ref": null,
+          "pin": null,
+          "actual_routed_outer_layers": [
+            1,
+            2
+          ],
+          "net": "EPD_PAD_SCLK",
+          "xy_mm": [
+            80.53421282000002,
+            -89.84381574000005
+          ],
+          "GND_vertical_access": "a903fd929074af60",
+          "distance_center_mm": 2.2461601204405826,
+          "preferred_le_1mm": false,
+          "pass_le_2mm": false
+        },
+        "interpretation": "Known 2.246160 mm return-access distance exceeds the project's 2 mm routing preference. Physical spacing rules were not relaxed. Same via/ground identity, location and measured distance must remain; changed geometry requires a new review. Actual two-inner-plane contact is checked independently by CAM."
+      },
+      {
+        "job": "reference-planes",
+        "kind": "REPORTED_REFERENCE_PREFERENCE_AND_NUMERICAL_RESIDUES",
+        "physical_findings": [
+          {
+            "classification": "TERMINAL_EXIT_WITHOUT_LOCAL_VERIFIED_RETURN_REVIEW",
+            "unreferenced_centerline_length_mm": 0.48714680288164863,
+            "chain_station_mm": [
+              0.758489905234711,
+              1.2456367081163597
+            ],
+            "gap_path_mm": [
+              [
+                80.75011282,
+                -90.24153383476529
+              ],
+              [
+                80.75011282,
+                -90.05971574
+              ],
+              [
+                80.53421282,
+                -89.84381574
+              ]
+            ],
+            "void_ids": [
+              13570
+            ],
+            "void_bounds_mm": [
+              80.08167,
+              -90.2963575045777,
+              80.98675,
+              -89.39128249542229
+            ],
+            "void_area_mm2": 0.6433697311529694,
+            "actual_holes_in_connected_void": [
+              {
+                "id": "773d5373a5cbe8af_hole",
+                "NPTH": false,
+                "xy_mm": [
+                  80.53421282000004,
+                  -89.84381574000007
+                ]
+              }
+            ],
+            "own_net_plated_access_in_void": [
+              "773d5373a5cbe8af"
+            ],
+            "endpoint_plated_access": [
+              {
+                "id": "773d5373a5cbe8af",
+                "kind": "via",
+                "routed_outer_layers": [
+                  1,
+                  2
+                ],
+                "ref": null,
+                "pin": null
+              }
+            ],
+            "local_GND_return_access": [
+              {
+                "signal_access": "773d5373a5cbe8af",
+                "ground_access": "a903fd929074af60",
+                "ground_access_verified_on_both_inner_planes": true,
+                "distance_center_mm": 2.2461605136855893
+              }
+            ],
+            "both_entry_and_exit_have_positive_area_GND": false,
+            "minimum_tested_connected_GND_window_radius_mm": null,
+            "tested_radii_mm": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              4.0,
+              8.0
+            ],
+            "review_required": true,
+            "net": "EPD_PAD_SCLK",
+            "signal_layer": "F.Cu",
+            "reference_layer": "In1.Cu",
+            "chain_index": 1
+          },
+          {
+            "classification": "TERMINAL_EXIT_WITHOUT_LOCAL_VERIFIED_RETURN_REVIEW",
+            "unreferenced_centerline_length_mm": 0.45253324457770816,
+            "chain_station_mm": [
+              0.0,
+              0.45253324457770816
+            ],
+            "gap_path_mm": [
+              [
+                80.53421282,
+                -89.84381574
+              ],
+              [
+                80.53421282,
+                -89.39128249542229
+              ]
+            ],
+            "void_ids": [
+              13570
+            ],
+            "void_bounds_mm": [
+              80.08167,
+              -90.2963575045777,
+              80.98675,
+              -89.39128249542229
+            ],
+            "void_area_mm2": 0.6433697311529694,
+            "actual_holes_in_connected_void": [
+              {
+                "id": "773d5373a5cbe8af_hole",
+                "NPTH": false,
+                "xy_mm": [
+                  80.53421282000004,
+                  -89.84381574000007
+                ]
+              }
+            ],
+            "own_net_plated_access_in_void": [
+              "773d5373a5cbe8af"
+            ],
+            "endpoint_plated_access": [
+              {
+                "id": "773d5373a5cbe8af",
+                "kind": "via",
+                "routed_outer_layers": [
+                  1,
+                  2
+                ],
+                "ref": null,
+                "pin": null
+              }
+            ],
+            "local_GND_return_access": [
+              {
+                "signal_access": "773d5373a5cbe8af",
+                "ground_access": "a903fd929074af60",
+                "ground_access_verified_on_both_inner_planes": true,
+                "distance_center_mm": 2.2461605136855893
+              }
+            ],
+            "both_entry_and_exit_have_positive_area_GND": false,
+            "minimum_tested_connected_GND_window_radius_mm": null,
+            "tested_radii_mm": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              4.0,
+              8.0
+            ],
+            "review_required": true,
+            "net": "EPD_PAD_SCLK",
+            "signal_layer": "B.Cu",
+            "reference_layer": "In2.Cu",
+            "chain_index": 0
+          }
+        ],
+        "numerical_findings": [
+          {
+            "classification": "CAM_QUANTIZATION_SCALE_REFERENCE_GAP_REVIEW",
+            "unreferenced_centerline_length_mm": 1.8565807005473233e-06,
+            "chain_station_mm": [
+              0.45254275478462935,
+              0.4525446113653298
+            ],
+            "gap_path_mm": [
+              [
+                26.51999699068506,
+                -74.73000370931494
+              ],
+              [
+                26.51999830348586,
+                -74.73000239651414
+              ]
+            ],
+            "void_ids": [
+              4144
+            ],
+            "void_bounds_mm": [
+              25.196278601886533,
+              -76.05254405245488,
+              26.653721398113465,
+              -74.59745594754511
+            ],
+            "void_area_mm2": 1.2529828801021738,
+            "actual_holes_in_connected_void": [
+              {
+                "id": "0c8ce394ba40c78f_hole",
+                "NPTH": false,
+                "xy_mm": [
+                  26.200000939999992,
+                  -75.04999975999996
+                ]
+              },
+              {
+                "id": "d500d30baeca4773_hole",
+                "NPTH": false,
+                "xy_mm": [
+                  25.64999950000001,
+                  -75.60000119999992
+                ]
+              }
+            ],
+            "own_net_plated_access_in_void": [
+              "0c8ce394ba40c78f"
+            ],
+            "endpoint_plated_access": [
+              {
+                "id": "0c8ce394ba40c78f",
+                "kind": "via",
+                "routed_outer_layers": [
+                  1,
+                  2
+                ],
+                "ref": null,
+                "pin": null
+              }
+            ],
+            "local_GND_return_access": [
+              {
+                "signal_access": "0c8ce394ba40c78f",
+                "ground_access": "c3c3c31523011012",
+                "ground_access_verified_on_both_inner_planes": true,
+                "distance_center_mm": 1.2000002400003624
+              }
+            ],
+            "both_entry_and_exit_have_positive_area_GND": false,
+            "minimum_tested_connected_GND_window_radius_mm": null,
+            "tested_radii_mm": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              4.0,
+              8.0
+            ],
+            "review_required": true,
+            "net": "AUDIO_SD_BUF",
+            "signal_layer": "F.Cu",
+            "reference_layer": "In1.Cu",
+            "chain_index": 1
+          },
+          {
+            "classification": "CAM_QUANTIZATION_SCALE_REFERENCE_GAP_REVIEW",
+            "unreferenced_centerline_length_mm": 6.646914130215009e-10,
+            "chain_station_mm": [
+              0.4617950467996223,
+              0.4617950474643138
+            ],
+            "gap_path_mm": [
+              [
+                52.955781820000006,
+                -33.960414866799624
+              ],
+              [
+                52.955781820000006,
+                -33.960414867464316
+              ]
+            ],
+            "void_ids": [
+              11362
+            ],
+            "void_bounds_mm": [
+              52.955549875568785,
+              -33.960532706444866,
+              52.95578272682097,
+              -33.96041440675544
+            ],
+            "void_area_mm2": 1.9051151882635266e-11,
+            "actual_holes_in_connected_void": [],
+            "own_net_plated_access_in_void": [],
+            "endpoint_plated_access": [],
+            "local_GND_return_access": [],
+            "both_entry_and_exit_have_positive_area_GND": true,
+            "minimum_tested_connected_GND_window_radius_mm": 0.25,
+            "tested_radii_mm": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              4.0,
+              8.0
+            ],
+            "review_required": true,
+            "net": "EPD_BUSY",
+            "signal_layer": "B.Cu",
+            "reference_layer": "In2.Cu",
+            "chain_index": 1
+          },
+          {
+            "classification": "CAM_QUANTIZATION_SCALE_REFERENCE_GAP_REVIEW",
+            "unreferenced_centerline_length_mm": 3.4674350501973095e-07,
+            "chain_station_mm": [
+              0.4552204394961663,
+              0.4552207862396713
+            ],
+            "gap_path_mm": [
+              [
+                59.450737079999996,
+                -30.553839439496162
+              ],
+              [
+                59.450737079999996,
+                -30.553839786239667
+              ]
+            ],
+            "void_ids": [
+              11239
+            ],
+            "void_bounds_mm": [
+              58.99820270272796,
+              -30.64409260833734,
+              59.9032784046707,
+              -29.624305833966005
+            ],
+            "void_area_mm2": 0.6441541832340726,
+            "actual_holes_in_connected_void": [
+              {
+                "id": "bce9a8c7dc7ee2fe_hole",
+                "NPTH": false,
+                "xy_mm": [
+                  59.45073708,
+                  -30.098618999999974
+                ]
+              }
+            ],
+            "own_net_plated_access_in_void": [
+              "bce9a8c7dc7ee2fe"
+            ],
+            "endpoint_plated_access": [],
+            "local_GND_return_access": [
+              {
+                "signal_access": "bce9a8c7dc7ee2fe",
+                "ground_access": "df49d87855a6af08",
+                "ground_access_verified_on_both_inner_planes": true,
+                "distance_center_mm": 0.7999936856130543
+              }
+            ],
+            "both_entry_and_exit_have_positive_area_GND": true,
+            "minimum_tested_connected_GND_window_radius_mm": 0.25,
+            "tested_radii_mm": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              4.0,
+              8.0
+            ],
+            "review_required": true,
+            "net": "EPD_RST_N",
+            "signal_layer": "B.Cu",
+            "reference_layer": "In2.Cu",
+            "chain_index": 2
+          },
+          {
+            "classification": "CAM_QUANTIZATION_SCALE_REFERENCE_GAP_REVIEW",
+            "unreferenced_centerline_length_mm": 1.7374596421843093e-07,
+            "chain_station_mm": [
+              0.4530931528439978,
+              0.45309332658996204
+            ],
+            "gap_path_mm": [
+              [
+                19.67961539911482,
+                -70.52038454088519
+              ],
+              [
+                19.679615276257866,
+                -70.52038466374213
+              ]
+            ],
+            "void_ids": [
+              1267
+            ],
+            "void_bounds_mm": [
+              19.54746099428613,
+              -71.4525401280448,
+              20.45253900571387,
+              -69.7474598719552
+            ],
+            "void_area_mm2": 1.2638322605203154,
+            "actual_holes_in_connected_void": [
+              {
+                "id": "91d025f79c674067_hole",
+                "NPTH": false,
+                "xy_mm": [
+                  20.000000639999996,
+                  -71.00000023999999
+                ]
+              },
+              {
+                "id": "de3b28150f6ecb7f_hole",
+                "NPTH": false,
+                "xy_mm": [
+                  20.000000639999996,
+                  -70.19999929999999
+                ]
+              }
+            ],
+            "own_net_plated_access_in_void": [
+              "de3b28150f6ecb7f"
+            ],
+            "endpoint_plated_access": [
+              {
+                "id": "de3b28150f6ecb7f",
+                "kind": "via",
+                "routed_outer_layers": [
+                  1,
+                  2
+                ],
+                "ref": null,
+                "pin": null
+              }
+            ],
+            "local_GND_return_access": [
+              {
+                "signal_access": "de3b28150f6ecb7f",
+                "ground_access": "fef6cf166298ef81",
+                "ground_access_verified_on_both_inner_planes": true,
+                "distance_center_mm": 0.7566365706208691
+              }
+            ],
+            "both_entry_and_exit_have_positive_area_GND": false,
+            "minimum_tested_connected_GND_window_radius_mm": null,
+            "tested_radii_mm": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              4.0,
+              8.0
+            ],
+            "review_required": true,
+            "net": "I2S_WS",
+            "signal_layer": "B.Cu",
+            "reference_layer": "In2.Cu",
+            "chain_index": 0
+          },
+          {
+            "classification": "CAM_QUANTIZATION_SCALE_REFERENCE_GAP_REVIEW",
+            "unreferenced_centerline_length_mm": 3.9209779956195234e-07,
+            "chain_station_mm": [
+              0.46248314766507903,
+              0.46248353976287854
+            ],
+            "gap_path_mm": [
+              [
+                27.487516832334922,
+                -61.14999962
+              ],
+              [
+                27.487516440237123,
+                -61.14999962
+              ]
+            ],
+            "void_ids": [
+              4602
+            ],
+            "void_bounds_mm": [
+              27.487216704786817,
+              -61.15003319748116,
+              27.487534584299492,
+              -61.14944492826514
+            ],
+            "void_area_mm2": 7.155509462946572e-10,
+            "actual_holes_in_connected_void": [],
+            "own_net_plated_access_in_void": [],
+            "endpoint_plated_access": [],
+            "local_GND_return_access": [],
+            "both_entry_and_exit_have_positive_area_GND": true,
+            "minimum_tested_connected_GND_window_radius_mm": 0.25,
+            "tested_radii_mm": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              4.0,
+              8.0
+            ],
+            "review_required": true,
+            "net": "I2S_WS",
+            "signal_layer": "B.Cu",
+            "reference_layer": "In2.Cu",
+            "chain_index": 1
+          },
+          {
+            "classification": "CAM_QUANTIZATION_SCALE_REFERENCE_GAP_REVIEW",
+            "unreferenced_centerline_length_mm": 7.416711937935361e-07,
+            "chain_station_mm": [
+              0.46248195150280574,
+              0.4624826931739996
+            ],
+            "gap_path_mm": [
+              [
+                27.812483131502805,
+                -61.75000096
+              ],
+              [
+                27.812483873174,
+                -61.75000096
+              ]
+            ],
+            "void_ids": [
+              4790
+            ],
+            "void_bounds_mm": [
+              27.812449552837435,
+              -61.750609015131815,
+              27.81281244428348,
+              -61.749937446635094
+            ],
+            "void_area_mm2": 9.325431697949366e-10,
+            "actual_holes_in_connected_void": [],
+            "own_net_plated_access_in_void": [],
+            "endpoint_plated_access": [],
+            "local_GND_return_access": [],
+            "both_entry_and_exit_have_positive_area_GND": true,
+            "minimum_tested_connected_GND_window_radius_mm": 0.25,
+            "tested_radii_mm": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              4.0,
+              8.0
+            ],
+            "review_required": true,
+            "net": "MIC_DATA",
+            "signal_layer": "F.Cu",
+            "reference_layer": "In1.Cu",
+            "chain_index": 2
+          },
+          {
+            "classification": "CAM_QUANTIZATION_SCALE_REFERENCE_GAP_REVIEW",
+            "unreferenced_centerline_length_mm": 7.868577327485582e-07,
+            "chain_station_mm": [
+              0.7775813865628364,
+              0.7775821734205692
+            ],
+            "gap_path_mm": [
+              [
+                59.02822180656283,
+                -5.28999958
+              ],
+              [
+                59.028222593420566,
+                -5.28999958
+              ]
+            ],
+            "void_ids": [
+              11296
+            ],
+            "void_bounds_mm": [
+              58.95044329452844,
+              -5.742539795715654,
+              60.926589270332165,
+              -4.73490020752893
+            ],
+            "void_area_mm2": 1.2976180883121227,
+            "actual_holes_in_connected_void": [
+              {
+                "id": "23d6420b850a0c4f_hole",
+                "NPTH": false,
+                "xy_mm": [
+                  59.50000037999995,
+                  -5.289999579999995
+                ]
+              },
+              {
+                "id": "95a7da85f9bfac5a_hole",
+                "NPTH": false,
+                "xy_mm": [
+                  60.37703697999995,
+                  -5.187439459999993
+                ]
+              }
+            ],
+            "own_net_plated_access_in_void": [
+              "23d6420b850a0c4f"
+            ],
+            "endpoint_plated_access": [],
+            "local_GND_return_access": [
+              {
+                "signal_access": "23d6420b850a0c4f",
+                "ground_access": "39cf6241f106f798",
+                "ground_access_verified_on_both_inner_planes": true,
+                "distance_center_mm": 0.8237721568494061
+              }
+            ],
+            "both_entry_and_exit_have_positive_area_GND": true,
+            "minimum_tested_connected_GND_window_radius_mm": 0.25,
+            "tested_radii_mm": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              4.0,
+              8.0
+            ],
+            "review_required": true,
+            "net": "SPEAKER_DATA",
+            "signal_layer": "F.Cu",
+            "reference_layer": "In1.Cu",
+            "chain_index": 2
+          }
+        ],
+        "interpretation": "Original actual-CAM measurements and nonzero checker exit retained. This classification is not a claim that reference copper covers these intervals."
+      },
+      {
+        "job": "power-paths",
+        "kind": "PROJECT_POWER_WIDTH_NECK_TARGETS",
+        "findings": [
+          {
+            "path_id": "usb_before_ptc",
+            "net": "USB_VBUS",
+            "selected_path_width_min_mm": 0.26924,
+            "trunk_min_mm": 0.8,
+            "cumulative_neck_mm": 9.931169614676204,
+            "neck_budget_mm": 4,
+            "trace_R20_lower_bound_mohm": 15.799913516845836,
+            "trace_R20_review_limit_mohm": 30
+          },
+          {
+            "path_id": "sys_main_converter_feed",
+            "net": "SYS",
+            "selected_path_width_min_mm": 0.39999919999999994,
+            "trunk_min_mm": 1.0,
+            "cumulative_neck_mm": 4.8073067313729805,
+            "neck_budget_mm": 3,
+            "trace_R20_lower_bound_mohm": 7.390259939017652,
+            "trace_R20_review_limit_mohm": 40
+          },
+          {
+            "path_id": "main_mcu_supply",
+            "net": "3V3_AON",
+            "selected_path_width_min_mm": 0.719328,
+            "trunk_min_mm": 0.8,
+            "cumulative_neck_mm": 43.63886231256082,
+            "neck_budget_mm": 4,
+            "trace_R20_lower_bound_mohm": 29.764776980236284,
+            "trace_R20_review_limit_mohm": 80
+          },
+          {
+            "path_id": "main_epd_switch_feed",
+            "net": "3V3_AON",
+            "selected_path_width_min_mm": 0.5389879999999999,
+            "trunk_min_mm": 0.6,
+            "cumulative_neck_mm": 35.01978780192416,
+            "neck_budget_mm": 4,
+            "trace_R20_lower_bound_mohm": 57.87289924250005,
+            "trace_R20_review_limit_mohm": 100
+          },
+          {
+            "path_id": "epd_output_to_boost_cap",
+            "net": "EPD_3V3",
+            "selected_path_width_min_mm": 0.46999906,
+            "trunk_min_mm": 0.6,
+            "cumulative_neck_mm": 3.1473272630287936,
+            "neck_budget_mm": 3,
+            "trace_R20_lower_bound_mohm": 17.78648483807958,
+            "trace_R20_review_limit_mohm": 50
+          },
+          {
+            "path_id": "usb_a9_to_ptc",
+            "net": "USB_VBUS",
+            "selected_path_width_min_mm": 0.26924,
+            "trunk_min_mm": 0.8,
+            "cumulative_neck_mm": 11.758594050000088,
+            "neck_budget_mm": 4,
+            "trace_R20_lower_bound_mohm": 17.619927996338212,
+            "trace_R20_review_limit_mohm": 30
+          },
+          {
+            "path_id": "usb_b4_to_ptc",
+            "net": "USB_VBUS",
+            "selected_path_width_min_mm": 0.26924,
+            "trunk_min_mm": 0.8,
+            "cumulative_neck_mm": 11.758594050000088,
+            "neck_budget_mm": 4,
+            "trace_R20_lower_bound_mohm": 17.619927996338212,
+            "trace_R20_review_limit_mohm": 30
+          },
+          {
+            "path_id": "usb_b9_to_ptc",
+            "net": "USB_VBUS",
+            "selected_path_width_min_mm": 0.26924,
+            "trunk_min_mm": 0.8,
+            "cumulative_neck_mm": 9.931169614676204,
+            "neck_budget_mm": 4,
+            "trace_R20_lower_bound_mohm": 15.799913516845836,
+            "trace_R20_review_limit_mohm": 30
+          }
+        ],
+        "interpretation": "Project width/neck targets, not manufacturing spacing limits. Trace-only R20 does not establish ampacity or temperature."
+      },
+      {
+        "job": "i2s-paths",
+        "kind": "I2S_PROJECT_LENGTH_REFERENCE",
+        "actual_mm": {
+          "mic_clock_vs_ws_mm": 11.219236504395525,
+          "amp_max_clock_ws_data_mm": 20.580224265316957
+        },
+        "reference_mm": 10,
+        "interpretation": "Geometric length reference, not fabricated timing or SI qualification."
+      }
+    ],
+    "raw_nonzero_jobs": [
+      {
+        "name": "critical-routes",
+        "returncode": 1,
+        "reported_status": "FAIL",
+        "report": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/critical-routes.json"
+      },
+      {
+        "name": "reference-planes",
+        "returncode": 1,
+        "reported_status": "GEOMETRIC_REFERENCE_REVIEW_REQUIRED",
+        "report": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/reference-planes.json"
+      }
+    ],
+    "job_count": 21,
+    "changed_inputs": [],
+    "unresolved_check_failures": [],
+    "j501_negative_tests": {
+      "current_CAM_rechecked": true,
+      "repeat_negative_tests_skipped": true,
+      "previous_passed_cases": 13,
+      "history_report": "audit/pcb-routing/verification-history/before-archive-cleanup/j501-cam-review.json"
+    }
+  },
+  "final_input_hashes": {
+    "source": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+      "sha256": "2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e"
+    },
+    "state": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json",
+      "sha256": "29960dc357eca29afd5e763de61bfc5078ce66ff7e5b44f96104f98a6ff74d5a"
+    },
+    "archive": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
+      "sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c"
+    },
+    "cam": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip",
+      "sha256": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3"
+    },
+    "native_board_check": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/native-board-check.json",
+      "sha256": "ab5651234e6d6adf542fc246916b0f3c16a22f052197c82268e2eadf1313c253"
+    }
+  },
+  "charging": {
+    "default_enabled": false,
+    "R108": "DNP",
+    "J105": "OPEN",
+    "conditions": "Battery/NTC assumptions, temperature cutoffs, input limiting, intended~0.7A charging and thermal testing remain required"
+  },
+  "manufacturing_release": false,
+  "historical_generator_property": {
+    "key": "DesignStage",
+    "retained_value": "SCHEMATIC_VERIFIED_PCB_PENDING",
+    "current_status_authority": "audit/checkpoint-status.json; no batch property rewrite"
+  },
+  "additional_manual_review_evidence": [
+    {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/spare-gpio-return-review.json",
+      "sha256": "580536b77ceecca3b236cc5608fdead4a86bdc0abe2f26b0874bf4dd5ebe42f3"
+    },
+    {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/archive-cleanup-proof.json",
+      "sha256": "b537955bcad88506c7ee0d51f5c85c8fa246bfcd3b0518e58cdee06e3312d4a6"
+    },
+    {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-review.json",
+      "sha256": "9c8359d7627fc42a613cd7654936becf9dc63bd6a4d240a285dd5922aa0faf31"
+    },
+    {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/final-leaders-and-copper-review.json",
+      "sha256": "83c3674c05877ae429e5efbe195aaa53a3bd95a818b36f736e33450bd79bce58"
+    },
+    {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/f501-library-silk-persisted-check.json",
+      "sha256": "2b260e1438e99986bc8deaae15d18d072f816646ee71c22867fa6a98617dc2c3"
+    },
+    {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/f501-actual-silk-delta-review.json",
+      "sha256": "5b34721e0a0d5b427796af03fe6e0b5856284a96698fb1418dbba17e8829bffc"
+    },
+    {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-history/before-archive-cleanup/j501-cam-review.json",
+      "sha256": "4eaf2420960c2e7259fc24689fb113b20428b7519c887b8d91b78e01a12d44c5"
+    }
+  ],
+  "date_basis": "Checkpoint update timestamp; exact frozen input identity is recorded by SHA256, not inferred from this timestamp.",
+  "pcb_routing_inventory": {
+    "copper_LINE": 2779,
+    "VIA": 647,
+    "components": 236,
+    "physical_pads": 803,
+    "physical_layers": 13,
+    "protected_baseline_thermal_vias": 22,
+    "protected_baseline_GND_lines": 11
+  },
+  "preview_status": {
+    "current": [
+      "preview/PCB-layout.png",
+      "preview/routed/top-pretty.png",
+      "preview/routed/bottom-pretty.png",
+      "preview/routed/top-silk.png",
+      "preview/routed/bottom-silk.png"
+    ],
+    "historical_SD_image": "preview/STORAGE_SD.png predates equivalent-channel exchange; current source/geometry/net reports are authoritative",
+    "other_retained_schematic_images": "Retain prior review scope; not all regenerated in this PCB stage"
+  },
+  "additional_engineering_conditions": {
+    "SP16_return_mm": 2.977414533786346,
+    "SP16_scope": "Static reserved GPIO; identity/coordinates in spare-gpio-return-review.json; manufacturing clearances unchanged",
+    "SD_CD_N_new_branch_mm": 166.75405577885618,
+    "SD_CD_N_scope": "Applied added low-speed card-detect branch only; bench levels/debounce/noise tests required, not a high-speed SD timing qualification",
+    "first_batch": "5 PCB; assemble2; unframed stencil with tape-hinge alignment; connectors/pin headers hand soldered"
+  }
 }

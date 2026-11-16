@@ -6,11 +6,11 @@
 
 ## 当前状态
 
-- **当前硬件开发：r14，99 × 99 mm。** [独立 KiCad 工程](hardware/devboard-99/README.md)已完成布线、双内层GND及CAD复核，原生DRC 0违规、0未连接、0原理图一致性问题；电源与SD路径、孔间距及U101实际CAM检查通过，USB两方向差分长度差已量化。保留全部器件、接口与按键；回流/参考面及制造装配条件见[r14记录](hardware/devboard-99/review-r14/README.md)，尚未制造或实板验证。[嘉立创EDA原生工程](hardware/devboard-99/easyeda-native/README.md)已完成 236 个器件布局及关键封装/CAM 复核，尚待叠层保存问题、主信号布线、铺铜和最终制造复核。
+- **当前硬件开发：99 × 99 mm 嘉立创EDA原生工程。** 已完成原生 PCB 布线、标准四层叠层保存和完整 21 项复核，原生 DRC 为 0 连接/0 其他错误，工程审查项仍保留；实际 CAM 及工程审查结论见[原生工程入口](hardware/devboard-99/easyeda-native/README.md)和[同版检查点](hardware/devboard-99/easyeda-native/audit/checkpoint-status.json)。[KiCad r14](hardware/devboard-99/README.md)保留为先期完整布线与电路参考，其独立复核及制造/装配边界见[r14记录](hardware/devboard-99/review-r14/README.md)。尚未制造或实板验证，当前检查不代表制造放行。
 - **固件：M0 骨架。** 应用宿主、活动租约、休眠准备契约、板级配置检查、双槽分区和串口演示已经实现；外设驱动、图形界面和网络应用尚待接入。
 - **保留基线：r10 PCB 制造整改完成。** 已移动64个近焊盘过孔，538个普通孔的双面阻焊间距达到≥0.20mm，11个IC热孔指定填平盖帽；官方USB/SD名义阻抗窗口检查通过。原理图r6/r5保持，DRC为0错误、0未连接；已更新独立制板、DIY钢网及203位回流/27位手焊文件，尚未下单或上电。见 [r10记录](docs/v2/hardware/pcb-dfm-r10.md)和[文件包](hardware/devboard-r0/output/manufacturing/r10-review/README.md)。这些制造文件不适用于当前 99 mm 板。
-- **首批准备r11：** 已按5块PCB、先焊2块及无框钢片整理[工厂审核规格、64种备料表与首板工作单](hardware/devboard-r0/output/manufacturing/r10-first-batch/README.md)。PCB保持r10，工厂回复、来料容量和实测仍待完成；现有M0不具备分域维护功能。
-- **嘉立创迁移与CAM：** [当前工程与独立制板/钢网包](hardware/devboard-r0/output/easyeda/r10-cam-checked/README.md)已纳入Git；[最终CAM复核](hardware/devboard-r0/output/easyeda/r10-cam-checked/CAM_REVIEW.md)通过、严格DRC为0。已恢复导入遗漏的阻焊、热焊及铜颈设置；原KiCad r10和原制造包保留对照。工厂生产稿与加工工艺仍待确认。
+- **历史 r10 首批准备（r11 记录）：** 已按5块PCB、先焊2块及无框钢片整理[工厂审核规格、64种备料表与首板工作单](hardware/devboard-r0/output/manufacturing/r10-first-batch/README.md)。该清单对应旧 r10 PCB，不适用于当前 99 mm 原生工程；当时工厂回复、来料容量和实测未完成。现有 M0 不具备分域维护功能。
+- **历史 r10 嘉立创迁移与 CAM：** [旧迁移工程与独立制板/钢网包](hardware/devboard-r0/output/easyeda/r10-cam-checked/README.md)已纳入Git；[最终CAM复核](hardware/devboard-r0/output/easyeda/r10-cam-checked/CAM_REVIEW.md)通过、严格DRC为0。已恢复导入遗漏的阻焊、热焊及铜颈设置；原 KiCad r10 和原制造包仅保留历史对照；该包不能用于当前 99 mm 原生板。
 - 未进行新板烧录或上电验证。硬件的充电默认禁用状态、温窗假设及待验证项见硬件文档。
 
 ## 目录与入口
@@ -19,8 +19,8 @@
 | --- | --- |
 | [v2/](v2/README.md) | 独立 ESP-IDF 固件、主机测试及板级元数据 |
 | [docs/v2/](docs/v2/README.md) | 架构、路线和软硬件设计记录 |
-| [hardware/devboard-r0/](hardware/devboard-r0/README.md) | KiCad r10基线、嘉立创迁移工程、项目库、检查器和评审记录 |
-| [hardware/devboard-99/](hardware/devboard-99/README.md) | 当前 r14：99 mm KiCad 完整布线、接地平面、热孔/钢网及独立复核 |
+| [hardware/devboard-r0/](hardware/devboard-r0/README.md) | 历史 KiCad r10 基线、嘉立创迁移工程、项目库、检查器和评审记录 |
+| [hardware/devboard-99/](hardware/devboard-99/README.md) | 99 mm 开发板：当前嘉立创EDA原生工程及 KiCad r14 对照、原生检查/装配条件 |
 | [hardware/reference/](hardware/reference/) | 原厂来源、版本与 SHA-256；原始下载文件仅本地保存 |
 | [outputs/](outputs/) | 已审查的 BOM 工作簿 |
 
@@ -43,12 +43,12 @@ ctest --test-dir v2/build/host --output-on-failure
 idf.py -C v2 -B build/esp32s3 build
 ```
 
-固件详细说明见 [v2/README.md](v2/README.md)。硬件检查命令见 [开发板说明](hardware/devboard-r0/README.md)；公开文件完整性可运行 `python3 tools/verify_repository.py`。原厂 PDF 不随 Git 分发，重新计算依赖 PDF 的温窗模型前，须按相应 `sources.json` 恢复资料。
+固件详细说明见 [v2/README.md](v2/README.md)。当前硬件检查命令见 [原生工程说明](hardware/devboard-99/easyeda-native/README.md)和[完整验证入口](hardware/devboard-99/easyeda-native/verification/README-final-runner.md)；公开文件完整性可运行 `python3 tools/verify_repository.py`。原厂 PDF 不随 Git 分发，重新计算依赖 PDF 的温窗模型前，须按相应 `sources.json` 恢复资料。
 
 ## 版本管理
 
 `main` 保存已提交的阶段成果，功能开发使用短期分支。硬件设计修订号与 Git 标签分别管理，r5/r6/r7 的历史报告不是对应的历史提交。迁移来源、检查结果和当前基线见 [迁移记录](docs/v2/repository-migration.md)。
 
-嘉立创工程入口及历史快照见[迁移目录](hardware/devboard-r0/output/easyeda/README.txt)，KiCad r10保留为迁移对照基线。两种工程不会自动双向同步；每次变更须注明所编辑的工程及来源版本，同步更新导出、检查报告与校验清单。历史生成脚本不能覆盖已经手工修改的原理图或PCB。
+当前嘉立创工程入口见[99 mm 原生工程](hardware/devboard-99/easyeda-native/README.md)；旧 r10 迁移历史快照见[历史迁移目录](hardware/devboard-r0/output/easyeda/README.txt)，KiCad r10 仅保留为迁移对照基线。两种工程不会自动双向同步；每次变更须注明所编辑的工程及来源版本，同步更新导出、检查报告与校验清单。历史生成脚本不能覆盖已经手工修改的原理图或PCB。
 
 本项目原创代码与文档沿用 [MIT License](LICENSE)。KiCad 库内容及原厂资料的归属见 [第三方说明](THIRD_PARTY_NOTICES.md)。

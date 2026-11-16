@@ -1,0 +1,28 @@
+{
+  "status": "PASS_ARCHIVE_CLEANUP_PRESERVES_ALL_PHYSICAL_DESIGN_RECORDS",
+  "inputs": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-history/before-archive-cleanup/PCB-before-cleanup.epcb": "74b308f64a0762907f42713df5ef3403df27a6e8f67bebe2c95d29ae57b6e57e",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/PCB-layout.epcb": "2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c"
+  },
+  "removed_stale_archive_LINE_ids": [
+    "2140d0b03a0f202b",
+    "96433edfc5a21915",
+    "9e66d0a0efa675c5",
+    "819a1668d75e0f8b",
+    "fdb11ab6a275a980",
+    "f5069efd85b88176",
+    "8f73bf2634f876ec",
+    "67436a8b121658d0",
+    "58a440ccaf81b948",
+    "285cf8ffbd79df1f",
+    "322af7c1154684d7",
+    "c0d4bc144b844d2c",
+    "d8e6c2f7be26ebd4"
+  ],
+  "final_runtime_LINE_count": 2779,
+  "final_archive_LINE_count": 2779,
+  "physical_rule_stack_differences_from_validated_before_cleanup_source": [],
+  "method": "Make13 stale IDs visible as short temporary lines fully within existing same-net pad copper; verify all original records unchanged, save, delete these13 active IDs, save/close/reopen/export. No temporary lines remain in final source or archive.",
+  "cache_scope": "Derived POURED bodies are independently compared in the final archive report with explicitly recorded floating representation bounds; physical CAM equivalence is independently reported."
+}

@@ -1,0 +1,134 @@
+{
+  "status": "PASS_ACTUAL_FOUR_SILK_LEADERS_AND_UNCHANGED_PHYSICAL_CAM",
+  "inputs": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/PCB-layout.epcb": "2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json": "29960dc357eca29afd5e763de61bfc5078ce66ff7e5b44f96104f98a6ff74d5a",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-native99/routing-work/NOT-FOR-MANUFACTURE-copper-complete-review-cam.zip": "2bc49932f9783a132b551153decb3b07aabf8dc693fee971cc11813618c75544",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-native99/routing-work/final-silk-small-delta.json": "6b8e70c6aad5484c9d6afb98d2ea148c569b6af8f51c149c4aacd39a39138b1e",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-native99/routing-work/final-silk-details-apply.json": "f2a5569dccc59e5bf32ca827c361e66bf67bf1600423d2d7a2aac3874e3e1b1c"
+  },
+  "leaders": [
+    {
+      "ref": "R225",
+      "native_POLY_ID": "f4bfca4304f30058",
+      "expected_segment_count": 1,
+      "matched_actual_GTO_segment_count": 1,
+      "actual_width_mm": 0.15,
+      "length_mm": 0.29999940000000436,
+      "actual_mask_intersection_mm2": 0.0,
+      "actual_raw_drill_intersection_mm2": 0.0,
+      "outside_board_mm2": 0.0,
+      "actual_mask_clearance_mm": 0.4937231843650664,
+      "actual_raw_drill_clearance_mm": 0.38743319032233886,
+      "actual_board_edge_clearance_mm": 45.72500248401381
+    },
+    {
+      "ref": "R223",
+      "native_POLY_ID": "8d001a7faa392344",
+      "expected_segment_count": 1,
+      "matched_actual_GTO_segment_count": 1,
+      "actual_width_mm": 0.15,
+      "length_mm": 0.29999939999999015,
+      "actual_mask_intersection_mm2": 0.0,
+      "actual_raw_drill_intersection_mm2": 0.0,
+      "outside_board_mm2": 0.0,
+      "actual_mask_clearance_mm": 0.5375253534895411,
+      "actual_raw_drill_clearance_mm": 0.8965824829874548,
+      "actual_board_edge_clearance_mm": 43.425
+    },
+    {
+      "ref": "R226",
+      "native_POLY_ID": "c024c17ae4e08f22",
+      "expected_segment_count": 6,
+      "matched_actual_GTO_segment_count": 6,
+      "actual_width_mm": 0.15,
+      "length_mm": 10.084732205128837,
+      "actual_mask_intersection_mm2": 0.0,
+      "actual_raw_drill_intersection_mm2": 0.0,
+      "outside_board_mm2": 0.0,
+      "actual_mask_clearance_mm": 0.571177037059328,
+      "actual_raw_drill_clearance_mm": 0.23452019761048193,
+      "actual_board_edge_clearance_mm": 40.825000741006015
+    },
+    {
+      "ref": "R224",
+      "native_POLY_ID": "bba53f702094d579",
+      "expected_segment_count": 7,
+      "matched_actual_GTO_segment_count": 7,
+      "actual_width_mm": 0.15,
+      "length_mm": 11.868158913600713,
+      "actual_mask_intersection_mm2": 0.0,
+      "actual_raw_drill_intersection_mm2": 0.0,
+      "outside_board_mm2": 0.0,
+      "actual_mask_clearance_mm": 0.5422024840138064,
+      "actual_raw_drill_clearance_mm": 0.20511850940413173,
+      "actual_board_edge_clearance_mm": 40.52500044342627
+    }
+  ],
+  "physical_checks": [
+    {
+      "file": "Drill_NPTH_Through.DRL",
+      "kind": "drill_commands_except_generator_time",
+      "pass": true
+    },
+    {
+      "file": "Drill_PTH_Through.DRL",
+      "kind": "drill_commands_except_generator_time",
+      "pass": true
+    },
+    {
+      "file": "Drill_PTH_Through_Via.DRL",
+      "kind": "drill_commands_except_generator_time",
+      "pass": true
+    },
+    {
+      "file": "Gerber_BoardOutlineLayer.GKO",
+      "kind": "ordered_expanded_physical_primitives_exact",
+      "pass": true
+    },
+    {
+      "file": "Gerber_BottomLayer.GBL",
+      "kind": "ordered_expanded_physical_primitives_exact",
+      "pass": true
+    },
+    {
+      "file": "Gerber_BottomSolderMaskLayer.GBS",
+      "kind": "ordered_expanded_physical_primitives_exact",
+      "pass": true
+    },
+    {
+      "file": "Gerber_InnerLayer1.G1",
+      "kind": "ordered_expanded_physical_primitives_exact",
+      "pass": true
+    },
+    {
+      "file": "Gerber_InnerLayer2.G2",
+      "kind": "ordered_expanded_physical_primitives_exact",
+      "pass": true
+    },
+    {
+      "file": "Gerber_TopLayer.GTL",
+      "kind": "ordered_expanded_physical_primitives_exact",
+      "pass": true
+    },
+    {
+      "file": "Gerber_TopPasteMaskLayer.GTP",
+      "kind": "ordered_expanded_physical_primitives_exact",
+      "pass": true
+    },
+    {
+      "file": "Gerber_TopSolderMaskLayer.GTS",
+      "kind": "ordered_expanded_physical_primitives_exact",
+      "pass": true
+    }
+  ],
+  "unexpected_source_changes": [],
+  "errors": [],
+  "limits": [
+    "Exact physical Gerber equivalence after aperture expansion uses zero coordinate/width tolerance and preserves polarity/order. Unused definitions/renumbering alone are not geometry.",
+    "POURED cache serialization is excluded only because actual four-layer copper/drill/physical geometry above must match exactly.",
+    "Actual236glyph identity/readability/height and remaining native library-outline review are in final-silkscreen-review.json. No manufacturing release asserted."
+  ]
+}

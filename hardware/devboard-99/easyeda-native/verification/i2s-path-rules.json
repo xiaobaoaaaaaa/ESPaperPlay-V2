@@ -1,0 +1,144 @@
+{
+  "schema": "native-i2s-path-rules-v1",
+  "scope": "13 native networks and six signal chains, including local control. Geometric metrics do not establish propagation/setup/hold compliance.",
+  "original_signal_plan_sha256": "f959a1240f7b0d359f355d8a7e00135b54e2a15ce8b2d72cb4fc7acd77e0bb20",
+  "signal_chains": [
+    {
+      "name": "AUDIO_BCLK_MIC",
+      "legs": [
+        {
+          "net": "I2S_BCLK",
+          "from": "U301.20",
+          "to": "U801.2"
+        },
+        {
+          "net": "AUDIO_BCLK_BUF",
+          "from": "U801.3",
+          "to": "R808.1"
+        },
+        {
+          "net": "I2S_BCLK_AUDIO",
+          "from": "R808.2",
+          "to": "U803.6"
+        }
+      ]
+    },
+    {
+      "name": "AUDIO_BCLK_AMP",
+      "legs": [
+        {
+          "net": "I2S_BCLK",
+          "from": "U301.20",
+          "to": "U801.2"
+        },
+        {
+          "net": "AUDIO_BCLK_BUF",
+          "from": "U801.3",
+          "to": "R808.1"
+        },
+        {
+          "net": "I2S_BCLK_AUDIO",
+          "from": "R808.2",
+          "to": "U802.16"
+        }
+      ]
+    },
+    {
+      "name": "AUDIO_WS_MIC",
+      "legs": [
+        {
+          "net": "I2S_WS",
+          "from": "U301.7",
+          "to": "U801.5"
+        },
+        {
+          "net": "AUDIO_WS_BUF",
+          "from": "U801.6",
+          "to": "R809.1"
+        },
+        {
+          "net": "I2S_WS_AUDIO",
+          "from": "R809.2",
+          "to": "U803.5"
+        }
+      ]
+    },
+    {
+      "name": "AUDIO_WS_AMP",
+      "legs": [
+        {
+          "net": "I2S_WS",
+          "from": "U301.7",
+          "to": "U801.5"
+        },
+        {
+          "net": "AUDIO_WS_BUF",
+          "from": "U801.6",
+          "to": "R809.1"
+        },
+        {
+          "net": "I2S_WS_AUDIO",
+          "from": "R809.2",
+          "to": "U802.14"
+        }
+      ]
+    },
+    {
+      "name": "SPEAKER_DATA",
+      "legs": [
+        {
+          "net": "SPEAKER_DATA",
+          "from": "U301.37",
+          "to": "U801.9"
+        },
+        {
+          "net": "AUDIO_DIN_BUF",
+          "from": "U801.8",
+          "to": "R810.1"
+        },
+        {
+          "net": "I2S_DIN_AUDIO",
+          "from": "R810.2",
+          "to": "U802.1"
+        }
+      ]
+    },
+    {
+      "name": "MIC_DATA",
+      "legs": [
+        {
+          "net": "MIC_SD_RAW",
+          "from": "U803.7",
+          "to": "U804.2"
+        },
+        {
+          "net": "MIC_DATA",
+          "from": "U804.4",
+          "to": "U301.19"
+        }
+      ]
+    }
+  ],
+  "nets": [
+    "AUDIO_BCLK_BUF",
+    "AUDIO_WS_BUF",
+    "AUDIO_DIN_BUF",
+    "I2S_BCLK_AUDIO",
+    "I2S_WS_AUDIO",
+    "I2S_DIN_AUDIO",
+    "MIC_SD_RAW",
+    "AUDIO_SD_BUF",
+    "AUDIO_OE_N",
+    "I2S_BCLK",
+    "I2S_WS",
+    "SPEAKER_DATA",
+    "MIC_DATA"
+  ],
+  "initial_sample_rate_hz": 48000,
+  "bits_per_stereo_frame": 64,
+  "initial_bclk_hz": 3072000,
+  "source_to_series_target_mm": 5,
+  "geometric_skew_reference_mm": 10,
+  "return_preferred_mm": 1,
+  "return_review_mm": 2
+}

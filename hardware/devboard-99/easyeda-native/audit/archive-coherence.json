@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "Schematic component, wire, attribute and text records only; no PCB/CAM certification",
-  "archive_sha256": "87dec9097ccc8ed4504f0a9ea351595a5fabddcf5c4f17573e0df96b828511ff",
+  "archive_sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c",
   "document_types": {
     "FOOTPRINT": 38,
     "SYMBOL": 68,

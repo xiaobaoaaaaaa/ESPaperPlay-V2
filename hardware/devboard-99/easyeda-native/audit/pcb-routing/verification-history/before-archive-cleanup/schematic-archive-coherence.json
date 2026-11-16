@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "scope": "Schematic component, wire, attribute and text records only; no PCB/CAM certification",
+  "archive_sha256": "2d5b8205f3b4836f35af1a3b0725a44f2adb4d1c02df2948c4927b51fde45f75",
+  "document_types": {
+    "FOOTPRINT": 38,
+    "SYMBOL": 68,
+    "DEVICE": 68,
+    "BOARD": 1,
+    "SCH": 1,
+    "SCH_PAGE": 12,
+    "PCB": 1,
+    "CONFIG": 1,
+    "PANEL": 1,
+    "BLOB": 1
+  },
+  "tombstones_applied": 2456,
+  "normalization": "ATTR zIndex and absent/false strikeout flags only",
+  "pages": {
+    "POWER_INPUT_CHARGER": {
+      "compared_records": 1163,
+      "differences": 0
+    },
+    "MCU_CORE": {
+      "compared_records": 936,
+      "differences": 0
+    },
+    "POWER_DOMAINS": {
+      "compared_records": 1451,
+      "differences": 0
+    },
+    "TOUCH_ISOLATION": {
+      "compared_records": 412,
+      "differences": 0
+    },
+    "USB_INPUT": {
+      "compared_records": 611,
+      "differences": 0
+    },
+    "STORAGE_SD": {
+      "compared_records": 1125,
+      "differences": 0
+    },
+    "AUDIO": {
+      "compared_records": 1086,
+      "differences": 0
+    },
+    "CHARGE_TEMP": {
+      "compared_records": 584,
+      "differences": 0
+    },
+    "POWER_REGULATOR_GAUGE": {
+      "compared_records": 902,
+      "differences": 0
+    },
+    "IO_CONTROL_NATIVE": {
+      "compared_records": 876,
+      "differences": 0
+    },
+    "EPD_LOGIC": {
+      "compared_records": 740,
+      "differences": 0
+    },
+    "EPD_BIAS_INTERFACE": {
+      "compared_records": 781,
+      "differences": 0
+    }
+  },
+  "errors": []
+}

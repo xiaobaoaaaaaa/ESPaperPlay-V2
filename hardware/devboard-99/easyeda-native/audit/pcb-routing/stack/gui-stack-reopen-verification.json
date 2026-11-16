@@ -1,0 +1,150 @@
+{
+  "equal": true,
+  "physical_layers": 13,
+  "total_mm": 1.5861538,
+  "layers": [
+    [
+      "[\"LAYER_PHYS\",15]",
+      {
+        "material": "Inner layer thickness",
+        "thickness": 0.598,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1002
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",16]",
+      {
+        "material": "Inner layer thickness",
+        "thickness": 0.598,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1004
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",1]",
+      {
+        "material": "Outer layer thickness 1oz",
+        "thickness": 1.378,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1000
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",2]",
+      {
+        "material": "Outer layer thickness 1oz",
+        "thickness": 1.378,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 9000
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",361]",
+      {
+        "material": "7628 RC49% 8.6mil",
+        "thickness": 8.283,
+        "permittivity": 4.4,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1001
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",362]",
+      {
+        "material": "1.1mm H/HOZ Copper",
+        "thickness": 41.929,
+        "permittivity": 4.43,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1003
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",363]",
+      {
+        "material": "7628 RC49% 8.6mil",
+        "thickness": 8.283,
+        "permittivity": 4.4,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1005
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",3]",
+      {
+        "material": "",
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",4]",
+      {
+        "material": "",
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10002
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",5]",
+      {
+        "material": "",
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 3
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",6]",
+      {
+        "material": "",
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10000
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",7]",
+      {
+        "material": "",
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 2
+      }
+    ],
+    [
+      "[\"LAYER_PHYS\",8]",
+      {
+        "material": "",
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10001
+      }
+    ]
+  ]
+}

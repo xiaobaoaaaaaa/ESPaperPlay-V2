@@ -1,0 +1,18 @@
+{
+  "PCB-before-cleanup.epcb": {
+    "original_path": "hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+    "sha256": "74b308f64a0762907f42713df5ef3403df27a6e8f67bebe2c95d29ae57b6e57e"
+  },
+  "state-before-cleanup.json": {
+    "original_path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json",
+    "sha256": "6b024eb6287f4f8391e73025d67c1bc69f73edc0d2afb258a63c92b95a2e5c35"
+  },
+  "NOT-FOR-MANUFACTURE-before-cleanup.epro2": {
+    "original_path": "hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
+    "sha256": "2d5b8205f3b4836f35af1a3b0725a44f2adb4d1c02df2948c4927b51fde45f75"
+  },
+  "NOT-FOR-MANUFACTURE-before-cleanup-cam.zip": {
+    "original_path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip",
+    "sha256": "4dbb835ad4e5130b6cecee487650d754a5d3b5e4ded566363c012d0613c0f255"
+  }
+}

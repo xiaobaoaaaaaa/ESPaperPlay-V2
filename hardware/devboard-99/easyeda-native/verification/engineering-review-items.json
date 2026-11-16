@@ -1,0 +1,43 @@
+{
+  "schema": "native-runner-engineering-review-classification-v1",
+  "scope": "Report classification only. No checker threshold, measurement or child exit code is changed; this is not a fabrication rule exception.",
+  "EPD_PAD_SCLK_return": {
+    "signal_access_id": "773d5373a5cbe8af",
+    "ground_access_id": "a903fd929074af60",
+    "net": "EPD_PAD_SCLK",
+    "xy_mm": [
+      80.53421282,
+      -89.84381574
+    ],
+    "measured_distance_mm": 2.2461601204405826,
+    "preferred_distance_mm": 2.0,
+    "identity_tolerance_mm": 1e-05,
+    "interpretation": "Known 2.246160 mm return-access distance exceeds the project's 2 mm routing preference. Physical spacing rules were not relaxed. Same via/ground identity, location and measured distance must remain; changed geometry requires a new review. Actual two-inner-plane contact is checked independently by CAM."
+  },
+  "numerical_residue_reporting_bound_mm": 1e-05,
+  "numerical_residue_interpretation": "A separately retained review category, not proof of copper coverage or erased gaps. Only the reference checker's explicit quantization-scale classification is recognized. Larger/new physical slot or corridor failures remain unresolved.",
+  "TOUCH_IO_EN_static_return": {
+    "signal_access_id": "ffe9ee8ae2cc196e",
+    "ground_access_id": "8fe8f0e0cc4c73a1",
+    "net": "TOUCH_IO_EN",
+    "xy_mm": [
+      49.32068114,
+      -44.3008004
+    ],
+    "ground_xy_mm": [
+      50.95407894,
+      -46.19923704
+    ],
+    "measured_distance_mm": 2.5044061270367712,
+    "preferred_distance_mm": 2.0,
+    "identity_tolerance_mm": 1e-05,
+    "allowed_jobs": [
+      "critical-routes"
+    ],
+    "evidence": {
+      "path": "../audit/pcb-routing/touch-io-en-return-review.json",
+      "sha256": "570098e51a1a7f7bc85d96569356ccd3e1a030ce43b71935731c0f5b0d465a70"
+    },
+    "interpretation": "This exact touch-isolation select via exceeds the2mm project reference-return target by0.504406mm. Native netlist U202.P10 drives U406 SEL1..4 with10k pulldown and debug header; static/low-repetition use is design intent, not a measured edge-rate or SI guarantee. All7terminals are one actual CAM/source component; the identified GND via has0.942472596mm actual plated-wall contact to each inner GND plane. Retain the raw2.504406127mm measurement,2mm threshold and original nonzero child exit. Classification applies only to this exact static-enable ID/net/location/GND ID/distance and does not cover clocks,data,unknown anchors or any physical/CAM error."
+  }
+}

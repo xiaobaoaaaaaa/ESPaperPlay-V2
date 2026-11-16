@@ -2551,17 +2551,17 @@
           "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "S1_2",
+          "reference_pin": "12",
+          "reference_function": "S4_12",
           "native_pin_name": "S1",
-          "net": "/STORAGE_SD/SD_CLK_BUS",
+          "net": "/STORAGE_SD/SD_D1_BUS",
           "no_connect": false
         },
         "3": {
-          "reference_pin": "3",
-          "reference_function": "D1_3",
+          "reference_pin": "11",
+          "reference_function": "D4_11",
           "native_pin_name": "D1",
-          "net": "SD_CARD_CLK",
+          "net": "SD_CARD_D1",
           "no_connect": false
         },
         "4": {
@@ -2572,17 +2572,17 @@
           "no_connect": false
         },
         "5": {
-          "reference_pin": "5",
-          "reference_function": "S2_5",
+          "reference_pin": "9",
+          "reference_function": "S3_9",
           "native_pin_name": "S2",
-          "net": "/STORAGE_SD/SD_CMD_BUS",
+          "net": "/STORAGE_SD/SD_D0_BUS",
           "no_connect": false
         },
         "6": {
-          "reference_pin": "6",
-          "reference_function": "D2_6",
+          "reference_pin": "8",
+          "reference_function": "D3_8",
           "native_pin_name": "D2",
-          "net": "SD_CARD_CMD",
+          "net": "SD_CARD_D0",
           "no_connect": false
         },
         "7": {
@@ -2593,17 +2593,17 @@
           "no_connect": false
         },
         "8": {
-          "reference_pin": "8",
-          "reference_function": "D3_8",
+          "reference_pin": "3",
+          "reference_function": "D1_3",
           "native_pin_name": "D3",
-          "net": "SD_CARD_D0",
+          "net": "SD_CARD_CLK",
           "no_connect": false
         },
         "9": {
-          "reference_pin": "9",
-          "reference_function": "S3_9",
+          "reference_pin": "2",
+          "reference_function": "S1_2",
           "native_pin_name": "S3",
-          "net": "/STORAGE_SD/SD_D0_BUS",
+          "net": "/STORAGE_SD/SD_CLK_BUS",
           "no_connect": false
         },
         "10": {
@@ -2614,17 +2614,17 @@
           "no_connect": false
         },
         "11": {
-          "reference_pin": "11",
-          "reference_function": "D4_11",
+          "reference_pin": "6",
+          "reference_function": "D2_6",
           "native_pin_name": "D4",
-          "net": "SD_CARD_D1",
+          "net": "SD_CARD_CMD",
           "no_connect": false
         },
         "12": {
-          "reference_pin": "12",
-          "reference_function": "S4_12",
+          "reference_pin": "5",
+          "reference_function": "S2_5",
           "native_pin_name": "S4",
-          "net": "/STORAGE_SD/SD_D1_BUS",
+          "net": "/STORAGE_SD/SD_CMD_BUS",
           "no_connect": false
         },
         "13": {
@@ -2643,7 +2643,7 @@
         }
       },
       "errors": [],
-      "pin_status": "PASS_EXPLICIT_PIN_MAP"
+      "pin_status": "PASS_EXPLICIT_EQUIVALENT_CHANNEL_MAP"
     },
     "U706": {
       "device_uuid": "5a996874d0514f7ea66d2851adcd38ca",
@@ -2658,17 +2658,17 @@
           "no_connect": false
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "S1_2",
+          "reference_pin": "5",
+          "reference_function": "S2_5",
           "native_pin_name": "S1",
-          "net": "/STORAGE_SD/SD_D2_BUS",
+          "net": "/STORAGE_SD/SD_D3_BUS",
           "no_connect": false
         },
         "3": {
-          "reference_pin": "3",
-          "reference_function": "D1_3",
+          "reference_pin": "6",
+          "reference_function": "D2_6",
           "native_pin_name": "D1",
-          "net": "SD_CARD_D2",
+          "net": "SD_CARD_D3",
           "no_connect": false
         },
         "4": {
@@ -2679,17 +2679,17 @@
           "no_connect": false
         },
         "5": {
-          "reference_pin": "5",
-          "reference_function": "S2_5",
+          "reference_pin": "2",
+          "reference_function": "S1_2",
           "native_pin_name": "S2",
-          "net": "/STORAGE_SD/SD_D3_BUS",
+          "net": "/STORAGE_SD/SD_D2_BUS",
           "no_connect": false
         },
         "6": {
-          "reference_pin": "6",
-          "reference_function": "D2_6",
+          "reference_pin": "3",
+          "reference_function": "D1_3",
           "native_pin_name": "D2",
-          "net": "SD_CARD_D3",
+          "net": "SD_CARD_D2",
           "no_connect": false
         },
         "7": {
@@ -2750,7 +2750,7 @@
         }
       },
       "errors": [],
-      "pin_status": "PASS_EXPLICIT_PIN_MAP"
+      "pin_status": "PASS_EXPLICIT_EQUIVALENT_CHANNEL_MAP"
     },
     "U501": {
       "device_uuid": "2ff1328586fb477c851b27e686451df0",
@@ -12757,5 +12757,9 @@
     "U405",
     "U201",
     "L201"
-  ]
+  ],
+  "equivalent_channel_remapping": {
+    "file": "sd-channel-equivalence.json",
+    "reason": "Same-device SD channels reordered for native PCB routing; source/destination pairs and enables preserved."
+  }
 }

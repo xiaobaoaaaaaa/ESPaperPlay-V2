@@ -1,0 +1,219 @@
+{
+  "status": "ENGINEERING_REVIEW_STATIC_ENABLE_RETURN_TARGET_DEVIATION_RETAINED",
+  "scope": "One explicitly identified static touch-isolation enable layer transition only; no clock/data or other access is exempted.",
+  "inputs": {
+    "source": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+      "sha256": "74b308f64a0762907f42713df5ef3403df27a6e8f67bebe2c95d29ae57b6e57e"
+    },
+    "state": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json",
+      "sha256": "6b024eb6287f4f8391e73025d67c1bc69f73edc0d2afb258a63c92b95a2e5c35"
+    },
+    "netlist": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/native-schematic.enet",
+      "sha256": "ca58eacd445caf9504127943b59f43e3e1053290726b39c3ec838985803ebb5c"
+    },
+    "critical_report": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/critical-routes.json",
+      "sha256": "c84abee37eb8c255b113ad339a90a3cbfb799c06482a7f63aaeb3581d65ff1ed"
+    },
+    "CAM_topology_report": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/cam-connectivity.json",
+      "sha256": "f18dae83970ca4b4acd0c8e416ffb812cc5a552688b7cf857022f9c08d0dbb8c"
+    }
+  },
+  "parent_CAM_report_input_hashes": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/PCB-layout.epcb": "74b308f64a0762907f42713df5ef3403df27a6e8f67bebe2c95d29ae57b6e57e",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json": "6b024eb6287f4f8391e73025d67c1bc69f73edc0d2afb258a63c92b95a2e5c35",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2": "2d5b8205f3b4836f35af1a3b0725a44f2adb4d1c02df2948c4927b51fde45f75",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip": "4dbb835ad4e5130b6cecee487650d754a5d3b5e4ded566363c012d0613c0f255"
+  },
+  "signal_access": {
+    "id": "ffe9ee8ae2cc196e",
+    "net": "TOUCH_IO_EN",
+    "xy_mm": [
+      49.32068114,
+      -44.3008004
+    ],
+    "source_body": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "TOUCH_IO_EN",
+      "ruleName": "",
+      "centerX": 1941.7591,
+      "centerY": -1744.126,
+      "holeDiameter": 11.811,
+      "viaDiameter": 23.622,
+      "viaType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "locked": true,
+      "unusedInnerLayers": [],
+      "propagationDelay": 0
+    },
+    "actual_routed_outer_layers": [
+      1,
+      2
+    ]
+  },
+  "nearest_actual_verified_GND_access": {
+    "id": "8fe8f0e0cc4c73a1",
+    "xy_mm": [
+      50.954078939999995,
+      -46.19923704
+    ],
+    "source_body": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND",
+      "ruleName": "",
+      "centerX": 2006.0661,
+      "centerY": -1818.8676,
+      "holeDiameter": 11.811,
+      "viaDiameter": 23.622,
+      "viaType": "NORMAL",
+      "topSolderExpansion": null,
+      "bottomSolderExpansion": null,
+      "locked": true,
+      "unusedInnerLayers": [],
+      "propagationDelay": 0
+    },
+    "distance_center_mm": 2.5044061270367712,
+    "shared_inner_plane_wall_contacts": [
+      {
+        "layer": 16,
+        "copper_node": 1627,
+        "shared_wall_length_mm": 0.9424725957144261
+      },
+      {
+        "layer": 15,
+        "copper_node": 1181,
+        "shared_wall_length_mm": 0.9424725957144261
+      }
+    ],
+    "all_plated_wall_contacts": [
+      {
+        "layer": 16,
+        "copper_node": 1627,
+        "shared_wall_length_mm": 0.9424725957144261
+      },
+      {
+        "layer": 1,
+        "copper_node": 421,
+        "shared_wall_length_mm": 0.9424725957144261
+      },
+      {
+        "layer": 2,
+        "copper_node": 991,
+        "shared_wall_length_mm": 0.9424725957144261
+      },
+      {
+        "layer": 15,
+        "copper_node": 1181,
+        "shared_wall_length_mm": 0.9424725957144261
+      }
+    ],
+    "CAM_GND_network_components": 1,
+    "member_of_actual_CAM_GND_component": true,
+    "verified_both_inner_plane_GND_access_inventory": 294,
+    "nearest_three_verified_GND_accesses": [
+      {
+        "id": "8fe8f0e0cc4c73a1",
+        "xy_mm": [
+          50.954078939999995,
+          -46.19923704
+        ],
+        "distance_center_mm": 2.5044061270367712
+      },
+      {
+        "id": "ecbe0f72b19d894c",
+        "xy_mm": [
+          46.700000579999994,
+          -45.749999939999995
+        ],
+        "distance_center_mm": 2.9946862781096337
+      },
+      {
+        "id": "94305837214acb98",
+        "xy_mm": [
+          46.19999904,
+          -45.50000044
+        ],
+        "distance_center_mm": 3.343162799684812
+      }
+    ]
+  },
+  "thresholds_unchanged": {
+    "preferred_distance_mm": 1.0,
+    "reference_target_max_mm": 2.0,
+    "pass_le_2mm": false,
+    "excess_over_target_mm": 0.5044061270367712,
+    "upstream_critical_report_status": "FAIL",
+    "upstream_report_must_remain_nonzero_for_this_target_deviation": true
+  },
+  "net_purpose_evidence": {
+    "native_terminals": [
+      {
+        "ref": "U406",
+        "pin": "1",
+        "pin_name": "SEL1",
+        "manufacturer_part": "TMUX1511PWR"
+      },
+      {
+        "ref": "U406",
+        "pin": "4",
+        "pin_name": "SEL2",
+        "manufacturer_part": "TMUX1511PWR"
+      },
+      {
+        "ref": "U406",
+        "pin": "10",
+        "pin_name": "SEL3",
+        "manufacturer_part": "TMUX1511PWR"
+      },
+      {
+        "ref": "U406",
+        "pin": "13",
+        "pin_name": "SEL4",
+        "manufacturer_part": "TMUX1511PWR"
+      },
+      {
+        "ref": "J206",
+        "pin": "4",
+        "pin_name": "4",
+        "manufacturer_part": "61300611121"
+      },
+      {
+        "ref": "R215",
+        "pin": "1",
+        "pin_name": "1",
+        "manufacturer_part": "CRCW060310K0FKEA"
+      },
+      {
+        "ref": "U202",
+        "pin": "13",
+        "pin_name": "P10",
+        "manufacturer_part": "TCA9539PWR"
+      }
+    ],
+    "control_driver": "U202 TCA9539PWR pin13 P10, an IO-expander port output",
+    "controlled_function": "U406 TMUX1511PWR SEL1/SEL2/SEL3/SEL4 share this net and enable/isolate four touch interface channels; SDA/SCL/RESET/INT signals use separate S/D channel nets.",
+    "default_bias": "R215 10kΩ from TOUCH_IO_EN to GND; J206.4 exposes the control for debug.",
+    "intended_use_inference": "Static/low-repetition isolation enable for touch power sequencing, inferred from the existing native netlist and project function. It is not one of the touch SCL/SDA data-channel nets. Firmware switching frequency and edge rate are not measured by this review."
+  },
+  "connectivity": {
+    "native_source_physical_terminals": 7,
+    "native_source_copper_islands": 1,
+    "actual_CAM_copper_components": 1,
+    "CAM_topology_status": "PASS_NATIVE_CAM_COPPER_TOPOLOGY",
+    "CAM_topology_error_count": 0
+  },
+  "engineering_disposition": {
+    "decision": "Retain the existing copper and explicitly document this one reference-return target deviation, as directed by the root engineering review.",
+    "reason": "All seven intended terminals are joined in source and actual CAM; the nearest GND via is real and has positive-length plated-wall contact to both adjacent inner GND planes. The over-target distance is on the isolation-select control, so the current decision does not reclassify or waive clock/data return constraints.",
+    "not_a_PASS_override": "Keep the exact measured distance, original2mm threshold and raw critical-check failure/nonzero exit. A higher-level known-static-enable classification may describe this exact signal-access/GND-access pair only.",
+    "future_validation": "Validate touch enable/disable and power sequencing on hardware; this report does not prove transient noise immunity, edge-rate integrity, EMI, fabricated plating or firmware behavior."
+  },
+  "changes_performed": "None to CAD, live API, official source, checker thresholds or existing reports. Only this review JSON was written."
+}

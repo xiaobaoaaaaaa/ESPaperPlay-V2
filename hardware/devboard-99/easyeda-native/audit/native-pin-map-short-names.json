@@ -2857,20 +2857,20 @@
           "reference_net": "SD_IO_EN"
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "S1_2",
+          "reference_pin": "12",
+          "reference_function": "S4_12",
           "native_pin_name": "S1",
-          "net": "SD_CLK_BUS",
+          "net": "SD_D1_BUS",
           "no_connect": false,
-          "reference_net": "/STORAGE_SD/SD_CLK_BUS"
+          "reference_net": "/STORAGE_SD/SD_D1_BUS"
         },
         "3": {
-          "reference_pin": "3",
-          "reference_function": "D1_3",
+          "reference_pin": "11",
+          "reference_function": "D4_11",
           "native_pin_name": "D1",
-          "net": "SD_CARD_CLK",
+          "net": "SD_CARD_D1",
           "no_connect": false,
-          "reference_net": "SD_CARD_CLK"
+          "reference_net": "SD_CARD_D1"
         },
         "4": {
           "reference_pin": "4",
@@ -2881,20 +2881,20 @@
           "reference_net": "SD_IO_EN"
         },
         "5": {
-          "reference_pin": "5",
-          "reference_function": "S2_5",
+          "reference_pin": "9",
+          "reference_function": "S3_9",
           "native_pin_name": "S2",
-          "net": "SD_CMD_BUS",
+          "net": "SD_D0_BUS",
           "no_connect": false,
-          "reference_net": "/STORAGE_SD/SD_CMD_BUS"
+          "reference_net": "/STORAGE_SD/SD_D0_BUS"
         },
         "6": {
-          "reference_pin": "6",
-          "reference_function": "D2_6",
+          "reference_pin": "8",
+          "reference_function": "D3_8",
           "native_pin_name": "D2",
-          "net": "SD_CARD_CMD",
+          "net": "SD_CARD_D0",
           "no_connect": false,
-          "reference_net": "SD_CARD_CMD"
+          "reference_net": "SD_CARD_D0"
         },
         "7": {
           "reference_pin": "7",
@@ -2905,20 +2905,20 @@
           "reference_net": "GND"
         },
         "8": {
-          "reference_pin": "8",
-          "reference_function": "D3_8",
+          "reference_pin": "3",
+          "reference_function": "D1_3",
           "native_pin_name": "D3",
-          "net": "SD_CARD_D0",
+          "net": "SD_CARD_CLK",
           "no_connect": false,
-          "reference_net": "SD_CARD_D0"
+          "reference_net": "SD_CARD_CLK"
         },
         "9": {
-          "reference_pin": "9",
-          "reference_function": "S3_9",
+          "reference_pin": "2",
+          "reference_function": "S1_2",
           "native_pin_name": "S3",
-          "net": "SD_D0_BUS",
+          "net": "SD_CLK_BUS",
           "no_connect": false,
-          "reference_net": "/STORAGE_SD/SD_D0_BUS"
+          "reference_net": "/STORAGE_SD/SD_CLK_BUS"
         },
         "10": {
           "reference_pin": "10",
@@ -2929,20 +2929,20 @@
           "reference_net": "SD_IO_EN"
         },
         "11": {
-          "reference_pin": "11",
-          "reference_function": "D4_11",
+          "reference_pin": "6",
+          "reference_function": "D2_6",
           "native_pin_name": "D4",
-          "net": "SD_CARD_D1",
+          "net": "SD_CARD_CMD",
           "no_connect": false,
-          "reference_net": "SD_CARD_D1"
+          "reference_net": "SD_CARD_CMD"
         },
         "12": {
-          "reference_pin": "12",
-          "reference_function": "S4_12",
+          "reference_pin": "5",
+          "reference_function": "S2_5",
           "native_pin_name": "S4",
-          "net": "SD_D1_BUS",
+          "net": "SD_CMD_BUS",
           "no_connect": false,
-          "reference_net": "/STORAGE_SD/SD_D1_BUS"
+          "reference_net": "/STORAGE_SD/SD_CMD_BUS"
         },
         "13": {
           "reference_pin": "13",
@@ -2962,7 +2962,7 @@
         }
       },
       "errors": [],
-      "pin_status": "PASS_EXPLICIT_PIN_MAP"
+      "pin_status": "PASS_EXPLICIT_EQUIVALENT_CHANNEL_MAP"
     },
     "U706": {
       "device_uuid": "5a996874d0514f7ea66d2851adcd38ca",
@@ -2978,20 +2978,20 @@
           "reference_net": "SD_IO_EN"
         },
         "2": {
-          "reference_pin": "2",
-          "reference_function": "S1_2",
+          "reference_pin": "5",
+          "reference_function": "S2_5",
           "native_pin_name": "S1",
-          "net": "SD_D2_BUS",
+          "net": "SD_D3_BUS",
           "no_connect": false,
-          "reference_net": "/STORAGE_SD/SD_D2_BUS"
+          "reference_net": "/STORAGE_SD/SD_D3_BUS"
         },
         "3": {
-          "reference_pin": "3",
-          "reference_function": "D1_3",
+          "reference_pin": "6",
+          "reference_function": "D2_6",
           "native_pin_name": "D1",
-          "net": "SD_CARD_D2",
+          "net": "SD_CARD_D3",
           "no_connect": false,
-          "reference_net": "SD_CARD_D2"
+          "reference_net": "SD_CARD_D3"
         },
         "4": {
           "reference_pin": "4",
@@ -3002,20 +3002,20 @@
           "reference_net": "SD_IO_EN"
         },
         "5": {
-          "reference_pin": "5",
-          "reference_function": "S2_5",
+          "reference_pin": "2",
+          "reference_function": "S1_2",
           "native_pin_name": "S2",
-          "net": "SD_D3_BUS",
+          "net": "SD_D2_BUS",
           "no_connect": false,
-          "reference_net": "/STORAGE_SD/SD_D3_BUS"
+          "reference_net": "/STORAGE_SD/SD_D2_BUS"
         },
         "6": {
-          "reference_pin": "6",
-          "reference_function": "D2_6",
+          "reference_pin": "3",
+          "reference_function": "D1_3",
           "native_pin_name": "D2",
-          "net": "SD_CARD_D3",
+          "net": "SD_CARD_D2",
           "no_connect": false,
-          "reference_net": "SD_CARD_D3"
+          "reference_net": "SD_CARD_D2"
         },
         "7": {
           "reference_pin": "7",
@@ -3083,7 +3083,7 @@
         }
       },
       "errors": [],
-      "pin_status": "PASS_EXPLICIT_PIN_MAP"
+      "pin_status": "PASS_EXPLICIT_EQUIVALENT_CHANNEL_MAP"
     },
     "U501": {
       "device_uuid": "2ff1328586fb477c851b27e686451df0",
@@ -7326,25 +7326,29 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "MCU_EN",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "/MCU_CORE/MCU_EN"
         },
         "2": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "MCU_EN",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "/MCU_CORE/MCU_EN"
         },
         "3": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",
@@ -7356,25 +7360,29 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "BOOT_N",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "/MCU_CORE/BOOT_N"
         },
         "2": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "BOOT_N",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "/MCU_CORE/BOOT_N"
         },
         "3": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",
@@ -7386,25 +7394,29 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "POWER_KEY_N",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "POWER_KEY_N"
         },
         "2": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "POWER_KEY_N",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "POWER_KEY_N"
         },
         "3": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",
@@ -7416,25 +7428,29 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_PLUS_N",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "KEY_PLUS_N"
         },
         "2": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_PLUS_N",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "KEY_PLUS_N"
         },
         "3": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",
@@ -7446,25 +7462,29 @@
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_MINUS_N",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "KEY_MINUS_N"
         },
         "2": {
           "reference_pin": "1",
           "reference_function": "1_1",
           "net": "KEY_MINUS_N",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "KEY_MINUS_N"
         },
         "3": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         },
         "4": {
           "reference_pin": "2",
           "reference_function": "2_2",
           "net": "GND",
-          "no_connect": false
+          "no_connect": false,
+          "reference_net": "GND"
         }
       },
       "pin_status": "IDENTITY_TWO_PIN_OR_VERIFIED_SAME_SERIES_SUBSTITUTION",

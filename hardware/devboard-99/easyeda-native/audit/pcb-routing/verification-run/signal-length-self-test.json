@@ -1,0 +1,40 @@
+{
+  "status": "PASS_SIGNAL_LENGTH_SELF_TESTS",
+  "tests": [
+    {
+      "name": "Shortest-length optimization differs from lowest-resistance route",
+      "pass": true,
+      "evidence": {
+        "shortest_mm": 1.7999999999999998,
+        "resistance_route_mm": 3.8
+      }
+    },
+    {
+      "name": "Dangling branch is not added to endpoint path",
+      "pass": true,
+      "evidence": 1.7999999999999998
+    },
+    {
+      "name": "Unconnected near-collinear gap remains open",
+      "pass": true,
+      "evidence": "NO_COMPLETE_LINE_CENTERLINE_PATH"
+    },
+    {
+      "name": "Coincident layers do not join without plated access",
+      "pass": true,
+      "evidence": "NO_COMPLETE_LINE_CENTERLINE_PATH"
+    },
+    {
+      "name": "Real same-net via joins layers and is identified",
+      "pass": true,
+      "evidence": [
+        "V"
+      ]
+    },
+    {
+      "name": "Wrong-net bridge cannot create a path",
+      "pass": true,
+      "evidence": "NO_COMPLETE_LINE_CENTERLINE_PATH"
+    }
+  ]
+}

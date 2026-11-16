@@ -1,0 +1,637 @@
+{
+  "schema": "native-thermal-feature-baseline-v1",
+  "source": {
+    "path": "hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+    "sha256": "34bc9c9ad31389b536ad0503b453630fca0aa7870bc460cb685996751d4c3450"
+  },
+  "scope": "Preserve exact22approved thermal vias and11originalGND copper lines; ordinary subsequentGNDfanout is not exempt.",
+  "records": [
+    {
+      "type": "VIA",
+      "id": "c4f9bd2454969d83",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 487.0052,
+        "centerY": -1284.6635,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 1.9685,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "63317b85b8c69669",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 487.0052,
+        "centerY": -1235.0573,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 1.9685,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "6222120a7c7e658a",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 536.6114,
+        "centerY": -1284.6635,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 1.9685,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "b02b1212f7871b6b",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 536.6114,
+        "centerY": -1235.0573,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 1.9685,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "cf12a46d644fc47c",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1348.409,
+        "centerY": -2885.874,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "5e925f170e18c79a",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1328.724,
+        "centerY": -2704.7716,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "34da80c2099c699f",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1248.0153,
+        "centerY": -2805.1653,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "da480db9ded07017",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1297.2279,
+        "centerY": -2700.8346,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "d001d5f280313c37",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 551.1583,
+        "centerY": -1838.5865,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "039367a2faeefb8c",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 551.1583,
+        "centerY": -1940.9487,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "4385ce7f02789392",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1834.6716,
+        "centerY": -334.705,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "c8715516e5c24c71",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1834.6716,
+        "centerY": -389.8232,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "66d6312c9e099b67",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1862.2306,
+        "centerY": -307.146,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "613b1b34a5c69551",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1862.2306,
+        "centerY": -362.2641,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "2a1322152932d0da",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1862.2306,
+        "centerY": -417.3822,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "13a04239344ef659",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1889.7897,
+        "centerY": -334.705,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "30fff0a6fa6cd9d0",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1889.7897,
+        "centerY": -389.8232,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "6968f87c0229c82f",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1917.3488,
+        "centerY": -307.146,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "4762fae59f3beb92",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1917.3488,
+        "centerY": -362.2641,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "9dd546fd68ae9511",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1917.3488,
+        "centerY": -417.3822,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "40007ae488eeb3f4",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1944.9078,
+        "centerY": -334.705,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "VIA",
+      "id": "3a3fbc3342bb90ec",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "ruleName": "",
+        "centerX": 1944.9078,
+        "centerY": -389.8232,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": 0.7874,
+        "bottomSolderExpansion": 0.7874,
+        "locked": true,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "2eef4890ad2d2cfc",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 541.3359,
+        "startY": -1284.6635,
+        "endX": 541.3359,
+        "endY": -1314.9785,
+        "width": 9.4488,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "02f031e2baf4b925",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 1348.409,
+        "startY": -2815.0078,
+        "endX": 1348.409,
+        "endY": -2851.4252,
+        "width": 11.811,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "c28edb5d22b1bc6c",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 1348.409,
+        "startY": -2851.4252,
+        "endX": 1348.409,
+        "endY": -2885.874,
+        "width": 11.811,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "dc6bc209cc491cdc",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 1328.724,
+        "startY": -2775.6378,
+        "endX": 1328.724,
+        "endY": -2739.2204,
+        "width": 11.811,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "31f21e5112d9b1e2",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 1328.724,
+        "startY": -2739.2204,
+        "endX": 1328.724,
+        "endY": -2704.7716,
+        "width": 11.811,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "509d76503dc6d448",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 1318.8815,
+        "startY": -2805.1653,
+        "endX": 1282.4641,
+        "endY": -2805.1653,
+        "width": 11.811,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "009a4312f9f656d3",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 1282.4641,
+        "startY": -2805.1653,
+        "endX": 1248.0153,
+        "endY": -2805.1653,
+        "width": 11.811,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "b3b9794bb0a855f8",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 1328.724,
+        "startY": -2704.7716,
+        "endX": 1328.724,
+        "endY": -2700.8346,
+        "width": 23.622,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "5f2c84c31dbdf742",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 1328.724,
+        "startY": -2700.8346,
+        "endX": 1297.2279,
+        "endY": -2700.8346,
+        "width": 23.622,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "d6eeea7dae7fe69e",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 551.1583,
+        "startY": -1870.0826,
+        "endX": 551.1583,
+        "endY": -1838.5865,
+        "width": 23.622,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "type": "LINE",
+      "id": "a1294a2bfee3819b",
+      "body": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND",
+        "layerId": 1,
+        "startX": 551.1583,
+        "startY": -1909.4526,
+        "endX": 551.1583,
+        "endY": -1940.9487,
+        "width": 23.622,
+        "locked": true,
+        "zIndex": -1
+      }
+    }
+  ]
+}

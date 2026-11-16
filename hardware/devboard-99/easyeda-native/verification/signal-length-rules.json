@@ -1,0 +1,759 @@
+{
+  "schema": "native-signal-length-rules-v1",
+  "chains": [
+    {
+      "id": "USB_A_P",
+      "group": "USB",
+      "description": "A-side USB-C data pad to ESP32",
+      "legs": [
+        {
+          "net": "USB_DP_PORT",
+          "from": "J501.A6",
+          "to": "R503.1"
+        },
+        {
+          "net": "USB_DP_MCU",
+          "from": "R503.2",
+          "to": "U301.14"
+        }
+      ],
+      "component_transitions": [
+        "R503.1 -> R503.2"
+      ]
+    },
+    {
+      "id": "USB_A_N",
+      "group": "USB",
+      "description": "A-side USB-C data pad to ESP32",
+      "legs": [
+        {
+          "net": "USB_DM_PORT",
+          "from": "J501.A7",
+          "to": "R504.1"
+        },
+        {
+          "net": "USB_DM_MCU",
+          "from": "R504.2",
+          "to": "U301.13"
+        }
+      ],
+      "component_transitions": [
+        "R504.1 -> R504.2"
+      ]
+    },
+    {
+      "id": "USB_B_P",
+      "group": "USB",
+      "description": "B-side USB-C data pad to ESP32",
+      "legs": [
+        {
+          "net": "USB_DP_PORT",
+          "from": "J501.B6",
+          "to": "R503.1"
+        },
+        {
+          "net": "USB_DP_MCU",
+          "from": "R503.2",
+          "to": "U301.14"
+        }
+      ],
+      "component_transitions": [
+        "R503.1 -> R503.2"
+      ]
+    },
+    {
+      "id": "USB_B_N",
+      "group": "USB",
+      "description": "B-side USB-C data pad to ESP32",
+      "legs": [
+        {
+          "net": "USB_DM_PORT",
+          "from": "J501.B7",
+          "to": "R504.1"
+        },
+        {
+          "net": "USB_DM_MCU",
+          "from": "R504.2",
+          "to": "U301.13"
+        }
+      ],
+      "component_transitions": [
+        "R504.1 -> R504.2"
+      ]
+    },
+    {
+      "id": "SD_CLK",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "legs": [
+        {
+          "net": "SD_CLK",
+          "from": "U301.31",
+          "to": "R710.1"
+        },
+        {
+          "net": "SD_CLK_BUS",
+          "from": "R710.2",
+          "to": "U701.9"
+        },
+        {
+          "net": "SD_CARD_CLK",
+          "from": "U701.8",
+          "to": "J701.5"
+        }
+      ],
+      "component_transitions": [
+        "R710.1 -> R710.2",
+        "U701.9 -> U701.8"
+      ]
+    },
+    {
+      "id": "SD_CMD",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "legs": [
+        {
+          "net": "SD_CMD",
+          "from": "U301.32",
+          "to": "R711.1"
+        },
+        {
+          "net": "SD_CMD_BUS",
+          "from": "R711.2",
+          "to": "U701.12"
+        },
+        {
+          "net": "SD_CARD_CMD",
+          "from": "U701.11",
+          "to": "J701.3"
+        }
+      ],
+      "component_transitions": [
+        "R711.1 -> R711.2",
+        "U701.12 -> U701.11"
+      ]
+    },
+    {
+      "id": "SD_D0",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "legs": [
+        {
+          "net": "SD_D0",
+          "from": "U301.24",
+          "to": "R712.1"
+        },
+        {
+          "net": "SD_D0_BUS",
+          "from": "R712.2",
+          "to": "U701.5"
+        },
+        {
+          "net": "SD_CARD_D0",
+          "from": "U701.6",
+          "to": "J701.7"
+        }
+      ],
+      "component_transitions": [
+        "R712.1 -> R712.2",
+        "U701.5 -> U701.6"
+      ]
+    },
+    {
+      "id": "SD_D1",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "legs": [
+        {
+          "net": "SD_D1",
+          "from": "U301.25",
+          "to": "R713.1"
+        },
+        {
+          "net": "SD_D1_BUS",
+          "from": "R713.2",
+          "to": "U701.2"
+        },
+        {
+          "net": "SD_CARD_D1",
+          "from": "U701.3",
+          "to": "J701.8"
+        }
+      ],
+      "component_transitions": [
+        "R713.1 -> R713.2",
+        "U701.2 -> U701.3"
+      ]
+    },
+    {
+      "id": "SD_D2",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "legs": [
+        {
+          "net": "SD_D2",
+          "from": "U301.34",
+          "to": "R714.1"
+        },
+        {
+          "net": "SD_D2_BUS",
+          "from": "R714.2",
+          "to": "U706.5"
+        },
+        {
+          "net": "SD_CARD_D2",
+          "from": "U706.6",
+          "to": "J701.1"
+        }
+      ],
+      "component_transitions": [
+        "R714.1 -> R714.2",
+        "U706.5 -> U706.6"
+      ]
+    },
+    {
+      "id": "SD_D3",
+      "group": "SD",
+      "description": "ESP32 to SD socket via source resistor and enabled TMUX",
+      "legs": [
+        {
+          "net": "SD_D3",
+          "from": "U301.33",
+          "to": "R715.1"
+        },
+        {
+          "net": "SD_D3_BUS",
+          "from": "R715.2",
+          "to": "U706.2"
+        },
+        {
+          "net": "SD_CARD_D3",
+          "from": "U706.3",
+          "to": "J701.2"
+        }
+      ],
+      "component_transitions": [
+        "R715.1 -> R715.2",
+        "U706.2 -> U706.3"
+      ]
+    },
+    {
+      "id": "EPD_SCLK",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "legs": [
+        {
+          "net": "EPD_SCLK",
+          "from": "U301.9",
+          "to": "U601.2"
+        },
+        {
+          "net": "EPD_BUF_SCLK",
+          "from": "U601.18",
+          "to": "R603.1"
+        },
+        {
+          "net": "EPD_PAD_SCLK",
+          "from": "R603.2",
+          "to": "J601.13"
+        }
+      ],
+      "component_transitions": [
+        "U601.2 -> U601.18",
+        "R603.1 -> R603.2"
+      ]
+    },
+    {
+      "id": "EPD_MOSI",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "legs": [
+        {
+          "net": "EPD_MOSI",
+          "from": "U301.8",
+          "to": "U601.3"
+        },
+        {
+          "net": "EPD_BUF_MOSI",
+          "from": "U601.17",
+          "to": "R604.1"
+        },
+        {
+          "net": "EPD_PAD_MOSI",
+          "from": "R604.2",
+          "to": "J601.14"
+        }
+      ],
+      "component_transitions": [
+        "U601.3 -> U601.17",
+        "R604.1 -> R604.2"
+      ]
+    },
+    {
+      "id": "EPD_CS",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "legs": [
+        {
+          "net": "EPD_CS",
+          "from": "U301.10",
+          "to": "U601.4"
+        },
+        {
+          "net": "EPD_BUF_CS",
+          "from": "U601.16",
+          "to": "R605.1"
+        },
+        {
+          "net": "EPD_PAD_CS",
+          "from": "R605.2",
+          "to": "J601.12"
+        }
+      ],
+      "component_transitions": [
+        "U601.4 -> U601.16",
+        "R605.1 -> R605.2"
+      ]
+    },
+    {
+      "id": "EPD_DC",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "legs": [
+        {
+          "net": "EPD_DC",
+          "from": "U301.11",
+          "to": "U601.5"
+        },
+        {
+          "net": "EPD_BUF_DC",
+          "from": "U601.15",
+          "to": "R606.1"
+        },
+        {
+          "net": "EPD_PAD_DC",
+          "from": "R606.2",
+          "to": "J601.11"
+        }
+      ],
+      "component_transitions": [
+        "U601.5 -> U601.15",
+        "R606.1 -> R606.2"
+      ]
+    },
+    {
+      "id": "EPD_RST_N",
+      "group": "EPD",
+      "description": "ESP32 to screen connector through buffer and series resistor",
+      "legs": [
+        {
+          "net": "EPD_RST_N",
+          "from": "U301.12",
+          "to": "U601.6"
+        },
+        {
+          "net": "EPD_BUF_RST_N",
+          "from": "U601.14",
+          "to": "R607.1"
+        },
+        {
+          "net": "EPD_PAD_RST_N",
+          "from": "R607.2",
+          "to": "J601.10"
+        }
+      ],
+      "component_transitions": [
+        "U601.6 -> U601.14",
+        "R607.1 -> R607.2"
+      ]
+    },
+    {
+      "id": "EPD_BUSY",
+      "group": "EPD",
+      "description": "Screen BUSY return to ESP32 through U602",
+      "legs": [
+        {
+          "net": "EPD_PAD_BUSY",
+          "from": "J601.9",
+          "to": "U602.2"
+        },
+        {
+          "net": "EPD_BUSY",
+          "from": "U602.4",
+          "to": "U301.17"
+        }
+      ],
+      "component_transitions": [
+        "U602.2 -> U602.4"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "USB_DNP_C501",
+      "group": "USB",
+      "description": "C501 signal pad to MCU; capacitor remains DNP",
+      "legs": [
+        {
+          "net": "USB_DP_MCU",
+          "from": "C501.1",
+          "to": "U301.14"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "USB_DNP_C502",
+      "group": "USB",
+      "description": "C502 signal pad to MCU; capacitor remains DNP",
+      "legs": [
+        {
+          "net": "USB_DM_MCU",
+          "from": "C502.1",
+          "to": "U301.13"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "SD_CLK_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "legs": [
+        {
+          "net": "SD_CLK",
+          "from": "U301.31",
+          "to": "J302.3"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "SD_CMD_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "legs": [
+        {
+          "net": "SD_CMD",
+          "from": "U301.32",
+          "to": "J302.4"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "SD_D0_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "legs": [
+        {
+          "net": "SD_D0",
+          "from": "U301.24",
+          "to": "J302.5"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "SD_D1_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "legs": [
+        {
+          "net": "SD_D1",
+          "from": "U301.25",
+          "to": "J302.6"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "SD_D2_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "legs": [
+        {
+          "net": "SD_D2",
+          "from": "U301.34",
+          "to": "J302.7"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "SD_D3_HEADER",
+      "group": "SD",
+      "description": "MCU to debug header terminal (not asserted to be full stub)",
+      "legs": [
+        {
+          "net": "SD_D3",
+          "from": "U301.33",
+          "to": "J302.8"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_SCLK_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "legs": [
+        {
+          "net": "EPD_SCLK",
+          "from": "U301.9",
+          "to": "J301.3"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_SCLK_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "legs": [
+        {
+          "net": "EPD_SCLK",
+          "from": "J301.3",
+          "to": "U601.2"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_SCLK_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "legs": [
+        {
+          "net": "EPD_SCLK",
+          "from": "R608.1",
+          "to": "U601.2"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_MOSI_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "legs": [
+        {
+          "net": "EPD_MOSI",
+          "from": "U301.8",
+          "to": "J301.4"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_MOSI_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "legs": [
+        {
+          "net": "EPD_MOSI",
+          "from": "J301.4",
+          "to": "U601.3"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_MOSI_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "legs": [
+        {
+          "net": "EPD_MOSI",
+          "from": "R609.1",
+          "to": "U601.3"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_CS_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "legs": [
+        {
+          "net": "EPD_CS",
+          "from": "U301.10",
+          "to": "J301.5"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_CS_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "legs": [
+        {
+          "net": "EPD_CS",
+          "from": "J301.5",
+          "to": "U601.4"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_CS_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "legs": [
+        {
+          "net": "EPD_CS",
+          "from": "R610.2",
+          "to": "U601.4"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_DC_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "legs": [
+        {
+          "net": "EPD_DC",
+          "from": "U301.11",
+          "to": "J301.6"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_DC_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "legs": [
+        {
+          "net": "EPD_DC",
+          "from": "J301.6",
+          "to": "U601.5"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_DC_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "legs": [
+        {
+          "net": "EPD_DC",
+          "from": "R611.1",
+          "to": "U601.5"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_RST_N_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to diagnostic header on signal",
+      "legs": [
+        {
+          "net": "EPD_RST_N",
+          "from": "U301.12",
+          "to": "J301.7"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_RST_N_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "Diagnostic header to buffer input",
+      "legs": [
+        {
+          "net": "EPD_RST_N",
+          "from": "J301.7",
+          "to": "U601.6"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_RST_N_PULL_BUFFER",
+      "group": "EPD",
+      "description": "Pull resistor to buffer input",
+      "legs": [
+        {
+          "net": "EPD_RST_N",
+          "from": "R612.1",
+          "to": "U601.6"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_BUSY_MCU_HEADER",
+      "group": "EPD",
+      "description": "MCU to BUSY diagnostic header",
+      "legs": [
+        {
+          "net": "EPD_BUSY",
+          "from": "U301.17",
+          "to": "J301.8"
+        }
+      ],
+      "component_transitions": []
+    },
+    {
+      "id": "EPD_BUSY_HEADER_BUFFER",
+      "group": "EPD",
+      "description": "BUSY diagnostic header to U602 output",
+      "legs": [
+        {
+          "net": "EPD_BUSY",
+          "from": "J301.8",
+          "to": "U602.4"
+        }
+      ],
+      "component_transitions": []
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "USB_A_EXPOSED_SKEW",
+      "chains": [
+        "USB_A_P",
+        "USB_A_N"
+      ],
+      "interpretation": "Board exposed-trace P/N skew; excludes package/connector/barrel paths and does not prove 90-ohm impedance."
+    },
+    {
+      "id": "USB_B_EXPOSED_SKEW",
+      "chains": [
+        "USB_B_P",
+        "USB_B_N"
+      ],
+      "interpretation": "Board exposed-trace P/N skew; excludes package/connector/barrel paths and does not prove 90-ohm impedance."
+    },
+    {
+      "id": "SD_EXPOSED_SPREAD",
+      "chains": [
+        "SD_CLK",
+        "SD_CMD",
+        "SD_D0",
+        "SD_D1",
+        "SD_D2",
+        "SD_D3"
+      ],
+      "interpretation": "Geometric six-line spread only; clock/data timing also depends on TMUX/package/loading/vias. No added serpentine or delay claim."
+    },
+    {
+      "id": "EPD_FORWARD_EXPOSED_SPREAD",
+      "chains": [
+        "EPD_SCLK",
+        "EPD_MOSI",
+        "EPD_CS",
+        "EPD_DC",
+        "EPD_RST_N"
+      ],
+      "interpretation": "Diagnostic geometry only. Control signals do not need blind length matching to SCLK."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "Native schematic electrical mapping and selected BOM metadata only; PCB/CAM not certified",
+  "components": 236,
+  "native_logical_pins": 792,
+  "connected_pins": 767,
+  "intentional_nc_pins": 25,
+  "named_nets": 156,
+  "dnp": [
+    "C501",
+    "C502",
+    "J301",
+    "J302",
+    "J303",
+    "R108"
+  ],
+  "inputs_sha256": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/native-pcb.enet": "dfd8a783b35fd519fe46f214f0205831c7e21ef6d2ec198c201658289514ee1b",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/native-pin-map.json": "90e60394f56b35b3d194bf197c4ef91757c75ffe9c17a5794a449c5edbde4733",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/reference-components.json": "25ccb78916d1c75966f3e493f24df03c2b907425b33392b99e62c7d693c8e281",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/native-net-aliases.json": "afbdae62d0ab451ec3a56f2bdc05bba7125f23765e482dcf43f24ac2afae83b9"
+  },
+  "errors": []
+}

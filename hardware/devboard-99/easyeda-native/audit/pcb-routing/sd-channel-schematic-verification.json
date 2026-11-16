@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "components": 236,
+  "pin_count": 792,
+  "changed_pins": [
+    {
+      "ref": "U701",
+      "pin": "2",
+      "old_net": "SD_CLK_BUS",
+      "new_net": "SD_D1_BUS"
+    },
+    {
+      "ref": "U701",
+      "pin": "3",
+      "old_net": "SD_CARD_CLK",
+      "new_net": "SD_CARD_D1"
+    },
+    {
+      "ref": "U701",
+      "pin": "5",
+      "old_net": "SD_CMD_BUS",
+      "new_net": "SD_D0_BUS"
+    },
+    {
+      "ref": "U701",
+      "pin": "6",
+      "old_net": "SD_CARD_CMD",
+      "new_net": "SD_CARD_D0"
+    },
+    {
+      "ref": "U701",
+      "pin": "8",
+      "old_net": "SD_CARD_D0",
+      "new_net": "SD_CARD_CLK"
+    },
+    {
+      "ref": "U701",
+      "pin": "9",
+      "old_net": "SD_D0_BUS",
+      "new_net": "SD_CLK_BUS"
+    },
+    {
+      "ref": "U701",
+      "pin": "11",
+      "old_net": "SD_CARD_D1",
+      "new_net": "SD_CARD_CMD"
+    },
+    {
+      "ref": "U701",
+      "pin": "12",
+      "old_net": "SD_D1_BUS",
+      "new_net": "SD_CMD_BUS"
+    },
+    {
+      "ref": "U706",
+      "pin": "2",
+      "old_net": "SD_D2_BUS",
+      "new_net": "SD_D3_BUS"
+    },
+    {
+      "ref": "U706",
+      "pin": "3",
+      "old_net": "SD_CARD_D2",
+      "new_net": "SD_CARD_D3"
+    },
+    {
+      "ref": "U706",
+      "pin": "5",
+      "old_net": "SD_D3_BUS",
+      "new_net": "SD_D2_BUS"
+    },
+    {
+      "ref": "U706",
+      "pin": "6",
+      "old_net": "SD_CARD_D3",
+      "new_net": "SD_CARD_D2"
+    }
+  ],
+  "errors": [],
+  "permutation": {
+    "type": "same_device_equivalent_channel_permutation",
+    "device": "TMUX1511PW",
+    "direction": "reference_pin_to_native_pin",
+    "permutations": {
+      "U701": {
+        "2": "9",
+        "3": "8",
+        "5": "12",
+        "6": "11",
+        "9": "5",
+        "8": "6",
+        "12": "2",
+        "11": "3"
+      },
+      "U706": {
+        "2": "5",
+        "3": "6",
+        "5": "2",
+        "6": "3"
+      }
+    },
+    "unchanged": "All enables, VDD, GND, NC and all other devices/pins. MCU GPIO, socket assignments and firmware unchanged."
+  }
+}

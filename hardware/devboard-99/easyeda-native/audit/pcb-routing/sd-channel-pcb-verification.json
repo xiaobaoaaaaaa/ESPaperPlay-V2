@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "changes": [
+    {
+      "ref": "U701",
+      "pin": "2",
+      "old": "SD_CLK_BUS",
+      "new": "SD_D1_BUS"
+    },
+    {
+      "ref": "U701",
+      "pin": "3",
+      "old": "SD_CARD_CLK",
+      "new": "SD_CARD_D1"
+    },
+    {
+      "ref": "U701",
+      "pin": "5",
+      "old": "SD_CMD_BUS",
+      "new": "SD_D0_BUS"
+    },
+    {
+      "ref": "U701",
+      "pin": "6",
+      "old": "SD_CARD_CMD",
+      "new": "SD_CARD_D0"
+    },
+    {
+      "ref": "U701",
+      "pin": "8",
+      "old": "SD_CARD_D0",
+      "new": "SD_CARD_CLK"
+    },
+    {
+      "ref": "U701",
+      "pin": "9",
+      "old": "SD_D0_BUS",
+      "new": "SD_CLK_BUS"
+    },
+    {
+      "ref": "U701",
+      "pin": "11",
+      "old": "SD_CARD_D1",
+      "new": "SD_CARD_CMD"
+    },
+    {
+      "ref": "U701",
+      "pin": "12",
+      "old": "SD_D1_BUS",
+      "new": "SD_CMD_BUS"
+    },
+    {
+      "ref": "U706",
+      "pin": "2",
+      "old": "SD_D2_BUS",
+      "new": "SD_D3_BUS"
+    },
+    {
+      "ref": "U706",
+      "pin": "3",
+      "old": "SD_CARD_D2",
+      "new": "SD_CARD_D3"
+    },
+    {
+      "ref": "U706",
+      "pin": "5",
+      "old": "SD_D3_BUS",
+      "new": "SD_D2_BUS"
+    },
+    {
+      "ref": "U706",
+      "pin": "6",
+      "old": "SD_CARD_D3",
+      "new": "SD_CARD_D2"
+    }
+  ],
+  "physical_pads": 803,
+  "errors": []
+}

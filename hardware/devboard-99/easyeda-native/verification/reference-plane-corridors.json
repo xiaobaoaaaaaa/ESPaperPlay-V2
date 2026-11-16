@@ -1,0 +1,16 @@
+{
+  "schema": "native-actual-reference-corridor-v1",
+  "scope": "Project geometric acceptance for the repaired J303.7 antipad chain; this is actual CAM ground channel width, not an impedance or current-density claim.",
+  "pairs": [
+    {
+      "id": "J303_7_vs_two_EPD_DC_apertures",
+      "reference_ref": "J303",
+      "reference_pin": "7",
+      "neighbor_net": "EPD_DC",
+      "neighbor_search_radius_mm": 4.0,
+      "expected_neighbor_count": 2,
+      "minimum_actual_GND_channel_mm": 0.15,
+      "layers": [15, 16]
+    }
+  ]
+}

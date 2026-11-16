@@ -50,3 +50,6 @@ _autosave-*
 /hardware/reference/**/*.epro2
 /hardware/reference/**/*.epro
 /hardware/reference/**/*.epru
+
+# Regenerable native CAM extraction caches; keep the authoritative ZIPs.
+/hardware/devboard-99/easyeda-native/audit/**/*-extracted/

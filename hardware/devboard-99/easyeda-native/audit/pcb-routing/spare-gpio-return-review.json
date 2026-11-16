@@ -1,0 +1,33 @@
+{
+  "status": "RECORDED_SPARE_GPIO_RETURN_PREFERENCE_DEVIATION",
+  "final_source": {
+    "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+    "sha256": "2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e"
+  },
+  "signal_via": {
+    "id": "d7475b9eb55316cc",
+    "net": "IOX_SP16",
+    "xy_mm": [
+      48.64999922,
+      -43.499999360000004
+    ]
+  },
+  "GND_via": {
+    "id": "ecbe0f72b19d894c",
+    "xy_mm": [
+      46.700000579999994,
+      -45.749999939999995
+    ]
+  },
+  "distance_mm": 2.977414533786346,
+  "preferred_distance_mm": 2,
+  "limits": [
+    "Low-speed reserved GPIO only; no high-speed signal-integrity qualification.",
+    "Manufacturing clearance limits unchanged; native DRC checked separately.",
+    "Final CAM independently checks actual GND barrel/plane connectivity."
+  ],
+  "bounded_search": {
+    "sha256": "6f9275e4878627358f7995f89dfa60737f7a04601fba076f9ae6bc5dcc206100",
+    "note": "No legal extra via found within2mm using .1502mm copper and .2502mm drill-edge search margins."
+  }
+}

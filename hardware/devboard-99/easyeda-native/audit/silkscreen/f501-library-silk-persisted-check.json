@@ -1,0 +1,210 @@
+{
+  "status": "PASS_F501_LIBRARY_SILK_ONLY",
+  "inputs": {
+    "before": {
+      "path": "build/easyeda-native99/routing-work/F501-silk-before.efoo",
+      "sha256": "e2f3b7486d456309cc0ddd7763d05712165c31539e1422b91ad91997559b712b"
+    },
+    "after": {
+      "path": "build/easyeda-native99/routing-work/F501-silk-unsaved.efoo",
+      "sha256": "b3bd07c06d0c406137e0d0bf9d850843d2020c7680df49a32d54290bde3f7858"
+    },
+    "before_board": {
+      "path": "build/easyeda-native99/routing-work/f501-source-probe-before.epcb",
+      "sha256": "a101e37189ceeca11f812c8e6c18f544fbd5e725bec6be0e1eed6c6d88e2cccb"
+    },
+    "after_board": {
+      "path": "build/easyeda-native99/routing-work/f501-silk-fixed.epcb",
+      "sha256": "f430b8096cfa732f1a38524d7d460839a53a501ecedde5f8bafde56ad73422d7"
+    },
+    "before_archive": {
+      "path": "build/easyeda-native99/routing-work/reference-fixed-stage.epro2",
+      "sha256": "37e6d83277199c687779ea40227158a3046efe548ee92ef2f005e0d3d3fdafe4"
+    },
+    "after_archive": {
+      "path": "build/easyeda-native99/routing-work/f501-silk-fixed.epro2",
+      "sha256": "719aef781373f6982616dfb16bb15af73c07a91e3a62d7b2f9b78be9cb99c835"
+    },
+    "before_cam": {
+      "path": "build/easyeda-native99/routing-work/NOT-FOR-MANUFACTURE-silk-body-review-cam.zip",
+      "sha256": "0014b33c8943e9891e23e5609d7700a114b8a61bf74150f70ddf1da0458dea18"
+    },
+    "after_cam": {
+      "path": "build/easyeda-native99/routing-work/NOT-FOR-MANUFACTURE-f501-silk-fixed-cam.zip",
+      "sha256": "970d05460946d0b68c78beb71d715ef267dc9823817e3672c4c3775bb4c85bf0"
+    },
+    "api_result": {
+      "path": "build/easyeda-native99/routing-work/f501-library-rules-before-after.json",
+      "sha256": "a3ff6e32d3791b44b68ce33ae75feb442c0c27d5fab4dffaaa57afca0a85742c"
+    }
+  },
+  "checks": [
+    {
+      "kind": "same_existing_library_UUID",
+      "pass": true
+    },
+    {
+      "kind": "exact_two_silk_paths_only",
+      "pass": true,
+      "differences": [
+        [
+          "POLY",
+          "e10"
+        ],
+        [
+          "POLY",
+          "e9"
+        ]
+      ],
+      "errors": []
+    },
+    {
+      "kind": "all_board_records_unchanged_except_proven_cache",
+      "pass": true,
+      "differences": [
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"ba72da6155a688cf\"]"
+        },
+        {
+          "type": "POURED",
+          "id": "[\"POURED\",\"d3ff18302dc53c44\"]"
+        }
+      ],
+      "physical_CAM_proof_required": true
+    },
+    {
+      "kind": "all_libraries_and_non_PCB_documents_only_F501_two_paths",
+      "pass": true,
+      "errors": [],
+      "documents_compared": 191,
+      "excluded_PCB_reason": "Compared against immediate source pair; old archive predates body-aware designator positions."
+    },
+    {
+      "kind": "physical_CAM_file_set",
+      "pass": true
+    },
+    {
+      "kind": "unchanged_physical_CAM_commands",
+      "file": "Drill_NPTH_Through.DRL",
+      "pass": true
+    },
+    {
+      "kind": "unchanged_physical_CAM_commands",
+      "file": "Drill_PTH_Through.DRL",
+      "pass": true
+    },
+    {
+      "kind": "unchanged_physical_CAM_commands",
+      "file": "Drill_PTH_Through_Via.DRL",
+      "pass": true
+    },
+    {
+      "kind": "exact_ordered_expanded_Gerber_primitives",
+      "file": "Gerber_BoardOutlineLayer.GKO",
+      "pass": true,
+      "command_stream_identical": false,
+      "primitive_sequence_identical": true,
+      "object_count_before": 4,
+      "object_count_after": 4,
+      "coordinate_or_width_tolerance": 0,
+      "explanation": "Used aperture geometry expanded at every actual draw/flash with polarity and order intact. Unused aperture declarations and original aperture numbering have no geometric effect; no coordinate/width rounding applied."
+    },
+    {
+      "kind": "exact_ordered_expanded_Gerber_primitives",
+      "file": "Gerber_BottomLayer.GBL",
+      "pass": true,
+      "command_stream_identical": false,
+      "primitive_sequence_identical": true,
+      "object_count_before": 1326,
+      "object_count_after": 1326,
+      "coordinate_or_width_tolerance": 0,
+      "explanation": "Used aperture geometry expanded at every actual draw/flash with polarity and order intact. Unused aperture declarations and original aperture numbering have no geometric effect; no coordinate/width rounding applied."
+    },
+    {
+      "kind": "exact_ordered_expanded_Gerber_primitives",
+      "file": "Gerber_BottomSolderMaskLayer.GBS",
+      "pass": true,
+      "command_stream_identical": false,
+      "primitive_sequence_identical": true,
+      "object_count_before": 121,
+      "object_count_after": 121,
+      "coordinate_or_width_tolerance": 0,
+      "explanation": "Used aperture geometry expanded at every actual draw/flash with polarity and order intact. Unused aperture declarations and original aperture numbering have no geometric effect; no coordinate/width rounding applied."
+    },
+    {
+      "kind": "exact_ordered_expanded_Gerber_primitives",
+      "file": "Gerber_InnerLayer1.G1",
+      "pass": true,
+      "command_stream_identical": false,
+      "primitive_sequence_identical": true,
+      "object_count_before": 1831,
+      "object_count_after": 1831,
+      "coordinate_or_width_tolerance": 0,
+      "explanation": "Used aperture geometry expanded at every actual draw/flash with polarity and order intact. Unused aperture declarations and original aperture numbering have no geometric effect; no coordinate/width rounding applied."
+    },
+    {
+      "kind": "exact_ordered_expanded_Gerber_primitives",
+      "file": "Gerber_InnerLayer2.G2",
+      "pass": true,
+      "command_stream_identical": false,
+      "primitive_sequence_identical": true,
+      "object_count_before": 1831,
+      "object_count_after": 1831,
+      "coordinate_or_width_tolerance": 0,
+      "explanation": "Used aperture geometry expanded at every actual draw/flash with polarity and order intact. Unused aperture declarations and original aperture numbering have no geometric effect; no coordinate/width rounding applied."
+    },
+    {
+      "kind": "exact_ordered_expanded_Gerber_primitives",
+      "file": "Gerber_TopLayer.GTL",
+      "pass": true,
+      "command_stream_identical": false,
+      "primitive_sequence_identical": true,
+      "object_count_before": 3371,
+      "object_count_after": 3371,
+      "coordinate_or_width_tolerance": 0,
+      "explanation": "Used aperture geometry expanded at every actual draw/flash with polarity and order intact. Unused aperture declarations and original aperture numbering have no geometric effect; no coordinate/width rounding applied."
+    },
+    {
+      "kind": "exact_ordered_expanded_Gerber_primitives",
+      "file": "Gerber_TopPasteMaskLayer.GTP",
+      "pass": true,
+      "command_stream_identical": false,
+      "primitive_sequence_identical": true,
+      "object_count_before": 699,
+      "object_count_after": 699,
+      "coordinate_or_width_tolerance": 0,
+      "explanation": "Used aperture geometry expanded at every actual draw/flash with polarity and order intact. Unused aperture declarations and original aperture numbering have no geometric effect; no coordinate/width rounding applied."
+    },
+    {
+      "kind": "exact_ordered_expanded_Gerber_primitives",
+      "file": "Gerber_TopSolderMaskLayer.GTS",
+      "pass": true,
+      "command_stream_identical": false,
+      "primitive_sequence_identical": true,
+      "object_count_before": 829,
+      "object_count_after": 829,
+      "coordinate_or_width_tolerance": 0,
+      "explanation": "Used aperture geometry expanded at every actual draw/flash with polarity and order intact. Unused aperture declarations and original aperture numbering have no geometric effect; no coordinate/width rounding applied."
+    },
+    {
+      "kind": "native_rules",
+      "pass": true
+    },
+    {
+      "kind": "native_nets",
+      "pass": true
+    },
+    {
+      "kind": "native_regions",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "omitted_proofs": [],
+  "limits": [
+    "Actual GTO must separately confirm only intended F501 outline movement and no duplicate old lines.",
+    "Commands compared exactly except generator-time comment. Explicit option allows only exact ordered expanded Gerber primitive equality, preserving geometry and polarity with zero tolerance. Drill plating metadata/tools/coordinates never normalized.",
+    "Rule/region binding, metadata, pad and electrical geometry changes cannot be hidden as silk repairs."
+  ]
+}

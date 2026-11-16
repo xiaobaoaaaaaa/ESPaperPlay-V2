@@ -1,4 +1,4 @@
-{"type":"DOCHEAD"}||{"docType":"SCH_PAGE","client":"553b39100b73bc6d","uuid":"5b2922008e8bfa68","updateTime":1794763927195,"version":"1794763927195","editVersion":"4.1.93"}|
+{"type":"DOCHEAD"}||{"docType":"SCH_PAGE","client":"c544e49cb162e5cb","uuid":"5b2922008e8bfa68","updateTime":1794800838685,"version":"1794800838685","editVersion":"4.1.93"}|
 {"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0}|
 {"type":"COMPONENT","ticket":2,"id":"add9ed6c2a49af6c"}||{"partId":"pid8a0e77bacb214e","x":0,"y":0,"rotation":0,"isMirror":false,"attrs":{"Footprints":"[]","Devices":"[]","DeviceName":"{\"uuid\":\"58471336b9a62a87\",\"name\":\"Drawing-Symbol_A4\",\"source\":\"\"}","FootprintName":null},"zIndex":0}|
 {"type":"ATTR","ticket":3,"id":"a5baa5144471e228"}||{"x":2547,"y":156,"rotation":0,"color":null,"fontFamily":null,"fontSize":20,"fontWeight":null,"italic":null,"underline":null,"strikeout":false,"align":"CENTER_MIDDLE","value":"4a5e0ad4ede6c4b7","keyVisible":null,"valueVisible":null,"key":"Symbol","fillColor":null,"parentId":"add9ed6c2a49af6c","zIndex":2,"locked":false}|

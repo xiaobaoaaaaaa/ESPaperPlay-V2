@@ -1,0 +1,104 @@
+{
+  "status": "PASS_SAVED_LIBRARY_AND_EXACT_GTO_TWO_LINE_CHANGE",
+  "saved_footprint_source": {
+    "path": "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-native99/routing-work/F501-silk-saved.efoo",
+    "sha256": "bfbe8743328b9f6fd24cea34f6c30555c644d21198bbf30726925a52bc933bd6",
+    "origin": "Exact unmodified native FOOTPRINT document segments extracted from saved project epro2; canonical contents identical to saved archive."
+  },
+  "inputs": {
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-native99/routing-work/NOT-FOR-MANUFACTURE-silk-body-review-cam.zip": "0014b33c8943e9891e23e5609d7700a114b8a61bf74150f70ddf1da0458dea18",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-native99/routing-work/NOT-FOR-MANUFACTURE-f501-silk-fixed-cam.zip": "970d05460946d0b68c78beb71d715ef267dc9823817e3672c4c3775bb4c85bf0",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-native99/routing-work/reference-fixed-stage.epro2": "37e6d83277199c687779ea40227158a3046efe548ee92ef2f005e0d3d3fdafe4",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-native99/routing-work/f501-silk-fixed.epro2": "719aef781373f6982616dfb16bb15af73c07a91e3a62d7b2f9b78be9cb99c835",
+    "/home/xiaobao/Projects/ESPaperPlay-V2/build/easyeda-native99/routing-work/f501-silk-fixed.epcb": "f430b8096cfa732f1a38524d7d460839a53a501ecedde5f8bafde56ad73422d7"
+  },
+  "saved_library_check": {
+    "pass": true,
+    "differences": [
+      [
+        "POLY",
+        "e10"
+      ],
+      [
+        "POLY",
+        "e9"
+      ]
+    ],
+    "errors": []
+  },
+  "expanded_geometry_self_tests": [
+    {
+      "name": "same",
+      "pass": true
+    },
+    {
+      "name": "unused_aperture",
+      "pass": true
+    },
+    {
+      "name": "used_aperture_1um",
+      "pass": true
+    },
+    {
+      "name": "used_coordinate_1um",
+      "pass": true
+    },
+    {
+      "name": "polarity",
+      "pass": true
+    }
+  ],
+  "old_GTO_removed_primitives": [
+    [
+      "Line(x1=18.20316, y1=-19.29332, x2=21.75916, y2=-19.29332, width=0.15199, polarity_dark=True)"
+    ],
+    [
+      "Line(x1=18.22293, y1=-13.70532, x2=21.77893, y2=-13.70532, width=0.15199, polarity_dark=True)"
+    ]
+  ],
+  "new_GTO_added_primitives": [
+    [
+      "Line(x1=18.20316, y1=-20.30932, x2=21.75916, y2=-20.30932, width=0.15199, polarity_dark=True)"
+    ],
+    [
+      "Line(x1=18.22293, y1=-12.68932, x2=21.77893, y2=-12.68932, width=0.15199, polarity_dark=True)"
+    ]
+  ],
+  "all_other_actual_GTO_primitives_identical": true,
+  "GBO_identical": true,
+  "actual_new_lines": [
+    {
+      "expanded_primitive": [
+        "Line(x1=18.20316, y1=-20.30932, x2=21.75916, y2=-20.30932, width=0.15199, polarity_dark=True)"
+      ],
+      "actual_bounds_mm": [
+        18.127165,
+        -20.385315,
+        21.835155,
+        -20.233325
+      ],
+      "mask_intersection_mm2": 0.0,
+      "mask_clearance_mm": 0.17820500000000195
+    },
+    {
+      "expanded_primitive": [
+        "Line(x1=18.22293, y1=-12.68932, x2=21.77893, y2=-12.68932, width=0.15199, polarity_dark=True)"
+      ],
+      "actual_bounds_mm": [
+        18.146935,
+        -12.765315000000001,
+        21.854925,
+        -12.613325
+      ],
+      "mask_intersection_mm2": 0.0,
+      "mask_clearance_mm": 0.17820499999999842
+    }
+  ],
+  "physical_equivalence_report": "f501-library-silk-persisted-check.json",
+  "physical_scope": "All non-silk actual draw/flash geometry is exactly equal in order and polarity after aperture expansion; numeric differences in unused definitions and aperture renumbering do not create physical geometry. Drill files are command-identical except generator date. No geometric tolerance was introduced.",
+  "limits": [
+    "Other16refs library-mask outline intersections and U301 board-edge outline remain review items.",
+    "Native DRC still has17Connection Error entries at this checkpoint; no additional nonconnection errors. This is not manufacturing release.",
+    "All236 labels still nominal1.0mm at this checkpoint.1.2mm pending4Rfinal placement and actualCAM."
+  ]
+}
