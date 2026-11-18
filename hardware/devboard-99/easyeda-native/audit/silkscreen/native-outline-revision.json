@@ -1,0 +1,115 @@
+{
+  "status": "VERIFIED_NATIVE_FOOTPRINT_SILK_REVISION",
+  "editor": "嘉立创EDA 4.1.93",
+  "base_git_commit": "475f5f5",
+  "after": {
+    "archive": {
+      "path": "hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
+      "sha256": "cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19"
+    },
+    "actual_cam": {
+      "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip",
+      "sha256": "ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474"
+    },
+    "rules_drc": {
+      "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/native-board-check.json",
+      "sha256": "ab5651234e6d6adf542fc246916b0f3c16a22f052197c82268e2eadf1313c253"
+    },
+    "pcb_source": {
+      "path": "hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+      "sha256": "2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e"
+    },
+    "pad_state": {
+      "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json",
+      "sha256": "29960dc357eca29afd5e763de61bfc5078ce66ff7e5b44f96104f98a6ff74d5a"
+    },
+    "GTO_object_comparison": {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/actual-outline-delta.json",
+      "sha256": "3fd3a81b46d10ad31442f496e610b179d29e474a0a180498b3e9f5662eda6db5"
+    },
+    "plan": {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/native-outline-edit-plan.json",
+      "sha256": "b2e21d7a8a944838e17f838cbf7b4de64bb5548e8db49d011925ec8027475e83"
+    }
+  },
+  "saved_closed_reopened": true,
+  "native_drc": [],
+  "project_documents_compared": 192,
+  "footprint_documents_edited": 9,
+  "intended_POLY_edits_and_additions": 46,
+  "affected_placed_outlines": 156,
+  "native_bindings_changed": 0,
+  "non_target_documents_differences": [],
+  "active_board_geometry_rules_stack_differences": [],
+  "pad_state_and_rules_drc_readback_equal": true,
+  "archive_normalization": {
+    "comparison": "For each edited footprint the geometry after saving was compared with its own pre-edit native editor projection plus the specified silk changes. Only an editor-generated hidden, nonprinting Footprint label was excluded from this projection. The full archive has further differences in seven legacy libraries; labels, defaults, legacy pad geometry field representations, and fill path order are serialized by the editor. All queried non-silk CAM primitives and drills were independently compared. Original full records remain available from Git.",
+    "additional_types_by_footprint": {
+      "cd33f5b33f3aa0b4": {
+        "ATTR": 2,
+        "FILL": 10,
+        "NET": 1,
+        "PAD": 9,
+        "PRIMITIVE": 11
+      },
+      "ebb730522bd9fbc7": {
+        "ATTR": 3,
+        "FILL": 9,
+        "NET": 1,
+        "PAD": 2,
+        "PRIMITIVE": 11
+      },
+      "269a99db150b0459": {
+        "ATTR": 2,
+        "FILL": 25,
+        "NET": 1,
+        "PAD": 14,
+        "PRIMITIVE": 11
+      },
+      "815cbd0b3bd95cf7": {
+        "ATTR": 2,
+        "FILL": 5,
+        "NET": 1,
+        "PAD": 2,
+        "PRIMITIVE": 11
+      },
+      "99d7759137cb743d": {
+        "ATTR": 2,
+        "FILL": 5,
+        "NET": 1,
+        "PAD": 2,
+        "PRIMITIVE": 11
+      },
+      "558d78655d725916": {
+        "ATTR": 2,
+        "FILL": 7,
+        "NET": 1,
+        "PAD": 6,
+        "PRIMITIVE": 11
+      },
+      "1b8bf9d50d802c18": {
+        "ATTR": 2,
+        "FILL": 3,
+        "NET": 1,
+        "PAD": 2,
+        "PRIMITIVE": 11
+      }
+    }
+  },
+  "physical_CAM_comparison": {
+    "Drill_NPTH_Through.DRL": true,
+    "Drill_PTH_Through.DRL": true,
+    "Drill_PTH_Through_Via.DRL": true,
+    "Gerber_BoardOutlineLayer.GKO": true,
+    "Gerber_BottomLayer.GBL": true,
+    "Gerber_BottomSilkscreenLayer.GBO": true,
+    "Gerber_BottomSolderMaskLayer.GBS": true,
+    "Gerber_InnerLayer1.G1": true,
+    "Gerber_InnerLayer2.G2": true,
+    "Gerber_TopLayer.GTL": true,
+    "Gerber_TopPasteMaskLayer.GTP": true,
+    "Gerber_TopSolderMaskLayer.GTS": true
+  },
+  "CAM_comparison_method": "Exact ordered expanded Gerber primitives and polarity. Drill commands compared after discarding generator timestamp. Engine outputs at both ends, no changes to exported raw CAM.",
+  "assembly_stencil": "The separate hand-solder stencil is intentionally customized; its measurements and edits are in the assembly review."
+}

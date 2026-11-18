@@ -11,7 +11,7 @@
     },
     "archive": {
       "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
-      "sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c"
+      "sha256": "cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19"
     },
     "netlist": {
       "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/native-schematic.enet",

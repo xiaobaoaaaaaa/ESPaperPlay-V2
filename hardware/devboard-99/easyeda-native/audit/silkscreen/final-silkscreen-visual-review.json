@@ -1,37 +1,31 @@
 {
-  "status": "FINAL_LABELS_AND_LEADERS_VISUALLY_REVIEWED_OUTLINE_ITEMS_REMAIN",
+  "status": "NATIVE_TOP_SILK_VISUALLY_REVIEWED",
   "cam": {
     "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip",
-    "sha256": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3"
+    "sha256": "ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474"
+  },
+  "current_archive": {
+    "path": "hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
+    "sha256": "cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19"
   },
   "viewed_images": [
     {
       "path": "hardware/devboard-99/easyeda-native/preview/routed/top-pretty.png",
-      "sha256": "7c7205ea22fa85b3f40f53675dee0f08cc10dc0c5bf9c948c9a42bec6f35ac3a"
+      "sha256": "af45bd61be290175915309088ed003ac7a470ebb603e410ae1a5242ba70b4612"
     },
     {
-      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/final-cluster-detail.png",
-      "sha256": "b5ef64cf3dd0621e9bb4cee16ae4970ffe1eda2a92df4e612582311d42f2e82b"
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/orientation-cam-detail.png",
+      "sha256": "5f17e02d166c6ee523ea2a8481e206b1ed26cebf5a4f321340880f1772fa945b"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/0603-silkscreen-comparison.png",
+      "sha256": "4b48d1dc0d138ee64c4d2a03826cf1f3ef9f7a549d66c70938bf27a9ae073e3a"
     }
   ],
-  "formal_geometry_report": {
-    "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-review.json",
-    "sha256": "9c8359d7627fc42a613cd7654936becf9dc63bd6a4d240a285dd5922aa0faf31"
-  },
   "findings": [
-    "Viewed the final actual Gerber rendering: overall designators remain readable;236/236 glyph counts and geometric clearances pass in the independent actual-CAM report.",
-    "R223/R224/R226 final vertical labels and four independent silk leaders identify the intended resistor group; two longer leaders remain above J303 and do not cross its body or plated holes.",
-    "Native nominal font is1.2mm/stroke.15mm; actual measured ink height is0.83834\u20130.90438mm. This is not a claim of1.2mm actual ink or guaranteed factory printing.",
-    "F501 outline is corrected.19 native-library refs still have actual mask overlap, and U301 antenna outline extends off-board; retain factory silk-clipping review.",
-    "D501 cathode stripe/U203 pin1 ring clipping are orientation-specific review items: confirm surviving marks against the assembly drawing after factory processing. Many other drill-projection overlaps are tented vias, not exposed-pad ink contamination.",
-    "J601/J406 pin1 identification must use assembly/source documentation; clear reference text alone does not prove explicit pin1 marking."
+    "D501 阴极条位于靠按键的焊盘内侧。U203 的 1 脚标点在左上角，均可与装配图对照。",
+    "板顶 U301 天线处的板外印线已经裁去。密集区仍可按位号定位。共享 0603 电阻和无极性电容改为短装配轮廓，详见封装前后对照。",
+    "J601 和 J406 的焊脚方向见首板装配图。实物印刷、来料和回流检查在首板完成。"
   ],
-  "actual_ink_height_min_mm": 0.8383395855720011,
-  "actual_ink_height_max_mm": 0.9043787572521325,
-  "manufacturing_release": false,
-  "current_archive": {
-    "path": "hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
-    "sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c"
-  },
-  "render_refresh_note": "Re-reviewed the newly regenerated formal preview/routed/top-pretty.png from final CAM97be689d after13archived stale microsegments were removed; local crop regenerated from this exact new PNG. CAD and checker unchanged."
+  "manufacturing_release": false
 }

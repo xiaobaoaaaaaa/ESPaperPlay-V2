@@ -1,6 +1,6 @@
 {
-  "status": "NATIVE_ROUTING_VERIFIED_ENGINEERING_REVIEWS_NOT_FOR_MANUFACTURING",
-  "date": "2026-11-16T13:04:24.144354+08:00",
+  "status": "NATIVE_ROUTING_AND_SILKSCREEN_VERIFIED_ASSEMBLY_REVIEWED",
+  "date": "2026-11-18T12:55:59.006677+08:00",
   "project_name": "ESPaperPlay V2 99mm Native",
   "project_uuid": "584d341c900b483c8f51ea584ed7fc13",
   "schematic_uuid": "5bedf48347e90f09",
@@ -23,47 +23,40 @@
   "electrical_mapping": "PASS",
   "wire_geometry": "PASS all 12 pages; U301 actual body bounds used",
   "visual_review": {
-    "status": "FINAL_LABELS_AND_LEADERS_REVIEWED_LIBRARY_OUTLINE_ITEMS_REMAIN",
+    "status": "ACTUAL_SILKSCREEN_GEOMETRY_SCREEN_PASS",
     "evidence": {
-      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-visual-review.json",
-      "sha256": "7d2ab3aa5393bf28d39c195ce3c115c7558507dbe2d53e9d1ac21136eefb448c"
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-review.json",
+      "sha256": "c57ca71d105f6567f7facf57857c600f9ac4b4ab20b640ad32a7f6d81223727d"
     },
-    "current_cam_sha256": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3",
+    "visual_evidence": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-visual-review.json",
+      "sha256": "e1810032890c5ee579eafb973cbee98a54663e6b8ab2d1375570cf567d39b498"
+    },
+    "comparison": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/native-outline-revision.json",
+      "sha256": "ce33db21ec5c8e16d8f0b4be433d38ed22b8efbb044487ee55a02f6787bc0e92"
+    },
+    "assembly_guide": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/assembly-review/README.md",
+      "sha256": "72820b28194eb56b5519e8f8dc6b1e7e3f6f9a69c6451b71041697c42f5dbd22"
+    },
+    "current_cam_sha256": "ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474",
     "designators_checked": 236,
     "designator_findings": 0,
     "minimum_actual_ink_height_mm": 0.8383395855720011,
-    "library_outline_mask_overlap_refs": [
-      "C501",
-      "C502",
-      "C607",
-      "C609",
-      "C703",
-      "C705",
-      "D501",
-      "J206",
-      "J302",
-      "J701",
-      "R215",
-      "R226",
-      "R503",
-      "R504",
-      "R705",
-      "R706",
-      "R810",
-      "U203",
-      "U301"
-    ],
-    "additional_orientation_review": [
-      "D501 cathode stripe",
-      "U203 pin1 ring/exposed hole",
-      "J601/J406 pin1 identification against assembly/source"
-    ],
-    "manufacturing_release": false
+    "library_outline_mask_overlap_refs": [],
+    "covered_via_outline_projections_only": 51,
+    "manufacturing_release": false,
+    "mask_clearance_review": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/silk-mask-clearances.json",
+      "sha256": "92f83308b76be8c7ce6f80f45014c5420ce9ebaaf74a4924917ca3aa878bc9a5"
+    },
+    "remaining_fabrication_review": "Factory legend cropping and printed character height/readability."
   },
-  "pcb_status": "Complete native routing and two inner GND planes; same-freeze native DRC has zero connection/other errors, CAM topology has no opens/shorts and one GND component; engineering and silkscreen review items retained.",
-  "archive_sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c",
-  "archive_bytes": 2019015,
-  "next_step": "Resolve retained manufacturing and assembly review items before prototype submission; retain charging disabled. Perform first-board electrical, thermal and timing validation before enabling charging or declaring the hardware qualified.",
+  "pcb_status": "Native routing and both inner GND planes verified. Latest actual silkscreen has zero actionable intersections. See the routing summary for electrical engineering review items.",
+  "archive_sha256": "cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19",
+  "archive_bytes": 2022159,
+  "next_step": "Review current manufacturing and first-two-board assembly outputs for prototype submission. Check fabrication artwork and first-board results before production qualification.",
   "bridge_state": "Historical runtime connection state is not part of the archive validation",
   "archive_coherence": {
     "schematic": "PASS",
@@ -82,6 +75,10 @@
     "enabled_rule_evidence": {
       "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/native-board-check.json",
       "sha256": "ab5651234e6d6adf542fc246916b0f3c16a22f052197c82268e2eadf1313c253"
+    },
+    "native_revision_evidence": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/native-outline-revision.json",
+      "sha256": "ce33db21ec5c8e16d8f0b4be433d38ed22b8efbb044487ee55a02f6787bc0e92"
     }
   },
   "native_pcb_net_mapping": {
@@ -97,7 +94,7 @@
     "status": "PASS_SCOPED_ROUTING_BOUNDARIES",
     "report": {
       "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/boundaries.json",
-      "sha256": "d41129724a940b3e9b83a343046edc355ae2fe4122d484be6112ed67e6543ef1"
+      "sha256": "8e3a9eef7d153326a9f9321b397b9cacdfc74cb966671fdb04ad07d0eb772d15"
     }
   },
   "special_cam": {
@@ -122,7 +119,7 @@
     "scope": "complete_set",
     "summary": {
       "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/verification-summary.json",
-      "sha256": "4f32882e628c2657adccd1350108aa4e1827ae95e419b330d6fbee06b4fdf466"
+      "sha256": "63baaf441ea2fac4d18eb64aec02fc32220fb8372c4b78fe5453b22e6456b059"
     },
     "engineering_review_items": [
       {
@@ -918,11 +915,11 @@
     },
     "archive": {
       "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
-      "sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c"
+      "sha256": "cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19"
     },
     "cam": {
       "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip",
-      "sha256": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3"
+      "sha256": "ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474"
     },
     "native_board_check": {
       "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/native-board-check.json",
@@ -943,32 +940,24 @@
   },
   "additional_manual_review_evidence": [
     {
-      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/spare-gpio-return-review.json",
-      "sha256": "580536b77ceecca3b236cc5608fdead4a86bdc0abe2f26b0874bf4dd5ebe42f3"
-    },
-    {
-      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/archive-cleanup-proof.json",
-      "sha256": "b537955bcad88506c7ee0d51f5c85c8fa246bfcd3b0518e58cdee06e3312d4a6"
-    },
-    {
       "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-review.json",
-      "sha256": "9c8359d7627fc42a613cd7654936becf9dc63bd6a4d240a285dd5922aa0faf31"
+      "sha256": "c57ca71d105f6567f7facf57857c600f9ac4b4ab20b640ad32a7f6d81223727d"
     },
     {
-      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/final-leaders-and-copper-review.json",
-      "sha256": "83c3674c05877ae429e5efbe195aaa53a3bd95a818b36f736e33450bd79bce58"
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/native-outline-revision.json",
+      "sha256": "ce33db21ec5c8e16d8f0b4be433d38ed22b8efbb044487ee55a02f6787bc0e92"
     },
     {
-      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/f501-library-silk-persisted-check.json",
-      "sha256": "2b260e1438e99986bc8deaae15d18d072f816646ee71c22867fa6a98617dc2c3"
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/assembly-review/README.md",
+      "sha256": "72820b28194eb56b5519e8f8dc6b1e7e3f6f9a69c6451b71041697c42f5dbd22"
     },
     {
-      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/f501-actual-silk-delta-review.json",
-      "sha256": "5b34721e0a0d5b427796af03fe6e0b5856284a96698fb1418dbba17e8829bffc"
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/assembly-review/stencil-review.json",
+      "sha256": "9969b9bc59abdf9f50675ba0abfc6f4d09cad37c61eb1c483bbc90bba874b17b"
     },
     {
-      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-history/before-archive-cleanup/j501-cam-review.json",
-      "sha256": "4eaf2420960c2e7259fc24689fb113b20428b7519c887b8d91b78e01a12d44c5"
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/actual-outline-delta.json",
+      "sha256": "3fd3a81b46d10ad31442f496e610b179d29e474a0a180498b3e9f5662eda6db5"
     }
   ],
   "date_basis": "Checkpoint update timestamp; exact frozen input identity is recorded by SHA256, not inferred from this timestamp.",
@@ -998,5 +987,51 @@
     "SD_CD_N_new_branch_mm": 166.75405577885618,
     "SD_CD_N_scope": "Applied added low-speed card-detect branch only; bench levels/debounce/noise tests required, not a high-speed SD timing qualification",
     "first_batch": "5 PCB; assemble2; unframed stencil with tape-hinge alignment; connectors/pin headers hand soldered"
+  },
+  "historical_field_evidence": {
+    "baseline_git_commit": "475f5f5",
+    "records": [
+      {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/final-leaders-and-copper-review.json",
+        "sha256": "83c3674c05877ae429e5efbe195aaa53a3bd95a818b36f736e33450bd79bce58"
+      },
+      {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/archive-cleanup-proof.json",
+        "sha256": "b537955bcad88506c7ee0d51f5c85c8fa246bfcd3b0518e58cdee06e3312d4a6"
+      },
+      {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/spare-gpio-return-review.json",
+        "sha256": "580536b77ceecca3b236cc5608fdead4a86bdc0abe2f26b0874bf4dd5ebe42f3"
+      },
+      {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/f501-library-silk-persisted-check.json",
+        "sha256": "2b260e1438e99986bc8deaae15d18d072f816646ee71c22867fa6a98617dc2c3"
+      },
+      {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/silkscreen/f501-actual-silk-delta-review.json",
+        "sha256": "5b34721e0a0d5b427796af03fe6e0b5856284a96698fb1418dbba17e8829bffc"
+      },
+      {
+        "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/pcb-routing/touch-io-en-return-review.json",
+        "sha256": "570098e51a1a7f7bc85d96569356ccd3e1a030ce43b71935731c0f5b0d465a70"
+      }
+    ],
+    "scope": "Previous routing-stage reports. Current CAD and CAM references are in final_input_hashes."
+  },
+  "assembly_review": {
+    "first_boards": 2,
+    "planned_pcb_quantity": 5,
+    "orientation_and_hand_assembly": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/assembly-review/README.md",
+      "sha256": "72820b28194eb56b5519e8f8dc6b1e7e3f6f9a69c6451b71041697c42f5dbd22"
+    },
+    "first_two_custom_stencil": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/assembly-review/native99-first-two-top-paste-review.GTP",
+      "sha256": "3aa0a16c92433f0c789879b617ebe6236d2c86ede24b81f0647fc40e6cbde5b2"
+    },
+    "stencil_geometry_review": {
+      "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/audit/assembly-review/stencil-review.json",
+      "sha256": "9969b9bc59abdf9f50675ba0abfc6f4d09cad37c61eb1c483bbc90bba874b17b"
+    }
   }
 }

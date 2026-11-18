@@ -1,0 +1,9399 @@
+{
+  "status": "PASS_ACTUAL_GTO_LIBRARY_EDIT_SCOPE",
+  "inputs": {
+    "baseline_cam": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3",
+    "revised_cam": "ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474",
+    "source": "e03f62737f8fb46b3325d2391505d5b9f74cb8eb0810b09f2f7fe26a5d83e414",
+    "plan": "b2e21d7a8a944838e17f838cbf7b4de64bb5548e8db49d011925ec8027475e83"
+  },
+  "checker_sha256": "263eb09c01c3401801da46f4b29b8c4e9c3fb01f4a88eff0c3a99e67e08b5366",
+  "tolerance_mm_for_native_attribution": 8e-05,
+  "original": {
+    "total_actual_objects": 13439,
+    "matched_native_strokes": 907,
+    "matched_actual_objects": 908,
+    "matches": [
+      {
+        "ref": "C203",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11763
+        ]
+      },
+      {
+        "ref": "C204",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11773
+        ]
+      },
+      {
+        "ref": "C302",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11793
+        ]
+      },
+      {
+        "ref": "C303",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11803
+        ]
+      },
+      {
+        "ref": "C401",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11813
+        ]
+      },
+      {
+        "ref": "C402",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11823
+        ]
+      },
+      {
+        "ref": "C404",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11843
+        ]
+      },
+      {
+        "ref": "C405",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11853
+        ]
+      },
+      {
+        "ref": "C407",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11873
+        ]
+      },
+      {
+        "ref": "C408",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11883
+        ]
+      },
+      {
+        "ref": "C410",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11903
+        ]
+      },
+      {
+        "ref": "C411",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11913
+        ]
+      },
+      {
+        "ref": "C412",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11923
+        ]
+      },
+      {
+        "ref": "C413",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11933
+        ]
+      },
+      {
+        "ref": "C414",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11943
+        ]
+      },
+      {
+        "ref": "C416",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11963
+        ]
+      },
+      {
+        "ref": "C417",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11973
+        ]
+      },
+      {
+        "ref": "C501",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11983
+        ]
+      },
+      {
+        "ref": "C502",
+        "library_record": "e11",
+        "gto_object_indices": [
+          11993
+        ]
+      },
+      {
+        "ref": "C503",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12003
+        ]
+      },
+      {
+        "ref": "C611",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12113
+        ]
+      },
+      {
+        "ref": "C612",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12123
+        ]
+      },
+      {
+        "ref": "C701",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12133
+        ]
+      },
+      {
+        "ref": "C703",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12153
+        ]
+      },
+      {
+        "ref": "C704",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12163
+        ]
+      },
+      {
+        "ref": "C705",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12173
+        ]
+      },
+      {
+        "ref": "C801",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12183
+        ]
+      },
+      {
+        "ref": "C802",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12193
+        ]
+      },
+      {
+        "ref": "C804",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12213
+        ]
+      },
+      {
+        "ref": "C805",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12223
+        ]
+      },
+      {
+        "ref": "C806",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12233
+        ]
+      },
+      {
+        "ref": "C808",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12243
+        ]
+      },
+      {
+        "ref": "C901",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12253
+        ]
+      },
+      {
+        "ref": "C902",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12263
+        ]
+      },
+      {
+        "ref": "C903",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12273
+        ]
+      },
+      {
+        "ref": "C904",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12283
+        ]
+      },
+      {
+        "ref": "C203",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11764
+        ]
+      },
+      {
+        "ref": "C204",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11774
+        ]
+      },
+      {
+        "ref": "C302",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11794
+        ]
+      },
+      {
+        "ref": "C303",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11804
+        ]
+      },
+      {
+        "ref": "C401",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11814
+        ]
+      },
+      {
+        "ref": "C402",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11824
+        ]
+      },
+      {
+        "ref": "C404",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11844
+        ]
+      },
+      {
+        "ref": "C405",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11854
+        ]
+      },
+      {
+        "ref": "C407",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11874
+        ]
+      },
+      {
+        "ref": "C408",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11884
+        ]
+      },
+      {
+        "ref": "C410",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11904
+        ]
+      },
+      {
+        "ref": "C411",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11914
+        ]
+      },
+      {
+        "ref": "C412",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11924
+        ]
+      },
+      {
+        "ref": "C413",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11934
+        ]
+      },
+      {
+        "ref": "C414",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11944
+        ]
+      },
+      {
+        "ref": "C416",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11964
+        ]
+      },
+      {
+        "ref": "C417",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11974
+        ]
+      },
+      {
+        "ref": "C501",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11984
+        ]
+      },
+      {
+        "ref": "C502",
+        "library_record": "e12",
+        "gto_object_indices": [
+          11994
+        ]
+      },
+      {
+        "ref": "C503",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12004
+        ]
+      },
+      {
+        "ref": "C611",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12114
+        ]
+      },
+      {
+        "ref": "C612",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12124
+        ]
+      },
+      {
+        "ref": "C701",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12134
+        ]
+      },
+      {
+        "ref": "C703",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12154
+        ]
+      },
+      {
+        "ref": "C704",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12164
+        ]
+      },
+      {
+        "ref": "C705",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12174
+        ]
+      },
+      {
+        "ref": "C801",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12184
+        ]
+      },
+      {
+        "ref": "C802",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12194
+        ]
+      },
+      {
+        "ref": "C804",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12214
+        ]
+      },
+      {
+        "ref": "C805",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12224
+        ]
+      },
+      {
+        "ref": "C806",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12234
+        ]
+      },
+      {
+        "ref": "C808",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12244
+        ]
+      },
+      {
+        "ref": "C901",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12254
+        ]
+      },
+      {
+        "ref": "C902",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12264
+        ]
+      },
+      {
+        "ref": "C903",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12274
+        ]
+      },
+      {
+        "ref": "C904",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12284
+        ]
+      },
+      {
+        "ref": "C203",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11765
+        ]
+      },
+      {
+        "ref": "C204",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11775
+        ]
+      },
+      {
+        "ref": "C302",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11795
+        ]
+      },
+      {
+        "ref": "C303",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11805
+        ]
+      },
+      {
+        "ref": "C401",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11815
+        ]
+      },
+      {
+        "ref": "C402",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11825
+        ]
+      },
+      {
+        "ref": "C404",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11845
+        ]
+      },
+      {
+        "ref": "C405",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11855
+        ]
+      },
+      {
+        "ref": "C407",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11875
+        ]
+      },
+      {
+        "ref": "C408",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11885
+        ]
+      },
+      {
+        "ref": "C410",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11905
+        ]
+      },
+      {
+        "ref": "C411",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11915
+        ]
+      },
+      {
+        "ref": "C412",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11925
+        ]
+      },
+      {
+        "ref": "C413",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11935
+        ]
+      },
+      {
+        "ref": "C414",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11945
+        ]
+      },
+      {
+        "ref": "C416",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11965
+        ]
+      },
+      {
+        "ref": "C417",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11975
+        ]
+      },
+      {
+        "ref": "C501",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11985
+        ]
+      },
+      {
+        "ref": "C502",
+        "library_record": "e13",
+        "gto_object_indices": [
+          11995
+        ]
+      },
+      {
+        "ref": "C503",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12005
+        ]
+      },
+      {
+        "ref": "C611",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12115
+        ]
+      },
+      {
+        "ref": "C612",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12125
+        ]
+      },
+      {
+        "ref": "C701",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12135
+        ]
+      },
+      {
+        "ref": "C703",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12155
+        ]
+      },
+      {
+        "ref": "C704",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12165
+        ]
+      },
+      {
+        "ref": "C705",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12175
+        ]
+      },
+      {
+        "ref": "C801",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12185
+        ]
+      },
+      {
+        "ref": "C802",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12195
+        ]
+      },
+      {
+        "ref": "C804",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12215
+        ]
+      },
+      {
+        "ref": "C805",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12225
+        ]
+      },
+      {
+        "ref": "C806",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12235
+        ]
+      },
+      {
+        "ref": "C808",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12245
+        ]
+      },
+      {
+        "ref": "C901",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12255
+        ]
+      },
+      {
+        "ref": "C902",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12265
+        ]
+      },
+      {
+        "ref": "C903",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12275
+        ]
+      },
+      {
+        "ref": "C904",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12285
+        ]
+      },
+      {
+        "ref": "C203",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11756
+        ]
+      },
+      {
+        "ref": "C204",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11766
+        ]
+      },
+      {
+        "ref": "C302",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11786
+        ]
+      },
+      {
+        "ref": "C303",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11796
+        ]
+      },
+      {
+        "ref": "C401",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11806
+        ]
+      },
+      {
+        "ref": "C402",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11816
+        ]
+      },
+      {
+        "ref": "C404",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11836
+        ]
+      },
+      {
+        "ref": "C405",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11846
+        ]
+      },
+      {
+        "ref": "C407",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11866
+        ]
+      },
+      {
+        "ref": "C408",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11876
+        ]
+      },
+      {
+        "ref": "C410",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11896
+        ]
+      },
+      {
+        "ref": "C411",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11906
+        ]
+      },
+      {
+        "ref": "C412",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11916
+        ]
+      },
+      {
+        "ref": "C413",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11926
+        ]
+      },
+      {
+        "ref": "C414",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11936
+        ]
+      },
+      {
+        "ref": "C416",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11956
+        ]
+      },
+      {
+        "ref": "C417",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11966
+        ]
+      },
+      {
+        "ref": "C501",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11976
+        ]
+      },
+      {
+        "ref": "C502",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11986
+        ]
+      },
+      {
+        "ref": "C503",
+        "library_record": "e4",
+        "gto_object_indices": [
+          11996
+        ]
+      },
+      {
+        "ref": "C611",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12106
+        ]
+      },
+      {
+        "ref": "C612",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12116
+        ]
+      },
+      {
+        "ref": "C701",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12126
+        ]
+      },
+      {
+        "ref": "C703",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12146
+        ]
+      },
+      {
+        "ref": "C704",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12156
+        ]
+      },
+      {
+        "ref": "C705",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12166
+        ]
+      },
+      {
+        "ref": "C801",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12176
+        ]
+      },
+      {
+        "ref": "C802",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12186
+        ]
+      },
+      {
+        "ref": "C804",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12206
+        ]
+      },
+      {
+        "ref": "C805",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12216
+        ]
+      },
+      {
+        "ref": "C806",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12226
+        ]
+      },
+      {
+        "ref": "C808",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12236
+        ]
+      },
+      {
+        "ref": "C901",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12246
+        ]
+      },
+      {
+        "ref": "C902",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12256
+        ]
+      },
+      {
+        "ref": "C903",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12266
+        ]
+      },
+      {
+        "ref": "C904",
+        "library_record": "e4",
+        "gto_object_indices": [
+          12276
+        ]
+      },
+      {
+        "ref": "C203",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11757
+        ]
+      },
+      {
+        "ref": "C204",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11767
+        ]
+      },
+      {
+        "ref": "C302",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11787
+        ]
+      },
+      {
+        "ref": "C303",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11797
+        ]
+      },
+      {
+        "ref": "C401",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11807
+        ]
+      },
+      {
+        "ref": "C402",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11817
+        ]
+      },
+      {
+        "ref": "C404",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11837
+        ]
+      },
+      {
+        "ref": "C405",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11847
+        ]
+      },
+      {
+        "ref": "C407",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11867
+        ]
+      },
+      {
+        "ref": "C408",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11877
+        ]
+      },
+      {
+        "ref": "C410",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11897
+        ]
+      },
+      {
+        "ref": "C411",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11907
+        ]
+      },
+      {
+        "ref": "C412",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11917
+        ]
+      },
+      {
+        "ref": "C413",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11927
+        ]
+      },
+      {
+        "ref": "C414",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11937
+        ]
+      },
+      {
+        "ref": "C416",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11957
+        ]
+      },
+      {
+        "ref": "C417",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11967
+        ]
+      },
+      {
+        "ref": "C501",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11977
+        ]
+      },
+      {
+        "ref": "C502",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11987
+        ]
+      },
+      {
+        "ref": "C503",
+        "library_record": "e5",
+        "gto_object_indices": [
+          11997
+        ]
+      },
+      {
+        "ref": "C611",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12107
+        ]
+      },
+      {
+        "ref": "C612",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12117
+        ]
+      },
+      {
+        "ref": "C701",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12127
+        ]
+      },
+      {
+        "ref": "C703",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12147
+        ]
+      },
+      {
+        "ref": "C704",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12157
+        ]
+      },
+      {
+        "ref": "C705",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12167
+        ]
+      },
+      {
+        "ref": "C801",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12177
+        ]
+      },
+      {
+        "ref": "C802",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12187
+        ]
+      },
+      {
+        "ref": "C804",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12207
+        ]
+      },
+      {
+        "ref": "C805",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12217
+        ]
+      },
+      {
+        "ref": "C806",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12227
+        ]
+      },
+      {
+        "ref": "C808",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12237
+        ]
+      },
+      {
+        "ref": "C901",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12247
+        ]
+      },
+      {
+        "ref": "C902",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12257
+        ]
+      },
+      {
+        "ref": "C903",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12267
+        ]
+      },
+      {
+        "ref": "C904",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12277
+        ]
+      },
+      {
+        "ref": "C203",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11758
+        ]
+      },
+      {
+        "ref": "C204",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11768
+        ]
+      },
+      {
+        "ref": "C302",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11788
+        ]
+      },
+      {
+        "ref": "C303",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11798
+        ]
+      },
+      {
+        "ref": "C401",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11808
+        ]
+      },
+      {
+        "ref": "C402",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11818
+        ]
+      },
+      {
+        "ref": "C404",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11838
+        ]
+      },
+      {
+        "ref": "C405",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11848
+        ]
+      },
+      {
+        "ref": "C407",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11868
+        ]
+      },
+      {
+        "ref": "C408",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11878
+        ]
+      },
+      {
+        "ref": "C410",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11898
+        ]
+      },
+      {
+        "ref": "C411",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11908
+        ]
+      },
+      {
+        "ref": "C412",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11918
+        ]
+      },
+      {
+        "ref": "C413",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11928
+        ]
+      },
+      {
+        "ref": "C414",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11938
+        ]
+      },
+      {
+        "ref": "C416",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11958
+        ]
+      },
+      {
+        "ref": "C417",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11968
+        ]
+      },
+      {
+        "ref": "C501",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11978
+        ]
+      },
+      {
+        "ref": "C502",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11988
+        ]
+      },
+      {
+        "ref": "C503",
+        "library_record": "e6",
+        "gto_object_indices": [
+          11998
+        ]
+      },
+      {
+        "ref": "C611",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12108
+        ]
+      },
+      {
+        "ref": "C612",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12118
+        ]
+      },
+      {
+        "ref": "C701",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12128
+        ]
+      },
+      {
+        "ref": "C703",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12148
+        ]
+      },
+      {
+        "ref": "C704",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12158
+        ]
+      },
+      {
+        "ref": "C705",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12168
+        ]
+      },
+      {
+        "ref": "C801",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12178
+        ]
+      },
+      {
+        "ref": "C802",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12188
+        ]
+      },
+      {
+        "ref": "C804",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12208
+        ]
+      },
+      {
+        "ref": "C805",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12218
+        ]
+      },
+      {
+        "ref": "C806",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12228
+        ]
+      },
+      {
+        "ref": "C808",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12238
+        ]
+      },
+      {
+        "ref": "C901",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12248
+        ]
+      },
+      {
+        "ref": "C902",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12258
+        ]
+      },
+      {
+        "ref": "C903",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12268
+        ]
+      },
+      {
+        "ref": "C904",
+        "library_record": "e6",
+        "gto_object_indices": [
+          12278
+        ]
+      },
+      {
+        "ref": "C203",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11760
+        ]
+      },
+      {
+        "ref": "C204",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11770
+        ]
+      },
+      {
+        "ref": "C302",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11790
+        ]
+      },
+      {
+        "ref": "C303",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11800
+        ]
+      },
+      {
+        "ref": "C401",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11810
+        ]
+      },
+      {
+        "ref": "C402",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11820
+        ]
+      },
+      {
+        "ref": "C404",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11840
+        ]
+      },
+      {
+        "ref": "C405",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11850
+        ]
+      },
+      {
+        "ref": "C407",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11870
+        ]
+      },
+      {
+        "ref": "C408",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11880
+        ]
+      },
+      {
+        "ref": "C410",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11900
+        ]
+      },
+      {
+        "ref": "C411",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11910
+        ]
+      },
+      {
+        "ref": "C412",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11920
+        ]
+      },
+      {
+        "ref": "C413",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11930
+        ]
+      },
+      {
+        "ref": "C414",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11940
+        ]
+      },
+      {
+        "ref": "C416",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11960
+        ]
+      },
+      {
+        "ref": "C417",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11970
+        ]
+      },
+      {
+        "ref": "C501",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11980
+        ]
+      },
+      {
+        "ref": "C502",
+        "library_record": "e8",
+        "gto_object_indices": [
+          11990
+        ]
+      },
+      {
+        "ref": "C503",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12000
+        ]
+      },
+      {
+        "ref": "C611",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12110
+        ]
+      },
+      {
+        "ref": "C612",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12120
+        ]
+      },
+      {
+        "ref": "C701",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12130
+        ]
+      },
+      {
+        "ref": "C703",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12150
+        ]
+      },
+      {
+        "ref": "C704",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12160
+        ]
+      },
+      {
+        "ref": "C705",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12170
+        ]
+      },
+      {
+        "ref": "C801",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12180
+        ]
+      },
+      {
+        "ref": "C802",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12190
+        ]
+      },
+      {
+        "ref": "C804",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12210
+        ]
+      },
+      {
+        "ref": "C805",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12220
+        ]
+      },
+      {
+        "ref": "C806",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12230
+        ]
+      },
+      {
+        "ref": "C808",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12240
+        ]
+      },
+      {
+        "ref": "C901",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12250
+        ]
+      },
+      {
+        "ref": "C902",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12260
+        ]
+      },
+      {
+        "ref": "C903",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12270
+        ]
+      },
+      {
+        "ref": "C904",
+        "library_record": "e8",
+        "gto_object_indices": [
+          12280
+        ]
+      },
+      {
+        "ref": "C102",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11721
+        ]
+      },
+      {
+        "ref": "C103",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11731
+        ]
+      },
+      {
+        "ref": "C201",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11741
+        ]
+      },
+      {
+        "ref": "C202",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11751
+        ]
+      },
+      {
+        "ref": "C403",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11831
+        ]
+      },
+      {
+        "ref": "C406",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11861
+        ]
+      },
+      {
+        "ref": "C415",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11951
+        ]
+      },
+      {
+        "ref": "C601",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12011
+        ]
+      },
+      {
+        "ref": "C602",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12021
+        ]
+      },
+      {
+        "ref": "C604",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12041
+        ]
+      },
+      {
+        "ref": "C607",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12071
+        ]
+      },
+      {
+        "ref": "C608",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12081
+        ]
+      },
+      {
+        "ref": "C609",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12091
+        ]
+      },
+      {
+        "ref": "C102",
+        "library_record": "e17",
+        "gto_object_indices": [
+          11724
+        ]
+      },
+      {
+        "ref": "C103",
+        "library_record": "e17",
+        "gto_object_indices": [
+          11734
+        ]
+      },
+      {
+        "ref": "C201",
+        "library_record": "e17",
+        "gto_object_indices": [
+          11744
+        ]
+      },
+      {
+        "ref": "C202",
+        "library_record": "e17",
+        "gto_object_indices": [
+          11754
+        ]
+      },
+      {
+        "ref": "C403",
+        "library_record": "e17",
+        "gto_object_indices": [
+          11834
+        ]
+      },
+      {
+        "ref": "C406",
+        "library_record": "e17",
+        "gto_object_indices": [
+          11864
+        ]
+      },
+      {
+        "ref": "C415",
+        "library_record": "e17",
+        "gto_object_indices": [
+          11954
+        ]
+      },
+      {
+        "ref": "C601",
+        "library_record": "e17",
+        "gto_object_indices": [
+          12014
+        ]
+      },
+      {
+        "ref": "C602",
+        "library_record": "e17",
+        "gto_object_indices": [
+          12024
+        ]
+      },
+      {
+        "ref": "C604",
+        "library_record": "e17",
+        "gto_object_indices": [
+          12044
+        ]
+      },
+      {
+        "ref": "C607",
+        "library_record": "e17",
+        "gto_object_indices": [
+          12074
+        ]
+      },
+      {
+        "ref": "C608",
+        "library_record": "e17",
+        "gto_object_indices": [
+          12084
+        ]
+      },
+      {
+        "ref": "C609",
+        "library_record": "e17",
+        "gto_object_indices": [
+          12094
+        ]
+      },
+      {
+        "ref": "D501",
+        "library_record": "e7",
+        "gto_object_indices": [
+          12286
+        ]
+      },
+      {
+        "ref": "J205",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12399
+        ]
+      },
+      {
+        "ref": "J206",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12404
+        ]
+      },
+      {
+        "ref": "J302",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12412
+        ]
+      },
+      {
+        "ref": "J701",
+        "library_record": "e25",
+        "gto_object_indices": [
+          12473
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12526
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12532
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12538
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12544
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12550
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12556
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12562
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12568
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12574
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12580
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12586
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12592
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12598
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12610
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12616
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12622
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12628
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12634
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12640
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12646
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12652
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12658
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12664
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12670
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12676
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12682
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12688
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12694
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12700
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12706
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12712
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12718
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12724
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12730
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12736
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12742
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12748
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12754
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12760
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12766
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12772
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12778
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12784
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12790
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12802
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12814
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12826
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12838
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12850
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12856
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12862
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12868
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12874
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12880
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12886
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12892
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12898
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12904
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12916
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12922
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12928
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12934
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12940
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12946
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12952
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12958
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12964
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12970
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12976
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12982
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12988
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e10",
+        "gto_object_indices": [
+          12994
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13000
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13006
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13012
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13018
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13024
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13030
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13036
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13042
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13048
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13054
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13060
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13066
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13072
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13078
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13084
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13090
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13096
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13102
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13108
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13126
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13132
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13138
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13144
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13150
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13156
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13162
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13168
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e10",
+        "gto_object_indices": [
+          13174
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12527
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12533
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12539
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12545
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12551
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12557
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12563
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12569
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12575
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12581
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12587
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12593
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12599
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12611
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12617
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12623
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12629
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12635
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12641
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12647
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12653
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12659
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12665
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12671
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12677
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12683
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12689
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12695
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12701
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12707
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12713
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12719
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12725
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12731
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12737
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12743
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12749
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12755
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12761
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12767
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12773
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12779
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12785
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12791
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12803
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12815
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12827
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12839
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12851
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12857
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12863
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12869
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12875
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12881
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12887
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12893
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12899
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12905
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12917
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12923
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12929
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12935
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12941
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12947
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12953
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12959
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12965
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12971
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12977
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12983
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12989
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12995
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13001
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13007
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13013
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13019
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13025
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13031
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13037
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13043
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13049
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13055
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13061
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13067
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13073
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13079
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13085
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13091
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13097
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13103
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13109
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13127
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13133
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13139
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13145
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13151
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13157
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13163
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13169
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e11",
+        "gto_object_indices": [
+          13175
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12528
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12534
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12540
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12546
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12552
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12558
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12564
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12570
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12576
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12582
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12588
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12594
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12600
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12612
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12618
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12624
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12630
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12636
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12642
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12648
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12654
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12660
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12666
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12672
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12678
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12684
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12690
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12696
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12702
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12708
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12714
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12720
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12726
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12732
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12738
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12744
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12750
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12756
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12762
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12768
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12774
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12780
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12786
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12792
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12804
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12816
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12828
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12840
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12852
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12858
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12864
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12870
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12876
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12882
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12888
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12894
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12900
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12906
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12918
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12924
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12930
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12936
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12942
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12948
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12954
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12960
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12966
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12972
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12978
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12984
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12990
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12996
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13002
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13008
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13014
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13020
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13026
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13032
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13038
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13044
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13050
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13056
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13062
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13068
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13074
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13080
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13086
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13092
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13098
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13104
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13110
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13128
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13134
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13140
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13146
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13152
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13158
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13164
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13170
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e12",
+        "gto_object_indices": [
+          13176
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12529
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12535
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12541
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12547
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12553
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12559
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12565
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12571
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12577
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12583
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12589
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12595
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12601
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12613
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12619
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12625
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12631
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12637
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12643
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12649
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12655
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12661
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12667
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12673
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12679
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12685
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12691
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12697
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12703
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12709
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12715
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12721
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12727
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12733
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12739
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12745
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12751
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12757
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12763
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12769
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12775
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12781
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12787
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12793
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12805
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12817
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12829
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12841
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12853
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12859
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12865
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12871
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12877
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12883
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12889
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12895
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12901
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12907
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12919
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12925
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12931
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12937
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12943
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12949
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12955
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12961
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12967
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12973
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12979
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12985
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12991
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12997
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13003
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13009
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13015
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13021
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13027
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13033
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13039
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13045
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13051
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13057
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13063
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13069
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13075
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13081
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13087
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13093
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13099
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13105
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13111
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13129
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13135
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13141
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13147
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13153
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13159
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13165
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13171
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e13",
+        "gto_object_indices": [
+          13177
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12530
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12536
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12542
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12548
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12554
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12560
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12566
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12572
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12578
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12584
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12590
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12596
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12602
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12614
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12620
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12626
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12632
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12638
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12644
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12650
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12656
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12662
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12668
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12674
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12680
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12686
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12692
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12698
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12704
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12710
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12716
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12722
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12728
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12734
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12740
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12746
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12752
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12758
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12764
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12770
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12776
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12782
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12788
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12794
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12806
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12818
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12830
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12842
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12854
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12860
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12866
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12872
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12878
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12884
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12890
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12896
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12902
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12908
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12920
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12926
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12932
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12938
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12944
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12950
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12956
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12962
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12968
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12974
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12980
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12986
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12992
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e14",
+        "gto_object_indices": [
+          12998
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13004
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13010
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13016
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13022
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13028
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13034
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13040
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13046
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13052
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13058
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13064
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13070
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13076
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13082
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13088
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13094
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13100
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13106
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13112
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13130
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13136
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13142
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13148
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13154
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13160
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13166
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13172
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e14",
+        "gto_object_indices": [
+          13178
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12525
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12531
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12537
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12543
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12549
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12555
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12561
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12567
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12573
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12579
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12585
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12591
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12597
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12609
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12615
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12621
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12627
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12633
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12639
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12645
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12651
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12657
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12663
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12669
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12675
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12681
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12687
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12693
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12699
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12705
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12711
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12717
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12723
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12729
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12735
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12741
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12747
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12753
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12759
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12765
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12771
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12777
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12783
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12789
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12801
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12813
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12825
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12837
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12849
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12855
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12861
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12867
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12873
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12879
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12885
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12891
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12897
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12903
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12915
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12921
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12927
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12933
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12939
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12945
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12951
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12957
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12963
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12969
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12975
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12981
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12987
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12993
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12999
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13005
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13011
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13017
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13023
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13029
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13035
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13041
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13047
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13053
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13059
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13065
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13071
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13077
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13083
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13089
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13095
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13101
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13107
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13125
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13131
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13137
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13143
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13149
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13155
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13161
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13167
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e9",
+        "gto_object_indices": [
+          13173
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e21",
+        "gto_object_indices": [
+          13221
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e22",
+        "gto_object_indices": [
+          13222
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e23",
+        "gto_object_indices": [
+          13223
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e24",
+        "gto_object_indices": [
+          13224
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e25",
+        "gto_object_indices": [
+          13405,
+          13406
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e103",
+        "gto_object_indices": [
+          13225
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e104",
+        "gto_object_indices": [
+          13226
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e105",
+        "gto_object_indices": [
+          13227
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e106",
+        "gto_object_indices": [
+          13228
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e107",
+        "gto_object_indices": [
+          13229
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e108",
+        "gto_object_indices": [
+          13230
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e109",
+        "gto_object_indices": [
+          13231
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e110",
+        "gto_object_indices": [
+          13232
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e111",
+        "gto_object_indices": [
+          13233
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e112",
+        "gto_object_indices": [
+          13234
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e113",
+        "gto_object_indices": [
+          13235
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e114",
+        "gto_object_indices": [
+          13236
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e115",
+        "gto_object_indices": [
+          13237
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e116",
+        "gto_object_indices": [
+          13238
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e117",
+        "gto_object_indices": [
+          13239
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e118",
+        "gto_object_indices": [
+          13240
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e119",
+        "gto_object_indices": [
+          13241
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e122",
+        "gto_object_indices": [
+          13244
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e123",
+        "gto_object_indices": [
+          13245
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "revised": {
+    "total_actual_objects": 12963,
+    "matched_native_strokes": 431,
+    "matched_actual_objects": 432,
+    "matches": [
+      {
+        "ref": "C102",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11721
+        ]
+      },
+      {
+        "ref": "C103",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11730
+        ]
+      },
+      {
+        "ref": "C201",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11739
+        ]
+      },
+      {
+        "ref": "C202",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11748
+        ]
+      },
+      {
+        "ref": "C403",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11785
+        ]
+      },
+      {
+        "ref": "C406",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11800
+        ]
+      },
+      {
+        "ref": "C415",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11840
+        ]
+      },
+      {
+        "ref": "C601",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11864
+        ]
+      },
+      {
+        "ref": "C602",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11873
+        ]
+      },
+      {
+        "ref": "C604",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11892
+        ]
+      },
+      {
+        "ref": "C607",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11921
+        ]
+      },
+      {
+        "ref": "C608",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11930
+        ]
+      },
+      {
+        "ref": "C609",
+        "library_record": "e14",
+        "gto_object_indices": [
+          11939
+        ]
+      },
+      {
+        "ref": "D501",
+        "library_record": "e7",
+        "gto_object_indices": [
+          12021
+        ]
+      },
+      {
+        "ref": "J205",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12134
+        ]
+      },
+      {
+        "ref": "J206",
+        "library_record": "e5",
+        "gto_object_indices": [
+          12140
+        ]
+      },
+      {
+        "ref": "J205",
+        "library_record": "4bfd954434119b64",
+        "gto_object_indices": [
+          12137
+        ]
+      },
+      {
+        "ref": "J206",
+        "library_record": "4bfd954434119b64",
+        "gto_object_indices": [
+          12143
+        ]
+      },
+      {
+        "ref": "J302",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12149
+        ]
+      },
+      {
+        "ref": "J302",
+        "library_record": "bfd977df4a6170b9",
+        "gto_object_indices": [
+          12154
+        ]
+      },
+      {
+        "ref": "J302",
+        "library_record": "1b49ddff33e9f946",
+        "gto_object_indices": [
+          12155
+        ]
+      },
+      {
+        "ref": "J701",
+        "library_record": "e25",
+        "gto_object_indices": [
+          12212
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12265
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12269
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12273
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12277
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12281
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12285
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12289
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12293
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12297
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12301
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12305
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12309
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12313
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12323
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12327
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12331
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12335
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12339
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12343
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12347
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12351
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12355
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12359
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12363
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12367
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12371
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12375
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12379
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12383
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12387
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12391
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12395
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12399
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12403
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12407
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12411
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12415
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12419
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12423
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12427
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12431
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12435
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12439
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12443
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12453
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12463
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12473
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12483
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12493
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12497
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12501
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12505
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12509
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12513
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12517
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12521
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12525
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12529
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12539
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12543
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12547
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12551
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12555
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12559
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12563
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12567
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12571
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12575
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12579
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12583
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12587
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12591
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12595
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12599
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12603
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12607
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12611
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12615
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12619
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12623
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12627
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12631
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12635
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12639
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12643
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12647
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12651
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12655
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12659
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12663
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12667
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12683
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12687
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12691
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12695
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12699
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12703
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12707
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12711
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e11",
+        "gto_object_indices": [
+          12715
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12266
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12270
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12274
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12278
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12282
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12286
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12290
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12294
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12298
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12302
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12306
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12310
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12314
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12324
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12328
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12332
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12336
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12340
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12344
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12348
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12352
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12356
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12360
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12364
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12368
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12372
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12376
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12380
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12384
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12388
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12392
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12396
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12400
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12404
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12408
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12412
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12416
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12420
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12424
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12428
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12432
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12436
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12440
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12444
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12454
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12464
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12474
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12484
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12494
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12498
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12502
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12506
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12510
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12514
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12518
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12522
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12526
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12530
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12540
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12544
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12548
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12552
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12556
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12560
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12564
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12568
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12572
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12576
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12580
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12584
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12588
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12592
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12596
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12600
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12604
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12608
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12612
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12616
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12620
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12624
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12628
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12632
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12636
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12640
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12644
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12648
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12652
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12656
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12660
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12664
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12668
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12684
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12688
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12692
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12696
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12700
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12704
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12708
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12712
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e12",
+        "gto_object_indices": [
+          12716
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12267
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12271
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12275
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12279
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12283
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12287
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12291
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12295
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12299
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12303
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12307
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12311
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12315
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12325
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12329
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12333
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12337
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12341
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12345
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12349
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12353
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12357
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12361
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12365
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12369
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12373
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12377
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12381
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12385
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12389
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12393
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12397
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12401
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12405
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12409
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12413
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12417
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12421
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12425
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12429
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12433
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12437
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12441
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12445
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12455
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12465
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12475
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12485
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12495
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12499
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12503
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12507
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12511
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12515
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12519
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12523
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12527
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12531
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12541
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12545
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12549
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12553
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12557
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12561
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12565
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12569
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12573
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12577
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12581
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12585
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12589
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12593
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12597
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12601
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12605
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12609
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12613
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12617
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12621
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12625
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12629
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12633
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12637
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12641
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12645
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12649
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12653
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12657
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12661
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12665
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12669
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12685
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12689
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12693
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12697
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12701
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12705
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12709
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12713
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e13",
+        "gto_object_indices": [
+          12717
+        ]
+      },
+      {
+        "ref": "R103",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12264
+        ]
+      },
+      {
+        "ref": "R104",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12268
+        ]
+      },
+      {
+        "ref": "R105",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12272
+        ]
+      },
+      {
+        "ref": "R106",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12276
+        ]
+      },
+      {
+        "ref": "R107",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12280
+        ]
+      },
+      {
+        "ref": "R108",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12284
+        ]
+      },
+      {
+        "ref": "R109",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12288
+        ]
+      },
+      {
+        "ref": "R110",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12292
+        ]
+      },
+      {
+        "ref": "R111",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12296
+        ]
+      },
+      {
+        "ref": "R112",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12300
+        ]
+      },
+      {
+        "ref": "R113",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12304
+        ]
+      },
+      {
+        "ref": "R201",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12308
+        ]
+      },
+      {
+        "ref": "R202",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12312
+        ]
+      },
+      {
+        "ref": "R204",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12322
+        ]
+      },
+      {
+        "ref": "R205",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12326
+        ]
+      },
+      {
+        "ref": "R206",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12330
+        ]
+      },
+      {
+        "ref": "R207",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12334
+        ]
+      },
+      {
+        "ref": "R208",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12338
+        ]
+      },
+      {
+        "ref": "R209",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12342
+        ]
+      },
+      {
+        "ref": "R210",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12346
+        ]
+      },
+      {
+        "ref": "R211",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12350
+        ]
+      },
+      {
+        "ref": "R212",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12354
+        ]
+      },
+      {
+        "ref": "R213",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12358
+        ]
+      },
+      {
+        "ref": "R214",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12362
+        ]
+      },
+      {
+        "ref": "R215",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12366
+        ]
+      },
+      {
+        "ref": "R216",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12370
+        ]
+      },
+      {
+        "ref": "R217",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12374
+        ]
+      },
+      {
+        "ref": "R218",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12378
+        ]
+      },
+      {
+        "ref": "R219",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12382
+        ]
+      },
+      {
+        "ref": "R220",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12386
+        ]
+      },
+      {
+        "ref": "R221",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12390
+        ]
+      },
+      {
+        "ref": "R222",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12394
+        ]
+      },
+      {
+        "ref": "R223",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12398
+        ]
+      },
+      {
+        "ref": "R224",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12402
+        ]
+      },
+      {
+        "ref": "R225",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12406
+        ]
+      },
+      {
+        "ref": "R226",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12410
+        ]
+      },
+      {
+        "ref": "R227",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12414
+        ]
+      },
+      {
+        "ref": "R301",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12418
+        ]
+      },
+      {
+        "ref": "R302",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12422
+        ]
+      },
+      {
+        "ref": "R303",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12426
+        ]
+      },
+      {
+        "ref": "R304",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12430
+        ]
+      },
+      {
+        "ref": "R305",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12434
+        ]
+      },
+      {
+        "ref": "R306",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12438
+        ]
+      },
+      {
+        "ref": "R401",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12442
+        ]
+      },
+      {
+        "ref": "R404",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12452
+        ]
+      },
+      {
+        "ref": "R407",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12462
+        ]
+      },
+      {
+        "ref": "R410",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12472
+        ]
+      },
+      {
+        "ref": "R413",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12482
+        ]
+      },
+      {
+        "ref": "R416",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12492
+        ]
+      },
+      {
+        "ref": "R417",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12496
+        ]
+      },
+      {
+        "ref": "R418",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12500
+        ]
+      },
+      {
+        "ref": "R419",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12504
+        ]
+      },
+      {
+        "ref": "R420",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12508
+        ]
+      },
+      {
+        "ref": "R501",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12512
+        ]
+      },
+      {
+        "ref": "R502",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12516
+        ]
+      },
+      {
+        "ref": "R503",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12520
+        ]
+      },
+      {
+        "ref": "R504",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12524
+        ]
+      },
+      {
+        "ref": "R601",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12528
+        ]
+      },
+      {
+        "ref": "R603",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12538
+        ]
+      },
+      {
+        "ref": "R604",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12542
+        ]
+      },
+      {
+        "ref": "R605",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12546
+        ]
+      },
+      {
+        "ref": "R606",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12550
+        ]
+      },
+      {
+        "ref": "R607",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12554
+        ]
+      },
+      {
+        "ref": "R608",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12558
+        ]
+      },
+      {
+        "ref": "R609",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12562
+        ]
+      },
+      {
+        "ref": "R610",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12566
+        ]
+      },
+      {
+        "ref": "R611",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12570
+        ]
+      },
+      {
+        "ref": "R612",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12574
+        ]
+      },
+      {
+        "ref": "R613",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12578
+        ]
+      },
+      {
+        "ref": "R614",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12582
+        ]
+      },
+      {
+        "ref": "R701",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12586
+        ]
+      },
+      {
+        "ref": "R702",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12590
+        ]
+      },
+      {
+        "ref": "R703",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12594
+        ]
+      },
+      {
+        "ref": "R704",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12598
+        ]
+      },
+      {
+        "ref": "R705",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12602
+        ]
+      },
+      {
+        "ref": "R706",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12606
+        ]
+      },
+      {
+        "ref": "R708",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12610
+        ]
+      },
+      {
+        "ref": "R710",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12614
+        ]
+      },
+      {
+        "ref": "R711",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12618
+        ]
+      },
+      {
+        "ref": "R712",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12622
+        ]
+      },
+      {
+        "ref": "R713",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12626
+        ]
+      },
+      {
+        "ref": "R714",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12630
+        ]
+      },
+      {
+        "ref": "R715",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12634
+        ]
+      },
+      {
+        "ref": "R802",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12638
+        ]
+      },
+      {
+        "ref": "R803",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12642
+        ]
+      },
+      {
+        "ref": "R804",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12646
+        ]
+      },
+      {
+        "ref": "R805",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12650
+        ]
+      },
+      {
+        "ref": "R806",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12654
+        ]
+      },
+      {
+        "ref": "R808",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12658
+        ]
+      },
+      {
+        "ref": "R809",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12662
+        ]
+      },
+      {
+        "ref": "R810",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12666
+        ]
+      },
+      {
+        "ref": "R813",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12682
+        ]
+      },
+      {
+        "ref": "R901",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12686
+        ]
+      },
+      {
+        "ref": "R902",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12690
+        ]
+      },
+      {
+        "ref": "R903",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12694
+        ]
+      },
+      {
+        "ref": "R904",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12698
+        ]
+      },
+      {
+        "ref": "R905",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12702
+        ]
+      },
+      {
+        "ref": "R906",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12706
+        ]
+      },
+      {
+        "ref": "R907",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12710
+        ]
+      },
+      {
+        "ref": "R908",
+        "library_record": "e9",
+        "gto_object_indices": [
+          12714
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e21",
+        "gto_object_indices": [
+          12760
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e22",
+        "gto_object_indices": [
+          12761
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e23",
+        "gto_object_indices": [
+          12762
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e24",
+        "gto_object_indices": [
+          12763
+        ]
+      },
+      {
+        "ref": "U203",
+        "library_record": "e25",
+        "gto_object_indices": [
+          12929,
+          12930
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e117",
+        "gto_object_indices": [
+          12764
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e118",
+        "gto_object_indices": [
+          12765
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e119",
+        "gto_object_indices": [
+          12766
+        ]
+      },
+      {
+        "ref": "U301",
+        "library_record": "e122",
+        "gto_object_indices": [
+          12769
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "unchanged_actual_object_count": 12531,
+  "unexpected_removed": {},
+  "unexpected_added": {},
+  "scope": "Each changed printed library stroke on every instance matches the actual Gerber ink in both geometric directions within the published tolerance. Each drawing object is used at most once per side. All other expanded Gerber primitives and their multiplicities must match exactly. Primitive order is immaterial for dark-only artwork."
+}

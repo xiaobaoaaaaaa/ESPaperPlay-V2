@@ -1,6 +1,6 @@
 # 99 mm 原生 PCB 布线复核
 
-> 当前布线检查记录；最终完整验证已完成，工程偏好与丝印审查项仍保留。本文没有制造放行效力。
+> 当前布线检查记录；最终完整验证已完成，电气工程偏好仍需首板验证。本文没有制造放行效力。
 
 原生 PCB 已完成布线。标准叠层、保存重开、铺铜后的原生 DRC 空列表已取证；当前为 0 连接错误、0 其他错误。最终完整 21 项 runner 结果为 `COMPLETE_GEOMETRY_CHECKS_WITH_RECORDED_ENGINEERING_REVIEWS`，`scope=complete_set`、运行期间输入未变、未解决检查失败为 0；关键线和参考面两项原始退出码仍为 1，并按精确身份保留工程审查项。旧布局阶段 771 项连接错误和参考叠层保存失败仅作为历史保留。当前运行时源为 236 器件、803 个 PAD_NET、2779 条铜 LINE、647 个 VIA、13 条物理层记录。
 
@@ -17,11 +17,11 @@
 | 特殊封装、通用 SMD 锡膏及 J501 | 特殊封装与 J501 均通过；通用 SMD 未发现漏膏 | `verification-run/{special-cam,smd-paste,j501-cam-review}.json` |
 | USB/SD/EPD/I²S 端子、串阻、PTH 换层与参考面 | 关键 79 网/269 端子无开短；EPD/TOUCH 返回偏好保留；606 LINE/294 GND 参考面无新增硬错误；68 段端子路径已测量 | `verification-run/{critical-routes,reference-planes,signal-lengths,i2s-paths}.json` |
 | 电源 24 条路径与累计细颈 | 24/24 线段 R20 筛查达标；8 条宽度/累计细颈目标偏差保留 | `verification-run/power-paths.json` |
-| 最终丝印、装配方向、生产稿 | 位号和新增引线通过；19 个库外形压阻焊、U301 板外框、U203 裸孔外形仍待审，未生产放行 | `../silkscreen/final-silkscreen-review.json`、`../silkscreen/final-leaders-and-copper-review.json`、`../silkscreen/final-silkscreen-visual-review.json` |
+| 最终丝印、装配方向、生产稿 | 位号和新增引线通过；原生轮廓修正后整层开窗、板外和须避让孔的交叠为零，装配定位见首板资料 | `../silkscreen/final-silkscreen-review.json`、`../silkscreen/native-outline-revision.json`、`../assembly-review/README.md` |
 
-本轮归档为 2,019,015 字节，SHA256 `778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c`；CAM 为 489,059 字节，SHA256 `97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3`。当前源 SHA256 为 `2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e`，state 为 `29960dc357eca29afd5e763de61bfc5078ce66ff7e5b44f96104f98a6ff74d5a`。后续改动须重新冻结并复核。
+本轮归档为 2,022,159 字节，SHA256 `cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19`，CAM 为 493,307 字节，SHA256 `ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474`。当前源 SHA256 为 `2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e`，state 为 `29960dc357eca29afd5e763de61bfc5078ce66ff7e5b44f96104f98a6ff74d5a`。
 
-首轮未闭合报告及原输入保留在 `verification-history/before-archive-cleanup/`，当前归档清理证据见 `archive-cleanup-proof.json`；历史报告没有改哈希冒充复跑。当前归档核验严格比较实体、网络、规则、封装与层叠，仅对派生铺铜缓存已识别路径的有界浮点表示差异作比较投影，字段与拓扑仍严格一致，原始差异保留，实际 CAM 独立检查。
+首轮未闭合报告及原输入保留在 `verification-history/before-archive-cleanup/`，`475f5f5` 布线阶段归档清理证据见 `archive-cleanup-proof.json`；历史报告没有改哈希冒充复跑。当前归档核验严格比较实体、网络、规则、封装与层叠，仅对派生铺铜缓存已识别路径的有界浮点表示差异作比较投影，字段与拓扑仍严格一致，原始差异保留，实际 CAM 独立检查。
 
 最终重跑仅跳过已在首轮完成的 J501 13 项反例；当前 J501 实际 CAM 仍重新检查，反例历史见 `verification-history/before-archive-cleanup/j501-cam-review.json`。
 
@@ -43,9 +43,9 @@ Top/Bottom 走线，两个内层用于 GND。普通通孔采用 Ø0.30/Ø0.60 mm
 
 **TOUCH_IO_EN 返回偏好。** 最终关键网检查另报告信号孔 `ffe9ee8ae2cc196e` 到最近地贯通点 `8fe8f0e0cc4c73a1` 为 **2.504406127 mm**。这是静态隔离使能线的返回偏好项，单独保留实际孔 ID 和距离进行分类，不套用 EPD 孔的身份限定分类；2 mm 原始偏好、原始非零退出码和制造间距均保持。首板检查默认态、隔离切换与并发活动下的噪声，不宣称高频或完整信号完整性资格。
 
-**备用 GPIO 返回偏好。** 最终源中的信号孔 `d7475b9eb55316cc` 位于约 `(48.65, −43.5) mm`，到地孔 `ecbe0f72b19d894c` 的中心距为 **2.977414534 mm**。0.025 mm 网格的有限局部搜索没有找到满足铜距 0.1502 mm、孔距 0.2502 mm 且距离 ≤1.9999 mm 的新地孔位置；这只证明已搜索范围无候选，不是全空间数学不可行证明。保留静态备用 GPIO 的这一返回偏好限制，制造间距/全铜连通和最终实际 GND 平面检查独立执行；不沿用 EPD 的身份限定分类，也不把它描述成制造 DRC 豁免。实际孔 ID、坐标与距离已记录于 `spare-gpio-return-review.json`；首板仍需噪声/默认态测试。
+**备用 GPIO 返回偏好。** 最终源中的信号孔 `d7475b9eb55316cc` 位于约 `(48.65, −43.5) mm`，到地孔 `ecbe0f72b19d894c` 的中心距为 **2.977414534 mm**。0.025 mm 网格的有限局部搜索没有找到满足铜距 0.1502 mm、孔距 0.2502 mm 且距离 ≤1.9999 mm 的新地孔位置；这只证明已搜索范围无候选，不是全空间数学不可行证明。保留静态备用 GPIO 的这一返回偏好限制，制造间距/全铜连通和最终实际 GND 平面检查独立执行；不沿用 EPD 的身份限定分类，也不把它描述成制造 DRC 豁免。布线阶段记录的孔 ID、坐标与距离见 `spare-gpio-return-review.json`；首板仍需噪声/默认态测试。
 
-**F501 丝印。** 原生库仅修改两条外形丝印线，各移 1.016 mm；库、板及规则证据需随最终归档保存。[F501 原生库证据](../silkscreen/f501-library-silk-persisted-check.json)的 19 项检查通过；实际 CAM 物理图元比较表明全部非丝印图元逐项零容差一致，三组原生规则完全未变。[实际丝印差分](../silkscreen/f501-actual-silk-delta-review.json)记录两条实际丝印距阻焊开窗约 0.178205 mm、其它 GTO 图元及 GBO 不变，并附 5 项等价/变异自检。正式 `../../source/footprints/F501.efoo` 来自保存归档直接提取的 `F501-silk-saved.efoo`，其余七份关键封装不变。这些修改前后比较属于历史现场证据，部分旧输入位于 ignored `build/`；当前正式丝印检查可独立复跑，边界见 `../../verification/README-silkscreen.md`。比较依据是实际物理图元及孔，不是对 Gerber 文本整段做哈希相等要求；未使用到的 aperture 定义变化不产生实际铜差异。早期只按命令文本比较产生的差异已有这份物理图元证明；保留比较方法、零容差和原始证据，不用删除真实形状差异换取通过。F501 专项报告的阶段 DRC 数字不是最终整板状态。
+**F501 丝印。** 原生库仅修改两条外形丝印线，各移 1.016 mm；库、板及规则证据需随最终归档保存。[F501 原生库证据](../silkscreen/f501-library-silk-persisted-check.json)的 19 项检查通过；实际 CAM 物理图元比较表明全部非丝印图元逐项零容差一致，三组原生规则完全未变。[实际丝印差分](../silkscreen/f501-actual-silk-delta-review.json)记录两条实际丝印距阻焊开窗约 0.178205 mm、其它 GTO 图元及 GBO 不变，并附 5 项等价/变异自检。正式 `../../source/footprints/F501.efoo` 来自保存归档直接提取的 `F501-silk-saved.efoo`，其余七份关键封装在当时的专项修改中未动。这些修改前后比较属于历史现场证据，部分旧输入位于 ignored `build/`；当前正式丝印检查可独立复跑，边界见 `../../verification/README-silkscreen.md`。比较依据是实际物理图元及孔，不是对 Gerber 文本整段做哈希相等要求；未使用到的 aperture 定义变化不产生实际铜差异。早期只按命令文本比较产生的差异已有这份物理图元证明；保留比较方法、零容差和原始证据，不用删除真实形状差异换取通过。F501 专项报告的阶段 DRC 数字不是最终整板状态。
 
 **电源路径。** 同版 `verification-run/power-paths.json` 已测量全部 24 条固定路径，包括连续累加的细颈长度；24/24 线段 R20 筛查在参考限值内，仍有 8 条宽度/累计细颈目标偏差。R20 只计算所选 LINE 路径，未包括孔桶、焊盘/接触电阻、并联分流、自热或实际铜厚偏差；不能据此批准载流和温升。USB VBUS、SYS、3V3_MAIN、EPD 分支等具体偏差保留在最终报告，首板加载测压降与温升。
 
@@ -55,9 +55,13 @@ Top/Bottom 走线，两个内层用于 GND。普通通孔采用 Ø0.30/Ø0.60 mm
 
 ## 丝印和装配识别范围
 
-最终 236 个位号的实际字形数量、阻焊/孔/板边几何检查均无发现，设置字高 1.2 mm 对应最小实际墨迹字高约 0.83834 mm。四组新增丝印引线的 15 段实际 GTO 图元完整，最小距阻焊开窗约 0.493723 mm、原始孔投影约 0.205119 mm；11 份非丝印实际 CAM 与布线完成基准逐项精确等价。证据分别为 `../silkscreen/final-silkscreen-review.json`、`../silkscreen/final-leaders-and-copper-review.json` 和 `../silkscreen/final-silkscreen-visual-review.json`。
+本轮在 9 个共享封装中修改或增补 46 个丝印图元，156 个已放置器件随库更新。两类 0603 封装使用短线标识，所有修正均保存在封装中。7 个早期封装经编辑器重新序列化后存在焊盘、填充等字段表现差异。逐库对照修改前的编辑器几何，并逐图元比较两次 CAM 导出，四层铜、阻焊、锡膏、钻孔、板框和底层丝印的实际几何均一致。 [归档与制造图元对照](../silkscreen/native-outline-revision.json)
 
-既有原生库外形仍有 19 个器件与阻焊开窗相交（C501、C502、C607、C609、C703、C705、D501、J206、J302、J701、R215、R226、R503、R504、R705、R706、R810、U203、U301），U301 外框超出板边，U203 外形接触开放孔投影。遮盖在阻焊下的孔投影与真正开窗孔分开报告；不能将两者混成铜缺陷，也不能据位号合格忽略整板丝印。后续仅调整相应丝印并核对实际 CAM，不借此改铜、阻焊或锡膏。 D501 阴极条纹及 U203 的 1 脚环在工厂丝印处理后的可辨性需与装配图核对；J601/J406 的 1 脚识别也须参照源和装配资料，不能由清晰的位号文字代替。
+同版 CAM 的 236 个位号均达到 0.8 mm 的最小实际字高目标，实测最小为 0.83834 mm。全层墨迹与阻焊开窗、板外、非完全盖油孔的相交面积均为零，51 个封装的其余孔投影仅落在完全盖油的原生 VIA 上。[几何复核](../silkscreen/final-silkscreen-review.json) · [本轮差分及制造几何复核](../silkscreen/native-outline-revision.json)
+
+在修改前的 `475f5f5` 中，19 个器件涉及 32 片开窗交叠，U301 的丝印超出板边，U203 的丝印接触两个裸露孔。另有 J205 的 e5 轮廓压到一个部分开窗的过孔。以上为本轮修正的依据。装配图给出 D501 的阴极、U203 和两个连接器的 1 脚方向。[首板装配复核](../assembly-review/README.md)
+
+嘉立创公开的标准能力列出焊盘到丝印至少 0.15 mm、文字高度至少 1.0 mm。以实际阻焊开窗边界筛查，本版有 1047 个顶层丝印绘制图元距开窗小于 0.15 mm，最小 0.00927 mm，位于 J701 的外形。该数量按绘制图元统计，开窗与焊盘边界可能有差异。236 个位号均距开窗至少 0.27944 mm，原生标称字高 1.2 mm，实际墨迹高 0.838–0.904 mm。板厂可能裁剪靠近焊盘的丝印，需按工厂稿和首板核对文字及方向标记。 D501 阴极条到最近开窗为 0.17190 mm，U203 的 1 脚环为 0.16542 mm。 [丝印间距复核](../silkscreen/silk-mask-clearances.json) · [嘉立创制造能力](https://jlcpcb.com/capabilities/pcb-capabilities) · [字符处理说明](https://jlcpcb.com/blog/character-design-specifications)
 
 ## 默认禁充与首板条件
 

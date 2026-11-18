@@ -1,0 +1,251 @@
+{
+  "output_top_paste_sha256": "3aa0a16c92433f0c789879b617ebe6236d2c86ede24b81f0647fc40e6cbde5b2",
+  "source_gerber_member": "Gerber_TopPasteMaskLayer.GTP",
+  "hand_solder_refs": [
+    "J101",
+    "J102",
+    "J103",
+    "J104",
+    "J105",
+    "J201",
+    "J202",
+    "J203",
+    "J204",
+    "J205",
+    "J206",
+    "J401",
+    "J402",
+    "J403",
+    "J404",
+    "J405",
+    "J406",
+    "J501",
+    "J502",
+    "J601",
+    "J701",
+    "J801",
+    "SW301",
+    "SW302",
+    "SW303",
+    "SW304",
+    "SW305"
+  ],
+  "DNP_refs": [
+    "C501",
+    "C502",
+    "J301",
+    "J302",
+    "J303",
+    "R108"
+  ],
+  "input_objects": 699,
+  "removed_openings_by_ref": {
+    "C501": 2,
+    "C502": 2,
+    "J406": 8,
+    "J501": 12,
+    "J601": 26,
+    "J701": 14,
+    "R108": 2
+  },
+  "removed_openings": 66,
+  "retained_openings": 633,
+  "retained_original_geometry": 623,
+  "adjusted_openings": [
+    {
+      "ref": "C703",
+      "pin": "1",
+      "aperture_bounds_mm": [
+        66.82,
+        -19.19502,
+        67.68,
+        -18.60502
+      ],
+      "copper_coverage_percent": 70.472
+    },
+    {
+      "ref": "C703",
+      "pin": "2",
+      "aperture_bounds_mm": [
+        66.82,
+        -17.79498,
+        67.68,
+        -17.20498
+      ],
+      "copper_coverage_percent": 70.472
+    },
+    {
+      "ref": "C705",
+      "pin": "1",
+      "aperture_bounds_mm": [
+        66.82,
+        -7.99503,
+        67.68,
+        -7.40503
+      ],
+      "copper_coverage_percent": 70.472
+    },
+    {
+      "ref": "C705",
+      "pin": "2",
+      "aperture_bounds_mm": [
+        66.82,
+        -6.59498,
+        67.68,
+        -6.00498
+      ],
+      "copper_coverage_percent": 70.472
+    },
+    {
+      "ref": "R215",
+      "pin": "1",
+      "aperture_bounds_mm": [
+        51.67167,
+        -44.90954,
+        52.42167,
+        -44.08954
+      ],
+      "copper_coverage_percent": 88.26
+    },
+    {
+      "ref": "R215",
+      "pin": "2",
+      "aperture_bounds_mm": [
+        53.1784,
+        -44.90954,
+        53.9284,
+        -44.08954
+      ],
+      "copper_coverage_percent": 88.26
+    },
+    {
+      "ref": "R226",
+      "pin": "1",
+      "aperture_bounds_mm": [
+        49.17164,
+        -45.71,
+        49.92164,
+        -44.89
+      ],
+      "copper_coverage_percent": 88.26
+    },
+    {
+      "ref": "R226",
+      "pin": "2",
+      "aperture_bounds_mm": [
+        50.67837,
+        -45.71,
+        51.42837,
+        -44.89
+      ],
+      "copper_coverage_percent": 88.26
+    },
+    {
+      "ref": "R705",
+      "pin": "1",
+      "aperture_bounds_mm": [
+        75.58,
+        -19.24336,
+        76.42,
+        -18.66336
+      ],
+      "copper_coverage_percent": 69.919
+    },
+    {
+      "ref": "R705",
+      "pin": "2",
+      "aperture_bounds_mm": [
+        75.58,
+        -17.73664,
+        76.42,
+        -17.15664
+      ],
+      "copper_coverage_percent": 69.919
+    }
+  ],
+  "adjusted_pairs": [
+    {
+      "references": [
+        "R705",
+        "U704"
+      ],
+      "before_web_mm": 0.0,
+      "before_overlap_mm2": 0.0055346,
+      "after_web_mm": 0.15667
+    },
+    {
+      "references": [
+        "R215",
+        "R226"
+      ],
+      "before_web_mm": 0.010033,
+      "before_overlap_mm2": 0.0,
+      "after_web_mm": 0.2433
+    },
+    {
+      "references": [
+        "C705",
+        "U706"
+      ],
+      "before_web_mm": 0.04987,
+      "before_overlap_mm2": 0.0,
+      "after_web_mm": 0.15487
+    },
+    {
+      "references": [
+        "C703",
+        "U701"
+      ],
+      "before_web_mm": 0.04988,
+      "before_overlap_mm2": 0.0,
+      "after_web_mm": 0.15488
+    }
+  ],
+  "remaining_overlap_mm2_with_hand_solder_or_DNP_pads": 0.0,
+  "minimum_nominal_web_mm": 0.12,
+  "minimum_web_refs": [
+    "U802",
+    "U802"
+  ],
+  "minimum_cross_component_web_mm": 0.15487,
+  "minimum_cross_component_web_refs": [
+    "C705",
+    "U706"
+  ],
+  "min_area_ratio_at_0.10_mm": 0.88238,
+  "minimum_area_ratio_ref": "U201",
+  "unmodified_critical_opening_counts": {
+    "U101": 17,
+    "U203": 10,
+    "U301": 40,
+    "U802": 20,
+    "U803": 10
+  },
+  "comparison": "Each source object classified by all intersecting pads. Uniform keep/remove within a group required. Ten selected replacement rectangles centered within measured CAM pad bounds. Reparsed and compared every resulting shape. Minimum web measured between every nearby opening. Minimum area ratio calculated as opening area / (perimeter × steel thickness).",
+  "stage": "PROTOTYPE_STENCIL_REVIEW",
+  "limits": "Nominal artwork. Laser cutting, local web tolerance, print alignment, paste transfer, bridge formation and reflow require confirmation on the actual foil and first boards.",
+  "source_version": {
+    "prior_cam_sha256": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3",
+    "current_cam_sha256": "ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474",
+    "description": "The stencil was derived from the prior routed CAM. All ordered physical top copper/paste Gerber primitives and draw polarities are identical in the later silkscreen revision. Both input byte hashes are retained below."
+  },
+  "original_stencil_derivation_input_top_paste_sha256": "a70c377df8494a4e7b445c9942b2f314edc983e0fd168b751c3e4027bb7f1fae",
+  "physical_layers": {
+    ".GTL": {
+      "file": "Gerber_TopLayer.GTL",
+      "object_count": 3472,
+      "prior_member_sha256": "e5b0a54014a37b44c0898e7eb4dc3f2656fa93af890259375912a09cb1f572c7",
+      "current_member_sha256": "2e13abaed6c8f226a2e3d484f2b1aaecbbd6b30713ad2da1c4ce5987f1101ce9",
+      "ordered_primitive_sha256": "ef255537badaf85c4aa6edb050da02b7a2e447ea5ce25b135fe676135b68467b"
+    },
+    ".GTP": {
+      "file": "Gerber_TopPasteMaskLayer.GTP",
+      "object_count": 699,
+      "prior_member_sha256": "a70c377df8494a4e7b445c9942b2f314edc983e0fd168b751c3e4027bb7f1fae",
+      "current_member_sha256": "084fb7bbb9dc4a8de8e5c5f00f234be3b11b370c7b9652d3e3abd383e49f8f5d",
+      "ordered_primitive_sha256": "14322edff7abec69cf0906dcedb15cd75189d17e3b0c5cae98e5a1260f4d0188"
+    }
+  },
+  "placement_and_pin_sha256": "faf1f71140019476b36eeccba16e1671ee3081a1132b59fc8dcfc1e0094b3ad8",
+  "orientation_svg_sha256": "f7315c26c80990761a0878a355549249595ad303b2a2fd0849199921b8ffdb7b"
+}

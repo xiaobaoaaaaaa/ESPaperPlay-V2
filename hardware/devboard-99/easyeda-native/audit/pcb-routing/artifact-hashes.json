@@ -1,19 +1,19 @@
 {
   "schema": "native-final-artifact-index-v1",
-  "generated_at": "2026-11-16T05:06:59.171003+00:00",
+  "generated_at": "2026-11-18T04:59:30.082639+00:00",
   "status": "FINAL_FROZEN_CONTENT_INDEX_NOT_MANUFACTURING_RELEASE",
   "path_base": "repository_root",
   "verification_summary": {
     "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/verification-summary.json",
-    "sha256": "4f32882e628c2657adccd1350108aa4e1827ae95e419b330d6fbee06b4fdf466",
+    "sha256": "63baaf441ea2fac4d18eb64aec02fc32220fb8372c4b78fe5453b22e6456b059",
     "status": "COMPLETE_GEOMETRY_CHECKS_WITH_RECORDED_ENGINEERING_REVIEWS"
   },
-  "count": 213,
+  "count": 227,
   "files": [
     {
       "path": "README.md",
-      "bytes": 5339,
-      "sha256": "ea5d845dd0dfeb580ba61d21d196334a01609eae3f2fdc30fbf02e1df02a11b5"
+      "bytes": 5561,
+      "sha256": "f67c72276d3366feb59463f97139c1e7246523bb28f672fec84fbbf764dbf394"
     },
     {
       "path": "docs/v2/README.md",
@@ -32,23 +32,48 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
-      "bytes": 2019015,
-      "sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c"
+      "bytes": 2022159,
+      "sha256": "cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/README.md",
-      "bytes": 8607,
-      "sha256": "a1969e7e7fa397483e6fde0ea28b4b5f8daff8ccccf12ad94179a6be427faef1"
+      "bytes": 9753,
+      "sha256": "f4160840ca134a987e3e6f49cd5cc7e24e0e379a01466ce5bfd9b801b87b21ab"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/archive-coherence.json",
       "bytes": 1551,
-      "sha256": "1a2f275c4d7a4b984fce5bf21d2eed163d24accc515b91f921ed6feb75542827"
+      "sha256": "5c87622dee62c7c7e5f828ee2f63343e9c1b1bb9f4faeeb223c571481939a1d6"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/archived-text-workaround.json",
       "bytes": 2438,
       "sha256": "33d96ec8ac79155bd2355e4ac9e2fa953a94fe3634d9c586674611746f5bc710"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/assembly-review/README.md",
+      "bytes": 5321,
+      "sha256": "72820b28194eb56b5519e8f8dc6b1e7e3f6f9a69c6451b71041697c42f5dbd22"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/assembly-review/check-assembly.py",
+      "bytes": 4580,
+      "sha256": "c6919d8b1cf5ebf156e1eaccfd7dff280cee1bc5a14544fa772d68e0a941415c"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/assembly-review/native99-first-two-top-paste-review.GTP",
+      "bytes": 226458,
+      "sha256": "3aa0a16c92433f0c789879b617ebe6236d2c86ede24b81f0647fc40e6cbde5b2"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/assembly-review/stencil-review.json",
+      "bytes": 6216,
+      "sha256": "9969b9bc59abdf9f50675ba0abfc6f4d09cad37c61eb1c483bbc90bba874b17b"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/assembly-review/top-orientation.svg",
+      "bytes": 98853,
+      "sha256": "f7315c26c80990761a0878a355549249595ad303b2a2fd0849199921b8ffdb7b"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/attrmatchcode-investigation.json",
@@ -72,8 +97,8 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/checkpoint-status.json",
-      "bytes": 36139,
-      "sha256": "12ea62eab28ff2e67ddeb826885a7dfc02c4ffa915a53001aa02084655f4504a"
+      "bytes": 38964,
+      "sha256": "e3790c361f919c02b8376b6371796fce01a1c8b1adba1e218ca6145529b6bf05"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/display-attribute-verification.json",
@@ -277,8 +302,8 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip",
-      "bytes": 489059,
-      "sha256": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3"
+      "bytes": 493307,
+      "sha256": "ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/archive-checker-self-test.json",
@@ -292,8 +317,8 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/archive-coherence.json",
-      "bytes": 80878,
-      "sha256": "03196504cfb3e466677b3ba345322a0998f89b184f2abae33855a85ed5678504"
+      "bytes": 81173,
+      "sha256": "d3622f2fa82c800ffb5b385c6323eeaff4e544684b677fc1ab0e8132a67432b9"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/final-routed-state.json",
@@ -312,8 +337,8 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/pcb-routing-review.md",
-      "bytes": 13585,
-      "sha256": "7c9e383b4127a602a8341180c7ddf96cf572768be23aca146dea8521386a4ceb"
+      "bytes": 14459,
+      "sha256": "cb17fa5c58b2bdbbb14463e3e3d82f4559f9f4f323cca0a8ec51102075ac6d72"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/review-classifier-self-test.json",
@@ -508,27 +533,27 @@
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/boundaries.json",
       "bytes": 380964,
-      "sha256": "d41129724a940b3e9b83a343046edc355ae2fe4122d484be6112ed67e6543ef1"
+      "sha256": "8e3a9eef7d153326a9f9321b397b9cacdfc74cb966671fdb04ad07d0eb772d15"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/cam-connectivity.json",
-      "bytes": 778182,
-      "sha256": "a988c9a6094fcb8c41a858babca1d68fab27842d9f9f8f05988b17ebb6a445de"
+      "bytes": 778285,
+      "sha256": "f00ffa460267137fbde13062985e77faed410b716582ec7094bbc64cd770894d"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/critical-routes.json",
       "bytes": 185623,
-      "sha256": "3946069e1aad024a4e1ce9d341acc811ceb6c9945fabd558b5c4d67eb8b18d97"
+      "sha256": "a03bb38bf5c25ebef3fe42f2b228e8995dfaac0697725f5f07ed199da6831780"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/i2s-paths.json",
       "bytes": 74906,
-      "sha256": "99adf695b25908627bc1be8d7a1d199095bcd013f61a731386f09a078ad9b1de"
+      "sha256": "ba6194b9a90593f1cafe0b80f8e5bd1a3cecbfd68d5701d8a2752b78d672f94f"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/j501-cam-review.json",
-      "bytes": 37750,
-      "sha256": "bc4a059975a406b208a5f018ccfbf4e802c094692d006ae9d5a5174ef62fdd46"
+      "bytes": 37853,
+      "sha256": "c0f22074b02b46836c2e55a4a9c3141b30ffc57c7aee7916dbc6dd87112fcb43"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/native-drc-export-check.json",
@@ -537,8 +562,8 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/pcb-archive-coherence.json",
-      "bytes": 80878,
-      "sha256": "03196504cfb3e466677b3ba345322a0998f89b184f2abae33855a85ed5678504"
+      "bytes": 81173,
+      "sha256": "d3622f2fa82c800ffb5b385c6323eeaff4e544684b677fc1ab0e8132a67432b9"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/pcb-logical-pins.json",
@@ -553,7 +578,7 @@
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/power-paths.json",
       "bytes": 284714,
-      "sha256": "5aa32e4bcb5e7d9ccc3bcbe7972e4616678b1dd933ed05cd3beb77aee9b83df7"
+      "sha256": "9d1fcaf21c8087f0e5d5c3a44bf5900b346acb60907565d6d590ede692dd0b31"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/power-paths.md",
@@ -568,7 +593,7 @@
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/reference-planes.json",
       "bytes": 556302,
-      "sha256": "321269d3fa65abc51fbe895c6010d652677ffd1cf59b87ad83693d2b57280ba7"
+      "sha256": "4aafab0b2765c79d82bfe34d1a154198eb2b64ffc54bfb051f14728f0130a2f1"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/reference-planes.svg",
@@ -578,7 +603,7 @@
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/schematic-archive-coherence.json",
       "bytes": 1551,
-      "sha256": "1a2f275c4d7a4b984fce5bf21d2eed163d24accc515b91f921ed6feb75542827"
+      "sha256": "5c87622dee62c7c7e5f828ee2f63343e9c1b1bb9f4faeeb223c571481939a1d6"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/schematic-logical-pins.json",
@@ -593,27 +618,37 @@
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/signal-lengths.json",
       "bytes": 95585,
-      "sha256": "60cdc27be0adc72991304bfe096e6682f037af5cec9113be8659fbbd7e012686"
+      "sha256": "d9980e285f4ef4601b4f8ef3c2ef741a882a86ebb538a0bec9e59cc062eaa8cd"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/smd-paste.json",
       "bytes": 308734,
-      "sha256": "536318b7a222563eef87af306a77b0dda3cffe4c2e4618eb3583949745d13f62"
+      "sha256": "24f15086543349502fbd4dc2a7c0f376b43458cd99c08cf3aa08e6ed6f052efa"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/special-cam.json",
-      "bytes": 248056,
-      "sha256": "21e756520ca5ea42f60ed425597dc8bcb492d13e3cff1c56fbd3165ebd1e3750"
+      "bytes": 248159,
+      "sha256": "f86cea503558ab357ed8f5fbf449dbbf7111663ec7df7be278fb025e185e0636"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/verification-run/verification-summary.json",
-      "bytes": 49288,
-      "sha256": "4f32882e628c2657adccd1350108aa4e1827ae95e419b330d6fbee06b4fdf466"
+      "bytes": 49476,
+      "sha256": "63baaf441ea2fac4d18eb64aec02fc32220fb8372c4b78fe5453b22e6456b059"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/reference-components.json",
       "bytes": 522658,
       "sha256": "25ccb78916d1c75966f3e493f24df03c2b907425b33392b99e62c7d693c8e281"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/0603-silkscreen-comparison.png",
+      "bytes": 22370,
+      "sha256": "4b48d1dc0d138ee64c4d2a03826cf1f3ef9f7a549d66c70938bf27a9ae073e3a"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/actual-outline-delta.json",
+      "bytes": 176353,
+      "sha256": "3fd3a81b46d10ad31442f496e610b179d29e474a0a180498b3e9f5662eda6db5"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/f501-actual-silk-delta-review.json",
@@ -637,13 +672,43 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-review.json",
-      "bytes": 450162,
-      "sha256": "9c8359d7627fc42a613cd7654936becf9dc63bd6a4d240a285dd5922aa0faf31"
+      "bytes": 436327,
+      "sha256": "c57ca71d105f6567f7facf57857c600f9ac4b4ab20b640ad32a7f6d81223727d"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-visual-review.json",
-      "bytes": 2595,
-      "sha256": "7d2ab3aa5393bf28d39c195ce3c115c7558507dbe2d53e9d1ac21136eefb448c"
+      "bytes": 1501,
+      "sha256": "e1810032890c5ee579eafb973cbee98a54663e6b8ab2d1375570cf567d39b498"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/j701-015mm-clip-comparison.png",
+      "bytes": 25390,
+      "sha256": "53ebed2e22b3b93493ff20f1a3b354eaf4b872da637de0f4c2b5a28dc6e81ee3"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/native-outline-edit-plan.json",
+      "bytes": 31745,
+      "sha256": "b2e21d7a8a944838e17f838cbf7b4de64bb5548e8db49d011925ec8027475e83"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/native-outline-revision.json",
+      "bytes": 4392,
+      "sha256": "ce33db21ec5c8e16d8f0b4be433d38ed22b8efbb044487ee55a02f6787bc0e92"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/orientation-cam-detail.png",
+      "bytes": 147898,
+      "sha256": "5f17e02d166c6ee523ea2a8481e206b1ed26cebf5a4f321340880f1772fa945b"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/silk-mask-clearances.json",
+      "bytes": 3315,
+      "sha256": "92f83308b76be8c7ce6f80f45014c5420ce9ebaaf74a4924917ca3aa878bc9a5"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/simulated-015mm-mask-clipping.json",
+      "bytes": 29359,
+      "sha256": "88ebdfa027a4a18c0f3f07ec5225c837e4f842fe0a211f2bd86c0bd276cf06e1"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/validated-glyph-baseline.json",
@@ -687,8 +752,8 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/preview/PCB-layout.png",
-      "bytes": 1756267,
-      "sha256": "7c7205ea22fa85b3f40f53675dee0f08cc10dc0c5bf9c948c9a42bec6f35ac3a"
+      "bytes": 1731143,
+      "sha256": "af45bd61be290175915309088ed003ac7a470ebb603e410ae1a5242ba70b4612"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/preview/POWER_DOMAINS.png",
@@ -747,23 +812,23 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/preview/routed/top-pretty.png",
-      "bytes": 1756267,
-      "sha256": "7c7205ea22fa85b3f40f53675dee0f08cc10dc0c5bf9c948c9a42bec6f35ac3a"
+      "bytes": 1731143,
+      "sha256": "af45bd61be290175915309088ed003ac7a470ebb603e410ae1a5242ba70b4612"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/preview/routed/top-pretty.svg",
-      "bytes": 1653638,
-      "sha256": "6d2086e13786513d9997d91d5b5bd4a3c43348e476598fe53270da2c3138e601"
+      "bytes": 1638623,
+      "sha256": "56554a5b2a4399abb534b2c2d96851a465a3f7ef098fc75da79bff5cc22928f4"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/preview/routed/top-silk.png",
-      "bytes": 459613,
-      "sha256": "ba7b90a1d6cb4f6412ae08e8a1433cb6b0f2d612a82d31ce652bd7af156d23bb"
+      "bytes": 433407,
+      "sha256": "43afa1fb320f76d7ff34776797339efd54b548d25c05ec81be33a0c1cfaed0ed"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/preview/routed/top-silk.svg",
-      "bytes": 573406,
-      "sha256": "3166d38f80bd754e090c676b85978d8433cf2d73ba410d0e6377983814e222ae"
+      "bytes": 556816,
+      "sha256": "9978c70b6f983e7ae3eec63f0b99dd34592285a4691b6d8e93ffb804b85d95e2"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/preview/u803-final-ring-review.png",
@@ -857,13 +922,13 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/source/footprints/U203.efoo",
-      "bytes": 41380,
-      "sha256": "53b679010aced4d0f4c3e0d1b3d6379ee3dad1fa9eef74b66d683f253b95e695"
+      "bytes": 22225,
+      "sha256": "42020bd3167814944dcec5fce3db43acb39f0c2e8d8dd03c46c0a610f3283133"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/source/footprints/U301.efoo",
-      "bytes": 81158,
-      "sha256": "ba741e446223b7abdc670692962a8ea97176d015dcc1a6763ba1141237daf173"
+      "bytes": 63827,
+      "sha256": "73394999f54d0fa0db5dc75f244eff164c9271f3d98be2a046dc3ea6327c58a2"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/source/footprints/U802.efoo",
@@ -912,8 +977,8 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/verification/README-silkscreen.md",
-      "bytes": 5308,
-      "sha256": "b7fdc2e3ff1d6c53350f457f9b1972682994894dc295dc77ce72a10da757106e"
+      "bytes": 6376,
+      "sha256": "e08f78d904a7bdacf2f1870d1d1d6a6f455ea42731ca1ded2543b885b51e04f4"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/verification/README.md",
@@ -939,6 +1004,11 @@
       "path": "hardware/devboard-99/easyeda-native/verification/check_native_j501_cam.py",
       "bytes": 13335,
       "sha256": "de285ae32d4748289467ec15e4c0ee2f229c571c3cbc590c0fd3257dbce2256c"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/verification/check_native_outline_delta.py",
+      "bytes": 5979,
+      "sha256": "263eb09c01c3401801da46f4b29b8c4e9c3fb01f4a88eff0c3a99e67e08b5366"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/verification/check_native_power_paths.py",
@@ -967,8 +1037,8 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/verification/check_native_silkscreen.py",
-      "bytes": 15123,
-      "sha256": "43cf6daa21776756847088e81289f15902604d3e9433525bd8141f5d2b5adcaf"
+      "bytes": 17446,
+      "sha256": "bb268da485c3e432858b8005211b4f1bac3b82d37ddc330c181cda25b6d24662"
     },
     {
       "path": "hardware/devboard-99/easyeda-native/verification/check_native_smd_paste.py",
@@ -1077,6 +1147,10 @@
     }
   ],
   "excluded_files": [
+    {
+      "path": "hardware/devboard-99/easyeda-native/audit/assembly-review/__pycache__/check-assembly.cpython-315.pyc",
+      "reason": "runtime/build cache"
+    },
     {
       "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/artifact-hashes.json",
       "reason": "self-index excluded to avoid recursive hash"
@@ -1214,6 +1288,10 @@
       "reason": "regenerable CAM extraction cache"
     },
     {
+      "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-review-extracted/Gerber_TopAssemblyLayer.GTA",
+      "reason": "regenerable CAM extraction cache"
+    },
+    {
       "path": "hardware/devboard-99/easyeda-native/audit/silkscreen/final-silkscreen-review-extracted/Gerber_TopLayer.GTL",
       "reason": "regenerable CAM extraction cache"
     },
@@ -1254,6 +1332,10 @@
       "reason": "runtime/build cache"
     },
     {
+      "path": "hardware/devboard-99/easyeda-native/verification/__pycache__/check_native_outline_delta.cpython-315.pyc",
+      "reason": "runtime/build cache"
+    },
+    {
       "path": "hardware/devboard-99/easyeda-native/verification/__pycache__/check_native_power_paths.cpython-315.pyc",
       "reason": "runtime/build cache"
     },
@@ -1271,6 +1353,10 @@
     },
     {
       "path": "hardware/devboard-99/easyeda-native/verification/__pycache__/check_native_signal_lengths.cpython-315.pyc",
+      "reason": "runtime/build cache"
+    },
+    {
+      "path": "hardware/devboard-99/easyeda-native/verification/__pycache__/check_native_silkscreen.cpython-315.pyc",
       "reason": "runtime/build cache"
     },
     {

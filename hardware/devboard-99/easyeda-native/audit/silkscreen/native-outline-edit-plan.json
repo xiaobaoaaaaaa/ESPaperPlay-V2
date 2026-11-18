@@ -1,0 +1,1671 @@
+{
+  "units": "native footprint mil, right-handed, positive Y upward",
+  "baseline_commit": "475f5f5",
+  "baseline_cam_sha256": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3",
+  "approved_plan_sha256": "759d4046403e9b8a739b06acfec65da3621c0b1aeb685e25322b42e75bdd8f3b",
+  "changes": [
+    {
+      "fp": "1b8bf9d50d802c18",
+      "id": "e11",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          54.725,
+          -15.756,
+          "ARC",
+          -90,
+          42.527,
+          -27.954
+        ],
+        "locked": false,
+        "zIndex": 11,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          54.725,
+          -15.756,
+          "ARC",
+          -90,
+          42.527,
+          -27.954
+        ],
+        "locked": false,
+        "zIndex": 11,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "1b8bf9d50d802c18",
+      "id": "e12",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -42.524,
+          -27.936,
+          "ARC",
+          -89.9953,
+          -54.721,
+          -15.738
+        ],
+        "locked": false,
+        "zIndex": 12,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -42.524,
+          -27.936,
+          "ARC",
+          -89.9953,
+          -54.721,
+          -15.738
+        ],
+        "locked": false,
+        "zIndex": 12,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "1b8bf9d50d802c18",
+      "id": "e13",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -54.721,
+          15.757,
+          "ARC",
+          -90.0047,
+          -42.524,
+          27.957
+        ],
+        "locked": false,
+        "zIndex": 13,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -54.721,
+          15.757,
+          "ARC",
+          -90.0047,
+          -42.524,
+          27.957
+        ],
+        "locked": false,
+        "zIndex": 13,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "1b8bf9d50d802c18",
+      "id": "e4",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -11.031,
+          -27.936,
+          "L",
+          -42.526,
+          -27.936
+        ],
+        "locked": false,
+        "zIndex": 4,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -11.031,
+          -27.936,
+          "L",
+          -42.526,
+          -27.936
+        ],
+        "locked": false,
+        "zIndex": 4,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "1b8bf9d50d802c18",
+      "id": "e5",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          11.034,
+          -27.954,
+          "L",
+          42.529,
+          -27.954
+        ],
+        "locked": false,
+        "zIndex": 5,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          11.034,
+          -27.954,
+          "L",
+          42.529,
+          -27.954
+        ],
+        "locked": false,
+        "zIndex": 5,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "1b8bf9d50d802c18",
+      "id": "e6",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -11.031,
+          27.957,
+          "L",
+          -42.526,
+          27.957
+        ],
+        "locked": false,
+        "zIndex": 6,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -11.031,
+          27.957,
+          "L",
+          -42.526,
+          27.957
+        ],
+        "locked": false,
+        "zIndex": 6,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "1b8bf9d50d802c18",
+      "id": "e8",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -54.721,
+          -15.738,
+          "L",
+          -54.721,
+          15.76
+        ],
+        "locked": false,
+        "zIndex": 8,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -54.721,
+          -15.738,
+          "L",
+          -54.721,
+          15.76
+        ],
+        "locked": false,
+        "zIndex": 8,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "815cbd0b3bd95cf7",
+      "id": "e14",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -100.929,
+          -37.016,
+          "L",
+          -100.929,
+          37.016
+        ],
+        "locked": false,
+        "zIndex": 14,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -100.929,
+          5.2094,
+          "L",
+          -100.929,
+          37.016
+        ],
+        "locked": false,
+        "zIndex": 14,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "815cbd0b3bd95cf7",
+      "id": "e17",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -94.929,
+          -43.016,
+          "ARC",
+          -90,
+          -100.929,
+          -37.016
+        ],
+        "locked": false,
+        "zIndex": 17,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 6,
+        "path": [
+          -94.929,
+          -43.016,
+          "ARC",
+          -90,
+          -100.929,
+          -37.016
+        ],
+        "locked": false,
+        "zIndex": 17,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "ebb730522bd9fbc7",
+      "id": "e7",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -47.119,
+          55.166,
+          "L",
+          -47.119,
+          -55.166
+        ],
+        "locked": false,
+        "zIndex": 7,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -39.119,
+          55.166,
+          "L",
+          -39.119,
+          -55.166
+        ],
+        "locked": false,
+        "zIndex": 7,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "558d78655d725916",
+      "id": "e5",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          301.181,
+          -51.181,
+          "L",
+          -299.212,
+          -51.181
+        ],
+        "locked": false,
+        "zIndex": 5,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          301.181,
+          -51.181,
+          "L",
+          71.2995,
+          -51.181
+        ],
+        "locked": false,
+        "zIndex": 5,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "558d78655d725916",
+      "id": "4bfd954434119b64",
+      "kind": "POLY",
+      "before": null,
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -78.6945,
+          -51.181,
+          "L",
+          -299.212,
+          -51.181
+        ],
+        "locked": false,
+        "zIndex": 5,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "cd33f5b33f3aa0b4",
+      "id": "e12",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          449.999,
+          49.212,
+          "L",
+          -449.999,
+          49.212
+        ],
+        "locked": false,
+        "zIndex": 12,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -17.2867,
+          49.212,
+          "L",
+          -449.999,
+          49.212
+        ],
+        "locked": false,
+        "zIndex": 12,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "cd33f5b33f3aa0b4",
+      "id": "bfd977df4a6170b9",
+      "kind": "POLY",
+      "before": null,
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          449.999,
+          49.212,
+          "L",
+          216.7332,
+          49.212
+        ],
+        "locked": false,
+        "zIndex": 12,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "cd33f5b33f3aa0b4",
+      "id": "1b49ddff33e9f946",
+      "kind": "POLY",
+      "before": null,
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          106.3354,
+          49.212,
+          "L",
+          93.1112,
+          49.212
+        ],
+        "locked": false,
+        "zIndex": 12,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "269a99db150b0459",
+      "id": "e25",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -247.795,
+          297.245,
+          "L",
+          -292.795,
+          297.245
+        ],
+        "locked": false,
+        "zIndex": 25,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -255.4238,
+          297.245,
+          "L",
+          -292.795,
+          297.245
+        ],
+        "locked": false,
+        "zIndex": 25,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "99d7759137cb743d",
+      "id": "e10",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          54.531,
+          -26.008,
+          "L",
+          54.531,
+          26.008
+        ],
+        "locked": false,
+        "zIndex": 10,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 6,
+        "path": [
+          54.531,
+          -26.008,
+          "L",
+          54.531,
+          26.008
+        ],
+        "locked": false,
+        "zIndex": 10,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "99d7759137cb743d",
+      "id": "e11",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          54.531,
+          26.008,
+          "L",
+          16.78,
+          26.008
+        ],
+        "locked": false,
+        "zIndex": 11,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          32.0935,
+          26.008,
+          "L",
+          16.78,
+          26.008
+        ],
+        "locked": false,
+        "zIndex": 11,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "99d7759137cb743d",
+      "id": "e12",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -16.78,
+          -26.008,
+          "L",
+          -54.531,
+          -26.008
+        ],
+        "locked": false,
+        "zIndex": 12,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -16.78,
+          -26.008,
+          "L",
+          -41.5916,
+          -26.008
+        ],
+        "locked": false,
+        "zIndex": 12,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "99d7759137cb743d",
+      "id": "e13",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -54.531,
+          -26.008,
+          "L",
+          -54.531,
+          26.008
+        ],
+        "locked": false,
+        "zIndex": 13,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -54.531,
+          -3.207,
+          "L",
+          -54.531,
+          16.2492
+        ],
+        "locked": false,
+        "zIndex": 13,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "99d7759137cb743d",
+      "id": "e14",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -54.531,
+          26.008,
+          "L",
+          -16.78,
+          26.008
+        ],
+        "locked": false,
+        "zIndex": 14,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 6,
+        "path": [
+          -54.531,
+          26.008,
+          "L",
+          -16.78,
+          26.008
+        ],
+        "locked": false,
+        "zIndex": 14,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "99d7759137cb743d",
+      "id": "e9",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          16.78,
+          -26.008,
+          "L",
+          54.531,
+          -26.008
+        ],
+        "locked": false,
+        "zIndex": 9,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          16.78,
+          -26.008,
+          "L",
+          35.946,
+          -26.008
+        ],
+        "locked": false,
+        "zIndex": 9,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "ce2d18363338ec62",
+      "id": "e21",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -42.37,
+          42.37,
+          "L",
+          -42.37,
+          -22.543
+        ],
+        "locked": false,
+        "zIndex": 21,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -42.37,
+          42.37,
+          "L",
+          -42.37,
+          20.0466
+        ],
+        "locked": false,
+        "zIndex": 21,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "ce2d18363338ec62",
+      "id": "e22",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          42.37,
+          42.37,
+          "L",
+          42.37,
+          -22.543
+        ],
+        "locked": false,
+        "zIndex": 22,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          42.37,
+          42.37,
+          "L",
+          42.37,
+          20.0465
+        ],
+        "locked": false,
+        "zIndex": 22,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "ce2d18363338ec62",
+      "id": "e23",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          42.37,
+          -42.37,
+          "L",
+          42.37,
+          22.543
+        ],
+        "locked": false,
+        "zIndex": 23,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          42.37,
+          -42.37,
+          "L",
+          42.37,
+          -20.0466
+        ],
+        "locked": false,
+        "zIndex": 23,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "ce2d18363338ec62",
+      "id": "e24",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -42.37,
+          -42.37,
+          "L",
+          -42.37,
+          22.543
+        ],
+        "locked": false,
+        "zIndex": 24,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 6,
+        "path": [
+          -42.37,
+          -42.37,
+          "L",
+          -42.37,
+          -20.0467
+        ],
+        "locked": false,
+        "zIndex": 24,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "ce2d18363338ec62",
+      "id": "e25",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 7.874,
+        "path": [
+          "CIRCLE",
+          -29.53,
+          -56.13,
+          3.94
+        ],
+        "locked": false,
+        "zIndex": 25,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 7.874,
+        "path": [
+          "CIRCLE",
+          -31.53,
+          -68.13,
+          3.94
+        ],
+        "locked": false,
+        "zIndex": 25,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e103",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          287.29,
+          407.691,
+          "L",
+          287.29,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 103,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          287.29,
+          407.691,
+          "L",
+          287.29,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 103,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e104",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          287.29,
+          599.998,
+          "L",
+          199.29,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 104,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          287.29,
+          599.998,
+          "L",
+          199.29,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 104,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e105",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          207.29,
+          407.691,
+          "L",
+          207.29,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 105,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          207.29,
+          407.691,
+          "L",
+          207.29,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 105,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e106",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          207.29,
+          599.998,
+          "L",
+          95,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 106,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          207.29,
+          599.998,
+          "L",
+          95,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 106,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e107",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          95,
+          599.998,
+          "L",
+          95,
+          514.998
+        ],
+        "locked": false,
+        "zIndex": 107,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          95,
+          599.998,
+          "L",
+          95,
+          514.998
+        ],
+        "locked": false,
+        "zIndex": 107,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e108",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          95,
+          514.998,
+          "L",
+          -5,
+          514.998
+        ],
+        "locked": false,
+        "zIndex": 108,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          95,
+          514.998,
+          "L",
+          -5,
+          514.998
+        ],
+        "locked": false,
+        "zIndex": 108,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e109",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -5,
+          514.998,
+          "L",
+          -5,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 109,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -5,
+          514.998,
+          "L",
+          -5,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 109,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e110",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -5,
+          599.998,
+          "L",
+          -105,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 110,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -5,
+          599.998,
+          "L",
+          -105,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 110,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e111",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -105,
+          599.998,
+          "L",
+          -105,
+          514.998
+        ],
+        "locked": false,
+        "zIndex": 111,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -105,
+          599.998,
+          "L",
+          -105,
+          514.998
+        ],
+        "locked": false,
+        "zIndex": 111,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e112",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -105,
+          514.998,
+          "L",
+          -195,
+          514.998
+        ],
+        "locked": false,
+        "zIndex": 112,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -105,
+          514.998,
+          "L",
+          -195,
+          514.998
+        ],
+        "locked": false,
+        "zIndex": 112,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e113",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -195,
+          514.998,
+          "L",
+          -195,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 113,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -195,
+          514.998,
+          "L",
+          -195,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 113,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e114",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -195,
+          599.998,
+          "L",
+          -285,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 114,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -195,
+          599.998,
+          "L",
+          -285,
+          599.998
+        ],
+        "locked": false,
+        "zIndex": 114,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e115",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -285,
+          599.998,
+          "L",
+          -285,
+          454.998
+        ],
+        "locked": false,
+        "zIndex": 115,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -285,
+          599.998,
+          "L",
+          -285,
+          454.998
+        ],
+        "locked": false,
+        "zIndex": 115,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e116",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -354.331,
+          407.691,
+          "L",
+          355,
+          407.691
+        ],
+        "locked": false,
+        "zIndex": 116,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          -354.331,
+          407.691,
+          "L",
+          355,
+          407.691
+        ],
+        "locked": false,
+        "zIndex": 116,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e117",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          355,
+          377.012,
+          "L",
+          355,
+          644.998
+        ],
+        "locked": false,
+        "zIndex": 117,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          355.0,
+          377.012,
+          "L",
+          355.0,
+          393.2829
+        ],
+        "locked": false,
+        "zIndex": 117,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e118",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          301.817,
+          -360.002,
+          "L",
+          355,
+          -360.002
+        ],
+        "locked": false,
+        "zIndex": 118,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          301.817,
+          -360.002,
+          "L",
+          346.6464,
+          -360.002
+        ],
+        "locked": false,
+        "zIndex": 118,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e119",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          355,
+          -360.002,
+          "L",
+          355,
+          -326.622
+        ],
+        "locked": false,
+        "zIndex": 119,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          355.0,
+          -345.5926,
+          "L",
+          355.0,
+          -326.622
+        ],
+        "locked": false,
+        "zIndex": 119,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e122",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -354.331,
+          645.471,
+          "L",
+          -354.331,
+          377.012
+        ],
+        "locked": false,
+        "zIndex": 122,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          -354.331,
+          393.2829,
+          "L",
+          -354.331,
+          377.012
+        ],
+        "locked": false,
+        "zIndex": 122,
+        "polyType": "NORMAL"
+      }
+    },
+    {
+      "fp": "a6b09743ec38c8ce",
+      "id": "e123",
+      "kind": "POLY",
+      "before": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 3,
+        "width": 10,
+        "path": [
+          354.331,
+          645.471,
+          "L",
+          -354.331,
+          645.471
+        ],
+        "locked": false,
+        "zIndex": 123,
+        "polyType": "NORMAL"
+      },
+      "after": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 9,
+        "width": 10,
+        "path": [
+          354.331,
+          645.471,
+          "L",
+          -354.331,
+          645.471
+        ],
+        "locked": false,
+        "zIndex": 123,
+        "polyType": "NORMAL"
+      }
+    }
+  ]
+}

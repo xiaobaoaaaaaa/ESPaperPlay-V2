@@ -19,10 +19,13 @@ python3 hardware/devboard-99/easyeda-native/verification/check_native_silkscreen
 
 - 位号缺失、字符粘连或归属不明，以及文字与开窗、孔和板边的实际交叠。
 - 原生库轮廓或标记与裸露阻焊开窗、板边的交叠。这些仍需调整或明确工厂裁剪处理，不能直接视为已通过。
-- 已盖油过孔在丝印下方的钻孔投影。它与裸露开窗交叠分栏保留，不等同于电气 DRC 错误。
+- 封装轮廓压到完全盖油的通孔过孔时，按投影单独记录。判定要求 Excellon 孔已镀铜、孔形与唯一原生 VIA 匹配，并且该侧整个孔与阻焊开窗完全分离。部分开窗孔、元件孔及未匹配孔的投影仍须复核。位号文字的可读性检查继续检查所有孔投影。
+- 整层 Gerber 墨迹与阻焊开窗、板外和上述须复核孔的相交均计入检查结果，范围包括板级引线、自定义标记和封装外形。
 - 实际墨迹字高与 `--minimum-ink-height-mm` 的比较。原生标称字号不等于实际印刷墨迹高度。
 
 存在文字、轮廓、归属或字高待复核项时，状态为 `SILKSCREEN_REVIEW_REQUIRED`，并返回非零退出码。这表示需要丝印工程复核；不能把所有类别都称为制造硬错误，也不能将待裁剪轮廓包装成 PASS。没有这些待复核项才返回 `ACTUAL_SILKSCREEN_GEOMETRY_SCREEN_PASS`。该状态不代替电气、制造和最终实物验证。
+
+实心圆孔径的弧按 Gerber 的中心弧和圆形端帽计算。中心线离散误差上限为 0.000001 mm，圆帽每象限取 256 段，以覆盖弧端的实际墨迹。
 
 字符连通分量计数不是 OCR。实际字符、1 脚标记、极性及装配可读性仍须结合原生源、装配资料和渲染图人工复核。检查器不承诺工厂丝印裁剪、印刷对位公差或实物可读性。
 
@@ -43,6 +46,8 @@ python3 hardware/devboard-99/easyeda-native/verification/check_native_silkscreen
 `audit/silkscreen/f501-library-silk-persisted-check.json`、`f501-actual-silk-delta-review.json` 和 `final-leaders-and-copper-review.json` 则包含修改前后差分的历史现场证据：前两份限定 F501 两条库丝印的修改，后一份限定位号/四组引导线及非丝印实际 CAM 不变。部分修改前的输入、临时脚本或执行记录保存在 ignored `build/` 路径，正式仓库保留其哈希与结果，但不承诺仅凭当前 checkout 重建全部历史差分过程。
 
 这些差分记录不能替代上述当前丝印检查。当前 `final-silkscreen-review.json` 用同版正式输入重新检查墨迹与开窗/孔/板边，`final-silkscreen-visual-review.json` 记录对应渲染图的人工复核；制造、载流、信号完整性和印刷质量仍属独立验收范围。
+
+本次 9 个共享封装的轮廓修订以 `475f5f5` 为比较起点。[归档与实际层差分](../audit/silkscreen/native-outline-revision.json)和[逐图元归属](../audit/silkscreen/actual-outline-delta.json)对应本次 CAM。`final-leaders-and-copper-review.json`、`final-cluster-detail.png` 及两份 F501 报告记录此前布线阶段。当前的装配方向和间距证据分别见[四处装配定位](../audit/assembly-review/README.md)及[实际丝印间距](../audit/silkscreen/silk-mask-clearances.json)。
 
 ## 四层 CAM 预览
 

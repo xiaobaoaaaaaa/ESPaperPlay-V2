@@ -7,6 +7,7 @@
 ## 当前状态
 
 - **当前硬件开发：99 × 99 mm 嘉立创EDA原生工程。** 已完成原生 PCB 布线、标准四层叠层保存和完整 21 项复核，原生 DRC 为 0 连接/0 其他错误，工程审查项仍保留；实际 CAM 及工程审查结论见[原生工程入口](hardware/devboard-99/easyeda-native/README.md)和[同版检查点](hardware/devboard-99/easyeda-native/audit/checkpoint-status.json)。[KiCad r14](hardware/devboard-99/README.md)保留为先期完整布线与电路参考，其独立复核及制造/装配边界见[r14记录](hardware/devboard-99/review-r14/README.md)。尚未制造或实板验证，当前检查不代表制造放行。
+- 首批计划做 5 块 PCB，先装 2 块。当前装配资料含元件方向图、手焊接口清单及专用顶层钢网。[99 mm 首板装配资料](hardware/devboard-99/easyeda-native/audit/assembly-review/README.md)
 - **固件：M0 骨架。** 应用宿主、活动租约、休眠准备契约、板级配置检查、双槽分区和串口演示已经实现；外设驱动、图形界面和网络应用尚待接入。
 - **保留基线：r10 PCB 制造整改完成。** 已移动64个近焊盘过孔，538个普通孔的双面阻焊间距达到≥0.20mm，11个IC热孔指定填平盖帽；官方USB/SD名义阻抗窗口检查通过。原理图r6/r5保持，DRC为0错误、0未连接；已更新独立制板、DIY钢网及203位回流/27位手焊文件，尚未下单或上电。见 [r10记录](docs/v2/hardware/pcb-dfm-r10.md)和[文件包](hardware/devboard-r0/output/manufacturing/r10-review/README.md)。这些制造文件不适用于当前 99 mm 板。
 - **历史 r10 首批准备（r11 记录）：** 已按5块PCB、先焊2块及无框钢片整理[工厂审核规格、64种备料表与首板工作单](hardware/devboard-r0/output/manufacturing/r10-first-batch/README.md)。该清单对应旧 r10 PCB，不适用于当前 99 mm 原生工程；当时工厂回复、来料容量和实测未完成。现有 M0 不具备分域维护功能。

@@ -1,6 +1,6 @@
 # 嘉立创EDA 99 mm 原生工程
 
-**99×99 mm 四层原生 PCB 已完成布线，保存重开及铺铜后的原生 DRC 为 0 连接错误、0 其他错误。标准叠层已持久保存。最终完整 21 项检查已完成，输入无变化、未解决检查失败为 0，结果为 `COMPLETE_GEOMETRY_CHECKS_WITH_RECORDED_ENGINEERING_REVIEWS`；返回距离、电源/I²S 与丝印工程审查项仍保留。当前不是制造放行。**
+**99×99 mm 四层原生 PCB 已完成布线，保存重开及铺铜后的原生 DRC 为 0 连接错误、0 其他错误。标准叠层已持久保存。最终完整 21 项检查已完成，输入无变化、未解决检查失败为 0，结果为 `COMPLETE_GEOMETRY_CHECKS_WITH_RECORDED_ENGINEERING_REVIEWS`；返回距离、电源与 I²S 路径偏差仍需首板实测。当前不是制造放行。**
 
 客户端工程名为 `ESPaperPlay V2 99mm Native`。完整备份为 [ESPaperPlay-99-Native-WIP.epro2](ESPaperPlay-99-Native-WIP.epro2)，本轮结果与哈希见 [PCB 布线复核](audit/pcb-routing/pcb-routing-review.md)及[当前检查点](audit/checkpoint-status.json)。恢复工作优先打开客户端当前工程，避免重复导入同名副本。KiCad r14 仅作为电路与位置参考；本工程使用嘉立创EDA既有器件、原生封装和原生走线，未导入 KiCad 库或铜图形。
 
@@ -14,9 +14,13 @@
 
 F501 已在原生库中只调整两条外形丝印线，各移动 1.016 mm。19 项专项检查已通过，修正前后全部非丝印实际 CAM 物理图元以零容差逐项一致，原生规则、网络规则与区域规则三组完全未变。实际两条新丝印距阻焊开窗约 0.178205 mm；5 项等价/变异自检覆盖未使用 aperture、实际 aperture/坐标及极性。正式 F501 封装已保存为 [source/footprints/F501.efoo](source/footprints/F501.efoo)，来自保存归档提取快照；[19 项检查](audit/silkscreen/f501-library-silk-persisted-check.json)与[物理丝印差分](audit/silkscreen/f501-actual-silk-delta-review.json)保留历史现场证据。未使用到的 aperture 定义差异不等同于实际铜形状变化。
 
-本轮冻结归档 SHA256 为 `778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c`（2,019,015 字节），复核 CAM 为 `97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3`（489,059 字节）。原生 DRC 空列表、逻辑/物理逐针映射、边界与特殊封装 CAM 已通过各自检查；PCB/八份封装/规则/叠层归档一致性及实际 CAM 全铜连通均通过。关键线与参考面的原始非零退出码、偏好阈值和逐项审查结论仍保存在完整摘要中，未将工程偏差隐藏为无条件 PASS。
+当前归档 SHA256 为 `cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19`（2,022,159 字节），复核 CAM 为 `ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474`（493,307 字节）。同版 21 项检查覆盖引脚映射、铜层连通性、制造边界和归档一致性。工程偏好及其原始检查结果见 [完整检查摘要](audit/pcb-routing/verification-run/verification-summary.json)。
 
-最终丝印中 236 个位号均通过几何与字形数量检查，最小实际字高约 0.83834 mm；四组新引线共 15 段完整输出。库外形仍有 19 个器件的阻焊开窗交叠、U301 板外框及 U203 裸孔附近外形待审，[丝印报告](audit/silkscreen/final-silkscreen-review.json)保留 `SILKSCREEN_REVIEW_REQUIRED`。不得只凭位号通过把整板丝印称为已放行。 D501 阴极、U203/J601/J406 的 1 脚标识须按装配资料和最终工厂稿复核。
+两类共享 0603 封装改用短线标识，9 个共享封装的更新涉及 156 个已放置器件。顶、底层实际丝印与阻焊开窗、板外和须避让的钻孔交叠均为零。236 个位号的最小实际字高为 0.83834 mm。51 个封装轮廓仍经过完全盖油的过孔投影，已单独列出。首批两块板使用剔除手焊接口和空贴位开口的专用顶层钢网。装配图标出了 D501、U203、J601、J406 的方向。[丝印几何复核](audit/silkscreen/final-silkscreen-review.json) · [装配复核](audit/assembly-review/README.md)
+
+嘉立创公开的标准能力列出焊盘到丝印至少 0.15 mm、文字高度至少 1.0 mm。以实际阻焊开窗边界筛查，本版有 1047 个顶层丝印绘制图元距开窗小于 0.15 mm，最小 0.00927 mm，位于 J701 的外形。该数量按绘制图元统计，开窗与焊盘边界可能有差异。236 个位号均距开窗至少 0.27944 mm，原生标称字高 1.2 mm，实际墨迹高 0.838–0.904 mm。板厂可能裁剪靠近焊盘的丝印，需按工厂稿和首板核对文字及方向标记。 [整板丝印间距](audit/silkscreen/silk-mask-clearances.json) · [嘉立创制造能力](https://jlcpcb.com/capabilities/pcb-capabilities) · [字符处理说明](https://jlcpcb.com/blog/character-design-specifications)
+
+按实际顶层阻焊开窗向外 0.15 mm 模拟裁剪，236 个位号、D501 阴极条、U203 和 J406 的 1 脚标记都保留完整。J701 最近的一段外框约保留 81% 的墨迹面积。J601 的 1 脚位置请按顶视装配图辨认。[裁剪模拟](audit/silkscreen/simulated-015mm-mask-clipping.json) · [J701 局部对照](audit/silkscreen/j701-015mm-clip-comparison.png) · [首板装配图和钢网](audit/assembly-review/README.md)
 
 ## 保留的工程条件
 

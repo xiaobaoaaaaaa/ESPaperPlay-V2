@@ -3,12 +3,12 @@
   "scope": "Official archive versus PCB and eight native footprint snapshots; not connectivity, DRC, CAM, assembly, impedance, or manufacturer-stack certification.",
   "archive": {
     "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
-    "sha256": "778621790c7818711a6bae87223cdd0f6d20fbf72db9f465c6d9914df0ba186c",
+    "sha256": "cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19",
     "log_entry": "ESPaperPlay V2 99mm Native.epru",
-    "log_sha256": "12eb279557422dd8233c12ab24e41d56d8c28f54d11603fc50cc3b2d6cbc92c0",
+    "log_sha256": "e63845dd84bc66b04161492e6971b0341864f128b78988ddd9926e82d89dbc03",
     "merge": {
       "document_segments": 192,
-      "raw_records": 25840,
+      "raw_records": 25928,
       "accepted_tombstones": 2456
     },
     "document_count": 192
@@ -2168,7 +2168,7 @@
     "archive_document_segments": [
       {
         "docType": "PCB",
-        "client": "a86e0908cee19239",
+        "client": "0d11de5bc43b1690",
         "uuid": "4e1671d0644295dd",
         "updateTime": 1794804265770,
         "version": "1794804265770",
@@ -2637,19 +2637,26 @@
       "status": "PASS",
       "snapshot": {
         "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/U203.efoo",
-        "sha256": "53b679010aced4d0f4c3e0d1b3d6379ee3dad1fa9eef74b66d683f253b95e695",
+        "sha256": "42020bd3167814944dcec5fce3db43acb39f0c2e8d8dd03c46c0a610f3283133",
         "document_uuid": "ce2d18363338ec62",
         "merge": {
           "document_segments": 1,
-          "raw_records": 180
+          "raw_records": 78
         },
         "headers": [
           {
-            "docType": "PCB",
-            "client": "179c822e9a61cf4d",
+            "docType": "FOOTPRINT",
+            "client": "0d11de5bc43b1690",
             "uuid": "ce2d18363338ec62",
-            "updateTime": 1794762698415,
-            "version": "1794762698415"
+            "updateTime": 1794977078989,
+            "version": "1794977078989",
+            "editVersion": "4.1.93",
+            "user": {
+              "uuid": "175d2d18d70648ef8166cb54164640c2",
+              "nickname": "xiaobaoaaaaaa",
+              "username": "xiaobaoaaaaaa",
+              "avatar": "/image/avatar-default.png"
+            }
           }
         ]
       },
@@ -2674,15 +2681,10 @@
       "excluded_snapshot_records": {
         "ACTIVE_LAYER": 1,
         "CANVAS": 1,
-        "D3_ATTRIBUTE": 1,
-        "LAYER": 60,
-        "LAYER_PHYS": 9,
-        "PREFERENCE": 1,
-        "PRIMITIVE": 50,
-        "RULE": 14,
-        "RULE_SELECTOR": 1,
-        "RULE_TEMPLATE": 1,
-        "SILK_OPTS": 2
+        "ELE_PLACEHOLDER": 5,
+        "LAYER": 20,
+        "META": 1,
+        "PRIMITIVE": 11
       },
       "excluded_archive_records": {
         "ACTIVE_LAYER": 1,
@@ -2698,19 +2700,26 @@
       "status": "PASS",
       "snapshot": {
         "path": "/home/xiaobao/Projects/ESPaperPlay-V2/hardware/devboard-99/easyeda-native/source/footprints/U301.efoo",
-        "sha256": "ba741e446223b7abdc670692962a8ea97176d015dcc1a6763ba1141237daf173",
+        "sha256": "73394999f54d0fa0db5dc75f244eff164c9271f3d98be2a046dc3ea6327c58a2",
         "document_uuid": "a6b09743ec38c8ce",
         "merge": {
           "document_segments": 1,
-          "raw_records": 268
+          "raw_records": 168
         },
         "headers": [
           {
-            "docType": "PCB",
-            "client": "cdeb96ffc2e8673b",
+            "docType": "FOOTPRINT",
+            "client": "0d11de5bc43b1690",
             "uuid": "a6b09743ec38c8ce",
-            "updateTime": 1794762145629,
-            "version": "1794762145629"
+            "updateTime": 1794977084546,
+            "version": "1794977084546",
+            "editVersion": "4.1.93",
+            "user": {
+              "uuid": "175d2d18d70648ef8166cb54164640c2",
+              "nickname": "xiaobaoaaaaaa",
+              "username": "xiaobaoaaaaaa",
+              "avatar": "/image/avatar-default.png"
+            }
           }
         ]
       },
@@ -2735,15 +2744,10 @@
       "excluded_snapshot_records": {
         "ACTIVE_LAYER": 1,
         "CANVAS": 1,
-        "D3_ATTRIBUTE": 1,
-        "LAYER": 60,
-        "LAYER_PHYS": 9,
-        "PREFERENCE": 1,
-        "PRIMITIVE": 50,
-        "RULE": 14,
-        "RULE_SELECTOR": 1,
-        "RULE_TEMPLATE": 1,
-        "SILK_OPTS": 2
+        "ELE_PLACEHOLDER": 8,
+        "LAYER": 19,
+        "META": 1,
+        "PRIMITIVE": 11
       },
       "excluded_archive_records": {
         "ACTIVE_LAYER": 1,

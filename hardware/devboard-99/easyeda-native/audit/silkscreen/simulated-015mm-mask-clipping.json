@@ -1,0 +1,1346 @@
+{
+  "status": "SIMULATED_0P15MM_MASK_CLIP_REVIEW",
+  "inputs": {
+    "actual_CAM_sha256": "ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474",
+    "silkscreen_review_sha256": "c57ca71d105f6567f7facf57857c600f9ac4b4ab20b640ad32a7f6d81223727d"
+  },
+  "model": "Subtract all top solder-mask openings buffered outward by 0.15 mm from actual top silkscreen ink (dark-polarity Gerber objects; circular-aperture arcs swept with round caps). No minimum fragment deletion, ink transfer/shift or fabrication clipping algorithm is modeled. Widths, glyphs and actual ink area are geometric quantities. No source or production data altered.",
+  "margin_mm": 0.15,
+  "total_top_Gerber_objects": 12963,
+  "top_Gerber_objects_below_clearance": 1047,
+  "minimum_gap_mm": 0.009270000000000776,
+  "designators": {
+    "count": 236,
+    "unchanged_ink_count": 236,
+    "minimum_before_clearance_mm": 0.27943748401381185,
+    "rows": [
+      {
+        "ref": "C101",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C102",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C103",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C201",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C202",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C203",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C204",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C301",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C302",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C303",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C401",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C402",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C403",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C404",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C405",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C406",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C407",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C408",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C409",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C410",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C411",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C412",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C413",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C414",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C415",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C416",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C417",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C501",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C502",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C503",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C601",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C602",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C603",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C604",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C605",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C606",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C607",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C608",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C609",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C610",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C611",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C612",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C701",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C702",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C703",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C704",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C705",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C801",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C802",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C803",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C804",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C805",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C806",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C808",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C901",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C902",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C903",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "C904",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "D501",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "D601",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "D602",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "D603",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "F501",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J101",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J102",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J103",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J104",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J105",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J201",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J202",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J203",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J204",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J205",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J206",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J301",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J302",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J303",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J401",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J402",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J403",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J404",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J405",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J406",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J501",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J502",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J601",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J701",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "J801",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "L201",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "L601",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "Q101",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "Q201",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "Q601",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R101",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R102",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R103",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R104",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R105",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R106",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R107",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R108",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R109",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R110",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R111",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R112",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R113",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R201",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R202",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R203",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R204",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R205",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R206",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R207",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R208",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R209",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R210",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R211",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R212",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R213",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R214",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R215",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R216",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R217",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R218",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R219",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R220",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R221",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R222",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R223",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R224",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R225",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R226",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R227",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R301",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R302",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R303",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R304",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R305",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R306",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R401",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R402",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R404",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R405",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R407",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R408",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R410",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R411",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R413",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R414",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R416",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R417",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R418",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R419",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R420",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R501",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R502",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R503",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R504",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R601",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R602",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R603",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R604",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R605",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R606",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R607",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R608",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R609",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R610",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R611",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R612",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R613",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R614",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R701",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R702",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R703",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R704",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R705",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R706",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R708",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R710",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R711",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R712",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R713",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R714",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R715",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R802",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R803",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R804",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R805",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R806",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R808",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R809",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R810",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R811",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R812",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R813",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R901",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R902",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R903",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R904",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R905",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R906",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R907",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "R908",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "SW301",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 5
+      },
+      {
+        "ref": "SW302",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 5
+      },
+      {
+        "ref": "SW303",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 5
+      },
+      {
+        "ref": "SW304",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 5
+      },
+      {
+        "ref": "SW305",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 5
+      },
+      {
+        "ref": "U101",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U201",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U202",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U203",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U301",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U401",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U402",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U403",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U404",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U405",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U406",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U501",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U502",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U601",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U602",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U701",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U702",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U703",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U704",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U705",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U706",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U801",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U802",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U803",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U804",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U805",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      },
+      {
+        "ref": "U901",
+        "removed_ink_area_mm2": 0.0,
+        "glyph_count": 4
+      }
+    ]
+  },
+  "orientation_markings": [
+    {
+      "ref": "D501",
+      "primitive": "e7",
+      "actual_gto_objects": [
+        12021
+      ],
+      "actual_ink_area_mm2": 0.4453325279890139,
+      "surviving_area_mm2": 0.4453325279890139,
+      "removed_area_mm2": 0.0,
+      "retained_percent": 99.99999999999999,
+      "minimum_opening_gap_mm": 0.17190000000000083,
+      "bounds_mm": [
+        18.52226,
+        -25.17021,
+        21.4771,
+        -25.01781
+      ],
+      "before_connected_ink_regions": 1,
+      "after_connected_ink_regions": 1
+    },
+    {
+      "ref": "U203",
+      "primitive": "e25",
+      "actual_gto_objects": [
+        12929,
+        12930
+      ],
+      "actual_ink_area_mm2": 0.12576398605607644,
+      "surviving_area_mm2": 0.12576398605607644,
+      "removed_area_mm2": 0.0,
+      "retained_percent": 100.0,
+      "minimum_opening_gap_mm": 0.16542099932300405,
+      "bounds_mm": [
+        12.068830999323003,
+        -47.39931975016906,
+        12.468999000676996,
+        -46.99916024983094
+      ],
+      "before_connected_ink_regions": 1,
+      "after_connected_ink_regions": 1
+    },
+    {
+      "ref": "J406",
+      "primitive": "e15",
+      "actual_gto_objects": [
+        12191
+      ],
+      "actual_ink_area_mm2": 0.06451600000000068,
+      "surviving_area_mm2": 0.06451600000000068,
+      "removed_area_mm2": 0.0,
+      "retained_percent": 100.0,
+      "minimum_opening_gap_mm": 0.18490499999998633,
+      "bounds_mm": [
+        95.23553,
+        -49.00378,
+        95.48953,
+        -48.49578
+      ],
+      "before_connected_ink_regions": 1,
+      "after_connected_ink_regions": 1
+    }
+  ],
+  "orientation_interpretation": {
+    "D501": "Cathode bar remains at the pin 1 / cathode end.",
+    "U203": "Pin 1 mark retains its plotted geometry.",
+    "J406": "The e15 triangular mark apex points at pad 1.",
+    "J601": "Native outline contains no dedicated pin 1 dot/triangle. Locate pin 1 from the assembly drawing and pin order, left end in top view."
+  },
+  "J701": {
+    "nearest_gto_index": 12213,
+    "nearest_gts_index": 255,
+    "footprint_primitive": "e26",
+    "ink_xy_mm": [
+      98.32406,
+      -29.38495
+    ],
+    "mask_xy_mm": [
+      98.32406,
+      -29.37568
+    ],
+    "nearest_object_area_loss_mm2": 0.7942255654292809,
+    "closest_stroke_metrics": {
+      "ref": "J701",
+      "primitive": "e26",
+      "actual_gto_objects": [
+        12213
+      ],
+      "actual_ink_area_mm2": 4.179693424924577,
+      "surviving_area_mm2": 3.3854678594952956,
+      "removed_area_mm2": 0.7942255654292809,
+      "retained_percent": 80.99799471671507,
+      "minimum_opening_gap_mm": 0.009270000000000776,
+      "bounds_mm": [
+        82.14711248693605,
+        -29.638949999999998,
+        98.65710751306393,
+        -29.38495
+      ],
+      "before_connected_ink_regions": 1,
+      "after_connected_ink_regions": 1
+    },
+    "all_identified_native_body_artwork_before": {
+      "ink_area_mm2": 21.594818765962597,
+      "connected_ink_regions": 2,
+      "minimum_section_bounds_mm": [
+        82.14711,
+        -29.638949999999998,
+        98.65710999999999,
+        -14.271949999999999
+      ]
+    },
+    "all_identified_native_body_artwork_after": {
+      "ink_area_mm2": 20.15455729222891,
+      "connected_ink_regions": 2,
+      "minimum_section_bounds_mm": [
+        82.14711,
+        -29.638949999999998,
+        98.65710999999999,
+        -14.271949999999999
+      ]
+    },
+    "body_ink_retention_percent": 93.33052298635724,
+    "local_ROI_before": {
+      "ink_area_mm2": 1.6475254702595319,
+      "connected_ink_regions": 2,
+      "minimum_section_bounds_mm": [
+        96.12406,
+        -29.638949999999998,
+        98.65710999999999,
+        -27.780314999999998
+      ]
+    },
+    "local_ROI_after": {
+      "ink_area_mm2": 1.0713156305823839,
+      "connected_ink_regions": 2,
+      "minimum_section_bounds_mm": [
+        96.12406,
+        -29.638949999999998,
+        98.65710999999999,
+        -27.780314999999998
+      ]
+    },
+    "comparison_image": "j701-015mm-clip-comparison.png",
+    "comparison_image_sha256": "53ebed2e22b3b93493ff20f1a3b354eaf4b872da637de0f4c2b5a28dc6e81ee3"
+  },
+  "limits": "A preserved glyph or marker signifies its CAM shape remains, not hardware proof of correct placement or print quality. J701 body outlines do not assign SD contact numbering."
+}

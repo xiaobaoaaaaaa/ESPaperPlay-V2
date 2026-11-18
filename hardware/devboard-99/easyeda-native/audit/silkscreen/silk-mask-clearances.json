@@ -1,0 +1,103 @@
+{
+  "status": "MEASURED_POSITIVE_SILK_MASK_GAPS",
+  "inputs": {
+    "cam": {
+      "path": "hardware/devboard-99/easyeda-native/audit/pcb-routing/NOT-FOR-MANUFACTURE-routed-cam.zip",
+      "sha256": "ea5a5bd372a14b925143cd4c57ba2770e01fa16d94b33b5cdc35903242372474"
+    },
+    "baseline_cam_sha256": "97be689d92a45ae8ca0122921e84b6befe4bf74940f8190c68f476647ccf1ba3",
+    "source": {
+      "path": "hardware/devboard-99/easyeda-native/source/PCB-layout.epcb",
+      "sha256": "2a1cffb14d0b4b8e7f7a6841dc08b4b72d591e465cb707a8a4efbf93bb9d6e1e"
+    },
+    "archive": {
+      "path": "hardware/devboard-99/easyeda-native/ESPaperPlay-99-Native-WIP.epro2",
+      "sha256": "cee685540aeb93956d07d2a631c10255449b86a64c73f82a99a69c1ea0d3de19"
+    }
+  },
+  "baseline_git_commit": "475f5f5",
+  "method": "For each actual dark top silk Gerber drawing object, find the nearest actual dark solder-mask opening on that side. Counts are drawing objects, not references, assembly conditions, or a fabrication acceptance threshold. Original mask and revised mask are physically identical according to native-outline-revision.json.",
+  "baseline": {
+    "GTO_objects": 13439,
+    "minimum_mm": 0.0,
+    "object_count_below_mm": {
+      "0.05": 77,
+      "0.1": 534,
+      "0.15": 1518
+    }
+  },
+  "revised": {
+    "GTO_objects": 12963,
+    "minimum_mm": 0.009270000000000776,
+    "object_count_below_mm": {
+      "0.05": 27,
+      "0.1": 282,
+      "0.15": 1047
+    }
+  },
+  "minimum_pair": [
+    0.009270000000000776,
+    12213,
+    255,
+    [
+      [
+        98.32406,
+        -29.38495
+      ],
+      [
+        98.32406,
+        -29.37568
+      ]
+    ]
+  ],
+  "revised_orientation_marks": {
+    "D501": {
+      "actual_GTO_objects": [
+        12021
+      ],
+      "nearest_GTS_object": 121,
+      "minimum_gap_mm": 0.17190000000000083
+    },
+    "U203": {
+      "actual_GTO_objects": [
+        12929,
+        12930
+      ],
+      "nearest_GTS_object": 575,
+      "minimum_gap_mm": 0.16542099932300405
+    }
+  },
+  "minimum_pair_native_outline_candidates": [
+    [
+      "J701",
+      "e26"
+    ]
+  ],
+  "designators": {
+    "count": 236,
+    "nominal_font_height_mm": [
+      1.2
+    ],
+    "actual_GTO_ink_height_range_mm": [
+      0.8383395855720011,
+      0.9043787572521325
+    ],
+    "minimum_ink_to_mask_opening_mm": 0.27943748401381185,
+    "below_0.15_mm_mask_gap_count": 0
+  },
+  "fabricator_reference": {
+    "published_rules": {
+      "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+      "section": "Legend",
+      "pad_to_silkscreen_mm": 0.15,
+      "minimum_character_height_mm": 1.0,
+      "minimum_line_width_mm": 0.15
+    },
+    "character_processing": {
+      "url": "https://jlcpcb.com/blog/character-design-specifications",
+      "section": "Character-to-Solder-Pad Distance",
+      "summary": "The manufacturer describes automatically removing legend close to solder pads during engineering review."
+    },
+    "interpretation": "This measurement uses the actual solder-mask opening perimeter. Mask openings may extend beyond the underlying copper pad. Drawing-object counts below 0.15 mm identify possible clipping exposure; they are not an exact per-pad or per-component manufacturing violation count. Actual printed geometry and readability require factory artwork and prototype review."
+  }
+}
