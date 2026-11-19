@@ -34,12 +34,12 @@
 | BOM、封装与条件闭合 | [hardware/closure-review-r4.md](hardware/closure-review-r4.md) |
 | 屏幕、SD与音频电路细节 | [hardware/peripheral-design-r2.md](hardware/peripheral-design-r2.md) |
 | 旧板六页静态电路审查 | [hardware/review/README.md](hardware/review/README.md) |
-| 独立工程、构建和测试方法 | [v2/README.md](../../v2/README.md) |
+| 独立工程、构建和测试方法 | [固件开发指南](firmware.md) |
 | M0 历史本地检查记录（2026-11-01） | [validation.md](validation.md) |
 
 ## 仓库组织
 
-本仓库独立管理 V2：`v2/` 是固件工程，`hardware/` 保存当前嘉立创原生工程、KiCad 参考工程与审查资料，`docs/v2/` 保存设计文档，`outputs/` 保存已有 BOM 审查工作簿。迁移保留这些相对路径，确保硬件校验与文档引用连续。旧版工程保留在原仓库，参考起点为 [`0f6d7c3`](https://github.com/xiaobaoaaaaaa/ESPaperPlay/tree/0f6d7c349afdbbeb962a736d84036ce7f8487174)。
+本仓库独立管理 V2：仓库根目录是固件工程，`hardware/` 保存当前嘉立创原生工程、KiCad 参考工程与审查资料，`docs/v2/` 保存设计文档，`outputs/` 保存已有 BOM 审查工作簿。旧版工程保留在原仓库，参考起点为 [`0f6d7c3`](https://github.com/xiaobaoaaaaaa/ESPaperPlay/tree/0f6d7c349afdbbeb962a736d84036ce7f8487174)。
 
 当前已完成 M0 的首批代码和本地验证。GUI、驱动迁移、后台工作队列、音频、网络、真实休眠和 OTA 下载将按路线逐步接入；没有进行实机烧录或 PCB 制造。
 

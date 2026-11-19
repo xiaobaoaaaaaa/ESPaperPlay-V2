@@ -18,33 +18,33 @@
 
 | 目录 | 内容 |
 | --- | --- |
-| [v2/](v2/README.md) | 独立 ESP-IDF 固件、主机测试及板级元数据 |
+| [根目录固件工程](docs/v2/firmware.md) | 独立 ESP-IDF 固件、主机测试及板级元数据 |
 | [docs/v2/](docs/v2/README.md) | 架构、路线和软硬件设计记录 |
 | [hardware/devboard-r0/](hardware/devboard-r0/README.md) | 历史 KiCad r10 基线、嘉立创迁移工程、项目库、检查器和评审记录 |
 | [hardware/devboard-99/](hardware/devboard-99/README.md) | 99 mm 开发板：当前嘉立创EDA原生工程及 KiCad r14 对照、原生检查/装配条件 |
 | [hardware/reference/](hardware/reference/) | 原厂来源、版本与 SHA-256；原始下载文件仅本地保存 |
 | [outputs/](outputs/) | 已审查的 BOM 工作簿 |
 
-迁移暂时保留 `v2/`、`docs/v2/` 和 `devboard-r0` 路径，使原有工程、检查器及证据链接继续有效；这些目录名不表示当前硬件仍是 r0。
+设计资料保留 `docs/v2/` 和 `devboard-r0` 路径，使原有工程、检查器及证据链接继续有效；这些目录名不表示当前硬件仍是 r0。
 
 ## 验证
 
 主机测试不需要 ESP-IDF：
 
 ```sh
-cmake -S v2/tests -B v2/build/host -G Ninja \
+cmake -S tests -B build/host -G Ninja \
   -DCMAKE_C_COMPILER=clang -DCMAKE_BUILD_TYPE=Debug
-cmake --build v2/build/host
-ctest --test-dir v2/build/host --output-on-failure
+cmake --build build/host
+ctest --test-dir build/host --output-on-failure
 ```
 
 激活 ESP-IDF 6.1 后构建 N16R8 固件：
 
 ```sh
-idf.py -C v2 -B build/esp32s3 build
+idf.py -B build/esp32s3 build
 ```
 
-固件详细说明见 [v2/README.md](v2/README.md)。当前硬件检查命令见 [原生工程说明](hardware/devboard-99/easyeda-native/README.md)和[完整验证入口](hardware/devboard-99/easyeda-native/verification/README-final-runner.md)；公开文件完整性可运行 `python3 tools/verify_repository.py`。原厂 PDF 不随 Git 分发，重新计算依赖 PDF 的温窗模型前，须按相应 `sources.json` 恢复资料。
+固件详细说明见 [固件开发指南](docs/v2/firmware.md)。当前硬件检查命令见 [原生工程说明](hardware/devboard-99/easyeda-native/README.md)和[完整验证入口](hardware/devboard-99/easyeda-native/verification/README-final-runner.md)；公开文件完整性可运行 `python3 tools/verify_repository.py`。原厂 PDF 不随 Git 分发，重新计算依赖 PDF 的温窗模型前，须按相应 `sources.json` 恢复资料。
 
 ## 版本管理
 

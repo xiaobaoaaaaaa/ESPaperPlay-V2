@@ -27,15 +27,15 @@
 复现命令（仓库根目录）：
 
 ```sh
-cmake -S v2/tests -B v2/build/host -G Ninja \
+cmake -S tests -B build/host -G Ninja \
   -DCMAKE_C_COMPILER=clang -DCMAKE_BUILD_TYPE=Debug
-cmake --build v2/build/host
-ctest --test-dir v2/build/host --output-on-failure
-./v2/build/host/runtime_tests
-python3 v2/tests/test_config.py
+cmake --build build/host
+ctest --test-dir build/host --output-on-failure
+./build/host/runtime_tests
+python3 tests/test_config.py
 
 # 激活 ESP-IDF 6.1 后
-idf.py -C v2 -B build/esp32s3 build
+idf.py -B build/esp32s3 build
 ```
 
 当前应用镜像：`build/esp32s3/ESPaperPlay_v2.bin`，**177,344 bytes（0x2b4c0）**。这是未包含 LVGL、字体和真实业务服务的骨架大小，不能用于推断完整平台的最终容量。

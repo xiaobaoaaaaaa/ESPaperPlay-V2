@@ -15,7 +15,7 @@ ESPaperPlay v2 是可扩展的多应用电子纸平台。阅读、相册、播�
 - 使用 ESP-IDF 6.1、FreeRTOS 和 C 接口；界面沿用 LVGL 9.5 系列，接入时锁定经过构建验证的具体版本。
 - 原生应用编译进同一固件，通过静态描述符注册。应用共享地址空间，不提供进程级故障隔离或不可信第三方代码沙箱。
 
-`v2/` 是独立 ESP-IDF 工程根目录，不链接旧版 `components/`。旧版工程保留在原 ESPaperPlay 仓库中作为迁移参考，起点为提交 [`0f6d7c3`](https://github.com/xiaobaoaaaaaa/ESPaperPlay/tree/0f6d7c349afdbbeb962a736d84036ce7f8487174)。修改或迁移旧代码前，先确认它依赖的线程、缓冲和电源假设。
+ESP-IDF 工程位于仓库根目录，不链接旧版 `components/`。旧版工程保留在原 ESPaperPlay 仓库中作为迁移参考，起点为提交 [`0f6d7c3`](https://github.com/xiaobaoaaaaaa/ESPaperPlay/tree/0f6d7c349afdbbeb962a736d84036ce7f8487174)。修改或迁移旧代码前，先确认它依赖的线程、缓冲和电源假设。
 
 ## 2. 模块与依赖
 
@@ -61,7 +61,7 @@ flowchart TB
 
 应用 ID 表示应用种类，实例代号表示一次有效的前台生命周期。异步任务携带后者，结果交付时确认它仍有效；被丢弃的结果仍须释放自己拥有的缓冲。
 
-实例代号校验只拒绝过期结果，不会自动停止正在执行的任务。真正的任务取消与完成确认由后续工作队列实现。当前运行时接口见 [`epp_runtime.h`](../../v2/components/epp_runtime/include/epp_runtime.h)。
+实例代号校验只拒绝过期结果，不会自动停止正在执行的任务。真正的任务取消与完成确认由后续工作队列实现。当前运行时接口见 [`epp_runtime.h`](../../components/epp_runtime/include/epp_runtime.h)。
 
 播放、录音和下载是服务持有的独立会话，其寿命不绑定播放器或下载页面。页面关闭可以取消页面自己的请求，但不能隐式停止明确交给后台继续的会话。后台会话也必须有可查询的所有者、终止入口和资源预算。
 
